@@ -1,0 +1,12 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# OS/editor
+.DS_Store
+*.swp
+
+# Outputs
+results/
