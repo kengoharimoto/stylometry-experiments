@@ -14,6 +14,8 @@
 #   --candidate-regex='^SDh_'
 #
 # Imposter exclusion flags supported:
+#   --exclude-imposters=name1,name2,name3
+#   --exclude-imposter=name1
 #   --exclude-imposters-regex='pattern'
 #   --exclude-imposter-regex='pattern'
 #
@@ -25,6 +27,10 @@
 # Feature-set flag supported:
 #   --feature-set=/path/to/features.txt
 #   --feature_set=/path/to/features.txt
+#
+# Log-note flags supported:
+#   --note='short note for this run'
+#   --log-note='short note for this run'
 
 library(stylo)
 
@@ -34,7 +40,7 @@ set.seed(123)
 # CONFIGURATION
 # ================================================
 
-CORPUS_DIR <- "corpus/sdhv_gi"
+CORPUS_DIR <- "corpus/gi"
 OUTPUT_DIR <- "results"
 TARGET_NAME <- "SDh_sdhuv_unsandhied"
 CANDIDATE_NAMES <- c("SDh_sdhsviv_unsandhied")
@@ -47,6 +53,7 @@ IMPOSTER_SAMPLE_RATE <- 0.50
 DIAGNOSTIC_MODE <- FALSE
 DIAGNOSTIC_TOP_N <- 10
 FEATURE_SET_FILE <- NULL
+LOG_NOTE <- ""
 
 normalize_name <- function(x) {
     sub("\\.[^.]+$", "", x)
@@ -56,6 +63,7 @@ normalize_name <- function(x) {
 args <- commandArgs(trailingOnly = TRUE)
 cli_candidate_names <- character(0)
 cli_candidate_regexes <- character(0)
+cli_imposter_exclude_names <- character(0)
 cli_imposter_exclude_regexes <- character(0)
 iterations_set_by_cli <- FALSE
 
@@ -84,6 +92,16 @@ for (a in args) {
     if (grepl("^--exclude-imposter-regex=", a)) {
         val <- sub("^--exclude-imposter-regex=", "", a)
         if (nzchar(val)) cli_imposter_exclude_regexes <- c(cli_imposter_exclude_regexes, val)
+    }
+    if (grepl("^--exclude-imposters=", a)) {
+        raw_vals <- sub("^--exclude-imposters=", "", a)
+        vals <- trimws(unlist(strsplit(raw_vals, ",", fixed = TRUE)))
+        vals <- vals[nzchar(vals)]
+        cli_imposter_exclude_names <- c(cli_imposter_exclude_names, vals)
+    }
+    if (grepl("^--exclude-imposter=", a)) {
+        val <- sub("^--exclude-imposter=", "", a)
+        if (nzchar(val)) cli_imposter_exclude_names <- c(cli_imposter_exclude_names, val)
     }
     if (grepl("^--feature-count=", a)) {
         val <- as.integer(sub("^--feature-count=", "", a))
@@ -118,6 +136,12 @@ for (a in args) {
         ITERATIONS <- as.integer(sub("^--iterations=", "", a))
         iterations_set_by_cli <- TRUE
     }
+    if (grepl("^--note=", a)) {
+        LOG_NOTE <- sub("^--note=", "", a)
+    }
+    if (grepl("^--log-note=", a)) {
+        LOG_NOTE <- sub("^--log-note=", "", a)
+    }
 }
 
 if (length(cli_candidate_names) > 0) {
@@ -129,6 +153,8 @@ CANDIDATE_NAMES <- unique(normalize_name(trimws(CANDIDATE_NAMES)))
 CANDIDATE_NAMES <- CANDIDATE_NAMES[nzchar(CANDIDATE_NAMES)]
 cli_candidate_regexes <- unique(trimws(cli_candidate_regexes))
 cli_candidate_regexes <- cli_candidate_regexes[nzchar(cli_candidate_regexes)]
+cli_imposter_exclude_names <- unique(normalize_name(trimws(cli_imposter_exclude_names)))
+cli_imposter_exclude_names <- cli_imposter_exclude_names[nzchar(cli_imposter_exclude_names)]
 cli_imposter_exclude_regexes <- unique(trimws(cli_imposter_exclude_regexes))
 cli_imposter_exclude_regexes <- cli_imposter_exclude_regexes[nzchar(cli_imposter_exclude_regexes)]
 
@@ -199,9 +225,16 @@ match_texts_by_regex <- function(texts, patterns, label) {
 # Start logging
 
 dir.create(OUTPUT_DIR, showWarnings = FALSE, recursive = TRUE)
-log_file <- file.path(OUTPUT_DIR, paste0("gi_results_sdh_custom_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".txt"))
+log_file <- file.path(OUTPUT_DIR, paste0("gi_results_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".txt"))
 sink(log_file, split = TRUE)
 on.exit(sink(), add = TRUE)
+
+if (nzchar(trimws(LOG_NOTE))) {
+    cat("========================================\n")
+    cat("RUN NOTE:\n")
+    cat(trimws(LOG_NOTE), "\n")
+    cat("========================================\n\n")
+}
 
 # ================================================
 # FUNCTIONS
@@ -544,6 +577,9 @@ if (length(cli_candidate_regexes) > 0) {
 if (length(cli_imposter_exclude_regexes) > 0) {
     cat("Imposter exclusion regex:", paste(cli_imposter_exclude_regexes, collapse = " | "), "\n")
 }
+if (length(cli_imposter_exclude_names) > 0) {
+    cat("Imposter exclusion names:", paste(cli_imposter_exclude_names, collapse = ", "), "\n")
+}
 cat("Iterations per test:", ITERATIONS, "\n")
 cat("FEATURE_COUNT_TRIGRAMS:", FEATURE_COUNT_TRIGRAMS, "\n")
 cat("FEATURE_COUNT_UNIGRAMS:", FEATURE_COUNT_UNIGRAMS, "\n")
@@ -552,6 +588,9 @@ cat("IMPOSTER_SAMPLE_RATE:", IMPOSTER_SAMPLE_RATE, sprintf("(%.0f%%)\n", IMPOSTE
 cat("DIAGNOSTIC_MODE:", DIAGNOSTIC_MODE, "\n")
 if (DIAGNOSTIC_MODE) {
     cat("DIAGNOSTIC_TOP_N:", DIAGNOSTIC_TOP_N, "\n")
+}
+if (nzchar(trimws(LOG_NOTE))) {
+    cat("LOG_NOTE:", trimws(LOG_NOTE), "\n")
 }
 if (!is.null(FEATURE_SET_FILE)) {
     cat("FEATURE_SET_FILE:", FEATURE_SET_FILE, "\n")
@@ -609,7 +648,13 @@ if (length(candidate_rows) == 0) {
 }
 
 imposter_rows_base <- all_texts[!(all_texts %in% c(TARGET_NAME, candidate_rows))]
-excluded_imposters <- match_texts_by_regex(imposter_rows_base, cli_imposter_exclude_regexes, "--exclude-imposters-regex")
+missing_excluded_exact <- setdiff(cli_imposter_exclude_names, imposter_rows_base)
+if (length(missing_excluded_exact) > 0) {
+    stop("Imposter exclusion names not found among imposters: ", paste(missing_excluded_exact, collapse = ", "))
+}
+excluded_imposters_exact <- intersect(imposter_rows_base, cli_imposter_exclude_names)
+excluded_imposters_regex <- match_texts_by_regex(imposter_rows_base, cli_imposter_exclude_regexes, "--exclude-imposters-regex")
+excluded_imposters <- unique(c(excluded_imposters_exact, excluded_imposters_regex))
 imposter_rows <- setdiff(imposter_rows_base, excluded_imposters)
 
 cat("\n========================================\n")
@@ -636,6 +681,12 @@ if (length(cli_imposter_exclude_regexes) > 0) {
     cat("Imposter exclusion regex patterns:\n")
     for (p in cli_imposter_exclude_regexes) {
         cat("  -", p, "\n")
+    }
+}
+if (length(cli_imposter_exclude_names) > 0) {
+    cat("Imposter exclusion names:\n")
+    for (nm in cli_imposter_exclude_names) {
+        cat("  -", nm, "\n")
     }
 }
 if (!is.null(FEATURE_SET_FILE)) {
@@ -756,8 +807,8 @@ authenticated_count <- sum(sapply(all_results, function(x) !is.na(x$score) && x$
 not_auth_count <- sum(sapply(all_results, function(x) !is.na(x$score) && x$score <= 0.34))
 uncertain_count <- sum(sapply(all_results, function(x) !is.na(x$score) && x$score > 0.34 && x$score < 0.66))
 total_tests <- length(all_results)
-strong_threshold <- max(1, ceiling(0.80 * total_tests))
-moderate_threshold <- max(1, ceiling(0.65 * total_tests))
+strong_threshold <- max(1, ceiling(0.75 * total_tests))
+tending_threshold <- max(1, ceiling(0.60 * total_tests))
 
 cat("\n")
 cat("Authenticated (same author, >=0.66):", authenticated_count, "/", total_tests, "tests\n")
@@ -767,14 +818,29 @@ cat("Uncertain (0.34-0.66):", uncertain_count, "/", total_tests, "tests\n")
 avg_score <- mean(sapply(all_results, function(x) x$score), na.rm = TRUE)
 cat("Average score:", sprintf("%.3f", avg_score), "\n\n")
 
-if (authenticated_count >= strong_threshold) {
-    cat("VERDICT: Strong evidence for SAME authorship\n")
-} else if (authenticated_count >= moderate_threshold) {
-    cat("VERDICT: Moderate evidence for same authorship\n")
-} else if (not_auth_count >= strong_threshold) {
-    cat("VERDICT: Strong evidence for DIFFERENT authorship\n")
+if (authenticated_count >= strong_threshold && authenticated_count > not_auth_count) {
+    cat("VERDICT: Strong evidence for SAME authorship (",
+        authenticated_count, "/", total_tests, " tests >= 0.66; strong threshold = ",
+        strong_threshold, ")\n", sep = "")
+} else if (authenticated_count >= tending_threshold && authenticated_count > not_auth_count) {
+    cat("VERDICT: Tending toward SAME authorship (",
+        authenticated_count, "/", total_tests, " tests >= 0.66; tending threshold = ",
+        tending_threshold, ")\n", sep = "")
+} else if (not_auth_count >= strong_threshold && not_auth_count > authenticated_count) {
+    cat("VERDICT: Strong evidence for DIFFERENT authorship (",
+        not_auth_count, "/", total_tests, " tests <= 0.34; strong threshold = ",
+        strong_threshold, ")\n", sep = "")
+} else if (not_auth_count >= tending_threshold && not_auth_count > authenticated_count) {
+    cat("VERDICT: Tending toward DIFFERENT authorship (",
+        not_auth_count, "/", total_tests, " tests <= 0.34; tending threshold = ",
+        tending_threshold, ")\n", sep = "")
 } else {
-    cat("VERDICT: Inconclusive\n")
+    cat("VERDICT: Inconclusive (same-author votes: ",
+        authenticated_count, "/", total_tests,
+        ", different-author votes: ", not_auth_count, "/", total_tests,
+        ", uncertain: ", uncertain_count, "/", total_tests,
+        "; thresholds: tending=", tending_threshold,
+        ", strong=", strong_threshold, ")\n", sep = "")
 }
 
 cat("\n========================================\n")
@@ -789,7 +855,7 @@ results_csv <- data.frame(
     Total = sapply(all_results, function(x) x$total),
     stringsAsFactors = FALSE
 )
-output_file <- file.path(OUTPUT_DIR, paste0("gi_results_sdh_custom_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".csv"))
+output_file <- file.path(OUTPUT_DIR, paste0("gi_results_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".csv"))
 write.csv(results_csv, output_file, row.names = FALSE)
 cat("\nResults saved to:", output_file, "\n")
 cat("Log saved to:", log_file, "\n")

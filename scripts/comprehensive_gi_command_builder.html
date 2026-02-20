@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comprehensive GI Command Builder</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --accent: #0f766e;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 24px auto;
+      padding: 0 16px;
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 20px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 14px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .row {
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 4px;
+      color: var(--muted);
+    }
+    input[type="text"], input[type="number"], textarea, select {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px;
+      font-size: 13px;
+      background: #fff;
+      color: var(--text);
+    }
+    select[multiple] {
+      height: 120px;
+    }
+    .inline {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .btn {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--text);
+      padding: 8px 10px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .btn.primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .muted {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .status {
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--muted);
+      white-space: pre-wrap;
+    }
+    #command {
+      height: 220px;
+      font-family: ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 12px;
+      white-space: pre;
+    }
+    @media (max-width: 900px) {
+      .wrap { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>GI Command Builder</h1>
+
+      <div class="row">
+        <label for="scriptPath">Script path</label>
+        <input id="scriptPath" type="text" value="scripts/comprehensive_gi_test.R" />
+      </div>
+
+      <div class="row">
+        <label>Corpus folder (.txt files)</label>
+        <input id="corpusPicker" type="file" webkitdirectory directory multiple />
+        <div id="corpusStatus" class="status">No folder loaded.</div>
+      </div>
+
+      <div class="row">
+        <label for="target">Target</label>
+        <select id="target"></select>
+      </div>
+
+      <div class="row">
+        <label for="candidates">Candidates (multi-select)</label>
+        <select id="candidates" multiple></select>
+      </div>
+
+      <div class="row">
+        <label for="candidateRegex">Candidate regex (optional)</label>
+        <input id="candidateRegex" type="text" value="" />
+      </div>
+
+      <div class="row">
+        <label for="excludeImposters">Exclude imposters by name (multi-select)</label>
+        <select id="excludeImposters" multiple></select>
+      </div>
+
+      <div class="row">
+        <label for="excludeImpostersRegex">Exclude imposters by regex (optional)</label>
+        <input id="excludeImpostersRegex" type="text" value="" />
+      </div>
+
+      <div class="row">
+        <label for="featureSet">Feature-set path</label>
+        <input id="featureSet" type="text" value="materials/feature_sets/sanskrit_indeclinables.txt" />
+      </div>
+
+      <div class="row">
+        <label for="runNote">Run note (optional)</label>
+        <input id="runNote" type="text" value="" />
+      </div>
+
+      <div class="row inline">
+        <div>
+          <label for="featureSampleRate">Feature sample rate</label>
+          <input id="featureSampleRate" type="number" min="0.01" max="1" step="0.01" value="0.5" />
+        </div>
+        <div>
+          <label for="imposterSampleRate">Imposter sample rate</label>
+          <input id="imposterSampleRate" type="number" min="0.01" max="1" step="0.01" value="0.5" />
+        </div>
+      </div>
+
+      <div class="row inline">
+        <div>
+          <label for="featureCountTrigrams">Feature count trigrams</label>
+          <input id="featureCountTrigrams" type="number" min="1" step="1" value="2000" />
+        </div>
+        <div>
+          <label for="featureCountUnigrams">Feature count unigrams</label>
+          <input id="featureCountUnigrams" type="number" min="1" step="1" value="2000" />
+        </div>
+      </div>
+
+      <div class="row inline">
+        <div>
+          <label for="iterations">Iterations</label>
+          <input id="iterations" type="number" min="1" step="1" value="100" />
+        </div>
+        <div>
+          <label for="diagnosticTopN">Diagnostic top N</label>
+          <input id="diagnosticTopN" type="number" min="1" step="1" value="10" />
+        </div>
+      </div>
+
+      <div class="row">
+        <label><input id="diagnosticMode" type="checkbox" /> Diagnostic mode</label>
+      </div>
+
+      <div class="row inline">
+        <button class="btn" id="refreshBtn" type="button">Refresh Command</button>
+        <button class="btn primary" id="copyBtn" type="button">Copy Command</button>
+      </div>
+      <div class="muted">Tip: hold Cmd/Ctrl to multi-select in list boxes.</div>
+    </section>
+
+    <section class="card">
+      <h2>Generated Command</h2>
+      <textarea id="command" readonly></textarea>
+      <div id="copyStatus" class="status"></div>
+    </section>
+  </div>
+
+  <script>
+    const els = {
+      scriptPath: document.getElementById("scriptPath"),
+      corpusPicker: document.getElementById("corpusPicker"),
+      corpusStatus: document.getElementById("corpusStatus"),
+      target: document.getElementById("target"),
+      candidates: document.getElementById("candidates"),
+      candidateRegex: document.getElementById("candidateRegex"),
+      excludeImposters: document.getElementById("excludeImposters"),
+      excludeImpostersRegex: document.getElementById("excludeImpostersRegex"),
+      featureSet: document.getElementById("featureSet"),
+      runNote: document.getElementById("runNote"),
+      featureSampleRate: document.getElementById("featureSampleRate"),
+      imposterSampleRate: document.getElementById("imposterSampleRate"),
+      featureCountTrigrams: document.getElementById("featureCountTrigrams"),
+      featureCountUnigrams: document.getElementById("featureCountUnigrams"),
+      iterations: document.getElementById("iterations"),
+      diagnosticMode: document.getElementById("diagnosticMode"),
+      diagnosticTopN: document.getElementById("diagnosticTopN"),
+      refreshBtn: document.getElementById("refreshBtn"),
+      copyBtn: document.getElementById("copyBtn"),
+      command: document.getElementById("command"),
+      copyStatus: document.getElementById("copyStatus")
+    };
+
+    let corpusNames = [];
+
+    function shellQuote(s) {
+      if (!s || s.length === 0) return "''";
+      return "'" + s.replace(/'/g, "'\\''") + "'";
+    }
+
+    function selectedValues(selectEl) {
+      return Array.from(selectEl.selectedOptions).map(o => o.value).filter(Boolean);
+    }
+
+    function setSelectOptions(selectEl, values, selected = []) {
+      const sel = new Set(selected);
+      selectEl.innerHTML = "";
+      values.forEach(v => {
+        const opt = document.createElement("option");
+        opt.value = v;
+        opt.textContent = v;
+        if (sel.has(v)) opt.selected = true;
+        selectEl.appendChild(opt);
+      });
+    }
+
+    function updateLists() {
+      const target = els.target.value;
+      const candidatesCurrent = selectedValues(els.candidates);
+
+      setSelectOptions(els.target, corpusNames, target ? [target] : []);
+
+      const candidateChoices = corpusNames.filter(x => x !== els.target.value);
+      const nextCandidates = candidatesCurrent.filter(x => candidateChoices.includes(x));
+      setSelectOptions(els.candidates, candidateChoices, nextCandidates);
+
+      const excludeChoices = corpusNames.filter(x => x !== els.target.value && !selectedValues(els.candidates).includes(x));
+      const currentExcluded = selectedValues(els.excludeImposters).filter(x => excludeChoices.includes(x));
+      setSelectOptions(els.excludeImposters, excludeChoices, currentExcluded);
+    }
+
+    function buildCommand() {
+      const flags = [];
+      const target = els.target.value.trim();
+      const candidates = selectedValues(els.candidates).join(",");
+      const excludeImposters = selectedValues(els.excludeImposters).join(",");
+
+      if (target) flags.push(`--target=${shellQuote(target)}`);
+      if (candidates) flags.push(`--candidates=${shellQuote(candidates)}`);
+      if (els.candidateRegex.value.trim()) flags.push(`--candidate-regex=${shellQuote(els.candidateRegex.value.trim())}`);
+      if (excludeImposters) flags.push(`--exclude-imposters=${shellQuote(excludeImposters)}`);
+      if (els.excludeImpostersRegex.value.trim()) flags.push(`--exclude-imposters-regex=${shellQuote(els.excludeImpostersRegex.value.trim())}`);
+      if (els.featureSet.value.trim()) flags.push(`--feature-set=${shellQuote(els.featureSet.value.trim())}`);
+      if (els.runNote.value.trim()) flags.push(`--note=${shellQuote(els.runNote.value.trim())}`);
+
+      flags.push(`--feature-sample-rate=${shellQuote(String(els.featureSampleRate.value))}`);
+      flags.push(`--imposter-sample-rate=${shellQuote(String(els.imposterSampleRate.value))}`);
+      flags.push(`--feature-count-trigrams=${shellQuote(String(parseInt(els.featureCountTrigrams.value || "0", 10)))}`);
+      flags.push(`--feature-count-unigrams=${shellQuote(String(parseInt(els.featureCountUnigrams.value || "0", 10)))}`);
+      flags.push(`--iterations=${shellQuote(String(parseInt(els.iterations.value || "0", 10)))}`);
+
+      if (els.diagnosticMode.checked) {
+        flags.push("--diagnostic-mode");
+        flags.push(`--diagnostic-top-n=${shellQuote(String(parseInt(els.diagnosticTopN.value || "0", 10)))}`);
+      }
+
+      const cmd = `Rscript ${shellQuote(els.scriptPath.value.trim())} ${flags.join(" ")}`.trim();
+      els.command.value = cmd;
+    }
+
+    function loadCorpusFromFolder(fileList) {
+      const names = new Set();
+      for (const f of fileList) {
+        if (!f.name.toLowerCase().endsWith(".txt")) continue;
+        const base = f.name.replace(/\.[^.]+$/, "");
+        if (base) names.add(base);
+      }
+      corpusNames = Array.from(names).sort((a, b) => a.localeCompare(b));
+      els.corpusStatus.textContent = corpusNames.length > 0
+        ? `Loaded ${corpusNames.length} text names from selected folder.`
+        : "No .txt files detected in selected folder.";
+      updateLists();
+      buildCommand();
+    }
+
+    els.corpusPicker.addEventListener("change", (e) => {
+      loadCorpusFromFolder(e.target.files || []);
+    });
+
+    [
+      els.scriptPath,
+      els.target,
+      els.candidates,
+      els.excludeImposters,
+      els.candidateRegex,
+      els.excludeImpostersRegex,
+      els.featureSet,
+      els.runNote,
+      els.featureSampleRate,
+      els.imposterSampleRate,
+      els.featureCountTrigrams,
+      els.featureCountUnigrams,
+      els.iterations,
+      els.diagnosticMode,
+      els.diagnosticTopN
+    ].forEach(el => el.addEventListener("input", buildCommand));
+
+    els.target.addEventListener("change", () => { updateLists(); buildCommand(); });
+    els.candidates.addEventListener("change", () => { updateLists(); buildCommand(); });
+    els.excludeImposters.addEventListener("change", buildCommand);
+    els.refreshBtn.addEventListener("click", buildCommand);
+
+    els.copyBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(els.command.value);
+        els.copyStatus.textContent = "Command copied to clipboard.";
+      } catch (e) {
+        els.copyStatus.textContent = "Could not copy automatically. Select and copy manually.";
+      }
+    });
+
+    buildCommand();
+  </script>
+</body>
+</html>
