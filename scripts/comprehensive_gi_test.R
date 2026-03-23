@@ -54,6 +54,7 @@ DIAGNOSTIC_MODE <- FALSE
 DIAGNOSTIC_TOP_N <- 10
 FEATURE_SET_FILE <- NULL
 LOG_NOTE <- ""
+USE_BUILTIN <- FALSE
 
 normalize_name <- function(x) {
     sub("\\.[^.]+$", "", x)
@@ -141,6 +142,9 @@ for (a in args) {
     }
     if (grepl("^--log-note=", a)) {
         LOG_NOTE <- sub("^--log-note=", "", a)
+    }
+    if (a == "--use-builtin") {
+        USE_BUILTIN <- TRUE
     }
 }
 
@@ -545,7 +549,8 @@ get_distance_functions <- function(example_table) {
             distance_configs[[length(distance_configs) + 1]] <- list(
                 id = dist_name,
                 label = tools::toTitleCase(gsub("\\.", " ", sub("^dist\\.", "", dist_name))),
-                fn = dist_func
+                fn = dist_func,
+                distance_name = sub("^dist\\.", "", dist_name)
             )
         } else {
             cat("Skipping distance function", dist_name, "-", err_msg, "\n")
@@ -557,6 +562,72 @@ get_distance_functions <- function(example_table) {
     }
 
     return(distance_configs)
+}
+
+run_gi_test_builtin <- function(freq_table, target_name, candidate_rows, imposter_rows,
+                                distance_name, setup_name) {
+    cat("\n================================================\n")
+    cat("TESTING (builtin imposters):", setup_name, "\n")
+    cat("Target:", target_name, "\n")
+    cat("Candidate(s):", paste(candidate_rows, collapse = ", "), "\n")
+    cat("Distance:", distance_name, "\n")
+    cat("Iterations:", ITERATIONS, "\n")
+    cat("Feature sample rate:", FEATURE_SAMPLE_RATE, "\n")
+    cat("Imposter sample rate:", IMPOSTER_SAMPLE_RATE, "\n")
+    cat("================================================\n")
+
+    if (length(candidate_rows) == 0) {
+        warning("No candidate files found.")
+        return(NULL)
+    }
+    if (length(imposter_rows) == 0) {
+        warning("No imposter files found.")
+        return(NULL)
+    }
+    if (!(target_name %in% rownames(freq_table))) {
+        warning("Target text not found in corpus!")
+        return(NULL)
+    }
+
+    test_vec <- freq_table[target_name, ]
+    candidate_set <- freq_table[candidate_rows, , drop = FALSE]
+    reference_set <- freq_table[imposter_rows, , drop = FALSE]
+
+    score <- tryCatch({
+        imposters(
+            reference.set = reference_set,
+            test = test_vec,
+            candidate.set = candidate_set,
+            iterations = ITERATIONS,
+            features = FEATURE_SAMPLE_RATE,
+            imposters = IMPOSTER_SAMPLE_RATE,
+            distance = distance_name
+        )
+    }, error = function(e) {
+        cat("ERROR in imposters():", conditionMessage(e), "\n")
+        NA
+    })
+
+    cat("\n--- RESULTS (builtin) ---\n")
+    cat("Score:", sprintf("%.3f", as.numeric(score)), "\n")
+    cat("  >= 0.50 = Same authorship\n")
+    cat("  <  0.50 = Different authorship\n")
+
+    return(list(
+        target = target_name,
+        setup = setup_name,
+        score = as.numeric(score),
+        successful = ITERATIONS,
+        skipped = 0,
+        total = ITERATIONS,
+        iteration_log = data.frame(
+            iteration = integer(), winner = character(),
+            candidate_dist = numeric(), imposter_dist = numeric(),
+            closest_candidate = character(), closest_imposter = character(),
+            stringsAsFactors = FALSE
+        ),
+        diagnostic = NULL
+    ))
 }
 
 # ================================================
@@ -586,6 +657,7 @@ cat("FEATURE_COUNT_UNIGRAMS:", FEATURE_COUNT_UNIGRAMS, "\n")
 cat("FEATURE_SAMPLE_RATE:", FEATURE_SAMPLE_RATE, sprintf("(%.0f%%)\n", FEATURE_SAMPLE_RATE * 100))
 cat("IMPOSTER_SAMPLE_RATE:", IMPOSTER_SAMPLE_RATE, sprintf("(%.0f%%)\n", IMPOSTER_SAMPLE_RATE * 100))
 cat("DIAGNOSTIC_MODE:", DIAGNOSTIC_MODE, "\n")
+cat("USE_BUILTIN:", USE_BUILTIN, "\n")
 if (DIAGNOSTIC_MODE) {
     cat("DIAGNOSTIC_TOP_N:", DIAGNOSTIC_TOP_N, "\n")
 }
@@ -732,14 +804,16 @@ for (dist_cfg in distance_configs) {
             name = paste("Trigrams +", dist_cfg$label),
             ngram = "trigrams",
             dist_id = dist_cfg$id,
-            dist_func = dist_cfg$fn
+            dist_func = dist_cfg$fn,
+            distance_name = dist_cfg$distance_name
         )
     }
     test_configs[[length(test_configs) + 1]] <- list(
         name = paste("Unigrams +", dist_cfg$label),
         ngram = "unigrams",
         dist_id = dist_cfg$id,
-        dist_func = dist_cfg$fn
+        dist_func = dist_cfg$fn,
+        distance_name = dist_cfg$distance_name
     )
 }
 
@@ -748,20 +822,35 @@ cat("Distance functions used (", length(distance_configs), "): ",
     "\n", sep = "")
 cat("Total test setups:", length(test_configs), "\n\n")
 
+if (USE_BUILTIN && DIAGNOSTIC_MODE) {
+    cat("WARNING: --diagnostic-mode is not supported with --use-builtin. Diagnostic output will be skipped.\n\n")
+}
+
 all_results <- list()
 for (config in test_configs) {
     freq_table <- if (config$ngram == "trigrams") freq_table_trigrams else freq_table_unigrams
 
-    result <- run_gi_test(
-        freq_table = freq_table,
-        target_name = TARGET_NAME,
-        candidate_rows = candidate_rows,
-        imposter_rows = imposter_rows,
-        distance_func = config$dist_func,
-        setup_name = config$name,
-        diagnostic_mode = DIAGNOSTIC_MODE,
-        diagnostic_top_n = DIAGNOSTIC_TOP_N
-    )
+    if (USE_BUILTIN) {
+        result <- run_gi_test_builtin(
+            freq_table = freq_table,
+            target_name = TARGET_NAME,
+            candidate_rows = candidate_rows,
+            imposter_rows = imposter_rows,
+            distance_name = config$distance_name,
+            setup_name = config$name
+        )
+    } else {
+        result <- run_gi_test(
+            freq_table = freq_table,
+            target_name = TARGET_NAME,
+            candidate_rows = candidate_rows,
+            imposter_rows = imposter_rows,
+            distance_func = config$dist_func,
+            setup_name = config$name,
+            diagnostic_mode = DIAGNOSTIC_MODE,
+            diagnostic_top_n = DIAGNOSTIC_TOP_N
+        )
+    }
 
     if (!is.null(result)) {
         all_results[[length(all_results) + 1]] <- result

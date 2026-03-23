@@ -47,7 +47,8 @@ app_ui <- fluidPage(
       numericInput("feature_count_unigrams", "Feature count unigrams", 2000, min = 1, step = 1),
       numericInput("iterations", "Iterations", 100, min = 1, step = 1),
       checkboxInput("diagnostic_mode", "Diagnostic mode", FALSE),
-      numericInput("diagnostic_top_n", "Diagnostic top N", 10, min = 1, step = 1)
+      numericInput("diagnostic_top_n", "Diagnostic top N", 10, min = 1, step = 1),
+      checkboxInput("use_builtin", "Use builtin imposters()", FALSE)
     ),
     mainPanel(
       h4("Generated command"),
@@ -110,7 +111,8 @@ app_server <- function(input, output, session) {
       build_flag("feature-count-unigrams", as.character(as.integer(input$feature_count_unigrams))),
       build_flag("iterations", as.character(as.integer(input$iterations))),
       if (isTRUE(input$diagnostic_mode)) "--diagnostic-mode" else NULL,
-      if (isTRUE(input$diagnostic_mode)) build_flag("diagnostic-top-n", as.character(as.integer(input$diagnostic_top_n))) else NULL
+      if (isTRUE(input$diagnostic_mode)) build_flag("diagnostic-top-n", as.character(as.integer(input$diagnostic_top_n))) else NULL,
+      if (isTRUE(input$use_builtin)) "--use-builtin" else NULL
     )
 
     flags <- Filter(Negate(is.null), flags)

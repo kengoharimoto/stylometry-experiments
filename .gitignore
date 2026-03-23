@@ -3,10 +3,34 @@
 .RData
 .Rproj.user/
 .Ruserdata
+.Renviron
 
 # OS/editor
 .DS_Store
 *.swp
+.claude/
 
-# Outputs
+# Local corpus placeholders only
+corpus/**
+!corpus/
+!corpus/README.md
+!corpus/main/
+!corpus/main/.gitkeep
+!corpus/gi/
+!corpus/gi/.gitkeep
+!corpus/noroots/
+!corpus/noroots/.gitkeep
+
+# Derived outputs
 results/
+csvs/
+archive/
+notebooklm_edges/
+gi_results_log_*.txt
+*.Rapp.history
+
+# Keep only curated feature lists under materials
+materials/*
+!materials/feature_sets/
+!materials/feature_sets/sanskrit_indeclinables.txt
+!materials/feature_sets/sanskrit_indeclinables_clean.txt

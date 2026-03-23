@@ -20,21 +20,21 @@
       font-family: "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
     .wrap {
-      max-width: 1200px;
+      max-width: 1100px;
       margin: 24px auto;
       padding: 0 16px;
-      display: grid;
-      grid-template-columns: 360px 1fr;
+      display: flex;
+      flex-direction: column;
       gap: 16px;
     }
     .card {
       background: var(--panel);
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 14px;
+      padding: 16px 20px;
     }
     h1 {
-      margin: 0 0 12px;
+      margin: 0 0 14px;
       font-size: 20px;
     }
     h2 {
@@ -66,17 +66,12 @@
     select[multiple] {
       height: 120px;
     }
-    .inline {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-    }
     .btn {
       border: 1px solid var(--border);
       border-radius: 8px;
       background: #fff;
       color: var(--text);
-      padding: 8px 10px;
+      padding: 8px 14px;
       font-size: 13px;
       cursor: pointer;
     }
@@ -95,31 +90,84 @@
       color: var(--muted);
       white-space: pre-wrap;
     }
+
+    /* --- Top section: controls --- */
+    .top-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .full-width {
+      grid-column: 1 / -1;
+    }
+    .cols-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+    }
+    .cols-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .checkbox-row {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .checkbox-row label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 0;
+    }
+
+    /* --- Bottom section: command output --- */
+    .command-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .command-header h2 {
+      margin: 0;
+    }
+    .command-actions {
+      display: flex;
+      gap: 8px;
+    }
     #command {
-      height: 220px;
+      height: 120px;
       font-family: ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
       font-size: 12px;
       white-space: pre;
+      resize: vertical;
     }
-    @media (max-width: 900px) {
-      .wrap { grid-template-columns: 1fr; }
+
+    @media (max-width: 700px) {
+      .top-row, .cols-3, .cols-2 { grid-template-columns: 1fr; }
+      .full-width { grid-column: auto; }
     }
   </style>
 </head>
 <body>
   <div class="wrap">
+
+    <!-- Controls -->
     <section class="card">
       <h1>GI Command Builder</h1>
 
-      <div class="row">
-        <label for="scriptPath">Script path</label>
-        <input id="scriptPath" type="text" value="scripts/comprehensive_gi_test.R" />
-      </div>
-
-      <div class="row">
-        <label>Corpus folder (.txt files)</label>
-        <input id="corpusPicker" type="file" webkitdirectory directory multiple />
-        <div id="corpusStatus" class="status">No folder loaded.</div>
+      <div class="cols-2 row">
+        <div>
+          <label for="scriptPath">Script path</label>
+          <input id="scriptPath" type="text" value="scripts/comprehensive_gi_test.R" />
+        </div>
+        <div>
+          <label>Corpus folder (.txt files)</label>
+          <input id="corpusPicker" type="file" webkitdirectory directory multiple />
+          <div id="corpusStatus" class="status">No folder loaded.</div>
+        </div>
       </div>
 
       <div class="row">
@@ -127,37 +175,29 @@
         <select id="target"></select>
       </div>
 
-      <div class="row">
-        <label for="candidates">Candidates (multi-select)</label>
-        <select id="candidates" multiple></select>
+      <div class="cols-2 row">
+        <div>
+          <label for="candidates">Candidates (multi-select)</label>
+          <select id="candidates" multiple></select>
+        </div>
+        <div>
+          <label for="excludeImposters">Exclude imposters by name (multi-select)</label>
+          <select id="excludeImposters" multiple></select>
+        </div>
       </div>
 
-      <div class="row">
-        <label for="candidateRegex">Candidate regex (optional)</label>
-        <input id="candidateRegex" type="text" value="" />
+      <div class="cols-2 row">
+        <div>
+          <label for="candidateRegex">Candidate regex (optional)</label>
+          <input id="candidateRegex" type="text" value="" />
+        </div>
+        <div>
+          <label for="excludeImpostersRegex">Exclude imposters by regex (optional)</label>
+          <input id="excludeImpostersRegex" type="text" value="" />
+        </div>
       </div>
 
-      <div class="row">
-        <label for="excludeImposters">Exclude imposters by name (multi-select)</label>
-        <select id="excludeImposters" multiple></select>
-      </div>
-
-      <div class="row">
-        <label for="excludeImpostersRegex">Exclude imposters by regex (optional)</label>
-        <input id="excludeImpostersRegex" type="text" value="" />
-      </div>
-
-      <div class="row">
-        <label for="featureSet">Feature-set path</label>
-        <input id="featureSet" type="text" value="materials/feature_sets/sanskrit_indeclinables.txt" />
-      </div>
-
-      <div class="row">
-        <label for="runNote">Run note (optional)</label>
-        <input id="runNote" type="text" value="" />
-      </div>
-
-      <div class="row inline">
+      <div class="cols-3 row">
         <div>
           <label for="featureSampleRate">Feature sample rate</label>
           <input id="featureSampleRate" type="number" min="0.01" max="1" step="0.01" value="0.5" />
@@ -166,9 +206,13 @@
           <label for="imposterSampleRate">Imposter sample rate</label>
           <input id="imposterSampleRate" type="number" min="0.01" max="1" step="0.01" value="0.5" />
         </div>
+        <div>
+          <label for="iterations">Iterations</label>
+          <input id="iterations" type="number" min="1" step="1" value="100" />
+        </div>
       </div>
 
-      <div class="row inline">
+      <div class="cols-3 row">
         <div>
           <label for="featureCountTrigrams">Feature count trigrams</label>
           <input id="featureCountTrigrams" type="number" min="1" step="1" value="2000" />
@@ -177,32 +221,41 @@
           <label for="featureCountUnigrams">Feature count unigrams</label>
           <input id="featureCountUnigrams" type="number" min="1" step="1" value="2000" />
         </div>
-      </div>
-
-      <div class="row inline">
-        <div>
-          <label for="iterations">Iterations</label>
-          <input id="iterations" type="number" min="1" step="1" value="100" />
-        </div>
         <div>
           <label for="diagnosticTopN">Diagnostic top N</label>
           <input id="diagnosticTopN" type="number" min="1" step="1" value="10" />
         </div>
       </div>
 
-      <div class="row">
-        <label><input id="diagnosticMode" type="checkbox" /> Diagnostic mode</label>
+      <div class="cols-2 row">
+        <div>
+          <label>Feature-set file (optional)</label>
+          <input id="featureSetPicker" type="file" accept=".txt" />
+          <div id="featureSetStatus" class="status">No file selected.</div>
+        </div>
+        <div>
+          <label for="runNote">Run note (optional)</label>
+          <input id="runNote" type="text" value="" />
+        </div>
       </div>
 
-      <div class="row inline">
-        <button class="btn" id="refreshBtn" type="button">Refresh Command</button>
-        <button class="btn primary" id="copyBtn" type="button">Copy Command</button>
+      <div class="checkbox-row">
+        <label><input id="diagnosticMode" type="checkbox" /> Diagnostic mode</label>
+        <label><input id="useBuiltin" type="checkbox" /> Use builtin imposters()</label>
       </div>
+
       <div class="muted">Tip: hold Cmd/Ctrl to multi-select in list boxes.</div>
     </section>
 
+    <!-- Generated Command -->
     <section class="card">
-      <h2>Generated Command</h2>
+      <div class="command-header">
+        <h2>Generated Command</h2>
+        <div class="command-actions">
+          <button class="btn" id="refreshBtn" type="button">Refresh</button>
+          <button class="btn primary" id="copyBtn" type="button">Copy Command</button>
+        </div>
+      </div>
       <textarea id="command" readonly></textarea>
       <div id="copyStatus" class="status"></div>
     </section>
@@ -218,7 +271,8 @@
       candidateRegex: document.getElementById("candidateRegex"),
       excludeImposters: document.getElementById("excludeImposters"),
       excludeImpostersRegex: document.getElementById("excludeImpostersRegex"),
-      featureSet: document.getElementById("featureSet"),
+      featureSetPicker: document.getElementById("featureSetPicker"),
+      featureSetStatus: document.getElementById("featureSetStatus"),
       runNote: document.getElementById("runNote"),
       featureSampleRate: document.getElementById("featureSampleRate"),
       imposterSampleRate: document.getElementById("imposterSampleRate"),
@@ -227,6 +281,7 @@
       iterations: document.getElementById("iterations"),
       diagnosticMode: document.getElementById("diagnosticMode"),
       diagnosticTopN: document.getElementById("diagnosticTopN"),
+      useBuiltin: document.getElementById("useBuiltin"),
       refreshBtn: document.getElementById("refreshBtn"),
       copyBtn: document.getElementById("copyBtn"),
       command: document.getElementById("command"),
@@ -234,6 +289,7 @@
     };
 
     let corpusNames = [];
+    let featureSetFileName = "";
 
     function shellQuote(s) {
       if (!s || s.length === 0) return "''";
@@ -282,7 +338,7 @@
       if (els.candidateRegex.value.trim()) flags.push(`--candidate-regex=${shellQuote(els.candidateRegex.value.trim())}`);
       if (excludeImposters) flags.push(`--exclude-imposters=${shellQuote(excludeImposters)}`);
       if (els.excludeImpostersRegex.value.trim()) flags.push(`--exclude-imposters-regex=${shellQuote(els.excludeImpostersRegex.value.trim())}`);
-      if (els.featureSet.value.trim()) flags.push(`--feature-set=${shellQuote(els.featureSet.value.trim())}`);
+      if (featureSetFileName) flags.push(`--feature-set=${shellQuote("materials/feature_sets/" + featureSetFileName)}`);
       if (els.runNote.value.trim()) flags.push(`--note=${shellQuote(els.runNote.value.trim())}`);
 
       flags.push(`--feature-sample-rate=${shellQuote(String(els.featureSampleRate.value))}`);
@@ -294,6 +350,10 @@
       if (els.diagnosticMode.checked) {
         flags.push("--diagnostic-mode");
         flags.push(`--diagnostic-top-n=${shellQuote(String(parseInt(els.diagnosticTopN.value || "0", 10)))}`);
+      }
+
+      if (els.useBuiltin.checked) {
+        flags.push("--use-builtin");
       }
 
       const cmd = `Rscript ${shellQuote(els.scriptPath.value.trim())} ${flags.join(" ")}`.trim();
@@ -319,6 +379,18 @@
       loadCorpusFromFolder(e.target.files || []);
     });
 
+    els.featureSetPicker.addEventListener("change", (e) => {
+      const file = e.target.files && e.target.files[0];
+      if (file) {
+        featureSetFileName = file.name;
+        els.featureSetStatus.textContent = `Selected: ${file.name}`;
+      } else {
+        featureSetFileName = "";
+        els.featureSetStatus.textContent = "No file selected.";
+      }
+      buildCommand();
+    });
+
     [
       els.scriptPath,
       els.target,
@@ -326,7 +398,6 @@
       els.excludeImposters,
       els.candidateRegex,
       els.excludeImpostersRegex,
-      els.featureSet,
       els.runNote,
       els.featureSampleRate,
       els.imposterSampleRate,
@@ -334,7 +405,8 @@
       els.featureCountUnigrams,
       els.iterations,
       els.diagnosticMode,
-      els.diagnosticTopN
+      els.diagnosticTopN,
+      els.useBuiltin
     ].forEach(el => el.addEventListener("input", buildCommand));
 
     els.target.addEventListener("change", () => { updateLists(); buildCommand(); });

@@ -1,40 +1,85 @@
-# On the authenticity of prose writings attributed to Śaṅkara 
+# Stylometric Experiments on Texts Attributed to Sankara
 
-Ivan Andrijanić, Department of Indology and Far Eastern studies of the University of Zagreb, Croatia.<br />
-Jacek Bąkowski, Institute of Polish Language, Polish Academy of Sciences, Kraków, Poland.<br />
+This repository contains the analysis scripts and minimal supporting files used for stylometric experiments related to prose writings attributed to Sankara.
 
-This directory contains code and data for the following paper:
-On the authenticity of prose writings attributed to Śaṅkara.
+The corpus itself is not distributed in this repository. The texts used for the underlying study came from:
 
-The full paper is available here: https://doi.org/10.60018/AcAsVa.npqm2712 
-<br />
-<br />
+https://github.com/JacekBakowski/stylometry/tree/main
 
-## Funding
-This research was funded in part – covering entire J. B. contribution – by the Poland's National Science Centre, grant number 2021/43/O/HS2/02392.<br />
-<br />
-
-## Corpus of texts
-The folder data/corpus contains all texts used with the General Imposters Framework.
-<br />
-<br />
-
-## Unsandhi operation
-In data/corpus-unsandhied you will find the original texts before unsandhi operation.<br />
-The unsandhi operation was realised with the Sanskrit Sandhi and Compound Splitter developed by Oliver Hellwig & Sebastian Nehrdichi which is available here: https://github.com/OliverHellwig/sanskrit/tree/master/papers/2018emnlp <br />
-
-This operation was performed with Python v3.5.2, TensorFlow v1.8.0.
-<br />
-<br />
-
-## Stylometry
-Stylometry analysis was performed with the package stylo developed in R by Maciej Eder, Mike Kestemont, Jan Rybicki and Steffen Pielström described in the following paper:
-
-Eder, M., Rybicki, J. and Kestemont, M. (2016). Stylometry with R: a package for computational text analysis. R Journal, 8(1): 107-21. https://journal.r-project.org/archive/2016/RJ-2016-007/index.html
-
-Source code is available here: https://github.com/computationalstylistics/stylo 
-<br />
-<br />
+This repo is intentionally kept lightweight so others can reproduce the experiments with their own prepared local corpus files.
 
 ## License
-This work is published under the CC-BY 4.0 license.
+
+This repository is distributed under the CC BY 4.0 license. See `LICENSE`.
+
+## What Is Included
+
+- `scripts/`: R scripts for clustering and General Imposters experiments
+- `scripts/legacy/`: older or one-off helper scripts retained for reference
+- `materials/feature_sets/`: curated feature lists used by some GI runs
+- `corpus/`: empty placeholder directories expected by the scripts
+- `Makefile`: convenience commands for the main supported workflows
+
+## What Is Not Included
+
+- the study corpus
+- generated results, PDFs, CSV exports, and notebook-oriented edge files
+- ad hoc working files, scratch scripts, logs, and local editor metadata
+
+## Expected Corpus Layout
+
+Several scripts assume one of the following local directories exists:
+
+- `corpus/main`
+- `corpus/gi`
+- `corpus/noroots`
+
+The repository keeps these directories empty. Populate them locally with the text files you want to analyze.
+
+## Dependencies
+
+The scripts are written in R and currently rely on:
+
+- `stylo`
+- `shiny`
+
+Install them with:
+
+```r
+install.packages(c("stylo", "shiny"))
+```
+
+Or run:
+
+```bash
+make install
+```
+
+## Reproducing Runs
+
+1. Obtain or prepare the corpus files locally from the source corpus repository above.
+2. Place the prepared texts into `corpus/main`, `corpus/gi`, or `corpus/noroots`, depending on the script you want to run.
+3. Install the required R packages.
+4. Run the scripts from the repository root.
+
+Examples:
+
+```bash
+make help
+make install
+make gi-disputed
+make gi-custom
+Rscript scripts/test_all_disputed.R
+Rscript scripts/test_all_disputed_w3g.R
+Rscript scripts/comprehensive_gi_test.R --target=SomeTarget --candidates=CandidateA,CandidateB
+Rscript scripts/clusters.R
+```
+
+## Notes
+
+- Most scripts use relative paths and are meant to be run from the repository root.
+- Output directories such as `results/` are generated locally and are ignored by Git.
+- Corpus preparation and text normalization decisions materially affect the results. This repository does not attempt to recreate the full upstream corpus-preparation workflow.
+- The main maintained entry points are exposed through `Makefile`. The underlying scripts are `scripts/clusters.R`, `scripts/clusters_tf_idf.R`, `scripts/cluster_w_indeclinables.R`, `scripts/indeclinables_mfw_variations.R`, `scripts/test_all_disputed.R`, `scripts/test_all_disputed_w3g.R`, and `scripts/comprehensive_gi_test.R`.
+- The interactive command builder is `scripts/comprehensive_gi_command_builder_app.R`.
+- Contribution guidance is in `CONTRIBUTING.md`.
