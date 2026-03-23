@@ -1,6 +1,6 @@
-# Stylometric Experiments on Texts Attributed to Sankara
+# Stylometric Experiments for Disputed Authorship Analysis
 
-This repository contains the analysis scripts and minimal supporting files used for stylometric experiments related to prose writings attributed to Sankara.
+This repository contains analysis scripts and minimal supporting files for stylometric and General Imposters experiments on disputed authorship questions.
 
 The corpus itself is not distributed in this repository. The texts used for the underlying study came from:
 
@@ -10,7 +10,7 @@ This repo is intentionally kept lightweight so others can reproduce the experime
 
 ## License
 
-This repository is distributed under the CC BY 4.0 license. See `LICENSE`.
+This repository is distributed under the MIT License. See `LICENSE`.
 
 ## What Is Included
 

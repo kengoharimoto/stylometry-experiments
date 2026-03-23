@@ -1,7 +1,12 @@
 library(stylo)
 
 # Specify which files you want to analyze
-files_to_analyze <- c("Sankara_BSBh_rev_whole.txt", "Disputed_000_vivarana_unsandhied_oneline.txt", "Yuktidipika_segmented_complete.txt", "Udayana_Nyayavarttikatatparyaparisuddhi_segmented_1.1_1.2")
+files_to_analyze <- c(
+  "PrimaryCandidateText.txt",
+  "DisputedText.txt",
+  "ComparisonText1.txt",
+  "ComparisonText2.txt"
+)
 
 # Load and parse the corpus
 corpus <- load.corpus.and.parse(

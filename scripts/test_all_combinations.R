@@ -9,7 +9,9 @@ set.seed(123)
 
 # Configuration
 CORPUS_DIR <- "corpus/main"
-TARGET_NAME <- "015_Sankara_NrsTBh_segmented_complete"
+# Adjust these placeholders to match your corpus naming.
+CANDIDATE_PATTERN <- "^Candidate_"
+TARGET_NAME <- "Target_Text_Name"
 ITERATIONS <- 100
 FEATURE_COUNT <- 20000
 FEATURE_SAMPLE_RATE <- 0.10
@@ -34,22 +36,22 @@ run_gi_test <- function(ngram_type, ngram_size, distance_func, setup_name) {
     freq_table <- make.table.of.frequencies(corpus = raw_data, features = top_features)
     
     # Define test sets
-    sankara_rows <- grep("^Sankara_", rownames(freq_table), value = TRUE)
-    imposter_rows <- rownames(freq_table)[!grepl("^Sankara_", rownames(freq_table)) & 
+    candidate_rows <- grep(CANDIDATE_PATTERN, rownames(freq_table), value = TRUE)
+    imposter_rows <- rownames(freq_table)[!grepl(CANDIDATE_PATTERN, rownames(freq_table)) & 
                                            rownames(freq_table) != TARGET_NAME]
     
     cat("Corpus statistics:\n")
     cat("  Total texts:", nrow(freq_table), "\n")
     cat("  Target text:", TARGET_NAME, "\n")
-    cat("  Sankara candidates:", length(sankara_rows), "\n")
+    cat("  Primary candidates:", length(candidate_rows), "\n")
     cat("  Imposter texts:", length(imposter_rows), "\n")
     cat("  Total features:", ncol(freq_table), "\n\n")
     
     # Safety checks
-    if(length(sankara_rows) == 0) stop("No Sankara files found.")
+    if(length(candidate_rows) == 0) stop("No primary candidate files found.")
     if(length(imposter_rows) == 0) stop("No Imposter files found.")
     if(!(TARGET_NAME %in% rownames(freq_table))) stop("Target text not found in corpus!")
-    if(TARGET_NAME %in% sankara_rows) stop("Target text is in Sankara candidate set!")
+    if(TARGET_NAME %in% candidate_rows) stop("Target text is in the primary candidate set!")
     
     # Run GI iterations
     gi_score <- 0
@@ -59,9 +61,9 @@ run_gi_test <- function(ngram_type, ngram_size, distance_func, setup_name) {
     iteration_log <- data.frame(
         iteration = integer(),
         winner = character(),
-        sankara_dist = numeric(),
+        candidate_dist = numeric(),
         imposter_dist = numeric(),
-        closest_sankara = character(),
+        closest_candidate = character(),
         closest_imposter = character(),
         stringsAsFactors = FALSE
     )
@@ -81,7 +83,7 @@ run_gi_test <- function(ngram_type, ngram_size, distance_func, setup_name) {
                                     size = floor(length(imposter_rows) * IMPOSTER_SAMPLE_RATE))
         
         # Build comparison matrix
-        comparison_names <- c(TARGET_NAME, sankara_rows, current_imposters)
+        comparison_names <- c(TARGET_NAME, candidate_rows, current_imposters)
         current_matrix <- freq_table[comparison_names, current_features]
         
         # Calculate distances with error handling
@@ -101,13 +103,13 @@ run_gi_test <- function(ngram_type, ngram_size, distance_func, setup_name) {
             dists_from_test <- dist_matrix[TARGET_NAME, ]
             
             # Find minimum distances and which texts they came from
-            sankara_dists <- dists_from_test[sankara_rows]
+            candidate_dists <- dists_from_test[candidate_rows]
             imposter_dists <- dists_from_test[current_imposters]
             
-            min_sankara_dist <- min(sankara_dists, na.rm = TRUE)
+            min_candidate_dist <- min(candidate_dists, na.rm = TRUE)
             min_imposter_dist <- min(imposter_dists, na.rm = TRUE)
             
-            closest_sankara <- names(which.min(sankara_dists))
+            closest_candidate <- names(which.min(candidate_dists))
             closest_imposter <- names(which.min(imposter_dists))
             
             # Print diagnostics for first iteration
@@ -120,32 +122,32 @@ run_gi_test <- function(ngram_type, ngram_size, distance_func, setup_name) {
             }
             
             # Determine winner and score
-            if(!is.na(min_sankara_dist) && !is.na(min_imposter_dist)) {
-                winner <- if(min_sankara_dist < min_imposter_dist) "SANKARA" else "IMPOSTER"
+            if(!is.na(min_candidate_dist) && !is.na(min_imposter_dist)) {
+                winner <- if(min_candidate_dist < min_imposter_dist) "CANDIDATE" else "IMPOSTER"
                 
                 # Log the iteration
                 iteration_log <- rbind(iteration_log, data.frame(
                     iteration = i,
                     winner = winner,
-                    sankara_dist = min_sankara_dist,
+                    candidate_dist = min_candidate_dist,
                     imposter_dist = min_imposter_dist,
-                    closest_sankara = closest_sankara,
+                    closest_candidate = closest_candidate,
                     closest_imposter = closest_imposter,
                     stringsAsFactors = FALSE
                 ))
                 
                 # Print details for first 10 and last 10 iterations
                 if(i <= 10 || i > ITERATIONS - 10) {
-                    cat(sprintf("  Iter %3d: %s wins | Sankara: %.4f (%s) | Imposter: %.4f (%s)\n",
+                    cat(sprintf("  Iter %3d: %s wins | Candidate: %.4f (%s) | Imposter: %.4f (%s)\n",
                                i, 
                                winner,
-                               min_sankara_dist,
-                               substr(closest_sankara, 1, 30),
+                               min_candidate_dist,
+                               substr(closest_candidate, 1, 30),
                                min_imposter_dist,
                                substr(closest_imposter, 1, 30)))
                 }
                 
-                if(winner == "SANKARA") {
+                if(winner == "CANDIDATE") {
                     gi_score <- gi_score + 1
                 }
             } else {
@@ -181,31 +183,31 @@ run_gi_test <- function(ngram_type, ngram_size, distance_func, setup_name) {
     cat("GI Score:", gi_score, "\n")
     cat("Final Probability:", final_probability, "\n")
     cat("Interpretation:\n")
-    cat("  >= 0.66 = Authentic (likely by Sankara)\n")
+    cat("  >= 0.66 = Strong support for the primary candidate group\n")
     cat("  <= 0.34 = Not authentic\n")
     cat("  0.34-0.66 = Uncertain (grey zone)\n")
     
     # Analyze iteration log
     if(nrow(iteration_log) > 0) {
         cat("\n--- ITERATION ANALYSIS ---\n")
-        sankara_wins <- sum(iteration_log$winner == "SANKARA")
+        candidate_wins <- sum(iteration_log$winner == "CANDIDATE")
         imposter_wins <- sum(iteration_log$winner == "IMPOSTER")
-        cat("Sankara wins:", sankara_wins, "/", nrow(iteration_log), 
-            sprintf("(%.1f%%)\n", 100 * sankara_wins / nrow(iteration_log)))
+        cat("Candidate wins:", candidate_wins, "/", nrow(iteration_log), 
+            sprintf("(%.1f%%)\n", 100 * candidate_wins / nrow(iteration_log)))
         cat("Imposter wins:", imposter_wins, "/", nrow(iteration_log),
             sprintf("(%.1f%%)\n", 100 * imposter_wins / nrow(iteration_log)))
         
         cat("\nAverage distances:\n")
-        cat("  Sankara:", sprintf("%.4f", mean(iteration_log$sankara_dist, na.rm=TRUE)), "\n")
+        cat("  Candidate group:", sprintf("%.4f", mean(iteration_log$candidate_dist, na.rm=TRUE)), "\n")
         cat("  Imposter:", sprintf("%.4f", mean(iteration_log$imposter_dist, na.rm=TRUE)), "\n")
         
-        cat("\nMost frequently closest Sankara text:\n")
-        sankara_freq <- table(iteration_log$closest_sankara)
-        sankara_top <- head(sort(sankara_freq, decreasing=TRUE), 3)
-        for(i in seq_along(sankara_top)) {
+        cat("\nMost frequently closest candidate text:\n")
+        candidate_freq <- table(iteration_log$closest_candidate)
+        candidate_top <- head(sort(candidate_freq, decreasing=TRUE), 3)
+        for(i in seq_along(candidate_top)) {
             cat(sprintf("  %d. %s (%d times, %.1f%%)\n", 
-                       i, names(sankara_top)[i], sankara_top[i],
-                       100 * sankara_top[i] / nrow(iteration_log)))
+                       i, names(candidate_top)[i], candidate_top[i],
+                       100 * candidate_top[i] / nrow(iteration_log)))
         }
         
         cat("\nMost frequently closest Imposter:\n")
@@ -298,7 +300,7 @@ print(summary_df, row.names = FALSE)
 
 # Interpretation
 cat("INTERPRETATION:\n")
-cat("  >= 0.66 = Text authenticated as Sankara's work\n")
+cat("  >= 0.66 = Strong support for the primary candidate group\n")
 cat("  <= 0.34 = Text NOT authenticated\n")
 cat("  0.34-0.66 = Grey zone (uncertain)\n")
 cat("\n")
@@ -315,11 +317,11 @@ cat("  Uncertain:", uncertain_count, "/ 6 tests\n")
 cat("\n")
 
 if(authenticated_count >= 4) {
-    cat("CONCLUSION: Strong evidence for Sankara authorship\n")
+    cat("CONCLUSION: Strong evidence for the primary candidate group\n")
 } else if(authenticated_count >= 2) {
-    cat("CONCLUSION: Moderate evidence for Sankara authorship\n")
+    cat("CONCLUSION: Moderate evidence for the primary candidate group\n")
 } else if(not_authenticated_count >= 4) {
-    cat("CONCLUSION: Strong evidence AGAINST Sankara authorship\n")
+    cat("CONCLUSION: Strong evidence against the primary candidate group\n")
 } else {
     cat("CONCLUSION: Inconclusive results\n")
 }

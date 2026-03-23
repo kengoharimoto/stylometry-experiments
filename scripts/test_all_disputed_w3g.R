@@ -1,8 +1,8 @@
 #!/usr/bin/env Rscript
 # GI Authorship Verification - Test All Disputed Texts
 # Tests all files starting with "Disputed_" against:
-#   - Candidates: Files starting with "Sankara_"
-#   - Imposters: All other files (not Disputed_, not Sankara_)
+#   - Primary candidates: files matching CANDIDATE_PATTERN
+#   - Imposters: all other files except disputed texts
 #
 # Tests: 12 configurations total (4 n-gram types × 3 distance metrics)
 #   - Character trigrams: MinMax, Cosine, Wurzburg
@@ -15,23 +15,25 @@ library(stylo)
 # Set seed for reproducibility
 set.seed(123)
 
-# Start logging to file (on.exit ensures sink is closed even on error)
-dir.create(OUTPUT_DIR, showWarnings = FALSE, recursive = TRUE)
-log_file <- file.path(OUTPUT_DIR, paste0("gi_results_log_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".txt"))
-sink(log_file, split = TRUE)  # split=TRUE means output goes to both console AND file
-on.exit(sink(), add = TRUE)
-
 # ================================================
 # CONFIGURATION
 # ================================================
 
 CORPUS_DIR <- "corpus/main"
 OUTPUT_DIR <- "results"
+# Adjust this to the filename pattern used for your primary candidate group.
+CANDIDATE_PATTERN <- "^Candidate_"
 ITERATIONS <- 100
 FEATURE_COUNT <- 2000
 FEATURE_SAMPLE_RATE <- 0.50
 IMPOSTER_SAMPLE_RATE <- 0.50
 DISPUTED_PATTERN <- "^Disputed_"
+
+# Start logging to file (on.exit ensures sink is closed even on error)
+dir.create(OUTPUT_DIR, showWarnings = FALSE, recursive = TRUE)
+log_file <- file.path(OUTPUT_DIR, paste0("gi_results_log_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".txt"))
+sink(log_file, split = TRUE)  # split=TRUE means output goes to both console AND file
+on.exit(sink(), add = TRUE)
 
 # ================================================
 # FUNCTIONS
@@ -57,23 +59,23 @@ run_gi_test <- function(freq_table, target_name, distance_func, setup_name) {
     cat("================================================\n")
     
     # Define test sets
-    # Candidates: Files starting with "Sankara_"
-    sankara_rows <- grep("^Sankara_", rownames(freq_table), value = TRUE)
+    # Primary candidates: files matching the configured candidate pattern
+    candidate_rows <- grep(CANDIDATE_PATTERN, rownames(freq_table), value = TRUE)
     
-    # Imposters: Everything except Disputed_ and Sankara_
-    imposter_rows <- rownames(freq_table)[!grepl("^Sankara_", rownames(freq_table)) & 
+    # Imposters: everything except disputed texts and primary candidates
+    imposter_rows <- rownames(freq_table)[!grepl(CANDIDATE_PATTERN, rownames(freq_table)) & 
                                            !grepl("^Disputed_", rownames(freq_table))]
     
     cat("Corpus statistics:\n")
     cat("  Total texts:", nrow(freq_table), "\n")
     cat("  Target text:", target_name, "\n")
-    cat("  Sankara candidates:", length(sankara_rows), "\n")
+    cat("  Primary candidates:", length(candidate_rows), "\n")
     cat("  Imposter texts:", length(imposter_rows), "\n")
     cat("  Total features:", ncol(freq_table), "\n\n")
     
     # Safety checks
-    if(length(sankara_rows) == 0) {
-        warning("No Sankara candidate files found.")
+    if(length(candidate_rows) == 0) {
+        warning("No primary candidate files found.")
         return(NULL)
     }
     if(length(imposter_rows) == 0) {
@@ -107,7 +109,7 @@ run_gi_test <- function(freq_table, target_name, distance_func, setup_name) {
                                     size = floor(length(imposter_rows) * IMPOSTER_SAMPLE_RATE))
         
         # Build comparison matrix
-        comparison_names <- c(target_name, sankara_rows, current_imposters)
+        comparison_names <- c(target_name, candidate_rows, current_imposters)
         current_matrix <- freq_table[comparison_names, current_features]
         
         # Calculate distances with error handling
@@ -124,32 +126,32 @@ run_gi_test <- function(freq_table, target_name, distance_func, setup_name) {
             dists_from_test <- dist_matrix[target_name, ]
             
             # Find minimum distances
-            sankara_dists <- dists_from_test[sankara_rows]
+            candidate_dists <- dists_from_test[candidate_rows]
             imposter_dists <- dists_from_test[current_imposters]
             
-            min_sankara_dist <- min(sankara_dists, na.rm = TRUE)
+            min_candidate_dist <- min(candidate_dists, na.rm = TRUE)
             min_imposter_dist <- min(imposter_dists, na.rm = TRUE)
             
-            closest_sankara <- names(which.min(sankara_dists))
+            closest_candidate <- names(which.min(candidate_dists))
             closest_imposter <- names(which.min(imposter_dists))
             
             # Determine winner and score
-            if(!is.na(min_sankara_dist) && !is.na(min_imposter_dist)) {
-                winner <- if(min_sankara_dist < min_imposter_dist) "SANKARA" else "IMPOSTER"
+            if(!is.na(min_candidate_dist) && !is.na(min_imposter_dist)) {
+                winner <- if(min_candidate_dist < min_imposter_dist) "CANDIDATE" else "IMPOSTER"
                 
                 # Log the iteration (append to list)
                 log_idx <- log_idx + 1L
                 iteration_log_list[[log_idx]] <- data.frame(
                     iteration = i,
                     winner = winner,
-                    sankara_dist = min_sankara_dist,
+                    candidate_dist = min_candidate_dist,
                     imposter_dist = min_imposter_dist,
-                    closest_sankara = closest_sankara,
+                    closest_candidate = closest_candidate,
                     closest_imposter = closest_imposter,
                     stringsAsFactors = FALSE
                 )
                 
-                if(winner == "SANKARA") {
+                if(winner == "CANDIDATE") {
                     gi_score <- gi_score + 1
                 }
             } else {
@@ -167,8 +169,8 @@ run_gi_test <- function(freq_table, target_name, distance_func, setup_name) {
     } else {
         data.frame(
             iteration = integer(), winner = character(),
-            sankara_dist = numeric(), imposter_dist = numeric(),
-            closest_sankara = character(), closest_imposter = character(),
+            candidate_dist = numeric(), imposter_dist = numeric(),
+            closest_candidate = character(), closest_imposter = character(),
             stringsAsFactors = FALSE
         )
     }
@@ -191,24 +193,24 @@ run_gi_test <- function(freq_table, target_name, distance_func, setup_name) {
     # Analyze iteration log
     if(nrow(iteration_log) > 0) {
         cat("\n--- ITERATION ANALYSIS ---\n")
-        sankara_wins <- sum(iteration_log$winner == "SANKARA")
+        candidate_wins <- sum(iteration_log$winner == "CANDIDATE")
         imposter_wins <- sum(iteration_log$winner == "IMPOSTER")
-        cat("Sankara wins:", sankara_wins, "/", nrow(iteration_log), 
-            sprintf("(%.1f%%)\n", 100 * sankara_wins / nrow(iteration_log)))
+        cat("Candidate wins:", candidate_wins, "/", nrow(iteration_log), 
+            sprintf("(%.1f%%)\n", 100 * candidate_wins / nrow(iteration_log)))
         cat("Imposter wins:", imposter_wins, "/", nrow(iteration_log),
             sprintf("(%.1f%%)\n", 100 * imposter_wins / nrow(iteration_log)))
         
         cat("\nAverage distances:\n")
-        cat("  Sankara:", sprintf("%.4f", mean(iteration_log$sankara_dist, na.rm = TRUE)), "\n")
+        cat("  Candidate group:", sprintf("%.4f", mean(iteration_log$candidate_dist, na.rm = TRUE)), "\n")
         cat("  Imposter:", sprintf("%.4f", mean(iteration_log$imposter_dist, na.rm = TRUE)), "\n")
         
-        cat("\nMost frequently closest Sankara text:\n")
-        sankara_freq <- table(iteration_log$closest_sankara)
-        sankara_top <- head(sort(sankara_freq, decreasing = TRUE), 3)
-        for(j in seq_along(sankara_top)) {
+        cat("\nMost frequently closest candidate text:\n")
+        candidate_freq <- table(iteration_log$closest_candidate)
+        candidate_top <- head(sort(candidate_freq, decreasing = TRUE), 3)
+        for(j in seq_along(candidate_top)) {
             cat(sprintf("  %d. %s (%d times, %.1f%%)\n", 
-                       j, names(sankara_top)[j], sankara_top[j],
-                       100 * sankara_top[j] / nrow(iteration_log)))
+                       j, names(candidate_top)[j], candidate_top[j],
+                       100 * candidate_top[j] / nrow(iteration_log)))
         }
         
         cat("\nMost frequently closest Imposter:\n")
@@ -259,14 +261,14 @@ freq_table_word_trigrams <- load_ngram_freq_table("w", 3, "word trigram")
 # Get list of all disputed texts (files that start with "Disputed_")
 all_texts <- rownames(freq_table_trigrams)
 disputed_texts <- grep(DISPUTED_PATTERN, all_texts, value = TRUE)
-sankara_texts <- grep("^Sankara_", all_texts, value = TRUE)
-imposter_texts <- all_texts[!grepl("^Sankara_", all_texts) & !grepl(DISPUTED_PATTERN, all_texts)]
+candidate_texts <- grep(CANDIDATE_PATTERN, all_texts, value = TRUE)
+imposter_texts <- all_texts[!grepl(CANDIDATE_PATTERN, all_texts) & !grepl(DISPUTED_PATTERN, all_texts)]
 
 cat("\n========================================\n")
 cat("CORPUS BREAKDOWN:\n")
 cat("========================================\n")
 cat("Disputed texts (to be tested):", length(disputed_texts), "\n")
-cat("Sankara candidates:", length(sankara_texts), "\n")
+cat("Primary candidates:", length(candidate_texts), "\n")
 cat("Imposter texts:", length(imposter_texts), "\n")
 cat("Total texts:", length(all_texts), "\n\n")
 
@@ -384,11 +386,11 @@ for(target_text in disputed_texts) {
         cat("  Average score:", sprintf("%.3f", avg_score), "\n")
         
         if(authenticated_count >= 9) {
-            cat("  VERDICT: Strong evidence for Sankara authorship\n")
+            cat("  VERDICT: Strong evidence for the primary candidate group\n")
         } else if(authenticated_count >= 6) {
-            cat("  VERDICT: Moderate evidence for Sankara authorship\n")
+            cat("  VERDICT: Moderate evidence for the primary candidate group\n")
         } else if(not_authenticated_count >= 9) {
-            cat("  VERDICT: Strong evidence AGAINST Sankara authorship\n")
+            cat("  VERDICT: Strong evidence against the primary candidate group\n")
         } else {
             cat("  VERDICT: Inconclusive results\n")
         }

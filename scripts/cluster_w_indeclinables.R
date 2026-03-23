@@ -1,5 +1,7 @@
 library(stylo)
 CORPUS_DIR <- "corpus/main"
+# Adjust this to the filename pattern used for your primary candidate group.
+CANDIDATE_PATTERN <- "^Candidate_"
 
 timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
 
@@ -296,12 +298,12 @@ if (exists("freq_table") && !is.null(freq_table)) {
   total_per_feature <- colSums(freq_table)
   print(head(sort(total_per_feature, decreasing = TRUE), 20))
 
-  # Calculate proportions for Sankara texts
-  sankara_texts <- grep("^Sankara_", rownames(freq_table), value = TRUE)
-  if (length(sankara_texts) > 0) {
-    cat("\n--- Average usage in Sankara texts ---\n")
-    sankara_avg <- colMeans(freq_table[sankara_texts, , drop = FALSE])
-    print(head(sort(sankara_avg, decreasing = TRUE), 20))
+  # Calculate proportions for the primary candidate texts
+  candidate_texts <- grep(CANDIDATE_PATTERN, rownames(freq_table), value = TRUE)
+  if (length(candidate_texts) > 0) {
+    cat("\n--- Average usage in primary candidate texts ---\n")
+    candidate_avg <- colMeans(freq_table[candidate_texts, , drop = FALSE])
+    print(head(sort(candidate_avg, decreasing = TRUE), 20))
   }
 
   # Disputed texts
