@@ -59,6 +59,56 @@ SAVE_ANALYZED_FEATURES <- TRUE
 SAVE_ANALYZED_FREQS <- TRUE
 
 # ================================================
+# PARSE COMMAND-LINE ARGS
+# ================================================
+
+args <- commandArgs(trailingOnly = TRUE)
+for (a in args) {
+    if (grepl("^--corpus-dir=", a)) {
+        CORPUS_DIR <- sub("^--corpus-dir=", "", a)
+    }
+    if (grepl("^--features=", a)) {
+        ANALYZED_FEATURES <- sub("^--features=", "", a)
+    }
+    if (grepl("^--ngram-size=", a)) {
+        NGRAM_SIZE <- as.integer(sub("^--ngram-size=", "", a))
+    }
+    if (grepl("^--mfw-min=", a)) {
+        MFW_MIN <- as.integer(sub("^--mfw-min=", "", a))
+    }
+    if (grepl("^--mfw-max=", a)) {
+        MFW_MAX <- as.integer(sub("^--mfw-max=", "", a))
+    }
+    if (grepl("^--mfw-incr=", a)) {
+        MFW_INCR <- as.integer(sub("^--mfw-incr=", "", a))
+    }
+    if (grepl("^--culling-min=", a)) {
+        CULLING_MIN <- as.integer(sub("^--culling-min=", "", a))
+    }
+    if (grepl("^--culling-max=", a)) {
+        CULLING_MAX <- as.integer(sub("^--culling-max=", "", a))
+    }
+    if (grepl("^--culling-incr=", a)) {
+        CULLING_INCR <- as.integer(sub("^--culling-incr=", "", a))
+    }
+    if (grepl("^--consensus-strength=", a)) {
+        CONSENSUS_STRENGTH <- as.numeric(sub("^--consensus-strength=", "", a))
+    }
+    if (a == "--preserve-case") {
+        PRESERVE_CASE <- TRUE
+    }
+    if (grepl("^--plot-height=", a)) {
+        PLOT_CUSTOM_HEIGHT <- as.numeric(sub("^--plot-height=", "", a))
+    }
+    if (grepl("^--plot-width=", a)) {
+        PLOT_CUSTOM_WIDTH <- as.numeric(sub("^--plot-width=", "", a))
+    }
+    if (grepl("^--plot-font-size=", a)) {
+        PLOT_FONT_SIZE <- as.numeric(sub("^--plot-font-size=", "", a))
+    }
+}
+
+# ================================================
 # OUTPUT DIRECTORY SETUP
 # ================================================
 
@@ -83,6 +133,7 @@ cat("========================================\n\n")
 
 # Store original working directory
 original_dir <- getwd()
+CORPUS_PATH <- if (startsWith(CORPUS_DIR, "/")) CORPUS_DIR else CORPUS_PATH
 
 # Change to output directory for all stylo operations
 setwd(OUTPUT_DIR)
@@ -96,13 +147,13 @@ cat("LOADING CORPUS (ONE TIME ONLY)\n")
 cat("========================================\n")
 
 # Use stylo.default.settings to prepare everything
-cat("Loading corpus from:", file.path(original_dir, CORPUS_DIR), "\n")
+cat("Loading corpus from:", CORPUS_PATH, "\n")
 
 # Create frequency table using stylo's internal method
 # This is more reliable than manual parsing
 initial_results <- stylo(
   gui = FALSE,
-  corpus.dir = file.path(original_dir, CORPUS_DIR),
+  corpus.dir = CORPUS_PATH,
   analyzed.features = ANALYZED_FEATURES,
   ngram.size = NGRAM_SIZE,
   preserve.case = PRESERVE_CASE,

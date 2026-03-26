@@ -146,6 +146,9 @@ for (a in args) {
     if (a == "--use-builtin") {
         USE_BUILTIN <- TRUE
     }
+    if (grepl("^--corpus-dir=", a)) {
+        CORPUS_DIR <- sub("^--corpus-dir=", "", a)
+    }
 }
 
 if (length(cli_candidate_names) > 0) {

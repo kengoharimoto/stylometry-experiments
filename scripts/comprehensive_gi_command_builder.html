@@ -157,11 +157,16 @@
     <!-- Controls -->
     <section class="card">
       <h1>GI Command Builder</h1>
+      <p class="muted" style="margin: 0 0 14px;">Runs a General Imposters (GI) authorship verification test. Given a target text and a set of candidate authors, it repeatedly samples features and imposters to estimate the probability that the target was written by each candidate. Produces a score between 0 and 1 for each candidate.</p>
 
       <div class="cols-2 row">
         <div>
           <label for="scriptPath">Script path</label>
           <input id="scriptPath" type="text" value="scripts/comprehensive_gi_test.R" />
+        </div>
+        <div>
+          <label for="corpusDir">Corpus directory path</label>
+          <input id="corpusDir" type="text" placeholder="corpus/gi" />
         </div>
         <div>
           <label>Corpus folder (.txt files)</label>
@@ -264,6 +269,7 @@
   <script>
     const els = {
       scriptPath: document.getElementById("scriptPath"),
+      corpusDir: document.getElementById("corpusDir"),
       corpusPicker: document.getElementById("corpusPicker"),
       corpusStatus: document.getElementById("corpusStatus"),
       target: document.getElementById("target"),
@@ -333,6 +339,7 @@
       const candidates = selectedValues(els.candidates).join(",");
       const excludeImposters = selectedValues(els.excludeImposters).join(",");
 
+      if (els.corpusDir.value.trim()) flags.push(`--corpus-dir=${shellQuote(els.corpusDir.value.trim())}`);
       if (target) flags.push(`--target=${shellQuote(target)}`);
       if (candidates) flags.push(`--candidates=${shellQuote(candidates)}`);
       if (els.candidateRegex.value.trim()) flags.push(`--candidate-regex=${shellQuote(els.candidateRegex.value.trim())}`);
@@ -375,6 +382,16 @@
       buildCommand();
     }
 
+    els.corpusDir.addEventListener("paste", (e) => {
+      const pasted = (e.clipboardData || window.clipboardData).getData("text");
+      if (/^\s*Rscript\b/.test(pasted)) {
+        e.preventDefault();
+        els.corpusDir.value = "";
+        els.corpusDir.placeholder = "Paste blocked — looks like a command, not a path";
+        setTimeout(() => { els.corpusDir.placeholder = "corpus/gi"; }, 3000);
+      }
+    });
+
     els.corpusPicker.addEventListener("change", (e) => {
       loadCorpusFromFolder(e.target.files || []);
     });
@@ -393,6 +410,7 @@
 
     [
       els.scriptPath,
+      els.corpusDir,
       els.target,
       els.candidates,
       els.excludeImposters,
@@ -422,6 +440,12 @@
         els.copyStatus.textContent = "Could not copy automatically. Select and copy manually.";
       }
     });
+
+    if (window.location.protocol === "file:") {
+      const htmlPath = decodeURIComponent(window.location.pathname);
+      const dir = htmlPath.substring(0, htmlPath.lastIndexOf("/"));
+      els.scriptPath.value = dir + "/comprehensive_gi_test.R";
+    }
 
     buildCommand();
   </script>

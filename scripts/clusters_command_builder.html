@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clusters Command Builder</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --accent: #0f766e;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 24px auto;
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: 20px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 14px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .row {
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 4px;
+      color: var(--muted);
+    }
+    input[type="text"], input[type="number"], select, textarea {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px;
+      font-size: 13px;
+      background: #fff;
+      color: var(--text);
+    }
+    .btn {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--text);
+      padding: 8px 14px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .btn.primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .muted {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .status {
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .hint {
+      margin-top: 4px;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+    .hint code {
+      font-family: ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      background: #f1f3f5;
+      border-radius: 3px;
+      padding: 0 3px;
+    }
+    .cols-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .cols-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+    }
+    .cols-4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 12px;
+    }
+    .checkbox-row {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .checkbox-row label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 0;
+    }
+    .command-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .command-header h2 { margin: 0; }
+    .command-actions { display: flex; gap: 8px; }
+    #command {
+      height: 100px;
+      font-family: ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 12px;
+      white-space: pre;
+      resize: vertical;
+    }
+    @media (max-width: 700px) {
+      .cols-2, .cols-3, .cols-4 { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>Clusters Command Builder</h1>
+      <p class="muted" style="margin: 0 0 14px;">Runs a comprehensive clustering analysis using stylo. Loads the corpus once, then produces visualizations across multiple analysis types (CA, BCT, MDS, PCV) and distance measures. All output plots and data tables are saved to a timestamped results directory.</p>
+
+      <!-- Paths -->
+      <div class="cols-2 row">
+        <div>
+          <label for="scriptPath">Script path</label>
+          <input id="scriptPath" type="text" value="scripts/clusters.R" />
+          <p class="hint">Path to the clusters.R script, relative to your working directory.</p>
+        </div>
+        <div>
+          <label for="corpusDir">Corpus directory path</label>
+          <input id="corpusDir" type="text" placeholder="corpus/main" />
+          <p class="hint">Directory containing your .txt corpus files. Defaults to <code>corpus/main</code> if left blank.</p>
+        </div>
+      </div>
+
+      <!-- Feature type -->
+      <div class="cols-2 row">
+        <div>
+          <label for="features">Analyzed features</label>
+          <select id="features">
+            <option value="w" selected>Words (w)</option>
+            <option value="c">Characters (c)</option>
+          </select>
+          <p class="hint">The unit of analysis. Words are better for longer texts with stable vocabulary; characters are more robust for short texts or highly inflected languages.</p>
+        </div>
+        <div>
+          <label for="ngramSize">N-gram size</label>
+          <select id="ngramSize">
+            <option value="1" selected>1 (unigrams)</option>
+            <option value="2">2 (bigrams)</option>
+            <option value="3">3 (trigrams)</option>
+          </select>
+          <p class="hint">Length of the feature sequence. Unigrams (1) count individual words or characters; bigrams and trigrams capture short sequences. Character trigrams are a common choice for morphologically rich languages.</p>
+        </div>
+      </div>
+
+      <!-- MFW -->
+      <div class="cols-3 row">
+        <div>
+          <label for="mfwMin">MFW min</label>
+          <input id="mfwMin" type="number" min="1" step="1" value="50" />
+          <p class="hint" id="hintMfwMin">Minimum number of most frequent features to include. BCT iterates from this value up to max; CA and MDS use only the max. Recommended: ~50 for words, ~2000 for character n-grams.</p>
+        </div>
+        <div>
+          <label for="mfwMax">MFW max</label>
+          <input id="mfwMax" type="number" min="1" step="1" value="80" />
+          <p class="hint" id="hintMfwMax">Maximum number of most frequent features. Character n-grams need much larger values than words because the feature space is bigger. Recommended: ~80–500 for words, ~2000–5000 for character n-grams.</p>
+        </div>
+        <div>
+          <label for="mfwIncr">MFW increment</label>
+          <input id="mfwIncr" type="number" min="0" step="1" value="10" />
+          <p class="hint">Step size between MFW min and max. Used by BCT to build consensus across multiple feature-set sizes. Recommended: ~10 for words, ~1000 for character n-grams.</p>
+        </div>
+      </div>
+
+      <!-- Culling -->
+      <div class="cols-3 row">
+        <div>
+          <label for="cullingMin">Culling min (%)</label>
+          <input id="cullingMin" type="number" min="0" max="100" step="1" value="0" />
+          <p class="hint">Minimum culling threshold. Features appearing in fewer than this percentage of texts are dropped. 0 disables culling.</p>
+        </div>
+        <div>
+          <label for="cullingMax">Culling max (%)</label>
+          <input id="cullingMax" type="number" min="0" max="100" step="1" value="0" />
+          <p class="hint">Maximum culling threshold. Set equal to min for a fixed culling level rather than a range.</p>
+        </div>
+        <div>
+          <label for="cullingIncr">Culling increment</label>
+          <input id="cullingIncr" type="number" min="0" step="1" value="0" />
+          <p class="hint">Step size for iterating between culling min and max. Set to 0 when min and max are equal.</p>
+        </div>
+      </div>
+
+      <!-- Consensus & plot -->
+      <div class="cols-4 row">
+        <div>
+          <label for="consensusStrength">Consensus strength</label>
+          <input id="consensusStrength" type="number" min="0" max="1" step="0.05" value="0.5" />
+          <p class="hint">Used by BCT (Bootstrap Consensus Tree). An edge is kept in the consensus only if it appears in at least this fraction of bootstrap trees. Range 0–1; 0.5 is standard.</p>
+        </div>
+        <div>
+          <label for="plotHeight">Plot height</label>
+          <input id="plotHeight" type="number" min="1" step="1" value="20" />
+          <p class="hint">Height of output plot files in inches.</p>
+        </div>
+        <div>
+          <label for="plotWidth">Plot width</label>
+          <input id="plotWidth" type="number" min="1" step="1" value="20" />
+          <p class="hint">Width of output plot files in inches.</p>
+        </div>
+        <div>
+          <label for="plotFontSize">Plot font size</label>
+          <input id="plotFontSize" type="number" min="1" step="1" value="10" />
+          <p class="hint">Font size for text labels on plots. Increase if labels are hard to read on large plots.</p>
+        </div>
+      </div>
+
+      <!-- Checkboxes -->
+      <div class="checkbox-row">
+        <label><input id="preserveCase" type="checkbox" /> Preserve case</label>
+      </div>
+      <p class="hint" style="margin-top: 0; margin-bottom: 10px;">When checked, text is analyzed with original capitalization. By default, all text is lowercased before analysis.</p>
+    </section>
+
+    <!-- Generated Command -->
+    <section class="card">
+      <div class="command-header">
+        <h2>Generated Command</h2>
+        <div class="command-actions">
+          <button class="btn" id="refreshBtn" type="button">Refresh</button>
+          <button class="btn primary" id="copyBtn" type="button">Copy Command</button>
+        </div>
+      </div>
+      <textarea id="command" readonly></textarea>
+      <div id="copyStatus" class="status"></div>
+    </section>
+  </div>
+
+  <script>
+    const els = {
+      scriptPath:        document.getElementById("scriptPath"),
+      corpusDir:         document.getElementById("corpusDir"),
+      features:          document.getElementById("features"),
+      ngramSize:         document.getElementById("ngramSize"),
+      mfwMin:            document.getElementById("mfwMin"),
+      mfwMax:            document.getElementById("mfwMax"),
+      mfwIncr:           document.getElementById("mfwIncr"),
+      cullingMin:        document.getElementById("cullingMin"),
+      cullingMax:        document.getElementById("cullingMax"),
+      cullingIncr:       document.getElementById("cullingIncr"),
+      consensusStrength: document.getElementById("consensusStrength"),
+      plotHeight:        document.getElementById("plotHeight"),
+      plotWidth:         document.getElementById("plotWidth"),
+      plotFontSize:      document.getElementById("plotFontSize"),
+      preserveCase:      document.getElementById("preserveCase"),
+      refreshBtn:        document.getElementById("refreshBtn"),
+      copyBtn:           document.getElementById("copyBtn"),
+      command:           document.getElementById("command"),
+      copyStatus:        document.getElementById("copyStatus"),
+    };
+
+    function shellQuote(s) {
+      if (!s || s.length === 0) return "''";
+      return "'" + s.replace(/'/g, "'\\''") + "'";
+    }
+
+    const MFW_DEFAULTS = {
+      w: { min: 50,   max: 80,   incr: 10   },
+      c: { min: 2000, max: 5000, incr: 1000 },
+    };
+
+    els.corpusDir.addEventListener("paste", (e) => {
+      const pasted = (e.clipboardData || window.clipboardData).getData("text");
+      if (/^\s*Rscript\b/.test(pasted)) {
+        e.preventDefault();
+        els.corpusDir.value = "";
+        els.corpusDir.placeholder = "Paste blocked — looks like a command, not a path";
+        setTimeout(() => { els.corpusDir.placeholder = "corpus/main"; }, 3000);
+      }
+    });
+
+    els.features.addEventListener("change", () => {
+      const d = MFW_DEFAULTS[els.features.value] || MFW_DEFAULTS.w;
+      els.mfwMin.value  = d.min;
+      els.mfwMax.value  = d.max;
+      els.mfwIncr.value = d.incr;
+      buildCommand();
+    });
+
+    function buildCommand() {
+      const flags = [];
+
+      if (els.corpusDir.value.trim()) {
+        flags.push(`--corpus-dir=${shellQuote(els.corpusDir.value.trim())}`);
+      }
+
+      flags.push(`--features=${shellQuote(els.features.value)}`);
+      flags.push(`--ngram-size=${shellQuote(els.ngramSize.value)}`);
+      flags.push(`--mfw-min=${shellQuote(els.mfwMin.value)}`);
+      flags.push(`--mfw-max=${shellQuote(els.mfwMax.value)}`);
+      flags.push(`--mfw-incr=${shellQuote(els.mfwIncr.value)}`);
+      flags.push(`--culling-min=${shellQuote(els.cullingMin.value)}`);
+      flags.push(`--culling-max=${shellQuote(els.cullingMax.value)}`);
+      flags.push(`--culling-incr=${shellQuote(els.cullingIncr.value)}`);
+      flags.push(`--consensus-strength=${shellQuote(els.consensusStrength.value)}`);
+      flags.push(`--plot-height=${shellQuote(els.plotHeight.value)}`);
+      flags.push(`--plot-width=${shellQuote(els.plotWidth.value)}`);
+      flags.push(`--plot-font-size=${shellQuote(els.plotFontSize.value)}`);
+
+      if (els.preserveCase.checked) {
+        flags.push("--preserve-case");
+      }
+
+      els.command.value = `Rscript ${shellQuote(els.scriptPath.value.trim())} ${flags.join(" ")}`.trim();
+    }
+
+    Object.values(els).forEach(el => {
+      if (el && el.tagName && el.tagName !== "BUTTON" && el.tagName !== "TEXTAREA") {
+        el.addEventListener("input", buildCommand);
+        el.addEventListener("change", buildCommand);
+      }
+    });
+
+    els.refreshBtn.addEventListener("click", buildCommand);
+
+    els.copyBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(els.command.value);
+        els.copyStatus.textContent = "Command copied to clipboard.";
+      } catch (e) {
+        els.copyStatus.textContent = "Could not copy automatically. Select and copy manually.";
+      }
+    });
+
+    if (window.location.protocol === "file:") {
+      const htmlPath = decodeURIComponent(window.location.pathname);
+      const dir = htmlPath.substring(0, htmlPath.lastIndexOf("/"));
+      els.scriptPath.value = dir + "/clusters.R";
+    }
+
+    buildCommand();
+  </script>
+</body>
+</html>
