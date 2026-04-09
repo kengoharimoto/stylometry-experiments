@@ -5,7 +5,8 @@ This directory contains the main maintained analysis scripts for the repository.
 ## Main Scripts
 
 - `install_packages.R`: installs the required R packages used by the maintained workflows.
-- `clusters.R`: baseline clustering workflow for the main corpus.
+- `clusters.R`: baseline clustering workflow for the main corpus. Accepts command-line flags for corpus path, feature type, MFW range, culling, consensus strength, plot dimensions, and per-group highlight colors.
+- `clusters_command_builder.html`: static browser-based command builder for `clusters.R`.
 - `clusters_tf_idf.R`: clustering workflow with additional TF-IDF / rare-word analysis.
 - `cluster_w_indeclinables.R`: clustering workflow using a curated set of Sanskrit indeclinables as features.
 - `indeclinables_mfw_variations.R`: repeats the indeclinables-based analysis across multiple MFW windows.
