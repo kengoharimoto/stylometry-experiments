@@ -255,6 +255,14 @@
       <p class="hint" style="margin-top: 0; margin-bottom: 10px;">When checked, text is analyzed with original capitalization. By default, all text is lowercased before analysis.</p>
     </section>
 
+    <!-- Highlight Colors -->
+    <section class="card">
+      <h2>Highlight colors</h2>
+      <p class="muted" style="margin: 0 0 10px; font-size: 13px;">Assign a specific color to one or more corpus groups. A group is the part of the filename <strong>before the first underscore</strong> — e.g. <code>vishnu</code> for <code>vishnu_ch1.txt</code>. Unspecified groups receive stylo's default palette.</p>
+      <div id="highlightRows"></div>
+      <button class="btn" id="addHighlightBtn" type="button" style="margin-top: 6px;">+ Add highlight</button>
+    </section>
+
     <!-- Generated Command -->
     <section class="card">
       <div class="command-header">
@@ -290,7 +298,40 @@
       copyBtn:           document.getElementById("copyBtn"),
       command:           document.getElementById("command"),
       copyStatus:        document.getElementById("copyStatus"),
+      highlightRows:     document.getElementById("highlightRows"),
+      addHighlightBtn:   document.getElementById("addHighlightBtn"),
     };
+
+    // ---- Highlight rows ----
+    function addHighlightRow(group = "", color = "#e41a1c") {
+      const row = document.createElement("div");
+      row.style.cssText = "display:flex;gap:8px;align-items:center;margin-bottom:6px;";
+      row.innerHTML = `
+        <input type="text" placeholder="group name (e.g. vishnu)" value="${group}"
+               style="flex:1;box-sizing:border-box;border:1px solid var(--border);border-radius:8px;padding:8px;font-size:13px;">
+        <input type="color" value="${color}"
+               style="width:42px;height:34px;padding:2px;border:1px solid var(--border);border-radius:8px;cursor:pointer;">
+        <button class="btn" type="button" style="padding:6px 10px;color:#c0392b;border-color:#c0392b;">✕</button>
+      `;
+      row.querySelector("button").addEventListener("click", () => { row.remove(); buildCommand(); });
+      row.querySelectorAll("input").forEach(i => i.addEventListener("input", buildCommand));
+      row.querySelectorAll("input").forEach(i => i.addEventListener("change", buildCommand));
+      els.highlightRows.appendChild(row);
+      buildCommand();
+    }
+
+    function getHighlightPairs() {
+      const pairs = [];
+      els.highlightRows.querySelectorAll("div").forEach(row => {
+        const [groupEl, colorEl] = row.querySelectorAll("input");
+        const g = groupEl.value.trim();
+        const c = colorEl.value.trim();
+        if (g && c) pairs.push(`${g}:${c}`);
+      });
+      return pairs;
+    }
+
+    els.addHighlightBtn.addEventListener("click", () => addHighlightRow());
 
     function shellQuote(s) {
       if (!s || s.length === 0) return "''";
@@ -342,6 +383,11 @@
 
       if (els.preserveCase.checked) {
         flags.push("--preserve-case");
+      }
+
+      const hlPairs = getHighlightPairs();
+      if (hlPairs.length > 0) {
+        flags.push(`--highlight=${shellQuote(hlPairs.join(","))}`);
       }
 
       els.command.value = `Rscript ${shellQuote(els.scriptPath.value.trim())} ${flags.join(" ")}`.trim();

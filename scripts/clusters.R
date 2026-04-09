@@ -52,6 +52,7 @@ TEXT_ID_ON_GRAPHS <- "both"
 COLORS_ON_GRAPHS <- "colors"
 TITLES_ON_GRAPHS <- TRUE
 LABEL_OFFSET <- 0
+GROUPS_COL <- NULL  # named character vector, e.g. c(group1 = "red", group2 = "#1a9850")
 
 # Save options
 SAVE_DISTANCE_TABLES <- TRUE
@@ -106,6 +107,14 @@ for (a in args) {
     if (grepl("^--plot-font-size=", a)) {
         PLOT_FONT_SIZE <- as.numeric(sub("^--plot-font-size=", "", a))
     }
+    if (grepl("^--highlight=", a)) {
+        val <- sub("^--highlight=", "", a)
+        pairs <- strsplit(val, ",")[[1]]
+        pairs <- pairs[nchar(trimws(pairs)) > 0]
+        groups <- sub(":.*", "", pairs)
+        colors <- sub("[^:]*:", "", pairs)
+        GROUPS_COL <- setNames(trimws(colors), trimws(groups))
+    }
 }
 
 # ================================================
@@ -134,6 +143,17 @@ cat("========================================\n\n")
 # Store original working directory
 original_dir <- getwd()
 CORPUS_PATH <- if (startsWith(CORPUS_DIR, "/")) CORPUS_DIR else CORPUS_PATH
+
+# Filter corpus: copy only regular .txt files to a temp directory so that
+# non-file entries like __pycache__ don't confuse stylo's loader.
+corpus_tmp <- file.path(tempdir(), paste0("stylo_corpus_", format(Sys.time(), "%Y%m%d_%H%M%S")))
+dir.create(corpus_tmp, recursive = TRUE)
+txt_files <- list.files(CORPUS_PATH, pattern = "\\.txt$", full.names = TRUE, recursive = FALSE)
+txt_files <- txt_files[file.info(txt_files)$isdir == FALSE]
+if (length(txt_files) == 0) stop("No .txt files found in corpus directory: ", CORPUS_PATH)
+invisible(file.copy(txt_files, corpus_tmp))
+CORPUS_PATH <- corpus_tmp
+cat("Filtered corpus: using", length(txt_files), ".txt files from", CORPUS_DIR, "\n")
 
 # Change to output directory for all stylo operations
 setwd(OUTPUT_DIR)
@@ -170,7 +190,8 @@ initial_results <- stylo(
   display.on.screen = FALSE,
   write.pdf.file = FALSE,  # Don't save this dummy analysis
   save.analyzed.features = SAVE_ANALYZED_FEATURES,
-  save.analyzed.freqs = SAVE_ANALYZED_FREQS
+  save.analyzed.freqs = SAVE_ANALYZED_FREQS,
+  groups.col = GROUPS_COL
 )
 
 # Extract the frequency table from results
@@ -249,7 +270,8 @@ results <- stylo(gui = FALSE,
                  label.offset = LABEL_OFFSET,
                  save.distance.tables = FALSE,
                  save.analyzed.features = FALSE,
-                 save.analyzed.freqs = FALSE)
+                 save.analyzed.freqs = FALSE,
+                 groups.col = GROUPS_COL)
 
 cat("Completed: PCV\n")
 
@@ -282,7 +304,8 @@ for (dist_measure in distance_measures) {
     use_mfw_min <- if(analysis_type == "BCT") MFW_MIN else MFW_MAX
     use_mfw_incr <- if(analysis_type == "BCT") MFW_INCR else 0
     
-    results <- stylo(gui = FALSE,
+    results <- tryCatch(
+      stylo(gui = FALSE,
                      frequencies = freq_table,
                      analyzed.features = ANALYZED_FEATURES,
                      ngram.size = NGRAM_SIZE,
@@ -320,9 +343,16 @@ for (dist_measure in distance_measures) {
                      label.offset = LABEL_OFFSET,
                      save.distance.tables = SAVE_DISTANCE_TABLES,
                      save.analyzed.features = FALSE,
-                     save.analyzed.freqs = FALSE)
-    
-    cat("Completed:", analysis_type, "with", dist_measure, "\n")
+                     save.analyzed.freqs = FALSE,
+                     groups.col = GROUPS_COL),
+      error = function(e) {
+        cat("WARNING: skipped", analysis_type, "with", dist_measure,
+            "- error:", conditionMessage(e), "\n")
+        NULL
+      }
+    )
+
+    if (!is.null(results)) cat("Completed:", analysis_type, "with", dist_measure, "\n")
   }
   
   cat("\n========================================\n")
