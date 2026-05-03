@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stylometric Results Inspector</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-size: 13px; background: #e8e8e8; color: #1a1a1a;
+  display: flex; flex-direction: column;
+}
+
+/* ── Header ── */
+#header {
+  background: #1c2833; color: #ecf0f1;
+  padding: 9px 16px; font-size: 14px; font-weight: 600;
+  flex-shrink: 0; letter-spacing: 0.01em;
+  display: flex; align-items: center; gap: 12px;
+}
+#open-dir-btn {
+  padding: 4px 12px; font-size: 12px; font-weight: 500;
+  border: 1px solid #7f8c8d; border-radius: 4px;
+  background: #2c3e50; color: #ecf0f1; cursor: pointer;
+  transition: background 0.15s;
+}
+#open-dir-btn:hover { background: #34495e; }
+#dir-input { display: none; }
+#dir-label { font-size: 11px; color: #95a5a6; font-weight: 400; }
+
+/* ── Layout ── */
+#main { display: flex; flex: 1; overflow: hidden; }
+
+/* ── Sidebar ── */
+#sidebar {
+  width: 290px; flex-shrink: 0;
+  background: #fff; border-right: 1px solid #d0d0d0;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.s-section { padding: 8px 10px; border-bottom: 1px solid #ebebeb; }
+.s-label {
+  font-size: 10px; font-weight: 700; text-transform: uppercase;
+  color: #888; display: block; margin-bottom: 5px; letter-spacing: 0.06em;
+}
+
+/* Method pills */
+.pill-group { display: flex; flex-wrap: wrap; gap: 5px; }
+.pill {
+  padding: 3px 10px; font-size: 11px;
+  border: 1px solid #ccc; border-radius: 12px;
+  background: #f4f4f4; cursor: pointer; user-select: none;
+  transition: background 0.15s, color 0.15s;
+}
+.pill.active { background: #1c2833; color: #fff; border-color: #1c2833; }
+
+/* Metric select */
+#metric-select {
+  width: 100%; height: 110px; border: 1px solid #ccc; border-radius: 5px;
+  font-size: 12px; background: #fafafa;
+}
+
+/* File list */
+#file-list-wrap {
+  flex: 1; overflow: hidden;
+  display: flex; flex-direction: column;
+  padding: 8px 10px 0;
+}
+#file-list { flex: 1; overflow-y: auto; margin-top: 5px; }
+.file-item {
+  padding: 6px 8px; cursor: pointer; font-size: 11.5px;
+  border-bottom: 1px solid #f2f2f2; border-radius: 4px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  color: #333;
+}
+.file-item:hover { background: #f5f8fa; }
+.file-item.selected { background: #ebf5fb; border-left: 3px solid #2980b9; color: #1a5276; }
+#file-count { font-size: 11px; color: #aaa; margin-top: 4px; padding-bottom: 6px; }
+
+/* ── Right content ── */
+#content { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+
+#pdf-toolbar {
+  display: flex; align-items: center; gap: 6px;
+  padding: 6px 10px; background: #fafafa;
+  border-bottom: 1px solid #e0e0e0; flex-shrink: 0;
+}
+#open-tab-btn {
+  margin-left: auto; font-size: 11px; color: #2980b9;
+  background: none; border: 1px solid #2980b9; border-radius: 4px;
+  padding: 2px 8px; cursor: pointer;
+}
+#open-tab-btn:hover { background: #ebf5fb; }
+#pdf-filename { font-size: 11px; color: #999; max-width: 400px;
+                overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+#pdf-frame-wrap { flex: 1; overflow: hidden; position: relative; background: #888; }
+#pdf-placeholder {
+  display: flex; align-items: center; justify-content: center;
+  height: 100%; color: #bbb; font-size: 15px;
+}
+#pdf-frame { width: 100%; height: 100%; border: none; display: none; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  Stylometric Results Inspector
+  <label id="open-dir-btn" for="dir-input">Open Directory…</label>
+  <input type="file" id="dir-input" webkitdirectory accept=".pdf" onchange="loadDirectory(this)">
+  <span id="dir-label">No directory open</span>
+</div>
+
+<div id="main">
+  <!-- ── Sidebar ── -->
+  <div id="sidebar">
+    <div class="s-section">
+      <span class="s-label">Method</span>
+      <div class="pill-group">
+        <span class="pill active" data-m="ALL" onclick="setMethod(this)">ALL</span>
+        <span class="pill"       data-m="MDS" onclick="setMethod(this)">MDS</span>
+        <span class="pill"       data-m="BCT" onclick="setMethod(this)">BCT</span>
+        <span class="pill"       data-m="CA"  onclick="setMethod(this)">CA</span>
+        <span class="pill"       data-m="PCV" onclick="setMethod(this)">PCV</span>
+      </div>
+    </div>
+
+    <div class="s-section">
+      <span class="s-label">Metric</span>
+      <select id="metric-select" size="8" onchange="refreshList()"></select>
+    </div>
+
+    <div id="file-list-wrap">
+      <span class="s-label">Files</span>
+      <div id="file-list"></div>
+      <div id="file-count"></div>
+    </div>
+  </div>
+
+  <!-- ── Main content ── -->
+  <div id="content">
+    <div id="pdf-toolbar">
+      <span id="pdf-filename">No file selected</span>
+      <button id="open-tab-btn" onclick="openInTab()">Open in new tab ↗</button>
+    </div>
+    <div id="pdf-frame-wrap">
+      <div id="pdf-placeholder">Open a directory to begin</div>
+      <iframe id="pdf-frame" title="PDF viewer"></iframe>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+let allFiles      = [];   // [{file, filename, method, metric, display}]
+let currentMethod = 'ALL';
+let currentBlobUrl = null;
+
+// ── Filename parsing (mirrors Python logic) ────────────────────────────────
+function parsePdfName(name) {
+  let m;
+  m = name.match(/^clusters_(.+?)_(PCV)_(\d{8}_\d{6})_\d+\.pdf$/);
+  if (m) return { features: m[1], metric: null, method: 'PCV' };
+  m = name.match(/^clusters_(.+?)_(\w+?)_(MDS|BCT|CA)_(\d{8}_\d{6})_\d+\.pdf$/);
+  if (m) return { features: m[1], metric: m[2], method: m[3] };
+  return null;
+}
+
+function displayName(filename) {
+  const p = parsePdfName(filename);
+  if (!p) return filename;
+  const metric = p.metric ? ` · ${p.metric}` : '';
+  return `${p.method}${metric}  [${p.features}]`;
+}
+
+// ── Open directory ─────────────────────────────────────────────────────────
+function loadDirectory(input) {
+  const files = Array.from(input.files).filter(f => f.name.endsWith('.pdf'));
+  if (!files.length) return;
+
+  const dirName = files[0].webkitRelativePath.split('/')[0];
+  document.getElementById('dir-label').textContent = dirName;
+
+  allFiles = files.map(file => {
+    const p = parsePdfName(file.name);
+    return {
+      file,
+      filename: file.name,
+      method:  p ? p.method : 'OTHER',
+      metric:  p ? (p.metric || '') : '',
+      display: displayName(file.name),
+    };
+  });
+  allFiles.sort((a, b) => a.filename.localeCompare(b.filename));
+
+  const metrics = [...new Set(allFiles.map(f => f.metric).filter(Boolean))].sort();
+  const msel = document.getElementById('metric-select');
+  msel.innerHTML = ['ALL', ...metrics]
+    .map(m => `<option value="${m}">${m}</option>`).join('');
+  msel.selectedIndex = 0;
+
+  refreshList();
+}
+
+// ── Filtering ─────────────────────────────────────────────────────────────
+function setMethod(el) {
+  document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+  el.classList.add('active');
+  currentMethod = el.dataset.m;
+  refreshList();
+}
+
+function refreshList() {
+  const metric = document.getElementById('metric-select').value || 'ALL';
+  const filtered = allFiles.filter(f => {
+    if (currentMethod !== 'ALL' && f.method !== currentMethod) return false;
+    if (metric !== 'ALL' && f.metric !== metric) return false;
+    return true;
+  });
+
+  const list = document.getElementById('file-list');
+  list.innerHTML = filtered
+    .map((f, i) => `<div class="file-item" data-i="${i}" onclick="selectFile(${i})">${esc(f.display)}</div>`)
+    .join('');
+  document.getElementById('file-count').textContent =
+    `${filtered.length} file${filtered.length !== 1 ? 's' : ''}`;
+
+  // Store filtered list for selectFile()
+  list._filtered = filtered;
+  if (filtered.length) selectFile(0);
+}
+
+// ── PDF viewer ────────────────────────────────────────────────────────────
+function selectFile(i) {
+  const list = document.getElementById('file-list');
+  const filtered = list._filtered || [];
+  const f = filtered[i];
+  if (!f) return;
+
+  document.querySelectorAll('.file-item').forEach(el => el.classList.remove('selected'));
+  const el = document.querySelector(`.file-item[data-i="${i}"]`);
+  if (el) el.classList.add('selected');
+
+  if (currentBlobUrl) URL.revokeObjectURL(currentBlobUrl);
+  currentBlobUrl = URL.createObjectURL(f.file);
+
+  document.getElementById('pdf-filename').textContent = f.filename;
+  document.getElementById('pdf-placeholder').style.display = 'none';
+  const frame = document.getElementById('pdf-frame');
+  frame.style.display = 'block';
+  frame.src = currentBlobUrl;
+}
+
+function openInTab() {
+  if (currentBlobUrl) window.open(currentBlobUrl, '_blank');
+}
+
+// ── Utility ───────────────────────────────────────────────────────────────
+const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+</script>
+</body>
+</html>
