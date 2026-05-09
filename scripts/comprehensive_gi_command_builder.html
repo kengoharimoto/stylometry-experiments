@@ -110,6 +110,11 @@
       grid-template-columns: 1fr 1fr;
       gap: 12px;
     }
+    .cols-4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 12px;
+    }
     .checkbox-row {
       display: flex;
       gap: 24px;
@@ -146,7 +151,7 @@
     }
 
     @media (max-width: 700px) {
-      .top-row, .cols-3, .cols-2 { grid-template-columns: 1fr; }
+      .top-row, .cols-4, .cols-3, .cols-2 { grid-template-columns: 1fr; }
       .full-width { grid-column: auto; }
     }
   </style>
@@ -202,7 +207,7 @@
         </div>
       </div>
 
-      <div class="cols-3 row">
+      <div class="cols-2 row">
         <div>
           <label for="featureSampleRate">Feature sample rate</label>
           <input id="featureSampleRate" type="number" min="0.01" max="1" step="0.01" value="0.5" />
@@ -211,20 +216,31 @@
           <label for="imposterSampleRate">Imposter sample rate</label>
           <input id="imposterSampleRate" type="number" min="0.01" max="1" step="0.01" value="0.5" />
         </div>
-        <div>
-          <label for="iterations">Iterations</label>
-          <input id="iterations" type="number" min="1" step="1" value="100" />
-        </div>
       </div>
 
-      <div class="cols-3 row">
+      <div class="cols-4 row">
         <div>
           <label for="featureCountTrigrams">Feature count trigrams</label>
           <input id="featureCountTrigrams" type="number" min="1" step="1" value="2000" />
         </div>
         <div>
           <label for="featureCountUnigrams">Feature count unigrams</label>
-          <input id="featureCountUnigrams" type="number" min="1" step="1" value="2000" />
+          <input id="featureCountUnigrams" type="number" min="1" step="1" value="200" />
+        </div>
+        <div>
+          <label for="minImposterFeatureMultiplier">Min imposter feature multiplier</label>
+          <input id="minImposterFeatureMultiplier" type="number" min="0" step="0.5" value="1" />
+        </div>
+        <div>
+          <label for="maxImposters">Max imposters (blank = unlimited)</label>
+          <input id="maxImposters" type="number" min="1" step="1" placeholder="unlimited" />
+        </div>
+      </div>
+
+      <div class="cols-3 row">
+        <div>
+          <label for="iterations">Iterations</label>
+          <input id="iterations" type="number" min="1" step="1" value="100" />
         </div>
         <div>
           <label for="diagnosticTopN">Diagnostic top N</label>
@@ -284,6 +300,8 @@
       imposterSampleRate: document.getElementById("imposterSampleRate"),
       featureCountTrigrams: document.getElementById("featureCountTrigrams"),
       featureCountUnigrams: document.getElementById("featureCountUnigrams"),
+      minImposterFeatureMultiplier: document.getElementById("minImposterFeatureMultiplier"),
+      maxImposters: document.getElementById("maxImposters"),
       iterations: document.getElementById("iterations"),
       diagnosticMode: document.getElementById("diagnosticMode"),
       diagnosticTopN: document.getElementById("diagnosticTopN"),
@@ -296,6 +314,16 @@
 
     let corpusNames = [];
     let featureSetFileName = "";
+
+    function repoRoot() {
+      const scriptPath = els.scriptPath.value.trim();
+      if (!scriptPath) return "";
+      const lastSlash = scriptPath.lastIndexOf("/");
+      if (lastSlash < 0) return "";
+      const scriptsDir = scriptPath.substring(0, lastSlash);
+      const parentSlash = scriptsDir.lastIndexOf("/");
+      return parentSlash >= 0 ? scriptsDir.substring(0, parentSlash + 1) : "";
+    }
 
     function shellQuote(s) {
       if (!s || s.length === 0) return "''";
@@ -345,13 +373,21 @@
       if (els.candidateRegex.value.trim()) flags.push(`--candidate-regex=${shellQuote(els.candidateRegex.value.trim())}`);
       if (excludeImposters) flags.push(`--exclude-imposters=${shellQuote(excludeImposters)}`);
       if (els.excludeImpostersRegex.value.trim()) flags.push(`--exclude-imposters-regex=${shellQuote(els.excludeImpostersRegex.value.trim())}`);
-      if (featureSetFileName) flags.push(`--feature-set=${shellQuote("materials/feature_sets/" + featureSetFileName)}`);
+      if (featureSetFileName) flags.push(`--feature-set=${shellQuote(repoRoot() + "materials/feature_sets/" + featureSetFileName)}`);
       if (els.runNote.value.trim()) flags.push(`--note=${shellQuote(els.runNote.value.trim())}`);
 
       flags.push(`--feature-sample-rate=${shellQuote(String(els.featureSampleRate.value))}`);
       flags.push(`--imposter-sample-rate=${shellQuote(String(els.imposterSampleRate.value))}`);
       flags.push(`--feature-count-trigrams=${shellQuote(String(parseInt(els.featureCountTrigrams.value || "0", 10)))}`);
       flags.push(`--feature-count-unigrams=${shellQuote(String(parseInt(els.featureCountUnigrams.value || "0", 10)))}`);
+      const multiplier = parseFloat(els.minImposterFeatureMultiplier.value);
+      if (!isNaN(multiplier) && multiplier !== 1.0) {
+        flags.push(`--min-imposter-feature-multiplier=${shellQuote(String(multiplier))}`);
+      }
+      const maxImp = parseInt(els.maxImposters.value, 10);
+      if (!isNaN(maxImp) && maxImp > 0) {
+        flags.push(`--max-imposters=${shellQuote(String(maxImp))}`);
+      }
       flags.push(`--iterations=${shellQuote(String(parseInt(els.iterations.value || "0", 10)))}`);
 
       if (els.diagnosticMode.checked) {
@@ -421,6 +457,8 @@
       els.imposterSampleRate,
       els.featureCountTrigrams,
       els.featureCountUnigrams,
+      els.minImposterFeatureMultiplier,
+      els.maxImposters,
       els.iterations,
       els.diagnosticMode,
       els.diagnosticTopN,

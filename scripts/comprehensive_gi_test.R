@@ -19,6 +19,20 @@
 #   --exclude-imposters-regex='pattern'
 #   --exclude-imposter-regex='pattern'
 #
+# Imposter pool size cap:
+#   --max-imposters=N
+#     Randomly draw N texts from the eligible imposter pool before running
+#     iterations.  Applied after name/regex and feature-size filters.
+#     Applied independently for trigrams and word unigrams.
+#     Recommended: 30-50 to keep GI scores meaningful with large corpora.
+#
+# Minimum imposter feature size:
+#   --min-imposter-feature-multiplier=N  (default 1.0)
+#     Exclude imposters whose unique feature vocabulary is smaller than
+#     N * feature-count.  Set to 2.0 to require at least twice the MFW
+#     as vocabulary.  Set to 0 to disable filtering entirely.
+#     Applied independently for trigrams and word unigrams.
+#
 # Diagnostic flags supported:
 #   --diagnostic-mode
 #   --diagnostic-top-n=10
@@ -55,6 +69,8 @@ DIAGNOSTIC_TOP_N <- 10
 FEATURE_SET_FILE <- NULL
 LOG_NOTE <- ""
 USE_BUILTIN <- FALSE
+MIN_IMPOSTER_FEATURE_MULTIPLIER <- 1.0
+MAX_IMPOSTERS <- Inf
 
 normalize_name <- function(x) {
     sub("\\.[^.]+$", "", x)
@@ -146,6 +162,12 @@ for (a in args) {
     if (a == "--use-builtin") {
         USE_BUILTIN <- TRUE
     }
+    if (grepl("^--min-imposter-feature-multiplier=", a)) {
+        MIN_IMPOSTER_FEATURE_MULTIPLIER <- as.numeric(sub("^--min-imposter-feature-multiplier=", "", a))
+    }
+    if (grepl("^--max-imposters=", a)) {
+        MAX_IMPOSTERS <- as.integer(sub("^--max-imposters=", "", a))
+    }
     if (grepl("^--corpus-dir=", a)) {
         CORPUS_DIR <- sub("^--corpus-dir=", "", a)
     }
@@ -188,6 +210,12 @@ if (!is.finite(DIAGNOSTIC_TOP_N) || DIAGNOSTIC_TOP_N <= 0) {
 }
 if (!is.null(FEATURE_SET_FILE) && !nzchar(trimws(FEATURE_SET_FILE))) {
     stop("--feature-set cannot be empty")
+}
+if (!is.finite(MIN_IMPOSTER_FEATURE_MULTIPLIER) || MIN_IMPOSTER_FEATURE_MULTIPLIER < 0) {
+    stop("--min-imposter-feature-multiplier must be a non-negative number (0 = no filtering)")
+}
+if (!is.infinite(MAX_IMPOSTERS) && (!is.finite(MAX_IMPOSTERS) || MAX_IMPOSTERS < 1)) {
+    stop("--max-imposters must be a positive integer")
 }
 
 read_feature_set <- function(path) {
@@ -247,9 +275,38 @@ if (nzchar(trimws(LOG_NOTE))) {
 # FUNCTIONS
 # ================================================
 
+load_corpus_cached <- function(corpus_dir, ngram_type, ngram_size) {
+    cache_path <- file.path(corpus_dir,
+        sprintf(".cache_%s%d.rds", ngram_type, ngram_size))
+    corpus_files <- list.files(corpus_dir, pattern = "\\.txt$", full.names = TRUE)
+    current_names <- sort(sub("\\.txt$", "", basename(corpus_files)))
+    newest_input <- if (length(corpus_files) > 0) max(file.mtime(corpus_files)) else -Inf
+    cache_valid <- FALSE
+    if (file.exists(cache_path) && file.mtime(cache_path) > newest_input) {
+        cached <- readRDS(cache_path)
+        cached_names <- sort(names(cached))
+        cache_valid <- identical(current_names, cached_names)
+        if (cache_valid) {
+            cat("  (cache hit:", basename(cache_path), ")\n")
+            return(cached)
+        }
+        cat("  (cache stale: corpus membership changed, rebuilding)\n")
+    }
+    parsed <- load.corpus.and.parse(corpus.dir = corpus_dir,
+                                    ngram.type = ngram_type, ngram.size = ngram_size)
+    saveRDS(parsed, cache_path)
+    cat("  (cache written:", basename(cache_path), ")\n")
+    parsed
+}
+
+compute_vocab_sizes <- function(corpus_dir, ngram_type, ngram_size) {
+    raw <- load_corpus_cached(corpus_dir, ngram_type, ngram_size)
+    sapply(raw, function(tokens) length(unique(tokens)))
+}
+
 load_ngram_freq_table <- function(ngram_type, ngram_size, label, exclude_from_features, feature_count) {
     cat("\nLoading", label, "corpus...\n")
-    raw_full <- load.corpus.and.parse(corpus.dir = CORPUS_DIR, ngram.type = ngram_type, ngram.size = ngram_size)
+    raw_full <- load_corpus_cached(CORPUS_DIR, ngram_type, ngram_size)
     for_exclude <- names(raw_full) %in% exclude_from_features
     non_query <- raw_full[!for_exclude]
     cat("Excluding target from frequency list construction...\n")
@@ -261,7 +318,7 @@ load_ngram_freq_table <- function(ngram_type, ngram_size, label, exclude_from_fe
 
 load_unigram_freq_table_from_feature_set <- function(exclude_from_features, feature_set_tokens) {
     cat("\nLoading word unigram corpus...\n")
-    raw_full <- load.corpus.and.parse(corpus.dir = CORPUS_DIR, ngram.type = "w", ngram.size = 1)
+    raw_full <- load_corpus_cached(CORPUS_DIR, "w", 1)
     for_exclude <- names(raw_full) %in% exclude_from_features
     non_query <- raw_full[!for_exclude]
     available_features <- unique(unlist(non_query, use.names = FALSE))
@@ -661,6 +718,8 @@ cat("FEATURE_SAMPLE_RATE:", FEATURE_SAMPLE_RATE, sprintf("(%.0f%%)\n", FEATURE_S
 cat("IMPOSTER_SAMPLE_RATE:", IMPOSTER_SAMPLE_RATE, sprintf("(%.0f%%)\n", IMPOSTER_SAMPLE_RATE * 100))
 cat("DIAGNOSTIC_MODE:", DIAGNOSTIC_MODE, "\n")
 cat("USE_BUILTIN:", USE_BUILTIN, "\n")
+cat("MIN_IMPOSTER_FEATURE_MULTIPLIER:", MIN_IMPOSTER_FEATURE_MULTIPLIER, "\n")
+cat("MAX_IMPOSTERS:", if (is.finite(MAX_IMPOSTERS)) MAX_IMPOSTERS else "unlimited", "\n")
 if (DIAGNOSTIC_MODE) {
     cat("DIAGNOSTIC_TOP_N:", DIAGNOSTIC_TOP_N, "\n")
 }
@@ -732,6 +791,50 @@ excluded_imposters_regex <- match_texts_by_regex(imposter_rows_base, cli_imposte
 excluded_imposters <- unique(c(excluded_imposters_exact, excluded_imposters_regex))
 imposter_rows <- setdiff(imposter_rows_base, excluded_imposters)
 
+# Filter imposters by minimum vocabulary size (independently per feature type)
+imposter_rows_trigrams <- imposter_rows
+imposter_rows_unigrams <- imposter_rows
+excluded_imposters_small_tri <- character(0)
+excluded_imposters_small_uni <- character(0)
+
+if (MIN_IMPOSTER_FEATURE_MULTIPLIER > 0) {
+    if (RUN_TRIGRAM_TESTS) {
+        cat("\nComputing trigram vocabulary sizes for imposter filtering...\n")
+        tri_vocab <- compute_vocab_sizes(CORPUS_DIR, "c", 3)
+        tri_threshold <- FEATURE_COUNT_TRIGRAMS * MIN_IMPOSTER_FEATURE_MULTIPLIER
+        excluded_imposters_small_tri <- imposter_rows[
+            tri_vocab[imposter_rows] < tri_threshold
+        ]
+        imposter_rows_trigrams <- setdiff(imposter_rows, excluded_imposters_small_tri)
+        cat("  Trigram threshold:", tri_threshold, "(=", FEATURE_COUNT_TRIGRAMS, "*",
+            MIN_IMPOSTER_FEATURE_MULTIPLIER, ")\n")
+        cat("  Imposters removed (too few trigram features):", length(excluded_imposters_small_tri), "\n")
+    }
+
+    cat("\nComputing unigram vocabulary sizes for imposter filtering...\n")
+    uni_vocab <- compute_vocab_sizes(CORPUS_DIR, "w", 1)
+    uni_threshold <- FEATURE_COUNT_UNIGRAMS * MIN_IMPOSTER_FEATURE_MULTIPLIER
+    excluded_imposters_small_uni <- imposter_rows[
+        uni_vocab[imposter_rows] < uni_threshold
+    ]
+    imposter_rows_unigrams <- setdiff(imposter_rows, excluded_imposters_small_uni)
+    cat("  Unigram threshold:", uni_threshold, "(=", FEATURE_COUNT_UNIGRAMS, "*",
+        MIN_IMPOSTER_FEATURE_MULTIPLIER, ")\n")
+    cat("  Imposters removed (too few unigram features):", length(excluded_imposters_small_uni), "\n")
+}
+
+# Cap imposter pool size (independently per feature type, random draw without replacement)
+if (is.finite(MAX_IMPOSTERS)) {
+    if (length(imposter_rows_trigrams) > MAX_IMPOSTERS) {
+        imposter_rows_trigrams <- sample(imposter_rows_trigrams, MAX_IMPOSTERS)
+        cat("\nTrigram imposter pool capped to", MAX_IMPOSTERS, "texts (--max-imposters).\n")
+    }
+    if (length(imposter_rows_unigrams) > MAX_IMPOSTERS) {
+        imposter_rows_unigrams <- sample(imposter_rows_unigrams, MAX_IMPOSTERS)
+        cat("Unigram imposter pool capped to", MAX_IMPOSTERS, "texts (--max-imposters).\n")
+    }
+}
+
 cat("\n========================================\n")
 cat("CORPUS BREAKDOWN:\n")
 cat("========================================\n")
@@ -739,8 +842,12 @@ cat("Target:", TARGET_NAME, "\n")
 cat("Candidate(s):", paste(candidate_rows, collapse = ", "), "\n")
 cat("Candidate exact-name selection count:", length(candidate_names_exact), "\n")
 cat("Candidate regex-matched count:", length(candidate_names_regex), "\n")
-cat("Imposter texts:", length(imposter_rows), "\n")
-cat("Excluded imposters:", length(excluded_imposters), "\n")
+cat("Imposter texts (before size filter):", length(imposter_rows), "\n")
+cat("Excluded imposters (by name/regex):", length(excluded_imposters), "\n")
+if (RUN_TRIGRAM_TESTS) {
+    cat("Imposter texts for trigram tests:", length(imposter_rows_trigrams), "\n")
+}
+cat("Imposter texts for unigram tests:", length(imposter_rows_unigrams), "\n")
 cat("Total texts:", length(all_texts), "\n\n")
 
 cat("========================================\n")
@@ -792,9 +899,36 @@ if (length(excluded_imposters) > 0) {
 } else {
     cat("  (none)\n")
 }
-cat("Imposters (", length(imposter_rows), "):\n", sep = "")
-for (nm in imposter_rows) {
-    cat("  -", nm, "\n")
+if (MIN_IMPOSTER_FEATURE_MULTIPLIER > 0) {
+    if (RUN_TRIGRAM_TESTS) {
+        cat("Imposters removed (trigrams too small, threshold=",
+            FEATURE_COUNT_TRIGRAMS * MIN_IMPOSTER_FEATURE_MULTIPLIER, ") (",
+            length(excluded_imposters_small_tri), "):\n", sep = "")
+        if (length(excluded_imposters_small_tri) > 0) {
+            for (nm in excluded_imposters_small_tri) cat("  -", nm, "\n")
+        } else {
+            cat("  (none)\n")
+        }
+    }
+    cat("Imposters removed (unigrams too small, threshold=",
+        FEATURE_COUNT_UNIGRAMS * MIN_IMPOSTER_FEATURE_MULTIPLIER, ") (",
+        length(excluded_imposters_small_uni), "):\n", sep = "")
+    if (length(excluded_imposters_small_uni) > 0) {
+        for (nm in excluded_imposters_small_uni) cat("  -", nm, "\n")
+    } else {
+        cat("  (none)\n")
+    }
+}
+if (RUN_TRIGRAM_TESTS) {
+    cat("Imposters for trigram tests (", length(imposter_rows_trigrams), "):\n", sep = "")
+    for (nm in imposter_rows_trigrams) cat("  -", nm, "\n")
+    cat("Imposters for unigram tests (", length(imposter_rows_unigrams), "):\n", sep = "")
+    for (nm in imposter_rows_unigrams) cat("  -", nm, "\n")
+} else {
+    cat("Imposters (", length(imposter_rows_unigrams), "):\n", sep = "")
+    for (nm in imposter_rows_unigrams) {
+        cat("  -", nm, "\n")
+    }
 }
 cat("\n")
 
@@ -832,13 +966,14 @@ if (USE_BUILTIN && DIAGNOSTIC_MODE) {
 all_results <- list()
 for (config in test_configs) {
     freq_table <- if (config$ngram == "trigrams") freq_table_trigrams else freq_table_unigrams
+    current_imposter_rows <- if (config$ngram == "trigrams") imposter_rows_trigrams else imposter_rows_unigrams
 
     if (USE_BUILTIN) {
         result <- run_gi_test_builtin(
             freq_table = freq_table,
             target_name = TARGET_NAME,
             candidate_rows = candidate_rows,
-            imposter_rows = imposter_rows,
+            imposter_rows = current_imposter_rows,
             distance_name = config$distance_name,
             setup_name = config$name
         )
@@ -847,7 +982,7 @@ for (config in test_configs) {
             freq_table = freq_table,
             target_name = TARGET_NAME,
             candidate_rows = candidate_rows,
-            imposter_rows = imposter_rows,
+            imposter_rows = current_imposter_rows,
             distance_func = config$dist_func,
             setup_name = config$name,
             diagnostic_mode = DIAGNOSTIC_MODE,
@@ -939,6 +1074,8 @@ cat("\n========================================\n")
 cat("All tests completed!\n")
 cat("========================================\n")
 
+timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
+
 results_csv <- data.frame(
     Setup = sapply(all_results, function(x) x$setup),
     Score = sapply(all_results, function(x) x$score),
@@ -947,7 +1084,20 @@ results_csv <- data.frame(
     Total = sapply(all_results, function(x) x$total),
     stringsAsFactors = FALSE
 )
-output_file <- file.path(OUTPUT_DIR, paste0("gi_results_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".csv"))
+output_file <- file.path(OUTPUT_DIR, paste0("gi_results_", timestamp, ".csv"))
 write.csv(results_csv, output_file, row.names = FALSE)
+
+iterations_csv_list <- lapply(all_results, function(x) {
+    if (is.null(x$iteration_log) || nrow(x$iteration_log) == 0) return(NULL)
+    cbind(Setup = x$setup, x$iteration_log, stringsAsFactors = FALSE)
+})
+iterations_csv_list <- Filter(Negate(is.null), iterations_csv_list)
+if (length(iterations_csv_list) > 0) {
+    iterations_csv <- do.call(rbind, iterations_csv_list)
+    iterations_file <- file.path(OUTPUT_DIR, paste0("gi_iterations_", timestamp, ".csv"))
+    write.csv(iterations_csv, iterations_file, row.names = FALSE)
+    cat("\nIteration log saved to:", iterations_file, "\n")
+}
+
 cat("\nResults saved to:", output_file, "\n")
 cat("Log saved to:", log_file, "\n")

@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Delta NN Command Builder</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --accent: #0f766e;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 24px auto;
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+    }
+    h1 { margin: 0 0 14px; font-size: 20px; }
+    h2 { margin: 0 0 10px; font-size: 14px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .row { margin-bottom: 10px; }
+    label { display: block; font-size: 13px; margin-bottom: 4px; color: var(--muted); }
+    input[type="text"], input[type="number"], textarea, select {
+      width: 100%; box-sizing: border-box;
+      border: 1px solid var(--border); border-radius: 8px;
+      padding: 8px; font-size: 13px; background: #fff; color: var(--text);
+    }
+    select[multiple] { height: 120px; }
+    .btn {
+      border: 1px solid var(--border); border-radius: 8px;
+      background: #fff; color: var(--text);
+      padding: 8px 14px; font-size: 13px; cursor: pointer;
+    }
+    .btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .muted { color: var(--muted); font-size: 12px; }
+    .status { margin-top: 6px; font-size: 12px; color: var(--muted); white-space: pre-wrap; }
+    .cols-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .cols-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+    .cols-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 12px; }
+    .command-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+    .command-header h2 { margin: 0; }
+    .command-actions { display: flex; gap: 8px; }
+    #command {
+      height: 100px;
+      font-family: ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 12px; white-space: pre; resize: vertical;
+    }
+    @media (max-width: 700px) {
+      .cols-4, .cols-3, .cols-2 { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <section class="card">
+      <h1>Delta Nearest-Neighbor Command Builder</h1>
+      <p class="muted" style="margin: 0 0 14px;">Ranks all corpus texts by stylistic distance from the target across multiple feature types and distance measures. Reports each candidate's rank and aggregates across configurations. Deterministic — no imposter pool or random sampling.</p>
+
+      <div class="cols-2 row">
+        <div>
+          <label for="scriptPath">Script path</label>
+          <input id="scriptPath" type="text" value="scripts/delta_nn_test.R" />
+        </div>
+        <div>
+          <label for="corpusDir">Corpus directory path</label>
+          <input id="corpusDir" type="text" placeholder="corpus/gi" />
+        </div>
+        <div>
+          <label>Corpus folder (.txt files)</label>
+          <input id="corpusPicker" type="file" webkitdirectory directory multiple />
+          <div id="corpusStatus" class="status">No folder loaded.</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <label for="target">Target</label>
+        <select id="target"></select>
+      </div>
+
+      <div class="cols-2 row">
+        <div>
+          <label for="candidates">Candidates (multi-select)</label>
+          <select id="candidates" multiple></select>
+        </div>
+        <div>
+          <label for="excludeTexts">Exclude from ranking (multi-select)</label>
+          <select id="excludeTexts" multiple></select>
+        </div>
+      </div>
+
+      <div class="cols-2 row">
+        <div>
+          <label for="candidateRegex">Candidate regex (optional)</label>
+          <input id="candidateRegex" type="text" value="" />
+        </div>
+        <div>
+          <label for="excludeRegex">Exclude regex (optional)</label>
+          <input id="excludeRegex" type="text" value="" />
+        </div>
+      </div>
+
+      <div class="cols-4 row">
+        <div>
+          <label for="featureCountTrigrams">Feature count trigrams</label>
+          <input id="featureCountTrigrams" type="number" min="1" step="1" value="2000" />
+        </div>
+        <div>
+          <label for="featureCountUnigrams">Feature count unigrams</label>
+          <input id="featureCountUnigrams" type="number" min="1" step="1" value="200" />
+        </div>
+        <div>
+          <label for="topN">Top N results shown</label>
+          <input id="topN" type="number" min="1" step="1" value="10" />
+        </div>
+        <div>
+          <label for="runNote">Run note (optional)</label>
+          <input id="runNote" type="text" value="" />
+        </div>
+      </div>
+
+      <div class="cols-2 row">
+        <div>
+          <label>Feature-set file (optional — disables trigram tests)</label>
+          <input id="featureSetPicker" type="file" accept=".txt" />
+          <div id="featureSetStatus" class="status">No file selected.</div>
+        </div>
+      </div>
+
+      <div class="muted">Tip: hold Cmd/Ctrl to multi-select in list boxes.</div>
+    </section>
+
+    <section class="card">
+      <div class="command-header">
+        <h2>Generated Command</h2>
+        <div class="command-actions">
+          <button class="btn" id="refreshBtn" type="button">Refresh</button>
+          <button class="btn primary" id="copyBtn" type="button">Copy Command</button>
+        </div>
+      </div>
+      <textarea id="command" readonly></textarea>
+      <div id="copyStatus" class="status"></div>
+    </section>
+  </div>
+
+  <script>
+    const els = {
+      scriptPath:            document.getElementById("scriptPath"),
+      corpusDir:             document.getElementById("corpusDir"),
+      corpusPicker:          document.getElementById("corpusPicker"),
+      corpusStatus:          document.getElementById("corpusStatus"),
+      target:                document.getElementById("target"),
+      candidates:            document.getElementById("candidates"),
+      candidateRegex:        document.getElementById("candidateRegex"),
+      excludeTexts:          document.getElementById("excludeTexts"),
+      excludeRegex:          document.getElementById("excludeRegex"),
+      featureSetPicker:      document.getElementById("featureSetPicker"),
+      featureSetStatus:      document.getElementById("featureSetStatus"),
+      runNote:               document.getElementById("runNote"),
+      featureCountTrigrams:  document.getElementById("featureCountTrigrams"),
+      featureCountUnigrams:  document.getElementById("featureCountUnigrams"),
+      topN:                  document.getElementById("topN"),
+      refreshBtn:            document.getElementById("refreshBtn"),
+      copyBtn:               document.getElementById("copyBtn"),
+      command:               document.getElementById("command"),
+      copyStatus:            document.getElementById("copyStatus")
+    };
+
+    let corpusNames = [];
+    let featureSetFileName = "";
+
+    function repoRoot() {
+      const scriptPath = els.scriptPath.value.trim();
+      if (!scriptPath) return "";
+      const lastSlash = scriptPath.lastIndexOf("/");
+      if (lastSlash < 0) return "";
+      const scriptsDir = scriptPath.substring(0, lastSlash);
+      const parentSlash = scriptsDir.lastIndexOf("/");
+      return parentSlash >= 0 ? scriptsDir.substring(0, parentSlash + 1) : "";
+    }
+
+    function shellQuote(s) {
+      if (!s || s.length === 0) return "''";
+      return "'" + s.replace(/'/g, "'\\''") + "'";
+    }
+
+    function selectedValues(selectEl) {
+      return Array.from(selectEl.selectedOptions).map(o => o.value).filter(Boolean);
+    }
+
+    function setSelectOptions(selectEl, values, selected = []) {
+      const sel = new Set(selected);
+      selectEl.innerHTML = "";
+      values.forEach(v => {
+        const opt = document.createElement("option");
+        opt.value = v; opt.textContent = v;
+        if (sel.has(v)) opt.selected = true;
+        selectEl.appendChild(opt);
+      });
+    }
+
+    function updateLists() {
+      const target = els.target.value;
+      const candidatesCurrent = selectedValues(els.candidates);
+      const excludeCurrent    = selectedValues(els.excludeTexts);
+
+      setSelectOptions(els.target, corpusNames, target ? [target] : []);
+
+      const nonTarget = corpusNames.filter(x => x !== els.target.value);
+      setSelectOptions(els.candidates, nonTarget, candidatesCurrent.filter(x => nonTarget.includes(x)));
+
+      const excludeChoices = corpusNames.filter(x => x !== els.target.value && !selectedValues(els.candidates).includes(x));
+      setSelectOptions(els.excludeTexts, excludeChoices, excludeCurrent.filter(x => excludeChoices.includes(x)));
+    }
+
+    function buildCommand() {
+      const flags = [];
+      const target     = els.target.value.trim();
+      const candidates = selectedValues(els.candidates).join(",");
+      const excludes   = selectedValues(els.excludeTexts).join(",");
+
+      if (els.corpusDir.value.trim())       flags.push(`--corpus-dir=${shellQuote(els.corpusDir.value.trim())}`);
+      if (target)                            flags.push(`--target=${shellQuote(target)}`);
+      if (candidates)                        flags.push(`--candidates=${shellQuote(candidates)}`);
+      if (els.candidateRegex.value.trim())   flags.push(`--candidate-regex=${shellQuote(els.candidateRegex.value.trim())}`);
+      if (excludes)                          flags.push(`--exclude=${shellQuote(excludes)}`);
+      if (els.excludeRegex.value.trim())     flags.push(`--exclude-regex=${shellQuote(els.excludeRegex.value.trim())}`);
+      if (featureSetFileName)                flags.push(`--feature-set=${shellQuote(repoRoot() + "materials/feature_sets/" + featureSetFileName)}`);
+      if (els.runNote.value.trim())          flags.push(`--note=${shellQuote(els.runNote.value.trim())}`);
+
+      flags.push(`--feature-count-trigrams=${shellQuote(String(parseInt(els.featureCountTrigrams.value || "0", 10)))}`);
+      flags.push(`--feature-count-unigrams=${shellQuote(String(parseInt(els.featureCountUnigrams.value || "0", 10)))}`);
+
+      const topN = parseInt(els.topN.value, 10);
+      if (!isNaN(topN) && topN !== 10) flags.push(`--top-n=${shellQuote(String(topN))}`);
+
+      els.command.value = `Rscript ${shellQuote(els.scriptPath.value.trim())} ${flags.join(" ")}`.trim();
+    }
+
+    function loadCorpusFromFolder(fileList) {
+      const names = new Set();
+      for (const f of fileList) {
+        if (!f.name.toLowerCase().endsWith(".txt")) continue;
+        const base = f.name.replace(/\.[^.]+$/, "");
+        if (base) names.add(base);
+      }
+      corpusNames = Array.from(names).sort((a, b) => a.localeCompare(b));
+      els.corpusStatus.textContent = corpusNames.length > 0
+        ? `Loaded ${corpusNames.length} text names from selected folder.`
+        : "No .txt files detected in selected folder.";
+      updateLists();
+      buildCommand();
+    }
+
+    els.corpusDir.addEventListener("paste", (e) => {
+      const pasted = (e.clipboardData || window.clipboardData).getData("text");
+      if (/^\s*Rscript\b/.test(pasted)) {
+        e.preventDefault();
+        els.corpusDir.value = "";
+        els.corpusDir.placeholder = "Paste blocked — looks like a command, not a path";
+        setTimeout(() => { els.corpusDir.placeholder = "corpus/gi"; }, 3000);
+      }
+    });
+
+    els.corpusPicker.addEventListener("change", (e) => loadCorpusFromFolder(e.target.files || []));
+
+    els.featureSetPicker.addEventListener("change", (e) => {
+      const file = e.target.files && e.target.files[0];
+      featureSetFileName = file ? file.name : "";
+      els.featureSetStatus.textContent = file ? `Selected: ${file.name}` : "No file selected.";
+      buildCommand();
+    });
+
+    [
+      els.scriptPath, els.corpusDir,
+      els.candidateRegex, els.excludeRegex,
+      els.runNote,
+      els.featureCountTrigrams, els.featureCountUnigrams, els.topN
+    ].forEach(el => el.addEventListener("input", buildCommand));
+
+    els.target.addEventListener("change",     () => { updateLists(); buildCommand(); });
+    els.candidates.addEventListener("change", () => { updateLists(); buildCommand(); });
+    els.excludeTexts.addEventListener("change", buildCommand);
+    els.refreshBtn.addEventListener("click", buildCommand);
+
+    els.copyBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(els.command.value);
+        els.copyStatus.textContent = "Command copied to clipboard.";
+      } catch (e) {
+        els.copyStatus.textContent = "Could not copy automatically. Select and copy manually.";
+      }
+    });
+
+    if (window.location.protocol === "file:") {
+      const htmlPath = decodeURIComponent(window.location.pathname);
+      const dir = htmlPath.substring(0, htmlPath.lastIndexOf("/"));
+      els.scriptPath.value = dir + "/delta_nn_test.R";
+    }
+
+    buildCommand();
+  </script>
+</body>
+</html>
