@@ -25,6 +25,16 @@ corpus/**
 !corpus/noroots/
 !corpus/noroots/.gitkeep
 
+# Track epic_puranas directories in full (overrides corpus/** and .DS_Store)
+!corpus/epic_puranas/
+!corpus/epic_puranas/**
+!corpus/epic_puranas_excluded/
+!corpus/epic_puranas_excluded/**
+!corpus/epic_puranas_unsandhied/
+!corpus/epic_puranas_unsandhied/**
+!corpus/epic_puranas_unsandhied_stale_backup/
+!corpus/epic_puranas_unsandhied_stale_backup/**
+
 # Derived outputs
 results/
 csvs/

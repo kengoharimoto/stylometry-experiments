@@ -1,0 +1,1730 @@
+01.01.001/1 janmādyasya yato 'nvayāditarataścārtheṣvabhijñaḥ svarāṭ
+01.01.001/2 tene brahma hṛdā ya ādikavaye muhyanti yat sūrayaḥ
+01.01.001/3 tejovārimṛdāṃ yathā vinimayo yatra trisargo 'mṛṣā
+01.01.001/4 dhāmnā svena sadā nirastakuhakaṃ satyaṃ paraṃ dhīmahi
+01.01.002/1 dharmaḥ projjhitakaitavo 'tra paramo nirmatsarāṇāṃ satāṃ
+01.01.002/2 vedyaṃ vāstavam atra vastu śivadaṃ tāpatrayonmūlanam
+01.01.002/3 śrīmadbhāgavate mahāmunikṛte kiṃ vā parairīśvaraḥ
+01.01.002/4 sadyo hṛdyavarudhyate 'tra kṛtibhiḥ śuśrūṣubhistatkṣaṇāt
+01.01.003/1 nigamakalpatarorgalitaṃ phalaṃ
+01.01.003/2 śukamukhādamṛtadravasaṃyutam
+01.01.003/3 pibata bhāgavataṃ rasam ālayaṃ
+01.01.003/4 muhuraho rasikā bhuvi bhāvukāḥ
+01.01.004/1 naimiṣe 'nimiṣakṣetre īśayaḥ śaunakādayaḥ
+01.01.004/3 satraṃ svargāya lokāya sahasrasamam āsata
+01.01.005/1 ta ekadā tu munayaḥ prātarhutahutāgnayaḥ
+01.01.005/3 satkṛtaṃ sūtam āsīnaṃ papracchuridam ādarāt
+01.01.006/0 ṛṣaya ūcuḥ
+01.01.006/1 tvayā khalu purāṇāni setihāsāni cānagha
+01.01.006/3 ākhyātānyapyadhītāni dharmaśāstrāṇi yānyuta
+01.01.007/1 yāni vedavidāṃ śreṣṭho bhagavān bādarāyaṇaḥ
+01.01.007/3 anye ca munayaḥ sūta parāvaravido viduḥ
+01.01.008/1 vettha tvaṃ saumya tat sarvaṃ tattvatastadanugrahāt
+01.01.008/3 brūyuḥ snigdhasya śiṣyasya guravo guhyam apyuta
+01.01.009/1 tatra tatrāñjasāyuṣman bhavatā yadviniścitam
+01.01.009/3 puṃsām ekāntataḥ śreyastan naḥ śaṃsitum arhasi
+01.01.010/1 prāyeṇālpāyuṣaḥ sabhya kalāvasmin yuge janāḥ
+01.01.010/3 mandāḥ sumandamatayo mandabhāgyā hyupadrutāḥ
+01.01.011/1 bhūrīṇi bhūrikarmāṇi śrotavyāni vibhāgaśaḥ
+01.01.011/3 ataḥ sādho 'tra yat sāraṃ samuddhṛtya manīṣayā
+01.01.011/5 brūhi bhadrāya bhūtānāṃ yenātmā suprasīdati
+01.01.012/1 sūta jānāsi bhadraṃ te bhagavān sātvatāṃ patiḥ
+01.01.012/3 devakyāṃ vasudevasya jāto yasya cikīrṣayā
+01.01.013/1 tan naḥ śuṣrūṣamāṇānām arhasyaṅgānuvarṇitum
+01.01.013/3 yasyāvatāro bhūtānāṃ kṣemāya ca bhavāya ca
+01.01.014/1 āpannaḥ saṃsṛtiṃ ghorāṃ yannāma vivaśo gṛṇan
+01.01.014/3 tataḥ sadyo vimucyeta yadbibheti svayaṃ bhayam
+01.01.015/1 yatpādasaṃśrayāḥ sūta munayaḥ praśamāyanāḥ
+01.01.015/3 sadyaḥ punantyupaspṛṣṭāḥ svardhunyāpo 'nusevayā
+01.01.016/1 ko vā bhagavatastasya puṇyaślokeḍyakarmaṇaḥ
+01.01.016/3 śuddhikāmo na śṛṇuyādyaśaḥ kalimalāpaham
+01.01.017/1 tasya karmāṇyudārāṇi parigītāni sūribhiḥ
+01.01.017/3 brūhi naḥ śraddadhānānāṃ līlayā dadhataḥ kalāḥ
+01.01.018/1 athākhyāhi harerdhīmann avatārakathāḥ śubhāḥ
+01.01.018/3 īlā vidadhataḥ svairam īśvarasyātmamāyayā
+01.01.019/1 vayaṃ tu na vitṛpyāma uttamaślokavikrame
+01.01.019/3 yacchṛṇvatāṃ rasajñānāṃ svādu svādu pade pade
+01.01.020/1 kṛtavān kila karmāṇi saha rāmeṇa keśavaḥ
+01.01.020/3 atimartyāni bhagavān gūḍhaḥ kapaṭamānuṣaḥ
+01.01.021/1 kalim āgatam ājñāya kṣetre 'smin vaiṣṇave vayam
+01.01.021/3 āsīnā dīrghasatreṇa kathāyāṃ sakṣaṇā hareḥ
+01.01.022/1 tvaṃ naḥ sandarśito dhātrā dustaraṃ nistitīrṣatām
+01.01.022/3 kaliṃ sattvaharaṃ puṃsāṃ karṇadhāra ivārṇavam
+01.01.023/1 brūhi yogeśvare kṛṣṇe brahmaṇye dharmavarmaṇi
+01.01.023/3 svāṃ kāṣṭhām adhunopete dharmaḥ kaṃ śaraṇaṃ gataḥ
+01.02.001/0 vyāsa uvāca
+01.02.001/1 iti sampraśnasaṃhṛṣṭo viprāṇāṃ raumaharśaṇiḥ
+01.02.001/3 pratipūjya vacasteśāṃ pravaktum upacakrame
+01.02.002/0 sūta uvāca
+01.02.002/1 yaṃ pravrajantam anupetam apetakṛtyaṃ dvaipāyano virahakātara ājuhāva
+01.02.002/3 putreti tanmayatayā taravo 'bhinedus taṃ sarvabhūtahṛdayaṃ munim ānato 'smi
+01.02.003/1 yaḥ svānubhāvam akhilaśrutisāram ekam adhyātmadīpam atititīrṣatāṃ tamo 'ndham
+01.02.003/3 saṃsāriṇāṃ karuṇayāha purāṇaguhyaṃ taṃ vyāsasūnum upayāmi guruṃ munīnām
+01.02.004/1 nārāyaṇaṃ namaskṛtya naraṃ caiva narottamam
+01.02.004/3 devīṃ sarasvatīṃ vyāsaṃ tato jayam udīrayet
+01.02.005/1 munayaḥ sādhu pṛṣṭo 'haṃ bhavadbhirlokamaṅgalam
+01.02.005/3 yat kṛtaḥ kṛṣṇasampraśno yenātmā suprasīdati
+01.02.006/2 sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje
+01.02.006/3 ahaitukyapratihatā yayātmā suprasīdati
+01.02.007/1 vāsudeve bhagavati bhaktiyogaḥ prayojitaḥ
+01.02.007/3 janayatyāśu vairāgyaṃ jñānaṃ ca yadahaitukam
+01.02.008/1 dharmaḥ svanuṣṭhitaḥ puṃsāṃ viṣvaksenakathāsu yaḥ
+01.02.008/3 notpādayedyadi ratiṃ śrama eva hi kevalam
+01.02.009/1 dharmasya hyāpavargyasya nārtho 'rthāyopakalpate
+01.02.009/3 nārthasya dharmaikāntasya kāmo lābhāya hi smṛtaḥ
+01.02.010/1 kāmasya nendriyaprītirlābho jīveta yāvatā
+01.02.010/3 jīvasya tattvajijñāsā nārtho yaśceha karmabhiḥ
+01.02.011/1 vadanti tat tattvavidastattvaṃ yaj jñānam advayam
+01.02.011/3 brahmeti paramātmeti bhagavān iti śabdyate
+01.02.012/1 tac chraddadhānā munayo jñānavairāgyayuktayā
+01.02.012/3 paśyantyātmani cātmānaṃ bhaktyā śrutagṛhītayā
+01.02.010/1 ataḥ pumbhirdvijaśreṣṭhā varṇāśramavibhāgaśaḥ
+01.02.013/3 svanuṣṭhitasya dharmasya saṃsiddhirharitoṣaṇam
+01.02.014/1 tasmādekena manasā bhagavān sātvatāṃ patiḥ
+01.02.014/3 śrotavyaḥ kīrtitavyaśca dhyeyaḥ pūjyaśca nityadā
+01.02.015/1 yadanudhyāsinā yuktāḥ karmagranthinibandhanam
+01.02.015/3 chindanti kovidāstasya ko na kuryāt kathāratim
+01.02.016/1 śuśrūṣoḥ śraddadhānasya vāsudevakathāruciḥ
+01.02.016/3 syān mahatsevayā viprāḥ puṇyatīrthaniṣevaṇāt
+01.02.017/1 śṛṇvatāṃ svakathāḥ kṛṣṇaḥ puṇyaśravaṇakīrtanaḥ
+01.02.017/3 hṛdyantaḥstho hyabhadrāṇi vidhunoti suhṛtsatām
+01.02.018/1 naṣṭaprāyeṣvabhadreṣu nityaṃ bhāgavatasevayā
+01.02.018/3 bhagavatyuttamaśloke bhaktirbhavati naiṣṭhikī
+01.02.019/1 tadā rajastamobhāvāḥ kāmalobhādayaśca ye
+01.02.019/3 ceta etairanāviddhaṃ sthitaṃ sattve prasīdati
+01.02.020/1 evaṃ prasannamanaso bhagavadbhaktiyogataḥ
+01.02.020/3 bhagavattattvavijñānaṃ muktasaṅgasya jāyate
+01.02.021/1 bhidyate hṛdayagranthiśchidyante sarvasaṃśayāḥ
+01.02.021/3 kṣīyante cāsya karmāṇi dṛṣṭa evātmanīśvare
+01.02.022/1 ato vai kavayo nityaṃ bhaktiṃ paramayā mudā
+01.02.022/3 vāsudeve bhagavati kurvantyātmaprasādanīm
+01.02.023/1 sattvaṃ rajastama iti prakṛterguṇāstair yuktaḥ paramapuruṣa eka ihāsya dhatte
+01.02.023/3 sthityādaye hariviriñcihareti saṃjñāḥ śreyāṃsi tatra khalu sattvatanornṛṇāṃ syuḥ
+01.02.024/1 pārthivāddāruṇo dhūmastasmādagnistrayīmayaḥ
+01.02.024/3 tamasastu rajastasmāt sattvaṃ yadbrahmadarśanam
+01.02.025/1 bhejire munayo 'thāgre bhagavantam adhokṣajam
+01.02.025/3 sattvaṃ viśuddhaṃ kṣemāya kalpante ye 'nu tān iha
+01.02.026/1 mumukṣavo ghorarūpān hitvā bhūtapatīn atha
+01.02.026/3 nārāyaṇakalāḥ śāntā bhajanti hyanasūyavaḥ
+01.02.027/1 rajastamaḥprakṛtayaḥ samaśīlā bhajanti vai
+01.02.027/3 pitṛbhūtaprajeśādīn śriyaiśvaryaprajepsavaḥ
+01.02.028/1 vāsudevaparā vedā vāsudevaparā makhāḥ
+01.02.028/3 vāsudevaparā yoga vāsudevaparāḥ kriyāḥ
+01.02.029/1 vāsudevaparaṃ jñānaṃ vāsudevaparaṃ tapaḥ
+01.02.029/3 vāsudevaparo dharmo vāsudevaparā gatiḥ
+01.02.030/1 sa evedaṃ sasarjāgre bhagavān ātmamāyayā
+01.02.030/3 sadasadrūpayā cāsau guṇamayāguṇo vibhuḥ
+01.02.031/1 tayā vilasiteṣveṣu guṇeṣu guṇavān iva
+01.02.031/3 antaḥpraviṣṭa ābhāti vijñānena vijṛmbhitaḥ
+01.02.032/1 yathā hyavahito vahnirdāruṣvekaḥ svayoniṣu
+01.02.032/3 nāneva bhāti viśvātmā bhūteṣu ca tathā pumān
+01.02.033/1 asau guṇamayairbhāvairbhūtasūkṣmendriyātmabhiḥ
+01.02.033/3 svanirmiteṣu nirviṣṭo bhuṅkte bhūteṣu tadguṇān
+01.02.034/1 bhāvayatyeṣa sattvena lokān vai lokabhāvanaḥ
+01.02.034/3 līlāvatārānurato devatiryaṅnarādiṣu
+01.03.001/0 sūta uvāca
+01.03.001/1 jagṛhe pauruṣaṃ rūpaṃ bhagavān mahadādibhiḥ
+01.03.001/3 sambhūtaṃ ṣoḍaśakalam ādau lokasisṛkṣayā
+01.03.002/1 yasyāmbhasi śayānasya yoganidrāṃ vitanvataḥ
+01.03.002/3 nābhihradāmbujādāsīdbrahmā viśvasṛjāṃ patiḥ
+01.03.003/1 yasyāvayavasaṃsthānaiḥ kalpito lokavistaraḥ
+01.03.003/3 tadvai bhagavato rūpaṃ viśuddhaṃ sattvam ūrjitam
+01.03.004/1 paśyantyado rūpam adabhracakṣuṣā sahasrapādorubhujānanādbhutam
+01.03.004/3 sahasramūrdhaśravaṇākṣināsikaṃ sahasramaulyambarakuṇḍalollasat
+01.03.005/1 etan nānāvatārāṇāṃ nidhānaṃ bījam avyayam
+01.03.005/3 yasyāṃśāṃśena sṛjyante devatiryaṅnarādayaḥ
+01.03.006/1 sa eva prathamaṃ devaḥ kaumāraṃ sargam āśritaḥ
+01.03.006/3 cacāra duścaraṃ brahmā brahmacaryam akhaṇḍitam
+01.03.007/1 dvitīyaṃ tu bhavāyāsya rasātalagatāṃ mahīm
+01.03.007/3 uddhariṣyann upādatta yajñeśaḥ saukaraṃ vapuḥ
+01.03.008/1 tṛtīyam ṛṣisargaṃ vai devarṣitvam upetya saḥ
+01.03.008/3 tantraṃ sātvatam ācaṣṭa naiṣkarmyaṃ karmaṇāṃ yataḥ
+01.03.009/1 turye dharmakalāsarge naranārāyaṇāvṛṣī
+01.03.009/3 bhūtvātmopaśamopetam akarodduścaraṃ tapaḥ
+01.03.010/1 pañcamaḥ kapilo nāma siddheśaḥ kālaviplutam
+01.03.010/3 provācāsuraye sāṅkhyaṃ tattvagrāmavinirṇayam
+01.03.011/1 ṣaṣṭham atrerapatyatvaṃ vṛtaḥ prāpto 'nasūyayā
+01.03.011/3 ānvīkṣikīm alarkāya prahlādādibhya ūcivān
+01.03.012/1 tataḥ saptama ākūtyāṃ ruceryajño 'bhyajāyata
+01.03.012/3 sa yāmādyaiḥ suragaṇairapāt svāyambhuvāntaram
+01.03.013/1 aṣṭame merudevyāṃ tu nābherjāta urukramaḥ
+01.03.013/3 darśayan vartma dhīrāṇāṃ sarvāśramanamaskṛtam
+01.03.014/1 ṛṣibhiryācito bheje navamaṃ pārthivaṃ vapuḥ
+01.03.014/3 dugdhemām oṣadhīrviprāstenāyaṃ sa uśattamaḥ
+01.03.015/1 rūpaṃ sa jagṛhe mātsyaṃ cākṣuṣodadhisamplave
+01.03.015/3 nāvyāropya mahīmayyām apādvaivasvataṃ manum
+01.03.016/1 surāsurāṇām udadhiṃ mathnatāṃ mandarācalam
+01.03.016/3 dadhre kamaṭharūpeṇa pṛṣṭha ekādaśe vibhuḥ
+01.03.017/1 dhānvantaraṃ dvādaśamaṃ trayodaśamam eva ca
+01.03.017/3 apāyayat surān anyān mohinyā mohayan striyā
+01.03.018/1 caturdaśaṃ nārasiṃhaṃ bibhraddaityendram ūrjitam
+01.03.018/3 dadāra karajairūrāverakāṃ kaṭakṛdyathā
+01.03.019/1 pañcadaśaṃ vāmanakaṃ kṛtvāgādadhvaraṃ baleḥ
+01.03.019/3 padatrayaṃ yācamānaḥ pratyāditsustripiṣṭapam
+01.03.020/1 avatāre ṣoḍaśame paśyan brahmadruho nṛpān
+01.03.020/3 triḥsaptakṛtvaḥ kupito niḥkṣatrām akaron mahīm
+01.03.021/1 tataḥ saptadaśe jātaḥ satyavatyāṃ parāśarāt
+01.03.021/3 cakre vedataroḥ śākhā dṛṣṭvā puṃso 'lpamedhasaḥ
+01.03.022/1 naradevatvam āpannaḥ surakāryacikīrṣayā
+01.03.022/3 samudranigrahādīni cakre vīryāṇyataḥ param
+01.03.023/1 ekonaviṃśe viṃśatime vṛṣṇiṣu prāpya janmanī
+01.03.023/3 rāmakṛṣṇāviti bhuvo bhagavān aharadbharam
+01.03.024/1 tataḥ kalau sampravṛtte sammohāya suradviṣām
+01.03.024/3 buddho nāmnāñjanasutaḥ kīkaṭeṣu bhaviṣyati
+01.03.025/1 athāsau yugasandhyāyāṃ dasyuprāyeṣu rājasu
+01.03.025/3 janitā viṣṇuyaśaso nāmnā kalkirjagatpatiḥ
+01.03.026/1 avatārā hyasaṅkhyeyā hareḥ sattvanidherdvijāḥ
+01.03.026/3 yathāvidāsinaḥ kulyāḥ sarasaḥ syuḥ sahasraśaḥ
+01.03.027/1 ṛṣayo manavo devā manuputrā mahaujasaḥ
+01.03.027/3 kalāḥ sarve harereva saprajāpatayaḥ smṛtāḥ
+01.03.028/1 ete cāṃśakalāḥ puṃsaḥ kṛṣṇastu bhagavān svayam
+01.03.028/3 indrārivyākulaṃ lokaṃ mṛḍayanti yuge yuge
+01.03.029/1 janma guhyaṃ bhagavato ya etat prayato naraḥ
+01.03.029/3 sāyaṃ prātargṛṇan bhaktyā duḥkhagrāmādvimucyate
+01.03.030/1 etadrūpaṃ bhagavato hyarūpasya cidātmanaḥ
+01.03.030/3 māyāguṇairviracitaṃ mahadādibhirātmani
+01.03.031/1 yathā nabhasi meghaugho reṇurvā pārthivo 'nile
+01.03.031/3 evaṃ draṣṭari dṛśyatvam āropitam abuddhibhiḥ
+01.03.032/1 ataḥ paraṃ yadavyaktam avyūḍhaguṇabṛṃhitam
+01.03.032/3 adṛṣṭāśrutavastutvāt sa jīvo yat punarbhavaḥ
+01.03.033/1 yatreme sadasadrūpe pratiṣiddhe svasaṃvidā
+01.03.033/3 avidyayātmani kṛte iti tadbrahmadarśanam
+01.03.034/1 yadyeṣoparatā devī māyā vaiśāradī matiḥ
+01.03.034/3 sampanna eveti vidurmahimni sve mahīyate
+01.03.035/1 evaṃ ca janmāni karmāṇi hyakarturajanasya ca
+01.03.035/3 varṇayanti sma kavayo vedaguhyāni hṛtpateḥ
+01.03.036/1 sa vā idaṃ viśvam amoghalīlaḥ sṛjatyavatyatti na sajjate 'smin
+01.03.036/3 bhūteṣu cāntarhita ātmatantraḥ ṣāḍvargikaṃ jighrati ṣaḍguṇeśaḥ
+01.03.037/1 na cāsya kaścin nipuṇena dhātur avaiti jantuḥ kumanīṣa ūtīḥ
+01.03.037/3 nāmāni rūpāṇi manovacobhiḥ santanvato naṭacaryām ivājñaḥ
+01.03.038/1 sa veda dhātuḥ padavīṃ parasya durantavīryasya rathāṅgapāṇeḥ
+01.03.038/3 yo 'māyayā santatayānuvṛttyā bhajeta tatpādasarojagandham
+01.03.039/1 atheha dhanyā bhagavanta itthaṃ yadvāsudeve 'khilalokanāthe
+01.03.039/3 kurvanti sarvātmakam ātmabhāvaṃ na yatra bhūyaḥ parivarta ugraḥ
+01.03.040/1 idaṃ bhāgavataṃ nāma purāṇaṃ brahmasammitam
+01.03.040/3 uttamaślokacaritaṃ cakāra bhagavān ṛṣiḥ
+01.03.041/1 niḥśreyasāya lokasya dhanyaṃ svastyayanaṃ mahat
+01.03.041/3 tadidaṃ grāhayām āsasutam ātmavatāṃ varam
+01.03.042/1 sarvavedetihāsānāṃ sāraṃ sāraṃ samuddhṛtam
+01.03.042/3 sa tu saṃśrāvayām āsamahārājaṃ parīkṣitam
+01.03.043/1 prāyopaviṣṭaṃ gaṅgāyāṃ parītaṃ paramarṣibhiḥ
+01.03.043/3 kṛṣṇe svadhāmopagate dharmajñānādibhiḥ saha
+01.03.044/1 kalau naṣṭadṛśām eṣa purāṇārko 'dhunoditaḥ
+01.03.044/3 tatra kīrtayato viprā viprarṣerbhūritejasaḥ
+01.03.045/1 ahaṃ cādhyagamaṃ tatra niviṣṭastadanugrahāt
+01.03.045/3 so 'haṃ vaḥ śrāvayiṣyāmi yathādhītaṃ yathāmati
+01.04.001/0 vyāsa uvāca
+01.04.001/1 iti bruvāṇaṃ saṃstūya munīnāṃ dīrghasatriṇām
+01.04.001/3 vṛddhaḥ kulapatiḥ sūtaṃ bahvṛcaḥ śaunako 'bravīt
+01.04.002/0 śaunaka uvāca
+01.04.002/1 sūta sūta mahābhāga vada no vadatāṃ vara
+01.04.002/3 kathāṃ bhāgavatīṃ puṇyāṃ yadāha bhagavāñ chukaḥ
+01.04.003/1 kasmin yuge pravṛtteyaṃ sthāne vā kena hetunā
+01.04.003/3 kutaḥ sañcoditaḥ kṛṣṇaḥ kṛtavān saṃhitāṃ muniḥ
+01.04.004/1 tasya putro mahāyogī samadṛṅ nirvikalpakaḥ
+01.04.004/3 ekāntamatirunnidro gūḍho mūḍha iveyate
+01.04.005/1 dṛṣṭvānuyāntam ṛṣim ātmajam apyanagnaṃ devyo hriyā paridadhurna sutasya citram
+01.04.005/3 tadvīkṣya pṛcchati munau jagadustavāsti strīpumbhidā na tu sutasya viviktadṛṣṭeḥ
+01.04.006/1 katham ālakṣitaḥ pauraiḥ samprāptaḥ kurujāṅgalān
+01.04.006/3 unmattamūkajaḍavadvicaran gajasāhvaye
+01.04.007/1 kathaṃ vā pāṇḍaveyasya rājarṣermuninā saha
+01.04.007/3 saṃvādaḥ samabhūt tāta yatraiṣā sātvatī śrutiḥ
+01.04.008/1 sa godohanamātraṃ hi gṛheṣu gṛhamedhinām
+01.04.008/3 avekṣate mahābhāgastīrthīkurvaṃstadāśramam
+01.04.009/1 abhimanyusutaṃ sūta prāhurbhāgavatottamam
+01.04.009/3 tasya janma mahāścaryaṃ karmāṇi ca gṛṇīhi naḥ
+01.04.010/1 sa samrāṭ kasya vā hetoḥ pāṇḍūnāṃ mānavardhanaḥ
+01.04.010/3 prāyopaviṣṭo gaṅgāyām anādṛtyādhirāṭśriyam
+01.04.011/1 namanti yatpādaniketam ātmanaḥ śivāya hānīya dhanāni śatravaḥ
+01.04.011/3 kathaṃ sa vīraḥ śriyam aṅga dustyajāṃ yuvaiṣatotsraṣṭum aho sahāsubhiḥ
+01.04.012/1 śivāya lokasya bhavāya bhūtaye ya uttamaślokaparāyaṇā janāḥ
+01.04.012/3 jīvanti nātmārtham asau parāśrayaṃ mumoca nirvidya kutaḥ kalevaram
+01.04.013/1 tat sarvaṃ naḥ samācakṣva pṛṣṭo yadiha kiñcana
+01.04.013/3 manye tvāṃ viṣaye vācāṃ snātam anyatra chāndasāt
+01.04.014/0 sūta uvāca
+01.04.014/1 dvāpare samanuprāpte tṛtīye yugaparyaye
+01.04.014/3 jātaḥ parāśarādyogī vāsavyāṃ kalayā hareḥ
+01.04.015/1 sa kadācit sarasvatyā upaspṛśya jalaṃ śuciḥ
+01.04.015/3 vivikta eka āsīna udite ravimaṇḍale
+01.04.016/1 parāvarajñaḥ sa ṛṣiḥ kālenāvyaktaraṃhasā
+01.04.016/3 yugadharmavyatikaraṃ prāptaṃ bhuvi yuge yuge
+01.04.017/1 bhautikānāṃ ca bhāvānāṃ śaktihrāsaṃ ca tatkṛtam
+01.04.017/3 aśraddadhānān niḥsattvān durmedhān hrasitāyuṣaḥ
+01.04.018/1 durbhagāṃśca janān vīkṣya munirdivyena cakṣuṣā
+01.04.018/3 sarvavarṇāśramāṇāṃ yaddadhyau hitam amoghadṛk
+01.04.019/1 cāturhotraṃ karma śuddhaṃ prajānāṃ vīkṣya vaidikam
+01.04.019/3 vyadadhādyajñasantatyai vedam ekaṃ caturvidham
+01.04.020/1 ṛgyajuḥsāmātharvākhyā vedāścatvāra uddhṛtāḥ
+01.04.020/3 itihāsapurāṇaṃ ca pañcamo veda ucyate
+01.04.021/1 tatrargvedadharaḥ pailaḥ sāmago jaiminiḥ kaviḥ
+01.04.021/3 vaiśampāyana evaiko niṣṇāto yajuṣām uta
+01.04.022/1 atharvāṅgirasām āsīt sumanturdāruṇo muniḥ
+01.04.022/3 itihāsapurāṇānāṃ pitā me romaharṣaṇaḥ
+01.04.023/1 ta eta ṛṣayo vedaṃ svaṃ svaṃ vyasyann anekadhā
+01.04.023/3 śiṣyaiḥ praśiṣyaistacchiṣyairvedāste śākhino 'bhavan
+01.04.024/1 ta eva vedā durmedhairdhāryante puruṣairyathā
+01.04.024/3 evaṃ cakāra bhagavān vyāsaḥ kṛpaṇavatsalaḥ
+01.04.025/1 strīśūdradvijabandhūnāṃ trayī na śrutigocarā
+01.04.025/3 karmaśreyasi mūḍhānāṃ śreya evaṃ bhavediha
+01.04.025/5 iti bhāratam ākhyānaṃ kṛpayā muninā kṛtam
+01.04.026/1 evaṃ pravṛttasya sadā bhūtānāṃ śreyasi dvijāḥ
+01.04.026/3 sarvātmakenāpi yadā nātuṣyaddhṛdayaṃ tataḥ
+01.04.027/1 nātiprasīdaddhṛdayaḥ sarasvatyāstaṭe śucau
+01.04.027/3 vitarkayan viviktastha idaṃ covāca dharmavit
+01.04.028/1 dhṛtavratena hi mayā chandāṃsi guravo 'gnayaḥ
+01.04.028/3 mānitā nirvyalīkena gṛhītaṃ cānuśāsanam
+01.04.029/1 bhāratavyapadeśena hyāmnāyārthaśca pradarśitaḥ
+01.04.029/3 dṛśyate yatra dharmādi strīśūdrādibhirapyuta
+01.04.030/1 tathāpi bata me daihyo hyātmā caivātmanā vibhuḥ
+01.04.030/3 asampanna ivābhāti brahmavarcasya sattamaḥ
+01.04.031/1 kiṃ vā bhāgavatā dharmā na prāyeṇa nirūpitāḥ
+01.04.031/3 priyāḥ paramahaṃsānāṃ ta eva hyacyutapriyāḥ
+01.04.032/1 tasyaivaṃ khilam ātmānaṃ manyamānasya khidyataḥ
+01.04.032/3 kṛṣṇasya nārado 'bhyāgādāśramaṃ prāg udāhṛtam
+01.04.033/1 tam abhijñāya sahasā pratyutthāyāgataṃ muniḥ
+01.04.033/3 pūjayām āsa vidhivan nāradaṃ surapūjitam
+01.05.001/0 sūta uvāca
+01.05.001/1 atha taṃ sukham āsīna upāsīnaṃ bṛhacchravāḥ
+01.05.001/3 devarṣiḥ prāha viprarṣiṃ vīṇāpāṇiḥ smayann iva
+01.05.002/0 nārada uvāca
+01.05.002/1 pārāśarya mahābhāga bhavataḥ kaccidātmanā
+01.05.002/3 parituṣyati śārīra ātmā mānasa eva vā
+01.05.003/1 jijñāsitaṃ susampannam api te mahadadbhutam
+01.05.003/3 kṛtavān bhārataṃ yastvaṃ sarvārthaparibṛṃhitam
+01.05.004/1 jijñāsitam adhītaṃ ca brahma yat tat sanātanam
+01.05.004/3 tathāpi śocasyātmānam akṛtārtha iva prabho
+01.05.005/0 vyāsa uvāca
+01.05.005/1 astyeva me sarvam idaṃ tvayoktaṃ tathāpi nātmā parituṣyate me
+01.05.005/3 tanmūlam avyaktam agādhabodhaṃ pṛcchāmahe tvātmabhavātmabhūtam
+01.05.006/1 sa vai bhavān veda samastaguhyam upāsito yat puruṣaḥ purāṇaḥ
+01.05.006/3 parāvareśo manasaiva viśvaṃ sṛjatyavatyatti guṇairasaṅgaḥ
+01.05.007/1 tvaṃ paryaṭann arka iva trilokīm antaścaro vāyurivātmasākṣī
+01.05.007/3 parāvare brahmaṇi dharmato vrataiḥ snātasya me nyūnam alaṃ vicakṣva
+01.05.008/0 śrīnārada uvāca
+01.05.008/1 bhavatānuditaprāyaṃ yaśo bhagavato 'malam
+01.05.008/3 yenaivāsau na tuṣyeta manye taddarśanaṃ khilam
+01.05.009/1 yathā dharmādayaścārthā munivaryānukīrtitāḥ
+01.05.009/3 na tathā vāsudevasya mahimā hyanuvarṇitaḥ
+01.05.010/1 na yadvacaścitrapadaṃ hareryaśo jagatpavitraṃ pragṛṇīta karhicit
+01.05.010/3 tadvāyasaṃ tīrtham uśanti mānasā na yatra haṃsā niramantyuśikkṣayāḥ
+01.05.011/1 tadvāgvisargo janatāghaviplavo yasmin pratiślokam abaddhavatyapi
+01.05.011/3 nāmānyanantasya yaśo 'ṅkitāni yat śṛṇvanti gāyanti gṛṇanti sādhavaḥ
+01.05.012/1 naiṣkarmyam apyacyutabhāvavarjitaṃ na śobhate jñānam alaṃ nirañjanam
+01.05.012/3 kutaḥ punaḥ śaśvadabhadram īśvare na cārpitaṃ karma yadapyakāraṇam
+01.05.013/1 atho mahābhāga bhavān amoghadṛk śuciśravāḥ satyarato dhṛtavrataḥ
+01.05.013/3 urukramasyākhilabandhamuktaye samādhinānusmara tadviceṣṭitam
+01.05.014/1 tato 'nyathā kiñcana yadvivakṣataḥ pṛthag dṛśastatkṛtarūpanāmabhiḥ
+01.05.014/3 na karhicit kvāpi ca duḥsthitā matir labheta vātāhatanaurivāspadam
+01.05.015/1 jugupsitaṃ dharmakṛte 'nuśāsataḥ svabhāvaraktasya mahān vyatikramaḥ
+01.05.015/3 yadvākyato dharma itītaraḥ sthito na manyate tasya nivāraṇaṃ janaḥ
+01.05.016/1 vicakṣaṇo 'syārhati vedituṃ vibhor anantapārasya nivṛttitaḥ sukham
+01.05.016/3 pravartamānasya guṇairanātmanas tato bhavān darśaya ceṣṭitaṃ vibhoḥ
+01.05.017/1 tyaktvā svadharmaṃ caraṇāmbujaṃ harer bhajann apakvo 'tha patet tato yadi
+01.05.017/3 yatra kva vābhadram abhūdamuṣya kiṃ ko vārtha āpto 'bhajatāṃ svadharmataḥ
+01.05.018/1 tasyaiva hetoḥ prayateta kovido na labhyate yadbhramatām uparyadhaḥ
+01.05.018/3 tal labhyate duḥkhavadanyataḥ sukhaṃ kālena sarvatra gabhīraraṃhasā
+01.05.019/1 na vai jano jātu kathañcanāvrajen mukundasevyanyavadaṅga saṃsṛtim
+01.05.019/3 smaran mukundāṅghryupagūhanaṃ punar vihātum icchen na rasagraho janaḥ
+01.05.020/1 idaṃ hi viśvaṃ bhagavān ivetaro yato jagatsthānanirodhasambhavāḥ
+01.05.020/3 taddhi svayaṃ veda bhavāṃstathāpi te prādeśamātraṃ bhavataḥ pradarśitam
+01.05.021/1 tvam ātmanātmānam avehyamoghadṛk parasya puṃsaḥ paramātmanaḥ kalām
+01.05.021/3 ajaṃ prajātaṃ jagataḥ śivāya tan mahānubhāvābhyudayo 'dhigaṇyatām
+01.05.022/1 idaṃ hi puṃsastapasaḥ śrutasya vā sviṣṭasya sūktasya ca buddhidattayoḥ
+01.05.022/3 avicyuto 'rthaḥ kavibhirnirūpito yaduttamaślokaguṇānuvarṇanam
+01.05.023/1 ahaṃ purātītabhave 'bhavaṃ mune dāsyāstu kasyāścana vedavādinām
+01.05.023/3 nirūpito bālaka eva yogināṃ śuśrūṣaṇe prāvṛṣi nirvivikṣatām
+01.05.024/1 te mayyapetākhilacāpale 'rbhake dānte 'dhṛtakrīḍanake 'nuvartini
+01.05.024/3 cakruḥ kṛpāṃ yadyapi tulyadarśanāḥ śuśrūṣamāṇe munayo 'lpabhāṣiṇi
+01.05.025/1 ucchiṣṭalepān anumodito dvijaiḥ sakṛt sma bhuñje tadapāstakilbiṣaḥ
+01.05.025/3 evaṃ pravṛttasya viśuddhacetasas taddharma evātmaruciḥ prajāyate
+01.05.026/1 tatrānvahaṃ kṛṣṇakathāḥ pragāyatām anugraheṇāśṛṇavaṃ manoharāḥ
+01.05.026/3 tāḥ śraddhayā me 'nupadaṃ viśṛṇvataḥ priyaśravasyaṅga mamābhavadruciḥ
+01.05.027/1 tasmiṃstadā labdharucermahāmate priyaśravasyaskhalitā matirmama
+01.05.027/3 yayāham etat sadasat svamāyayā paśye mayi brahmaṇi kalpitaṃ pare
+01.05.028/1 itthaṃ śaratprāvṛṣikāvṛtū harer viśṛṇvato me 'nusavaṃ yaśo 'malam
+01.05.028/3 saṅkīrtyamānaṃ munibhirmahātmabhir bhaktiḥ pravṛttātmarajastamopahā
+01.05.029/1 tasyaivaṃ me 'nuraktasya praśritasya hatainasaḥ
+01.05.029/3 śraddadhānasya bālasya dāntasyānucarasya ca
+01.05.030/1 jñānaṃ guhyatamaṃ yat tat sākṣādbhagavatoditam
+01.05.030/3 anvavocan gamiṣyantaḥ kṛpayā dīnavatsalāḥ
+01.05.031/1 yenaivāhaṃ bhagavato vāsudevasya vedhasaḥ
+01.05.031/3 māyānubhāvam avidaṃ yena gacchanti tatpadam
+01.05.032/1 etat saṃsūcitaṃ brahmaṃstāpatrayacikitsitam
+01.05.032/3 yadīśvare bhagavati karma brahmaṇi bhāvitam
+01.05.033/1 āmayo yaśca bhūtānāṃ jāyate yena suvrata
+01.05.033/3 tadeva hyāmayaṃ dravyaṃ na punāti cikitsitam
+01.05.034/1 evaṃ nṛṇāṃ kriyāyogāḥ sarve saṃsṛtihetavaḥ
+01.05.034/3 ta evātmavināśāya kalpante kalpitāḥ pare
+01.05.035/1 yadatra kriyate karma bhagavatparitoṣaṇam
+01.05.035/3 jñānaṃ yat tadadhīnaṃ hi bhaktiyogasamanvitam
+01.05.036/1 kurvāṇā yatra karmāṇi bhagavacchikṣayāsakṛt
+01.05.036/3 gṛṇanti guṇanāmāni kṛṣṇasyānusmaranti ca
+01.05.037/1 oṃ namo bhagavate tubhyaṃ vāsudevāya dhīmahi
+01.05.037/3 pradyumnāyāniruddhāya namaḥ saṅkarṣaṇāya ca
+01.05.038/1 iti mūrtyabhidhānena mantramūrtim amūrtikam
+01.05.038/3 yajate yajñapuruṣaṃ sa samyag darśanaḥ pumān
+01.05.039/1 imaṃ svanigamaṃ brahmann avetya madanuṣṭhitam
+01.05.039/3 adān me jñānam aiśvaryaṃ svasmin bhāvaṃ ca keśavaḥ
+01.05.040/1 tvam apyadabhraśruta viśrutaṃ vibhoḥ samāpyate yena vidāṃ bubhutsitam
+01.05.040/3 prākhyāhi duḥkhairmuhurarditātmanāṃ saṅkleśanirvāṇam uśanti nānyathā
+01.06.001/0 sūta uvāca
+01.06.001/1 evaṃ niśamya bhagavān devarṣerjanma karma ca
+01.06.001/3 bhūyaḥ papraccha taṃ brahman vyāsaḥ satyavatīsutaḥ
+01.06.002/0 vyāsa uvāca
+01.06.002/1 bhikṣubhirvipravasite vijñānādeṣṭṛbhistava
+01.06.002/3 vartamāno vayasyādye tataḥ kim akarodbhavān
+01.06.003/1 svāyambhuva kayā vṛttyā vartitaṃ te paraṃ vayaḥ
+01.06.003/3 kathaṃ cedam udasrākṣīḥ kāle prāpte kalevaram
+01.06.004/1 prākkalpaviṣayām etāṃ smṛtiṃ te munisattama
+01.06.004/3 na hyeṣa vyavadhāt kāla eṣa sarvanirākṛtiḥ
+01.06.005/0 nārada uvāca
+01.06.005/1 bhikṣubhirvipravasite vijñānādeṣṭṛbhirmama
+01.06.005/3 vartamāno vayasyādye tata etadakāraṣam
+01.06.006/1 ekātmajā me jananī yoṣin mūḍhā ca kiṅkarī
+01.06.006/3 mayyātmaje 'nanyagatau cakre snehānubandhanam
+01.06.007/1 sāsvatantrā na kalpāsīdyogakṣemaṃ mamecchatī
+01.06.007/3 īśasya hi vaśe loko yoṣā dārumayī yathā
+01.06.008/1 ahaṃ ca tadbrahmakule ūṣivāṃstadupekṣayā
+01.06.008/3 digdeśakālāvyutpanno bālakaḥ pañcahāyanaḥ
+01.06.009/1 ekadā nirgatāṃ gehādduhantīṃ niśi gāṃ pathi
+01.06.009/3 sarpo 'daśat padā spṛṣṭaḥ kṛpaṇāṃ kālacoditaḥ
+01.06.010/1 tadā tadaham īśasya bhaktānāṃ śam abhīpsataḥ
+01.06.010/3 anugrahaṃ manyamānaḥ prātiṣṭhaṃ diśam uttarām
+01.06.011/1 sphītāñ janapadāṃstatra puragrāmavrajākarān
+01.06.011/3 kheṭakharvaṭavāṭīśca vanānyupavanāni ca
+01.06.012/1 citradhātuvicitrādrīn ibhabhagnabhujadrumān
+01.06.012/3 jalāśayāñ chivajalān nalinīḥ surasevitāḥ
+01.06.013/1 citrasvanaiḥ patrarathairvibhramadbhramaraśriyaḥ
+01.06.013/3 nalaveṇuśarastanba kuśakīcakagahvaram
+01.06.014/1 eka evātiyāto 'ham adrākṣaṃ vipinaṃ mahat
+01.06.014/3 ghoraṃ pratibhayākāraṃ vyālolūkaśivājiram
+01.06.015/1 pariśrāntendriyātmāhaṃ tṛṭparīto bubhukṣitaḥ
+01.06.015/3 snātvā pītvā hrade nadyā upaspṛṣṭo gataśramaḥ
+01.06.016/1 tasmin nirmanuje 'raṇye pippalopastha āśritaḥ
+01.06.016/3 ātmanātmānam ātmasthaṃ yathāśrutam acintayam
+01.06.017/1 dhyāyataścaraṇāmbhojaṃ bhāvanirjitacetasā
+01.06.017/3 autkaṇṭhyāśrukalākṣasya hṛdyāsīn me śanairhariḥ
+01.06.018/1 premātibharanirbhinna pulakāṅgo 'tinirvṛtaḥ
+01.06.018/3 ānandasamplave līno nāpaśyam ubhayaṃ mune
+01.06.019/1 rūpaṃ bhagavato yat tan manaḥkāntaṃ śucāpaham
+01.06.019/3 apaśyan sahasottasthe vaiklavyāddurmanā iva
+01.06.020/1 didṛkṣustadahaṃ bhūyaḥ praṇidhāya mano hṛdi
+01.06.020/3 vīkṣamāṇo 'pi nāpaśyam avitṛpta ivāturaḥ
+01.06.021/1 evaṃ yatantaṃ vijane mām āhāgocaro girām
+01.06.021/3 gambhīraślakṣṇayā vācā śucaḥ praśamayann iva
+01.06.022/1 hantāsmiñ janmani bhavān mā māṃ draṣṭum ihārhati
+01.06.022/3 avipakvakaṣāyāṇāṃ durdarśo 'haṃ kuyoginām
+01.06.023/1 sakṛdyaddarśitaṃ rūpam etat kāmāya te 'nagha
+01.06.023/3 matkāmaḥ śanakaiḥ sādhu sarvān muñcati hṛcchayān
+01.06.024/1 satsevayādīrghayāpi jātā mayi dṛḍhā matiḥ
+01.06.024/3 hitvāvadyam imaṃ lokaṃ gantā majjanatām asi
+01.06.025/1 matirmayi nibaddheyaṃ na vipadyeta karhicit
+01.06.025/3 prajāsarganirodhe 'pi smṛtiśca madanugrahāt
+01.06.026/1 etāvaduktvopararāma tan mahad bhūtaṃ nabholiṅgam aliṅgam īśvaram
+01.06.026/3 ahaṃ ca tasmai mahatāṃ mahīyase śīrṣṇāvanāmaṃ vidadhe 'nukampitaḥ
+01.06.027/1 nāmānyanantasya hatatrapaḥ paṭhan guhyāni bhadrāṇi kṛtāni ca smaran
+01.06.027/3 gāṃ paryaṭaṃstuṣṭamanā gataspṛhaḥ kālaṃ pratīkṣan vimado vimatsaraḥ
+01.06.028/1 evaṃ kṛṣṇamaterbrahman nāsaktasyāmalātmanaḥ
+01.06.028/3 kālaḥ prādurabhūt kāle taḍit saudāmanī yathā
+01.06.029/1 prayujyamāne mayi tāṃ śuddhāṃ bhāgavatīṃ tanum
+01.06.029/3 ārabdhakarmanirvāṇo nyapatat pāñcabhautikaḥ
+01.06.030/1 kalpānta idam ādāya śayāne 'mbhasyudanvataḥ
+01.06.030/3 śiśayiṣoranuprāṇaṃ viviśe 'ntarahaṃ vibhoḥ
+01.06.031/1 sahasrayugaparyante utthāyedaṃ sisṛkṣataḥ
+01.06.031/3 marīcimiśrā ṛṣayaḥ prāṇebhyo 'haṃ ca jajñire
+01.06.032/1 antarbahiśca lokāṃstrīn paryemyaskanditavrataḥ
+01.06.032/3 anugrahān mahāviṣṇoravighātagatiḥ kvacit
+01.06.033/1 devadattām imāṃ vīṇāṃ svarabrahmavibhūṣitām
+01.06.033/3 mūrcchayitvā harikathāṃ gāyamānaścarāmyaham
+01.06.034/1 pragāyataḥ svavīryāṇi tīrthapādaḥ priyaśravāḥ
+01.06.034/3 āhūta iva me śīghraṃ darśanaṃ yāti cetasi
+01.06.035/1 etaddhyāturacittānāṃ mātrāsparśecchayā muhuḥ
+01.06.035/3 bhavasindhuplavo dṛṣṭo haricaryānuvarṇanam
+01.06.036/1 yamādibhiryogapathaiḥ kāmalobhahato muhuḥ
+01.06.036/3 mukundasevayā yadvat tathātmāddhā na śāmyati
+01.06.037/1 sarvaṃ tadidam ākhyātaṃ yat pṛṣṭo 'haṃ tvayānagha
+01.06.037/3 janmakarmarahasyaṃ me bhavataścātmatoṣaṇam
+01.06.038/0 sūta uvāca
+01.06.038/1 evaṃ sambhāṣya bhagavān nārado vāsavīsutam
+01.06.038/3 āmantrya vīṇāṃ raṇayan yayau yādṛcchiko muniḥ
+01.06.039/1 aho devarṣirdhanyo 'yaṃ yatkīrtiṃ śārṅgadhanvanaḥ
+01.06.039/3 gāyan mādyann idaṃ tantryā ramayatyāturaṃ jagat
+01.07.001/0 śaunaka uvāca
+01.07.001/1 nirgate nārade sūta bhagavān bādarāyaṇaḥ
+01.07.001/1 śrutavāṃstadabhipretaṃ tataḥ kim akarodvibhuḥ
+01.07.002/0 sūta uvāca
+01.07.002/1 brahmanadyāṃ sarasvatyām āśramaḥ paścime taṭe
+01.07.002/3 śamyāprāsa iti prokta ṛṣīṇāṃ satravardhanaḥ
+01.07.003/1 tasmin sva āśrame vyāso badarīṣaṇḍamaṇḍite
+01.07.003/3 āsīno 'pa upaspṛśya praṇidadhyau manaḥ svayam
+01.07.004/1 bhaktiyogena manasi samyak praṇihite 'male
+01.07.004/3 apaśyat puruṣaṃ pūrṇaṃ māyāṃ ca tadapāśrayam
+01.07.005/1 yayā sammohito jīva ātmānaṃ triguṇātmakam
+01.07.005/3 paro 'pi manute 'narthaṃ tatkṛtaṃ cābhipadyate
+01.07.006/1 anarthopaśamaṃ sākṣādbhaktiyogam adhokṣaje
+01.07.006/3 lokasyājānato vidvāṃścakre sātvatasaṃhitām
+01.07.007/1 yasyāṃ vai śrūyamāṇāyāṃ kṛṣṇe paramapūruṣe
+01.07.007/3 bhaktirutpadyate puṃsaḥ śokamohabhayāpahā
+01.07.008/1 sa saṃhitāṃ bhāgavatīṃ kṛtvānukramya cātmajam
+01.07.008/3 śukam adhyāpayām āsa nivṛttinirataṃ muniḥ
+01.07.009/0 śaunaka uvāca
+01.07.009/1 sa vai nivṛttinirataḥ sarvatropekṣako muniḥ
+01.07.009/3 kasya vā bṛhatīm etām ātmārāmaḥ samabhyasat
+01.07.010/0 sūta uvāca
+01.07.010/1 ātmārāmāśca munayo nirgranthā apyurukrame
+01.07.010/3 kurvantyahaitukīṃ bhaktim itthambhūtaguṇo hariḥ
+01.07.011/1 harerguṇākṣiptamatirbhagavān bādarāyaṇiḥ
+01.07.011/3 adhyagān mahadākhyānaṃ nityaṃ viṣṇujanapriyaḥ
+01.07.012/1 parīkṣito 'tha rājarṣerjanmakarmavilāpanam
+01.07.012/3 saṃsthāṃ ca pāṇḍuputrāṇāṃ vakṣye kṛṣṇakathodayam
+01.07.013/1 yadā mṛdhe kauravasṛñjayānāṃ vīreṣvatho vīragatiṃ gateṣu
+01.07.013/3 vṛkodarāviddhagadābhimarśa bhagnorudaṇḍe dhṛtarāṣṭraputre
+01.07.014/1 bhartuḥ priyaṃ drauṇiriti sma paśyan kṛṣṇāsutānāṃ svapatāṃ śirāṃsi
+01.07.014/3 upāharadvipriyam eva tasya jugupsitaṃ karma vigarhayanti
+01.07.015/1 mātā śiśūnāṃ nidhanaṃ sutānāṃ niśamya ghoraṃ paritapyamānā
+01.07.015/3 tadārudadvāṣpakalākulākṣī tāṃ sāntvayann āha kirīṭamālī
+01.07.016/1 tadā śucaste pramṛjāmi bhadre yadbrahmabandhoḥ śira ātatāyinaḥ
+01.07.016/3 gāṇḍīvamuktairviśikhairupāhare tvākramya yat snāsyasi dagdhaputrā
+01.07.017/1 iti priyāṃ valguvicitrajalpaiḥ sa sāntvayitvācyutamitrasūtaḥ
+01.07.017/3 anvādravaddaṃśita ugradhanvā kapidhvajo guruputraṃ rathena
+01.07.018/1 tam āpatantaṃ sa vilakṣya dūrāt kumārahodvignamanā rathena
+01.07.018/3 parādravat prāṇaparīpsururvyāṃ yāvadgamaṃ rudrabhayādyathā kaḥ
+01.07.019/1 yadāśaraṇam ātmānam aikṣata śrāntavājinam
+01.07.019/3 astraṃ brahmaśiro mene ātmatrāṇaṃ dvijātmajaḥ
+01.07.020/1 athopaspṛśya salilaṃ sandadhe tat samāhitaḥ
+01.07.020/3 ajānann api saṃhāraṃ prāṇakṛcchra upasthite
+01.07.021/1 tataḥ prāduṣkṛtaṃ tejaḥ pracaṇḍaṃ sarvato diśam
+01.07.021/3 prāṇāpadam abhiprekṣya viṣṇuṃ jiṣṇuruvāca ha
+01.07.022/0 arjuna uvāca
+01.07.022/1 kṛṣṇa kṛṣṇa mahābāho bhaktānām abhayaṅkara
+01.07.022/3 tvam eko dahyamānānām apavargo 'si saṃsṛteḥ
+01.07.023/1 tvam ādyaḥ puruṣaḥ sākṣādīśvaraḥ prakṛteḥ paraḥ
+01.07.023/3 māyāṃ vyudasya cicchaktyā kaivalye sthita ātmani
+01.07.024/1 sa eva jīvalokasya māyāmohitacetasaḥ
+01.07.024/3 vidhatse svena vīryeṇa śreyo dharmādilakṣaṇam
+01.07.025/1 tathāyaṃ cāvatāraste bhuvo bhārajihīrṣayā
+01.07.025/3 svānāṃ cānanyabhāvānām anudhyānāya cāsakṛt
+01.07.026/1 kim idaṃ svit kuto veti devadeva na vedmyaham
+01.07.026/3 sarvato mukham āyāti tejaḥ paramadāruṇam
+01.07.027/0 śrībhagavān uvāca
+01.07.027/1 vetthedaṃ droṇaputrasya brāhmam astraṃ pradarśitam
+01.07.027/3 naivāsau veda saṃhāraṃ prāṇabādha upasthite
+01.07.028/1 na hyasyānyatamaṃ kiñcidastraṃ pratyavakarśanam
+01.07.028/3 jahyastrateja unnaddham astrajño hyastratejasā
+01.07.029/0 sūta uvāca
+01.07.029/1 śrutvā bhagavatā proktaṃ phālgunaḥ paravīrahā
+01.07.029/3 spṛṣṭvāpastaṃ parikramya brāhmaṃ brāhmāstraṃ sandadhe
+01.07.030/1 saṃhatyānyonyam ubhayostejasī śarasaṃvṛte
+01.07.030/3 āvṛtya rodasī khaṃ ca vavṛdhāte 'rkavahnivat
+01.07.031/1 dṛṣṭvāstratejastu tayostrīl lokān pradahan mahat
+01.07.031/3 dahyamānāḥ prajāḥ sarvāḥ sāṃvartakam amaṃsata
+01.07.032/1 prajopadravam ālakṣya lokavyatikaraṃ ca tam
+01.07.032/3 mataṃ ca vāsudevasya sañjahārārjuno dvayam
+01.07.033/1 tata āsādya tarasā dāruṇaṃ gautamīsutam
+01.07.033/3 babandhāmarṣatāmrākṣaḥ paśuṃ raśanayā yathā
+01.07.034/1 śibirāya ninīṣantaṃ rajjvā baddhvā ripuṃ balāt
+01.07.034/3 prāhārjunaṃ prakupito bhagavān ambujekṣaṇaḥ
+01.07.035/1 mainaṃ pārthārhasi trātuṃ brahmabandhum imaṃ jahi
+01.07.035/3 yo 'sāvanāgasaḥ suptān avadhīn niśi bālakān
+01.07.036/1 mattaṃ pramattam unmattaṃ suptaṃ bālaṃ striyaṃ jaḍam
+01.07.036/3 prapannaṃ virathaṃ bhītaṃ na ripuṃ hanti dharmavit
+01.07.037/1 svaprāṇān yaḥ paraprāṇaiḥ prapuṣṇātyaghṛṇaḥ khalaḥ
+01.07.037/3 tadvadhastasya hi śreyo yaddoṣādyātyadhaḥ pumān
+01.07.038/1 pratiśrutaṃ ca bhavatā pāñcālyai śṛṇvato mama
+01.07.038/3 āhariṣye śirastasya yaste mānini putrahā
+01.07.039/1 tadasau vadhyatāṃ pāpa ātatāyyātmabandhuhā
+01.07.039/3 bhartuśca vipriyaṃ vīra kṛtavān kulapāṃsanaḥ
+01.07.040/0 sūta uvāca
+01.07.040/1 evaṃ parīkṣatā dharmaṃ pārthaḥ kṛṣṇena coditaḥ
+01.07.040/3 naicchaddhantuṃ gurusutaṃ yadyapyātmahanaṃ mahān
+01.07.041/1 athopetya svaśibiraṃ govindapriyasārathiḥ
+01.07.041/3 nyavedayat taṃ priyāyai śocantyā ātmajān hatān
+01.07.042/1 tathāhṛtaṃ paśuvat pāśabaddham avāṅmukhaṃ karmajugupsitena
+01.07.042/3 nirīkṣya kṛṣṇāpakṛtaṃ guroḥ sutaṃ vāmasvabhāvā kṛpayā nanāma ca
+01.07.043/1 uvāca cāsahantyasya bandhanānayanaṃ satī
+01.07.043/3 mucyatāṃ mucyatām eṣa brāhmaṇo nitarāṃ guruḥ
+01.07.044/1 sarahasyo dhanurvedaḥ savisargopasaṃyamaḥ
+01.07.044/3 astragrāmaśca bhavatā śikṣito yadanugrahāt
+01.07.045/1 sa eṣa bhagavān droṇaḥ prajārūpeṇa vartate
+01.07.045/3 tasyātmano 'rdhaṃ patnyāste nānvagādvīrasūḥ kṛpī
+01.07.046/1 taddharmajña mahābhāga bhavadbhirgauravaṃ kulam
+01.07.046/3 vṛjinaṃ nārhati prāptuṃ pūjyaṃ vandyam abhīkṣṇaśaḥ
+01.07.047/1 mā rodīdasya jananī gautamī patidevatā
+01.07.047/3 yathāhaṃ mṛtavatsārtā rodimyaśrumukhī muhuḥ
+01.07.048/1 yaiḥ kopitaṃ brahmakulaṃ rājanyairajitātmabhiḥ
+01.07.048/3 tat kulaṃ pradahatyāśu sānubandhaṃ śucārpitam
+01.07.049/0 sūta uvāca
+01.07.049/1 dharmyaṃ nyāyyaṃ sakaruṇaṃ nirvyalīkaṃ samaṃ mahat
+01.07.049/3 rājā dharmasuto rājñyāḥpratyanandadvaco dvijāḥ
+01.07.050/1 nakulaḥ sahadevaśca yuyudhāno dhanañjayaḥ
+01.07.050/3 bhagavān devakīputro ye cānye yāśca yoṣitaḥ
+01.07.051/1 tatrāhāmarṣito bhīmastasya śreyān vadhaḥ smṛtaḥ
+01.07.051/3 na bharturnātmanaścārthe yo 'han suptān śiśūn vṛthā
+01.07.052/1 niśamya bhīmagaditaṃ draupadyāśca caturbhujaḥ
+01.07.052/3 ālokya vadanaṃ sakhyuridam āha hasann iva
+01.07.053/0 śrībhagavān uvāca
+01.07.053/1 brahmabandhurna hantavya ātatāyī vadhārhaṇaḥ
+01.07.053/3 mayaivobhayam āmnātaṃ paripāhyanuśāsanam
+01.07.054/1 kuru pratiśrutaṃ satyaṃ yat tat sāntvayatā priyām
+01.07.054/3 priyaṃ ca bhīmasenasya pāñcālyā mahyam eva ca
+01.07.055/0 sūta uvāca
+01.07.055/1 arjunaḥ sahasājñāya harerhārdam athāsinā
+01.07.055/3 maṇiṃ jahāra mūrdhanyaṃ dvijasya sahamūrdhajam
+01.07.056/1 vimucya raśanābaddhaṃ bālahatyāhataprabham
+01.07.056/3 tejasā maṇinā hīnaṃ śibirān nirayāpayat
+01.07.057/1 vapanaṃ draviṇādānaṃ sthānān niryāpaṇaṃ tathā
+01.07.057/3 eṣa hi brahmabandhūnāṃ vadho nānyo 'sti daihikaḥ
+01.07.058/1 putraśokāturāḥ sarve pāṇḍavāḥ saha kṛṣṇayā
+01.07.058/3 svānāṃ mṛtānāṃ yat kṛtyaṃ cakrurnirharaṇādikam
+01.08.001/0 sūta uvāca
+01.08.001/1 atha te samparetānāṃ svānām udakam icchatām
+01.08.001/3 dātuṃ sakṛṣṇā gaṅgāyāṃ puraskṛtya yayuḥ striyaḥ
+01.08.002/1 te ninīyodakaṃ sarve vilapya ca bhṛśaṃ punaḥ
+01.08.002/3 āplutā haripādābjarajaḥpūtasarijjale
+01.08.003/1 tatrāsīnaṃ kurupatiṃ dhṛtarāṣṭraṃ sahānujam
+01.08.003/3 gāndhārīṃ putraśokārtāṃ pṛthāṃ kṛṣṇāṃ ca mādhavaḥ
+01.08.004/1 sāntvayām āsa munibhirhatabandhūñ śucārpitān
+01.08.004/3 bhūteṣu kālasya gatiṃ darśayan na pratikriyām
+01.08.005/1 sādhayitvājātaśatroḥ svaṃ rājyaṃ kitavairhṛtam
+01.08.005/3 ghātayitvāsato rājñaḥ kacasparśakṣatāyuṣaḥ
+01.08.006/1 yājayitvāśvamedhaistaṃ tribhiruttamakalpakaiḥ
+01.08.006/3 tadyaśaḥ pāvanaṃ dikṣu śatamanyorivātanot
+01.08.007/1 āmantrya pāṇḍuputrāṃśca śaineyoddhavasaṃyutaḥ
+01.08.007/3 dvaipāyanādibhirvipraiḥ pūjitaiḥ pratipūjitaḥ
+01.08.008/1 gantuṃ kṛtamatirbrahman dvārakāṃ ratham āsthitaḥ
+01.08.008/3 upalebhe 'bhidhāvantīm uttarāṃ bhayavihvalām
+01.08.009/0 uttarovāca
+01.08.009/1 pāhi pāhi mahāyogin devadeva jagatpate
+01.08.009/3 nānyaṃ tvadabhayaṃ paśye yatra mṛtyuḥ parasparam
+01.08.010/1 abhidravati mām īśa śarastaptāyaso vibho
+01.08.010/3 kāmaṃ dahatu māṃ nātha mā me garbho nipātyatām
+01.08.011/0 sūta uvāca
+01.08.011/1 upadhārya vacastasyā bhagavān bhaktavatsalaḥ
+01.08.011/3 apāṇḍavam idaṃ kartuṃ drauṇerastram abudhyata
+01.08.012/1 tarhyevātha muniśreṣṭha pāṇḍavāḥ pañca sāyakān
+01.08.012/3 ātmano 'bhimukhān dīptān ālakṣyāstrāṇyupādaduḥ
+01.08.013/1 vyasanaṃ vīkṣya tat teṣām ananyaviṣayātmanām
+01.08.013/3 sudarśanena svāstreṇa svānāṃ rakṣāṃ vyadhādvibhuḥ
+01.08.014/1 antaḥsthaḥ sarvabhūtānām ātmā yogeśvaro hariḥ
+01.08.014/3 svamāyayāvṛṇodgarbhaṃ vairāṭyāḥ kurutantave
+01.08.015/1 yadyapyastraṃ brahmaśirastvamoghaṃ cāpratikriyam
+01.08.015/3 vaiṣṇavaṃ teja āsādya samaśāmyadbhṛgūdvaha
+01.08.016/1 mā maṃsthā hyetadāścaryaṃ sarvāścaryamaye ñcyute
+01.08.016/3 ya idaṃ māyayā devyā sṛjatyavati hantyajaḥ
+01.08.017/1 brahmatejovinirmuktairātmajaiḥ saha kṛṣṇayā
+01.08.017/3 prayāṇābhimukhaṃ kṛṣṇam idam āha pṛthā satī
+01.08.018/0 kuntyuvāca
+01.08.018/1 namasye puruṣaṃ tvādyam īśvaraṃ prakṛteḥ param
+01.08.018/3 alakṣyaṃ sarvabhūtānām antarbahiravasthitam
+01.08.019/1 māyājavanikācchannam ajñādhokṣajam avyayam
+01.08.019/3 na lakṣyase mūḍhadṛśā naṭo nāṭyadharo yathā
+01.08.020/1 tathā paramahaṃsānāṃ munīnām amalātmanām
+01.08.020/3 bhaktiyogavidhānārthaṃ kathaṃ paśyema hi striyaḥ
+01.08.021/1 kṛṣṇāya vāsudevāya devakīnandanāya ca
+01.08.021/3 nandagopakumārāya govindāya namo namaḥ
+01.08.022/1 namaḥ paṅkajanābhāya namaḥ paṅkajamāline
+01.08.022/3 namaḥ paṅkajanetrāya namaste paṅkajāṅghraye
+01.08.023/1 yathā hṛṣīkeśa khalena devakī kaṃsena ruddhāticiraṃ śucārpitā
+01.08.023/3 vimocitāhaṃ ca sahātmajā vibho tvayaiva nāthena muhurvipadgaṇāt
+01.08.024/1 viṣān mahāgneḥ puruṣādadarśanād asatsabhāyā vanavāsakṛcchrataḥ
+01.08.024/3 mṛdhe mṛdhe 'nekamahārathāstrato drauṇyastrataścāsma hare 'bhirakṣitāḥ
+01.08.025/1 vipadaḥ santu tāḥ śaśvat tatra tatra jagadguro
+01.08.025/3 bhavato darśanaṃ yat syādapunarbhavadarśanam
+01.08.026/1 janmaiśvaryaśrutaśrībhiredhamānamadaḥ pumān
+01.08.026/3 naivārhatyabhidhātuṃ vai tvām akiñcanagocaram
+01.08.027/1 namo 'kiñcanavittāya nivṛttaguṇavṛttaye
+01.08.027/3 ātmārāmāya śāntāya kaivalyapataye namaḥ
+01.08.028/1 manye tvāṃ kālam īśānam anādinidhanaṃ vibhum
+01.08.028/3 samaṃ carantaṃ sarvatra bhūtānāṃ yan mithaḥ kaliḥ
+01.08.029/1 na veda kaścidbhagavaṃścikīrṣitaṃ tavehamānasya nṛṇāṃ viḍambanam
+01.08.029/3 na yasya kaściddayito 'sti karhicid dveṣyaśca yasmin viṣamā matirnṛṇām
+01.08.030/1 janma karma ca viśvātmann ajasyākarturātmanaḥ
+01.08.030/3 tiryaṅnṝṣiṣu yādaḥsu tadatyantaviḍambanam
+01.08.031/1 gopyādade tvayi kṛtāgasi dāma tāvad yā te daśāśrukalilāñjanasambhramākṣam
+01.08.031/3 vaktraṃ ninīya bhayabhāvanayā sthitasya sā māṃ vimohayati bhīrapi yadbibheti
+01.08.032/1 kecidāhurajaṃ jātaṃ puṇyaślokasya kīrtaye
+01.08.032/3 yadoḥ priyasyānvavāye malayasyeva candanam
+01.08.033/1 apare vasudevasya devakyāṃ yācito 'bhyagāt
+01.08.033/3 ajastvam asya kṣemāya vadhāya ca suradviṣām
+01.08.034/1 bhārāvatāraṇāyānye bhuvo nāva ivodadhau
+01.08.034/3 sīdantyā bhūribhāreṇa jāto hyātmabhuvārthitaḥ
+01.08.035/1 bhave 'smin kliśyamānānām avidyākāmakarmabhiḥ
+01.08.035/3 śravaṇasmaraṇārhāṇi kariṣyann iti kecana
+01.08.036/1 śṛṇvanti gāyanti gṛṇantyabhīkṣṇaśaḥ smaranti nandanti tavehitaṃ janāḥ
+01.08.036/3 ta eva paśyantyacireṇa tāvakaṃ bhavapravāhoparamaṃ padāmbujam
+01.08.037/1 apyadya nastvaṃ svakṛtehita prabho jihāsasi svit suhṛdo 'nujīvinaḥ
+01.08.037/3 yeṣāṃ na cānyadbhavataḥ padāmbujāt parāyaṇaṃ rājasu yojitāṃhasām
+01.08.038/1 ke vayaṃ nāmarūpābhyāṃ yadubhiḥ saha pāṇḍavāḥ
+01.08.038/3 bhavato 'darśanaṃ yarhi hṛṣīkāṇām iveśituḥ
+01.08.039/1 neyaṃ śobhiṣyate tatra yathedānīṃ gadādhara
+01.08.039/3 tvatpadairaṅkitā bhāti svalakṣaṇavilakṣitaiḥ
+01.08.040/1 ime janapadāḥ svṛddhāḥ supakvauṣadhivīrudhaḥ
+01.08.040/3 vanādrinadyudanvanto hyedhante tava vīkṣitaiḥ
+01.08.041/1 atha viśveśa viśvātman viśvamūrte svakeṣu me
+01.08.041/3 snehapāśam imaṃ chindhi dṛḍhaṃ pāṇḍuṣu vṛṣṇiṣu
+01.08.042/1 tvayi me 'nanyaviṣayā matirmadhupate 'sakṛt
+01.08.042/3 ratim udvahatādaddhā gaṅgevaugham udanvati
+01.08.043/1 śrīkṛṣṇa kṛṣṇasakha vṛṣṇyṛṣabhāvanidhrug rājanyavaṃśadahanānapavargavīrya
+01.08.043/3 govinda godvijasurārtiharāvatāra yogeśvarākhilaguro bhagavan namaste
+01.08.044/0 sūta uvāca
+01.08.044/1 pṛthayetthaṃ kalapadaiḥ pariṇūtākhilodayaḥ
+01.08.044/3 mandaṃ jahāsa vaikuṇṭho mohayann iva māyayā
+01.08.045/1 tāṃ bāḍham ityupāmantrya praviśya gajasāhvayam
+01.08.045/3 striyaśca svapuraṃ yāsyan premṇā rājñā nivāritaḥ
+01.08.046/1 vyāsādyairīśvarehājñaiḥ kṛṣṇenādbhutakarmaṇā
+01.08.046/3 prabodhito 'pītihāsairnābudhyata śucārpitaḥ
+01.08.047/1 āha rājā dharmasutaścintayan suhṛdāṃ vadham
+01.08.047/3 prākṛtenātmanā viprāḥ snehamohavaśaṃ gataḥ
+01.08.048/1 aho me paśyatājñānaṃ hṛdi rūḍhaṃ durātmanaḥ
+01.08.048/3 pārakyasyaiva dehasya bahvyo me 'kṣauhiṇīrhatāḥ
+01.08.049/1 bāladvijasuhṛnmitra pitṛbhrātṛgurudruhaḥ
+01.08.049/3 na me syān nirayān mokṣo hyapi varṣāyutāyutaiḥ
+01.08.050/1 naino rājñaḥ prajābharturdharmayuddhe vadho dviṣām
+01.08.050/3 iti me na tu bodhāya kalpate śāsanaṃ vacaḥ
+01.08.051/1 strīṇāṃ maddhatabandhūnāṃ droho yo 'sāvihotthitaḥ
+01.08.051/3 karmabhirgṛhamedhīyairnāhaṃ kalpo vyapohitum
+01.08.052/1 yathā paṅkena paṅkāmbhaḥ surayā vā surākṛtam
+01.08.052/3 bhūtahatyāṃ tathaivaikāṃ na yajñairmārṣṭum arhati
+01.09.001/0 sūta uvāca
+01.09.001/1 iti bhītaḥ prajādrohāt sarvadharmavivitsayā
+01.09.001/3 tato vinaśanaṃ prāgādyatra devavrato 'patat
+01.09.002/1 tadā te bhrātaraḥ sarve sadaśvaiḥ svarṇabhūṣitaiḥ
+01.09.002/3 anvagacchan rathairviprā vyāsadhaumyādayastathā
+01.09.003/1 bhagavān api viprarṣe rathena sadhanañjayaḥ
+01.09.003/3 sa tairvyarocata nṛpaḥ kuvera iva guhyakaiḥ
+01.09.004/1 dṛṣṭvā nipatitaṃ bhūmau divaścyutam ivāmaram
+01.09.004/3 praṇemuḥ pāṇḍavā bhīṣmaṃ sānugāḥ saha cakriṇā
+01.09.005/1 tatra brahmarṣayaḥ sarve devarṣayaśca sattama
+01.09.005/3 rājarṣayaśca tatrāsan draṣṭuṃ bharatapuṅgavam
+01.09.006/1 parvato nārado dhaumyo bhagavān bādarāyaṇaḥ
+01.09.006/3 bṛhadaśvo bharadvājaḥ saśiṣyo reṇukāsutaḥ
+01.09.007/1 vasiṣṭha indrapramadastrito gṛtsamado 'sitaḥ
+01.09.007/3 kakṣīvān gautamo 'triśca kauśiko 'tha sudarśanaḥ
+01.09.008/1 anye ca munayo brahman brahmarātādayo 'malāḥ
+01.09.008/3 śiṣyairupetā ājagmuḥ kaśyapāṅgirasādayaḥ
+01.09.009/1 tān sametān mahābhāgān upalabhya vasūttamaḥ
+01.09.009/3 pūjayām āsa dharmajño deśakālavibhāgavit
+01.09.010/1 kṛṣṇaṃ ca tatprabhāvajña āsīnaṃ jagadīśvaram
+01.09.010/3 hṛdisthaṃ pūjayām āsa māyayopāttavigraham
+01.09.011/1 pāṇḍuputrān upāsīnān praśrayapremasaṅgatān
+01.09.011/3 abhyācaṣṭānurāgāśrairandhībhūtena cakṣuṣā
+01.09.012/1 aho kaṣṭam aho 'nyāyyaṃ yadyūyaṃ dharmanandanāḥ
+01.09.012/3 jīvituṃ nārhatha kliṣṭaṃ vipradharmācyutāśrayāḥ
+01.09.013/1 saṃsthite 'tirathe pāṇḍau pṛthā bālaprajā vadhūḥ
+01.09.013/3 yuṣmatkṛte bahūn kleśān prāptā tokavatī muhuḥ
+01.09.014/1 sarvaṃ kālakṛtaṃ manye bhavatāṃ ca yadapriyam
+01.09.014/3 sapālo yadvaśe loko vāyoriva ghanāvaliḥ
+01.09.015/1 yatra dharmasuto rājā gadāpāṇirvṛkodaraḥ
+01.09.015/3 kṛṣṇo 'strī gāṇḍivaṃ cāpaṃ suhṛt kṛṣṇastato vipat
+01.09.016/1 na hyasya karhicidrājan pumān veda vidhitsitam
+01.09.016/3 yadvijijñāsayā yuktā muhyanti kavayo 'pi hi
+01.09.017/1 tasmādidaṃ daivatantraṃ vyavasya bharatarṣabha
+01.09.017/3 tasyānuvihito 'nāthā nātha pāhi prajāḥ prabho
+01.09.018/1 eṣa vai bhagavān sākṣādādyo nārāyaṇaḥ pumān
+01.09.018/3 mohayan māyayā lokaṃ gūḍhaścarati vṛṣṇiṣu
+01.09.019/1 asyānubhāvaṃ bhagavān veda guhyatamaṃ śivaḥ
+01.09.019/3 devarṣirnāradaḥ sākṣādbhagavān kapilo nṛpa
+01.09.020/1 yaṃ manyase mātuleyaṃ priyaṃ mitraṃ suhṛttamam
+01.09.020/3 akaroḥ sacivaṃ dūtaṃ sauhṛdādatha sārathim
+01.09.021/1 sarvātmanaḥ samadṛśo hyadvayasyānahaṅkṛteḥ
+01.09.021/3 tatkṛtaṃ mativaiṣamyaṃ niravadyasya na kvacit
+01.09.022/1 tathāpyekāntabhakteṣu paśya bhūpānukampitam
+01.09.022/3 yan me 'sūṃstyajataḥ sākṣāt kṛṣṇo darśanam āgataḥ
+01.09.023/1 bhaktyāveśya mano yasmin vācā yannāma kīrtayan
+01.09.023/3 tyajan kalevaraṃ yogī mucyate kāmakarmabhiḥ
+01.09.024/1 sa devadevo bhagavān pratīkṣatāṃ kalevaraṃ yāvadidaṃ hinomyaham
+01.09.024/3 prasannahāsāruṇalocanollasan mukhāmbujo dhyānapathaścaturbhujaḥ
+01.09.025/0 sūta uvāca
+01.09.025/1 yudhiṣṭhirastadākarṇya śayānaṃ śarapañjare
+01.09.025/3 apṛcchadvividhān dharmān ṛṣīṇāṃ cānuśṛṇvatām
+01.09.026/1 puruṣasvabhāvavihitān yathāvarṇaṃ yathāśramam
+01.09.026/3 vairāgyarāgopādhibhyām āmnātobhayalakṣaṇān
+01.09.027/1 dānadharmān rājadharmān mokṣadharmān vibhāgaśaḥ
+01.09.027/3 strīdharmān bhagavaddharmān samāsavyāsayogataḥ
+01.09.028/1 dharmārthakāmamokṣāṃśca sahopāyān yathā mune
+01.09.028/3 nānākhyānetihāseṣu varṇayām āsa tattvavit
+01.09.029/1 dharmaṃ pravadatastasya sa kālaḥ pratyupasthitaḥ
+01.09.029/3 yo yoginaśchandamṛtyorvāñchitastūttarāyaṇaḥ
+01.09.030/1 tadopasaṃhṛtya giraḥ sahasraṇīr vimuktasaṅgaṃ mana ādipūruṣe
+01.09.030/3 kṛṣṇe lasatpītapaṭe caturbhuje puraḥ sthite 'mīlitadṛg vyadhārayat
+01.09.031/1 viśuddhayā dhāraṇayā hatāśubhas tadīkṣayaivāśu gatāyudhaśramaḥ
+01.09.031/3 nivṛttasarvendriyavṛttivibhramas tuṣṭāva janyaṃ visṛjañ janārdanam
+01.09.032/0 śrībhīṣma uvāca
+01.09.032/1 iti matirupakalpitā vitṛṣṇā bhagavati sātvatapuṅgave vibhūmni
+01.09.032/3 svasukham upagate kvacidvihartuṃ prakṛtim upeyuṣi yadbhavapravāhaḥ
+01.09.033/1 tribhuvanakamanaṃ tamālavarṇaṃ ravikaragauravarāmbaraṃ dadhāne
+01.09.033/3 vapuralakakulāvṛtānanābjaṃ vijayasakhe ratirastu me 'navadyā
+01.09.034/1 yudhi turagarajovidhūmraviṣvak kacalulitaśramavāryalaṅkṛtāsye
+01.09.034/3 mama niśitaśarairvibhidyamāna tvaci vilasatkavace 'stu kṛṣṇa ātmā
+01.09.035/1 sapadi sakhivaco niśamya madhye nijaparayorbalayo rathaṃ niveśya
+01.09.035/3 sthitavati parasainikāyurakṣṇā hṛtavati pārthasakhe ratirmamāstu
+01.09.036/1 vyavahitapṛtanāmukhaṃ nirīkṣya svajanavadhādvimukhasya doṣabuddhyā
+01.09.036/3 kumatim aharadātmavidyayā yaś caraṇaratiḥ paramasya tasya me 'stu
+01.09.037/1 svanigamam apahāya matpratijñām ṛtam adhikartum avapluto rathasthaḥ
+01.09.037/3 dhṛtarathacaraṇo 'bhyayāc caladgur haririva hantum ibhaṃ gatottarīyaḥ
+01.09.038/1 śitaviśikhahato viśīrṇadaṃśaḥ kṣatajaparipluta ātatāyino me
+01.09.038/3 prasabham abhisasāra madvadhārthaṃ sa bhavatu me bhagavān gatirmukundaḥ
+01.09.039/1 vijayarathakuṭumba āttatotre dhṛtahayaraśmini tacchriyekṣaṇīye
+01.09.039/3 bhagavati ratirastu me mumūrṣor yam iha nirīkṣya hatā gatāḥ svarūpam
+01.09.040/1 lalitagativilāsavalguhāsa praṇayanirīkṣaṇakalpitorumānāḥ
+01.09.040/3 kṛtamanukṛtavatya unmadāndhāḥ prakṛtim agan kila yasya gopavadhvaḥ
+01.09.041/1 munigaṇanṛpavaryasaṅkule 'ntaḥ sadasi yudhiṣṭhirarājasūya eṣām
+01.09.041/3 arhaṇam upapeda īkṣaṇīyo mama dṛśigocara eṣa āvirātmā
+01.09.042/1 tam imam aham ajaṃ śarīrabhājāṃ hṛdi hṛdi dhiṣṭhitam ātmakalpitānām
+01.09.042/3 pratidṛśam iva naikadhārkam ekaṃ samadhigato 'smi vidhūtabhedamohaḥ
+01.09.043/0 sūta uvāca
+01.09.043/1 kṛṣṇa evaṃ bhagavati manovāgdṛṣṭivṛttibhiḥ
+01.09.043/3 ātmanyātmānam āveśya so 'ntaḥśvāsa upāramat
+01.09.044/1 sampadyamānam ājñāya bhīṣmaṃ brahmaṇi niṣkale
+01.09.044/3 sarve babhūvuste tūṣṇīṃ vayāṃsīva dinātyaye
+01.09.045/1 tatra dundubhayo nedurdevamānavavāditāḥ
+01.09.045/3 śaśaṃsuḥ sādhavo rājñāṃ khāt petuḥ puṣpavṛṣṭayaḥ
+01.09.046/1 tasya nirharaṇādīni samparetasya bhārgava
+01.09.046/3 yudhiṣṭhiraḥ kārayitvā muhūrtaṃ duḥkhito 'bhavat
+01.09.047/1 tuṣṭuvurmunayo hṛṣṭāḥ kṛṣṇaṃ tadguhyanāmabhiḥ
+01.09.047/3 tataste kṛṣṇahṛdayāḥ svāśramān prayayuḥ punaḥ
+01.09.048/1 tato yudhiṣṭhiro gatvā sahakṛṣṇo gajāhvayam
+01.09.048/3 pitaraṃ sāntvayām āsa gāndhārīṃ ca tapasvinīm
+01.09.049/1 pitrā cānumato rājā vāsudevānumoditaḥ
+01.09.049/3 cakāra rājyaṃ dharmeṇa pitṛpaitāmahaṃ vibhuḥ
+01.10.001/0 śaunaka uvāca
+01.10.001/1 hatvā svarikthaspṛdha ātatāyino yudhiṣṭhiro dharmabhṛtāṃ variṣṭhaḥ
+01.10.001/3 sahānujaiḥ pratyavaruddhabhojanaḥ kathaṃ pravṛttaḥ kim akāraṣīt tataḥ
+01.10.002/0 sūta uvāca
+01.10.002/1 vaṃśaṃ kurorvaṃśadavāgninirhṛtaṃ saṃrohayitvā bhavabhāvano hariḥ
+01.10.002/3 niveśayitvā nijarājya īśvaro yudhiṣṭhiraṃ prītamanā babhūva ha
+01.10.003/1 niśamya bhīṣmoktam athācyutoktaṃ pravṛttavijñānavidhūtavibhramaḥ
+01.10.003/3 śaśāsa gām indra ivājitāśrayaḥ paridhyupāntām anujānuvartitaḥ
+01.10.004/1 kāmaṃ vavarṣa parjanyaḥ sarvakāmadughā mahī
+01.10.004/3 siṣicuḥ sma vrajān gāvaḥ payasodhasvatīrmudā
+01.10.005/1 nadyaḥ samudrā girayaḥ savanaspativīrudhaḥ
+01.10.005/3 phalantyoṣadhayaḥ sarvāḥ kāmam anvṛtu tasya vai
+01.10.006/1 nādhayo vyādhayaḥ kleśā daivabhūtātmahetavaḥ
+01.10.006/3 ajātaśatrāvabhavan jantūnāṃ rājñi karhicit
+01.10.007/1 uṣitvā hāstinapure māsān katipayān hariḥ
+01.10.007/3 suhṛdāṃ ca viśokāya svasuśca priyakāmyayā
+01.10.008/1 āmantrya cābhyanujñātaḥ pariṣvajyābhivādya tam
+01.10.008/3 āruroha rathaṃ kaiścit pariṣvakto 'bhivāditaḥ
+01.10.009/1 subhadrā draupadī kuntī virāṭatanayā tathā
+01.10.009/3 gāndhārī dhṛtarāṣṭraśca yuyutsurgautamo yamau
+01.10.010/1 vṛkodaraśca dhaumyaśca striyo matsyasutādayaḥ
+01.10.010/3 na sehire vimuhyanto virahaṃ śārṅgadhanvanaḥ
+01.10.011/1 satsaṅgān muktaduḥsaṅgo hātuṃ notsahate budhaḥ
+01.10.011/3 kīrtyamānaṃ yaśo yasya sakṛdākarṇya rocanam
+01.10.012/1 tasmin nyastadhiyaḥ pārthāḥ saheran virahaṃ katham
+01.10.012/3 darśanasparśasaṃlāpa śayanāsanabhojanaiḥ
+01.10.013/1 sarve te 'nimiṣairakṣaistam anu drutacetasaḥ
+01.10.013/3 vīkṣantaḥ snehasambaddhā vicelustatra tatra ha
+01.10.014/1 nyarundhann udgaladbāṣpam autkaṇṭhyāddevakīsute
+01.10.014/3 niryātyagārān no 'bhadram iti syādbāndhavastriyaḥ
+01.10.015/1 mṛdaṅgaśaṅkhabheryaśca vīṇāpaṇavagomukhāḥ
+01.10.015/3 dhundhuryānakaghaṇṭādyā nedurdundubhayastathā
+01.10.016/1 prāsādaśikharārūḍhāḥ kurunāryo didṛkṣayā
+01.10.016/3 vavṛṣuḥ kusumaiḥ kṛṣṇaṃ premavrīḍāsmitekṣaṇāḥ
+01.10.017/1 sitātapatraṃ jagrāha muktādāmavibhūṣitam
+01.10.017/3 ratnadaṇḍaṃ guḍākeśaḥ priyaḥ priyatamasya ha
+01.10.018/1 uddhavaḥ sātyakiścaiva vyajane paramādbhute
+01.10.018/3 vikīryamāṇaḥ kusumai reje madhupatiḥ pathi
+01.10.019/1 aśrūyantāśiṣaḥ satyāstatra tatra dvijeritāḥ
+01.10.019/3 nānurūpānurūpāśca nirguṇasya guṇātmanaḥ
+01.10.020/1 anyonyam āsīt sañjalpa uttamaślokacetasām
+01.10.020/3 kauravendrapurastrīṇāṃ sarvaśrutimanoharaḥ
+01.10.021/1 sa vai kilāyaṃ puruṣaḥ purātano ya eka āsīdaviśeṣa ātmani
+01.10.021/3 agre guṇebhyo jagadātmanīśvare nimīlitātman niśi suptaśaktiṣu
+01.10.022/1 sa eva bhūyo nijavīryacoditāṃ svajīvamāyāṃ prakṛtiṃ sisṛkṣatīm
+01.10.022/3 anāmarūpātmani rūpanāmanī vidhitsamāno 'nusasāra śāstrakṛt
+01.10.023/1 sa vā ayaṃ yat padam atra sūrayo jitendriyā nirjitamātariśvanaḥ
+01.10.023/3 paśyanti bhaktyutkalitāmalātmanā nanveṣa sattvaṃ parimārṣṭum arhati
+01.10.024/1 sa vā ayaṃ sakhyanugītasatkatho vedeṣu guhyeṣu ca guhyavādibhiḥ
+01.10.024/3 ya eka īśo jagadātmalīlayā sṛjatyavatyatti na tatra sajjate
+01.10.025/1 yadā hyadharmeṇa tamodhiyo nṛpā jīvanti tatraiṣa hi sattvataḥ kila
+01.10.025/3 dhatte bhagaṃ satyam ṛtaṃ dayāṃ yaśo bhavāya rūpāṇi dadhadyuge yuge
+01.10.026/1 aho alaṃ ślāghyatamaṃ yadoḥ kulam aho alaṃ puṇyatamaṃ madhorvanam
+01.10.026/3 yadeṣa puṃsām ṛṣabhaḥ śriyaḥ patiḥ svajanmanā caṅkramaṇena cāñcati
+01.10.027/1 aho bata svaryaśasastiraskarī kuśasthalī puṇyayaśaskarī bhuvaḥ
+01.10.027/3 paśyanti nityaṃ yadanugraheṣitaṃ smitāvalokaṃ svapatiṃ sma yatprajāḥ
+01.10.028/1 nūnaṃ vratasnānahutādineśvaraḥ samarcito hyasya gṛhītapāṇibhiḥ
+01.10.028/3 pibanti yāḥ sakhyadharāmṛtaṃ muhur vrajastriyaḥ sammumuhuryadāśayāḥ
+01.10.029/1 yā vīryaśulkena hṛtāḥ svayaṃvare pramathya caidyapramukhān hi śuṣmiṇaḥ
+01.10.029/3 pradyumnasāmbāmbasutādayo 'parā yāścāhṛtā bhaumavadhe sahasraśaḥ
+01.10.030/1 etāḥ paraṃ strītvam apāstapeśalaṃ nirastaśaucaṃ bata sādhu kurvate
+01.10.030/3 yāsāṃ gṛhāt puṣkaralocanaḥ patir na jātvapaityāhṛtibhirhṛdi spṛśan
+01.10.031/1 evaṃvidhā gadantīnāṃ sa giraḥ purayoṣitām
+01.10.031/3 nirīkṣaṇenābhinandan sasmitena yayau hariḥ
+01.10.032/1 ajātaśatruḥ pṛtanāṃ gopīthāya madhudviṣaḥ
+01.10.032/3 parebhyaḥ śaṅkitaḥ snehāt prāyuṅkta caturaṅgiṇīm
+01.10.033/1 atha dūrāgatān śauriḥ kauravān virahāturān
+01.10.033/3 sannivartya dṛḍhaṃ snigdhān prāyāt svanagarīṃ priyaiḥ
+01.10.034/1 kurujāṅgalapāñcālān śūrasenān sayāmunān
+01.10.034/3 brahmāvartaṃ kurukṣetraṃ matsyān sārasvatān atha
+01.10.035/1 marudhanvam atikramya sauvīrābhīrayoḥ parān
+01.10.035/3 ānartān bhārgavopāgāc chrāntavāho manāg vibhuḥ
+01.10.036/1 tatra tatra ha tatratyairhariḥ pratyudyatārhaṇaḥ
+01.10.036/3 sāyaṃ bheje diśaṃ paścādgaviṣṭho gāṃ gatastadā
+01.11.001/0 sūta uvāca
+01.11.001/1 ānartān sa upavrajya svṛddhāñ janapadān svakān
+01.11.001/3 dadhmau daravaraṃ teṣāṃ viṣādaṃ śamayann iva
+01.11.002/1 sa uccakāśe dhavalodaro daro 'pyurukramasyādharaśoṇaśoṇimā
+01.11.002/3 dādhmāyamānaḥ karakañjasampuṭe yathābjakhaṇḍe kalahaṃsa utsvanaḥ
+01.11.003/1 tam upaśrutya ninadaṃ jagadbhayabhayāvaham
+01.11.003/3 pratyudyayuḥ prajāḥ sarvā bhartṛdarśanalālasāḥ
+01.11.004/1 tatropanītabalayo raverdīpam ivādṛtāḥ
+01.11.004/3 ātmārāmaṃ pūrṇakāmaṃ nijalābhena nityadā
+01.11.005/1 prītyutphullamukhāḥ procurharṣagadgadayā girā
+01.11.005/3 pitaraṃ sarvasuhṛdam avitāram ivārbhakāḥ
+01.11.006/1 natāḥ sma te nātha sadāṅghripaṅkajaṃ viriñcavairiñcyasurendravanditam
+01.11.006/3 parāyaṇaṃ kṣemam ihecchatāṃ paraṃ na yatra kālaḥ prabhavet paraḥ prabhuḥ
+01.11.007/1 bhavāya nastvaṃ bhava viśvabhāvana tvam eva mātātha suhṛtpatiḥ pitā
+01.11.007/3 tvaṃ sadgururnaḥ paramaṃ ca daivataṃ yasyānuvṛttyā kṛtino babhūvima
+01.11.008/1 aho sanāthā bhavatā sma yadvayaṃ traiviṣṭapānām api dūradarśanam
+01.11.008/3 premasmitasnigdhanirīkṣaṇānanaṃ paśyema rūpaṃ tava sarvasaubhagam
+01.11.009/1 yarhyambujākṣāpasasāra bho bhavān kurūn madhūn vātha suhṛddidṛkṣayā
+01.11.009/3 tatrābdakoṭipratimaḥ kṣaṇo bhaved raviṃ vinākṣṇoriva nastavācyuta
+01.11.010/1 kathaṃ vayaṃ nātha ciroṣite tvayi prasannadṛṣṭyākhilatāpaśoṣaṇam
+01.11.010/3 jīvema te sundarahāsaśobhitam apaśyamānā vadanaṃ manoharam
+01.11.011/1 iti codīritā vācaḥ prajānāṃ bhaktavatsalaḥ
+01.11.011/3 śṛṇvāno 'nugrahaṃ dṛṣṭyā vitanvan prāviśat puram
+01.11.012/1 madhubhojadaśārhārhakukurāndhakavṛṣṇibhiḥ
+01.11.012/3 ātmatulyabalairguptāṃ nāgairbhogavatīm iva
+01.11.013/1 sarvartusarvavibhavapuṇyavṛkṣalatāśramaiḥ
+01.11.013/3 udyānopavanārāmairvṛtapadmākaraśriyam
+01.11.014/1 gopuradvāramārgeṣu kṛtakautukatoraṇām
+01.11.014/3 citradhvajapatākāgrairantaḥ pratihatātapām
+01.11.015/1 sammārjitamahāmārga rathyāpaṇakacatvarām
+01.11.015/3 siktāṃ gandhajalairuptāṃ phalapuṣpākṣatāṅkuraiḥ
+01.11.016/1 dvāri dvāri gṛhāṇāṃ ca dadhyakṣataphalekṣubhiḥ
+01.11.016/3 alaṅkṛtāṃ pūrṇakumbhairbalibhirdhūpadīpakaiḥ
+01.11.017/1 niśamya preṣṭham āyāntaṃ vasudevo mahāmanāḥ
+01.11.017/3 akrūraścograsenaśca rāmaścādbhutavikramaḥ
+01.11.018/1 pradyumnaścārudeṣṇaśca sāmbo jāmbavatīsutaḥ
+01.11.018/3 praharṣavegocchaśitaśayanāsanabhojanāḥ
+01.11.019/1 vāraṇendraṃ puraskṛtya brāhmaṇaiḥ sasumaṅgalaiḥ
+01.11.019/3 śaṅkhatūryaninādena brahmaghoṣeṇa cādṛtāḥ
+01.11.019/5 pratyujjagmū rathairhṛṣṭāḥ praṇayāgatasādhvasāḥ
+01.11.020/1 vāramukhyāśca śataśo yānaistaddarśanotsukāḥ
+01.11.020/3 lasatkuṇḍalanirbhātakapolavadanaśriyaḥ
+01.11.021/1 naṭanartakagandharvāḥ sūtamāgadhavandinaḥ
+01.11.021/3 gāyanti cottamaślokacaritānyadbhutāni ca
+01.11.022/1 bhagavāṃstatra bandhūnāṃ paurāṇām anuvartinām
+01.11.022/3 yathāvidhyupasaṅgamya sarveṣāṃ mānam ādadhe
+01.11.023/1 prahvābhivādanāśleṣakarasparśasmitekṣaṇaiḥ
+01.11.023/3 āśvāsya cāśvapākebhyo varaiścābhimatairvibhuḥ
+01.11.024/1 svayaṃ ca gurubhirvipraiḥ sadāraiḥ sthavirairapi
+01.11.024/3 āśīrbhiryujyamāno 'nyairvandibhiścāviśat puram
+01.11.025/1 rājamārgaṃ gate kṛṣṇe dvārakāyāḥ kulastriyaḥ
+01.11.025/3 harmyāṇyāruruhurvipra tadīkṣaṇamahotsavāḥ
+01.11.026/1 nityaṃ nirīkṣamāṇānāṃ yadapi dvārakaukasām
+01.11.026/3 na vitṛpyanti hi dṛśaḥ śriyo dhāmāṅgam acyutam
+01.11.027/1 śriyo nivāso yasyoraḥ pānapātraṃ mukhaṃ dṛśām
+01.11.027/3 bāhavo lokapālānāṃ sāraṅgāṇāṃ padāmbujam
+01.11.028/1 sitātapatravyajanairupaskṛtaḥ prasūnavarṣairabhivarṣitaḥ pathi
+01.11.028/3 piśaṅgavāsā vanamālayā babhau ghano yathārkoḍupacāpavaidyutaiḥ
+01.11.029/1 praviṣṭastu gṛhaṃ pitroḥ pariṣvaktaḥ svamātṛbhiḥ
+01.11.029/3 vavande śirasā sapta devakīpramukhā mudā
+01.11.030/1 tāḥ putram aṅkam āropya snehasnutapayodharāḥ
+01.11.030/3 harṣavihvalitātmānaḥ siṣicurnetrajairjalaiḥ
+01.11.031/1 athāviśat svabhavanaṃ sarvakāmam anuttamam
+01.11.031/3 prāsādā yatra patnīnāṃ sahasrāṇi ca ṣoḍaśa
+01.11.032/1 patnyaḥ patiṃ proṣya gṛhānupāgataṃ vilokya sañjātamanomahotsavāḥ
+01.11.032/3 uttasthurārāt sahasāsanāśayāt sākaṃ vratairvrīḍitalocanānanāḥ
+01.11.033/1 tam ātmajairdṛṣṭibhirantarātmanā durantabhāvāḥ parirebhire patim
+01.11.033/3 niruddham apyāsravadambu netrayor vilajjatīnāṃ bhṛguvarya vaiklavāt
+01.11.034/1 yadyapyasau pārśvagato rahogatas tathāpi tasyāṅghriyugaṃ navaṃ navam
+01.11.034/3 pade pade kā virameta tatpadāc calāpi yac chrīrna jahāti karhicit
+01.11.035/1 evaṃ nṛpāṇāṃ kṣitibhārajanmanām akṣauhiṇībhiḥ parivṛttatejasām
+01.11.035/3 vidhāya vairaṃ śvasano yathānalaṃ mitho vadhenoparato nirāyudhaḥ
+01.11.036/1 sa eṣa naraloke 'sminn avatīrṇaḥ svamāyayā
+01.11.036/3 reme strīratnakūṭastho bhagavān prākṛto yathā
+01.11.037/1 uddāmabhāvapiśunāmalavalguhāsa
+01.11.037/2 vrīḍāvalokanihato madano 'pi yāsām
+01.11.037/3 sammuhya cāpam ajahāt pramadottamāstā
+01.11.037/4 yasyendriyaṃ vimathituṃ kuhakairna śekuḥ
+01.11.038/1 tam ayaṃ manyate loko hyasaṅgam api saṅginam
+01.11.038/3 ātmaupamyena manujaṃ vyāpṛṇvānaṃ yato 'budhaḥ
+01.11.039/1 etadīśanam īśasya prakṛtistho 'pi tadguṇaiḥ
+01.11.039/3 na yujyate sadātmasthairyathā buddhistadāśrayā
+01.11.040/1 taṃ menire 'balā mūḍhāḥ straiṇaṃ cānuvrataṃ rahaḥ
+01.11.040/3 apramāṇavido bharturīśvaraṃ matayo yathā
+01.12.001/0 śaunaka uvāca
+01.12.001/1 aśvatthāmnopasṛṣṭena brahmaśīrṣṇorutejasā
+01.12.001/3 uttarāyā hato garbha īśenājīvitaḥ punaḥ
+01.12.002/1 tasya janma mahābuddheḥ karmāṇi ca mahātmanaḥ
+01.12.002/3 nidhanaṃ ca yathaivāsīt sa pretya gatavān yathā
+01.12.003/1 tadidaṃ śrotum icchāmo gadituṃ yadi manyase
+01.12.003/3 brūhi naḥ śraddadhānānāṃ yasya jñānam adāc chukaḥ
+01.12.004/0 sūta uvāca
+01.12.004/1 apīpaladdharmarājaḥ pitṛvadrañjayan prajāḥ
+01.12.004/3 niḥspṛhaḥ sarvakāmebhyaḥ kṛṣṇapādānusevayā
+01.12.005/1 sampadaḥ kratavo lokā mahiṣī bhrātaro mahī
+01.12.005/3 jambūdvīpādhipatyaṃ ca yaśaśca tridivaṃ gatam
+01.12.006/1 kiṃ te kāmāḥ suraspārhā mukundamanaso dvijāḥ
+01.12.006/3 adhijahrurmudaṃ rājñaḥ kṣudhitasya yathetare
+01.12.007/1 māturgarbhagato vīraḥ sa tadā bhṛgunandana
+01.12.007/3 dadarśa puruṣaṃ kañciddahyamāno 'stratejasā
+01.12.008/1 aṅguṣṭhamātram amalaṃ sphuratpuraṭamaulinam
+01.12.008/3 apīvyadarśanaṃ śyāmaṃ taḍidvāsasam acyutam
+01.12.009/1 śrīmaddīrghacaturbāhuṃ taptakāñcanakuṇḍalam
+01.12.009/3 kṣatajākṣaṃ gadāpāṇim ātmanaḥ sarvato diśam
+01.12.009/5 paribhramantam ulkābhāṃ bhrāmayantaṃ gadāṃ muhuḥ
+01.12.010/1 astratejaḥ svagadayā nīhāram iva gopatiḥ
+01.12.010/3 vidhamantaṃ sannikarṣe paryaikṣata ka ityasau
+01.12.011/1 vidhūya tadameyātmā bhagavān dharmagub vibhuḥ
+01.12.011/3 miṣato daśamāsasya tatraivāntardadhe hariḥ
+01.12.012/1 tataḥ sarvaguṇodarke sānukūlagrahodaye
+01.12.012/3 jajñe vaṃśadharaḥ pāṇḍorbhūyaḥ pāṇḍurivaujasā
+01.12.013/1 tasya prītamanā rājā viprairdhaumyakṛpādibhiḥ
+01.12.013/3 jātakaṃ kārayām āsa vācayitvā ca maṅgalam
+01.12.014/1 hiraṇyaṃ gāṃ mahīṃ grāmān hastyaśvān nṛpatirvarān
+01.12.014/3 prādāt svannaṃ ca viprebhyaḥ prajātīrthe sa tīrthavit
+01.12.015/1 tam ūcurbrāhmaṇāstuṣṭā rājānaṃ praśrayānvitam
+01.12.015/3 eṣa hyasmin prajātantau purūṇāṃ pauravarṣabha
+01.12.016/1 daivenāpratighātena śukle saṃsthām upeyuṣi
+01.12.016/3 rāto vo 'nugrahārthāya viṣṇunā prabhaviṣṇunā
+01.12.017/1 tasmān nāmnā viṣṇurāta iti loke bhaviṣyati
+01.12.017/3 na sandeho mahābhāga mahābhāgavato mahān
+01.12.018/0 śrīrājovāca
+01.12.018/1 apyeṣa vaṃśyān rājarṣīn puṇyaślokān mahātmanaḥ
+01.12.018/3 anuvartitā svidyaśasā sādhuvādena sattamāḥ
+01.12.019/0 brāhmaṇā ūcuḥ
+01.12.019/1 pārtha prajāvitā sākṣādikṣvākuriva mānavaḥ
+01.12.019/3 brahmaṇyaḥ satyasandhaśca rāmo dāśarathiryathā
+01.12.020/1 eṣa dātā śaraṇyaśca yathā hyauśīnaraḥ śibiḥ
+01.12.020/3 yaśo vitanitā svānāṃ dauṣyantiriva yajvanām
+01.12.021/1 dhanvinām agraṇīreṣa tulyaścārjunayordvayoḥ
+01.12.021/3 hutāśa iva durdharṣaḥ samudra iva dustaraḥ
+01.12.022/1 mṛgendra iva vikrānto niṣevyo himavān iva
+01.12.022/3 titikṣurvasudhevāsau sahiṣṇuḥ pitarāviva
+01.12.023/1 pitāmahasamaḥ sāmye prasāde giriśopamaḥ
+01.12.023/3 āśrayaḥ sarvabhūtānāṃ yathā devo ramāśrayaḥ
+01.12.024/1 sarvasadguṇamāhātmye eṣa kṛṣṇam anuvrataḥ
+01.12.024/3 rantideva ivodāro yayātiriva dhārmikaḥ
+01.12.025/1 hṛtyā balisamaḥ kṛṣṇe prahrāda iva sadgrahaḥ
+01.12.025/3 āhartaiṣo 'śvamedhānāṃ vṛddhānāṃ paryupāsakaḥ
+01.12.026/1 rājarṣīṇāṃ janayitā śāstā cotpathagāminām
+01.12.026/3 nigrahītā kalereṣa bhuvo dharmasya kāraṇāt
+01.12.027/1 takṣakādātmano mṛtyuṃ dvijaputropasarjitāt
+01.12.027/3 prapatsyata upaśrutya muktasaṅgaḥ padaṃ hareḥ
+01.12.028/1 jijñāsitātmayāthārthyo munervyāsasutādasau
+01.12.028/3 hitvedaṃ nṛpa gaṅgāyāṃ yāsyatyaddhākutobhayam
+01.12.029/1 iti rājña upādiśya viprā jātakakovidāḥ
+01.12.029/3 labdhāpacitayaḥ sarve pratijagmuḥ svakān gṛhān
+01.12.030/1 sa eṣa loke vikhyātaḥ parīkṣiditi yat prabhuḥ
+01.12.030/3 pūrvaṃ dṛṣṭam anudhyāyan parīkṣeta nareṣviha
+01.12.031/1 sa rājaputro vavṛdhe āśu śukla ivoḍupaḥ
+01.12.031/3 āpūryamāṇaḥ pitṛbhiḥ kāṣṭhābhiriva so 'nvaham
+01.12.032/1 yakṣyamāṇo 'śvamedhena jñātidrohajihāsayā
+01.12.032/3 rājā labdhadhano dadhyau nānyatra karadaṇḍayoḥ
+01.12.033/1 tadabhipretam ālakṣya bhrātaro ñcyutacoditāḥ
+01.12.033/3 dhanaṃ prahīṇam ājahrurudīcyāṃ diśi bhūriśaḥ
+01.12.034/1 tena sambhṛtasambhāro dharmaputro yudhiṣṭhiraḥ
+01.12.034/3 vājimedhaistribhirbhīto yajñaiḥ samayajaddharim
+01.12.035/1 āhūto bhagavān rājñā yājayitvā dvijairnṛpam
+01.12.035/3 uvāsa katicin māsān suhṛdāṃ priyakāmyayā
+01.12.036/1 tato rājñābhyanujñātaḥ kṛṣṇayā sahabandhubhiḥ
+01.12.036/3 yayau dvāravatīṃ brahman sārjuno yadubhirvṛtaḥ
+01.13.001/0 sūta uvāca
+01.13.001/1 vidurastīrthayātrāyāṃ maitreyādātmano gatim
+01.13.001/3 jñātvāgāddhāstinapuraṃ tayāvāptavivitsitaḥ
+01.13.002/1 yāvataḥ kṛtavān praśnān kṣattā kauṣāravāgrataḥ
+01.13.002/3 jātaikabhaktirgovinde tebhyaścopararāma ha
+01.13.003/1 taṃ bandhum āgataṃ dṛṣṭvā dharmaputraḥ sahānujaḥ
+01.13.003/3 dhṛtarāṣṭro yuyutsuśca sūtaḥ śāradvataḥ pṛthā
+01.13.004/1 gāndhārī draupadī brahman subhadrā cottarā kṛpī
+01.13.004/3 anyāśca jāmayaḥ pāṇḍorjñātayaḥ sasutāḥ striyaḥ
+01.13.005/1 pratyujjagmuḥ praharṣeṇa prāṇaṃ tanva ivāgatam
+01.13.005/3 abhisaṅgamya vidhivat pariṣvaṅgābhivādanaiḥ
+01.13.006/1 mumucuḥ premabāṣpaughaṃ virahautkaṇṭhyakātarāḥ
+01.13.006/3 rājā tam arhayāṃ cakre kṛtāsanaparigraham
+01.13.007/1 taṃ bhuktavantaṃ viśrāntam āsīnaṃ sukham āsane
+01.13.007/3 praśrayāvanato rājā prāha teṣāṃ ca śṛṇvatām
+01.13.008/0 yudhiṣṭhira uvāca
+01.13.008/1 api smaratha no yuṣmatpakṣacchāyāsamedhitān
+01.13.008/3 vipadgaṇādviṣāgnyādermocitā yat samātṛkāḥ
+01.13.009/1 kayā vṛttyā vartitaṃ vaścaradbhiḥ kṣitimaṇḍalam
+01.13.009/3 tīrthāni kṣetramukhyāni sevitānīha bhūtale
+01.13.010/1 bhavadvidhā bhāgavatāstīrthabhūtāḥ svayaṃ vibho
+01.13.010/3 tīrthīkurvanti tīrthāni svāntaḥsthena gadābhṛtā
+01.13.011/1 api naḥ suhṛdastāta bāndhavāḥ kṛṣṇadevatāḥ
+01.13.011/3 dṛṣṭāḥ śrutā vā yadavaḥ svapuryāṃ sukham āsate
+01.13.012/1 ityukto dharmarājena sarvaṃ tat samavarṇayat
+01.13.012/3 yathānubhūtaṃ kramaśo vinā yadukulakṣayam
+01.13.013/1 nanvapriyaṃ durviṣahaṃ nṛṇāṃ svayam upasthitam
+01.13.013/3 nāvedayat sakaruṇo duḥkhitān draṣṭum akṣamaḥ
+01.13.014/1 kañcit kālam athāvātsīt satkṛto devavat sukham
+01.13.014/3 bhrāturjyeṣṭhasya śreyaskṛt sarveṣāṃ sukham āvahan
+01.13.015/1 abibhradaryamā daṇḍaṃ yathāvadaghakāriṣu
+01.13.015/3 yāvaddadhāra śūdratvaṃ śāpādvarṣaśataṃ yamaḥ
+01.13.016/1 yudhiṣṭhiro labdharājyo dṛṣṭvā pautraṃ kulandharam
+01.13.016/3 bhrātṛbhirlokapālābhairmumude parayā śriyā
+01.13.017/1 evaṃ gṛheṣu saktānāṃ pramattānāṃ tadīhayā
+01.13.017/3 atyakrāmadavijñātaḥ kālaḥ paramadustaraḥ
+01.13.018/1 vidurastadabhipretya dhṛtarāṣṭram abhāṣata
+01.13.018/3 rājan nirgamyatāṃ śīghraṃ paśyedaṃ bhayam āgatam
+01.13.019/1 pratikriyā na yasyeha kutaścit karhicit prabho
+01.13.019/3 sa eṣa bhagavān kālaḥ sarveṣāṃ naḥ samāgataḥ
+01.13.020/1 yena caivābhipanno 'yaṃ prāṇaiḥ priyatamairapi
+01.13.020/3 janaḥ sadyo viyujyeta kim utānyairdhanādibhiḥ
+01.13.021/1 pitṛbhrātṛsuhṛtputrā hatāste vigataṃ vayam
+01.13.021/3 ātmā ca jarayā grastaḥ parageham upāsase
+01.13.022/1 andhaḥ puraiva vadhiro mandaprajñāśca sāmpratam
+01.13.022/3 viśīrṇadanto mandāgniḥ sarāgaḥ kapham udvahan
+01.13.023/1 aho mahīyasī jantorjīvitāśā yathā bhavān
+01.13.023/3 bhīmāpavarjitaṃ piṇḍam ādatte gṛhapālavat
+01.13.024/1 agnirnisṛṣṭo dattaśca garo dārāśca dūṣitāḥ
+01.13.024/3 hṛtaṃ kṣetraṃ dhanaṃ yeṣāṃ taddattairasubhiḥ kiyat
+01.13.025/1 tasyāpi tava deho 'yaṃ kṛpaṇasya jijīviṣoḥ
+01.13.025/3 paraityanicchato jīrṇo jarayā vāsasī iva
+01.13.026/1 gatasvārtham imaṃ dehaṃ virakto muktabandhanaḥ
+01.13.026/3 avijñātagatirjahyāt sa vai dhīra udāhṛtaḥ
+01.13.027/1 yaḥ svakāt parato veha jātanirveda ātmavān
+01.13.027/3 hṛdi kṛtvā hariṃ gehāt pravrajet sa narottamaḥ
+01.13.028/1 athodīcīṃ diśaṃ yātu svairajñātagatirbhavān
+01.13.028/3 ito 'rvāk prāyaśaḥ kālaḥ puṃsāṃ guṇavikarṣaṇaḥ
+01.13.029/1 evaṃ rājā vidureṇānujena prajñācakṣurbodhita ājamīḍhaḥ
+01.13.029/3 chittvā sveṣu snehapāśān draḍhimno niścakrāma bhrātṛsandarśitādhvā
+01.13.030/1 patiṃ prayāntaṃ subalasya putrī pativratā cānujagāma sādhvī
+01.13.030/3 himālayaṃ nyastadaṇḍapraharṣaṃ manasvinām iva sat samprahāraḥ
+01.13.031/1 ajātaśatruḥ kṛtamaitro hutāgnir viprān natvā tilagobhūmirukmaiḥ
+01.13.031/3 gṛhaṃ praviṣṭo guruvandanāya na cāpaśyat pitarau saubalīṃ ca
+01.13.032/1 tatra sañjayam āsīnaṃ papracchodvignamānasaḥ
+01.13.032/3 gāvalgaṇe kva nastāto vṛddho hīnaśca netrayoḥ
+01.13.033/1 ambā ca hataputrārtā pitṛvyaḥ kva gataḥ suhṛt
+01.13.033/3 api mayyakṛtaprajñe hatabandhuḥ sa bhāryayā
+01.13.033/5 āśaṃsamānaḥ śamalaṃ gaṅgāyāṃ duḥkhito 'patat
+01.13.034/1 pitaryuparate pāṇḍau sarvān naḥ suhṛdaḥ śiśūn
+01.13.034/3 arakṣatāṃ vyasanataḥ pitṛvyau kva gatāvitaḥ
+01.13.035/0 sūta uvāca
+01.13.035/1 kṛpayā snehavaiklavyāt sūto virahakarśitaḥ
+01.13.035/3 ātmeśvaram acakṣāṇo na pratyāhātipīḍitaḥ
+01.13.036/1 vimṛjyāśrūṇi pāṇibhyāṃ viṣṭabhyātmānam ātmanā
+01.13.036/3 ajātaśatruṃ pratyūce prabhoḥ pādāvanusmaran
+01.13.037/0 sañjaya uvāca
+01.13.037/1 nāhaṃ veda vyavasitaṃ pitrorvaḥ kulanandana
+01.13.037/3 gāndhāryā vā mahābāho muṣito 'smi mahātmabhiḥ
+01.13.038/1 athājagāma bhagavān nāradaḥ sahatumburuḥ
+01.13.038/3 pratyutthāyābhivādyāha sānujo 'bhyarcayan munim
+01.13.039/0 yudhiṣṭhira uvāca
+01.13.039/1 nāhaṃ veda gatiṃ pitrorbhagavan kva gatāvitaḥ
+01.13.039/3 ambā vā hataputrārtā kva gatā ca tapasvinī
+01.13.040/1 karṇadhāra ivāpāre bhagavān pāradarśakaḥ
+01.13.040/3 athābabhāṣe bhagavān nārado munisattamaḥ
+01.13.041/0 nārada uvāca
+01.13.041/1 mā kañcana śuco rājan yadīśvaravaśaṃ jagat
+01.13.041/3 lokāḥ sapālā yasyeme vahanti balim īśituḥ
+01.13.041/5 sa saṃyunakti bhūtāni sa eva viyunakti ca
+01.13.042/1 yathā gāvo nasi protāstantyāṃ baddhāśca dāmabhiḥ
+01.13.042/3 vāktantyāṃ nāmabhirbaddhā vahanti balim īśituḥ
+01.13.043/1 yathā krīḍopaskarāṇāṃ saṃyogavigamāviha
+01.13.043/3 icchayā krīḍituḥ syātāṃ tathaiveśecchayā nṛṇām
+01.13.044/1 yan manyase dhruvaṃ lokam adhruvaṃ vā na cobhayam
+01.13.044/3 sarvathā na hi śocyāste snehādanyatra mohajāt
+01.13.045/1 tasmāj jahyaṅga vaiklavyam ajñānakṛtam ātmanaḥ
+01.13.045/3 kathaṃ tvanāthāḥ kṛpaṇā varteraṃste ca māṃ vinā
+01.13.046/1 kālakarmaguṇādhīno deho 'yaṃ pāñcabhautikaḥ
+01.13.046/3 katham anyāṃstu gopāyet sarpagrasto yathā param
+01.13.047/1 ahastāni sahastānām apadāni catuṣpadām
+01.13.047/3 phalgūni tatra mahatāṃ jīvo jīvasya jīvanam
+01.13.048/1 tadidaṃ bhagavān rājann eka ātmātmanāṃ svadṛk
+01.13.048/3 antaro 'nantaro bhāti paśya taṃ māyayorudhā
+01.13.049/1 so 'yam adya mahārāja bhagavān bhūtabhāvanaḥ
+01.13.049/3 kālarūpo 'vatīrṇo 'syām abhāvāya suradviṣām
+01.13.050/1 niṣpāditaṃ devakṛtyam avaśeṣaṃ pratīkṣate
+01.13.050/3 tāvadyūyam avekṣadhvaṃ bhavedyāvadiheśvaraḥ
+01.13.051/1 dhṛtarāṣṭraḥ saha bhrātrā gāndhāryā ca svabhāryayā
+01.13.051/3 dakṣiṇena himavata ṛṣīṇām āśramaṃ gataḥ
+01.13.052/1 srotobhiḥ saptabhiryā vai svardhunī saptadhā vyadhāt
+01.13.052/3 saptānāṃ prītaye nānā saptasrotaḥ pracakṣate
+01.13.053/1 snātvānusavanaṃ tasmin hutvā cāgnīn yathāvidhi
+01.13.053/3 abbhakṣa upaśāntātmā sa āste vigataiṣaṇaḥ
+01.13.054/1 jitāsano jitaśvāsaḥ pratyāhṛtaṣaḍindriyaḥ
+01.13.054/3 haribhāvanayā dhvastarajaḥsattvatamomalaḥ
+01.13.055/1 vijñānātmani saṃyojya kṣetrajñe pravilāpya tam
+01.13.055/3 brahmaṇyātmānam ādhāre ghaṭāmbaram ivāmbare
+01.13.056/1 dhvastamāyāguṇodarko niruddhakaraṇāśayaḥ
+01.13.056/3 nivartitākhilāhāra āste sthāṇurivācalaḥ
+01.13.056/5 tasyāntarāyo maivābhūḥ sannyastākhilakarmaṇaḥ
+01.13.057/1 sa vā adyatanādrājan parataḥ pañcame 'hani
+01.13.057/3 kalevaraṃ hāsyati svaṃ tac ca bhasmībhaviṣyati
+01.13.058/1 dahyamāne 'gnibhirdehe patyuḥ patnī sahoṭaje
+01.13.058/3 bahiḥ sthitā patiṃ sādhvī tam agnim anu vekṣyati
+01.13.059/1 vidurastu tadāścaryaṃ niśāmya kurunandana
+01.13.059/3 harṣaśokayutastasmādgantā tīrthaniṣevakaḥ
+01.13.060/1 ityuktvāthāruhat svargaṃ nāradaḥ sahatumburuḥ
+01.13.060/3 yudhiṣṭhiro vacastasya hṛdi kṛtvājahāc chucaḥ
+01.14.001/0 sūta uvāca
+01.14.001/1 samprasthite dvārakāyāṃjiṣṇau bandhudidṛkṣayā
+01.14.001/3 jñātuṃ ca puṇyaślokasya kṛṣṇasya ca viceṣṭitam
+01.14.002/1 vyatītāḥ katicin māsāstadā nāyāt tato 'rjunaḥ
+01.14.002/3 dadarśa ghorarūpāṇi nimittāni kurūdvahaḥ
+01.14.003/1 kālasya ca gatiṃ raudrāṃ viparyastartudharmiṇaḥ
+01.14.003/3 pāpīyasīṃ nṛṇāṃ vārtāṃ krodhalobhānṛtātmanām
+01.14.004/1 jihmaprāyaṃ vyavahṛtaṃ śāṭhyamiśraṃ ca sauhṛdam
+01.14.004/3 pitṛmātṛsuhṛdbhrātṛdampatīnāṃ ca kalkanam
+01.14.005/1 nimittānyatyariṣṭāni kāle tvanugate nṛṇām
+01.14.005/3 lobhādyadharmaprakṛtiṃ dṛṣṭvovācānujaṃ nṛpaḥ
+01.14.006/0 yudhiṣṭhira uvāca
+01.14.006/1 sampreṣito dvārakāyāṃ jiṣṇurbandhudidṛkṣayāj
+01.14.006/3 ñātuṃ ca puṇyaślokasya kṛṣṇasya ca viceṣṭitam
+01.14.007/1 gatāḥ saptādhunā māsā bhīmasena tavānujaḥ
+01.14.007/3 nāyāti kasya vā hetornāhaṃ vededam añjasā
+01.14.008/1 api devarṣiṇādiṣṭaḥ sa kālo 'yam upasthitaḥ
+01.14.008/3 yadātmano 'ṅgam ākrīḍaṃ bhagavān utsisṛkṣati
+01.14.009/1 yasmān naḥ sampado rājyaṃ dārāḥ prāṇāḥ kulaṃ prajāḥ
+01.14.009/3 āsan sapatnavijayo lokāśca yadanugrahāt
+01.14.010/1 paśyotpātān naravyāghra divyān bhaumān sadaihikān
+01.14.010/3 dāruṇān śaṃsato 'dūrādbhayaṃ no buddhimohanam
+01.14.011/1 ūrvakṣibāhavo mahyaṃ sphurantyaṅga punaḥ punaḥ
+01.14.011/3 vepathuścāpi hṛdaye ārāddāsyanti vipriyam
+01.14.012/1 śivaiṣodyantam ādityam abhirautyanalānanā
+01.14.012/3 mām aṅga sārameyo 'yam abhirebhatyabhīruvat
+01.14.013/1 śastāḥ kurvanti māṃ savyaṃ dakṣiṇaṃ paśavo 'pare
+01.14.013/3 vāhāṃśca puruṣavyāghra lakṣaye rudato mama
+01.14.014/1 mṛtyudūtaḥ kapoto 'yam ulūkaḥ kampayan manaḥ
+01.14.014/3 pratyulūkaśca kuhvānairviśvaṃ vai śūnyam icchataḥ
+01.14.015/1 dhūmrā diśaḥ paridhayaḥ kampate bhūḥ sahādribhiḥ
+01.14.015/3 nirghātaśca mahāṃstāta sākaṃ ca stanayitnubhiḥ
+01.14.016/1 vāyurvāti kharasparśo rajasā visṛjaṃstamaḥ
+01.14.016/3 asṛg varṣanti jaladā bībhatsam iva sarvataḥ
+01.14.017/1 sūryaṃ hataprabhaṃ paśya grahamardaṃ mitho divi
+01.14.017/3 sasaṅkulairbhūtagaṇairjvalite iva rodasī
+01.14.018/1 nadyo nadāśca kṣubhitāḥ sarāṃsi ca manāṃsi ca
+01.14.018/3 na jvalatyagnirājyena kālo 'yaṃ kiṃ vidhāsyati
+01.14.019/1 na pibanti stanaṃ vatsā na duhyanti ca mātaraḥ
+01.14.019/3 rudantyaśrumukhā gāvo na hṛṣyantyṛṣabhā vraje
+01.14.020/1 daivatāni rudantīva svidyanti hyuccalanti ca
+01.14.020/3 ime janapadā grāmāḥ purodyānākarāśramāḥ
+01.14.020/5 bhraṣṭaśriyo nirānandāḥ kim aghaṃ darśayanti naḥ
+01.14.021/1 manya etairmahotpātairnūnaṃ bhagavataḥ padaiḥ
+01.14.021/3 ananyapuruṣaśrībhirhīnā bhūrhatasaubhagā
+01.14.022/1 iti cintayatastasya dṛṣṭāriṣṭena cetasā
+01.14.022/3 rājñaḥ pratyāgamadbrahman yadupuryāḥ kapidhvajaḥ
+01.14.023/1 taṃ pādayornipatitam ayathāpūrvam āturam
+01.14.023/3 adhovadanam abbindūn sṛjantaṃ nayanābjayoḥ
+01.14.024/1 vilokyodvignahṛdayo vicchāyam anujaṃ nṛpaḥ
+01.14.024/3 pṛcchati sma suhṛn madhye saṃsmaran nāraderitam
+01.14.025/0 yudhiṣṭhira uvāca
+01.14.025/1 kaccidānartapuryāṃ naḥ svajanāḥ sukham āsate
+01.14.025/3 madhubhojadaśārhārha sātvatāndhakavṛṣṇayaḥ
+01.14.026/1 śūro mātāmahaḥ kaccit svastyāste vātha māriṣaḥ
+01.14.026/3 mātulaḥ sānujaḥ kaccit kuśalyānakadundubhiḥ
+01.14.027/1 sapta svasārastatpatnyo mātulānyaḥ sahātmajāḥ
+01.14.027/3 āsate sasnuṣāḥ kṣemaṃdevakīpramukhāḥ svayam
+01.14.028/1 kaccidrājāhuko jīvatyasatputro 'sya cānujaḥ
+01.14.028/3 hṛdīkaḥ sasuto 'krūro jayantagadasāraṇāḥ
+01.14.029/1 āsate kuśalaṃ kaccidye ca śatrujidādayaḥ
+01.14.029/3 kaccidāste sukhaṃ rāmo bhagavān sātvatāṃ prabhuḥ
+01.14.030/1 pradyumnaḥ sarvavṛṣṇīnāṃ sukham āste mahārathaḥ
+01.14.030/3 gambhīrarayo 'niruddho vardhate bhagavān uta
+01.14.031/1 suṣeṇaścārudeṣṇaśca sāmbo jāmbavatīsutaḥ
+01.14.031/3 anye ca kārṣṇipravarāḥ saputrā ṛṣabhādayaḥ
+01.14.032/1 tathaivānucarāḥ śaureḥ śrutadevoddhavādayaḥ
+01.14.032/3 sunandanandaśīrṣaṇyā ye cānye sātvatarṣabhāḥ
+01.14.033/1 api svastyāsate sarve rāmakṛṣṇabhujāśrayāḥ
+01.14.033/3 api smaranti kuśalam asmākaṃ baddhasauhṛdāḥ
+01.14.034/1 bhagavān api govindo brahmaṇyo bhaktavatsalaḥ
+01.14.034/3 kaccit pure sudharmāyāṃ sukham āste suhṛdvṛtaḥ
+01.14.035/1 maṅgalāya ca lokānāṃ kṣemāya ca bhavāya ca
+01.14.035/3 āste yadukulāmbhodhāvādyo 'nantasakhaḥ pumān
+01.14.036/1 yadbāhudaṇḍaguptāyāṃ svapuryāṃ yadavo 'rcitāḥ
+01.14.036/3 krīḍanti paramānandaṃ mahāpauruṣikā iva
+01.14.037/1 yatpādaśuśrūṣaṇamukhyakarmaṇā satyādayo dvyaṣṭasahasrayoṣitaḥ
+01.14.037/3 nirjitya saṅkhye tridaśāṃstadāśiṣo haranti vajrāyudhavallabhocitāḥ
+01.14.038/1 yadbāhudaṇḍābhyudayānujīvino yadupravīrā hyakutobhayā muhuḥ
+01.14.038/3 adhikramantyaṅghribhirāhṛtāṃ balāt sabhāṃ sudharmāṃ surasattamocitām
+01.14.039/1 kaccit te 'nāmayaṃ tāta bhraṣṭatejā vibhāsi me
+01.14.039/3 alabdhamāno 'vajñātaḥ kiṃ vā tāta ciroṣitaḥ
+01.14.040/1 kaccin nābhihato 'bhāvaiḥ śabdādibhiramaṅgalaiḥ
+01.14.040/3 na dattam uktam arthibhya āśayā yat pratiśrutam
+01.14.041/1 kaccit tvaṃ brāhmaṇaṃ bālaṃ gāṃ vṛddhaṃ rogiṇaṃ striyam
+01.14.041/3 śaraṇopasṛtaṃ sattvaṃ nātyākṣīḥ śaraṇapradaḥ
+01.14.042/1 kaccit tvaṃ nāgamo 'gamyāṃ gamyāṃ vāsatkṛtāṃ striyam
+01.14.042/3 parājito vātha bhavān nottamairnāsamaiḥ pathi
+01.14.043/1 api svit paryabhuṅkthāstvaṃ sambhojyān vṛddhabālakān
+01.14.043/3 jugupsitaṃ karma kiñcit kṛtavān na yadakṣamam
+01.14.044/1 kaccit preṣṭhatamenātha hṛdayenātmabandhunā
+01.14.044/3 śūnyo 'smi rahito nityaṃ manyase te 'nyathā na ruk
+01.15.001/0 sūta uvāca
+01.15.001/1 evaṃ kṛṣṇasakhaḥ kṛṣṇo bhrātrā rājñā vikalpitaḥ
+01.15.001/3 nānāśaṅkāspadaṃ rūpaṃ kṛṣṇaviśleṣakarśitaḥ
+01.15.002/1 śokena śuṣyadvadana hṛtsarojo hataprabhaḥ
+01.15.002/3 vibhuṃ tam evānusmaran nāśaknot pratibhāṣitum
+01.15.003/1 kṛcchreṇa saṃstabhya śucaḥ pāṇināmṛjya netrayoḥ
+01.15.003/3 parokṣeṇa samunnaddha praṇayautkaṇṭhyakātaraḥ
+01.15.004/1 sakhyaṃ maitrīṃ sauhṛdaṃ ca sārathyādiṣu saṃsmaran
+01.15.004/3 nṛpam agrajam ityāha bāṣpagadgadayā girā
+01.15.005/0 arjuna uvāca
+01.15.005/1 vañcito 'haṃ mahārāja hariṇā bandhurūpiṇā
+01.15.005/3 yena me 'pahṛtaṃ tejo devavismāpanaṃ mahat
+01.15.006/1 yasya kṣaṇaviyogena loko hyapriyadarśanaḥ
+01.15.006/3 ukthena rahito hyeṣa mṛtakaḥ procyate yathā
+01.15.007/1 yatsaṃśrayāddrupadageham upāgatānāṃ rājñāṃ svayaṃvaramukhe smaradurmadānām
+01.15.007/3 tejo hṛtaṃ khalu mayābhihataśca matsyaḥ sajjīkṛtena dhanuṣādhigatā ca kṛṣṇā
+01.15.008/1 yatsannidhāvaham u khāṇḍavam agnaye 'dām indraṃ ca sāmaragaṇaṃ tarasā vijitya
+01.15.008/3 labdhā sabhā mayakṛtādbhutaśilpamāyā digbhyo 'haran nṛpatayo balim adhvare te
+01.15.009/1 yattejasā nṛpaśiro'ṅghrim ahan makhārtham āryo 'nujastava gajāyutasattvavīryaḥ
+01.15.009/3 tenāhṛtāḥ pramathanāthamakhāya bhūpā yanmocitāstadanayan balim adhvare te
+01.15.010/1 patnyāstavādhimakhakḷptamahābhiṣeka ślāghiṣṭhacārukabaraṃ kitavaiḥ sabhāyām
+01.15.010/3 spṛṣṭaṃ vikīrya padayoḥ patitāśrumukhyā yastatstriyo 'kṛtahateśavimuktakeśāḥ
+01.15.011/1 yo no jugopa vana etya durantakṛcchrād durvāsaso 'riracitādayutāgrabhug yaḥ
+01.15.011/3 śākānnaśiṣṭam upayujya yatastrilokīṃ tṛptām amaṃsta salile vinimagnasaṅghaḥ
+01.15.012/1 yattejasātha bhagavān yudhi śūlapāṇir vismāpitaḥ sagirijo 'stram adān nijaṃ me
+01.15.012/3 anye 'pi cāham amunaiva kalevareṇa prāpto mahendrabhavane mahadāsanārdham
+01.15.013/1 tatraiva me viharato bhujadaṇḍayugmaṃ gāṇḍīvalakṣaṇam arātivadhāya devāḥ
+01.15.013/3 sendrāḥ śritā yadanubhāvitam ājamīḍha tenāham adya muṣitaḥ puruṣeṇa bhūmnā
+01.15.014/1 yadbāndhavaḥ kurubalābdhim anantapāram eko rathena tatare 'ham atīryasattvam
+01.15.014/3 pratyāhṛtaṃ bahu dhanaṃ ca mayā pareṣāṃ tejāspadaṃ maṇimayaṃ ca hṛtaṃ śirobhyaḥ
+01.15.015/1 yo bhīṣmakarṇaguruśalyacamūṣvadabhra rājanyavaryarathamaṇḍalamaṇḍitāsu
+01.15.015/3 agrecaro mama vibho rathayūthapānām āyurmanāṃsi ca dṛśā saha oja ārcchat
+01.15.016/1 yaddoḥṣu mā praṇihitaṃ gurubhīṣmakarṇa naptṛtrigartaśalyasaindhavabāhlikādyaiḥ
+01.15.016/3 astrāṇyamoghamahimāni nirūpitāni nopaspṛśurnṛharidāsam ivāsurāṇi
+01.15.017/1 sautye vṛtaḥ kumatinātmada īśvaro me yatpādapadmam abhavāya bhajanti bhavyāḥ
+01.15.017/3 māṃ śrāntavāham arayo rathino bhuviṣṭhaṃ na prāharan yadanubhāvanirastacittāḥ
+01.15.018/1 narmāṇyudārarucirasmitaśobhitāni he pārtha he 'rjuna sakhe kurunandaneti
+01.15.018/3 sañjalpitāni naradeva hṛdispṛśāni smarturluṭhanti hṛdayaṃ mama mādhavasya
+01.15.019/1 śayyāsanāṭanavikatthanabhojanādiṣv aikyādvayasya ṛtavān iti vipralabdhaḥ
+01.15.019/3 sakhyuḥ sakheva pitṛvat tanayasya sarvaṃ sehe mahān mahitayā kumateraghaṃ me
+01.15.020/1 so 'haṃ nṛpendra rahitaḥ puruṣottamena sakhyā priyeṇa suhṛdā hṛdayena śūnyaḥ
+01.15.020/3 adhvanyurukramaparigraham aṅga rakṣan gopairasadbhirabaleva vinirjito 'smi
+01.15.021/1 tadvai dhanusta iṣavaḥ sa ratho hayāste so 'haṃ rathī nṛpatayo yata ānamanti
+01.15.021/3 sarvaṃ kṣaṇena tadabhūdasadīśariktaṃ bhasman hutaṃ kuhakarāddham ivoptam ūṣyām
+01.15.022/1 rājaṃstvayānupṛṣṭānāṃ suhṛdāṃ naḥ suhṛtpure
+01.15.022/3 vipraśāpavimūḍhānāṃ nighnatāṃ muṣṭibhirmithaḥ
+01.15.023/1 vāruṇīṃ madirāṃ pītvā madonmathitacetasām
+01.15.023/3 ajānatām ivānyonyaṃ catuḥpañcāvaśeṣitāḥ
+01.15.024/1 prāyeṇaitadbhagavata īśvarasya viceṣṭitam
+01.15.024/3 mitho nighnanti bhūtāni bhāvayanti ca yan mithaḥ
+01.15.025/1 jalaukasāṃ jale yadvan mahānto 'dantyaṇīyasaḥ
+01.15.025/3 durbalān balino rājan mahānto balino mithaḥ
+01.15.026/1 evaṃ baliṣṭhairyadubhirmahadbhiritarān vibhuḥ
+01.15.026/3 yadūn yadubhiranyonyaṃ bhūbhārān sañjahāra ha
+01.15.027/1 deśakālārthayuktāni hṛttāpopaśamāni ca
+01.15.027/3 haranti smarataścittaṃ govindābhihitāni me
+01.15.028/0 sūta uvāca
+01.15.028/1 evaṃ cintayato jiṣṇoḥ kṛṣṇapādasaroruham
+01.15.028/3 sauhārdenātigāḍhena śāntāsīdvimalā matiḥ
+01.15.029/1 vāsudevāṅghryanudhyāna paribṛṃhitaraṃhasā
+01.15.029/3 bhaktyā nirmathitāśeṣa kaṣāyadhiṣaṇo 'rjunaḥ
+01.15.030/1 gītaṃ bhagavatā jñānaṃ yat tat saṅgrāmamūrdhani
+01.15.030/3 kālakarmatamoruddhaṃ punaradhyagamat prabhuḥ
+01.15.031/1 viśoko brahmasampattyā sañchinnadvaitasaṃśayaḥ
+01.15.031/3 līnaprakṛtinairguṇyādaliṅgatvādasambhavaḥ
+01.15.032/1 niśamya bhagavanmārgaṃ saṃsthāṃ yadukulasya ca
+01.15.032/3 svaḥpathāya matiṃ cakre nibhṛtātmā yudhiṣṭhiraḥ
+01.15.033/1 pṛthāpyanuśrutya dhanañjayoditaṃ nāśaṃ yadūnāṃ bhagavadgatiṃ ca tām
+01.15.033/3 ekāntabhaktyā bhagavatyadhokṣaje niveśitātmopararāma saṃsṛteḥ
+01.15.034/1 yayāharadbhuvo bhāraṃ tāṃ tanuṃ vijahāvajaḥ
+01.15.034/3 kaṇṭakaṃ kaṇṭakeneva dvayaṃ cāpīśituḥ samam
+01.15.035/1 yathā matsyādirūpāṇi dhatte jahyādyathā naṭaḥ
+01.15.035/3 bhūbhāraḥ kṣapito yenajahau tac ca kalevaram
+01.15.036/1 yadā mukundo bhagavān imāṃ mahīṃ jahau svatanvā śravaṇīyasatkathaḥ
+01.15.036/3 tadāharevāpratibuddhacetasām abhadrahetuḥ kaliranvavartata
+01.15.037/1 yudhiṣṭhirastat parisarpaṇaṃ budhaḥ pure ca rāṣṭre ca gṛhe tathātmani
+01.15.037/3 vibhāvya lobhānṛtajihmahiṃsanādyadharmacakraṃ gamanāya paryadhāt
+01.15.038/1 svarāṭ pautraṃ vinayinam ātmanaḥ susamaṃ guṇaiḥ
+01.15.038/3 toyanīvyāḥ patiṃ bhūmerabhyaṣiñcadgajāhvaye
+01.15.039/1 mathurāyāṃ tathā vajraṃ śūrasenapatiṃ tataḥ
+01.15.039/3 prājāpatyāṃ nirūpyeṣṭim agnīn apibadīśvaraḥ
+01.15.040/1 visṛjya tatra tat sarvaṃ dukūlavalayādikam
+01.15.040/3 nirmamo nirahaṅkāraḥ sañchinnāśeṣabandhanaḥ
+01.15.041/1 vācaṃ juhāva manasi tat prāṇa itare ca tam
+01.15.041/3 mṛtyāvapānaṃ sotsargaṃ taṃ pañcatve hyajohavīt
+01.15.042/1 tritve hutvā ca pañcatvaṃ tac caikatve ñjuhon muniḥ
+01.15.042/3 sarvam ātmanyajuhavīdbrahmaṇyātmānam avyaye
+01.15.043/1 cīravāsā nirāhāro baddhavāṅ muktamūrdhajaḥ
+01.15.043/3 darśayann ātmano rūpaṃ jaḍonmattapiśācavat
+01.15.044/1 anavekṣamāṇo niragādaśṛṇvan badhiro yathā
+01.15.044/3 udīcīṃ praviveśāśāṃ gatapūrvāṃ mahātmabhiḥ
+01.15.044/5 hṛdi brahma paraṃ dhyāyan nāvarteta yato gataḥ
+01.15.045/1 sarve tam anunirjagmurbhrātaraḥ kṛtaniścayāḥ
+01.15.045/3 kalinādharmamitreṇa dṛṣṭvā spṛṣṭāḥ prajā bhuvi
+01.15.046/1 te sādhukṛtasarvārthā jñātvātyantikam ātmanaḥ
+01.15.046/3 manasā dhārayām āsurvaikuṇṭhacaraṇāmbujam
+01.15.047/1 taddhyānodriktayā bhaktyā viśuddhadhiṣaṇāḥ pare
+01.15.047/3 tasmin nārāyaṇapade ekāntamatayo gatim
+01.15.048/1 avāpurduravāpāṃ te asadbhirviṣayātmabhiḥ
+01.15.048/3 vidhūtakalmaṣā sthānaṃ virajenātmanaiva hi
+01.15.049/1 viduro 'pi parityajya prabhāse deham ātmanaḥ
+01.15.049/3 kṛṣṇāveśena taccittaḥ pitṛbhiḥ svakṣayaṃ yayau
+01.15.050/1 draupadī ca tadājñāya patīnām anapekṣatām
+01.15.050/3 vāsudeve bhagavati hyekāntamatirāpa tam
+01.15.051/1 yaḥ śraddhayaitadbhagavatpriyāṇāṃ pāṇḍoḥ sutānām iti samprayāṇam
+01.15.051/3 śṛṇotyalaṃ svastyayanaṃ pavitraṃ labdhvā harau bhaktim upaiti siddhim
+01.16.001/0 sūta uvāca
+01.16.001/1 tataḥ parīkṣiddvijavaryaśikṣayā mahīṃ mahābhāgavataḥ śaśāsa ha
+01.16.001/3 yathā hi sūtyām abhijātakovidāḥ samādiśan vipra mahadguṇastathā
+01.16.002/1 sa uttarasya tanayām upayema irāvatīm
+01.16.002/3 janamejayādīṃścaturastasyām utpādayat sutān
+01.16.003/1 ājahārāśvamedhāṃstrīn gaṅgāyāṃ bhūridakṣiṇān
+01.16.003/3 śāradvataṃ guruṃ kṛtvā devā yatrākṣigocarāḥ
+01.16.004/1 nijagrāhaujasā vīraḥ kaliṃ digvijaye kvacit
+01.16.004/3 nṛpaliṅgadharaṃ śūdraṃ ghnantaṃ gomithunaṃ padā
+01.16.005/0 śaunaka uvāca
+01.16.005/1 kasya hetornijagrāha kaliṃ digvijaye nṛpaḥ
+01.16.005/3 nṛdevacihnadhṛk śūdra ko 'sau gāṃ yaḥ padāhanat
+01.16.005/5 tat kathyatāṃ mahābhāga yadi kṛṣṇakathāśrayam
+01.16.006/1 athavāsya padāmbhoja makarandalihāṃ satām
+01.16.006/3 kim anyairasadālāpairāyuṣo yadasadvyayaḥ
+01.16.007/1 kṣudrāyuṣāṃ nṛṇām aṅga martyānām ṛtam icchatām
+01.16.007/3 ihopahūto bhagavān mṛtyuḥ śāmitrakarmaṇi
+01.16.008/1 na kaścin mriyate tāvadyāvadāsta ihāntakaḥ
+01.16.008/3 etadarthaṃ hi bhagavān āhūtaḥ paramarṣibhiḥ
+01.16.008/5 aho nṛloke pīyeta harilīlāmṛtaṃ vacaḥ
+01.16.009/1 mandasya mandaprajñasya vayo mandāyuṣaśca vai
+01.16.009/3 nidrayā hriyate naktaṃ divā ca vyarthakarmabhiḥ
+01.16.010/0 sūta uvāca
+01.16.010/1 yadā parīkṣit kurujāṅgale 'vasat kaliṃ praviṣṭaṃ nijacakravartite
+01.16.010/3 niśamya vārtām anatipriyāṃ tataḥ śarāsanaṃ saṃyugaśauṇḍirādade
+01.16.011/1 svalaṅkṛtaṃ śyāmaturaṅgayojitaṃ rathaṃ mṛgendradhvajam āśritaḥ purāt
+01.16.011/3 vṛto rathāśvadvipapattiyuktayā svasenayā digvijayāya nirgataḥ
+01.16.012/1 bhadrāśvaṃ ketumālaṃ ca bhārataṃ cottarān kurūn
+01.16.012/3 kimpuruṣādīni varṣāṇi vijitya jagṛhe balim
+01.16.013/1 nagarāṃśca vanāṃścaiva nadīśca vimalodakāḥ
+01.16.013/3 puruṣān devakalpāṃśca nārīśca priyadarśanāḥ
+01.16.014/1 adṛṣṭapūrvān subhagān sa dadarśa dhanañjayaḥ
+01.16.014/3 sadanāni ca śubhrāṇi nārīścāpsarasāṃ nibhāḥ
+01.16.015/1 tatra tatropaśṛṇvānaḥ svapūrveṣāṃ mahātmanām
+01.16.015/3 pragīyamāṇaṃ ca yaśaḥ kṛṣṇamāhātmyasūcakam
+01.16.016/1 ātmānaṃ ca paritrātam aśvatthāmno 'stratejasaḥ
+01.16.016/3 snehaṃ ca vṛṣṇipārthānāṃ teṣāṃ bhaktiṃ ca keśave
+01.16.017/1 tebhyaḥ paramasantuṣṭaḥ prītyujjṛmbhitalocanaḥ
+01.16.017/3 mahādhanāni vāsāṃsi dadau hārān mahāmanāḥ
+01.16.018/1 sārathyapāraṣadasevanasakhyadautya
+01.16.018/2 vīrāsanānugamanastavanapraṇāmān
+01.16.018/3 snigdheṣu pāṇḍuṣu jagatpraṇatiṃ ca viṣṇor
+01.16.018/4 bhaktiṃ karoti nṛpatiścaraṇāravinde
+01.16.019/1 tasyaivaṃ vartamānasya pūrveṣāṃ vṛttim anvaham
+01.16.019/3 nātidūre kilāścaryaṃ yadāsīt tan nibodha me
+01.16.020/1 dharmaḥ padaikena caran vicchāyām upalabhya gām
+01.16.020/3 pṛcchati smāśruvadanāṃ vivatsām iva mātaram
+01.16.021/0 dharma uvāca
+01.16.021/1 kaccidbhadre 'nāmayam ātmanaste vicchāyāsi mlāyateṣan mukhena
+01.16.021/3 ālakṣaye bhavatīm antarādhiṃ dūre bandhuṃ śocasi kañcanāmba
+01.16.022/1 pādairnyūnaṃ śocasi maikapādam ātmānaṃ vā vṛṣalairbhokṣyamāṇam
+01.16.022/3 āho surādīn hṛtayajñabhāgān prajā uta svin maghavatyavarṣati
+01.16.023/1 arakṣyamāṇāḥ striya urvi bālān śocasyatho puruṣādairivārtān
+01.16.023/3 vācaṃ devīṃ brahmakule kukarmaṇyabrahmaṇye rājakule kulāgryān
+01.16.024/1 kiṃ kṣatrabandhūn kalinopasṛṣṭān rāṣṭrāṇi vā tairavaropitāni
+01.16.024/3 itastato vāśanapānavāsaḥ snānavyavāyonmukhajīvalokam
+01.16.025/1 yadvāmba te bhūribharāvatāra kṛtāvatārasya harerdharitri
+01.16.025/3 antarhitasya smaratī visṛṣṭā karmāṇi nirvāṇavilambitāni
+01.16.026/1 idaṃ mamācakṣva tavādhimūlaṃ vasundhare yena vikarśitāsi
+01.16.026/3 kālena vā te balināṃ balīyasā surārcitaṃ kiṃ hṛtam amba saubhagam
+01.16.027/0 dharaṇyuvāca
+01.16.027/1 bhavān hi veda tat sarvaṃ yan māṃ dharmānupṛcchasi
+01.16.027/3 caturbhirvartase yena pādairlokasukhāvahaiḥ
+01.16.028/1 satyaṃ śaucaṃ dayā kṣāntistyāgaḥ santoṣa ārjavam
+01.16.028/3 śamo damastapaḥ sāmyaṃ titikṣoparatiḥ śrutam
+01.16.029/1 jñānaṃ viraktiraiśvaryaṃ śauryaṃ tejo balaṃ smṛtiḥ
+01.16.029/3 svātantryaṃ kauśalaṃ kāntirdhairyaṃ mārdavam eva ca
+01.16.030/1 prāgalbhyaṃ praśrayaḥ śīlaṃ saha ojo balaṃ bhagaḥ
+01.16.030/3 gāmbhīryaṃ sthairyam āstikyaṃ kīrtirmāno 'nahaṅkṛtiḥ
+01.16.031/1 ete cānye ca bhagavan nityā yatra mahāguṇāḥ
+01.16.031/3 prārthyā mahattvam icchadbhirna viyanti sma karhicit
+01.16.032/1 tenāhaṃ guṇapātreṇa śrīnivāsena sāmpratam
+01.16.032/3 śocāmi rahitaṃ lokaṃ pāpmanā kalinekṣitam
+01.16.033/1 ātmānaṃ cānuśocāmi bhavantaṃ cāmarottamam
+01.16.033/3 devān pitṝn ṛṣīn sādhūn sarvān varṇāṃstathāśramān
+01.16.034/1 brahmādayo bahutithaṃ yadapāṅgamokṣa
+01.16.034/2 kāmāstapaḥ samacaran bhagavatprapannāḥ
+01.16.034/3 sā śrīḥ svavāsam aravindavanaṃ vihāya
+01.16.034/4 yatpādasaubhagam alaṃ bhajate 'nuraktā
+01.16.035/1 tasyāham abjakuliśāṅkuśaketuketaiḥ
+01.16.035/2 śrīmatpadairbhagavataḥ samalaṅkṛtāṅgī
+01.16.035/3 trīn atyaroca upalabhya tato vibhūtiṃ
+01.16.035/4 lokān sa māṃ vyasṛjadutsmayatīṃ tadante
+01.16.036/1 yo vai mamātibharam āsuravaṃśarājñām
+01.16.036/2 akṣauhiṇīśatam apānudadātmatantraḥ
+01.16.036/3 tvāṃ duḥstham ūnapadam ātmani pauruṣeṇa
+01.16.036/4 sampādayan yaduṣu ramyam abibhradaṅgam
+01.16.037/1 kā vā saheta virahaṃ puruṣottamasya
+01.16.037/2 premāvalokarucirasmitavalgujalpaiḥ
+01.16.037/3 sthairyaṃ samānam aharan madhumāninīnāṃ
+01.16.037/4 romotsavo mama yadaṅghriviṭaṅkitāyāḥ
+01.16.038/1 tayorevaṃ kathayatoḥ pṛthivīdharmayostadā
+01.16.038/3 parīkṣin nāma rājarṣiḥ prāptaḥ prācīṃ sarasvatīm
+01.17.001/0 sūta uvāca
+01.17.001/1 tatra gomithunaṃ rājā hanyamānam anāthavat
+01.17.001/3 daṇḍahastaṃ ca vṛṣalaṃ dadṛśe nṛpalāñchanam
+01.17.002/1 vṛṣaṃ mṛṇāladhavalaṃ mehantam iva bibhyatam
+01.17.002/3 vepamānaṃ padaikena sīdantaṃ śūdratāḍitam
+01.17.003/1 gāṃ ca dharmadughāṃ dīnāṃ bhṛśaṃ śūdrapadāhatām
+01.17.003/3 vivatsām āśruvadanāṃ kṣāmāṃ yavasam icchatīm
+01.17.004/1 papraccha ratham ārūḍhaḥ kārtasvaraparicchadam
+01.17.004/3 meghagambhīrayā vācā samāropitakārmukaḥ
+01.17.005/1 kastvaṃ maccharaṇe loke balāddhaṃsyabalān balī
+01.17.005/3 naradevo 'si veṣeṇa naṭavat karmaṇādvijaḥ
+01.17.006/1 yastvaṃ kṛṣṇe gate dūraṃ sahagāṇḍīvadhanvanā
+01.17.006/3 śocyo 'syaśocyān rahasi praharan vadham arhasi
+01.17.007/1 tvaṃ vā mṛṇāladhavalaḥ pādairnyūnaḥ padā caran
+01.17.007/3 vṛṣarūpeṇa kiṃ kaściddevo naḥ parikhedayan
+01.17.008/1 na jātu kauravendrāṇāṃ dordaṇḍaparirambhite
+01.17.008/3 bhūtale 'nupatantyasmin vinā te prāṇināṃ śucaḥ
+01.17.009/1 mā saurabheyātra śuco vyetu te vṛṣalādbhayam
+01.17.009/3 mā rodīramba bhadraṃ te khalānāṃ mayi śāstari
+01.17.010/1 yasya rāṣṭre prajāḥ sarvāstrasyante sādhvyasādhubhiḥ
+01.17.010/3 tasya mattasya naśyanti kīrtirāyurbhago gatiḥ
+01.17.011/1 eṣa rājñāṃ paro dharmo hyārtānām ārtinigrahaḥ
+01.17.011/3 ata enaṃ vadhiṣyāmi bhūtadruham asattamam
+01.17.012/1 ko 'vṛścat tava pādāṃstrīn saurabheya catuṣpada
+01.17.012/3 mā bhūvaṃstvādṛśā rāṣṭre rājñāṃ kṛṣṇānuvartinām
+01.17.013/1 ākhyāhi vṛṣa bhadraṃ vaḥ sādhūnām akṛtāgasām
+01.17.013/3 ātmavairūpyakartāraṃ pārthānāṃ kīrtidūṣaṇam
+01.17.014/1 jane 'nāgasyaghaṃ yuñjan sarvato 'sya ca madbhayam
+01.17.014/3 sādhūnāṃ bhadram eva syādasādhudamane kṛte
+01.17.015/1 anāgaḥsviha bhūteṣu ya āgaskṛn niraṅkuśaḥ
+01.17.015/3 āhartāsmi bhujaṃ sākṣādamartyasyāpi sāṅgadam
+01.17.016/1 rājño hi paramo dharmaḥ svadharmasthānupālanam
+01.17.016/3 śāsato 'nyān yathāśāstram anāpadyutpathān iha
+01.17.017/0 dharma uvāca
+01.17.017/1 etadvaḥ pāṇḍaveyānāṃ yuktam ārtābhayaṃ vacaḥ
+01.17.017/3 yeṣāṃ guṇagaṇaiḥ kṛṣṇo dautyādau bhagavān kṛtaḥ
+01.17.018/1 na vayaṃ kleśabījāni yataḥ syuḥ puruṣarṣabha
+01.17.018/3 puruṣaṃ taṃ vijānīmo vākyabhedavimohitāḥ
+01.17.019/1 kecidvikalpavasanā āhurātmānam ātmanaḥ
+01.17.019/3 daivam anye 'pare karma svabhāvam apare prabhum
+01.17.020/1 apratarkyādanirdeśyāditi keṣvapi niścayaḥ
+01.17.020/3 atrānurūpaṃ rājarṣe vimṛśa svamanīṣayā
+01.17.021/0 sūta uvāca
+01.17.021/1 evaṃ dharme pravadati sa samrāḍdvijasattamāḥ
+01.17.021/3 samāhitena manasā vikhedaḥ paryacaṣṭa tam
+01.17.022/0 rājovāca
+01.17.022/1 dharmaṃ bravīṣi dharmajña dharmo 'si vṛṣarūpadhṛk
+01.17.022/3 yadadharmakṛtaḥ sthānaṃ sūcakasyāpi tadbhavet
+01.17.023/1 athavā devamāyāyā nūnaṃ gatiragocarā
+01.17.023/3 cetaso vacasaścāpi bhūtānām iti niścayaḥ
+01.17.024/1 tapaḥ śaucaṃ dayā satyam iti pādāḥ kṛte kṛtāḥ
+01.17.024/3 adharmāṃśaistrayo bhagnāḥ smayasaṅgamadaistava
+01.17.025/1 idānīṃ dharma pādaste satyaṃ nirvartayedyataḥ
+01.17.025/3 taṃ jighṛkṣatyadharmo 'yam anṛtenaidhitaḥ kaliḥ
+01.17.026/1 iyaṃ ca bhūmirbhagavatā nyāsitorubharā satī
+01.17.026/3 śrīmadbhistatpadanyāsaiḥ sarvataḥ kṛtakautukā
+01.17.027/1 śocatyaśrukalā sādhvī durbhagevojjhitā satī
+01.17.027/3 abrahmaṇyā nṛpavyājāḥ śūdrā bhokṣyanti mām iti
+01.17.028/1 iti dharmaṃ mahīṃ caiva sāntvayitvā mahārathaḥ
+01.17.028/3 niśātam ādade khaḍgaṃ kalaye 'dharmahetave
+01.17.029/1 taṃ jighāṃsum abhipretya vihāya nṛpalāñchanam
+01.17.029/3 tatpādamūlaṃ śirasā samagādbhayavihvalaḥ
+01.17.030/1 patitaṃ pādayorvīraḥ kṛpayā dīnavatsalaḥ
+01.17.030/3 śaraṇyo nāvadhīc chlokya āha cedaṃ hasann iva
+01.17.031/0 rājovāca
+01.17.031/1 na te guḍākeśayaśodharāṇāṃ baddhāñjalervai bhayam asti kiñcit
+01.17.031/3 na vartitavyaṃ bhavatā kathañcana kṣetre madīye tvam adharmabandhuḥ
+01.17.032/1 tvāṃ vartamānaṃ naradevadeheṣvanupravṛtto 'yam adharmapūgaḥ
+01.17.032/3 lobho 'nṛtaṃ cauryam anāryam aṃho jyeṣṭhā ca māyā kalahaśca dambhaḥ
+01.17.033/1 na vartitavyaṃ tadadharmabandho dharmeṇa satyena ca vartitavye
+01.17.033/3 brahmāvarte yatra yajanti yajñairyajñeśvaraṃ yajñavitānavijñāḥ
+01.17.034/1 yasmin harirbhagavān ijyamāna ijyātmamūrtiryajatāṃ śaṃ tanoti
+01.17.034/3 kāmān amoghān sthirajaṅgamānām antarbahirvāyurivaiṣa ātmā
+01.17.035/0 sūta uvāca
+01.17.035/1 parīkṣitaivam ādiṣṭaḥ sa kalirjātavepathuḥ
+01.17.035/3 tam udyatāsim āhedaṃ daṇḍapāṇim ivodyatam
+01.17.036/0 kaliruvāca
+01.17.036/1 yatra kva vātha vatsyāmi sārvabhauma tavājñayā
+01.17.036/3 lakṣaye tatra tatrāpi tvām ātteṣuśarāsanam
+01.17.037/1 tan me dharmabhṛtāṃ śreṣṭha sthānaṃ nirdeṣṭum arhasi
+01.17.037/3 yatraiva niyato vatsya ātiṣṭhaṃste 'nuśāsanam
+01.17.038/0 sūta uvāca
+01.17.038/1 abhyarthitastadā tasmai sthānāni kalaye dadau
+01.17.038/3 dyūtaṃ pānaṃ striyaḥ sūnā yatrādharmaścaturvidhaḥ
+01.17.039/1 punaśca yācamānāya jātarūpam adāt prabhuḥ
+01.17.039/3 tato 'nṛtaṃ madaṃ kāmaṃ rajo vairaṃ ca pañcamam
+01.17.040/1 amūni pañca sthānāni hyadharmaprabhavaḥ kaliḥ
+01.17.040/3 auttareyeṇa dattāni nyavasat tannideśakṛt
+01.17.041/1 athaitāni na seveta bubhūṣuḥ puruṣaḥ kvacit
+01.17.041/3 viśeṣato dharmaśīlo rājā lokapatirguruḥ
+01.17.042/1 vṛṣasya naṣṭāṃstrīn pādān tapaḥ śaucaṃ dayām iti
+01.17.042/3 pratisandadha āśvāsya mahīṃ ca samavardhayat
+01.17.043/1 sa eṣa etarhyadhyāsta āsanaṃ pārthivocitam
+01.17.043/3 pitāmahenopanyastaṃ rājñāraṇyaṃ vivikṣatā
+01.17.044/1 āste 'dhunā sa rājarṣiḥ kauravendraśriyollasan
+01.17.044/3 gajāhvaye mahābhāgaścakravartī bṛhacchravāḥ
+01.17.045/1 itthambhūtānubhāvo 'yam abhimanyusuto nṛpaḥ
+01.17.045/3 yasya pālayataḥ kṣauṇīṃ yūyaṃ satrāya dīkṣitāḥ
+01.18.001/0 sūta uvāca
+01.18.001/1 yo vai drauṇyastravipluṣṭo na māturudare mṛtaḥ
+01.18.001/3 anugrahādbhagavataḥ kṛṣṇasyādbhutakarmaṇaḥ
+01.18.002/1 brahmakopotthitādyastu takṣakāt prāṇaviplavāt
+01.18.002/3 na sammumohorubhayādbhagavatyarpitāśayaḥ
+01.18.003/1 utsṛjya sarvataḥ saṅgaṃ vijñātājitasaṃsthitiḥ
+01.18.003/3 vaiyāsakerjahau śiṣyo gaṅgāyāṃ svaṃ kalevaram
+01.18.004/1 nottamaślokavārtānāṃ juṣatāṃ tatkathāmṛtam
+01.18.004/3 syāt sambhramo 'ntakāle 'pi smaratāṃ tatpadāmbujam
+01.18.005/1 tāvat kalirna prabhavet praviṣṭo 'pīha sarvataḥ
+01.18.005/3 yāvadīśo mahān urvyām ābhimanyava ekarāṭ
+01.18.006/1 yasminn ahani yarhyeva bhagavān utsasarja gām
+01.18.006/3 tadaivehānuvṛtto 'sāvadharmaprabhavaḥ kaliḥ
+01.18.007/1 nānudveṣṭi kaliṃ samrāṭ sāraṅga iva sārabhuk
+01.18.007/3 kuśalānyāśu siddhyanti netarāṇi kṛtāni yat
+01.18.008/1 kiṃ nu bāleṣu śūreṇa kalinā dhīrabhīruṇā
+01.18.008/3 apramattaḥ pramatteṣu yo vṛko nṛṣu vartate
+01.18.009/1 upavarṇitam etadvaḥ puṇyaṃ pārīkṣitaṃ mayā
+01.18.009/3 vāsudevakathopetam ākhyānaṃ yadapṛcchata
+01.18.010/1 yā yāḥ kathā bhagavataḥ kathanīyorukarmaṇaḥ
+01.18.010/3 guṇakarmāśrayāḥ pumbhiḥ saṃsevyāstā bubhūṣubhiḥ
+01.18.011/0 ṛṣaya ūcuḥ
+01.18.011/1 sūta jīva samāḥ saumya śāśvatīrviśadaṃ yaśaḥ
+01.18.011/3 yastvaṃ śaṃsasi kṛṣṇasya martyānām amṛtaṃ hi naḥ
+01.18.012/1 karmaṇyasminn anāśvāse dhūmadhūmrātmanāṃ bhavān
+01.18.012/3 āpāyayati govinda pādapadmāsavaṃ madhu
+01.18.013/1 tulayāma lavenāpi na svargaṃ nāpunarbhavam
+01.18.013/3 bhagavatsaṅgisaṅgasya martyānāṃ kim utāśiṣaḥ
+01.18.014/1 ko nāma tṛpyedrasavit kathāyāṃ mahattamaikāntaparāyaṇasya
+01.18.014/3 nāntaṃ guṇānām aguṇasya jagmur yogeśvarā ye bhavapādmamukhyāḥ
+01.18.015/1 tan no bhavān vai bhagavatpradhāno mahattamaikāntaparāyaṇasya
+01.18.015/3 harerudāraṃ caritaṃ viśuddhaṃ śuśrūṣatāṃ no vitanotu vidvan
+01.18.016/1 sa vai mahābhāgavataḥ parīkṣid yenāpavargākhyam adabhrabuddhiḥ
+01.18.016/3 jñānena vaiyāsakiśabditena bheje khagendradhvajapādamūlam
+01.18.017/1 tan naḥ paraṃ puṇyam asaṃvṛtārtham ākhyānam atyadbhutayoganiṣṭham
+01.18.017/3 ākhyāhyanantācaritopapannaṃ pārīkṣitaṃ bhāgavatābhirāmam
+01.18.018/0 sūta uvāca
+01.18.018/1 aho vayaṃ janmabhṛto 'dya hāsma vṛddhānuvṛttyāpi vilomajātāḥ
+01.18.018/3 dauṣkulyam ādhiṃ vidhunoti śīghraṃ mahattamānām abhidhānayogaḥ
+01.18.019/1 kutaḥ punargṛṇato nāma tasya mahattamaikāntaparāyaṇasya
+01.18.019/3 yo 'nantaśaktirbhagavān ananto mahadguṇatvādyam anantam āhuḥ
+01.18.020/1 etāvatālaṃ nanu sūcitena guṇairasāmyānatiśāyanasya
+01.18.020/3 hitvetarān prārthayato vibhūtir yasyāṅghrireṇuṃ juṣate 'nabhīpsoḥ
+01.18.021/1 athāpi yatpādanakhāvasṛṣṭaṃ jagadviriñcopahṛtārhaṇāmbhaḥ
+01.18.021/3 seśaṃ punātyanyatamo mukundāt ko nāma loke bhagavatpadārthaḥ
+01.18.022/1 yatrānuraktāḥ sahasaiva dhīrā vyapohya dehādiṣu saṅgam ūḍham
+01.18.022/3 vrajanti tat pāramahaṃsyam antyaṃ yasminn ahiṃsopaśamaḥ svadharmaḥ
+01.18.023/1 ahaṃ hi pṛṣṭo 'ryamaṇo bhavadbhir ācakṣa ātmāvagamo 'tra yāvān
+01.18.023/3 nabhaḥ patantyātmasamaṃ patattriṇas tathā samaṃ viṣṇugatiṃ vipaścitaḥ
+01.18.024/1 ekadā dhanurudyamya vicaran mṛgayāṃ vane
+01.18.024/3 mṛgān anugataḥ śrāntaḥ kṣudhitastṛṣito bhṛśam
+01.18.025/1 jalāśayam acakṣāṇaḥ praviveśa tam āśramam
+01.18.025/3 dadarśa munim āsīnaṃ śāntaṃ mīlitalocanam
+01.18.026/1 pratiruddhendriyaprāṇa manobuddhim upāratam
+01.18.026/3 sthānatrayāt paraṃ prāptaṃ brahmabhūtam avikriyam
+01.18.027/1 viprakīrṇajaṭācchannaṃ rauraveṇājinena ca
+01.18.027/3 viśuṣyattālurudakaṃ tathābhūtam ayācata
+01.18.028/1 alabdhatṛṇabhūmyādirasamprāptārghyasūnṛtaḥ
+01.18.028/3 avajñātam ivātmānaṃ manyamānaścukopa ha
+01.18.029/1 abhūtapūrvaḥ sahasā kṣuttṛḍbhyām arditātmanaḥ
+01.18.029/3 brāhmaṇaṃ pratyabhūdbrahman matsaro manyureva ca
+01.18.030/1 sa tu brahmaṛṣeraṃse gatāsum uragaṃ ruṣā
+01.18.030/3 vinirgacchan dhanuṣkoṭyā nidhāya puram āgataḥ
+01.18.031/1 eṣa kiṃ nibhṛtāśeṣa karaṇo mīlitekṣaṇaḥ
+01.18.031/3 mṛṣāsamādhirāhosvit kiṃ nu syāt kṣatrabandhubhiḥ
+01.18.032/1 tasya putro 'titejasvī viharan bālako 'rbhakaiḥ
+01.18.032/3 rājñāghaṃ prāpitaṃ tātaṃ śrutvā tatredam abravīt
+01.18.033/1 aho adharmaḥ pālānāṃ pīvnāṃ balibhujām iva
+01.18.033/3 svāminyaghaṃ yaddāsānāṃ dvārapānāṃ śunām iva
+01.18.034/1 brāhmaṇaiḥ kṣatrabandhurhi gṛhapālo nirūpitaḥ
+01.18.034/3 sa kathaṃ tadgṛhe dvāḥsthaḥ sabhāṇḍaṃ bhoktum arhati
+01.18.035/1 kṛṣṇe gate bhagavati śāstaryutpathagāminām
+01.18.035/3 tadbhinnasetūn adyāhaṃ śāsmi paśyata me balam
+01.18.036/1 ityuktvā roṣatāmrākṣo vayasyān ṛṣibālakaḥ
+01.18.036/3 kauśikyāpa upaspṛśya vāgvajraṃ visasarja ha
+01.18.037/1 iti laṅghitamaryādaṃ takṣakaḥ saptame 'hani
+01.18.037/3 daṅkṣyati sma kulāṅgāraṃ codito me tatadruham
+01.18.038/1 tato 'bhyetyāśramaṃ bālo gale sarpakalevaram
+01.18.038/3 pitaraṃ vīkṣya duḥkhārto muktakaṇṭho ruroda ha
+01.18.039/1 sa vā āṅgiraso brahman śrutvā sutavilāpanam
+01.18.039/3 unmīlya śanakairnetre dṛṣṭvā cāṃse mṛtoragam
+01.18.040/1 visṛjya taṃ ca papraccha vatsa kasmāddhi rodiṣi
+01.18.040/3 kena vā te 'pakṛtam ityuktaḥ sa nyavedayat
+01.18.041/1 niśamya śaptam atadarhaṃ narendraṃ sa brāhmaṇo nātmajam abhyanandat
+01.18.041/3 aho batāṃho mahadadya te kṛtam alpīyasi droha ururdamo dhṛtaḥ
+01.18.042/1 na vai nṛbhirnaradevaṃ parākhyaṃ sammātum arhasyavipakvabuddhe
+01.18.042/3 yattejasā durviṣaheṇa guptā vindanti bhadrāṇyakutobhayāḥ prajāḥ
+01.18.043/1 alakṣyamāṇe naradevanāmni rathāṅgapāṇāvayam aṅga lokaḥ
+01.18.043/3 tadā hi caurapracuro vinaṅkṣyatyarakṣyamāṇo 'vivarūthavat kṣaṇāt
+01.18.044/1 tadadya naḥ pāpam upaityananvayaṃ yan naṣṭanāthasya vasorvilumpakāt
+01.18.044/3 parasparaṃ ghnanti śapanti vṛñjate paśūn striyo 'rthān purudasyavo janāḥ
+01.18.045/1 tadāryadharmaḥ pravilīyate nṛṇāṃ varṇāśramācārayutastrayīmayaḥ
+01.18.045/3 tato 'rthakāmābhiniveśitātmanāṃ śunāṃ kapīnām iva varṇasaṅkaraḥ
+01.18.046/1 dharmapālo narapatiḥ sa tu samrāḍbṛhacchravāḥ
+01.18.046/3 sākṣān mahābhāgavato rājarṣirhayamedhayāṭ
+01.18.046/5 kṣuttṛṭśramayuto dīno naivāsmac chāpam arhati
+01.18.047/1 apāpeṣu svabhṛtyeṣu bālenāpakvabuddhinā
+01.18.047/3 pāpaṃ kṛtaṃ tadbhagavān sarvātmā kṣantum arhati
+01.18.048/1 tiraskṛtā vipralabdhāḥ śaptāḥ kṣiptā hatā api
+01.18.048/3 nāsya tat pratikurvanti tadbhaktāḥ prabhavo 'pi hi
+01.18.049/1 iti putrakṛtāghena so 'nutapto mahāmuniḥ
+01.18.049/3 svayaṃ viprakṛto rājñā naivāghaṃ tadacintayat
+01.18.050/1 prāyaśaḥ sādhavo loke parairdvandveṣu yojitāḥ
+01.18.050/3 na vyathanti na hṛṣyanti yata ātmāguṇāśrayaḥ
+01.19.001/0 sūta uvāca
+01.19.001/1 mahīpatistvatha tatkarma garhyaṃ vicintayann ātmakṛtaṃ sudurmanāḥ
+01.19.001/3 aho mayā nīcam anāryavat kṛtaṃ nirāgasi brahmaṇi gūḍhatejasi
+01.19.002/1 dhruvaṃ tato me kṛtadevahelanād duratyayaṃ vyasanaṃ nātidīrghāt
+01.19.002/3 tadastu kāmaṃ hyaghaniṣkṛtāya me yathā na kuryāṃ punarevam addhā
+01.19.003/1 adyaiva rājyaṃ balam ṛddhakośaṃ prakopitabrahmakulānalo me
+01.19.003/3 dahatvabhadrasya punarna me 'bhūt pāpīyasī dhīrdvijadevagobhyaḥ
+01.19.004/1 sa cintayann ittham athāśṛṇodyathā muneḥ sutokto nirṛtistakṣakākhyaḥ
+01.19.004/3 sa sādhu mene na cireṇa takṣakā nalaṃ prasaktasya viraktikāraṇam
+01.19.005/1 atho vihāyemam amuṃ ca lokaṃ vimarśitau heyatayā purastāt
+01.19.005/3 kṛṣṇāṅghrisevām adhimanyamāna upāviśat prāyam amartyanadyām
+01.19.006/1 yā vai lasacchrītulasīvimiśra kṛṣṇāṅghrireṇvabhyadhikāmbunetrī
+01.19.006/3 punāti lokān ubhayatra seśān kastāṃ na seveta mariṣyamāṇaḥ
+01.19.007/1 iti vyavacchidya sa pāṇḍaveyaḥ prāyopaveśaṃ prati viṣṇupadyām
+01.19.007/3 dadhau mukundāṅghrim ananyabhāvo munivrato muktasamastasaṅgaḥ
+01.19.008/1 tatropajagmurbhuvanaṃ punānā mahānubhāvā munayaḥ saśiṣyāḥ
+01.19.008/3 prāyeṇa tīrthābhigamāpadeśaiḥ svayaṃ hi tīrthāni punanti santaḥ
+01.19.009/1 atrirvasiṣṭhaścyavanaḥ śaradvān ariṣṭanemirbhṛguraṅgirāśca
+01.19.009/3 parāśaro gādhisuto 'tha rāma utathya indrapramadedhmavāhau
+01.19.010/1 medhātithirdevala ārṣṭiṣeṇo bhāradvājo gautamaḥ pippalādaḥ
+01.19.010/3 maitreya aurvaḥ kavaṣaḥ kumbhayonir dvaipāyano bhagavān nāradaśca
+01.19.011/1 anye ca devarṣibrahmarṣivaryā rājarṣivaryā aruṇādayaśca
+01.19.011/3 nānārṣeyapravarān sametān abhyarcya rājā śirasā vavande
+01.19.012/1 sukhopaviṣṭeṣvatha teṣu bhūyaḥ kṛtapraṇāmaḥ svacikīrṣitaṃ yat
+01.19.012/3 vijñāpayām āsa viviktacetā upasthito 'gre 'bhigṛhītapāṇiḥ
+01.19.013/0 rājovāca
+01.19.013/1 aho vayaṃ dhanyatamā nṛpāṇāṃ mahattamānugrahaṇīyaśīlāḥ
+01.19.013/3 rājñāṃ kulaṃ brāhmaṇapādaśaucād dūrādvisṛṣṭaṃ bata garhyakarma
+01.19.014/1 tasyaiva me 'ghasya parāvareśo vyāsaktacittasya gṛheṣvabhīkṣṇam
+01.19.014/3 nirvedamūlo dvijaśāparūpo yatra prasakto bhayam āśu dhatte
+01.19.015/1 taṃ mopayātaṃ pratiyantu viprā gaṅgā ca devī dhṛtacittam īśe
+01.19.015/3 dvijopasṛṣṭaḥ kuhakastakṣako vā daśatvalaṃ gāyata viṣṇugāthāḥ
+01.19.016/1 punaśca bhūyādbhagavatyanante ratiḥ prasaṅgaśca tadāśrayeṣu
+01.19.016/3 mahatsu yāṃ yām upayāmi sṛṣṭiṃ maitryastu sarvatra namo dvijebhyaḥ
+01.19.017/1 iti sma rājādhyavasāyayuktaḥ prācīnamūleṣu kuśeṣu dhīraḥ
+01.19.017/3 udaṅmukho dakṣiṇakūla āste samudrapatnyāḥ svasutanyastabhāraḥ
+01.19.018/1 evaṃ ca tasmin naradevadeve prāyopaviṣṭe divi devasaṅghāḥ
+01.19.018/3 praśasya bhūmau vyakiran prasūnair mudā muhurdundubhayaśca neduḥ
+01.19.019/1 maharṣayo vai samupāgatā ye praśasya sādhvityanumodamānāḥ
+01.19.019/3 ūcuḥ prajānugrahaśīlasārā yaduttamaślokaguṇābhirūpam
+01.19.020/1 na vā idaṃ rājarṣivarya citraṃ bhavatsu kṛṣṇaṃ samanuvrateṣu
+01.19.020/3 ye 'dhyāsanaṃ rājakirīṭajuṣṭaṃ sadyo jahurbhagavatpārśvakāmāḥ
+01.19.021/1 sarve vayaṃ tāvadihāsmahe 'tha kalevaraṃ yāvadasau vihāya
+01.19.021/3 lokaṃ paraṃ virajaskaṃ viśokaṃ yāsyatyayaṃ bhāgavatapradhānaḥ
+01.19.022/1 āśrutya tadṛṣigaṇavacaḥ parīkṣit samaṃ madhucyudguru cāvyalīkam
+01.19.022/3 ābhāṣatainān abhinandya yuktān śuśrūṣamāṇaścaritāni viṣṇoḥ
+01.19.023/1 samāgatāḥ sarvata eva sarve vedā yathā mūrtidharāstripṛṣṭhe
+01.19.023/3 nehātha nāmutra ca kaścanārtha ṛte parānugraham ātmaśīlam
+01.19.024/1 tataśca vaḥ pṛcchyam imaṃ vipṛcche viśrabhya viprā iti kṛtyatāyām
+01.19.024/3 sarvātmanā mriyamāṇaiśca kṛtyaṃ śuddhaṃ ca tatrāmṛśatābhiyuktāḥ
+01.19.025/1 tatrābhavadbhagavān vyāsaputro yadṛcchayā gām aṭamāno 'napekṣaḥ
+01.19.025/3 alakṣyaliṅgo nijalābhatuṣṭo vṛtaśca bālairavadhūtaveṣaḥ
+01.19.026/1 taṃ dvyaṣṭavarṣaṃ sukumārapāda karorubāhvaṃsakapolagātram
+01.19.026/3 cārvāyatākṣonnasatulyakarṇa subhrvānanaṃ kambusujātakaṇṭham
+01.19.027/1 nigūḍhajatruṃ pṛthutuṅgavakṣasam āvartanābhiṃ valivalgūdaraṃ ca
+01.19.027/3 digambaraṃ vaktravikīrṇakeśaṃ pralambabāhuṃ svamarottamābham
+01.19.028/1 śyāmaṃ sadāpīvyavayo'ṅgalakṣmyā strīṇāṃ manojñaṃ rucirasmitena
+01.19.028/3 pratyutthitāste munayaḥ svāsanebhyas tallakṣaṇajñā api gūḍhavarcasam
+01.19.029/1 sa viṣṇurāto 'tithaya āgatāya tasmai saparyāṃ śirasājahāra
+01.19.029/3 tato nivṛttā hyabudhāḥ striyo 'rbhakā mahāsane sopaviveśa pūjitaḥ
+01.19.030/1 sa saṃvṛtastatra mahān mahīyasāṃ brahmarṣirājarṣidevarṣisaṅghaiḥ
+01.19.030/3 vyarocatālaṃ bhagavān yathendur graharkṣatārānikaraiḥ parītaḥ
+01.19.031/1 praśāntam āsīnam akuṇṭhamedhasaṃ muniṃ nṛpo bhāgavato 'bhyupetya
+01.19.031/3 praṇamya mūrdhnāvahitaḥ kṛtāñjalir natvā girā sūnṛtayānvapṛcchat
+01.19.032/0 parīkṣiduvāca
+01.19.032/1 aho adya vayaṃ brahman satsevyāḥ kṣatrabandhavaḥ
+01.19.032/3 kṛpayātithirūpeṇa bhavadbhistīrthakāḥ kṛtāḥ
+01.19.033/1 yeṣāṃ saṃsmaraṇāt puṃsāṃ sadyaḥ śuddhyanti vai gṛhāḥ
+01.19.033/3 kiṃ punardarśanasparśa pādaśaucāsanādibhiḥ
+01.19.034/1 sānnidhyāt te mahāyogin pātakāni mahāntyapi
+01.19.034/3 sadyo naśyanti vai puṃsāṃ viṣṇoriva suretarāḥ
+01.19.035/1 api me bhagavān prītaḥ kṛṣṇaḥ pāṇḍusutapriyaḥ
+01.19.035/3 paitṛṣvaseyaprītyarthaṃ tadgotrasyāttabāndhavaḥ
+01.19.036/1 anyathā te 'vyaktagaterdarśanaṃ naḥ kathaṃ nṛṇām
+01.19.036/3 nitarāṃ mriyamāṇānāṃ saṃsiddhasya vanīyasaḥ
+01.19.037/1 ataḥ pṛcchāmi saṃsiddhiṃ yogināṃ paramaṃ gurum
+01.19.037/3 puruṣasyeha yat kāryaṃ mriyamāṇasya sarvathā
+01.19.038/1 yac chrotavyam atho japyaṃ yat kartavyaṃ nṛbhiḥ prabho
+01.19.038/3 smartavyaṃ bhajanīyaṃ vā brūhi yadvā viparyayam
+01.19.039/1 nūnaṃ bhagavato brahman gṛheṣu gṛhamedhinām
+01.19.039/3 na lakṣyate hyavasthānam api godohanaṃ kvacit
+01.19.040/0 sūta uvāca
+01.19.040/1 evam ābhāṣitaḥ pṛṣṭaḥ sa rājñā ślakṣṇayā girā
+01.19.040/3 pratyabhāṣata dharmajño bhagavān bādarāyaṇiḥ
