@@ -43,6 +43,9 @@ notebooklm_edges/
 gi_results_log_*.txt
 *.Rapp.history
 
+# Run logs (unsandhi batch runs, etc.)
+logs/
+
 # Keep only curated feature lists under materials
 materials/*
 !materials/feature_sets/
