@@ -37,7 +37,6 @@ corpus/**
 
 # Derived outputs
 results/
-results_*/
 csvs/
 archive/
 notebooklm_edges/
