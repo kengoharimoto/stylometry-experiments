@@ -43,16 +43,17 @@ WRITE_PDF_FILE <- TRUE
 WRITE_JPG_FILE <- FALSE
 WRITE_SVG_FILE <- FALSE
 WRITE_PNG_FILE <- FALSE
-PLOT_CUSTOM_HEIGHT <- 20
-PLOT_CUSTOM_WIDTH <- 20
-PLOT_FONT_SIZE <- 10
+PLOT_CUSTOM_HEIGHT <- 60
+PLOT_CUSTOM_WIDTH <- 50
+PLOT_FONT_SIZE <- 7
 PLOT_LINE_THICKNESS <- 1
 PLOT_OPTIONS_RESET <- FALSE
-TEXT_ID_ON_GRAPHS <- "both"
+TEXT_ID_ON_GRAPHS <- "labels"
 COLORS_ON_GRAPHS <- "colors"
 TITLES_ON_GRAPHS <- TRUE
 LABEL_OFFSET <- 0
 GROUPS_COL <- NULL  # named character vector, e.g. c(group1 = "red", group2 = "#1a9850")
+EXCLUDE_PATTERN <- NULL  # regex applied to filenames to exclude files from corpus
 
 # Save options
 SAVE_DISTANCE_TABLES <- TRUE
@@ -107,6 +108,9 @@ for (a in args) {
     if (grepl("^--plot-font-size=", a)) {
         PLOT_FONT_SIZE <- as.numeric(sub("^--plot-font-size=", "", a))
     }
+    if (grepl("^--exclude=", a)) {
+        EXCLUDE_PATTERN <- sub("^--exclude=", "", a)
+    }
     if (grepl("^--highlight=", a)) {
         val <- sub("^--highlight=", "", a)
         pairs <- strsplit(val, ",")[[1]]
@@ -128,7 +132,8 @@ feature_type <- if(ANALYZED_FEATURES == "c") {
   paste0("W", NGRAM_SIZE)
 }
 
-OUTPUT_DIR <- paste0("results_", feature_type, "_", 
+corpus_name <- basename(sub("/+$", "", CORPUS_DIR))
+OUTPUT_DIR <- paste0("results_", corpus_name, "_", feature_type, "_",
                      MFW_MIN, "-", MFW_MAX, "_", timestamp)
 
 # Create the output directory
@@ -142,14 +147,19 @@ cat("========================================\n\n")
 
 # Store original working directory
 original_dir <- getwd()
-CORPUS_PATH <- if (startsWith(CORPUS_DIR, "/")) CORPUS_DIR else CORPUS_PATH
+CORPUS_PATH <- if (startsWith(CORPUS_DIR, "/")) CORPUS_DIR else file.path(original_dir, CORPUS_DIR)
 
 # Filter corpus: copy only regular .txt files to a temp directory so that
 # non-file entries like __pycache__ don't confuse stylo's loader.
 corpus_tmp <- file.path(tempdir(), paste0("stylo_corpus_", format(Sys.time(), "%Y%m%d_%H%M%S")))
 dir.create(corpus_tmp, recursive = TRUE)
-txt_files <- list.files(CORPUS_PATH, pattern = "\\.txt$", full.names = TRUE, recursive = FALSE)
+txt_files <- list.files(CORPUS_PATH, pattern = "\\.txt$", full.names = TRUE, recursive = TRUE)
 txt_files <- txt_files[file.info(txt_files)$isdir == FALSE]
+if (!is.null(EXCLUDE_PATTERN)) {
+    excluded <- grepl(EXCLUDE_PATTERN, basename(txt_files), perl = TRUE)
+    if (any(excluded)) cat("Excluding", sum(excluded), "file(s) matching pattern:", EXCLUDE_PATTERN, "\n")
+    txt_files <- txt_files[!excluded]
+}
 if (length(txt_files) == 0) stop("No .txt files found in corpus directory: ", CORPUS_PATH)
 invisible(file.copy(txt_files, corpus_tmp))
 CORPUS_PATH <- corpus_tmp
@@ -166,36 +176,81 @@ cat("========================================\n")
 cat("LOADING CORPUS (ONE TIME ONLY)\n")
 cat("========================================\n")
 
-# Use stylo.default.settings to prepare everything
+# Cache helpers ---------------------------------------------------------------
+freq_cache_path <- function(corpus_dir, features, ngram, preserve, cutoff) {
+    tag <- paste0(features, ngram, "_pc", as.integer(preserve), "_cut", cutoff)
+    file.path(corpus_dir, paste0(".cache_freq_", tag, ".rds"))
+}
+
+load_freq_table_cached <- function(corpus_dir, corpus_tmp, features, ngram,
+                                   preserve, cutoff, exclude_pattern,
+                                   mfw_min, mfw_max, mfw_incr,
+                                   culling_min, culling_max, culling_incr,
+                                   encoding, save_features, save_freqs) {
+    cache_path   <- freq_cache_path(corpus_dir, features, ngram, preserve, cutoff)
+    corpus_files <- list.files(corpus_dir, pattern = "\\.txt$", full.names = TRUE)
+    if (!is.null(exclude_pattern))
+        corpus_files <- corpus_files[!grepl(exclude_pattern, basename(corpus_files), perl = TRUE)]
+    current_names <- sort(sub("\\.txt$", "", basename(corpus_files)))
+    newest_input  <- if (length(corpus_files) > 0) max(file.mtime(corpus_files)) else -Inf
+
+    if (file.exists(cache_path) && file.mtime(cache_path) > newest_input) {
+        cached <- readRDS(cache_path)
+        if (identical(sort(rownames(cached)), current_names)) {
+            cat("  (cache hit:", basename(cache_path), ")\n")
+            return(cached)
+        }
+        cat("  (cache stale: corpus membership changed, rebuilding)\n")
+    }
+
+    res <- stylo(
+        gui = FALSE,
+        corpus.dir = corpus_tmp,
+        analyzed.features = features,
+        ngram.size = ngram,
+        preserve.case = preserve,
+        encoding = encoding,
+        mfw.min = mfw_min,
+        mfw.max = mfw_max,
+        mfw.incr = mfw_incr,
+        culling.min = culling_min,
+        culling.max = culling_max,
+        culling.incr = culling_incr,
+        mfw.list.cutoff = cutoff,
+        analysis.type = "CA",
+        distance.measure = "delta",
+        display.on.screen = FALSE,
+        write.pdf.file = FALSE,
+        save.analyzed.features = save_features,
+        save.analyzed.freqs = save_freqs
+    )
+    ft <- res$table.with.all.freqs
+    saveRDS(ft, cache_path)
+    cat("  (cache written:", basename(cache_path), ")\n")
+    ft
+}
+# -----------------------------------------------------------------------------
+
 cat("Loading corpus from:", CORPUS_PATH, "\n")
 
-# Create frequency table using stylo's internal method
-# This is more reliable than manual parsing
-initial_results <- stylo(
-  gui = FALSE,
-  corpus.dir = CORPUS_PATH,
-  analyzed.features = ANALYZED_FEATURES,
-  ngram.size = NGRAM_SIZE,
-  preserve.case = PRESERVE_CASE,
-  encoding = ENCODING,
-  mfw.min = MFW_MIN,
-  mfw.max = MFW_MAX,
-  mfw.incr = MFW_INCR,
-  culling.min = CULLING_MIN,
-  culling.max = CULLING_MAX,
-  culling.incr = CULLING_INCR,
-  mfw.list.cutoff = MFW_LIST_CUTOFF,
-  analysis.type = "CA",  # Dummy analysis just to get frequency table
-  distance.measure = "delta",
-  display.on.screen = FALSE,
-  write.pdf.file = FALSE,  # Don't save this dummy analysis
-  save.analyzed.features = SAVE_ANALYZED_FEATURES,
-  save.analyzed.freqs = SAVE_ANALYZED_FREQS,
-  groups.col = GROUPS_COL
+freq_table <- load_freq_table_cached(
+    corpus_dir    = CORPUS_DIR,
+    corpus_tmp    = CORPUS_PATH,
+    features      = ANALYZED_FEATURES,
+    ngram         = NGRAM_SIZE,
+    preserve      = PRESERVE_CASE,
+    cutoff        = MFW_LIST_CUTOFF,
+    exclude_pattern = EXCLUDE_PATTERN,
+    mfw_min       = MFW_MIN,
+    mfw_max       = MFW_MAX,
+    mfw_incr      = MFW_INCR,
+    culling_min   = CULLING_MIN,
+    culling_max   = CULLING_MAX,
+    culling_incr  = CULLING_INCR,
+    encoding      = ENCODING,
+    save_features = SAVE_ANALYZED_FEATURES,
+    save_freqs    = SAVE_ANALYZED_FREQS
 )
-
-# Extract the frequency table from results
-freq_table <- initial_results$table.with.all.freqs
 
 cat("Corpus loaded! Texts:", nrow(freq_table), "\n")
 cat("Frequency table created! Features:", ncol(freq_table), "\n")
@@ -220,6 +275,26 @@ distance_measures <- c("delta", "argamon", "eder", "simple", "canberra",
 #    - Run CA, BCT, MDS in sequence
 #    - EDGES files created by first analysis are reused
 # This avoids duplicate EDGES files
+
+# ================================================
+# HIGHLIGHT: patch stylo's assign.plot.colors
+# ================================================
+# groups.col is not a real stylo parameter; colors are determined internally
+# by assign.plot.colors() which cycles a fixed palette. We monkey-patch it to
+# honour GROUPS_COL (group prefix → hex/named color) when --highlight is used.
+
+original_assign_plot_colors <- stylo:::assign.plot.colors
+if (!is.null(GROUPS_COL)) {
+    patched_assign_plot_colors <- function(labels, col, opacity = 1) {
+        result <- original_assign_plot_colors(labels = labels, col = col, opacity = opacity)
+        prefixes <- gsub("_.*", "", labels)
+        for (g in names(GROUPS_COL))
+            result[prefixes == g] <- GROUPS_COL[[g]]
+        result
+    }
+    assignInNamespace("assign.plot.colors", patched_assign_plot_colors, "stylo")
+    cat("Highlight colors applied for groups:", paste(names(GROUPS_COL), collapse = ", "), "\n")
+}
 
 # ================================================
 # STEP 1: RUN PCV (NO DISTANCE MEASURE)
@@ -270,8 +345,7 @@ results <- stylo(gui = FALSE,
                  label.offset = LABEL_OFFSET,
                  save.distance.tables = FALSE,
                  save.analyzed.features = FALSE,
-                 save.analyzed.freqs = FALSE,
-                 groups.col = GROUPS_COL)
+                 save.analyzed.freqs = FALSE)
 
 cat("Completed: PCV\n")
 
@@ -343,8 +417,7 @@ for (dist_measure in distance_measures) {
                      label.offset = LABEL_OFFSET,
                      save.distance.tables = SAVE_DISTANCE_TABLES,
                      save.analyzed.features = FALSE,
-                     save.analyzed.freqs = FALSE,
-                     groups.col = GROUPS_COL),
+                     save.analyzed.freqs = FALSE),
       error = function(e) {
         cat("WARNING: skipped", analysis_type, "with", dist_measure,
             "- error:", conditionMessage(e), "\n")
@@ -359,6 +432,10 @@ for (dist_measure in distance_measures) {
   cat("Completed all analysis types for", dist_measure, "\n")
   cat("========================================\n")
 }
+
+# Restore patched function
+if (!is.null(GROUPS_COL))
+    assignInNamespace("assign.plot.colors", original_assign_plot_colors, "stylo")
 
 # Return to original directory
 setwd(original_dir)

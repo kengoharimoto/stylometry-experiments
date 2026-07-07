@@ -140,6 +140,24 @@
       white-space: pre;
       resize: vertical;
     }
+    #pasteCommand {
+      height: 72px;
+      font-family: ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 12px;
+      resize: vertical;
+    }
+    .load-row {
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+      margin-top: 8px;
+    }
+    #loadStatus {
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    #loadStatus.ok  { color: #0f766e; }
+    #loadStatus.err { color: #c0392b; }
     @media (max-width: 700px) {
       .cols-2, .cols-3, .cols-4 { grid-template-columns: 1fr; }
     }
@@ -147,6 +165,17 @@
 </head>
 <body>
   <div class="wrap">
+    <!-- Load from existing command -->
+    <section class="card">
+      <h2>Load from command</h2>
+      <p class="muted" style="margin: 0 0 8px; font-size: 13px;">Paste an existing <code style="font-family:ui-monospace,Menlo,Monaco,Consolas,monospace;background:#f1f3f5;border-radius:3px;padding:0 3px;">Rscript … clusters.R …</code> command and click <strong>Load</strong> — all fields will be set to match.</p>
+      <textarea id="pasteCommand" placeholder="Rscript 'scripts/clusters.R' --features='c' --ngram-size='3' …"></textarea>
+      <div class="load-row">
+        <button class="btn primary" id="loadBtn" type="button">Load</button>
+        <span id="loadStatus"></span>
+      </div>
+    </section>
+
     <section class="card">
       <h1>Clusters Command Builder</h1>
       <p class="muted" style="margin: 0 0 14px;">Runs a comprehensive clustering analysis using stylo. Loads the corpus once, then produces visualizations across multiple analysis types (CA, BCT, MDS, PCV) and distance measures. All output plots and data tables are saved to a timestamped results directory.</p>
@@ -163,6 +192,13 @@
           <input id="corpusDir" type="text" placeholder="corpus/main" />
           <p class="hint">Directory containing your .txt corpus files. Defaults to <code>corpus/main</code> if left blank.</p>
         </div>
+      </div>
+
+      <!-- Exclude pattern -->
+      <div class="row">
+        <label for="excludePattern">Exclude pattern (regex)</label>
+        <input id="excludePattern" type="text" placeholder="e.g. ^(AuthorA|AuthorB)_" />
+        <p class="hint">A Perl-compatible regex matched against <strong>filenames</strong> (not full paths). Files whose names match are excluded from the corpus. Leave blank to include all files. Example: <code>^suspicious_</code> or <code>draft</code>.</p>
       </div>
 
       <!-- Feature type -->
@@ -279,6 +315,9 @@
 
   <script>
     const els = {
+      pasteCommand:      document.getElementById("pasteCommand"),
+      loadBtn:           document.getElementById("loadBtn"),
+      loadStatus:        document.getElementById("loadStatus"),
       scriptPath:        document.getElementById("scriptPath"),
       corpusDir:         document.getElementById("corpusDir"),
       features:          document.getElementById("features"),
@@ -293,6 +332,7 @@
       plotHeight:        document.getElementById("plotHeight"),
       plotWidth:         document.getElementById("plotWidth"),
       plotFontSize:      document.getElementById("plotFontSize"),
+      excludePattern:    document.getElementById("excludePattern"),
       preserveCase:      document.getElementById("preserveCase"),
       refreshBtn:        document.getElementById("refreshBtn"),
       copyBtn:           document.getElementById("copyBtn"),
@@ -332,6 +372,155 @@
     }
 
     els.addHighlightBtn.addEventListener("click", () => addHighlightRow());
+
+    // ---- Command parser ----
+    function tokenizeShell(cmd) {
+      const tokens = [];
+      let i = 0;
+      while (i < cmd.length) {
+        while (i < cmd.length && /[ \t\n\r]/.test(cmd[i])) i++;
+        if (i >= cmd.length) break;
+        let raw = '';
+        while (i < cmd.length && !/[ \t\n\r]/.test(cmd[i])) {
+          if (cmd[i] === "'") {
+            raw += "'";
+            i++;
+            while (i < cmd.length && cmd[i] !== "'") raw += cmd[i++];
+            if (i < cmd.length) { raw += "'"; i++; }
+          } else if (cmd[i] === '"') {
+            raw += '"';
+            i++;
+            while (i < cmd.length && cmd[i] !== '"') {
+              if (cmd[i] === '\\' && i + 1 < cmd.length) { raw += cmd[i++]; }
+              raw += cmd[i++];
+            }
+            if (i < cmd.length) { raw += '"'; i++; }
+          } else if (cmd[i] === '\\') {
+            raw += cmd[i++];
+            if (i < cmd.length) raw += cmd[i++];
+          } else {
+            raw += cmd[i++];
+          }
+        }
+        tokens.push(raw);
+      }
+      return tokens;
+    }
+
+    function unShellToken(tok) {
+      let result = '';
+      let i = 0;
+      while (i < tok.length) {
+        if (tok[i] === "'") {
+          i++;
+          while (i < tok.length && tok[i] !== "'") result += tok[i++];
+          if (i < tok.length) i++;
+        } else if (tok[i] === '"') {
+          i++;
+          while (i < tok.length && tok[i] !== '"') {
+            if (tok[i] === '\\' && i + 1 < tok.length) { i++; result += tok[i++]; }
+            else result += tok[i++];
+          }
+          if (i < tok.length) i++;
+        } else if (tok[i] === '\\') {
+          i++;
+          if (i < tok.length) result += tok[i++];
+        } else {
+          result += tok[i++];
+        }
+      }
+      return result;
+    }
+
+    function loadFromCommand(cmd) {
+      cmd = cmd.trim();
+      if (!/^\s*Rscript\b/.test(cmd)) {
+        showLoadStatus('Does not look like an Rscript command.', 'err');
+        return false;
+      }
+      const tokens = tokenizeShell(cmd);
+
+      // Reset all fields to defaults before applying parsed values.
+      els.corpusDir.value        = '';
+      els.features.value         = 'w';
+      els.ngramSize.value        = '1';
+      els.mfwMin.value           = '50';
+      els.mfwMax.value           = '80';
+      els.mfwIncr.value          = '10';
+      els.cullingMin.value       = '0';
+      els.cullingMax.value       = '0';
+      els.cullingIncr.value      = '0';
+      els.consensusStrength.value = '0.5';
+      els.plotHeight.value       = '20';
+      els.plotWidth.value        = '20';
+      els.plotFontSize.value     = '10';
+      els.excludePattern.value   = '';
+      els.preserveCase.checked   = false;
+      els.highlightRows.innerHTML = '';
+
+      if (tokens.length > 1) els.scriptPath.value = unShellToken(tokens[1]);
+
+      const unknown = [];
+      for (let i = 2; i < tokens.length; i++) {
+        const tok = tokens[i];
+        if (!tok.startsWith('--')) continue;
+        const eqIdx = tok.indexOf('=');
+        if (eqIdx === -1) {
+          const flag = tok.slice(2);
+          if (flag === 'preserve-case') els.preserveCase.checked = true;
+          else unknown.push(tok);
+          continue;
+        }
+        const flag = tok.slice(2, eqIdx);
+        const val  = unShellToken(tok.slice(eqIdx + 1));
+        switch (flag) {
+          case 'corpus-dir':         els.corpusDir.value = val; break;
+          case 'features':           els.features.value = val; break;
+          case 'ngram-size':         els.ngramSize.value = val; break;
+          case 'mfw-min':            els.mfwMin.value = val; break;
+          case 'mfw-max':            els.mfwMax.value = val; break;
+          case 'mfw-incr':           els.mfwIncr.value = val; break;
+          case 'culling-min':        els.cullingMin.value = val; break;
+          case 'culling-max':        els.cullingMax.value = val; break;
+          case 'culling-incr':       els.cullingIncr.value = val; break;
+          case 'consensus-strength': els.consensusStrength.value = val; break;
+          case 'plot-height':        els.plotHeight.value = val; break;
+          case 'plot-width':         els.plotWidth.value = val; break;
+          case 'plot-font-size':     els.plotFontSize.value = val; break;
+          case 'exclude':            els.excludePattern.value = val; break;
+          case 'highlight':
+            val.split(',').forEach(pair => {
+              const ci = pair.lastIndexOf(':');
+              if (ci > 0) addHighlightRow(pair.slice(0, ci), pair.slice(ci + 1));
+            });
+            break;
+          default: unknown.push(tok);
+        }
+      }
+
+      buildCommand();
+      const msg = unknown.length
+        ? `Loaded. Unrecognized flags skipped: ${unknown.join(' ')}`
+        : 'Loaded successfully.';
+      showLoadStatus(msg, unknown.length ? 'err' : 'ok');
+      return true;
+    }
+
+    function showLoadStatus(msg, cls) {
+      els.loadStatus.textContent = msg;
+      els.loadStatus.className = cls;
+    }
+
+    els.loadBtn.addEventListener('click', () => {
+      loadFromCommand(els.pasteCommand.value);
+    });
+
+    els.pasteCommand.addEventListener('paste', (e) => {
+      setTimeout(() => {
+        const v = els.pasteCommand.value.trim();
+        if (/^Rscript\b/.test(v)) loadFromCommand(v);
+      }, 0);
+    });
 
     function shellQuote(s) {
       if (!s || s.length === 0) return "''";
@@ -380,6 +569,10 @@
       flags.push(`--plot-height=${shellQuote(els.plotHeight.value)}`);
       flags.push(`--plot-width=${shellQuote(els.plotWidth.value)}`);
       flags.push(`--plot-font-size=${shellQuote(els.plotFontSize.value)}`);
+
+      if (els.excludePattern.value.trim()) {
+        flags.push(`--exclude=${shellQuote(els.excludePattern.value.trim())}`);
+      }
 
       if (els.preserveCase.checked) {
         flags.push("--preserve-case");
