@@ -37,11 +37,15 @@ corpus/**
 
 # Derived outputs
 results/
+results_*/
 csvs/
 archive/
 notebooklm_edges/
 gi_results_log_*.txt
 *.Rapp.history
+
+# stylo frequency-table cache (written into the corpus dir by clusters.R)
+.cache_freq_*.rds
 
 # Run logs (unsandhi batch runs, etc.)
 logs/

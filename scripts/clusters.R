@@ -148,6 +148,10 @@ cat("========================================\n\n")
 # Store original working directory
 original_dir <- getwd()
 CORPUS_PATH <- if (startsWith(CORPUS_DIR, "/")) CORPUS_DIR else file.path(original_dir, CORPUS_DIR)
+# Absolute path to the real corpus dir. CORPUS_PATH is later reassigned to the
+# temp copy, and the script setwd()s into the output dir, so the cache logic must
+# use this absolute path — a relative CORPUS_DIR would not resolve after setwd().
+CORPUS_ABS <- CORPUS_PATH
 
 # Filter corpus: copy only regular .txt files to a temp directory so that
 # non-file entries like __pycache__ don't confuse stylo's loader.
@@ -234,7 +238,7 @@ load_freq_table_cached <- function(corpus_dir, corpus_tmp, features, ngram,
 cat("Loading corpus from:", CORPUS_PATH, "\n")
 
 freq_table <- load_freq_table_cached(
-    corpus_dir    = CORPUS_DIR,
+    corpus_dir    = CORPUS_ABS,
     corpus_tmp    = CORPUS_PATH,
     features      = ANALYZED_FEATURES,
     ngram         = NGRAM_SIZE,
