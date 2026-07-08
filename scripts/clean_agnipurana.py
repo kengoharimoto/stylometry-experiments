@@ -15,8 +15,15 @@ an extreme stylometric outlier. This pass removes:
 
 Everything else -- verse lines (with their /AP_x.y.../ tags, kept to match how the
 sibling files keep their own reference tags), speaker attributions (uvāca / ūcuḥ),
-and ritual mantra lines -- is preserved. AP_ tags and mantra content are genuine
-text; only editorial/structural material and inline footnote markers are stripped.
+and ritual mantra lines -- is preserved. Mantra content is genuine text; only
+editorial/structural material and inline footnote markers are stripped here.
+
+NOTE: the /AP_x.y.../ reference tags are NOT dropped by this pass, so they stay in
+the cleaned corpus alongside the sibling files' own reference markers. Unlike those
+siblings' letterless numeric markers (e.g. "01.01.001/1"), the AP_ tags contain
+Latin letters and would leak into the unsandhied output, so they are stripped one
+layer downstream, at inference time, by strip_ref_markers() in
+process_epic_puranas_unsandhied[_local].py.
 
 Usage: python3 clean_agnipurana.py <infile> <outfile>
 """

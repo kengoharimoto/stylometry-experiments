@@ -101,8 +101,50 @@ def call_api(texts: list[str]) -> list[str]:
 
 
 def _is_tag(s: str) -> bool:
-    """Return True if s looks like a Dharmamitra morphological tag (SNM, Cp, SPr3O…)."""
-    return bool(s) and s.isascii() and any(c.isupper() for c in s)
+    """Return True if s looks like a Dharmamitra morphological tag (SNM, Cp, SPr3O…).
+
+    Tags are ASCII and start UPPERCASE. The leading-case (not any-uppercase) test
+    avoids misclassifying Harvard-Kyoto Sanskrit words (maGgala=maṅgala, pitR=pitṛ),
+    which are ASCII with embedded capitals but start lowercase.
+    """
+    return bool(s) and s.isascii() and s[:1].isupper()
+
+
+# Source lines carry editorial furniture that IAST Sanskrit never does, and which
+# the model otherwise mangles into junk tokens that survive word extraction.
+# strip_ref_markers() removes three families before processing:
+#
+# 1. Letter-bearing GRETIL reference tags -- an uppercase sigil + "_" + a numeric
+#    reference, e.g. agni "/AP_1.001ab/", viṣṇu "// ViP_1,1.0 //", brahmāṇḍa
+#    "// BndP_1,1.1 //". The sigil+"_"+digit anchor never occurs in IAST, so it
+#    also catches agni's malformed variants (glued "smaretAP_24.045cd/",
+#    asterisked "/AP_*1.001ab/", dot-prefixed "/.AP_81.083ab/", diacritic-labelled
+#    "/AP_221ā.001ab/"). Contrast the letterless leading markers other corpora
+#    carry (bhagavata "01.01.001/1", ramayana "1.001.001a"), which are harmless.
+# 2. Any remaining digits -- only ever verse numbers; IAST tokens contain none.
+# 3. nīlamatapurāṇa's editorial separators: "+" joins words within a pāda and "&"
+#    marks a pāda boundary; both become spaces.
+# 4. Lacuna markers -- RUNS of dashes ("-- -- --" / em-dashes) marking lost akṣaras,
+#    which the model hallucinates into "ro-0 di-1 …". Only runs of >=2 dashes are
+#    stripped; a single intra-word hyphen (compound boundary) is preserved.
+_REF_TAG_RE = re.compile(r'[/|।॥.]{0,2}\s*[A-Z][A-Za-z]{0,5}_\*?[0-9][^\s/|।॥]*/?')
+_SEP_RE     = re.compile(r'[+&]')
+_DIGITS_RE  = re.compile(r'[0-9]+')
+_LACUNA_RE  = re.compile(r'[-—–]{2,}')
+
+
+def strip_ref_markers(line: str) -> str:
+    """Strip reference tags, verse numbers, word/pāda separators, and lacuna runs."""
+    line = _REF_TAG_RE.sub(' ', line)   # must run first: needs the digit anchor
+    line = _SEP_RE.sub(' ', line)
+    line = _LACUNA_RE.sub(' ', line)
+    line = _DIGITS_RE.sub('', line)
+    return line
+
+
+def has_sanskrit(line: str) -> bool:
+    """True if the (already stripped) line still holds real Sanskrit word content."""
+    return sum(1 for c in line if c.isalpha()) >= 2
 
 
 def extract_words(api_result: str) -> list[str]:
@@ -159,14 +201,25 @@ def extract_words(api_result: str) -> list[str]:
                     continue
                 words.append(part)
 
-    return words
+    # strip_ref_markers() removes every digit from the input, so any digit in the
+    # output is a model hallucination (e.g. "ro-0"/"ad-20" junk emitted on short
+    # speaker-attribution lines); drop those tokens as a backstop.
+    return [w for w in words if not any(c.isdigit() for c in w)]
 
 
 def process_file(input_path: Path, output_path: Path) -> None:
     lines = input_path.read_text(encoding="utf-8").splitlines()
 
-    # Collect indices of lines that need API processing
-    to_process = [(i, l) for i, l in enumerate(lines) if not is_skip_line(l)]
+    # Strip editorial furniture up front, then drop lines left without Sanskrit
+    # content (pure lacuna / verse-number rows), which the model would otherwise
+    # hallucinate into junk. The stored text is already stripped.
+    to_process = []
+    for i, l in enumerate(lines):
+        if is_skip_line(l):
+            continue
+        s = strip_ref_markers(l)
+        if has_sanskrit(s):
+            to_process.append((i, s))
 
     if not to_process:
         output_path.write_text("", encoding="utf-8")
@@ -178,7 +231,7 @@ def process_file(input_path: Path, output_path: Path) -> None:
 
     for batch_start in range(0, total, BATCH_SIZE):
         batch = to_process[batch_start : batch_start + BATCH_SIZE]
-        batch_texts = [l for _, l in batch]
+        batch_texts = [l for _, l in batch]   # batch is already stripped
 
         results = call_api(batch_texts)
 

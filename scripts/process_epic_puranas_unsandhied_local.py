@@ -85,6 +85,64 @@ BATCH_SIZE   = int(os.getenv("CT2_BATCH_SIZE", "256"))
 
 _PUNCT = {"/", "|", "//", "||", "।", "॥"}
 
+# Source lines carry editorial furniture that IAST Sanskrit never does, and which
+# the byte-level model otherwise mangles into junk tokens that survive word
+# extraction. strip_ref_markers() removes four families before inference:
+#
+# 1. Letter-bearing GRETIL reference tags -- an uppercase sigil + "_" + a
+#    numeric reference, e.g. agni "/AP_1.001ab/", viṣṇu "// ViP_1,1.0 //",
+#    brahmāṇḍa "// BndP_1,1.1 //". The sigil+"_"+digit anchor never occurs in
+#    IAST, so it also catches agni's malformed variants: glued to the previous
+#    word ("smaretAP_24.045cd/"), asterisked ("/AP_*1.001ab/"), and dot-prefixed
+#    ("/.AP_81.083ab/"). Contrast the letterless leading markers other corpora
+#    carry (bhagavata "01.01.001/1", ramayana "1.001.001a"), which are harmless.
+# 2. Any remaining digits -- these are only ever verse numbers, never part of an
+#    IAST word token, so stripping every digit run is safe.
+# 3. nīlamatapurāṇa's editorial separators: "+" joins words within a pāda
+#    ("devam+harim") and "&" marks a pāda boundary ("&varadam"); both become spaces.
+# 4. Lacuna markers -- RUNS of dashes ("-- -- --" in the skandapurāṇa critical
+#    edition, em-dashes elsewhere) marking lost/illegible akṣaras. Fed to the model
+#    they hallucinate into "ro-0 di-1 di-1 …". Only runs of >=2 dashes are stripped;
+#    a SINGLE intra-word hyphen is a compound boundary (bhagavata "ī-ś", padma) and
+#    is preserved. Content-free lines (pure lacuna / verse-number rows) are dropped
+#    upstream in process_file once stripping leaves them without Sanskrit letters.
+# Anchor: optional daṇḍa/slash, an ASCII uppercase sigil, "_", optional "*", a
+# digit; then consume the reference tail up to the next delimiter (space, slash or
+# daṇḍa) so diacritic-bearing labels like agni's "/AP_221ā.001ab/" are caught whole.
+_REF_TAG_RE = re.compile(r'[/|।॥.]{0,2}\s*[A-Z][A-Za-z]{0,5}_\*?[0-9][^\s/|।॥]*/?')
+_SEP_RE     = re.compile(r'[+&]')
+_DIGITS_RE  = re.compile(r'[0-9]+')
+_LACUNA_RE  = re.compile(r'[-—–]{2,}')
+
+
+def strip_ref_markers(line: str) -> str:
+    """Strip reference tags, verse numbers, word/pāda separators, and lacuna runs."""
+    line = _REF_TAG_RE.sub(' ', line)   # must run first: needs the digit anchor
+    line = _SEP_RE.sub(' ', line)
+    line = _LACUNA_RE.sub(' ', line)
+    line = _DIGITS_RE.sub('', line)
+    return line
+
+
+def has_sanskrit(line: str) -> bool:
+    """True if the (already stripped) line still holds real Sanskrit word content."""
+    return sum(1 for c in line if c.isalpha()) >= 2
+
+
+def _is_ascii_noise(part: str) -> bool:
+    """
+    True for uppercase-initial pure-ASCII tokens, which are never lowercase-IAST
+    Sanskrit content. Covers three junk classes:
+      - the multitask model's grammatical-tag hallucinations (SNM, SLNe, PNM, PGM,
+        DuLM …) emitted attached to words on colophon lines ("…_adhyāyaḥ_SNM");
+      - leaked running-header / title fragments (Matsya from "Matsya-Purāṇa N", Mang);
+      - stray capitals (R, I, Cp).
+    Harvard-Kyoto-encoded Sanskrit words (maGgala=maṅgala, aGga, pitR=pitṛ) are also
+    ASCII with embedded capitals but start LOWERCASE, so the leading-case test keeps
+    them; diacritic-bearing IAST words are non-ASCII and never match.
+    """
+    return part.isascii() and part[:1].isupper()
+
 
 def extract_words(result: str) -> list[str]:
     """
@@ -92,16 +150,28 @@ def extract_words(result: str) -> list[str]:
 
     Segmentation output joins the unsandhied word-forms of a line with "_"
     (with a trailing "_"), and daṇḍas survive as separate whitespace tokens,
-    e.g.  "naram_ca_eva_narottamam_ /".  We split on whitespace and "_",
-    keep tokens containing a letter, and drop punctuation.
+    e.g.  "naram_ca_eva_narottamam_ /".  We split on whitespace and "_", strip
+    daṇḍa/slash punctuation the model occasionally glues onto a word ("//utpanna"
+    -> "utpanna"), keep tokens containing a letter, and drop punctuation.
+
+    Two model-hallucination classes are dropped:
+      - Digit-bearing tokens: strip_ref_markers() removes every digit from the
+        input, so any digit in the output is junk -- e.g. "ro-0 fl-2 di-1 ad-20"
+        the model emits on short speaker-attribution lines like "vāyuruvāca||".
+      - Uppercase-initial ASCII noise: model tags, header fragments (see
+        _is_ascii_noise).
     """
     words: list[str] = []
     for group in result.split():
         if group in _PUNCT:
             continue
-        for part in group.split("_"):
-            part = part.strip()
-            if not part or not any(c.isalpha() for c in part):
+        parts = [p.strip("/|।॥. \t") for p in group.split("_")]
+        for part in parts:
+            if not any(c.isalpha() for c in part):
+                continue
+            if any(c.isdigit() for c in part):
+                continue
+            if _is_ascii_noise(part):
                 continue
             words.append(part)
     return words
@@ -109,7 +179,16 @@ def extract_words(result: str) -> list[str]:
 
 def process_file(translator, tokenizer, input_path: Path, output_path: Path) -> None:
     lines = input_path.read_text(encoding="utf-8").splitlines()
-    to_process = [l for l in lines if not is_skip_line(l)]
+    # Strip editorial furniture up front, then drop lines left without Sanskrit
+    # content (pure lacuna / verse-number rows), which the model would otherwise
+    # hallucinate into junk. Downstream batches receive the already-stripped text.
+    to_process = []
+    for l in lines:
+        if is_skip_line(l):
+            continue
+        s = strip_ref_markers(l)
+        if has_sanskrit(s):
+            to_process.append(s)
 
     if not to_process:
         output_path.write_text("", encoding="utf-8")
@@ -121,7 +200,7 @@ def process_file(translator, tokenizer, input_path: Path, output_path: Path) -> 
 
     for start in range(0, total, BATCH_SIZE):
         batch = to_process[start : start + BATCH_SIZE]
-        texts = [PREFIX + l for l in batch]
+        texts = [PREFIX + l for l in batch]   # batch is already stripped
         enc = tokenizer(texts, truncation=True, max_length=MAX_LENGTH)
         tokens = [tokenizer.convert_ids_to_tokens(ids) for ids in enc["input_ids"]]
         results = translator.translate_batch(
