@@ -43,9 +43,11 @@ WRITE_PDF_FILE <- TRUE
 WRITE_JPG_FILE <- FALSE
 WRITE_SVG_FILE <- FALSE
 WRITE_PNG_FILE <- FALSE
-PLOT_CUSTOM_HEIGHT <- 60
-PLOT_CUSTOM_WIDTH <- 50
-PLOT_FONT_SIZE <- 7
+# NA = auto-size per analysis type (see get_plot_dims below).
+# A CLI --plot-height / --plot-width overrides the auto value for every plot.
+PLOT_CUSTOM_HEIGHT <- NA
+PLOT_CUSTOM_WIDTH <- NA
+PLOT_FONT_SIZE <- 14
 PLOT_LINE_THICKNESS <- 1
 PLOT_OPTIONS_RESET <- FALSE
 TEXT_ID_ON_GRAPHS <- "labels"
@@ -260,6 +262,37 @@ cat("Corpus loaded! Texts:", nrow(freq_table), "\n")
 cat("Frequency table created! Features:", ncol(freq_table), "\n")
 cat("========================================\n\n")
 
+# ------------------------------------------------
+# PER-TYPE PLOT SIZING
+# ------------------------------------------------
+# stylo passes plot.custom.width/height (inches) and plot.font.size (pt ->
+# pdf pointsize) straight to the graphics device. A small font on a huge
+# page renders as microscopic text once the PDF is scaled to fit a screen,
+# so we size each plot family to its content instead:
+#   - CA (horizontal hierarchical dendrogram): one label per leaf stacked
+#     vertically, so height scales with the number of texts; a bit wide.
+#   - BCT (bootstrap consensus tree, radial/spread): wants a roughly square
+#     page -- a tall page just adds empty margins top and bottom.
+#   - Scatter plots (MDS, PCV): labels spread in 2D, so a compact square page
+#     keeps text large relative to the page.
+# A CLI --plot-height / --plot-width still overrides these auto values.
+N_TEXTS <- nrow(freq_table)
+get_plot_dims <- function(analysis_type) {
+    if (analysis_type == "CA") {
+        w <- 18
+        h <- max(20, N_TEXTS * 0.4)   # ~0.4 in per leaf, min 20 in
+    } else if (analysis_type == "BCT") {
+        w <- 24                       # consensus tree: square-ish
+        h <- 24
+    } else {                          # MDS, PCV (scatter)
+        w <- 18
+        h <- 18
+    }
+    if (!is.na(PLOT_CUSTOM_WIDTH))  w <- PLOT_CUSTOM_WIDTH
+    if (!is.na(PLOT_CUSTOM_HEIGHT)) h <- PLOT_CUSTOM_HEIGHT
+    list(width = w, height = h)
+}
+
 # ================================================
 # ANALYSIS CONFIGURATION
 # ================================================
@@ -308,8 +341,10 @@ cat("\n########################################\n")
 cat("### STEP 1: PCV ANALYSIS\n")
 cat("########################################\n")
 
-filename <- paste0("clusters_", feature_type, "_", MFW_MIN, "-", MFW_MAX, 
+filename <- paste0("clusters_", feature_type, "_", MFW_MIN, "-", MFW_MAX,
                   "_PCV_", timestamp)
+
+pcv_dims <- get_plot_dims("PCV")
 
 results <- stylo(gui = FALSE,
                  frequencies = freq_table,
@@ -336,8 +371,8 @@ results <- stylo(gui = FALSE,
                  write.jpg.file = WRITE_JPG_FILE,
                  write.svg.file = WRITE_SVG_FILE,
                  write.png.file = WRITE_PNG_FILE,
-                 plot.custom.height = PLOT_CUSTOM_HEIGHT,
-                 plot.custom.width = PLOT_CUSTOM_WIDTH,
+                 plot.custom.height = pcv_dims$height,
+                 plot.custom.width = pcv_dims$width,
                  plot.font.size = PLOT_FONT_SIZE,
                  plot.line.thickness = PLOT_LINE_THICKNESS,
                  plot.options.reset = PLOT_OPTIONS_RESET,
@@ -381,7 +416,9 @@ for (dist_measure in distance_measures) {
     # CA and MDS only need one iteration (at max MFW)
     use_mfw_min <- if(analysis_type == "BCT") MFW_MIN else MFW_MAX
     use_mfw_incr <- if(analysis_type == "BCT") MFW_INCR else 0
-    
+
+    plot_dims <- get_plot_dims(analysis_type)
+
     results <- tryCatch(
       stylo(gui = FALSE,
                      frequencies = freq_table,
@@ -408,8 +445,8 @@ for (dist_measure in distance_measures) {
                      write.jpg.file = WRITE_JPG_FILE,
                      write.svg.file = WRITE_SVG_FILE,
                      write.png.file = WRITE_PNG_FILE,
-                     plot.custom.height = PLOT_CUSTOM_HEIGHT,
-                     plot.custom.width = PLOT_CUSTOM_WIDTH,
+                     plot.custom.height = plot_dims$height,
+                     plot.custom.width = plot_dims$width,
                      plot.font.size = PLOT_FONT_SIZE,
                      plot.line.thickness = PLOT_LINE_THICKNESS,
                      plot.options.reset = PLOT_OPTIONS_RESET,
