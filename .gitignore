@@ -51,8 +51,10 @@ gi_results_log_*.txt
 # Run logs (unsandhi batch runs, etc.)
 logs/
 
-# Keep only curated feature lists under materials
+# Keep only curated feature lists and presentation deliverables under materials
 materials/*
 !materials/feature_sets/
 !materials/feature_sets/sanskrit_indeclinables.txt
 !materials/feature_sets/sanskrit_indeclinables_clean.txt
+!materials/presentation_2026/
+!materials/presentation_2026/**
