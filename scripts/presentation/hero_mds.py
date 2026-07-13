@@ -39,6 +39,9 @@ ap.add_argument('--metric', default='delta',
                          'euclidean', 'manhattan', 'canberra', 'minmax'])
 ap.add_argument('--mfw', type=int, default=None,
                 help='default: 80 for words, 5000 for char 3-grams')
+ap.add_argument('--highlight', default=None,
+                choices=['epic', 'oldcore', 'late', 'sip', 'bhp'],
+                help='fade all strata except the named zone (Act 3 tour slides)')
 ap.add_argument('--compare-metrics', action='store_true',
                 help='report each metric\'s distance-matrix correlation with '
                      'the W1-delta hero matrix, then exit')
@@ -52,6 +55,12 @@ RESULTS = sorted(ROOT.glob('results_epic_puranas_unsandhied_W1_50-80_*/' if W1 e
 tag = f"{'W1' if W1 else 'C3'}_{args.metric}"
 OUT = FIGDIR / (f'hero_W1_delta_MDS' if (W1 and args.metric == 'delta')
                 else f'companion_{tag}_MDS')
+HIGHLIGHT_STRATA = {'epic': {1, 2}, 'oldcore': {3}, 'late': {6},
+                    'sip': {7}, 'bhp': {8, 9}}
+hl = HIGHLIGHT_STRATA.get(args.highlight)
+if hl:
+    OUT = OUT.with_name(f'{OUT.name}_hl-{args.highlight}')
+FADE, FADE_TXT = '#d4d4d4', '#b8b8b8'
 
 # ── Stratum table ─────────────────────────────────────────────────────────────
 strata, labels_map, notes = {}, {}, {}
@@ -289,11 +298,15 @@ def display(name):
     iast = {'Visnu': 'Viṣṇu', 'Kurma': 'Kūrma', 'Linga': 'Liṅga',
             'Nrsimha': 'Nṛsiṃha', 'Garuda': 'Garuḍa', 'Narada': 'Nārada',
             'Kalika': 'Kālikā', 'Devi': 'Devī', 'Bhavisya': 'Bhaviṣya',
-            'Sivapurana': 'ŚiP', 'Saura': 'Saura'}
+            'Sivapurana': 'ŚiP', 'Saura': 'Saura',
+            'Brahmanda': 'Brahmāṇḍa', 'Vamana': 'Vāmana'}
     base = iast.get(base, base)
     if name.startswith('sivapurana_'):
         part = name.split('_')[1].replace('samhita', '').replace('mahatmya', ' māh.')
-        return 'ŚiP ' + part.capitalize()
+        part_iast = {'karvana māh.': 'Kārvaṇa māh.', 'sanatkumara': 'Sanatkumāra',
+                     'satarudra': 'Śatarudra', 'uma': 'Umā',
+                     'vayaviya': 'Vāyavīya', 'vidyesvara': 'Vidyeśvara'}
+        return 'ŚiP ' + part_iast.get(part, part.capitalize())
     m = re.search(r'khanda-(\d+)', name)
     if m:
         return f'{base} {m.group(1)}'
@@ -320,14 +333,18 @@ for s in GROUP_ORDER:
     if not sel:
         continue
     sizes = [30 if names[i] in tiny else 70 for i in sel]
-    ax.scatter(Y[sel, 0], Y[sel, 1], s=sizes, c=PALETTE[s], alpha=0.9,
-               edgecolors='white', linewidths=0.6, zorder=3)
+    faded = hl and s not in hl
+    ax.scatter(Y[sel, 0], Y[sel, 1], s=sizes,
+               c=FADE if faded else PALETTE[s], alpha=0.9,
+               edgecolors='white', linewidths=0.6, zorder=2 if faded else 3)
 
 for i, n in enumerate(names):
+    faded = hl and strata[n] not in hl
     ax.annotate(codes[n], (Y[i, 0], Y[i, 1]),
                 xytext=(3, 2), textcoords='offset points',
                 fontsize=6.5, fontweight='bold',
-                color=darken(PALETTE[strata[n]]), zorder=4)
+                color=FADE_TXT if faded else darken(PALETTE[strata[n]]),
+                zorder=4)
 
 ax.annotate('', xy=(0.97, 0.02), xytext=(0.03, 0.02),
             xycoords='axes fraction',
@@ -363,16 +380,19 @@ for e, (kind, s, txt) in enumerate(entries):
     col, row = divmod(e, rows_per_col)
     x = 0.02 + col * 0.52
     y = 0.99 - (row + 1) * row_h
+    faded = hl and s not in hl
     if kind == 'header':
-        key.scatter([x + 0.015], [y + 0.004], s=28, c=PALETTE[s],
+        key.scatter([x + 0.015], [y + 0.004], s=28,
+                    c=FADE if faded else PALETTE[s],
                     edgecolors='white', linewidths=0.5,
                     transform=key.transAxes, clip_on=False)
         key.text(x + 0.045, y, txt, transform=key.transAxes,
                  fontsize=6.3, fontweight='bold', va='center',
-                 color=darken(PALETTE[s], 0.45))
+                 color=FADE_TXT if faded else darken(PALETTE[s], 0.45))
     else:
         key.text(x + 0.045, y, txt, transform=key.transAxes,
-                 fontsize=5.8, va='center', color='#222222')
+                 fontsize=5.8, va='center',
+                 color=FADE_TXT if faded else '#222222')
 
 fig.savefig(f'{OUT}.png', dpi=200)
 fig.savefig(f'{OUT}.pdf')

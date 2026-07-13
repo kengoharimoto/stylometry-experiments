@@ -32,8 +32,8 @@ profiles = {f: fc.load_profiles(f) for f in ('w', 'c')}
 
 fig = plt.figure(figsize=(13.33, 7.5))
 axes = fig.subplots(2, 3)
-fig.subplots_adjust(left=0.045, right=0.995, top=0.90, bottom=0.115,
-                    hspace=0.22, wspace=0.06)
+fig.subplots_adjust(left=0.045, right=0.995, top=0.875, bottom=0.115,
+                    hspace=0.30, wspace=0.06)
 
 for ax, (feats, metric) in zip(axes.flat, PANELS):
     names, _, X, Z = profiles[feats]
@@ -46,13 +46,10 @@ for ax, (feats, metric) in zip(axes.flat, PANELS):
         ax.scatter(Y[sel, 0], Y[sel, 1], s=26, c=fc.PALETTE[s], alpha=0.9,
                    edgecolors='white', linewidths=0.4, zorder=3)
     hero = feats == 'w' and metric == 'delta'
-    ax.set_title(('W1 · ' if feats == 'w' else 'C3 · ') +
-                 fc.METRIC_NAMES[metric] + ('   (= the opening map)' if hero else ''),
-                 fontsize=10.5, pad=4)
-    if not hero:
-        ax.text(0.985, 0.02, f'layout agreement with W1 Delta: {sim:.2f}',
-                transform=ax.transAxes, ha='right', fontsize=7.5,
-                color='#777777')
+    ax.set_title(('W1 · ' if feats == 'w' else 'C3 · ') + fc.METRIC_NAMES[metric]
+                 + ('\n(= the opening map)' if hero
+                    else f'\nagreement with the opening map: {sim:.2f}'),
+                 fontsize=9.5, pad=4)
     ax.set_xticks([]); ax.set_yticks([])
     for sp in ax.spines.values():
         sp.set_color('#cccccc')
