@@ -182,9 +182,18 @@ cat("========================================\n")
 cat("LOADING CORPUS (ONE TIME ONLY)\n")
 cat("========================================\n")
 
+# Tokenization: our corpora are pre-cleaned, space-separated tokens, so split on
+# whitespace only. Stylo's language-based default ("English.all") treats Latin
+# Extended Additional characters (ṣ ṭ ḍ ṇ ḥ ṃ ṛ ṅ ...) as word separators,
+# mutilating IAST tokens (guṇa -> gu|a, kṛta -> k|ta) and silently dropping those
+# characters from char n-gram features.
+SPLITTING_RULE <- "[[:space:]]+"
+
 # Cache helpers ---------------------------------------------------------------
 freq_cache_path <- function(corpus_dir, features, ngram, preserve, cutoff) {
-    tag <- paste0(features, ngram, "_pc", as.integer(preserve), "_cut", cutoff)
+    # "_ws" marks whitespace splitting.rule; caches from the old language-based
+    # tokenization use a different tag and are therefore never reused.
+    tag <- paste0(features, ngram, "_pc", as.integer(preserve), "_cut", cutoff, "_ws")
     file.path(corpus_dir, paste0(".cache_freq_", tag, ".rds"))
 }
 
@@ -212,6 +221,7 @@ load_freq_table_cached <- function(corpus_dir, corpus_tmp, features, ngram,
     res <- stylo(
         gui = FALSE,
         corpus.dir = corpus_tmp,
+        splitting.rule = SPLITTING_RULE,
         analyzed.features = features,
         ngram.size = ngram,
         preserve.case = preserve,
