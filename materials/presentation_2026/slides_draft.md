@@ -365,9 +365,21 @@ raw-cosine outlier exposed an editorially dissolved source text (2026-07-09).
 
 ### B5 · Consensus tree
 
-**On slide:** bootstrap consensus tree (Cosine Delta), as an alternative,
-non-spatial view of the same distances. *(Figure from stylo run; regenerate
-from ≥ 2026-07-10 data before including.)*
+**On slide:** figure `consensus_tree` — bootstrap consensus tree, Cosine Delta
+on the same 80 words, 500 replicates (words resampled with replacement),
+neighbour-joining per replicate, majority-rule consensus; rooted on MBh 6,
+leaves colored by stratum. 27 branches survive the ≥ 50% cut, mean support
+0.76.
+
+**Cue:** for anyone who wants a stemma-shaped answer. The tree recovers the
+same groups as the map — the epic core, Vāyu–Brahmāṇḍa with the old purāṇic
+core, the Bhāgavata, the Śivapurāṇa — so the grouping is not an artefact of
+the MDS projection. But a tree asserts descent and nesting, and these texts
+drift into one another rather than branching cleanly; the gradual transitions
+that carry the chronological argument are exactly what a tree has to hide.
+That is why the talk is built on the map. *(Built by
+`scripts/presentation/consensus_tree.py`; stylo's own BCT is unusable — the
+50–80 MFW range leaves the 0.5-consensus a near-total polytomy.)*
 
 ---
 

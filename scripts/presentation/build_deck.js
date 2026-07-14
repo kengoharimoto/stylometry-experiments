@@ -556,18 +556,17 @@ fullFigure(pres.addSlide(), "robustness_grid",
     "(2026-07-09).");
 }
 
-// B5 · Consensus tree (placeholder until regenerated from post-fix data)
-{
-  const s = pres.addSlide();
-  s.background = { color: "FFFFFF" };
-  kicker(s, "Backup");
-  title(s, "Bootstrap consensus tree");
-  s.addText("[Figure placeholder — regenerate the Cosine Delta consensus " +
-    "tree from ≥ 2026-07-10 runs before including.]", {
-    x: 1.5, y: 3.2, w: 10.3, h: 1.0, fontFace: BODY, fontSize: 16, italic: true,
-    color: FAINT, align: "center" });
-  s.addNotes("Alternative, non-spatial view of the same distances.");
-}
+// B5 · Consensus tree
+fullFigure(pres.addSlide(), "consensus_tree",
+  "If someone asks for a tree: here it is. Cosine Delta on the same 80 " +
+  "words, 500 bootstrap replicates (the words are resampled with " +
+  "replacement), neighbour-joining per replicate, majority-rule consensus — " +
+  "so every branch on the slide is one that survived in more than half of " +
+  "the replicates. Rooted arbitrarily on MBh 6. It finds the same groups " +
+  "the map does: the epics, Vāyu–Brahmāṇḍa and the old purāṇic core, the " +
+  "Bhāgavata, the Śivapurāṇa. But a tree asserts descent and nesting, and " +
+  "our texts drift into one another instead of branching cleanly — which " +
+  "is why the talk is built on the map, not on this.");
 
 const OUT = path.join(MAT, "chronology_stratification.pptx");
 pres.writeFile({ fileName: OUT }).then(() => console.log("wrote", OUT));
