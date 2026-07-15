@@ -28,8 +28,8 @@ const ICE = "CADCFC";
 const CARD_EDGE = "C8C8C8";
 const STRATUM = ["1F5FA8", "7BA7D4", "1A7A3A", "8FBF3F", "7A4BA8",
                  "E08A1E", "C23B3B", "E0BF1E", "7F7F7F", "3BBFBF"];
-const HEAD = "Georgia";
-const BODY = "Calibri";
+const HEAD = "SF Pro Display";   // Apple system font — titles/headings
+const BODY = "SF Pro Text";      // Apple system font — body/bullets (Text optimises small sizes)
 
 const pres = new pptxgen();
 pres.layout = "LAYOUT_WIDE";           // 13.3 × 7.5 in — figures are 13.33 × 7.5

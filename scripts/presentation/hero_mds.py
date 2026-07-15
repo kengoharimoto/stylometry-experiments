@@ -26,7 +26,27 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
 from matplotlib.colors import to_rgb
+
+
+def use_sf_pro():
+    """Render figures in SF Pro Display (Apple system font), matching the deck.
+
+    Full IAST coverage verified; falls back silently if the fonts are absent.
+    """
+    for f in ('Regular', 'Bold', 'RegularItalic', 'BoldItalic',
+              'Semibold', 'Medium', 'Light'):
+        p = f'/Library/Fonts/SF-Pro-Display-{f}.otf'
+        try:
+            fm.fontManager.addfont(p)
+        except (FileNotFoundError, OSError):
+            pass
+    if any('SF Pro Display' in f.name for f in fm.fontManager.ttflist):
+        plt.rcParams['font.family'] = 'SF Pro Display'
+
+
+use_sf_pro()
 
 ROOT = Path(__file__).resolve().parents[2]
 STRATA = ROOT / 'materials/presentation_2026/chronology_strata.tsv'

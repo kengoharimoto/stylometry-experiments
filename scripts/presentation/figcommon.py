@@ -11,6 +11,26 @@ from collections import Counter
 from pathlib import Path
 
 import numpy as np
+import matplotlib
+import matplotlib.font_manager as fm
+
+
+def use_sf_pro():
+    """Render figures in SF Pro Display (Apple system font), matching the deck.
+
+    IAST coverage verified full; silently keeps the default if SF Pro is absent.
+    """
+    for f in ('Regular', 'Bold', 'RegularItalic', 'BoldItalic',
+              'Semibold', 'Medium', 'Light'):
+        try:
+            fm.fontManager.addfont(f'/Library/Fonts/SF-Pro-Display-{f}.otf')
+        except (FileNotFoundError, OSError):
+            pass
+    if any('SF Pro Display' in ff.name for ff in fm.fontManager.ttflist):
+        matplotlib.rcParams['font.family'] = 'SF Pro Display'
+
+
+use_sf_pro()
 
 ROOT = Path(__file__).resolve().parents[2]
 STRATA = ROOT / 'materials/presentation_2026/chronology_strata.tsv'
