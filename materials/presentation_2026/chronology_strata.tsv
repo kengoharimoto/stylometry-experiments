@@ -1,29 +1,29 @@
 text	stratum	label	note
-mahabharata_01-adiparvan	1	epic core	frame/late strata inside, but conventionally core
-mahabharata_02-sabhaparvan	1	epic core	
-mahabharata_03-aranyakaparvan	1	epic core	
-mahabharata_04-virataparvan	1	epic core	
-mahabharata_05-udyogaparvan	1	epic core	
-mahabharata_06-bhismaparvan	1	epic core	battle books 6-9
-mahabharata_07-dronaparvan	1	epic core	battle books 6-9
-mahabharata_08-karnaparvan	1	epic core	battle books 6-9
-mahabharata_09-salyaparvan	1	epic core	battle books 6-9
-mahabharata_10-sauptikaparvan	1	epic core	
-mahabharata_11-striparvan	1	epic core	
-ramayana_02-ayodhyakanda_a	1	epic core	Ram core 2-6
-ramayana_03-aranyakanda_a	1	epic core	Ram core 2-6
-ramayana_04-kiskindhakanda	1	epic core	Ram core 2-6
-ramayana_05-sundarakanda	1	epic core	Ram core 2-6
-ramayana_06-yuddhakanda	1	epic core	Ram core 2-6
-mahabharata_12-santiparvan	2	late epic	didactic stratum
-mahabharata_13-anusasanaparvan	2	late epic	didactic stratum
-mahabharata_14-asvamedhikaparvan	2	late epic	Anugita etc.; stylometrically clusters with MBh 1+3
-mahabharata_15-asramavasikaparvan	2	late epic	
-mahabharata_16-mausalaparvan	2	late epic	FLAG: tiny (length caveat)
-mahabharata_17-mahaprasthanikaparvan	2	late epic	FLAG: tiny (length caveat)
-mahabharata_18-svargarohanaparvan	2	late epic	FLAG: tiny (length caveat)
-ramayana_01-balakanda	2	late epic	late addition to Ram
-ramayana_07-uttarakanda	2	late epic	late addition to Ram
+mahabharata_01-adiparvan	1	Mahābhārata	frame/late strata inside, but conventionally core
+mahabharata_02-sabhaparvan	1	Mahābhārata	
+mahabharata_03-aranyakaparvan	1	Mahābhārata	
+mahabharata_04-virataparvan	1	Mahābhārata	
+mahabharata_05-udyogaparvan	1	Mahābhārata	
+mahabharata_06-bhismaparvan	1	Mahābhārata	battle books 6-9
+mahabharata_07-dronaparvan	1	Mahābhārata	battle books 6-9
+mahabharata_08-karnaparvan	1	Mahābhārata	battle books 6-9
+mahabharata_09-salyaparvan	1	Mahābhārata	battle books 6-9
+mahabharata_10-sauptikaparvan	1	Mahābhārata	
+mahabharata_11-striparvan	1	Mahābhārata	
+ramayana_02-ayodhyakanda_a	2	Rāmāyaṇa	Ram core 2-6
+ramayana_03-aranyakanda_a	2	Rāmāyaṇa	Ram core 2-6
+ramayana_04-kiskindhakanda	2	Rāmāyaṇa	Ram core 2-6
+ramayana_05-sundarakanda	2	Rāmāyaṇa	Ram core 2-6
+ramayana_06-yuddhakanda	2	Rāmāyaṇa	Ram core 2-6
+mahabharata_12-santiparvan	1	Mahābhārata	didactic stratum
+mahabharata_13-anusasanaparvan	1	Mahābhārata	didactic stratum
+mahabharata_14-asvamedhikaparvan	1	Mahābhārata	Anugita etc.; stylometrically clusters with MBh 1+3
+mahabharata_15-asramavasikaparvan	1	Mahābhārata	
+mahabharata_16-mausalaparvan	1	Mahābhārata	FLAG: tiny (length caveat)
+mahabharata_17-mahaprasthanikaparvan	1	Mahābhārata	FLAG: tiny (length caveat)
+mahabharata_18-svargarohanaparvan	1	Mahābhārata	FLAG: tiny (length caveat)
+ramayana_01-balakanda	2	Rāmāyaṇa	framing khaṇḍa added to core, but composed with it (clusters with Ram 2-6)
+ramayana_07-uttarakanda	2	Rāmāyaṇa	framing khaṇḍa added to core, but composed with it (clusters with Ram 2-6)
 brahmandapurana	3	old purāṇic core	Kirfel Vayuproktam group
 brahmandapurana_khanda-1_u	3	old purāṇic core	
 brahmandapurana_khanda-2_u	3	old purāṇic core	
@@ -44,59 +44,59 @@ vayupurana_08_manu-candra-vishnu-vamsha_iast	3	old purāṇic core	thematic sect
 vayupurana_09_upasamhara_iast	3	old purāṇic core	thematic section of Vayu
 vayupurana_10_gaya-mahatmya_iast	3	old purāṇic core	Gayamahatmya; kept with the rest of Vayu per author
 visnupurana_u	3	old purāṇic core	
-brahmapurana_pu	4	middle purāṇic	heavy epic borrowing (MBh 13 affinity in both feature sets)
-devipurana	4	middle purāṇic	7th-9th (Hazra)
-kurmapurana_khanda-1_u	4	middle purāṇic	c. 8th c. Pasupata redaction
-kurmapurana_khanda-2_u	4	middle purāṇic	
-lingapurana_khanda-1_u	4	middle purāṇic	c. 8th-11th
-lingapurana_khanda-2_u	4	middle purāṇic	
-nilamatapurana_au	4	middle purāṇic	6th-8th, Kashmir
-nrsimhapurana_pu	4	middle purāṇic	c. 5th-9th (Hazra)
-vamanapurana_saromahatmya_u	4	middle purāṇic	stays with the rest of the Vamana per author
-vamanapurana_u	4	middle purāṇic	c. 9th-10th (Hazra)
-visnudharma_pu	4	middle purāṇic	c. 6th-7th (Gruenendahl)
-visnudharmottarapurana_khanda-3_adhyaya-343-353_pu	4	middle purāṇic	c. 7th; FLAG: short excerpt
-skandapurana	5	old Skandapurāṇa	original SP surviving in Nepal/Bengal; oldest MS 810 CE
-skandapurana_adhyaya-1-31_pu	5	old Skandapurāṇa	original SP (Nepal/Bengal recension)
-skandapurana_pasupata_adhyaya174-183_u	5	old Skandapurāṇa	original SP; FLAG: short excerpt
-agnipurana_u	6	late sectarian/encyclopedic	9th c.+ digest
-bhavisyapurana	6	late sectarian/encyclopedic	
-bhavisyapurana_brahmaparvan_adhyaya-5	6	late sectarian/encyclopedic	FLAG: tiny fragment
-devibhagavatapurana	6	late sectarian/encyclopedic	
-devibhagavatapurana_u	6	late sectarian/encyclopedic	FLAG: partial/different source from devibhagavatapurana?
-garudapurana_khanda-1_u	6	late sectarian/encyclopedic	digest
-garudapurana_khanda-2_u	6	late sectarian/encyclopedic	
-garudapurana_khanda-3_u	6	late sectarian/encyclopedic	
-kalikapurana	6	late sectarian/encyclopedic	10th-11th
-karatoyamahatmya_pu	6	late sectarian/encyclopedic	FLAG: tiny fragment
-naradapurana_khanda-1_u	6	late sectarian/encyclopedic	digest
-naradapurana_khanda-2_u	6	late sectarian/encyclopedic	
-padmapurana_a	6	late sectarian/encyclopedic	complete text, all khandas; composite compilation
-pranavakalpa	10	Śāstra	late Sastric text transmitted in the Skandamahapurana; kept to show how a Sastric text maps; FLAG: tiny
-saurapurana	6	late sectarian/encyclopedic	c. 12th
-skandamahpurana_kasikhanda	6	late sectarian/encyclopedic	Skandamahapurana; 13th-14th
-skandapurana_himavatkhanda_au	6	late sectarian/encyclopedic	Skandamahapurana; late Nepalese khanda
-skandapurana_revakhanda	6	late sectarian/encyclopedic	Skandamahapurana
-sutasamhita_khanda-4_iast	6	late sectarian/encyclopedic	part of printed SkP, c. 13th
-vayupurana_revakhanda	6	late sectarian/encyclopedic	double transmission of SkP Revakhanda
-sivapurana_dharmasamhita	7	Śivapurāṇa	
-sivapurana_karvanamahatmya_au	7	Śivapurāṇa	FLAG: tiny fragment
-sivapurana_rudrasamhita	7	Śivapurāṇa	
-sivapurana_sanatkumarasamhita	7	Śivapurāṇa	
-sivapurana_satarudrasamhita_au	7	Śivapurāṇa	
-sivapurana_umasamhita	7	Śivapurāṇa	shares material w/ Vayu/Brahmanda
-sivapurana_vayaviyasamhita_au	7	Śivapurāṇa	often held the oldest SiP stratum
-sivapurana_vidyesvarasamhita_au	7	Śivapurāṇa	SiP as transmitted 10th-14th
-bhagavatapurana_skandha-01_u	8	Bhāgavata	c. 9th-10th, deliberately archaizing
-bhagavatapurana_skandha-02_u	8	Bhāgavata	
-bhagavatapurana_skandha-03_u	8	Bhāgavata	
-bhagavatapurana_skandha-04_u	8	Bhāgavata	
-bhagavatapurana_skandha-05_u	8	Bhāgavata	
-bhagavatapurana_skandha-06_u	8	Bhāgavata	
-bhagavatapurana_skandha-07_u	8	Bhāgavata	
-bhagavatapurana_skandha-08_u	8	Bhāgavata	
-bhagavatapurana_skandha-09_u	8	Bhāgavata	
-bhagavatapurana_skandha-10_adhyaya-29-33_w_commentary	9	BhP with commentary	kept as own genre: shows how commentary inclusion affects the optics
-bhagavatapurana_skandha-10_u	8	Bhāgavata	
-bhagavatapurana_skandha-11_u	8	Bhāgavata	
-bhagavatapurana_skandha-12_u	8	Bhāgavata	
+brahmapurana_pu	5	sectarian & encyclopedic	heavy epic borrowing (MBh 13 affinity in both feature sets)
+devipurana	5	sectarian & encyclopedic	7th-9th (Hazra)
+kurmapurana_khanda-1_u	5	sectarian & encyclopedic	c. 8th c. Pasupata redaction
+kurmapurana_khanda-2_u	5	sectarian & encyclopedic	
+lingapurana_khanda-1_u	5	sectarian & encyclopedic	c. 8th-11th
+lingapurana_khanda-2_u	5	sectarian & encyclopedic	
+nilamatapurana_au	5	sectarian & encyclopedic	6th-8th, Kashmir
+nrsimhapurana_pu	5	sectarian & encyclopedic	c. 5th-9th (Hazra)
+vamanapurana_saromahatmya_u	5	sectarian & encyclopedic	stays with the rest of the Vamana per author
+vamanapurana_u	5	sectarian & encyclopedic	c. 9th-10th (Hazra)
+visnudharma_pu	5	sectarian & encyclopedic	c. 6th-7th (Gruenendahl)
+visnudharmottarapurana_khanda-3_adhyaya-343-353_pu	5	sectarian & encyclopedic	c. 7th; FLAG: short excerpt
+skandapurana	4	old Skandapurāṇa	original SP surviving in Nepal/Bengal; oldest MS 811 CE
+skandapurana_adhyaya-1-31_pu	4	old Skandapurāṇa	original SP (Nepal/Bengal recension)
+skandapurana_pasupata_adhyaya174-183_u	4	old Skandapurāṇa	original SP; FLAG: short excerpt
+agnipurana_u	5	sectarian & encyclopedic	9th c.+ digest
+bhavisyapurana	5	sectarian & encyclopedic	
+bhavisyapurana_brahmaparvan_adhyaya-5	5	sectarian & encyclopedic	FLAG: tiny fragment
+devibhagavatapurana	5	sectarian & encyclopedic	
+devibhagavatapurana_u	5	sectarian & encyclopedic	FLAG: partial/different source from devibhagavatapurana?
+garudapurana_khanda-1_u	5	sectarian & encyclopedic	digest
+garudapurana_khanda-2_u	5	sectarian & encyclopedic	
+garudapurana_khanda-3_u	5	sectarian & encyclopedic	
+kalikapurana	5	sectarian & encyclopedic	10th-11th
+karatoyamahatmya_pu	5	sectarian & encyclopedic	FLAG: tiny fragment
+naradapurana_khanda-1_u	5	sectarian & encyclopedic	digest
+naradapurana_khanda-2_u	5	sectarian & encyclopedic	
+padmapurana_a	5	sectarian & encyclopedic	complete text, all khandas; composite compilation
+pranavakalpa	9	Śāstra	late Sastric text transmitted in the Skandamahapurana; kept to show how a Sastric text maps; FLAG: tiny
+saurapurana	5	sectarian & encyclopedic	c. 12th
+skandamahpurana_kasikhanda	5	sectarian & encyclopedic	Skandamahapurana; 13th-14th
+skandapurana_himavatkhanda_au	5	sectarian & encyclopedic	Skandamahapurana; late Nepalese khanda
+skandapurana_revakhanda	5	sectarian & encyclopedic	Skandamahapurana
+sutasamhita_khanda-4_iast	5	sectarian & encyclopedic	part of printed SkP, c. 13th
+vayupurana_revakhanda	5	sectarian & encyclopedic	double transmission of SkP Revakhanda
+sivapurana_dharmasamhita	6	Śivapurāṇa	
+sivapurana_karvanamahatmya_au	6	Śivapurāṇa	FLAG: tiny fragment
+sivapurana_rudrasamhita	6	Śivapurāṇa	
+sivapurana_sanatkumarasamhita	6	Śivapurāṇa	
+sivapurana_satarudrasamhita_au	6	Śivapurāṇa	
+sivapurana_umasamhita	6	Śivapurāṇa	shares material w/ Vayu/Brahmanda
+sivapurana_vayaviyasamhita_au	6	Śivapurāṇa	often held the oldest SiP stratum
+sivapurana_vidyesvarasamhita_au	6	Śivapurāṇa	SiP as transmitted 10th-14th
+bhagavatapurana_skandha-01_u	7	Bhāgavata	c. 9th-10th, deliberately archaizing
+bhagavatapurana_skandha-02_u	7	Bhāgavata	
+bhagavatapurana_skandha-03_u	7	Bhāgavata	
+bhagavatapurana_skandha-04_u	7	Bhāgavata	
+bhagavatapurana_skandha-05_u	7	Bhāgavata	
+bhagavatapurana_skandha-06_u	7	Bhāgavata	
+bhagavatapurana_skandha-07_u	7	Bhāgavata	
+bhagavatapurana_skandha-08_u	7	Bhāgavata	
+bhagavatapurana_skandha-09_u	7	Bhāgavata	
+bhagavatapurana_skandha-10_adhyaya-29-33_w_commentary	8	BhP with commentary	kept as own genre: shows how commentary inclusion affects the optics
+bhagavatapurana_skandha-10_u	7	Bhāgavata	
+bhagavatapurana_skandha-11_u	7	Bhāgavata	
+bhagavatapurana_skandha-12_u	7	Bhāgavata	

@@ -16,9 +16,10 @@ ROOT = Path(__file__).resolve().parents[2]
 STRATA = ROOT / 'materials/presentation_2026/chronology_strata.tsv'
 FIGDIR = ROOT / 'materials/presentation_2026/figures'
 
-PALETTE = {
-    1: '#1f5fa8', 2: '#7ba7d4', 3: '#1a7a3a', 4: '#8fbf3f', 5: '#7a4ba8',
-    6: '#e08a1e', 7: '#c23b3b', 8: '#e0bf1e', 9: '#7f7f7f', 10: '#3bbfbf',
+PALETTE = {                       # 1 MBh · 2 Rām · 3 old core · 4 old SP ·
+    1: '#1f5fa8', 2: '#7ba7d4',   # 5 sectarian & encyclopedic · 6 ŚiP · 7 Bhāgavata ·
+    3: '#1a7a3a', 4: '#7a4ba8',   # 8 BhP+comm · 9 Śāstra
+    5: '#e08a1e', 6: '#c23b3b', 7: '#e0bf1e', 8: '#7f7f7f', 9: '#3bbfbf',
 }
 GROUP_ORDER = list(PALETTE)
 
@@ -113,9 +114,10 @@ def hero_layout():
     D = distance_matrix(X, Z, 'delta')
     Y = cmdscale(D)
     epic = np.array([strata[n] == 1 for n in names])
+    bhag = np.array([strata[n] == 7 for n in names])   # Bhāgavata (was 8)
     if Y[epic, 0].mean() > Y[~epic, 0].mean():
         Y[:, 0] = -Y[:, 0]
-    if Y[epic, 1].mean() > 0:
+    if Y[bhag, 1].mean() > 0:      # Bhāgavata low: stable anchor for vertical
         Y[:, 1] = -Y[:, 1]
     return names, Y, D
 

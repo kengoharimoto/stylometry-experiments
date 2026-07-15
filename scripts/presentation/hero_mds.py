@@ -40,7 +40,7 @@ ap.add_argument('--metric', default='delta',
 ap.add_argument('--mfw', type=int, default=None,
                 help='default: 80 for words, 5000 for char 3-grams')
 ap.add_argument('--highlight', default=None,
-                choices=['epic', 'oldcore', 'late', 'sip', 'bhp'],
+                choices=['epic', 'oldcore', 'oldsp', 'late', 'sip', 'bhp'],
                 help='fade all strata except the named zone (Act 3 tour slides)')
 ap.add_argument('--compare-metrics', action='store_true',
                 help='report each metric\'s distance-matrix correlation with '
@@ -55,8 +55,8 @@ RESULTS = sorted(ROOT.glob('results_epic_puranas_unsandhied_W1_50-80_*/' if W1 e
 tag = f"{'W1' if W1 else 'C3'}_{args.metric}"
 OUT = FIGDIR / (f'hero_W1_delta_MDS' if (W1 and args.metric == 'delta')
                 else f'companion_{tag}_MDS')
-HIGHLIGHT_STRATA = {'epic': {1, 2}, 'oldcore': {3}, 'late': {6},
-                    'sip': {7}, 'bhp': {8, 9}}
+HIGHLIGHT_STRATA = {'epic': {1, 2}, 'oldcore': {3}, 'oldsp': {4}, 'late': {5},
+                    'sip': {6}, 'bhp': {7, 8}}
 hl = HIGHLIGHT_STRATA.get(args.highlight)
 if hl:
     OUT = OUT.with_name(f'{OUT.name}_hl-{args.highlight}')
@@ -70,9 +70,10 @@ with open(STRATA, encoding='utf-8') as f:
         labels_map[row['text']] = row['label']
         notes[row['text']] = row.get('note', '') or ''
 
-PALETTE = {
-    1: '#1f5fa8', 2: '#7ba7d4', 3: '#1a7a3a', 4: '#8fbf3f', 5: '#7a4ba8',
-    6: '#e08a1e', 7: '#c23b3b', 8: '#e0bf1e', 9: '#7f7f7f', 10: '#3bbfbf',
+PALETTE = {                       # 1 MBh · 2 Rām · 3 old core · 4 old SP ·
+    1: '#1f5fa8', 2: '#7ba7d4',   # 5 sectarian & encyclopedic · 6 ŚiP · 7 Bhāgavata ·
+    3: '#1a7a3a', 4: '#7a4ba8',   # 8 BhP+comm · 9 Śāstra
+    5: '#e08a1e', 6: '#c23b3b', 7: '#e0bf1e', 8: '#7f7f7f', 9: '#3bbfbf',
 }
 GROUP_ORDER = list(PALETTE)
 
@@ -171,11 +172,14 @@ Y = V[:, idx] * np.sqrt(np.maximum(w[idx], 0))
 print(f'variance in 2D: {w[idx].sum() / w[w > 0].sum():.1%}')
 
 if W1 and args.metric == 'delta':
-    # hero: orient by convention (epics left and low)
+    # hero: orient by convention — epics left (horizontal), Bhāgavata low
+    # (vertical). Vertical is anchored on the Bhāgavata (stratum 8) rather than
+    # the epics so it stays stable regardless of how the epic strata are coded.
     epic = np.array([strata[n] == 1 for n in names])
+    bhag = np.array([strata[n] == 7 for n in names])   # Bhāgavata (was 8)
     if Y[epic, 0].mean() > Y[~epic, 0].mean():
         Y[:, 0] = -Y[:, 0]
-    if Y[epic, 1].mean() > 0:
+    if Y[bhag, 1].mean() > 0:
         Y[:, 1] = -Y[:, 1]
 else:
     # companions: rotate/reflect onto the hero layout (MDS orientation is
@@ -199,9 +203,10 @@ else:
     Yref = Vr[:, ir] * np.sqrt(np.maximum(wr[ir], 0))
     Yref = Yref[[ref_names.index(n) for n in names]]
     epic = np.array([strata[n] == 1 for n in names])
+    bhag = np.array([strata[n] == 7 for n in names])   # Bhāgavata (was 8)
     if Yref[epic, 0].mean() > Yref[~epic, 0].mean():
         Yref[:, 0] = -Yref[:, 0]
-    if Yref[epic, 1].mean() > 0:
+    if Yref[bhag, 1].mean() > 0:
         Yref[:, 1] = -Yref[:, 1]
     A = Yref - Yref.mean(0)
     Bm = Y - Y.mean(0)

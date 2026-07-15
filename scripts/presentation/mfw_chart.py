@@ -30,7 +30,7 @@ for p in sorted(corpus.glob('*.txt')):
 top20 = raw.most_common(20)
 
 EXAMPLES = ['tu', 'eva', 'tathā', 'vai']         # strong stratum contrasts
-GROUPS = [1, 3, 8]                               # epic core, old pur. core, BhP
+GROUPS = [1, 3, 7]                               # Mahābhārata, old pur. core, BhP
 GROUP_LABEL = {s: labels_map[next(n for n in names if strata[n] == s)]
                for s in GROUPS}
 

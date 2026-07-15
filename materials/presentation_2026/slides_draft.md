@@ -93,8 +93,8 @@ the robustness case, then honest caveats.
 
 **Cue:** left: the features are *ca, tu, eva, na, sa, tathā…* — grammatical
 glue, not content. Nobody composes with their rate of *tu* in mind. Right: the
-old purāṇic core uses *tu, eva, tathā, vai* two to four times as often as the
-epic core; the Bhāgavata suppresses all four. These boring words carry the
+old purāṇic core uses *tu, eva, tathā, vai* about 1.5–3× as often as the
+Mahābhārata; the Bhāgavata suppresses all four. These boring words carry the
 signal.
 
 ### Slide 7 · From counts to distances
@@ -150,9 +150,9 @@ mean nothing by themselves; only *nearness* does.
 
 ---
 
-## Act 3 — Reading the map (slides 10–14, ~7–8 min)
+## Act 3 — Reading the map (slides 10–15, ~8–9 min)
 
-*(Slides 10–14 reuse the hero figure with the relevant zone highlighted /
+*(Slides 10–15 reuse the hero figure with the relevant zone highlighted /
 zoomed; highlight variants to be generated at assembly time.)*
 
 ### Slide 10 · The epic zone
@@ -173,7 +173,7 @@ didactic parvans late and the frame kāṇḍas apart from the core. (Precision 
 Q&A: Bāla↔Uttara is mutual in the word lens; in the 3-gram lens Bāla's NN is
 Uttara, Uttara's is MBh 3.)
 
-### Slide 11 · The old purāṇic core
+### Slide 11 · The old purāṇic core?
 
 **On slide:**
 
@@ -186,19 +186,44 @@ Uttara, Uttara's is MBh 3.)
 counting confirms it without being told. The Vāyu∩Brahmāṇḍa common-material
 extract (V×B on the map) sits closest of all to both.
 
-### Slide 12 · The late sectarian–encyclopedic zone
+### Slide 12 · The old Skandapurāṇa: mostly old but Pāśupata yoga added later
+
+**On slide:** figure `hero_W1_delta_MDS_hl-oldsp` (old SP highlighted).
+
+> - the **old Skandapurāṇa** (Nepal/Bengal recension, oldest MS 811 CE) sits
+>   **between the epics and the old purāṇic core** (axis-1 ≈ −0.3)
+> - word lens: its nearest neighbours are **MBh 1, MBh 10 and Rām 6** — it keeps
+>   epic diction
+> - but its **Pāśupata section (SP2) jumps far right** (axis-1 ≈ +0.47), out
+>   among the sectarian digests
+
+**Cue:** a single work, stratified in front of the audience. The narrative body
+is a genuine bridge between epic and purāṇa (in the 3-gram lens it shifts toward
+Matsya/Brahma, the old core); the Pāśupata doctrinal chapters land at the far
+right with the Śivapurāṇa (Umā, Sanatkumāra) as their word-lens neighbours — a
+sectarian register inside an early text. Caveat for Q&A: SP2 is a short excerpt,
+so its exact position is soft, but the direction of the jump is unmistakable.
+
+**Live cue:** mention the forthcoming edition of the Pāśupata-yoga chapters —
+the lenses flag exactly what its editors suspected.
+
+### Slide 13 · The sectarian & encyclopedic mass
 
 **On slide:**
 
-> - **Agni · Garuḍa · Nārada**: the digest purāṇas cluster on the far right
-> - late māhātmyas and khaṇḍas (Kāśī, Revā, Himavat) join them
-> - the zone is **crowded and internally blurry** — exactly what compilation
->   literature should look like
+> - one broad, continuous stratum — **no clean line** between "middle" and "late"
+> - **Agni · Garuḍa · Nārada**: the encyclopedic digests, crowded on the far right
+> - internally **blurry** — exactly what compilation literature should look like
 
-**Cue:** these texts quote everything and everyone; their "style" is the style
-of the digest.
+**Cue:** folded into one group on purpose. On the map the old boundary between
+"middle purāṇic" and "late sectarian/encyclopedic" does not survive — the two
+overlap heavily on axis 1 (medians +0.05 vs +0.21, ranges swamping the gap) and
+the split rested on external dating and genre, not on the counts. The stratum
+shades from texts still close to the old core (Kūrma, Liṅga, Viṣṇudharmottara)
+out to the self-quoting digests at the right, where the style is simply the
+style of the digest.
 
-### Slide 13 · A purāṇa that refuses to unify
+### Slide 14 · A purāṇa that refuses to unify
 
 **On slide:**
 
@@ -213,7 +238,7 @@ of the digest.
 **Cue:** the compilation model of the ŚiP, confirmed from word counts alone;
 contrast set up deliberately.
 
-### Slide 14 · The Bhāgavata
+### Slide 15 · The Bhāgavata
 
 **On slide:**
 
@@ -231,9 +256,9 @@ everything, not *early*.
 
 ---
 
-## Act 4 — Why believe the axis? (slides 15–17, ~5 min)
+## Act 4 — Why believe the axis? (slides 16–18, ~5 min)
 
-### Slide 15 · The same map from six different measurements
+### Slide 16 · The same map from six different measurements
 
 **Figure:** `robustness_grid` (full slide).
 
@@ -244,7 +269,7 @@ three distance metrics each — six independent analysis pipelines, one geometry
 Layout agreement with the opening map: 0.95–0.96 (words), 0.82–0.89 (3-grams).
 The epic→purāṇic axis survives every change of lens.
 
-### Slide 16 · The convergence argument
+### Slide 17 · The convergence argument
 
 **On slide:**
 
@@ -261,7 +286,7 @@ The epic→purāṇic axis survives every change of lens.
 
 **Cue:** this is the abstract's core argument; deliver slowly.
 
-### Slide 17 · What the second axis is *not*
+### Slide 18 · What the second axis is *not*
 
 **On slide:**
 
@@ -278,9 +303,9 @@ The Bhāgavata's vertical displacement is the clearest case.
 
 ---
 
-## Act 5 — Caveats and implications (slides 18–20, ~3–4 min)
+## Act 5 — Caveats and implications (slides 19–21, ~3–4 min)
 
-### Slide 18 · What the axis is made of
+### Slide 19 · What the axis is made of
 
 **On slide:**
 
@@ -295,7 +320,7 @@ The Bhāgavata's vertical displacement is the clearest case.
 **Cue:** drift, metre, borrowing and genre are entangled *in the texts
 themselves*; the axis is real but not purely temporal.
 
-### Slide 19 · What this is — and is not
+### Slide 20 · What this is — and is not
 
 **On slide:**
 
@@ -308,7 +333,7 @@ themselves*; the axis is real but not purely temporal.
 **Cue:** position the method modestly; invite collaboration on specific
 text-historical problems.
 
-### Slide 20 · Closing
+### Slide 21 · Closing
 
 **Figure:** `hero_W1_delta_MDS` again (full slide).
 
@@ -335,7 +360,7 @@ questions.
 
 ### B2 · The full corpus with strata
 
-**On slide:** the 101-text table from `chronology_strata.tsv`, 10 strata,
+**On slide:** the 101-text table from `chronology_strata.tsv`, 9 strata,
 two columns. *(Rendered at assembly time; likely two slides.)*
 
 ### B3 · The length caveat
@@ -372,7 +397,7 @@ leaves colored by stratum. 27 branches survive the ≥ 50% cut, mean support
 0.76.
 
 **Cue:** for anyone who wants a stemma-shaped answer. The tree recovers the
-same groups as the map — the epic core, Vāyu–Brahmāṇḍa with the old purāṇic
+same groups as the map — the epics, Vāyu–Brahmāṇḍa with the old purāṇic
 core, the Bhāgavata, the Śivapurāṇa — so the grouping is not an artefact of
 the MDS projection. But a tree asserts descent and nesting, and these texts
 drift into one another rather than branching cleanly; the gradual transitions
@@ -389,7 +414,7 @@ That is why the talk is built on the map. *(Built by
 |---|---|---|
 | 1 The picture | 1–4 | 3–4 |
 | 2 How it was made | 5–9 | 6–7 |
-| 3 Reading the map | 10–14 | 7–8 |
-| 4 Robustness | 15–17 | 5 |
-| 5 Caveats & close | 18–20 | 3–4 |
-| **total** | **20** | **~25 + 5 Q&A** |
+| 3 Reading the map | 10–15 | 8–9 |
+| 4 Robustness | 16–18 | 5 |
+| 5 Caveats & close | 19–21 | 3–4 |
+| **total** | **21** | **~26 + 5 Q&A** |

@@ -207,8 +207,9 @@ fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
 fullFigure(pres.addSlide(), "mfw_habits",
   "Left: the features are ca, tu, eva, na, sa, tathā — grammatical glue, not " +
   "content. Nobody composes with their rate of 'tu' in mind. Right: the old " +
-  "purāṇic core uses tu/eva/tathā/vai 2–4× as often as the epic core; the " +
-  "Bhāgavata suppresses all four. These boring words carry the signal.");
+  "purāṇic core uses tu/eva/tathā/vai about 1.5–3× as often as the " +
+  "Mahābhārata; the Bhāgavata suppresses all four. These boring words carry " +
+  "the signal.");
 
 // 7 · From counts to distances
 {
@@ -285,15 +286,18 @@ fullFigure(pres.addSlide(), "mds_explainer",
 tourSlide("Reading the map · 1", "The epic zone", "hero_W1_delta_MDS_hl-epic", [
   bullet("battle books MBh 6–9 tight; Droṇa ↔ Karṇa the tightest pair (0.28 ≈ ¼ of typical)"),
   bullet("MBh 12–13: mutual nearest neighbours — drifted toward purāṇa-space"),
-  bullet("Rām 2–6 hold together; Bāla’s nearest neighbour is the Uttara"),
-  plain("Higher criticism, recovered blind.", { italic: true, color: MUTED, breakLine: false }),
+  bullet("Rām 2–6 hold together; Bāla ↔ Uttara are each other’s nearest neighbour"),
+  plain("Structure recovered blind — without assuming any of it.", { italic: true, color: MUTED, breakLine: false }),
 ],
-  "The machine has read no Hopkins and no Brockington, yet finds the didactic " +
-  "parvans late and the frame kāṇḍas apart from the core. Precision for Q&A: " +
-  "Bāla↔Uttara mutual in the word lens; in the 3-gram lens Bāla's NN is " +
-  "Uttara, Uttara's is MBh 3.");
+  "The machine has read no Hopkins and no Brockington, yet the battle books " +
+  "cluster, the didactic parvans MBh 12–13 drift toward purāṇa-space, and the " +
+  "two framing khaṇḍas resemble each other. Note (no chronology assumed): " +
+  "coloring is by text — Mahābhārata vs Rāmāyaṇa — not by supposed date; the " +
+  "closing parvans’ extreme position is a finding, not an input. Precision " +
+  "for Q&A: Bāla↔Uttara mutual in the word lens; in the 3-gram lens both are " +
+  "nearest to MBh 3.");
 
-tourSlide("Reading the map · 2", "The old purāṇic core", "hero_W1_delta_MDS_hl-oldcore", [
+tourSlide("Reading the map · 2", "The old purāṇic core?", "hero_W1_delta_MDS_hl-oldcore", [
   bullet("Vāyu ↔ Brahmāṇḍa: 0.29 — Kirfel’s Vāyuproktaṃ Purāṇam, as a number"),
   bullet("Viṣṇu ↔ Mārkaṇḍeya: mutual nearest neighbours, in both lenses"),
   bullet("Matsya’s cosmogonic chapters sit with them", { breakLine: false }),
@@ -302,15 +306,34 @@ tourSlide("Reading the map · 2", "The old purāṇic core", "hero_W1_delta_MDS_
   "it without being told. The Vāyu∩Brahmāṇḍa common-material extract (V×B) " +
   "sits closest of all to both.");
 
-tourSlide("Reading the map · 3", "The late sectarian–encyclopedic zone", "hero_W1_delta_MDS_hl-late", [
-  bullet("Agni · Garuḍa · Nārada: the digest purāṇas, far right"),
-  bullet("late māhātmyas and khaṇḍas (Kāśī, Revā, Himavat) join them"),
-  bullet("crowded and internally blurry — exactly what compilation literature should look like", { breakLine: false }),
+tourSlide("Reading the map · 3", "The old Skandapurāṇa: mostly old but Pāśupata yoga added later", "hero_W1_delta_MDS_hl-oldsp", [
+  bullet("the old SP (Nepal/Bengal recension, oldest MS 811 CE) sits between the epics and the old purāṇic core"),
+  bullet("word lens: its nearest neighbours are MBh 1, MBh 10 and Rām 6 — it keeps epic diction"),
+  bullet("but its Pāśupata section jumps far right, out among the sectarian digests", { breakLine: false }),
 ],
-  "These texts quote everything and everyone; their 'style' is the style of " +
-  "the digest.");
+  "A single work, stratified in front of you: the narrative body reads as a " +
+  "bridge between epic and purāṇa (in the 3-gram lens it shifts toward " +
+  "Matsya/Brahma, the old core), while the Pāśupata doctrinal chapters (SP2) " +
+  "land at the far right with the Śivapurāṇa (Umā, Sanatkumāra) as their " +
+  "word-lens neighbours. Caveat for Q&A: SP2 is a short excerpt, so its exact " +
+  "spot is soft — but the direction of the jump is unmistakable. LIVE: mention " +
+  "the forthcoming edition of the Pāśupata-yoga chapters — the lenses flag " +
+  "exactly what its editors suspected.");
 
-tourSlide("Reading the map · 4", "A purāṇa that refuses to unify", "hero_W1_delta_MDS_hl-sip", [
+tourSlide("Reading the map · 4", "The sectarian & encyclopedic mass", "hero_W1_delta_MDS_hl-late", [
+  bullet("one broad, continuous stratum — no clean line between “middle” and “late”"),
+  bullet("Agni · Garuḍa · Nārada: the encyclopedic digests, crowded on the far right"),
+  bullet("internally blurry — exactly what compilation literature should look like", { breakLine: false }),
+],
+  "Folded into one group on purpose: on the map the old boundary between " +
+  "‘middle purāṇic’ and ‘late sectarian/encyclopedic’ does not survive — the " +
+  "two overlap heavily on axis 1 (medians +0.05 vs +0.21, ranges swamping the " +
+  "gap) and the split rested on external dating and genre, not on the counts. " +
+  "The stratum shades from texts still close to the old core (Kūrma, Liṅga, " +
+  "Viṣṇudharmottara) out to the self-quoting digests at the right, where its " +
+  "style is simply the style of the digest.");
+
+tourSlide("Reading the map · 5", "A purāṇa that refuses to unify", "hero_W1_delta_MDS_hl-sip", [
   bullet("the Śivapurāṇa’s saṃhitās scatter across the late zone"),
   bullet("internal nearest neighbours: only 3 of 8 (words), 4 of 8 (3-grams)"),
   plain("Cohesion is measurable — compare the next slide.", { italic: true, color: MUTED, breakLine: false }),
@@ -318,7 +341,7 @@ tourSlide("Reading the map · 4", "A purāṇa that refuses to unify", "hero_W1_
   "The compilation model of the ŚiP, confirmed from word counts alone; " +
   "contrast set up deliberately.");
 
-tourSlide("Reading the map · 5", "The Bhāgavata", "hero_W1_delta_MDS_hl-bhp", [
+tourSlide("Reading the map · 6", "The Bhāgavata", "hero_W1_delta_MDS_hl-bhp", [
   bullet("all twelve skandhas’ nearest neighbours are internal — in both lenses"),
   bullet("a single stylistic island, despite deliberately archaizing Sanskrit"),
   plain("Archaism is a costume; habit is a fingerprint.", { italic: true, color: MUTED, breakLine: false }),
@@ -405,14 +428,20 @@ fullFigure(pres.addSlide(), "robustness_grid",
     ["genre", "narrative vs. didactic vs. digest"],
   ];
   rows.forEach(([a, b], i) => {
-    const y = 2.6 + i * 1.25;
+    const y = 2.5 + i * 1.15;
     s.addText(a, { x: 1.0, y, w: 2.3, h: 1.0, fontFace: HEAD, fontSize: 21,
       bold: true, color: BLUE, margin: 0 });
     s.addText(b, { x: 3.6, y, w: 8.9, h: 1.0, fontFace: BODY, fontSize: 17,
       color: INK, margin: 0 });
   });
+  s.addText("So the epic pole marks low expository overlay, which tracks — but " +
+    "is not — early date: late-but-unexpanded books (MBh 16–18) land there too.", {
+    x: 1.0, y: 6.15, w: 11.5, h: 0.9, fontFace: BODY, fontSize: 16, italic: true,
+    color: MUTED, margin: 0 });
   s.addNotes("Drift, metre, borrowing and genre are entangled in the texts " +
-    "themselves; the axis is real but not purely temporal.");
+    "themselves; the axis is real but not purely temporal. The closing parvans " +
+    "(backup) are the sharp case: at 1–3k words their individual positions are " +
+    "unreliable, but merged they stay at the pole — register, not length.");
 }
 
 // 19 · What this is — and is not
@@ -567,6 +596,26 @@ fullFigure(pres.addSlide(), "consensus_tree",
   "Bhāgavata, the Śivapurāṇa. But a tree asserts descent and nesting, and " +
   "our texts drift into one another instead of branching cleanly — which " +
   "is why the talk is built on the map, not on this.");
+
+// B6 · Closing parvans / length control
+fullFigure(pres.addSlide(), "closing_parvans_length",
+  "The sharp question a specialist will ask: the closing parvans MBh 16–18 " +
+  "sit at the extreme epic pole, ‘earlier’ than the battle books — surely " +
+  "that is just their tiny length? Answer in two moves. (1) It is partly a " +
+  "length effect: drawing random contiguous windows of securely-placed texts " +
+  "(MBh 3/7/12, Vāyu, Agni) and running them through the identical pipeline, " +
+  "at 1–2k words — the size of MBh 16–18 — the 3-gram lens drifts leftward " +
+  "and the word lens scatters so wide that single short windows reach the " +
+  "pole. So the individual positions of MBh 16/17/18 are unreliable; do not " +
+  "build anything on them alone (they carry the small-dot / length flag). " +
+  "(2) But it is not only length: concatenate 15+16+17+18 into one ~17k-word " +
+  "unit and it stays at the pole, not out by MBh 11/14. The group position " +
+  "is real. What it measures is register — narrative-pure text with little of " +
+  "the expository-particle overlay (tu/eva/tathā/vai) that swelled MBh 12–14 " +
+  "— i.e. late as books, redactionally thin as text, not early. This " +
+  "reconciles the stylometry with the received ‘late epilogue’ verdict " +
+  "(Brockington 1998) rather than contradicting it. Full diagnostics: " +
+  "notes/2026-07-15_closing_parvans_length_diagnostics.md.");
 
 const OUT = path.join(MAT, "chronology_stratification.pptx");
 pres.writeFile({ fileName: OUT }).then(() => console.log("wrote", OUT));

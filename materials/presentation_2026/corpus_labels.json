@@ -2,175 +2,175 @@
  {
   "text": "mahabharata_01-adiparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh1",
   "display": "MBh 1"
  },
  {
   "text": "mahabharata_02-sabhaparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh2",
   "display": "MBh 2"
  },
  {
   "text": "mahabharata_03-aranyakaparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh3",
   "display": "MBh 3"
  },
  {
   "text": "mahabharata_04-virataparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh4",
   "display": "MBh 4"
  },
  {
   "text": "mahabharata_05-udyogaparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh5",
   "display": "MBh 5"
  },
  {
   "text": "mahabharata_06-bhismaparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh6",
   "display": "MBh 6"
  },
  {
   "text": "mahabharata_07-dronaparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh7",
   "display": "MBh 7"
  },
  {
   "text": "mahabharata_08-karnaparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh8",
   "display": "MBh 8"
  },
  {
   "text": "mahabharata_09-salyaparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh9",
   "display": "MBh 9"
  },
  {
   "text": "mahabharata_10-sauptikaparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh10",
   "display": "MBh 10"
  },
  {
   "text": "mahabharata_11-striparvan",
   "stratum": 1,
-  "label": "epic core",
+  "label": "Mahābhārata",
   "code": "MBh11",
   "display": "MBh 11"
  },
  {
   "text": "ramayana_02-ayodhyakanda_a",
-  "stratum": 1,
-  "label": "epic core",
+  "stratum": 2,
+  "label": "Rāmāyaṇa",
   "code": "R2",
   "display": "Rām 2"
  },
  {
   "text": "ramayana_03-aranyakanda_a",
-  "stratum": 1,
-  "label": "epic core",
+  "stratum": 2,
+  "label": "Rāmāyaṇa",
   "code": "R3",
   "display": "Rām 3"
  },
  {
   "text": "ramayana_04-kiskindhakanda",
-  "stratum": 1,
-  "label": "epic core",
+  "stratum": 2,
+  "label": "Rāmāyaṇa",
   "code": "R4",
   "display": "Rām 4"
  },
  {
   "text": "ramayana_05-sundarakanda",
-  "stratum": 1,
-  "label": "epic core",
+  "stratum": 2,
+  "label": "Rāmāyaṇa",
   "code": "R5",
   "display": "Rām 5"
  },
  {
   "text": "ramayana_06-yuddhakanda",
-  "stratum": 1,
-  "label": "epic core",
+  "stratum": 2,
+  "label": "Rāmāyaṇa",
   "code": "R6",
   "display": "Rām 6"
  },
  {
   "text": "mahabharata_12-santiparvan",
-  "stratum": 2,
-  "label": "late epic",
+  "stratum": 1,
+  "label": "Mahābhārata",
   "code": "MBh12",
   "display": "MBh 12"
  },
  {
   "text": "mahabharata_13-anusasanaparvan",
-  "stratum": 2,
-  "label": "late epic",
+  "stratum": 1,
+  "label": "Mahābhārata",
   "code": "MBh13",
   "display": "MBh 13"
  },
  {
   "text": "mahabharata_14-asvamedhikaparvan",
-  "stratum": 2,
-  "label": "late epic",
+  "stratum": 1,
+  "label": "Mahābhārata",
   "code": "MBh14",
   "display": "MBh 14"
  },
  {
   "text": "mahabharata_15-asramavasikaparvan",
-  "stratum": 2,
-  "label": "late epic",
+  "stratum": 1,
+  "label": "Mahābhārata",
   "code": "MBh15",
   "display": "MBh 15"
  },
  {
   "text": "mahabharata_16-mausalaparvan",
-  "stratum": 2,
-  "label": "late epic",
+  "stratum": 1,
+  "label": "Mahābhārata",
   "code": "MBh16",
   "display": "MBh 16"
  },
  {
   "text": "mahabharata_17-mahaprasthanikaparvan",
-  "stratum": 2,
-  "label": "late epic",
+  "stratum": 1,
+  "label": "Mahābhārata",
   "code": "MBh17",
   "display": "MBh 17"
  },
  {
   "text": "mahabharata_18-svargarohanaparvan",
-  "stratum": 2,
-  "label": "late epic",
+  "stratum": 1,
+  "label": "Mahābhārata",
   "code": "MBh18",
   "display": "MBh 18"
  },
  {
   "text": "ramayana_01-balakanda",
   "stratum": 2,
-  "label": "late epic",
+  "label": "Rāmāyaṇa",
   "code": "R1",
   "display": "Rām 1"
  },
  {
   "text": "ramayana_07-uttarakanda",
   "stratum": 2,
-  "label": "late epic",
+  "label": "Rāmāyaṇa",
   "code": "R7",
   "display": "Rām 7"
  },
@@ -316,392 +316,392 @@
  },
  {
   "text": "brahmapurana_pu",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Br",
   "display": "Brahma"
  },
  {
   "text": "devipurana",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Dv",
   "display": "Devī"
  },
  {
   "text": "kurmapurana_khanda-1_u",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "K1",
   "display": "Kūrma 1"
  },
  {
   "text": "kurmapurana_khanda-2_u",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "K2",
   "display": "Kūrma 2"
  },
  {
   "text": "lingapurana_khanda-1_u",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "L1",
   "display": "Liṅga 1"
  },
  {
   "text": "lingapurana_khanda-2_u",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "L2",
   "display": "Liṅga 2"
  },
  {
   "text": "nilamatapurana_au",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Nī",
   "display": "Nīlamata"
  },
  {
   "text": "nrsimhapurana_pu",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Nṛ",
   "display": "Nṛsiṃha"
  },
  {
   "text": "vamanapurana_saromahatmya_u",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Sr",
   "display": "Saromāhātmya"
  },
  {
   "text": "vamanapurana_u",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Vm",
   "display": "Vāmana"
  },
  {
   "text": "visnudharma_pu",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Vd",
   "display": "Viṣṇudharma"
  },
  {
   "text": "visnudharmottarapurana_khanda-3_adhyaya-343-353_pu",
-  "stratum": 4,
-  "label": "middle purāṇic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Vt",
   "display": "ViDhUt (exc.)"
  },
  {
   "text": "skandapurana",
-  "stratum": 5,
+  "stratum": 4,
   "label": "old Skandapurāṇa",
   "code": "SP",
   "display": "SP (old)"
  },
  {
   "text": "skandapurana_adhyaya-1-31_pu",
-  "stratum": 5,
+  "stratum": 4,
   "label": "old Skandapurāṇa",
   "code": "SP1",
   "display": "SP (old) 1–31"
  },
  {
   "text": "skandapurana_pasupata_adhyaya174-183_u",
-  "stratum": 5,
+  "stratum": 4,
   "label": "old Skandapurāṇa",
   "code": "SP2",
   "display": "SP (old) Pāśupata"
  },
  {
   "text": "agnipurana_u",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "A",
   "display": "Agni"
  },
  {
   "text": "bhavisyapurana",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Bhv",
   "display": "Bhaviṣya"
  },
  {
   "text": "bhavisyapurana_brahmaparvan_adhyaya-5",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Bhv5",
   "display": "Bhaviṣya (adh. 5)"
  },
  {
   "text": "devibhagavatapurana",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "DB",
   "display": "DevīBhP"
  },
  {
   "text": "devibhagavatapurana_u",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "DBu",
   "display": "DevīBhP (u)"
  },
  {
   "text": "garudapurana_khanda-1_u",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "G1",
   "display": "Garuḍa 1"
  },
  {
   "text": "garudapurana_khanda-2_u",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "G2",
   "display": "Garuḍa 2"
  },
  {
   "text": "garudapurana_khanda-3_u",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "G3",
   "display": "Garuḍa 3"
  },
  {
   "text": "kalikapurana",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Kā",
   "display": "Kālikā"
  },
  {
   "text": "karatoyamahatmya_pu",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Kt",
   "display": "Karatoyā"
  },
  {
   "text": "naradapurana_khanda-1_u",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "N1",
   "display": "Nārada 1"
  },
  {
   "text": "naradapurana_khanda-2_u",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "N2",
   "display": "Nārada 2"
  },
  {
   "text": "padmapurana_a",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Pd",
   "display": "Padma"
  },
  {
   "text": "pranavakalpa",
-  "stratum": 10,
+  "stratum": 9,
   "label": "Śāstra",
   "code": "Pk",
   "display": "Praṇavakalpa"
  },
  {
   "text": "saurapurana",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Sau",
   "display": "Saura"
  },
  {
   "text": "skandamahpurana_kasikhanda",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Kś",
   "display": "Kāśīkh. (SkMP)"
  },
  {
   "text": "skandapurana_himavatkhanda_au",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Hm",
   "display": "Himavatkh. (SkMP)"
  },
  {
   "text": "skandapurana_revakhanda",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Rv",
   "display": "Revākh. (SkMP)"
  },
  {
   "text": "sutasamhita_khanda-4_iast",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "Sū",
   "display": "Sūtasaṃhitā 4"
  },
  {
   "text": "vayupurana_revakhanda",
-  "stratum": 6,
-  "label": "late sectarian/encyclopedic",
+  "stratum": 5,
+  "label": "sectarian & encyclopedic",
   "code": "RvV",
   "display": "Revākh. (Vāyu)"
  },
  {
   "text": "sivapurana_dharmasamhita",
-  "stratum": 7,
+  "stratum": 6,
   "label": "Śivapurāṇa",
   "code": "Dh",
   "display": "ŚiP Dharma"
  },
  {
   "text": "sivapurana_karvanamahatmya_au",
-  "stratum": 7,
+  "stratum": 6,
   "label": "Śivapurāṇa",
   "code": "Kv",
   "display": "ŚiP Kārvaṇa māh."
  },
  {
   "text": "sivapurana_rudrasamhita",
-  "stratum": 7,
+  "stratum": 6,
   "label": "Śivapurāṇa",
   "code": "Ru",
   "display": "ŚiP Rudra"
  },
  {
   "text": "sivapurana_sanatkumarasamhita",
-  "stratum": 7,
+  "stratum": 6,
   "label": "Śivapurāṇa",
   "code": "Sn",
   "display": "ŚiP Sanatkumāra"
  },
  {
   "text": "sivapurana_satarudrasamhita_au",
-  "stratum": 7,
+  "stratum": 6,
   "label": "Śivapurāṇa",
   "code": "Śt",
   "display": "ŚiP Śatarudra"
  },
  {
   "text": "sivapurana_umasamhita",
-  "stratum": 7,
+  "stratum": 6,
   "label": "Śivapurāṇa",
   "code": "U",
   "display": "ŚiP Umā"
  },
  {
   "text": "sivapurana_vayaviyasamhita_au",
-  "stratum": 7,
+  "stratum": 6,
   "label": "Śivapurāṇa",
   "code": "Vā",
   "display": "ŚiP Vāyavīya"
  },
  {
   "text": "sivapurana_vidyesvarasamhita_au",
-  "stratum": 7,
+  "stratum": 6,
   "label": "Śivapurāṇa",
   "code": "Vy",
   "display": "ŚiP Vidyeśvara"
  },
  {
   "text": "bhagavatapurana_skandha-01_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh1",
   "display": "BhP 1"
  },
  {
   "text": "bhagavatapurana_skandha-02_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh2",
   "display": "BhP 2"
  },
  {
   "text": "bhagavatapurana_skandha-03_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh3",
   "display": "BhP 3"
  },
  {
   "text": "bhagavatapurana_skandha-04_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh4",
   "display": "BhP 4"
  },
  {
   "text": "bhagavatapurana_skandha-05_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh5",
   "display": "BhP 5"
  },
  {
   "text": "bhagavatapurana_skandha-06_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh6",
   "display": "BhP 6"
  },
  {
   "text": "bhagavatapurana_skandha-07_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh7",
   "display": "BhP 7"
  },
  {
   "text": "bhagavatapurana_skandha-08_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh8",
   "display": "BhP 8"
  },
  {
   "text": "bhagavatapurana_skandha-09_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh9",
   "display": "BhP 9"
  },
  {
   "text": "bhagavatapurana_skandha-10_adhyaya-29-33_w_commentary",
-  "stratum": 9,
+  "stratum": 8,
   "label": "BhP with commentary",
   "code": "Bh10c",
   "display": "BhP 10 + comm."
  },
  {
   "text": "bhagavatapurana_skandha-10_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh10",
   "display": "BhP 10"
  },
  {
   "text": "bhagavatapurana_skandha-11_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh11",
   "display": "BhP 11"
  },
  {
   "text": "bhagavatapurana_skandha-12_u",
-  "stratum": 8,
+  "stratum": 7,
   "label": "Bhāgavata",
   "code": "Bh12",
   "display": "BhP 12"
