@@ -315,10 +315,15 @@ tourSlide("Reading the map · 3", "The old Skandapurāṇa: mostly old but Pāś
   "bridge between epic and purāṇa (in the 3-gram lens it shifts toward " +
   "Matsya/Brahma, the old core), while the Pāśupata doctrinal chapters (SP2) " +
   "land at the far right with the Śivapurāṇa (Umā, Sanatkumāra) as their " +
-  "word-lens neighbours. Caveat for Q&A: SP2 is a short excerpt, so its exact " +
-  "spot is soft — but the direction of the jump is unmistakable. LIVE: mention " +
-  "the forthcoming edition of the Pāśupata-yoga chapters — the lenses flag " +
-  "exactly what its editors suspected.");
+  "word-lens neighbours. The Vāyupurāṇa has its own Pāśupata-yoga section " +
+  "(V2 on the map) that makes the very same jump to the far right — and the " +
+  "two Pāśupata sections share virtually no text (word-trigram overlap ≈ " +
+  "0.002, no higher than with an unrelated control; longest shared run four " +
+  "words), so their convergence is doctrinal register, not borrowing. Caveat " +
+  "for Q&A: SP2 is a short excerpt, so its exact spot is soft — but the " +
+  "direction of the jump is unmistakable. LIVE: mention the forthcoming " +
+  "edition of the Pāśupata-yoga chapters — the lenses flag exactly what its " +
+  "editors suspected.");
 
 tourSlide("Reading the map · 4", "The sectarian & encyclopedic mass", "hero_W1_delta_MDS_hl-late", [
   bullet("one broad, continuous stratum — no clean line between “middle” and “late”"),

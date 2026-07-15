@@ -201,8 +201,18 @@ extract (V×B on the map) sits closest of all to both.
 is a genuine bridge between epic and purāṇa (in the 3-gram lens it shifts toward
 Matsya/Brahma, the old core); the Pāśupata doctrinal chapters land at the far
 right with the Śivapurāṇa (Umā, Sanatkumāra) as their word-lens neighbours — a
-sectarian register inside an early text. Caveat for Q&A: SP2 is a short excerpt,
-so its exact position is soft, but the direction of the jump is unmistakable.
+sectarian register inside an early text.
+
+The **Vāyupurāṇa** has its own **Pāśupata-yoga section** (V2 on the map) that
+makes the very same jump to the far right — and the two Pāśupata sections
+**share virtually no text** (word-trigram overlap ≈ 0.002, no higher than with
+an unrelated control; longest shared run four words). So the convergence is
+**doctrinal register, not borrowing** — exactly the "same school vs. same
+verses" distinction the confounds slide flags, here settled by a text-overlap
+check.
+
+Caveat for Q&A: SP2 is a short excerpt, so its exact position is soft, but the
+direction of the jump is unmistakable.
 
 **Live cue:** mention the forthcoming edition of the Pāśupata-yoga chapters —
 the lenses flag exactly what its editors suspected.
