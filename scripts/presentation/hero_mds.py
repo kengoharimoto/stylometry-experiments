@@ -60,7 +60,7 @@ ap.add_argument('--metric', default='delta',
 ap.add_argument('--mfw', type=int, default=None,
                 help='default: 80 for words, 5000 for char 3-grams')
 ap.add_argument('--highlight', default=None,
-                choices=['epic', 'oldcore', 'oldsp', 'late', 'sip', 'bhp'],
+                choices=['epic', 'oldcore', 'oldsp', 'late', 'sip', 'bhp', 'skmp'],
                 help='fade all strata except the named zone (Act 3 tour slides)')
 ap.add_argument('--compare-metrics', action='store_true',
                 help='report each metric\'s distance-matrix correlation with '
@@ -76,7 +76,7 @@ tag = f"{'W1' if W1 else 'C3'}_{args.metric}"
 OUT = FIGDIR / (f'hero_W1_delta_MDS' if (W1 and args.metric == 'delta')
                 else f'companion_{tag}_MDS')
 HIGHLIGHT_STRATA = {'epic': {1, 2}, 'oldcore': {3}, 'oldsp': {4}, 'late': {5},
-                    'sip': {6}, 'bhp': {7, 8}}
+                    'sip': {6}, 'bhp': {7, 8}, 'skmp': {10}}
 hl = HIGHLIGHT_STRATA.get(args.highlight)
 if hl:
     OUT = OUT.with_name(f'{OUT.name}_hl-{args.highlight}')
@@ -92,9 +92,10 @@ with open(STRATA, encoding='utf-8') as f:
 
 PALETTE = {                       # 1 MBh · 2 Rām · 3 old core · 4 old SP ·
     1: '#1f5fa8', 2: '#7ba7d4',   # 5 sectarian & encyclopedic · 6 ŚiP · 7 Bhāgavata ·
-    3: '#1a7a3a', 4: '#7a4ba8',   # 8 BhP+comm · 9 Śāstra
+    3: '#1a7a3a', 4: '#7a4ba8',   # 8 BhP+comm · 9 Śāstra · 10 Skāndamahāpurāṇa
     5: '#e08a1e', 6: '#c23b3b', 7: '#e0bf1e', 8: '#7f7f7f', 9: '#3bbfbf',
-}
+    10: '#6b4423',                # deliberately unlike the old-SP purple: the
+}                                 # shared name is not a shared text
 GROUP_ORDER = list(PALETTE)
 
 # ── Profiles ──────────────────────────────────────────────────────────────────
@@ -250,16 +251,15 @@ CODES = {
     'skandapurana': 'SP', 'skandapurana_adhyaya-1-31_pu': 'SP1',
     'skandapurana_pasupata_adhyaya174-183_u': 'SP2',
     'agnipurana_u': 'A', 'bhavisyapurana': 'Bhv',
-    'bhavisyapurana_brahmaparvan_adhyaya-5': 'Bhv5',
-    'devibhagavatapurana': 'DB', 'devibhagavatapurana_u': 'DBu',
+    'devibhagavatapurana': 'DB', 'devibhagavatapurana_devigita_adhyaya-31-40': 'DG',
     'garudapurana_khanda-1_u': 'G1', 'garudapurana_khanda-2_u': 'G2',
     'garudapurana_khanda-3_u': 'G3',
     'kalikapurana': 'Kā', 'karatoyamahatmya_pu': 'Kt',
     'naradapurana_khanda-1_u': 'N1', 'naradapurana_khanda-2_u': 'N2',
     'padmapurana_a': 'Pd', 'saurapurana': 'Sau',
-    'skandamahpurana_kasikhanda': 'Kś', 'skandapurana_himavatkhanda_au': 'Hm',
-    'skandapurana_revakhanda': 'Rv', 'vayupurana_revakhanda': 'RvV',
-    'sutasamhita_khanda-4_iast': 'Sū',
+    'skandamahapurana_kasikhanda': 'Kś', 'skandamahapurana_himavatkhanda': 'Hm',
+    'skandamahapurana_revakhanda': 'Rv', 'vayupurana_revakhanda': 'RvV',
+    'skandamahapurana_sutasamhita_khanda-4': 'Sū',
     'sivapurana_dharmasamhita': 'Dh', 'sivapurana_karvanamahatmya_au': 'Kv',
     'sivapurana_rudrasamhita': 'Ru', 'sivapurana_sanatkumarasamhita': 'Sn',
     'sivapurana_satarudrasamhita_au': 'Śt', 'sivapurana_umasamhita': 'U',
@@ -300,20 +300,19 @@ def display(name):
         'bhagavatapurana_skandha-10_adhyaya-29-33_w_commentary': 'BhP 10 + comm.',
         'vayu_ba': 'Vāyu×BḍP', 'vayupurana': 'Vāyu',
         'vayupurana_revakhanda': 'Revākh. (Vāyu)',
-        'skandapurana_revakhanda': 'Revākh. (SkMP)',
-        'skandamahpurana_kasikhanda': 'Kāśīkh. (SkMP)',
-        'skandapurana_himavatkhanda_au': 'Himavatkh. (SkMP)',
+        'skandamahapurana_revakhanda': 'Revākh. (SkMP)',
+        'skandamahapurana_kasikhanda': 'Kāśīkh. (SkMP)',
+        'skandamahapurana_himavatkhanda': 'Himavatkh. (SkMP)',
         'skandapurana': 'SP (old)', 'skandapurana_adhyaya-1-31_pu': 'SP (old) 1–31',
         'skandapurana_pasupata_adhyaya174-183_u': 'SP (old) Pāśupata',
         'markandeyapurana_adhyaya-1-93_u': 'Mārkaṇḍeya 1–93',
         'matsyapurana_adhyaya-1-32_pu': 'Matsya 1–32',
         'matsyapurana_adhyaya-176_pu': 'Matsya 176',
-        'bhavisyapurana_brahmaparvan_adhyaya-5': 'Bhaviṣya (adh. 5)',
-        'devibhagavatapurana_u': 'DevīBhP (u)', 'devibhagavatapurana': 'DevīBhP',
+        'devibhagavatapurana_devigita_adhyaya-31-40': 'Devīgītā (DBhP 7.31–40)', 'devibhagavatapurana': 'DevīBhP',
         'visnudharmottarapurana_khanda-3_adhyaya-343-353_pu': 'ViDhUt (exc.)',
         'visnudharma_pu': 'Viṣṇudharma',
         'vamanapurana_saromahatmya_u': 'Saromāhātmya',
-        'sutasamhita_khanda-4_iast': 'Sūtasaṃhitā 4',
+        'skandamahapurana_sutasamhita_khanda-4': 'Sūtasaṃhitā 4',
         'karatoyamahatmya_pu': 'Karatoyā', 'nilamatapurana_au': 'Nīlamata',
         'pranavakalpa': 'Praṇavakalpa',
     }
@@ -385,7 +384,7 @@ METRIC_NAMES = {'delta': 'Burrows’s Delta', 'wurzburg': 'Cosine Delta',
                 'cosine': 'cosine distance', 'euclidean': 'Euclidean distance',
                 'manhattan': 'Manhattan distance', 'canberra': 'Canberra distance',
                 'minmax': 'min-max distance'}
-ax.set_title('101 epic and purāṇic texts, arranged only by counted linguistic habits\n'
+ax.set_title('100 epic and purāṇic texts, arranged only by counted linguistic habits\n'
              f'({METRIC_NAMES[args.metric]} on {feat_desc}, {corpus_desc} text · '
              'multidimensional scaling)', fontsize=12)
 ax.set_xticks([]); ax.set_yticks([])

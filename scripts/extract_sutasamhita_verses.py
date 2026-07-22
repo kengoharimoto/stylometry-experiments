@@ -1,5 +1,5 @@
 """
-Extract verses-only from sutasamhita_khanda-4_iast.txt, dropping the
+Extract verses-only from skandamahapurana_sutasamhita_khanda-4.txt, dropping the
 Mādhavācārya commentary, OCR artifacts, page numbers, and running
 headers/footers.
 
@@ -8,14 +8,14 @@ AND its immediately-preceding non-blank line both look like verse pādas
 (short, free of commentary signals). Otherwise the `|| N ||` is the end
 of a commentary block and is skipped.
 
-Output: corpus/epic_puranas/sutasamhita_khanda-4_iast_verses.txt
+Output: corpus/epic_puranas/skandamahapurana_sutasamhita_khanda-4_verses.txt
 """
 
 import re
 from pathlib import Path
 
-SRC = Path("corpus/epic_puranas/sutasamhita_khanda-4_iast.txt")
-DST = Path("corpus/epic_puranas/sutasamhita_khanda-4_iast_verses.txt")
+SRC = Path("corpus/epic_puranas/skandamahapurana_sutasamhita_khanda-4.txt")
+DST = Path("corpus/epic_puranas/skandamahapurana_sutasamhita_khanda-4_verses.txt")
 
 VERSE_CLOSE = re.compile(r"\|\|\s*\d+\s*\|\|\s*$")
 

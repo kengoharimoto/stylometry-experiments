@@ -61,9 +61,8 @@ skandapurana_adhyaya-1-31_pu	4	old Skandapurāṇa	original SP (Nepal/Bengal rec
 skandapurana_pasupata_adhyaya174-183_u	4	old Skandapurāṇa	original SP; FLAG: short excerpt
 agnipurana_u	5	sectarian & encyclopedic	9th c.+ digest
 bhavisyapurana	5	sectarian & encyclopedic	
-bhavisyapurana_brahmaparvan_adhyaya-5	5	sectarian & encyclopedic	FLAG: tiny fragment
 devibhagavatapurana	5	sectarian & encyclopedic	
-devibhagavatapurana_u	5	sectarian & encyclopedic	FLAG: partial/different source from devibhagavatapurana?
+devibhagavatapurana_devigita_adhyaya-31-40	5	sectarian & encyclopedic	Devīgītā, DBhP 7.31-40; also inside devibhagavatapurana (different e-text, same passage: 3-gram cos 0.014)
 garudapurana_khanda-1_u	5	sectarian & encyclopedic	digest
 garudapurana_khanda-2_u	5	sectarian & encyclopedic	
 garudapurana_khanda-3_u	5	sectarian & encyclopedic	
@@ -74,11 +73,11 @@ naradapurana_khanda-2_u	5	sectarian & encyclopedic
 padmapurana_a	5	sectarian & encyclopedic	complete text, all khandas; composite compilation
 pranavakalpa	9	Śāstra	late Sastric text transmitted in the Skandamahapurana; kept to show how a Sastric text maps; FLAG: tiny
 saurapurana	5	sectarian & encyclopedic	c. 12th
-skandamahpurana_kasikhanda	5	sectarian & encyclopedic	Skandamahapurana; 13th-14th
-skandapurana_himavatkhanda_au	5	sectarian & encyclopedic	Skandamahapurana; late Nepalese khanda
-skandapurana_revakhanda	5	sectarian & encyclopedic	Skandamahapurana
-sutasamhita_khanda-4_iast	5	sectarian & encyclopedic	part of printed SkP, c. 13th
-vayupurana_revakhanda	5	sectarian & encyclopedic	double transmission of SkP Revakhanda
+skandamahapurana_kasikhanda	10	Skāndamahāpurāṇa	Skandamahapurana; 13th-14th
+skandamahapurana_himavatkhanda	10	Skāndamahāpurāṇa	Skandamahapurana; late Nepalese khanda
+skandamahapurana_revakhanda	10	Skāndamahāpurāṇa	Skandamahapurana
+skandamahapurana_sutasamhita_khanda-4	10	Skāndamahāpurāṇa	Sutasamhita, khanda 4; often ascribed to the Skandamahapurana, c. 13th
+vayupurana_revakhanda	5	sectarian & encyclopedic	a distinct Revakhanda transmitted in the Vayupurana, not the SkMP one
 sivapurana_dharmasamhita	6	Śivapurāṇa	
 sivapurana_karvanamahatmya_au	6	Śivapurāṇa	FLAG: tiny fragment
 sivapurana_rudrasamhita	6	Śivapurāṇa	

@@ -90,7 +90,7 @@ axm.set_title('the map that best honours those distances\n'
 
 fig.suptitle('From a table of distances to a map: multidimensional scaling (MDS)',
              fontsize=15, y=0.95)
-fig.text(0.5, 0.035, 'the opening map is exactly this, with the full 101 × 101 table',
+fig.text(0.5, 0.035, 'the opening map is exactly this, with the full 100 × 100 table',
          ha='center', fontsize=11.5, color='#555555', style='italic')
 
 out = fc.FIGDIR / 'mds_explainer'

@@ -434,13 +434,6 @@
   "display": "Bhaviṣya"
  },
  {
-  "text": "bhavisyapurana_brahmaparvan_adhyaya-5",
-  "stratum": 5,
-  "label": "sectarian & encyclopedic",
-  "code": "Bhv5",
-  "display": "Bhaviṣya (adh. 5)"
- },
- {
   "text": "devibhagavatapurana",
   "stratum": 5,
   "label": "sectarian & encyclopedic",
@@ -448,11 +441,11 @@
   "display": "DevīBhP"
  },
  {
-  "text": "devibhagavatapurana_u",
+  "text": "devibhagavatapurana_devigita_adhyaya-31-40",
   "stratum": 5,
   "label": "sectarian & encyclopedic",
-  "code": "DBu",
-  "display": "DevīBhP (u)"
+  "code": "DG",
+  "display": "Devīgītā (DBhP 7.31–40)"
  },
  {
   "text": "garudapurana_khanda-1_u",
@@ -525,30 +518,30 @@
   "display": "Saura"
  },
  {
-  "text": "skandamahpurana_kasikhanda",
-  "stratum": 5,
-  "label": "sectarian & encyclopedic",
+  "text": "skandamahapurana_kasikhanda",
+  "stratum": 10,
+  "label": "Skāndamahāpurāṇa",
   "code": "Kś",
   "display": "Kāśīkh. (SkMP)"
  },
  {
-  "text": "skandapurana_himavatkhanda_au",
-  "stratum": 5,
-  "label": "sectarian & encyclopedic",
+  "text": "skandamahapurana_himavatkhanda",
+  "stratum": 10,
+  "label": "Skāndamahāpurāṇa",
   "code": "Hm",
   "display": "Himavatkh. (SkMP)"
  },
  {
-  "text": "skandapurana_revakhanda",
-  "stratum": 5,
-  "label": "sectarian & encyclopedic",
+  "text": "skandamahapurana_revakhanda",
+  "stratum": 10,
+  "label": "Skāndamahāpurāṇa",
   "code": "Rv",
   "display": "Revākh. (SkMP)"
  },
  {
-  "text": "sutasamhita_khanda-4_iast",
-  "stratum": 5,
-  "label": "sectarian & encyclopedic",
+  "text": "skandamahapurana_sutasamhita_khanda-4",
+  "stratum": 10,
+  "label": "Skāndamahāpurāṇa",
   "code": "Sū",
   "display": "Sūtasaṃhitā 4"
  },
