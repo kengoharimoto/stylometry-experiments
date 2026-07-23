@@ -642,5 +642,22 @@ fullFigure(pres.addSlide(), "bhp_skandha_mfw",
   "at rates unique to it in this corpus, the Vedic particles aṅga, bata, " +
   "vāva of the Bhāgavata slide.");
 
+// B8 · Reuse overlay — is the map just a borrowing web?
+fullFigure(pres.addSlide(), "reuse_overlay_MDS",
+  "The direct answer to the borrowing confound (caveats slide): we MEASURED " +
+  "the copying, independently of style — every pair sharing ≥5% of the " +
+  "smaller text’s half-śloka lines (akṣara-stream matching, stock formulae " +
+  "excluded), drawn on the same map. The two structures do not coincide. " +
+  "Liṅga 1 ↔ Vāyu §2 share 46% of the smaller text’s lines yet stand at " +
+  "Delta 1.07 — the corpus median — and neither is the other’s nearest " +
+  "neighbour; Matsya↔Padma (37%) sit at 0.64, ŚiP Dharma↔Umā (44%) at 0.57 " +
+  "— unremarkable closeness, no mutual NNs among the heavy borrowers. " +
+  "Conversely the tightest clusters — the Bhāgavata (12/12 internal NN), " +
+  "the epics — have almost no edges at all. The one place both webs agree " +
+  "is exactly where philology expects it: Vāyu–Brahmāṇḍa, heavy sharing " +
+  "AND Delta 0.29 — the common-ancestor signature. Delta is not riding on " +
+  "shared ślokas: the map measures habit, the edges measure copying, and " +
+  "they are different facts about the corpus.");
+
 const OUT = path.join(MAT, "chronology_stratification.pptx");
 pres.writeFile({ fileName: OUT }).then(() => console.log("wrote", OUT));

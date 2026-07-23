@@ -452,7 +452,9 @@ The Bhāgavata's vertical displacement is the clearest case.
 > - **genre**: narrative vs. didactic vs. digest
 
 **Cue:** drift, metre, borrowing and genre are entangled *in the texts
-themselves*; the axis is real but not purely temporal.
+themselves*; the axis is real but not purely temporal. If the borrowing
+bullet draws a question, B8 has the measured answer: the reuse web and the
+style map are different structures.
 
 ### Slide 20 · What this is — and is not
 
@@ -591,6 +593,27 @@ is *vai*-heavy), and *eva* rises to low-normal in books 5 and 12 (8.3/7.3,
 even #3 in their own top tens). What the BhP runs on instead is visible in
 the panels: *ca, na, uvāca, śrī, bhagavān, api* — and, at rates unique to it
 in this corpus, the Vedic particles *aṅga, bata, vāva* of slide 15.
+
+### B8 · Is the map just a borrowing web?
+
+**On slide:** figure `reuse_overlay_MDS` (full slide) — every pair sharing
+≥ 5% of the smaller text's half-śloka lines (akṣara-stream matching, stock
+formulae excluded), drawn as edges on the hero map.
+
+**Cue:** the direct answer to slide 19's borrowing confound: we *measured*
+the copying, independently of style, and the two structures do not
+coincide. Both directions fail: **Liṅga 1 ↔ Vāyu §2 share 46% of the
+smaller text's lines yet stand at Delta 1.07 — the corpus median** (neither
+is the other's nearest neighbour); Matsya↔Padma at 37% sit at 0.64, ŚiP
+Dharma↔Umā at 44% sit at 0.57 — real but unremarkable closeness, and none
+of the heavy borrowers are mutual nearest neighbours. Conversely the
+tightest stylistic clusters — the Bhāgavata (12/12 internal NN), the
+epics — have almost no edges at all. Where the two webs *do* agree is
+exactly the pair where philology expects it: Vāyu–Brahmāṇḍa, heavy sharing
+*and* Delta 0.29, the common-ancestor signature. So Delta is not riding on
+shared ślokas: even massive verbatim overlap does not drag two texts
+together when their bulk habits differ. The map measures habit; the edges
+measure copying; they are different facts about the corpus.
 
 | Act | slides | minutes |
 |---|---|---|
