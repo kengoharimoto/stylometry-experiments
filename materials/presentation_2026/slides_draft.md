@@ -473,11 +473,19 @@ style map are different structures.
 
 > - Purāṇas have **no authors** → this is **stratum and textual-family
 >   detection**, not authorship attribution
-> - Stylometry offers an **independent, replicable check** on relative
->   chronology — a third witness beside content criteria and testimonia
+> - an **independent, replicable witness** beside content criteria and
+>   testimonia — and a **new perspective on old problems**
+> - the maps do not settle questions; they **point at them** — where to
+>   look, what to reopen
 > - It will not date your text; it will tell you **whose company it keeps**
 
-**Cue:** position the method modestly; invite collaboration on specific
+**Cue:** this is the point of the whole talk: the counts make us look at old
+problems from a new angle, and the charts hand scholars hints about where to
+dig. Every tour stop generated a researchable question rather than a
+verdict — what are the Bhāgavata's two layers? why do the
+Skāndamahāpurāṇa's khaṇḍas share nothing? what are the two Revākhaṇḍas to
+each other? what happened to the closing parvans — composition or
+integration? Position the method modestly; invite collaboration on specific
 text-historical problems.
 
 ### Slide 21 · Closing

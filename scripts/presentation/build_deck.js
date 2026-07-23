@@ -466,14 +466,22 @@ fullFigure(pres.addSlide(), "robustness_grid",
   s.addText([
     bullet("purāṇas have no authors  →  this is stratum and textual-family " +
       "detection, not authorship attribution"),
-    bullet("stylometry offers an independent, replicable check on relative " +
-      "chronology — a third witness beside content criteria and testimonia"),
+    bullet("an independent, replicable witness beside content criteria and " +
+      "testimonia — and a new perspective on old problems"),
+    bullet("the maps do not settle questions; they point at them — where to " +
+      "look, what to reopen"),
     bullet("it will not date your text; it will tell you whose company it keeps",
       { breakLine: false }),
   ], { x: 1.0, y: 2.1, w: 11.3, h: 3.6, fontFace: BODY, fontSize: 20,
        color: INK, paraSpaceAfter: 18 });
-  s.addNotes("Position the method modestly; invite collaboration on specific " +
-    "text-historical problems.");
+  s.addNotes("This is the point of the whole talk: the counts make us look " +
+    "at old problems from a new angle, and the charts hand scholars hints " +
+    "about where to dig. Every tour stop today generated a researchable " +
+    "question rather than a verdict: what are the Bhāgavata’s two layers? " +
+    "why do the Skāndamahāpurāṇa’s khaṇḍas share nothing? what are the two " +
+    "Revākhaṇḍas to each other? what happened to the closing parvans — " +
+    "composition or integration? Position the method modestly; invite " +
+    "collaboration on specific text-historical problems.");
 }
 
 // 20 · Closing
