@@ -73,7 +73,7 @@ the robustness case, then honest caveats.
 
 **On slide:**
 
-> **100 texts and sections · ≈ 4.6 million words**
+> **99 texts and sections · ≈ 4.6 million words**
 >
 > - Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
 > - purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it
@@ -88,7 +88,7 @@ the robustness case, then honest caveats.
 **Backup (if asked how the multi-part texts were divided):** four principles,
 not one. (a) transmitted structural units — MBh parvans, Rām kāṇḍas, Bhāgavata
 skandhas, khaṇḍas of Brahmāṇḍa/Garuḍa/Kūrma/Liṅga/Nārada, Śivapurāṇa saṃhitās;
-(b) adhyāya ranges cut for this study (Matsya 1–32, Mārkaṇḍeya 1–93, SP
+(b) adhyāya ranges cut for this study (Matsya 1–176, Mārkaṇḍeya 1–93, SP
 174–183, ViDhU 3.343–353); (c) thematic blocks of the Vāyupurāṇa, table below;
 (d) whole texts. Note also that several works appear both whole *and* in parts
 as separate points (Vāyu, Brahmāṇḍa, Bhāgavata, Devībhāgavata) — the parts are
@@ -185,7 +185,7 @@ signal. Possibly the quality of the composers? Those words are very often suppli
 > - similar habits → small number
 > - different habits → large number
 >
-> Result: a **100 × 100 table of stylistic distances**
+> Result: a **99 × 99 table of stylistic distances**
 > (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 >
 > | pair | distance |
@@ -247,7 +247,7 @@ genuinely rare material, and the cut is not arbitrary-looking.
 
 **Cue:** the mileage-chart analogy — given only road distances between cities
 you can redraw the map of India. MDS does exactly that with stylistic
-distances. The opening map is this, with the full 100 × 100 table. The axes
+distances. The opening map is this, with the full 99 × 99 table. The axes
 mean nothing by themselves; only *nearness* does.　You can rotate the map as much as you like.
 
 ---
@@ -355,7 +355,7 @@ style of the digest.
 > *Compare the Bhāgavata on the next slide — cohesion is measurable.*
 
 **Cue:** the compilation model of the ŚiP, confirmed from word counts alone;
-contrast set up deliberately. Another example is the Skāndamahāpurāṇa consisting of various khaṇḍas. There really is nothing that connects them, only the word skāndamahāpurāṇe or skandapurāṇe in colophons.
+contrast set up deliberately. Another example is the Skāndamahāpurāṇa consisting of various khaṇḍas. There really is nothing that connects them, only the word skānde mahāpurāṇe or skandapurāṇe in colophons.
 
 ### Slide 15 · The Bhāgavata
 
@@ -479,7 +479,7 @@ questions.
 
 ### B2 · The full corpus with strata
 
-**On slide:** the 100-text table from `chronology_strata.tsv`, 9 strata,
+**On slide:** the 99-text table from `chronology_strata.tsv`, 9 strata,
 two columns. *(Rendered at assembly time; likely two slides.)*
 
 ### B3 · The length caveat

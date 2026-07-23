@@ -210,18 +210,11 @@
   "display": "Mārkaṇḍeya 1–93"
  },
  {
-  "text": "matsyapurana_adhyaya-1-32_pu",
+  "text": "matsyapurana_adhyaya-1-176_pu",
   "stratum": 3,
   "label": "old purāṇic core",
-  "code": "Mt1",
-  "display": "Matsya 1–32"
- },
- {
-  "text": "matsyapurana_adhyaya-176_pu",
-  "stratum": 3,
-  "label": "old purāṇic core",
-  "code": "Mt2",
-  "display": "Matsya 176"
+  "code": "Mt",
+  "display": "Matsya 1–176"
  },
  {
   "text": "vayu_ba",
