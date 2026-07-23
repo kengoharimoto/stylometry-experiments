@@ -33,7 +33,7 @@ Draft for review before .pptx assembly. Conventions:
 
 **Cue:** let the audience find their texts. Point out: epics left, old purāṇic
 core upper middle, sectarian digests right, Bhāgavata below. One color = one
-stratum *of the received scholarly chronology*, not of the computation.
+stratum *of the received scholarly chronology*, not of the computation. Mbh 12 and 13 nicely to the right.
 
 ### Slide 3 · The claim
 
@@ -88,10 +88,9 @@ the robustness case, then honest caveats.
 **Backup (if asked how the multi-part texts were divided):** four principles,
 not one. (a) transmitted structural units — MBh parvans, Rām kāṇḍas, Bhāgavata
 skandhas, khaṇḍas of Brahmāṇḍa/Garuḍa/Kūrma/Liṅga/Nārada, Śivapurāṇa saṃhitās;
-(b) adhyāya ranges cut for this study (Matsya 1–176, Mārkaṇḍeya 1–93, SP
-174–183, ViDhU 3.343–353); (c) thematic blocks of the Vāyupurāṇa, table below;
+(b) some texts were only partially available (Matsya 1–176, Mārkaṇḍeya 1–93, ViDhU 3.343–353); (c) thematic blocks of the Vāyupurāṇa, table below;
 (d) whole texts. Note also that several works appear both whole *and* in parts
-as separate points (Vāyu, Brahmāṇḍa, Bhāgavata, Devībhāgavata) — the parts are
+as separate points (Vāyu, Brahmāṇḍa, Bhāgavata, Devībhāgavata, Skandapurāṇa) — the parts are
 plotted alongside the wholes, so e.g. Vāyu has eleven dots on the map. In the
 Devībhāgavata's case the part is the **Devīgītā** (DBhP 7.31–40, plotted as
 **DG**), which is also present inside the parent file from a second e-text; the
@@ -364,14 +363,15 @@ contrast set up deliberately. Another example is the Skāndamahāpurāṇa consi
 > The **Bhāgavatapurāṇa**, plotted skandha by skandha:
 >
 > - **all twelve skandhas' nearest neighbours are internal** — in both lenses
-> - a single stylistic island, despite its deliberately archaizing,
->   Vedicizing Sanskrit
+> - archaic features noticed for over a century (Michelson 1909; Meier 1931;
+>   van Buitenen 1966) — and a date that has never stopped being disputed
+> - the counts find **two layers that do not match**: bulk habits that are
+>   epic, not purāṇic — and a thin, even layer of Vedic particles
+>   (*aṅga*, *bata*, *vāva*) found nowhere else in the corpus
 >
-> *Archaism is a costume; habit is a fingerprint.*
+> *The numbers do not settle its date; they deepen its puzzle.*
 
-**Cue:** the BhP tries to sound ancient — and fools no counter of particles.
-Its position (below, not left) shows the second axis at work: it is *unlike*
-everything, not *early*.
+**Cue:** The date of the purāṇa has always been in dispute. What we have here adds one more data point to the intrigue.
 
 ---
 
