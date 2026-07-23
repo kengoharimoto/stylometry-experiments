@@ -343,18 +343,33 @@ style of the digest.
 
 ### Slide 14 · A purāṇa that refuses to unify
 
+**Figure:** `hero_W1_delta_MDS_hl-skmp` (highlight).
+
 **On slide:**
 
-> The **Śivapurāṇa**, plotted saṃhitā by saṃhitā:
+> The **Skāndamahāpurāṇa**, plotted khaṇḍa by khaṇḍa:
 >
-> - its seven saṃhitās **scatter across the late zone**
-> - only 3 of 8 sections (word lens; 4 of 8 in the 3-gram lens) have their
->   nearest neighbour inside the Śivapurāṇa
+> - **0 of 4** khaṇḍas have their nearest neighbour inside the
+>   Skāndamahāpurāṇa — in either lens
+> - the reuse scan finds they share **no text** with one another
+> - each khaṇḍa is a full-sized text — the length caveat does not apply
 >
-> *Compare the Bhāgavata on the next slide — cohesion is measurable.*
+> What connects them is a phrase in the colophons: *(śrī)skānde mahāpurāṇe*.
+>
+> *The Śivapurāṇa tells the same story, saṃhitā by saṃhitā (3 of 8 internal
+> in the word lens, 4 of 8 in the 3-gram lens). Compare the Bhāgavata on the
+> next slide — cohesion is measurable.*
 
-**Cue:** the compilation model of the ŚiP, confirmed from word counts alone;
-contrast set up deliberately. Another example is the Skāndamahāpurāṇa consisting of various khaṇḍas. There really is nothing that connects them, only the word skānde mahāpurāṇe or skandapurāṇe in colophons.
+**Cue:** the compilation model, confirmed from word counts alone; contrast
+with the Bhāgavata set up deliberately. There really is nothing that connects
+the khaṇḍas, only the word skānde mahāpurāṇe or skandapurāṇe in colophons —
+and the counts agree: Kāśīkhaṇḍa's word-lens NN is Bhaviṣya, Himavat's is ŚiP
+Dharma, Sūtasaṃhitā's is Garuḍa 1. Best detail if time allows: the
+Revākhaṇḍa's nearest neighbour (both lenses) is the *other* Revākhaṇḍa, the
+distinct one transmitted with the Vāyupurāṇa — and the reuse scan shows those
+two share ~5% of their lines verbatim, while each shares only stock formulae
+with the purāṇa it travels in. A khaṇḍa can be textually closer to its
+namesake in another purāṇa than to its own host compilation.
 
 ### Slide 15 · The Bhāgavata
 
@@ -542,8 +557,8 @@ raw-cosine outlier exposed an editorially dissolved source text (2026-07-09).
 **On slide:** figure `consensus_tree` — bootstrap consensus tree, Cosine Delta
 on the same 80 words, 500 replicates (words resampled with replacement),
 neighbour-joining per replicate, majority-rule consensus; rooted on MBh 6,
-leaves colored by stratum. 27 branches survive the ≥ 50% cut, mean support
-0.76.
+leaves colored by stratum. 25 branches survive the ≥ 50% cut, mean support
+0.78 (recomputed 2026-07-23 after the Sūtasaṃhitā re-extraction).
 
 **Cue:** for anyone who wants a stemma-shaped answer. The tree recovers the
 same groups as the map — the epics, Vāyu–Brahmāṇḍa with the old purāṇic
@@ -555,9 +570,27 @@ That is why the talk is built on the map. *(Built by
 `scripts/presentation/consensus_tree.py`; stylo's own BCT is unusable — the
 50–80 MFW range leaves the 0.5-consensus a near-total polytomy.)*
 
----
+### B6 · The length caveat, in one figure
 
-## Timing budget
+**On slide:** figure `closing_parvans_length` (full slide). The argument and
+cue live under B3; this is its visual for the MBh 16–18 question.
+
+### B7 · The Bhāgavata, book by book
+
+**On slide:** figure `bhp_skandha_mfw` (full slide) — the top-10 most
+frequent words of each of the twelve skandhas, with a rest-of-the-corpus
+reference panel; *tu, eva, tathā, vai* highlighted wherever they enter a
+top ten, per-1,000 rates in each panel footer.
+
+**Cue:** for the question "is the particle avoidance the work of one book, or
+of an editor of one layer?" No: all 48 cells (12 books × 4 particles) sit
+below the old purāṇic core's median rates (*tu* 17.8, *eva* 13.3, *tathā*
+9.1, *vai* 7.2 per 1,000). Phrase it group-relative: against the corpus at
+large *vai* is not suppressed (BhP ≈ MBh ≈ corpus median; only the old core
+is *vai*-heavy), and *eva* rises to low-normal in books 5 and 12 (8.3/7.3,
+even #3 in their own top tens). What the BhP runs on instead is visible in
+the panels: *ca, na, uvāca, śrī, bhagavān, api* — and, at rates unique to it
+in this corpus, the Vedic particles *aṅga, bata, vāva* of slide 15.
 
 | Act | slides | minutes |
 |---|---|---|

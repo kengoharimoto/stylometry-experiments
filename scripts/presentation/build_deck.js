@@ -338,13 +338,20 @@ tourSlide("Reading the map · 4", "The sectarian & encyclopedic mass", "hero_W1_
   "Viṣṇudharmottara) out to the self-quoting digests at the right, where its " +
   "style is simply the style of the digest.");
 
-tourSlide("Reading the map · 5", "A purāṇa that refuses to unify", "hero_W1_delta_MDS_hl-sip", [
-  bullet("the Śivapurāṇa’s saṃhitās scatter across the late zone"),
-  bullet("internal nearest neighbours: only 3 of 8 (words), 4 of 8 (3-grams)"),
-  plain("Cohesion is measurable — compare the next slide.", { italic: true, color: MUTED, breakLine: false }),
+tourSlide("Reading the map · 5", "A purāṇa that refuses to unify", "hero_W1_delta_MDS_hl-skmp", [
+  bullet("the Skāndamahāpurāṇa: 0 of 4 khaṇḍas with an internal nearest neighbour, in either lens"),
+  bullet("they share no text; all full-sized — no length caveat"),
+  bullet("what connects them: the colophon phrase (śrī)skānde mahāpurāṇe"),
+  plain("ŚiP: same story (3/8, 4/8 internal). Cohesion is measurable — next slide.", { italic: true, color: MUTED, breakLine: false }),
 ],
-  "The compilation model of the ŚiP, confirmed from word counts alone; " +
-  "contrast set up deliberately.");
+  "The compilation model, confirmed from word counts alone; contrast with " +
+  "the Bhāgavata set up deliberately. Nothing connects the khaṇḍas but the " +
+  "colophon phrase: Kāśīkhaṇḍa’s word-lens NN is Bhaviṣya, Himavat’s is ŚiP " +
+  "Dharma, Sūtasaṃhitā’s is Garuḍa 1. Best detail if time allows: the " +
+  "Revākhaṇḍa’s NN (both lenses) is the OTHER Revākhaṇḍa, the distinct one " +
+  "transmitted with the Vāyu — the two share ~5% of their lines verbatim " +
+  "while each shares only stock formulae with its own host. A khaṇḍa can be " +
+  "closer to its namesake in another purāṇa than to its own compilation.");
 
 tourSlide("Reading the map · 6", "The Bhāgavata", "hero_W1_delta_MDS_hl-bhp", [
   bullet("all twelve skandhas’ nearest neighbours are internal — in both lenses"),
@@ -621,6 +628,19 @@ fullFigure(pres.addSlide(), "closing_parvans_length",
   "reconciles the stylometry with the received ‘late epilogue’ verdict " +
   "(Brockington 1998) rather than contradicting it. Full diagnostics: " +
   "notes/2026-07-15_closing_parvans_length_diagnostics.md.");
+
+// B7 · The Bhāgavata, book by book
+fullFigure(pres.addSlide(), "bhp_skandha_mfw",
+  "For the question ‘is the particle avoidance the work of one book, or of " +
+  "an editor of one layer?’ No: all 48 cells (12 books × 4 particles) sit " +
+  "below the old purāṇic core’s median rates (tu 17.8, eva 13.3, tathā 9.1, " +
+  "vai 7.2 per 1,000). Phrase it group-relative: against the corpus at " +
+  "large, vai is NOT suppressed (BhP ≈ MBh ≈ corpus median; only the old " +
+  "core is vai-heavy), and eva rises to low-normal in books 5 and 12 " +
+  "(8.3/7.3 — even #3 in their own top tens, visible as the red bars). " +
+  "What the BhP runs on instead: ca, na, uvāca, śrī, bhagavān, api — and, " +
+  "at rates unique to it in this corpus, the Vedic particles aṅga, bata, " +
+  "vāva of the Bhāgavata slide.");
 
 const OUT = path.join(MAT, "chronology_stratification.pptx");
 pres.writeFile({ fileName: OUT }).then(() => console.log("wrote", OUT));
