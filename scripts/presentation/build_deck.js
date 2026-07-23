@@ -348,12 +348,12 @@ tourSlide("Reading the map · 5", "A purāṇa that refuses to unify", "hero_W1_
 
 tourSlide("Reading the map · 6", "The Bhāgavata", "hero_W1_delta_MDS_hl-bhp", [
   bullet("all twelve skandhas’ nearest neighbours are internal — in both lenses"),
-  bullet("a single stylistic island, despite deliberately archaizing Sanskrit"),
-  plain("Archaism is a costume; habit is a fingerprint.", { italic: true, color: MUTED, breakLine: false }),
+  bullet("archaic features noticed for over a century (Michelson 1909; Meier 1931; van Buitenen 1966) — and a date that has never stopped being disputed"),
+  bullet("the counts find two layers that do not match: bulk habits that are epic, not purāṇic — and a thin, even layer of Vedic particles (aṅga, bata, vāva) found nowhere else in the corpus"),
+  plain("The numbers do not settle its date; they deepen its puzzle.", { italic: true, color: MUTED, breakLine: false }),
 ],
-  "The BhP tries to sound ancient — and fools no counter of particles. Its " +
-  "position (below, not left) shows the second axis at work: it is UNLIKE " +
-  "everything, not EARLY.");
+  "The date of the purāṇa has always been in dispute. What we have here " +
+  "adds more data points.");
 
 // ══ Act 4 — Why believe the axis? ═════════════════════════════════════════════
 
