@@ -446,8 +446,9 @@ fullFigure(pres.addSlide(), "robustness_grid",
     s.addText(b, { x: 3.6, y, w: 8.9, h: 1.0, fontFace: BODY, fontSize: 17,
       color: INK, margin: 0 });
   });
-  s.addText("So the epic pole marks low expository overlay, which tracks — but " +
-    "is not — early date: late-but-unexpanded books (MBh 16–18) land there too.", {
+  s.addText("So the epic pole marks low expository overlay — it tracks early " +
+    "date but is not a date: the closing books (MBh 16–18) land there too, " +
+    "whatever the age of their material.", {
     x: 1.0, y: 6.15, w: 11.5, h: 0.9, fontFace: BODY, fontSize: 16, italic: true,
     color: MUTED, margin: 0 });
   s.addNotes("Drift, metre, borrowing and genre are entangled in the texts " +
@@ -623,10 +624,15 @@ fullFigure(pres.addSlide(), "closing_parvans_length",
   "(2) But it is not only length: concatenate 15+16+17+18 into one ~17k-word " +
   "unit and it stays at the pole, not out by MBh 11/14. The group position " +
   "is real. What it measures is register — narrative-pure text with little of " +
-  "the expository-particle overlay (tu/eva/tathā/vai) that swelled MBh 12–14 " +
-  "— i.e. late as books, redactionally thin as text, not early. This " +
-  "reconciles the stylometry with the received ‘late epilogue’ verdict " +
-  "(Brockington 1998) rather than contradicting it. Full diagnostics: " +
+  "the expository-particle overlay (tu/eva/tathā/vai) that swelled MBh 12–14. " +
+  "Keep two dates apart: when the material was composed, and when it was " +
+  "integrated into the Mahābhārata. The received ‘late epilogue’ verdict " +
+  "(Brockington 1998) concerns integration into the corpus; the counts " +
+  "cannot arbitrate the age of the material itself — old material integrated " +
+  "late, and young material left redactionally thin, look the same here. And " +
+  "if the material IS young, move (1) already supplies the explanation for " +
+  "the extreme individual positions: at these sizes, length alone reaches " +
+  "the pole. Full diagnostics: " +
   "notes/2026-07-15_closing_parvans_length_diagnostics.md.");
 
 // B7 · The Bhāgavata, book by book

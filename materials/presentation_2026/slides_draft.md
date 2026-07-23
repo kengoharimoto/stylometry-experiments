@@ -450,9 +450,19 @@ The Bhāgavata's vertical displacement is the clearest case.
 > - **borrowing**: the tightest links ride on shared ślokas — Delta cannot
 >   tell "same school" from "copied the same 2,000 verses"
 > - **genre**: narrative vs. didactic vs. digest
+>
+> *So the epic pole marks low expository overlay — it tracks early date but
+> is not a date: the closing books (MBh 16–18) land there too, whatever the
+> age of their material.*
 
 **Cue:** drift, metre, borrowing and genre are entangled *in the texts
-themselves*; the axis is real but not purely temporal. If the borrowing
+themselves*; the axis is real but not purely temporal. On the closing books,
+keep two dates apart: the composition of the material and its integration
+into the Mahābhārata — the received "late epilogue" verdict concerns the
+integration; the counts cannot arbitrate the age of the material (old
+material integrated late and young material left redactionally thin look
+the same here), and if the material is young, their tiny sizes mean length
+alone can account for the extreme individual positions (B6). If the borrowing
 bullet draws a question, B8 has the measured answer: the reuse web and the
 style map are different structures.
 
