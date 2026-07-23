@@ -109,7 +109,7 @@ const plain = (text, opts = {}) => ({ text, options: { breakLine: true, ...opts 
     italic: true, color: ICE, align: "center",
   });
   dotRow(s, 4.75);
-  s.addText("Kengo Harimoto\n[venue · date]", {
+  s.addText("Kengo Harimoto\nDICSEP 11 · 4 August 2026", {
     x: 1.0, y: 5.3, w: W - 2, h: 0.9, fontFace: BODY, fontSize: 16,
     color: "D8E4F5", align: "center",
   });
