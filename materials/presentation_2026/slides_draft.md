@@ -355,7 +355,7 @@ style of the digest.
 > *Compare the Bhāgavata on the next slide — cohesion is measurable.*
 
 **Cue:** the compilation model of the ŚiP, confirmed from word counts alone;
-contrast set up deliberately.
+contrast set up deliberately. Another example is the Skāndamahāpurāṇa consisting of various khaṇḍas. There really is nothing that connects them, only the word skāndamahāpurāṇe or skandapurāṇe in colophons.
 
 ### Slide 15 · The Bhāgavata
 
