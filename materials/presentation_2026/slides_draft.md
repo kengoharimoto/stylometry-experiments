@@ -479,7 +479,7 @@ questions.
 
 ### B2 · The full corpus with strata
 
-**On slide:** the 99-text table from `chronology_strata.tsv`, 9 strata,
+**On slide:** the 99-text table from `chronology_strata.tsv`, 10 strata,
 two columns. *(Rendered at assembly time; likely two slides.)*
 
 ### B3 · The length caveat
