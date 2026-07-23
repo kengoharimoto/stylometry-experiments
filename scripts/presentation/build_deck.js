@@ -626,10 +626,12 @@ fullFigure(pres.addSlide(), "closing_parvans_length",
   "is real. What it measures is register — narrative-pure text with little of " +
   "the expository-particle overlay (tu/eva/tathā/vai) that swelled MBh 12–14. " +
   "Keep two dates apart: when the material was composed, and when it was " +
-  "integrated into the Mahābhārata. The received ‘late epilogue’ verdict " +
-  "(Brockington 1998) concerns integration into the corpus; the counts " +
-  "cannot arbitrate the age of the material itself — old material integrated " +
-  "late, and young material left redactionally thin, look the same here. And " +
+  "integrated into the Mahābhārata. The ‘late epilogue’ verdict (e.g. " +
+  "Brockington 1998) — cited here as a position in the literature, not one " +
+  "we endorse — is at most a claim about integration into the corpus; the " +
+  "counts cannot arbitrate the age of the material itself — old material " +
+  "integrated late, and young material left redactionally thin, look the " +
+  "same here. And " +
   "if the material IS young, move (1) already supplies the explanation for " +
   "the extreme individual positions: at these sizes, length alone reaches " +
   "the pole. Full diagnostics: " +
