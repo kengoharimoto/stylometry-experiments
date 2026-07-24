@@ -343,32 +343,35 @@ style of the digest.
 
 ### Slide 13b · The Bhaviṣya: a text that is mostly other texts
 
-**Figure:** `bhavisya_reuse_strip` (to build: one horizontal strip per chapter,
-Brāhma + Uttara parvans, coloured by % of pāda-units matched in the all-texts
-scan, with source-family colour for the dominant donor — Manu / Śivadharma /
-Matsya-vrata / Buddhist / none).
+**Figure:** `bhavisya_reuse_strip` (built: one bar per chapter, Brāhma +
+Uttara parvans, width ∝ chapter length in pāda-units, height = % matched in
+the all-texts scan, colour = dominant donor family — Manu/smṛtis,
+Sāmba–Brahmapurāṇa saura, Śivadharma, Matsya/Padma vrata, Viṣṇudharma,
+Vāyu–Brahmāṇḍa–Harivaṃśa; hatched = matched only in the nibandha citers;
+▲/▼ markers = Buddhist / Bṛhatsaṃhitā chapters).
 
 **On slide:**
 
 > The **Bhaviṣyapurāṇa**, scanned pāda-by-pāda against the whole e-text library:
 >
-> - **53% of its pāda-units occur in other texts** (Brāhmaparvan 34%,
+> - **47% of its pāda-units occur in other texts** (Brāhmaparvan 38%,
 >   Uttaraparvan 59%)
 > - the borrowing is **block-wise and source-datable**: Manusmṛti swallowed
->   whole, Śivadharmaśāstra & -ottara, Bṛhatsaṃhitā, Matsya-type vrata blocks —
->   and a physiognomy block shared with the **Buddhist Śārdūlakarṇāvadāna**
+>   whole, the Sāmbapurāṇa's saura corpus, Śivadharmaśāstra & -ottara,
+>   Bṛhatsaṃhitā, Matsya-type vrata blocks — and a physiognomy block shared
+>   with the **Buddhist Śārdūlakarṇāvadāna**
 > - whole stretches match **nothing** — a genuine own-text residue in between
 >
 > *Not an author's stratum — a compilation event with datable ingredients.*
 
-**Cue:** three points, in order. (1) **The scale**: 53% of the entire text
+**Cue:** three points, in order. (1) **The scale**: 47% of the entire text
 (40k pāda-units) matches something else at ≥0.7 — no other unit on the map
 comes close; the Bhaviṣya stands out as the extreme case of what slide 13
 called compilation literature. Setting aside the dharmanibandhas (Kṛtyakalpataru,
 Hemādri — they quote *from* the Bhaviṣya, so they date its terminus, not its
-sources), the big donors are Padma, Matsya (median similarity 0.909), and the
-Śivadharma corpus — now in our corpus as units, so the donor and the mosaic
-sit on the same map. (2) **Block-wise and source-datable**: Brāhmaparvan
+sources), the big donors are Padma, Matsya (median similarity 0.909), the
+Sāmbapurāṇa, and the Śivadharma corpus — the last now in our corpus as
+units, so the donor and the mosaic sit on the same map. (2) **Block-wise and source-datable**: Brāhmaparvan
 1.2–1.7 is Manusmṛti 1–3 incorporated nearly contiguously (201 units of
 Mn 2.64–2.248 in one chapter); 1.17 is stitched from the Śivadharmaśāstra
 and Śivadharmottara; 1.25–26 from the Bṛhatsaṃhitā; the vrata chapters of the
@@ -407,11 +410,16 @@ Achaemenid Iran into the Northwest — so the purāṇa whose priestly core is
 Iranian and the Buddhist compendia it shares omen blocks with drank from the
 same northwest divination culture. The cross-confessional parallel is not a
 curiosity at the text's edge; it matches what the text was from the start.
-Scan caveat to state honestly: no Sāmbapurāṇa e-text was in the library, so
-the sun-cult chapters' zero-match stretches (scan-ch. 1.72–76, 1.137–148,
-1.200+) are partly a missing-donor artifact — their famous twin could not
-be found because it was not there to find; "matches nothing" means nothing
-*in the library*.
+The Sāmba side is now measured, not assumed: with the scraped Sāmbapurāṇa
+e-text added, the formerly zero-match sun-cult chapters light up (Bh
+1.72–77 ↔ Sāmba adhy. 2–6 at 35–73%; the Sāmba bands 1.52–1.58, 1.66–1.80,
+1.121–1.145 total ~1,800 matched units — the top named purāṇic parallel of
+the Brāhmaparvan). The relationship is triangular, not pairwise: the same
+corpus runs through Brahmapurāṇa 28–33, and the astronomy chapters descend
+from the Vāyu/Brahmāṇḍa tradition — "shared saura corpus," not "X borrowed
+Y." Standing honesty caveat: "matches nothing" always means nothing *in
+the library* — the Sāmba case shows exactly how a missing donor manufactures
+an own-text illusion, and how adding one witness dissolves it.
 
 Bridge to slide 14: the Bhaviṣya is the mosaic that *stayed together*;
 next, a "purāṇa" whose parts never even met.
