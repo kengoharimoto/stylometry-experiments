@@ -5,9 +5,10 @@ Draft for review before .pptx assembly. Conventions:
 - **On slide** = text that appears on the slide (kept lean; the voice carries the rest).
 - **Cue** = one-line speaker note, not slide text.
 - Figures refer to `materials/presentation_2026/figures/`.
-- All numbers from the 2026-07-10 runs (post-tokenization-fix), recomputed 2026-07-13:
-  W1 = Burrows's Delta on top-80 words, unsandhied; C3 = Manhattan on top-5000
-  character 3-grams, sandhied. Corpus median pair distance: 1.04 (W1), 0.49 (C3).
+- All numbers recomputed 2026-07-24 on the 111-unit corpus (runs
+  results_*_20260724_1450*): W1 = Burrows's Delta on top-80 words, unsandhied;
+  C3 = Manhattan on top-5000 character 3-grams, sandhied. Corpus median pair
+  distance: 1.04 (W1), 0.50 (C3).
 
 ---
 
@@ -73,7 +74,7 @@ the robustness case, then honest caveats.
 
 **On slide:**
 
-> **99 texts and sections · ≈ 4.6 million words**
+> **111 texts and sections · ≈ 4.8 million words**
 >
 > - Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
 > - purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it
@@ -184,15 +185,15 @@ signal. Possibly the quality of the composers? Those words are very often suppli
 > - similar habits → small number
 > - different habits → large number
 >
-> Result: a **99 × 99 table of stylistic distances**
+> Result: a **111 × 111 table of stylistic distances**
 > (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 >
 > | pair | distance |
 > |---|---|
-> | MBh 7 (Droṇa) ↔ MBh 8 (Karṇa) | 0.29 |
-> | Vāyu ↔ Brahmāṇḍa | 0.29 |
+> | MBh 7 (Droṇa) ↔ MBh 8 (Karṇa) | 0.28 |
+> | Vāyu ↔ Brahmāṇḍa | 0.28 |
 > | *typical pair in this corpus* | *1.04* |
-> | Rām 2 (Ayodhyā) ↔ Agni | 1.37 |
+> | Rām 2 (Ayodhyā) ↔ Agni | 1.34 |
 
 **Cue:** no formulas; "an average of disagreements in word habits, in units of
 what is normal for this corpus." The table rows preview later stops on the tour.
@@ -246,7 +247,7 @@ genuinely rare material, and the cut is not arbitrary-looking.
 
 **Cue:** the mileage-chart analogy — given only road distances between cities
 you can redraw the map of India. MDS does exactly that with stylistic
-distances. The opening map is this, with the full 99 × 99 table. The axes
+distances. The opening map is this, with the full 111 × 111 table. The axes
 mean nothing by themselves; only *nearness* does.　You can rotate the map as much as you like.
 
 ---
@@ -261,7 +262,7 @@ zoomed; highlight variants to be generated at assembly time.)*
 **On slide:**
 
 > - battle books **MBh 6–9** cluster tightly — Droṇa ↔ Karṇa the tightest
->   pair (0.29 ≈ ¼ of a typical distance)
+>   pair (0.28 ≈ ¼ of a typical distance)
 > - **MBh 12–13** (Śānti, Anuśāsana): mutual nearest neighbours — and drifted
 >   toward purāṇa-space...
 > - **Rām 2–6** hold together; **Bāla(R1)'s nearest neighbour is the Uttara(R7)...** —
@@ -278,7 +279,7 @@ Uttara, Uttara's is MBh 3.)
 
 **On slide:**
 
-> - **Vāyu ↔ Brahmāṇḍa: 0.29** — a quarter of a typical distance.
+> - **Vāyu ↔ Brahmāṇḍa: 0.28** — a quarter of a typical distance.
 >   Kirfel's single *Vāyuproktaṃ Purāṇam*, as a number.
 > - **Viṣṇu ↔ Mārkaṇḍeya**: mutual nearest neighbours, in both lenses
 > - Matsya's cosmogonic chapters sit with them
@@ -295,7 +296,7 @@ extract (V×B on the map) sits closest of all to both. V2, chapters on yoga, is 
 >   **between the epics and the old purāṇic core** (axis-1 ≈ −0.3)
 > - word lens: its nearest neighbours are **MBh 1, MBh 10 and Rām 6** — it keeps
 >   epic diction
-> - but its **Pāśupata section (SP2) jumps far right** (axis-1 ≈ +0.48), out
+> - but its **Pāśupata section (SP2) jumps far right** (axis-1 ≈ +0.47), out
 >   among the sectarian digests
 
 **Cue:** a single work, stratified in front of the audience. The narrative body
@@ -315,8 +316,8 @@ of this text land?"
 
 | | observed axis-1 | null (same N, rest of SkP) | verdict |
 |---|---|---|---|
-| **SP2**, W1 | +0.481 | −0.313 ± 0.263 | +3.0 sd, 2% of windows reach it |
-| **SP2**, C3 | +0.126 | −0.071 ± 0.069 | +2.9 sd, 2% of windows reach it |
+| **SP2**, W1 | +0.465 | −0.319 ± 0.259 | +3.0 sd, 2% of windows reach it |
+| **SP2**, C3 | +0.167 | −0.051 ± 0.073 | +3.0 sd, 2% of windows reach it |
 
 Both lenses agree, at ~3 sd each, so the jump is not a shortness artifact. Say
 this in one sentence if the length objection comes from the floor; the numbers
@@ -593,7 +594,7 @@ questions.
 
 ### B2 · The full corpus with strata
 
-**On slide:** the 99-text table from `chronology_strata.tsv`, 10 strata,
+**On slide:** the 111-text table from `chronology_strata.tsv`, 13 strata,
 two columns. *(Rendered at assembly time; likely two slides.)*
 
 ### B3 · The length caveat
@@ -608,9 +609,9 @@ two columns. *(Rendered at assembly time; likely two slides.)*
 **Cue — the floor, with a number.** Draw random contiguous windows of a given
 size from a text whose position is secure, run them through the identical
 pipeline, and see how far they scatter on axis 1 (D1 of the closing-parvans
-brief; `scripts/presentation/pasupata_length_control.py`). The corpus spans 1.53
+brief; `scripts/presentation/pasupata_length_control.py`). The corpus spans 1.49
 on that axis. A 5,238-word window of the **Devībhāgavata** lands anywhere from
-−0.80 to +0.78 (sd 0.40) — *half the map*. A 3,280-word window of the Vāyu
+−0.77 to +0.76 (sd 0.38) — *half the map*. A 3,280-word window of the Vāyu
 scatters ±0.30. So the honest floor is higher than the "5k" rule of thumb: for a
 stylistically heterogeneous host, even a 5k section carries an uncertainty of
 roughly a fifth of the axis.
@@ -656,8 +657,8 @@ raw-cosine outlier exposed an editorially dissolved source text (2026-07-09).
 **On slide:** figure `consensus_tree` — bootstrap consensus tree, Cosine Delta
 on the same 80 words, 500 replicates (words resampled with replacement),
 neighbour-joining per replicate, majority-rule consensus; rooted on MBh 6,
-leaves colored by stratum. 25 branches survive the ≥ 50% cut, mean support
-0.78 (recomputed 2026-07-23 after the Sūtasaṃhitā re-extraction).
+leaves colored by stratum. 27 branches survive the ≥ 50% cut, mean support
+0.76 (recomputed 2026-07-24 at n=111).
 
 **Cue:** for anyone who wants a stemma-shaped answer. The tree recovers the
 same groups as the map — the epics, Vāyu–Brahmāṇḍa with the old purāṇic
@@ -700,14 +701,14 @@ formulae excluded), drawn as edges on the hero map.
 **Cue:** the direct answer to slide 19's borrowing confound: we *measured*
 the copying, independently of style, and the two structures do not
 coincide. Both directions fail: **Liṅga 1 ↔ Vāyu §2 share 46% of the
-smaller text's lines yet stand at Delta 1.07 — the corpus median** (neither
-is the other's nearest neighbour); Matsya↔Padma at 37% sit at 0.64, ŚiP
-Dharma↔Umā at 44% sit at 0.57 — real but unremarkable closeness, and none
+smaller text's lines yet stand at Delta 1.02 — essentially the corpus median** (neither
+is the other's nearest neighbour); Matsya↔Padma at 37% sit at 0.63, ŚiP
+Dharma↔Umā at 44% sit at 0.55 — real but unremarkable closeness, and none
 of the heavy borrowers are mutual nearest neighbours. Conversely the
 tightest stylistic clusters — the Bhāgavata (12/12 internal NN), the
 epics — have almost no edges at all. Where the two webs *do* agree is
 exactly the pair where philology expects it: Vāyu–Brahmāṇḍa, heavy sharing
-*and* Delta 0.29, the common-ancestor signature. So Delta is not riding on
+*and* Delta 0.28, the common-ancestor signature. So Delta is not riding on
 shared ślokas: even massive verbatim overlap does not drag two texts
 together when their bulk habits differ. The map measures habit; the edges
 measure copying; they are different facts about the corpus.

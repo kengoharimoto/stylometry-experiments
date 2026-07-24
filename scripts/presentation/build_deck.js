@@ -181,7 +181,7 @@ fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
   s.background = { color: "FFFFFF" };
   kicker(s, "How the map was made");
   title(s, "The corpus");
-  const stats = [["101", "texts and sections"], ["≈ 4.6 M", "running words"],
+  const stats = [["111", "texts and sections"], ["≈ 4.8 M", "running words"],
                  ["× 2", "parallel versions:\nsandhied · unsandhied"]];
   stats.forEach(([n, l], i) => {
     const x = 0.9 + i * 4.05;
@@ -234,10 +234,10 @@ fullFigure(pres.addSlide(), "mfw_habits",
     [{ text: "pair", options: { bold: true, color: "FFFFFF", fill: { color: BLUE } } },
      { text: "distance", options: { bold: true, color: "FFFFFF", fill: { color: BLUE }, align: "center" } }],
     ["MBh 7 (Droṇa)  ↔  MBh 8 (Karṇa)", { text: "0.28", options: { align: "center" } }],
-    ["Vāyu  ↔  Brahmāṇḍa", { text: "0.29", options: { align: "center" } }],
+    ["Vāyu  ↔  Brahmāṇḍa", { text: "0.28", options: { align: "center" } }],
     [{ text: "typical pair in this corpus", options: { italic: true, color: MUTED } },
      { text: "1.04", options: { align: "center", italic: true, color: MUTED } }],
-    ["Rām 2 (Ayodhyā)  ↔  Agni", { text: "1.36", options: { align: "center" } }],
+    ["Rām 2 (Ayodhyā)  ↔  Agni", { text: "1.34", options: { align: "center" } }],
   ];
   s.addTable(rows, { x: 7.5, y: 2.5, w: 5.1, colW: [3.7, 1.4],
     fontFace: BODY, fontSize: 15, color: INK, rowH: 0.55, valign: "middle",
@@ -298,7 +298,7 @@ tourSlide("Reading the map · 1", "The epic zone", "hero_W1_delta_MDS_hl-epic", 
   "nearest to MBh 3.");
 
 tourSlide("Reading the map · 2", "The old purāṇic core?", "hero_W1_delta_MDS_hl-oldcore", [
-  bullet("Vāyu ↔ Brahmāṇḍa: 0.29 — Kirfel’s Vāyuproktaṃ Purāṇam, as a number"),
+  bullet("Vāyu ↔ Brahmāṇḍa: 0.28 — Kirfel’s Vāyuproktaṃ Purāṇam, as a number"),
   bullet("Viṣṇu ↔ Mārkaṇḍeya: mutual nearest neighbours, in both lenses"),
   bullet("Matsya’s cosmogonic chapters sit with them", { breakLine: false }),
 ],
@@ -337,6 +337,29 @@ tourSlide("Reading the map · 4", "The sectarian & encyclopedic mass", "hero_W1_
   "The stratum shades from texts still close to the old core (Kūrma, Liṅga, " +
   "Viṣṇudharmottara) out to the self-quoting digests at the right, where its " +
   "style is simply the style of the digest.");
+
+// 13b · The Bhaviṣya: a text that is mostly other texts
+fullFigure(pres.addSlide(), "bhavisya_reuse_strip",
+  "Reading the map · 4b. Three beats. (1) THE SCALE: 47% of the entire " +
+  "Bhaviṣya (40k pāda-units; Brāhmaparvan 38%, Uttaraparvan 59%) matches " +
+  "another text at ≥0.7 — the extreme case of compilation literature. " +
+  "Nibandhas (Kṛtyakalpataru, Hemādri) quote FROM it, so they date its " +
+  "terminus, not its sources; the big donors are Padma, Matsya, the " +
+  "Sāmbapurāṇa, and the Śivadharma corpus — the last now on our map as " +
+  "units, donor and mosaic on one plot. (2) BLOCK-WISE AND DATABLE: " +
+  "1.2–1.7 is Manusmṛti 1–3 nearly contiguously; the saura bands " +
+  "(1.52–1.80, 1.121–1.145) are the Sāmba–Brahmapurāṇa corpus with " +
+  "Vāyu/Brahmāṇḍa astronomy upstream; 1.25–26 Bṛhatsaṃhitā; Uttara 4.4–6 " +
+  "is the Śivadharmottara wholesale; the vrata chapters run at 60–96% " +
+  "reuse. Each ingredient carries its own date — the mosaic is bracketed " +
+  "between its sources and its citers. (3) THE CROSS-CONFESSIONAL ONE: " +
+  "the physiognomy block shares verse text with the Śārdūlakarṇāvadāna " +
+  "(Divyāvadāna 33) — say 'shared divination tradition', not 'borrowed " +
+  "from the Buddhists'. PUNCHLINE: not an author's stratum — a " +
+  "compilation event with datable ingredients. NEVER give the Bhaviṣya a " +
+  "single date (the Pratisargaparvan prophesies Queen Victoria): " +
+  "per-block bracketing is the only dating it admits, and that is " +
+  "precisely what the scan delivers and one dot on the map cannot.");
 
 tourSlide("Reading the map · 5", "A purāṇa that refuses to unify", "hero_W1_delta_MDS_hl-skmp", [
   bullet("the Skāndamahāpurāṇa: 0 of 4 khaṇḍas with an internal nearest neighbour, in either lens"),
@@ -665,15 +688,36 @@ fullFigure(pres.addSlide(), "reuse_overlay_MDS",
   "smaller text’s half-śloka lines (akṣara-stream matching, stock formulae " +
   "excluded), drawn on the same map. The two structures do not coincide. " +
   "Liṅga 1 ↔ Vāyu §2 share 46% of the smaller text’s lines yet stand at " +
-  "Delta 1.07 — the corpus median — and neither is the other’s nearest " +
-  "neighbour; Matsya↔Padma (37%) sit at 0.64, ŚiP Dharma↔Umā (44%) at 0.57 " +
+  "Delta 1.02 — essentially the corpus median — and neither is the other’s nearest " +
+  "neighbour; Matsya↔Padma (37%) sit at 0.63, ŚiP Dharma↔Umā (44%) at 0.55 " +
   "— unremarkable closeness, no mutual NNs among the heavy borrowers. " +
   "Conversely the tightest clusters — the Bhāgavata (12/12 internal NN), " +
   "the epics — have almost no edges at all. The one place both webs agree " +
   "is exactly where philology expects it: Vāyu–Brahmāṇḍa, heavy sharing " +
-  "AND Delta 0.29 — the common-ancestor signature. Delta is not riding on " +
+  "AND Delta 0.28 — the common-ancestor signature. Delta is not riding on " +
   "shared ślokas: the map measures habit, the edges measure copying, and " +
   "they are different facts about the corpus.");
+
+// B9 · Why the Śivadharma pair plots "late" (Q&A; works from the hero map)
+fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
+  "B9 — why do ŚDh and ŚDhU sit at the right edge (axis-1 ranks 109 and " +
+  "106 of 111) while the purāṇas that absorbed them plot far to their " +
+  "left (ŚiP Dharmasaṃhitā rank 70, Bhaviṣya 76, Padma 48)? (1) Not the " +
+  "expository particles — their tu/eva/tathā/vai are LOW (ŚDhU's vai " +
+  "0.2/1000, Bhāgavata territory). What pushes them right is the " +
+  "vocabulary of impersonal injunction (yaḥ 'whoever', optative bhavet, " +
+  "sarva, sadā, śiva itself at z +6.6) plus the near-total absence of " +
+  "narrative machinery (tam, tatas, dṛṣṭvā, aham, me, te — the strongest " +
+  "left-pole correlates). Pure frameless prescription: the right pole " +
+  "means discourse type, not date. (2) The hosts are measured mixtures: " +
+  "they absorbed only 15–26% of the pair into narrative-framed bulk " +
+  "3–30× larger. (3) The dating twist: the pair carries ~6th–7th-c. " +
+  "external anchors with early Nepalese transmission — a text older than " +
+  "much of the sectarian mass plots to the right of it, the cleanest " +
+  "counterexample to reading axis 1 as a timeline; twin of the " +
+  "closing-parvans lesson at the opposite pole. THE POINT: especially " +
+  "when the nature of the texts varies, the same lenses lose their " +
+  "credibility as revealers of a text's age.");
 
 const OUT = path.join(MAT, "chronology_stratification.pptx");
 pres.writeFile({ fileName: OUT }).then(() => console.log("wrote", OUT));
