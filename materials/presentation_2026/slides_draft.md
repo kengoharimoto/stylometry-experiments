@@ -712,6 +712,43 @@ shared ślokas: even massive verbatim overlap does not drag two texts
 together when their bulk habits differ. The map measures habit; the edges
 measure copying; they are different facts about the corpus.
 
+### B9 · Why the Śivadharma pair plots "late" (cue material; place freely)
+
+No figure of its own yet — works from the hero map (ŚDh, ŚDhU at the right
+edge) as a Q&A answer or a beat wherever the axis-reading caveat comes up.
+
+**Cue:** the Śivadharmaśāstra and Śivadharmottara sit at axis-1 ranks
+109 and 106 of 111 (+0.74, +0.58) — beyond nearly the whole sectarian
+mass — while the very purāṇas that absorbed them plot far to their left
+(ŚiP Dharmasaṃhitā rank 70, Bhaviṣya 76, Padma 48). Why?
+
+1. **Not the expository-particle overlay**: their *tu/eva/tathā/vai* rates
+   are *low* (ŚDhU's *vai* 0.2/1000 — Bhāgavata territory). What pushes
+   them right is a different signature: the vocabulary of impersonal
+   injunction (*yaḥ* "whoever", optative *bhavet*, *sarva*, *sadā*,
+   *tasmāt*, *śiva* itself at z +6.6) — and the near-total *absence* of
+   narrative machinery (*tam, tān, tatas, dṛṣṭvā, aham, mām, me, te*),
+   which are the strongest left-pole correlates (r −0.6 to −0.8). The
+   pair is pure frameless prescription; the right pole of the axis turns
+   out to mean *discourse type*, not date.
+2. **The hosts are mixtures, measured**: they absorbed only a fraction of
+   the pair (ŚDhU↔Dharmasaṃhitā containment 26%, Bhaviṣya↔ŚDh 24.5%,
+   Padma↔ŚDhU 15.5%) into narrative-framed bulk 3–30× larger — a
+   quarter-share of frameless prescription cannot drag a narrative host
+   to the pole.
+3. **The dating twist**: the pair carries ~6th–7th-c. external anchors
+   with early Nepalese transmission — among the better-dated units we
+   have. A text older than much of the sectarian mass plots to the right
+   of it: the cleanest counterexample in the corpus to reading axis 1 as
+   a timeline, converging with the closing-parvans lesson from the
+   opposite pole (MBh 16–18 look "early" for lack of overlay; the
+   Śivadharma pair looks "late" for lack of frame).
+
+**The generalizing line (deliver as the point):** especially when the
+nature of the texts varies, the same lenses lose their credibility as
+revealers of a text's age. The lens is honest about habits; it is only
+our reading of habit-as-date that has to be earned case by case.
+
 | Act | slides | minutes |
 |---|---|---|
 | 1 The picture | 1–4 | 3–4 |

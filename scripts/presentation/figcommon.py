@@ -41,7 +41,12 @@ PALETTE = {                       # 1 MBh · 2 Rām · 3 old core · 4 old SP ·
     3: '#1a7a3a', 4: '#7a4ba8',   # 8 BhP+comm · 9 Śāstra · 10 Skāndamahāpurāṇa
     5: '#e08a1e', 6: '#c23b3b', 7: '#e0bf1e', 8: '#7f7f7f', 9: '#3bbfbf',
     10: '#6b4423',                # deliberately unlike the old-SP purple: the
-}                                 # shared name is not a shared text
+                                  # shared name is not a shared text
+    11: '#d4589e',                # epic Appendix I (rose)
+    12: '#0f8bb0',                # Harivaṃśa (azure: epic-family blue, nearest
+                                  # neighbours ΔE 12.6/13.0 — point labels carry it)
+    13: '#87104a',                # Śivadharma (deep maroon, ≥15 from ŚiP red)
+}
 GROUP_ORDER = list(PALETTE)
 
 METRIC_NAMES = {'delta': 'Burrows’s Delta', 'wurzburg': 'Cosine Delta',
@@ -83,10 +88,41 @@ CODES = {
     'sivapurana_vayaviyasamhita_au': 'Vā', 'sivapurana_vidyesvarasamhita_au': 'Vy',
     'bhagavatapurana_skandha-10_adhyaya-29-33_w_commentary': 'Bh10c',
     'pranavakalpa': 'Pk',
+    # 111-unit additions: dict entries must win over the mahabharata_(\d+)
+    # regex, which would misread the appendix filenames as parvans
+    'harivamsa': 'HV',
+    'mahabharata_02-appendix-21_sisupala': 'MA2',
+    'mahabharata_07-appendix-08_sodasarajika': 'MA7',
+    'mahabharata_12-appendix-29_moksadharma': 'MA12',
+    'mahabharata_13-appendix-15_umamahesvara': 'MA13',
+    'mahabharata_14-appendix-04_vaisnavadharma': 'MA14',
+    'harivamsa_appendix-29-30_mathura': 'HA29',
+    'harivamsa_appendix-31': 'HA31',
+    'harivamsa_appendix-41': 'HA41',
+    'harivamsa_appendix-42_pradurbhava': 'HA42',
+    'sivadharmasastra': 'ŚDh',
+    'sivadharmottara': 'ŚDhU',
+}
+
+EXTRA_DISPLAY = {
+    'harivamsa': 'Harivaṃśa',
+    'mahabharata_02-appendix-21_sisupala': 'MBh 2 App. 21 (Śiśupāla)',
+    'mahabharata_07-appendix-08_sodasarajika': 'MBh 7 App. 8 (Ṣoḍaśarājika)',
+    'mahabharata_12-appendix-29_moksadharma': 'MBh 12 App. 29 (Mokṣadh.)',
+    'mahabharata_13-appendix-15_umamahesvara': 'MBh 13 App. 15 (Umāmah.)',
+    'mahabharata_14-appendix-04_vaisnavadharma': 'MBh 14 App. 4 (Vaiṣṇavadh.)',
+    'harivamsa_appendix-29-30_mathura': 'HV App. 29–30 (Mathurā)',
+    'harivamsa_appendix-31': 'HV App. 31',
+    'harivamsa_appendix-41': 'HV App. 41',
+    'harivamsa_appendix-42_pradurbhava': 'HV App. 42 (prādurbh.)',
+    'sivadharmasastra': 'Śivadharmaśāstra',
+    'sivadharmottara': 'Śivadharmottara',
 }
 
 
 def code(name):
+    if name in CODES:
+        return CODES[name]
     m = re.match(r'mahabharata_(\d+)', name)
     if m:
         return f'MBh{int(m.group(1))}'
@@ -103,6 +139,8 @@ def code(name):
 
 
 def display(name):
+    if name in EXTRA_DISPLAY:
+        return EXTRA_DISPLAY[name]
     m = re.match(r'mahabharata_(\d+)', name)
     if m:
         return f'MBh {int(m.group(1))}'

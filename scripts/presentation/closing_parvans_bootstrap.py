@@ -156,8 +156,9 @@ fig.legend(handles=handles, loc='center left', bbox_to_anchor=(0.805, 0.5),
            fontsize=9, frameon=False, title='sampled from\n(secure position)',
            title_fontsize=9, labelspacing=0.7)
 
-fig.suptitle('At the length of MBh 16–18, a late text can land at the epic '
-             'pole', fontsize=15, x=0.055, ha='left', y=0.955)
+fig.suptitle('Why do the last Parvans of the Mahābhārata land at the epic '
+             'pole? Can the length be the reason?',
+             fontsize=15, x=0.055, ha='left', y=0.955)
 fig.text(0.055, 0.895,
          'Random contiguous windows of securely-placed texts (MBh 3/7/12, '
          'Vāyu, Agni), each pushed through the identical pipeline and placed\n'
@@ -169,11 +170,13 @@ fig.text(0.055, 0.895,
          'the 1–2k scatter; only MBh 15, four times longer, stands apart.',
          fontsize=9.5, color='#555555', va='top', linespacing=1.5)
 
+matplotlib.rcParams['mathtext.fontset'] = 'custom'
+matplotlib.rcParams['mathtext.it'] = 'SF Pro Display:italic'
 fig.text(0.5, 0.025,
-         'Yet length is not the whole story: merged into one ~17k-word unit the '
-         'closing parvans stay at the pole, not out by MBh 11/14.\nSo their '
-         'position is register — low expository-particle overlay, narrative-pure '
-         'text — not length, and not noise.',
+         'Yet length is not the whole story: merged into one ~17k-word unit '
+         'the closing parvans stay at the pole.\nSo the age of the material '
+         'that might have been $\\it{added}$ could be old, after all? '
+         'Something to consider…',
          ha='center', va='bottom', fontsize=10, color='#16324f',
          fontweight='bold', linespacing=1.4)
 

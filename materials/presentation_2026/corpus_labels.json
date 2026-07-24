@@ -691,5 +691,89 @@
   "label": "Bhāgavata",
   "code": "Bh12",
   "display": "BhP 12"
+ },
+ {
+  "text": "harivamsa",
+  "stratum": 12,
+  "label": "Harivaṃśa",
+  "code": "HV",
+  "display": "Harivaṃśa"
+ },
+ {
+  "text": "mahabharata_02-appendix-21_sisupala",
+  "stratum": 11,
+  "label": "epic Appendix I",
+  "code": "MA2",
+  "display": "MBh 2 App. 21 (Śiśupāla)"
+ },
+ {
+  "text": "mahabharata_07-appendix-08_sodasarajika",
+  "stratum": 11,
+  "label": "epic Appendix I",
+  "code": "MA7",
+  "display": "MBh 7 App. 8 (Ṣoḍaśarājika)"
+ },
+ {
+  "text": "mahabharata_12-appendix-29_moksadharma",
+  "stratum": 11,
+  "label": "epic Appendix I",
+  "code": "MA12",
+  "display": "MBh 12 App. 29 (Mokṣadh.)"
+ },
+ {
+  "text": "mahabharata_13-appendix-15_umamahesvara",
+  "stratum": 11,
+  "label": "epic Appendix I",
+  "code": "MA13",
+  "display": "MBh 13 App. 15 (Umāmah.)"
+ },
+ {
+  "text": "mahabharata_14-appendix-04_vaisnavadharma",
+  "stratum": 11,
+  "label": "epic Appendix I",
+  "code": "MA14",
+  "display": "MBh 14 App. 4 (Vaiṣṇavadh.)"
+ },
+ {
+  "text": "harivamsa_appendix-29-30_mathura",
+  "stratum": 11,
+  "label": "epic Appendix I",
+  "code": "HA29",
+  "display": "HV App. 29–30 (Mathurā)"
+ },
+ {
+  "text": "harivamsa_appendix-31",
+  "stratum": 11,
+  "label": "epic Appendix I",
+  "code": "HA31",
+  "display": "HV App. 31"
+ },
+ {
+  "text": "harivamsa_appendix-41",
+  "stratum": 11,
+  "label": "epic Appendix I",
+  "code": "HA41",
+  "display": "HV App. 41"
+ },
+ {
+  "text": "harivamsa_appendix-42_pradurbhava",
+  "stratum": 11,
+  "label": "epic Appendix I",
+  "code": "HA42",
+  "display": "HV App. 42 (prādurbh.)"
+ },
+ {
+  "text": "sivadharmasastra",
+  "stratum": 13,
+  "label": "Śivadharma",
+  "code": "ŚDh",
+  "display": "Śivadharmaśāstra"
+ },
+ {
+  "text": "sivadharmottara",
+  "stratum": 13,
+  "label": "Śivadharma",
+  "code": "ŚDhU",
+  "display": "Śivadharmottara"
  }
 ]
