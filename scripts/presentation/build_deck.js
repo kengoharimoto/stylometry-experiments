@@ -225,7 +225,7 @@ fullFigure(pres.addSlide(), "mfw_habits",
     bullet("similar habits  →  small number"),
     bullet("different habits  →  large number"),
     plain("", {}),
-    plain("Result: a 101 × 101 table of stylistic distances", { fontSize: 18 }),
+    plain("Result: a 111 × 111 table of stylistic distances", { fontSize: 18 }),
     plain("(Burrows’s Delta — stylometry’s standard workhorse since 2002)",
       { italic: true, fontSize: 13, color: FAINT, breakLine: false }),
   ], { x: 0.9, y: 2.1, w: 6.2, h: 4.4, fontFace: BODY, fontSize: 17, color: INK,
@@ -278,7 +278,7 @@ fullFigure(pres.addSlide(), "mfw_habits",
 fullFigure(pres.addSlide(), "mds_explainer",
   "Mileage-chart analogy: given only road distances between cities you can " +
   "redraw the map of India. MDS does exactly that with stylistic distances. " +
-  "The opening map is this with the full 101×101 table. Axes mean nothing by " +
+  "The opening map is this with the full 111×111 table. Axes mean nothing by " +
   "themselves; only nearness does.");
 
 // ══ Act 3 — Reading the map ═══════════════════════════════════════════════════
@@ -337,29 +337,6 @@ tourSlide("Reading the map · 4", "The sectarian & encyclopedic mass", "hero_W1_
   "The stratum shades from texts still close to the old core (Kūrma, Liṅga, " +
   "Viṣṇudharmottara) out to the self-quoting digests at the right, where its " +
   "style is simply the style of the digest.");
-
-// 13b · The Bhaviṣya: a text that is mostly other texts
-fullFigure(pres.addSlide(), "bhavisya_reuse_strip",
-  "Reading the map · 4b. Three beats. (1) THE SCALE: 47% of the entire " +
-  "Bhaviṣya (40k pāda-units; Brāhmaparvan 38%, Uttaraparvan 59%) matches " +
-  "another text at ≥0.7 — the extreme case of compilation literature. " +
-  "Nibandhas (Kṛtyakalpataru, Hemādri) quote FROM it, so they date its " +
-  "terminus, not its sources; the big donors are Padma, Matsya, the " +
-  "Sāmbapurāṇa, and the Śivadharma corpus — the last now on our map as " +
-  "units, donor and mosaic on one plot. (2) BLOCK-WISE AND DATABLE: " +
-  "1.2–1.7 is Manusmṛti 1–3 nearly contiguously; the saura bands " +
-  "(1.52–1.80, 1.121–1.145) are the Sāmba–Brahmapurāṇa corpus with " +
-  "Vāyu/Brahmāṇḍa astronomy upstream; 1.25–26 Bṛhatsaṃhitā; Uttara 4.4–6 " +
-  "is the Śivadharmottara wholesale; the vrata chapters run at 60–96% " +
-  "reuse. Each ingredient carries its own date — the mosaic is bracketed " +
-  "between its sources and its citers. (3) THE CROSS-CONFESSIONAL ONE: " +
-  "the physiognomy block shares verse text with the Śārdūlakarṇāvadāna " +
-  "(Divyāvadāna 33) — say 'shared divination tradition', not 'borrowed " +
-  "from the Buddhists'. PUNCHLINE: not an author's stratum — a " +
-  "compilation event with datable ingredients. NEVER give the Bhaviṣya a " +
-  "single date (the Pratisargaparvan prophesies Queen Victoria): " +
-  "per-block bracketing is the only dating it admits, and that is " +
-  "precisely what the scan delivers and one dot on the map cannot.");
 
 tourSlide("Reading the map · 5", "A purāṇa that refuses to unify", "hero_W1_delta_MDS_hl-skmp", [
   bullet("the Skāndamahāpurāṇa: 0 of 4 khaṇḍas with an internal nearest neighbour, in either lens"),
@@ -446,72 +423,77 @@ fullFigure(pres.addSlide(), "robustness_grid",
     "weakness. The Bhāgavata's vertical displacement is the clearest case.");
 }
 
-// ══ Act 5 — Caveats and implications ══════════════════════════════════════════
+// ══ Act 5 — What those two lenses show: old problems, revived ═════════════════
 
 // 18 · Confounds
 {
   const s = pres.addSlide();
   s.background = { color: "FFFFFF" };
-  kicker(s, "Caveats");
+  kicker(s, "Old problems, revived");
   title(s, "What the axis is made of");
   s.addText("“Diachronic linguistic drift” — but confounded:", {
     x: 0.9, y: 1.75, w: 11, h: 0.5, fontFace: BODY, fontSize: 19, italic: true,
     color: MUTED, margin: 0 });
   const rows = [
-    ["metre", "the favourite particles are anuṣṭubh fillers; particle habits are partly versification habits"],
-    ["borrowing", "the tightest links ride on shared ślokas — Delta cannot tell “same school” from “copied the same 2,000 verses”"],
-    ["genre", "narrative vs. didactic vs. digest"],
+    ["authorial aptitude", "in composing metrical Sanskrit: the use of more fillers as the aptitude goes down — the better the author, the fewer the fillers"],
+    ["reuse of preexisting material", "the more the materials are shared, the tighter the groups the containers form (see B8)"],
+    ["genre", "when the vocabularies are completely different, there is no telling where they land"],
   ];
   rows.forEach(([a, b], i) => {
     const y = 2.5 + i * 1.15;
-    s.addText(a, { x: 1.0, y, w: 2.3, h: 1.0, fontFace: HEAD, fontSize: 21,
+    s.addText(a, { x: 1.0, y, w: 3.3, h: 1.0, fontFace: HEAD, fontSize: 19,
       bold: true, color: BLUE, margin: 0 });
-    s.addText(b, { x: 3.6, y, w: 8.9, h: 1.0, fontFace: BODY, fontSize: 17,
+    s.addText(b, { x: 4.5, y, w: 8.0, h: 1.0, fontFace: BODY, fontSize: 16,
       color: INK, margin: 0 });
   });
-  s.addText("So the epic pole marks low expository overlay — it tracks early " +
-    "date but is not a date: the closing books (MBh 16–18) land there too, " +
-    "whatever the age of their material.", {
-    x: 1.0, y: 6.15, w: 11.5, h: 0.9, fontFace: BODY, fontSize: 16, italic: true,
+  s.addText("Look at where the final parvans of the MBh landed in our map — " +
+    "exactly the parvans whose relative dates are contested. And look at " +
+    "where the Śivadharmaśāstra and the Śivadharmottara are positioned: the " +
+    "purāṇas known to incorporate them are very much to the left.", {
+    x: 1.0, y: 6.0, w: 11.5, h: 1.1, fontFace: BODY, fontSize: 15, italic: true,
     color: MUTED, margin: 0 });
-  s.addNotes("Drift, metre, borrowing and genre are entangled in the texts " +
-    "themselves; the axis is real but not purely temporal. The closing parvans " +
-    "(backup) are the sharp case: at 1–3k words their individual positions are " +
-    "unreliable, but merged they stay at the pole — register, not length.");
+  s.addNotes("MFWs tend to be fillers; inapt authors tend to rely on metre " +
+    "fillers. The Bhāgavata: when was it composed? An old problem — it shows " +
+    "in our map (B7). The mode or the motivation of " +
+    "composition/compilation: e.g. the Bhaviṣya (B8 and B9).");
 }
 
-// 19 · What this is — and is not
+// 19 · What's the point of this?
 {
   const s = pres.addSlide();
   s.background = { color: "FFFFFF" };
-  kicker(s, "Implications");
-  title(s, "What this is — and is not");
+  kicker(s, "Old problems, revived");
+  title(s, "What’s the point of this?");
   s.addText([
-    bullet("purāṇas have no authors  →  this is stratum and textual-family " +
-      "detection, not authorship attribution"),
-    bullet("an independent, replicable witness beside content criteria and " +
-      "testimonia — and a new perspective on old problems"),
-    bullet("the maps do not settle questions; they point at them — where to " +
-      "look, what to reopen"),
-    bullet("it will not date your text; it will tell you whose company it keeps",
+    bullet("our lenses confirm some things we had suspected: the relative " +
+      "age of the epics; the didactic portions of the MBh being late; the " +
+      "affinity of certain purāṇas; the relative age of uncontaminated " +
+      "purāṇas (Skandapurāṇa)"),
+    bullet("at the same time, they illuminate contentious issues: the " +
+      "relative dates of the closing parvans of the Mahābhārata; the " +
+      "relative age of the Mahābhārata and the Rāmāyaṇa — they show up at " +
+      "about the same place, confirming the long-suspected composition at " +
+      "about the same time"),
+    bullet("it will not date your text; it will tell you whose company it keeps"),
+    bullet("it also tells us where interesting things are happening: the " +
+      "uniqueness of the Bhāgavatapurāṇa deserves serious thought again; " +
+      "the composition — not integration — date of the closing parvans " +
+      "wants unprecedented approaches; the provenance of the Bhaviṣya " +
+      "wants fine-grained research; etc., etc., …",
       { breakLine: false }),
-  ], { x: 1.0, y: 2.1, w: 11.3, h: 3.6, fontFace: BODY, fontSize: 20,
-       color: INK, paraSpaceAfter: 18 });
+  ], { x: 1.0, y: 2.0, w: 11.3, h: 4.6, fontFace: BODY, fontSize: 16,
+       color: INK, paraSpaceAfter: 14 });
   s.addNotes("This is the point of the whole talk: the counts make us look " +
     "at old problems from a new angle, and the charts hand scholars hints " +
-    "about where to dig. Every tour stop today generated a researchable " +
-    "question rather than a verdict: what are the Bhāgavata’s two layers? " +
-    "why do the Skāndamahāpurāṇa’s khaṇḍas share nothing? what are the two " +
-    "Revākhaṇḍas to each other? what happened to the closing parvans — " +
-    "composition or integration? Position the method modestly; invite " +
-    "collaboration on specific text-historical problems.");
+    "about where to dig. The Bhaviṣya being the fountain of many " +
+    "interesting things — wish there were time to show slide B9.");
 }
 
 // 20 · Closing
 {
   const s = pres.addSlide();
   s.background = { color: NAVY };
-  s.addText("Counted habits, familiar history.", {
+  s.addText("Counted habits, familiar history and familiar problems.", {
     x: 1.0, y: 0.55, w: W - 2, h: 0.8, fontFace: HEAD, fontSize: 30,
     italic: true, color: "FFFFFF", align: "center" });
   const iw = 9.6, ih = iw * 7.5 / 13.33;
@@ -553,7 +535,7 @@ fullFigure(pres.addSlide(), "robustness_grid",
   const s = pres.addSlide();
   s.background = { color: "FFFFFF" };
   kicker(s, "Backup");
-  title(s, "The 101 texts and their strata");
+  title(s, "The 111 texts and their strata");
   const data = JSON.parse(fs.readFileSync(path.join(MAT, "corpus_labels.json"), "utf8"));
   const byStratum = new Map();
   data.forEach((d) => {
@@ -698,9 +680,34 @@ fullFigure(pres.addSlide(), "reuse_overlay_MDS",
   "shared ślokas: the map measures habit, the edges measure copying, and " +
   "they are different facts about the corpus.");
 
-// B9 · Why the Śivadharma pair plots "late" (Q&A; works from the hero map)
+// B9 · The Bhaviṣya: a text that is mostly other texts
+fullFigure(pres.addSlide(), "bhavisya_reuse_strip",
+  "B9 — three beats. (1) THE SCALE: 47% of the entire " +
+  "Bhaviṣya (40k pāda-units; Brāhmaparvan 38%, Uttaraparvan 59%) matches " +
+  "another text at ≥0.7 — the extreme case of compilation literature. " +
+  "Nibandhas (Kṛtyakalpataru, Hemādri) quote FROM it, so they date its " +
+  "terminus, not its sources; the big donors are Padma, Matsya, the " +
+  "Sāmbapurāṇa, and the Śivadharma corpus — the last now on our map as " +
+  "units, donor and mosaic on one plot. (2) BLOCK-WISE AND DATABLE: " +
+  "1.2–1.7 is Manusmṛti 1–3 nearly contiguously; the saura bands " +
+  "(1.52–1.80, 1.121–1.145) are the Sāmba–Brahmapurāṇa corpus with " +
+  "Vāyu/Brahmāṇḍa astronomy upstream; 1.25–26 Bṛhatsaṃhitā; Uttara 4.4–6 " +
+  "is the Śivadharmottara wholesale; the vrata chapters run at 60–96% " +
+  "reuse. Each ingredient carries its own date — the mosaic is bracketed " +
+  "between its sources and its citers. (3) THE CROSS-CONFESSIONAL ONE: " +
+  "the physiognomy block shares verse text with the Śārdūlakarṇāvadāna " +
+  "(Divyāvadāna 33) — say 'shared divination tradition', not 'borrowed " +
+  "from the Buddhists'. PUNCHLINE: not an author's stratum — a " +
+  "compilation event with datable ingredients. NEVER give the Bhaviṣya a " +
+  "single date (the Pratisargaparvan prophesies Queen Victoria): " +
+  "per-block bracketing is the only dating it admits, and that is " +
+  "precisely what the scan delivers and one dot on the map cannot. If " +
+  "shown after slide 14: the Bhaviṣya is the mosaic that stayed together; " +
+  "the Skāndamahāpurāṇa a 'purāṇa' whose parts never even met.");
+
+// B10 · Why the Śivadharma pair plots "late" (Q&A; works from the hero map)
 fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
-  "B9 — why do ŚDh and ŚDhU sit at the right edge (axis-1 ranks 109 and " +
+  "B10 — why do ŚDh and ŚDhU sit at the right edge (axis-1 ranks 109 and " +
   "106 of 111) while the purāṇas that absorbed them plot far to their " +
   "left (ŚiP Dharmasaṃhitā rank 70, Bhaviṣya 76, Padma 48)? (1) Not the " +
   "expository particles — their tu/eva/tathā/vai are LOW (ŚDhU's vai " +

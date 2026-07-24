@@ -342,89 +342,6 @@ shades from texts still close to the old core (Kūrma, Liṅga, Viṣṇudharmot
 out to the self-quoting digests at the right, where the style is simply the
 style of the digest.
 
-### Slide 13b · The Bhaviṣya: a text that is mostly other texts
-
-**Figure:** `bhavisya_reuse_strip` (built: one bar per chapter, Brāhma +
-Uttara parvans, width ∝ chapter length in pāda-units, height = % matched in
-the all-texts scan, colour = dominant donor family — Manu/smṛtis,
-Sāmba–Brahmapurāṇa saura, Śivadharma, Matsya/Padma vrata, Viṣṇudharma,
-Vāyu–Brahmāṇḍa–Harivaṃśa; hatched = matched only in the nibandha citers;
-▲/▼ markers = Buddhist / Bṛhatsaṃhitā chapters).
-
-**On slide:**
-
-> The **Bhaviṣyapurāṇa**, scanned pāda-by-pāda against the whole e-text library:
->
-> - **47% of its pāda-units occur in other texts** (Brāhmaparvan 38%,
->   Uttaraparvan 59%)
-> - the borrowing is **block-wise and source-datable**: Manusmṛti swallowed
->   whole, the Sāmbapurāṇa's saura corpus, Śivadharmaśāstra & -ottara,
->   Bṛhatsaṃhitā, Matsya-type vrata blocks — and a physiognomy block shared
->   with the **Buddhist Śārdūlakarṇāvadāna**
-> - whole stretches match **nothing** — a genuine own-text residue in between
->
-> *Not an author's stratum — a compilation event with datable ingredients.*
-
-**Cue:** three points, in order. (1) **The scale**: 47% of the entire text
-(40k pāda-units) matches something else at ≥0.7 — no other unit on the map
-comes close; the Bhaviṣya stands out as the extreme case of what slide 13
-called compilation literature. Setting aside the dharmanibandhas (Kṛtyakalpataru,
-Hemādri — they quote *from* the Bhaviṣya, so they date its terminus, not its
-sources), the big donors are Padma, Matsya (median similarity 0.909), the
-Sāmbapurāṇa, and the Śivadharma corpus — the last now in our corpus as
-units, so the donor and the mosaic sit on the same map. (2) **Block-wise and source-datable**: Brāhmaparvan
-1.2–1.7 is Manusmṛti 1–3 incorporated nearly contiguously (201 units of
-Mn 2.64–2.248 in one chapter); 1.17 is stitched from the Śivadharmaśāstra
-and Śivadharmottara; 1.25–26 from the Bṛhatsaṃhitā; the vrata chapters of the
-Uttaraparvan run at 60–96% reuse. Each ingredient carries its own date, so
-the mosaic is bracketed between its sources and its citers. (3) **The unique
-one**: the physiognomy/palmistry chapters (Brāhmaparvan, around the
-puruṣalakṣaṇa block, ed. adhy. ~27–29) share a block with the
-Śārdūlakarṇāvadāna — the divination compendium embedded in a *Buddhist*
-avadāna (Divyāvadāna 33) — plus scattered echoes of the Mañjuśrīmūlakalpa.
-A purāṇa and a Buddhist scripture drawing on one divination tradition across
-the confessional line. Noted in the philology (Zysk 2016 places the Bhaviṣya
-among the four early witnesses of this omen corpus beside the ŚKA; Zysk 2025
-edits the ŚKA palmistry chapter and dates its redaction after 850 CE) — but
-the scan finds it blind, from the counts, and maps its exact extent.
-Direction is genuinely open: say "shared tradition," not "borrowed from the
-Buddhists" — and resist dating the comparison at all: the Bhaviṣya has no
-date, only its blocks do. This *is* the slide's point: a text whose
-compilation demonstrably ran into the modern era (the Pratisargaparvan
-prophesies the British and Queen Victoria — the received text postdates the
-1857 era it "foretells") can still contain blocks old enough to sit beside a
-first-millennium Buddhist compendium. Per-block bracketing is the only
-dating the Bhaviṣya admits — which is exactly what the reuse scan delivers
-and a single point on a stylometric map cannot.
-
-If asked what the *original* Bhaviṣya was (or as a fourth beat if time
-allows): the old theory — Hazra, then von Stietencron 1966 — is that it
-began as the purāṇa of the sun cult, in two strands: an Indian Saura strand,
-and the Maga strand — the Śākadvīpīya sun-priests whom the Sāmba legend
-brings from "Śaka-dvīpa" to Multan, historically Iranian Magi with
-Zoroastrian traits intact (the avyaṅga girdle) serving the solar Mihira
-(=Mithra). A "Bhaviṣyat-purāṇa" is already cited in the
-Āpastamba-dharmasūtra. And the Iranian thread ties the beats together: the
-astral-omen material in the ŚKA and Mañjuśrīmūlakalpa is itself held (since
-Pingree) to be Mesopotamian divination science transmitted through
-Achaemenid Iran into the Northwest — so the purāṇa whose priestly core is
-Iranian and the Buddhist compendia it shares omen blocks with drank from the
-same northwest divination culture. The cross-confessional parallel is not a
-curiosity at the text's edge; it matches what the text was from the start.
-The Sāmba side is now measured, not assumed: with the scraped Sāmbapurāṇa
-e-text added, the formerly zero-match sun-cult chapters light up (Bh
-1.72–77 ↔ Sāmba adhy. 2–6 at 35–73%; the Sāmba bands 1.52–1.58, 1.66–1.80,
-1.121–1.145 total ~1,800 matched units — the top named purāṇic parallel of
-the Brāhmaparvan). The relationship is triangular, not pairwise: the same
-corpus runs through Brahmapurāṇa 28–33, and the astronomy chapters descend
-from the Vāyu/Brahmāṇḍa tradition — "shared saura corpus," not "X borrowed
-Y." Standing honesty caveat: "matches nothing" always means nothing *in
-the library* — the Sāmba case shows exactly how a missing donor manufactures
-an own-text illusion, and how adding one witness dissolves it.
-
-Bridge to slide 14: the Bhaviṣya is the mosaic that *stayed together*;
-next, a "purāṇa" whose parts never even met.
-
 ### Slide 14 · A purāṇa that refuses to unify
 
 **Figure:** `hero_W1_delta_MDS_hl-skmp` (highlight).
@@ -521,7 +438,7 @@ The Bhāgavata's vertical displacement is the clearest case.
 
 ---
 
-## Act 5 — Caveats and implications (slides 19–21, ~3–4 min)
+## Act 5 — What those two lenses show: Old problems, rivived (slides 19–21, ~3–4 min)
 
 ### Slide 19 · What the axis is made of
 
@@ -529,43 +446,31 @@ The Bhāgavata's vertical displacement is the clearest case.
 
 > "Diachronic linguistic drift" — but **confounded**:
 >
-> - **metre**: the favourite particles are anuṣṭubh fillers; particle habits
->   are partly versification habits
-> - **borrowing**: the tightest links ride on shared ślokas — Delta cannot
->   tell "same school" from "copied the same 2,000 verses"
-> - **genre**: narrative vs. didactic vs. digest
->
-> *So the epic pole marks low expository overlay — it tracks early date but
-> is not a date: the closing books (MBh 16–18) land there too, whatever the
-> age of their material.*
+> - **authorial aptitude in composing metrical Sanskrit**: the use of more fillers 
+>   as the aptitude goes down. The better author, the less fillers
+>   
+> - **reuse of preexisting material**: the more the materials are shared, the tighter 
+>   groups the containers form (See slide B8)
+> 
+> - **genre**: when the vocabularies are completely different, there is no telling where 
+>   they land
+> 
+> *Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; Also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.*
 
-**Cue:** drift, metre, borrowing and genre are entangled *in the texts
-themselves*; the axis is real but not purely temporal. On the closing books,
-keep two dates apart: the composition of the material and its integration
-into the Mahābhārata — the "late epilogue" verdict (e.g. Brockington; a
-position in the literature, not one we endorse) is at most a claim about
-the integration; the counts cannot arbitrate the age of the material (old
-material integrated late and young material left redactionally thin look
-the same here), and if the material is young, their tiny sizes mean length
-alone can account for the extreme individual positions (B6). If the borrowing
-bullet draws a question, B8 has the measured answer: the reuse web and the
-style map are different structures.
+**Cue:** mfws tend to be fillers. Inapt authors tend to rely on meter fillers. The Bhāgavata: when was it composed? An old problem. It shows in our map. (B7). The mode or the motivation of composition/compilation. E.g., the Bhaviṣya (B8 and B9).
 
-### Slide 20 · What this is — and is not
+### Slide 20 · Whats' the point of this?
 
 **On slide:**
 
-> - Purāṇas have **no authors** → this is **stratum and textual-family
->   detection**, not authorship attribution
-> - an **independent, replicable witness** beside content criteria and
->   testimonia — and a **new perspective on old problems**
-> - the maps do not settle questions; they **point at them** — where to
->   look, what to reopen
+> - Our lenses confirm some things that we had suspected: The relative age of the epics; the didactic portions of the MBh being late; the affinity of certain purāṇas; relative age of uncontaminated Purāṇas (Skandapurāṇa)
+> - At the same time, it illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed **about the same time**)
 > - It will not date your text; it will tell you **whose company it keeps**
+> - It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniquness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the **composition, not integration** date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ... 
 
 **Cue:** this is the point of the whole talk: the counts make us look at old
 problems from a new angle, and the charts hand scholars hints about where to
-dig. ... 
+dig. ... The Bhaviṣya being the fountain of many interesting things. Wish I have time to show slide B9.
 
 ### Slide 21 · Closing
 
@@ -573,7 +478,7 @@ dig. ...
 
 **On slide (one line over the figure):**
 
-> *Counted habits, familiar history.*
+> *Counted habits, familiar history and familiar problems.*
 
 **Cue:** end where we began — now everyone can read the map. Thanks; over to
 questions.
@@ -713,7 +618,90 @@ shared ślokas: even massive verbatim overlap does not drag two texts
 together when their bulk habits differ. The map measures habit; the edges
 measure copying; they are different facts about the corpus.
 
-### B9 · Why the Śivadharma pair plots "late" (cue material; place freely)
+### B9 · The Bhaviṣya: a text that is mostly other texts
+
+**Figure:** `bhavisya_reuse_strip` (built: one bar per chapter, Brāhma +
+Uttara parvans, width ∝ chapter length in pāda-units, height = % matched in
+the all-texts scan, colour = dominant donor family — Manu/smṛtis,
+Sāmba–Brahmapurāṇa saura, Śivadharma, Matsya/Padma vrata, Viṣṇudharma,
+Vāyu–Brahmāṇḍa–Harivaṃśa; hatched = matched only in the nibandha citers;
+▲/▼ markers = Buddhist / Bṛhatsaṃhitā chapters).
+
+**On slide:**
+
+> The **Bhaviṣyapurāṇa**, scanned pāda-by-pāda against the whole e-text library:
+>
+> - **47% of its pāda-units occur in other texts** (Brāhmaparvan 38%,
+>   Uttaraparvan 59%)
+> - the borrowing is **block-wise and source-datable**: Manusmṛti swallowed
+>   whole, the Sāmbapurāṇa's saura corpus, Śivadharmaśāstra & -ottara,
+>   Bṛhatsaṃhitā, Matsya-type vrata blocks — and a physiognomy block shared
+>   with the **Buddhist Śārdūlakarṇāvadāna**
+> - whole stretches match **nothing** — a genuine own-text residue in between
+>
+> *Not an author's stratum — a compilation event with datable ingredients.*
+
+**Cue:** three points, in order. (1) **The scale**: 47% of the entire text
+(40k pāda-units) matches something else at ≥0.7 — no other unit on the map
+comes close; the Bhaviṣya stands out as the extreme case of what slide 13
+called compilation literature. Setting aside the dharmanibandhas (Kṛtyakalpataru,
+Hemādri — they quote *from* the Bhaviṣya, so they date its terminus, not its
+sources), the big donors are Padma, Matsya (median similarity 0.909), the
+Sāmbapurāṇa, and the Śivadharma corpus — the last now in our corpus as
+units, so the donor and the mosaic sit on the same map. (2) **Block-wise and source-datable**: Brāhmaparvan
+1.2–1.7 is Manusmṛti 1–3 incorporated nearly contiguously (201 units of
+Mn 2.64–2.248 in one chapter); 1.17 is stitched from the Śivadharmaśāstra
+and Śivadharmottara; 1.25–26 from the Bṛhatsaṃhitā; the vrata chapters of the
+Uttaraparvan run at 60–96% reuse. Each ingredient carries its own date, so
+the mosaic is bracketed between its sources and its citers. (3) **The unique
+one**: the physiognomy/palmistry chapters (Brāhmaparvan, around the
+puruṣalakṣaṇa block, ed. adhy. ~27–29) share a block with the
+Śārdūlakarṇāvadāna — the divination compendium embedded in a *Buddhist*
+avadāna (Divyāvadāna 33) — plus scattered echoes of the Mañjuśrīmūlakalpa.
+A purāṇa and a Buddhist scripture drawing on one divination tradition across
+the confessional line. Noted in the philology (Zysk 2016 places the Bhaviṣya
+among the four early witnesses of this omen corpus beside the ŚKA; Zysk 2025
+edits the ŚKA palmistry chapter and dates its redaction after 850 CE) — but
+the scan finds it blind, from the counts, and maps its exact extent.
+Direction is genuinely open: say "shared tradition," not "borrowed from the
+Buddhists" — and resist dating the comparison at all: the Bhaviṣya has no
+date, only its blocks do. This *is* the slide's point: a text whose
+compilation demonstrably ran into the modern era (the Pratisargaparvan
+prophesies the British and Queen Victoria — the received text postdates the
+1857 era it "foretells") can still contain blocks old enough to sit beside a
+first-millennium Buddhist compendium. Per-block bracketing is the only
+dating the Bhaviṣya admits — which is exactly what the reuse scan delivers
+and a single point on a stylometric map cannot.
+
+If asked what the *original* Bhaviṣya was (or as a fourth beat if time
+allows): the old theory — Hazra, then von Stietencron 1966 — is that it
+began as the purāṇa of the sun cult, in two strands: an Indian Saura strand,
+and the Maga strand — the Śākadvīpīya sun-priests whom the Sāmba legend
+brings from "Śaka-dvīpa" to Multan, historically Iranian Magi with
+Zoroastrian traits intact (the avyaṅga girdle) serving the solar Mihira
+(=Mithra). A "Bhaviṣyat-purāṇa" is already cited in the
+Āpastamba-dharmasūtra. And the Iranian thread ties the beats together: the
+astral-omen material in the ŚKA and Mañjuśrīmūlakalpa is itself held (since
+Pingree) to be Mesopotamian divination science transmitted through
+Achaemenid Iran into the Northwest — so the purāṇa whose priestly core is
+Iranian and the Buddhist compendia it shares omen blocks with drank from the
+same northwest divination culture. The cross-confessional parallel is not a
+curiosity at the text's edge; it matches what the text was from the start.
+The Sāmba side is now measured, not assumed: with the scraped Sāmbapurāṇa
+e-text added, the formerly zero-match sun-cult chapters light up (Bh
+1.72–77 ↔ Sāmba adhy. 2–6 at 35–73%; the Sāmba bands 1.52–1.58, 1.66–1.80,
+1.121–1.145 total ~1,800 matched units — the top named purāṇic parallel of
+the Brāhmaparvan). The relationship is triangular, not pairwise: the same
+corpus runs through Brahmapurāṇa 28–33, and the astronomy chapters descend
+from the Vāyu/Brahmāṇḍa tradition — "shared saura corpus," not "X borrowed
+Y." Standing honesty caveat: "matches nothing" always means nothing *in
+the library* — the Sāmba case shows exactly how a missing donor manufactures
+an own-text illusion, and how adding one witness dissolves it.
+
+If shown after slide 14: the Bhaviṣya is the mosaic that *stayed*
+*together*; the Skāndamahāpurāṇa a "purāṇa" whose parts never even met.
+
+### B10 · Why the Śivadharma pair plots "late" (cue material; place freely)
 
 No figure of its own yet — works from the hero map (ŚDh, ŚDhU at the right
 edge) as a Q&A answer or a beat wherever the axis-reading caveat comes up.
