@@ -138,9 +138,11 @@ fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
     s.addText("entered the computation", { x: 1.55, y: y + 0.42, w: 6.5, h: 0.35,
       fontFace: BODY, fontSize: 13, italic: true, color: FAINT, margin: 0 });
   });
+  s.addShape(pres.shapes.LINE, { x: 8.15, y: 2.35, w: 0, h: 2.45,
+    line: { color: CARD_EDGE, width: 1 } });
   s.addText("The colors were painted on afterwards.", {
-    x: 8.0, y: 2.5, w: 4.6, h: 0.9, fontFace: HEAD, fontSize: 20, italic: true,
-    color: MUTED, margin: 0,
+    x: 8.55, y: 2.35, w: 4.1, h: 2.45, fontFace: HEAD, fontSize: 20, italic: true,
+    color: MUTED, margin: 0, valign: "middle",
   });
   s.addText("Yet the familiar relative chronology reads left to right.", {
     x: 0.9, y: 5.7, w: W - 1.8, h: 0.8, fontFace: HEAD, fontSize: 26, bold: true,
@@ -407,17 +409,18 @@ fullFigure(pres.addSlide(), "robustness_grid",
   kicker(s, "Why believe the axis?");
   title(s, "What the second axis is not");
   s.addText([
-    plain("The vertical axis is unstable across configurations.", { fontSize: 22 }),
+    plain("The vertical axis is unstable across configurations.", { fontSize: 24 }),
     plain("", {}),
     plain("Depending on features and metric it separates by something like " +
       "genre, region, or sectarian register — no labeling survives all six " +
       "panels.", { fontSize: 18, color: MUTED, breakLine: false }),
-  ], { x: 0.9, y: 2.1, w: 11.4, h: 2.4, fontFace: BODY, color: INK,
-       paraSpaceAfter: 10 });
+  ], { x: 1.0, y: 2.2, w: 11.3, h: 2.2, fontFace: BODY, color: INK,
+       valign: "top", paraSpaceAfter: 10 });
   s.addText([
     { text: "Honest conclusion:  ", options: { bold: true } },
-    { text: "one axis is chronology-like and robust; the second resists a stable name." },
-  ], { x: 0.9, y: 5.0, w: 11.4, h: 1.1, fontFace: HEAD, fontSize: 22,
+    { text: "one axis is chronology-like and robust;", options: { breakLine: true } },
+    { text: "the second resists a stable name." },
+  ], { x: 0.7, y: 4.9, w: 11.9, h: 1.5, fontFace: HEAD, fontSize: 22,
        color: BLUE, align: "center", valign: "middle" });
   s.addNotes("Promised in the abstract; agnosticism as a feature, not a " +
     "weakness. The Bhāgavata's vertical displacement is the clearest case.");
@@ -440,18 +443,20 @@ fullFigure(pres.addSlide(), "robustness_grid",
     ["genre", "when the vocabularies are completely different, there is no telling where they land"],
   ];
   rows.forEach(([a, b], i) => {
-    const y = 2.5 + i * 1.15;
-    s.addText(a, { x: 1.0, y, w: 3.3, h: 1.0, fontFace: HEAD, fontSize: 19,
-      bold: true, color: BLUE, margin: 0 });
-    s.addText(b, { x: 4.5, y, w: 8.0, h: 1.0, fontFace: BODY, fontSize: 16,
-      color: INK, margin: 0 });
+    const y = 2.45 + i * 1.1;
+    s.addText(a, { x: 1.0, y, w: 3.3, h: 0.95, fontFace: HEAD, fontSize: 19,
+      bold: true, color: BLUE, margin: 0, valign: "top" });
+    s.addText(b, { x: 4.5, y, w: 8.0, h: 0.95, fontFace: BODY, fontSize: 16,
+      color: INK, margin: 0, valign: "top" });
   });
+  s.addShape(pres.shapes.LINE, { x: 1.0, y: 5.85, w: 11.3, h: 0,
+    line: { color: CARD_EDGE, width: 1 } });
   s.addText("Look at where the final parvans of the MBh landed in our map — " +
     "exactly the parvans whose relative dates are contested. And look at " +
     "where the Śivadharmaśāstra and the Śivadharmottara are positioned: the " +
     "purāṇas known to incorporate them are very much to the left.", {
-    x: 1.0, y: 6.0, w: 11.5, h: 1.1, fontFace: BODY, fontSize: 15, italic: true,
-    color: MUTED, margin: 0 });
+    x: 1.0, y: 6.05, w: 11.3, h: 1.1, fontFace: BODY, fontSize: 15, italic: true,
+    color: MUTED, margin: 0, valign: "top" });
   s.addNotes("MFWs tend to be fillers; inapt authors tend to rely on metre " +
     "fillers. The Bhāgavata: when was it composed? An old problem — it shows " +
     "in our map (B7). The mode or the motivation of " +
@@ -465,24 +470,29 @@ fullFigure(pres.addSlide(), "robustness_grid",
   kicker(s, "Old problems, revived");
   title(s, "What’s the point of this?");
   s.addText([
-    bullet("our lenses confirm some things we had suspected: the relative " +
-      "age of the epics; the didactic portions of the MBh being late; the " +
-      "affinity of certain purāṇas; the relative age of uncontaminated " +
-      "purāṇas (Skandapurāṇa)"),
-    bullet("at the same time, they illuminate contentious issues: the " +
-      "relative dates of the closing parvans of the Mahābhārata; the " +
+    bullet("our lenses confirm some things we had suspected:  ",
+      { bold: true, breakLine: false }),
+    plain("the relative age of the epics; the didactic portions of the MBh " +
+      "being late; the affinity of certain purāṇas; the relative age of " +
+      "uncontaminated purāṇas (Skandapurāṇa)"),
+    bullet("at the same time, they illuminate contentious issues:  ",
+      { bold: true, breakLine: false }),
+    plain("the relative dates of the closing parvans of the Mahābhārata; the " +
       "relative age of the Mahābhārata and the Rāmāyaṇa — they show up at " +
       "about the same place, confirming the long-suspected composition at " +
       "about the same time"),
-    bullet("it will not date your text; it will tell you whose company it keeps"),
-    bullet("it also tells us where interesting things are happening: the " +
-      "uniqueness of the Bhāgavatapurāṇa deserves serious thought again; " +
-      "the composition — not integration — date of the closing parvans " +
-      "wants unprecedented approaches; the provenance of the Bhaviṣya " +
-      "wants fine-grained research; etc., etc., …",
+    bullet("it will not date your text; it will tell you ",
       { breakLine: false }),
-  ], { x: 1.0, y: 2.0, w: 11.3, h: 4.6, fontFace: BODY, fontSize: 16,
-       color: INK, paraSpaceAfter: 14 });
+    plain("whose company it keeps", { bold: true }),
+    bullet("it also tells us where interesting things are happening:  ",
+      { bold: true, breakLine: false }),
+    plain("the uniqueness of the Bhāgavatapurāṇa deserves serious thought " +
+      "again; the composition — not integration — date of the closing " +
+      "parvans wants unprecedented approaches; the provenance of the " +
+      "Bhaviṣya wants fine-grained research; etc., etc., …",
+      { breakLine: false }),
+  ], { x: 1.0, y: 1.8, w: 11.3, h: 5.0, fontFace: BODY, fontSize: 17,
+       color: INK, valign: "middle", paraSpaceAfter: 16 });
   s.addNotes("This is the point of the whole talk: the counts make us look " +
     "at old problems from a new angle, and the charts hand scholars hints " +
     "about where to dig. The Bhaviṣya being the fountain of many " +
@@ -526,8 +536,8 @@ fullFigure(pres.addSlide(), "robustness_grid",
     bullet("Delta(A, B) = the average disagreement of A and B across those words"),
     bullet("variants in the grid: Cosine Delta (angle instead of average); " +
       "min-max and Manhattan (raw-frequency geometry)", { breakLine: false }),
-  ], { x: 1.0, y: 2.05, w: 11.3, h: 3.4, fontFace: BODY, fontSize: 19,
-       color: INK, paraSpaceAfter: 16 });
+  ], { x: 1.0, y: 1.8, w: 11.3, h: 4.8, fontFace: BODY, fontSize: 19,
+       color: INK, valign: "middle", paraSpaceAfter: 20 });
 }
 
 // B2 · Full corpus with strata (from corpus_labels.json)
@@ -583,8 +593,8 @@ fullFigure(pres.addSlide(), "robustness_grid",
       "unreliable positions"),
     bullet("marked as small dots on every map; none of the argument rests on them",
       { breakLine: false }),
-  ], { x: 1.0, y: 2.05, w: 11.3, h: 3.4, fontFace: BODY, fontSize: 19,
-       color: INK, paraSpaceAfter: 16 });
+  ], { x: 1.0, y: 1.8, w: 11.3, h: 4.8, fontFace: BODY, fontSize: 19,
+       color: INK, valign: "middle", paraSpaceAfter: 20 });
 }
 
 // B4 · When the lenses disagree
