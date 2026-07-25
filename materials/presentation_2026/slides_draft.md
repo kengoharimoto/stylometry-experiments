@@ -438,7 +438,7 @@ The Bhāgavata's vertical displacement is the clearest case.
 
 ---
 
-## Act 5 — What those two lenses show: Old problems, rivived (slides 19–21, ~3–4 min)
+## Act 5 — What those two lenses show: Old problems, revived (slides 19–21, ~3–4 min)
 
 ### Slide 19 · What the axis is made of
 
@@ -459,14 +459,14 @@ The Bhāgavata's vertical displacement is the clearest case.
 
 **Cue:** mfws tend to be fillers. Inapt authors tend to rely on meter fillers. The Bhāgavata: when was it composed? An old problem. It shows in our map. (B7). The mode or the motivation of composition/compilation. E.g., the Bhaviṣya (B8 and B9).
 
-### Slide 20 · Whats' the point of this?
+### Slide 20 · What's the point of this?
 
 **On slide:**
 
 > - Our lenses confirm some things that we had suspected: The relative age of the epics; the didactic portions of the MBh being late; the affinity of certain purāṇas; relative age of uncontaminated Purāṇas (Skandapurāṇa)
-> - At the same time, it illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed **about the same time**)
+> - At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed **about the same time**)
 > - It will not date your text; it will tell you **whose company it keeps**
-> - It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniquness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the **composition, not integration** date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ... 
+> - It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the **composition, not integration** date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ... 
 
 **Cue:** this is the point of the whole talk: the counts make us look at old
 problems from a new angle, and the charts hand scholars hints about where to
