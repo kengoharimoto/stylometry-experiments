@@ -379,11 +379,8 @@ namesake in another purāṇa than to its own host compilation.
 > The **Bhāgavatapurāṇa**, plotted skandha by skandha:
 >
 > - **all twelve skandhas' nearest neighbours are internal** — in both lenses
-> - archaic features noticed for over a century (Michelson 1909; Meier 1931;
->   van Buitenen 1966) — and a date that has never stopped being disputed
-> - the counts find **two layers that do not match**: bulk habits that are
->   epic, not purāṇic — and a thin, even layer of Vedic particles
->   (*aṅga*, *bata*, *vāva*) found nowhere else in the corpus
+> - archaic features noticed for over a century — its date has already been in dispute
+> - apparently a very unique composition according to our map, virtually no contacts with any of the epic or purāṇas
 >
 > *The numbers do not settle its date; they deepen its puzzle.*
 
@@ -594,8 +591,7 @@ below the old purāṇic core's median rates (*tu* 17.8, *eva* 13.3, *tathā*
 large *vai* is not suppressed (BhP ≈ MBh ≈ corpus median; only the old core
 is *vai*-heavy), and *eva* rises to low-normal in books 5 and 12 (8.3/7.3,
 even #3 in their own top tens). What the BhP runs on instead is visible in
-the panels: *ca, na, uvāca, śrī, bhagavān, api* — and, at rates unique to it
-in this corpus, the Vedic particles *aṅga, bata, vāva* of slide 15.
+the panels: *ca, na, uvāca, śrī, bhagavān, api*.
 
 ### B8 · Is the map just a borrowing web?
 
