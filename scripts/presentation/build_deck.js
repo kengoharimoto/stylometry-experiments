@@ -230,8 +230,8 @@ fullFigure(pres.addSlide(), "mfw_habits",
     plain("Result: a 111 × 111 table of stylistic distances", { fontSize: 18 }),
     plain("(Burrows’s Delta — stylometry’s standard workhorse since 2002)",
       { italic: true, fontSize: 13, color: FAINT, breakLine: false }),
-  ], { x: 0.9, y: 2.1, w: 6.2, h: 4.4, fontFace: BODY, fontSize: 17, color: INK,
-       paraSpaceAfter: 8, valign: "top" });
+  ], { x: 0.9, y: 1.7, w: 6.2, h: 5.6, fontFace: BODY, fontSize: 17, color: INK,
+       paraSpaceAfter: 8, valign: "middle" });
   const rows = [
     [{ text: "pair", options: { bold: true, color: "FFFFFF", fill: { color: BLUE } } },
      { text: "distance", options: { bold: true, color: "FFFFFF", fill: { color: BLUE }, align: "center" } }],
@@ -241,7 +241,7 @@ fullFigure(pres.addSlide(), "mfw_habits",
      { text: "1.04", options: { align: "center", italic: true, color: MUTED } }],
     ["Rām 2 (Ayodhyā)  ↔  Agni", { text: "1.34", options: { align: "center" } }],
   ];
-  s.addTable(rows, { x: 7.5, y: 2.5, w: 5.1, colW: [3.7, 1.4],
+  s.addTable(rows, { x: 7.5, y: 3.12, w: 5.1, colW: [3.7, 1.4],
     fontFace: BODY, fontSize: 15, color: INK, rowH: 0.55, valign: "middle",
     border: { pt: 0.75, color: "DDDDDD" } });
   s.addNotes("No formulas: 'an average of disagreements in word habits, in " +
@@ -266,11 +266,11 @@ fullFigure(pres.addSlide(), "mfw_habits",
     [lbl("sees"), "particles, pronouns, vocabulary habits",
      "morphology, phonology, sandhi habits"],
   ];
-  s.addTable(rows, { x: 1.3, y: 2.2, w: 10.7, colW: [1.5, 4.6, 4.6],
+  s.addTable(rows, { x: 1.3, y: 2.4, w: 10.7, colW: [1.5, 4.6, 4.6],
     fontFace: BODY, fontSize: 15, color: INK, rowH: 0.75, valign: "middle",
     border: { pt: 0.75, color: "DDDDDD" } });
   s.addText("Nearly orthogonal measurements — almost no shared failure modes.", {
-    x: 0.9, y: 5.8, w: 11.5, h: 0.7, fontFace: HEAD, fontSize: 20, bold: true,
+    x: 0.9, y: 5.9, w: 11.5, h: 0.7, fontFace: HEAD, fontSize: 20, bold: true,
     color: BLUE, align: "center" });
   s.addNotes("Flag now, cash in at Act 4: any segmentation-pipeline artifact " +
     "could only touch Lens 1; any orthographic/sandhi artifact only Lens 2.");
