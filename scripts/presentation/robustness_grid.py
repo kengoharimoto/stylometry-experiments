@@ -32,7 +32,7 @@ profiles = {f: fc.load_profiles(f) for f in ('w', 'c')}
 
 fig = plt.figure(figsize=(13.33, 7.5))
 axes = fig.subplots(2, 3)
-fig.subplots_adjust(left=0.045, right=0.995, top=0.875, bottom=0.115,
+fig.subplots_adjust(left=0.045, right=0.995, top=0.83, bottom=0.15,
                     hspace=0.30, wspace=0.06)
 
 for ax, (feats, metric) in zip(axes.flat, PANELS):
@@ -49,29 +49,29 @@ for ax, (feats, metric) in zip(axes.flat, PANELS):
     ax.set_title(('W1 · ' if feats == 'w' else 'C3 · ') + fc.METRIC_NAMES[metric]
                  + ('\n(= the opening map)' if hero
                     else f'\nagreement with the opening map: {sim:.2f}'),
-                 fontsize=9.5, pad=4)
+                 fontsize=13, pad=6)
     ax.set_xticks([]); ax.set_yticks([])
     for sp in ax.spines.values():
         sp.set_color('#cccccc')
 
 for row, feats in enumerate(('w', 'c')):
-    axes[row, 0].set_ylabel(ROW_DESC[feats], fontsize=10.5)
+    axes[row, 0].set_ylabel(ROW_DESC[feats], fontsize=13)
 
-fig.suptitle('The same map from six different measurements\n', fontsize=14,
+fig.suptitle('The same map from six different measurements\n', fontsize=18,
              y=0.985)
-fig.text(0.5, 0.925, 'each panel: independent distance table → MDS, '
+fig.text(0.5, 0.905, 'each panel: independent distance table → MDS, '
          'rotated onto the opening map · colors as in the opening map',
-         ha='center', fontsize=10, color='#555555')
-fig.text(0.5, 0.075, 'horizontal axis in every panel:  earlier  →  later',
-         ha='center', fontsize=10.5, style='italic', color='#555555')
+         ha='center', fontsize=13, color='#555555')
+fig.text(0.5, 0.105, 'horizontal axis in every panel:  earlier  →  later',
+         ha='center', fontsize=14, style='italic', color='#555555')
 
 group_label = {s: labels_map[next(n for n in names_ref if strata[n] == s)]
                for s in fc.GROUP_ORDER}
 handles = [Line2D([], [], marker='o', linestyle='', markersize=6,
                   markerfacecolor=fc.PALETTE[s], markeredgecolor='white',
                   label=group_label[s]) for s in fc.GROUP_ORDER]
-fig.legend(handles=handles, loc='lower center', ncol=5, fontsize=8,
-           frameon=False, bbox_to_anchor=(0.5, 0.0),
+fig.legend(handles=handles, loc='lower center', ncol=5, fontsize=12,
+           frameon=False, bbox_to_anchor=(0.5, -0.005),
            columnspacing=1.2, handletextpad=0.3)
 
 out = fc.FIGDIR / 'robustness_grid'

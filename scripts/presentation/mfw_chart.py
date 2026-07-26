@@ -42,11 +42,11 @@ axr = fig.add_axes([0.56, 0.10, 0.41, 0.76])
 words = [w for w, _ in top20][::-1]
 share = [100 * n / tot for _, n in top20][::-1]
 bars = axl.barh(range(20), share, height=0.62, color='#5b7fa3', zorder=3)
-axl.set_yticks(range(20), words, fontsize=11, style='italic')
-axl.set_xlabel('share of all running words (%)', fontsize=10)
-axl.set_title('the 20 most frequent words of the corpus', fontsize=12, pad=10)
+axl.set_yticks(range(20), words, fontsize=15, style='italic')
+axl.set_xlabel('share of all running words (%)', fontsize=14)
+axl.set_title('the 20 most frequent words of the corpus', fontsize=16, pad=10)
 for i, v in enumerate(share):
-    axl.text(v + 0.04, i, f'{v:.2f}', va='center', fontsize=8, color='#555555')
+    axl.text(v + 0.04, i, f'{v:.2f}', va='center', fontsize=11, color='#555555')
 axl.set_xlim(0, 4.35)
 axl.tick_params(axis='x', labelsize=9)
 axl.spines[['top', 'right']].set_visible(False)
@@ -67,7 +67,7 @@ for r, w in enumerate(EXAMPLES):
         med = np.median(v)
         axr.plot([med, med], [y0 + (1 - k) * 0.22 - 0.11, y0 + (1 - k) * 0.22 + 0.11],
                  color=fc.PALETTE[s], lw=2.2, zorder=4)
-    axr.text(-2.2, y0 + 0.22, w, ha='right', va='center', fontsize=13,
+    axr.text(-2.2, y0 + 0.22, w, ha='right', va='center', fontsize=18,
              style='italic', fontweight='bold')
     if r < len(EXAMPLES) - 1:
         axr.axhline(y0 - row_gap / 2, color='#e3e3e3', lw=0.7)
@@ -76,8 +76,8 @@ axr.set_xlim(-0.5, 27)
 axr.set_ylim(-0.45, (len(EXAMPLES) - 1) * row_gap + 0.55)
 axr.set_yticks([])
 axr.set_xlabel('occurrences per 1,000 words (one dot = one text; bar = group median)',
-               fontsize=10)
-axr.set_title('four of these words, counted text by text', fontsize=12, pad=10)
+               fontsize=13)
+axr.set_title('four of these words, counted text by text', fontsize=16, pad=10)
 axr.tick_params(axis='x', labelsize=9)
 axr.spines[['top', 'right', 'left']].set_visible(False)
 axr.set_axisbelow(True)
@@ -86,10 +86,10 @@ axr.xaxis.grid(True, color='#e3e3e3', lw=0.7)
 handles = [plt.Line2D([], [], marker='o', linestyle='', markersize=7,
                       markerfacecolor=fc.PALETTE[s], markeredgecolor='white',
                       label=GROUP_LABEL[s]) for s in GROUPS]
-axr.legend(handles=handles, loc='lower right', fontsize=10, frameon=False,
+axr.legend(handles=handles, loc='lower right', fontsize=14, frameon=False,
            handletextpad=0.2, borderaxespad=0.4)
 
-fig.suptitle('Style as unconscious, countable habits', fontsize=15, y=0.97)
+fig.suptitle('Style as unconscious, countable habits', fontsize=19, y=0.97)
 
 out = fc.FIGDIR / 'mfw_habits'
 fig.savefig(f'{out}.png', dpi=200)
