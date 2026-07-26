@@ -19,6 +19,7 @@ Output: materials/presentation_2026/chronology_stratification.key
 Usage: python3 scripts/presentation/build_deck_keynote.py
 """
 import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
@@ -361,6 +362,15 @@ for name, note in [
         fig_slide(name, note)
 
 # ══ Run ═══════════════════════════════════════════════════════════════════════
+# Hand-edit guard: after every build we stamp the .key's mtime. If the file on
+# disk is newer than the stamp, someone edited it in Keynote since the last
+# build — refuse to overwrite unless --force is given.
+STAMP = OUT.with_suffix('.key.buildstamp')
+if OUT.exists() and STAMP.exists() and '--force' not in sys.argv:
+    if OUT.stat().st_mtime > float(STAMP.read_text()) + 5:
+        sys.exit(f'REFUSING to overwrite {OUT.name}: it was modified in '
+                 'Keynote after the last build (hand edits would be lost). '
+                 'Re-run with --force to overwrite anyway.')
 body = '\n'.join(L)
 script = f'''
 tell application id "com.apple.Keynote"
@@ -377,3 +387,5 @@ end tell
 '''
 r = subprocess.run(['osascript', '-e', script], capture_output=True, text=True)
 print(r.stdout.strip() or r.stderr.strip())
+if OUT.exists():
+    STAMP.write_text(str(OUT.stat().st_mtime))

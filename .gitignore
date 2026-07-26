@@ -58,3 +58,4 @@ materials/*
 !materials/feature_sets/sanskrit_indeclinables_clean.txt
 !materials/presentation_2026/
 !materials/presentation_2026/**
+materials/presentation_2026/*.buildstamp
