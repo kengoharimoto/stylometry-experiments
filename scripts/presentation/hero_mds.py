@@ -265,33 +265,35 @@ def darken(hexcol, f=0.55):
     return tuple(c * f for c in to_rgb(hexcol))
 
 # ── Plot ──────────────────────────────────────────────────────────────────────
+# Projection layout: the full 111-code key lives on backup slide B2; the slide
+# figure spends its whole width on the map, with a compact strata-only legend
+# strip along the bottom right (bottom left stays clear for the tour cards).
 fig = plt.figure(figsize=(13.33, 7.5))
-ax = fig.add_axes([0.005, 0.02, 0.715, 0.90])
-key = fig.add_axes([0.725, 0.00, 0.275, 0.95]); key.axis('off')
+ax = fig.add_axes([0.005, 0.10, 0.99, 0.80])
 
 for s in GROUP_ORDER:
     sel = [i for i, n in enumerate(names) if strata[n] == s]
     if not sel:
         continue
-    sizes = [30 if names[i] in tiny else 70 for i in sel]
+    sizes = [48 if names[i] in tiny else 110 for i in sel]
     faded = hl and s not in hl
     ax.scatter(Y[sel, 0], Y[sel, 1], s=sizes,
                c=FADE if faded else PALETTE[s], alpha=0.9,
-               edgecolors='white', linewidths=0.6, zorder=2 if faded else 3)
+               edgecolors='white', linewidths=0.7, zorder=2 if faded else 3)
 
 for i, n in enumerate(names):
     faded = hl and strata[n] not in hl
     ax.annotate(codes[n], (Y[i, 0], Y[i, 1]),
-                xytext=(3, 2), textcoords='offset points',
-                fontsize=6.5, fontweight='bold',
+                xytext=(4, 3), textcoords='offset points',
+                fontsize=10.5, fontweight='bold',
                 color=FADE_TXT if faded else darken(PALETTE[strata[n]]),
                 zorder=4)
 
 ax.annotate('', xy=(0.97, 0.02), xytext=(0.03, 0.02),
             xycoords='axes fraction',
-            arrowprops=dict(arrowstyle='-|>', color='#555555', lw=1.6))
-ax.text(0.5, 0.035, 'earlier  →  later', transform=ax.transAxes,
-        ha='center', fontsize=11, color='#555555', style='italic')
+            arrowprops=dict(arrowstyle='-|>', color='#555555', lw=2.2))
+ax.text(0.5, 0.038, 'earlier  →  later', transform=ax.transAxes,
+        ha='center', fontsize=14, color='#555555', style='italic')
 
 feat_desc = ('80 most frequent words' if W1
              else f'{MFW} most frequent character 3-grams')
@@ -303,37 +305,31 @@ METRIC_NAMES = {'delta': 'Burrows’s Delta', 'wurzburg': 'Cosine Delta',
                 'minmax': 'min-max distance'}
 ax.set_title(f'{len(names)} epic and purāṇic texts, arranged only by counted linguistic habits\n'
              f'({METRIC_NAMES[args.metric]} on {feat_desc}, {corpus_desc} text · '
-             'multidimensional scaling)', fontsize=12)
+             'multidimensional scaling)', fontsize=15)
 ax.set_xticks([]); ax.set_yticks([])
 for sp in ax.spines.values():
     sp.set_visible(False)
 
-# ── Key panel ─────────────────────────────────────────────────────────────────
-entries = []
-for s in GROUP_ORDER:
-    entries.append(('header', s, labels_map[group_members[s][0]]))
-    for n in group_members[s]:
-        entries.append(('item', s, f'{codes[n]}  {display(n)}'))
-
-rows_per_col = (len(entries) + 1) // 2
-row_h = 1.0 / (rows_per_col + 1)
-for e, (kind, s, txt) in enumerate(entries):
-    col, row = divmod(e, rows_per_col)
-    x = 0.02 + col * 0.52
-    y = 0.99 - (row + 1) * row_h
-    faded = hl and s not in hl
-    if kind == 'header':
-        key.scatter([x + 0.015], [y + 0.004], s=28,
-                    c=FADE if faded else PALETTE[s],
-                    edgecolors='white', linewidths=0.5,
-                    transform=key.transAxes, clip_on=False)
-        key.text(x + 0.045, y, txt, transform=key.transAxes,
-                 fontsize=6.3, fontweight='bold', va='center',
+# ── Strata legend strip (bottom right, two rows) ─────────────────────────────
+leg = [(s, labels_map[group_members[s][0]]) for s in GROUP_ORDER if group_members[s]]
+X0, X1 = 0.335, 0.995            # keep bottom left free for the tour cards
+n3 = (len(leg) + 2) // 3
+rows_ = (leg[:n3], leg[n3:2 * n3], leg[2 * n3:])
+for r, chunk in enumerate(rows_):
+    y = 0.082 - r * 0.034
+    # advance x by an estimate of each label's width so entries pack evenly
+    widths = [0.016 + 0.0082 * len(t) for _, t in chunk]
+    gap = max(0.004, ((X1 - X0) - sum(widths)) / max(1, len(chunk) - 1))
+    x = X0
+    for (s, txt), wd in zip(chunk, widths):
+        faded = hl and s not in hl
+        fig.patches.append(plt.Circle(
+            (x + 0.005, y + 0.0035), 0.0048, transform=fig.transFigure,
+            color=FADE if faded else PALETTE[s], clip_on=False))
+        fig.text(x + 0.014, y, txt, fontsize=11.5, fontweight='bold',
+                 va='center', ha='left',
                  color=FADE_TXT if faded else darken(PALETTE[s], 0.45))
-    else:
-        key.text(x + 0.045, y, txt, transform=key.transAxes,
-                 fontsize=5.8, va='center',
-                 color=FADE_TXT if faded else '#222222')
+        x += wd + gap
 
 fig.savefig(f'{OUT}.png', dpi=200)
 fig.savefig(f'{OUT}.pdf')
