@@ -123,10 +123,11 @@ fig_slide('hero_W1_delta_MDS',
 
 # 3 · The claim
 new_slide('Title & Bullets')
-set_title('This map was drawn by counting linguistic habits — nothing else')
-set_body(['no dates', 'no chronology', 'no philological judgment',
-          '— none of it entered the computation; '
-          'the colors were painted on afterwards'])
+set_title('What was that?')
+set_body(['This map was drawn by counting linguistic habits — nothing else',
+          'no dates imposed', 'no chronology considered',
+          'no philological judgment made',
+          'only the colors were painted on afterwards'])
 add_text_item('Yet the familiar relative chronology reads left to right.',
               200, 910, 1520, size=34, bold=True, color=BLUE, align='center')
 add_note('The coloring is the only place received scholarship touches the '
@@ -137,7 +138,7 @@ new_slide('Title & Bullets')
 set_title('Two questions worth thirty minutes')
 set_body(['What exactly was counted?',
           'Can the left–right axis be trusted — '
-          'or is it an artifact of one method?'])
+          'and what good does it do if it is?'])
 add_note('Roadmap: first how the map is made, then a guided tour, then the '
          'robustness case, then honest caveats.')
 
@@ -245,12 +246,12 @@ fig_slide('hero_W1_delta_MDS_hl-skmp',
 fig_slide('hero_W1_delta_MDS_hl-bhp',
           'The Bhāgavata: all twelve skandhas’ nearest neighbours are '
           'internal — in both lenses. Archaic features noticed for over a '
-          'century; a date never settled. The counts find two layers that '
-          'do not match. The numbers do not settle its date; they deepen '
-          'its puzzle.',
+          'century; its date has already been in dispute. The numbers do not '
+          'settle its date; they deepen its puzzle.',
           card=['THE BHĀGAVATA',
                 'all 12 skandhas: internal neighbours, both lenses',
-                'epic-like bulk + a thin layer of Vedic particles'])
+                'apparently a very unique composition — virtually no contacts '
+                'with any of the epics or purāṇas'])
 
 # 16 · Robustness grid
 fig_slide('robustness_grid',
@@ -294,7 +295,12 @@ set_body(['“diachronic linguistic drift” — but confounded:',
           'reuse of preexisting material: shared materials pull the '
           'containers together (B8)',
           'genre: when the vocabularies are completely different, there is '
-          'no telling where they land'])
+          'no telling where they land',
+          'Look at where the final parvans of the MBh landed in our map. '
+          'Those are exactly the parvans whose relative dates are contested; '
+          'also, look at where the Śivadharmaśāstra and the Śivadharmottara '
+          'are positioned in the map. The purāṇas that are known to '
+          'incorporate them are very much to the left.'])
 add_note('Look at where the final parvans of the MBh landed — exactly the '
          'parvans whose relative dates are contested. And the '
          'Śivadharmaśāstra and Śivadharmottara: the purāṇas known to '

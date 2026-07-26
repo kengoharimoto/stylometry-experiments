@@ -26,6 +26,14 @@ Draft for review before .pptx assembly. Conventions:
 
 **Cue:** thirty seconds; straight into the picture.
 
+### Slide 2a · Teaser *(added in Keynote, 2026-07-26)*
+
+**On slide:**
+
+> Take a look at the next slide
+
+**Cue:** a beat before the map.
+
 ### Slide 2 · The map
 
 **Figure:** `hero_W1_delta_MDS` (full slide).
@@ -36,22 +44,30 @@ Draft for review before .pptx assembly. Conventions:
 core upper middle, sectarian digests right, Bhāgavata below. One color = one
 stratum *of the received scholarly chronology*, not of the computation. Mbh 12 and 13 nicely to the right.
 
-### Slide 3 · The claim
+### Slide 3 · The claim *(reworked in Keynote, 2026-07-26)*
 
 **On slide:**
 
-> This map was drawn by **counting linguistic habits** — nothing else.
+> **What was that?**
 >
-> - no dates
-> - no chronology
-> - no philological judgment
+> This map was drawn by counting linguistic habits — nothing else
 >
-> entered the computation. The colors were painted on **afterwards**.
->
-> Yet the familiar relative chronology reads left to right.
+> - no dates imposed
+> - no chronology considered
+> - no philological judgment made
+> - only the colors were painted on afterwards
 
 **Cue:** the coloring is the only place where received scholarship touches the
 plot; the geometry is blind.
+
+### Slide 3a · The tagline beat *(split off in Keynote, 2026-07-26)*
+
+**On slide:**
+
+> Yet the familiar relative chronology reads left to right.
+
+*(The slide currently carries a 😳 after this line — assumed to be a
+placeholder for the beat; remove or keep deliberately.)*
 
 ### Slide 4 · The question
 
@@ -60,8 +76,7 @@ plot; the geometry is blind.
 > Two questions worth thirty minutes:
 >
 > 1. **What** exactly was counted?
-> 2. Can the left–right axis be **trusted** — or is it an artifact of one
->    method?
+> 2. Can the left–right axis be **trusted** — and what good does it do if it is?
 
 **Cue:** roadmap sentence: first how the map is made, then a guided tour, then
 the robustness case, then honest caveats.
@@ -89,7 +104,7 @@ the robustness case, then honest caveats.
 **Backup (if asked how the multi-part texts were divided):** four principles,
 not one. (a) transmitted structural units — MBh parvans, Rām kāṇḍas, Bhāgavata
 skandhas, khaṇḍas of Brahmāṇḍa/Garuḍa/Kūrma/Liṅga/Nārada, Śivapurāṇa saṃhitās;
-(b) some texts were only partially available (Matsya 1–176, Mārkaṇḍeya 1–93, ViDhU 3.343–353); (c) thematic blocks of the Vāyupurāṇa, table below;
+(b) some texts were only partially available (Mārkaṇḍeya 1–93, ViDhU 3.343–353); (c) thematic blocks of the Vāyupurāṇa, table below;
 (d) whole texts. Note also that several works appear both whole *and* in parts
 as separate points (Vāyu, Brahmāṇḍa, Bhāgavata, Devībhāgavata, Skandapurāṇa) — the parts are
 plotted alongside the wholes, so e.g. Vāyu has eleven dots on the map. In the
@@ -124,44 +139,6 @@ expected, and pūrv. 34 has none, so that one boundary is inferred from the
 neighbouring files rather than read off directly. (Colophon spelling varies —
 `vāyuprokte`, `vāyu prokte`, `vāyuprākte` — so searches must allow for it.)
 
-**Backup — what is actually in V2.** The file name "pāśupata-yoga" is our
-grouping label, not a heading of the text. The ten chapters colophon as:
-
-| ch. | colophon title | words |
-|---|---|---|
-| 11 | **pāśupatayoga** | 428 |
-| 12 | yogopasarga-nirūpaṇa | 260 |
-| 13 | yogaiśvaryāṇi | 84 |
-| 14 | **pāśupatayoga** | 259 |
-| 15 | **pāśupatayoga** | 137 |
-| 16 | śaucācāra-lakṣaṇa | 153 |
-| 17 | paramāśrama-prāpti-kathana | 54 |
-| 18 | yati-prāyaścitta-vidhi | 187 |
-| 19 | ariṣṭāni | 322 |
-| 20 | oṅkāra-prāpti-lakṣaṇa | 320 |
-
-So the Pāśupata heading *is* in the text, on three chapters — 11, 14 and 15.
-Rocher names 15, which is one of them. But those three are only **824 words,
-37% of the unit**; the remaining 63% is general yoga, ascetic discipline,
-penance, omens and oṃkāra. V2 is a yoga/ascetic-praxis block that contains
-Pāśupata chapters, not a Pāśupata section.
-
-*Record of a dropped claim (2026-07-22).* An earlier draft of Slide 12 paired
-V2 with the Skandapurāṇa's Pāśupata chapters as two convergent jumps to the far
-right. That is withdrawn, for two independent reasons. **Content:** V2 is 63%
-non-Pāśupata (table above), so it is not comparable in kind to SP2, which is
-Pāśupata doctrine throughout; and the three Pāśupata chapters cannot be
-isolated and measured, since 824 words is far below the size at which a
-position can be read. **Measurement:** under the same length control that SP2
-passes, V2's position is marginal in the word lens (+0.723 against a null of
-+0.256 ± 0.302 from the other nine Vāyu sections — 8% of windows reach it) and
-*absent* in the 3-gram lens (+0.134 against a null of +0.109 ± 0.081 — the null
-median, 50% of windows reach it). V2 is also the shortest Vāyu section and has
-the 4th-highest mean Delta in the corpus, the
-peripheral-artifact signature of D3. Mechanism is variance, not bias: same-size
-control windows from Agni and MBh 12 drift only +0.08 and +0.05, so shortness
-does not push a text rightward; it gives a 3,280-word unit a ±0.26 spread on an
-axis the corpus spans in 1.53. Keep this in case the pairing is proposed again.
 
 ### Slide 6 · Style as unconscious, countable habits
 

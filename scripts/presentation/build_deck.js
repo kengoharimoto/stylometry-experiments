@@ -149,22 +149,20 @@ fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
   const s = pres.addSlide();
   s.background = { color: "FFFFFF" };
   kicker(s, "The picture");
-  title(s, "This map was drawn by counting linguistic habits — nothing else");
-  panel(s, 0.9, 2.2, 6.7, 3.15);
-  const items = ["no dates", "no chronology", "no philological judgment"];
+  title(s, "What was that?");
+  s.addText("This map was drawn by counting linguistic habits — nothing else", {
+    x: 0.9, y: 1.62, w: 11.5, h: 0.5, fontFace: BODY, fontSize: 19,
+    italic: true, color: MUTED, margin: 0 });
+  panel(s, 0.9, 2.25, 6.7, 3.35);
+  const items = ["no dates imposed", "no chronology considered",
+                 "no philological judgment made",
+                 "only the colors were painted on afterwards"];
   items.forEach((t, i) => {
     const y = 2.55 + i * 0.72;
     s.addShape(pres.shapes.OVAL,
       { x: 1.45, y: y + 0.16, w: 0.15, h: 0.15, fill: { color: BLUE } });
     s.addText(t, { x: 1.85, y, w: 5.5, h: 0.5, fontFace: BODY, fontSize: 22,
       color: INK, margin: 0 });
-  });
-  s.addText("entered the computation.", {
-    x: 1.85, y: 4.72, w: 5.5, h: 0.4, fontFace: BODY, fontSize: 15,
-    italic: true, color: MUTED, margin: 0 });
-  s.addText("The colors were painted on afterwards.", {
-    x: 8.1, y: 2.2, w: 4.3, h: 3.15, fontFace: HEAD, fontSize: 20, italic: true,
-    color: MUTED, margin: 0, valign: "middle",
   });
   tagline(s, null, "Yet the familiar relative chronology reads left to right.");
   s.addNotes("The coloring is the only place received scholarship touches the " +
@@ -179,7 +177,7 @@ fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
   title(s, "Two questions worth thirty minutes");
   const qs = [
     ["1", "What exactly was counted?"],
-    ["2", "Can the left–right axis be trusted —\nor is it an artifact of one method?"],
+    ["2", "Can the left–right axis be trusted —\nand what good does it do if it is?"],
   ];
   qs.forEach(([n, q], i) => {
     const y = 2.35 + i * 2.0;
@@ -379,12 +377,12 @@ tourSlide("Reading the map · 5", "A purāṇa that refuses to unify", "hero_W1_
 
 tourSlide("Reading the map · 6", "The Bhāgavata", "hero_W1_delta_MDS_hl-bhp", [
   bullet("all twelve skandhas’ nearest neighbours are internal — in both lenses"),
-  bullet("archaic features noticed for over a century (Michelson 1909; Meier 1931; van Buitenen 1966) — and a date that has never stopped being disputed"),
-  bullet("the counts find two layers that do not match: bulk habits that are epic, not purāṇic — and a thin, even layer of Vedic particles (aṅga, bata, vāva) found nowhere else in the corpus"),
+  bullet("archaic features noticed for over a century — its date has already been in dispute"),
+  bullet("apparently a very unique composition according to our map — virtually no contacts with any of the epics or purāṇas"),
   plain("The numbers do not settle its date; they deepen its puzzle.", { italic: true, color: MUTED, breakLine: false }),
 ],
   "The date of the purāṇa has always been in dispute. What we have here " +
-  "adds more data points.");
+  "adds one more data point to the intrigue.");
 
 // ══ Act 4 — Why believe the axis? ═════════════════════════════════════════════
 
@@ -471,10 +469,11 @@ fullFigure(pres.addSlide(), "robustness_grid",
       color: INK, margin: 0, valign: "top" });
   });
   panel(s, 0.9, 5.85, 11.5, 1.2, TINT2);
-  s.addText("Look at where the final parvans of the MBh landed in our map — " +
-    "exactly the parvans whose relative dates are contested. And look at " +
-    "where the Śivadharmaśāstra and the Śivadharmottara are positioned: the " +
-    "purāṇas known to incorporate them are very much to the left.", {
+  s.addText("Look at where the final parvans of the MBh landed in our map. " +
+    "Those are exactly the parvans whose relative dates are contested; " +
+    "also, look at where the Śivadharmaśāstra and the Śivadharmottara are " +
+    "positioned in the map. The purāṇas that are known to incorporate them " +
+    "are very much to the left.", {
     x: 1.2, y: 5.85, w: 10.9, h: 1.2, fontFace: BODY, fontSize: 15, italic: true,
     color: MUTED, margin: 0, valign: "middle" });
   s.addNotes("MFWs tend to be fillers; inapt authors tend to rely on metre " +
@@ -691,7 +690,7 @@ fullFigure(pres.addSlide(), "bhp_skandha_mfw",
   "(8.3/7.3 — even #3 in their own top tens, visible as the red bars). " +
   "What the BhP runs on instead: ca, na, uvāca, śrī, bhagavān, api — and, " +
   "at rates unique to it in this corpus, the Vedic particles aṅga, bata, " +
-  "vāva of the Bhāgavata slide.");
+  "vāva.");
 
 // B8 · Reuse overlay — is the map just a borrowing web?
 fullFigure(pres.addSlide(), "reuse_overlay_MDS",
