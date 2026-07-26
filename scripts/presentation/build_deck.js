@@ -264,12 +264,12 @@ fullFigure(pres.addSlide(), "mfw_habits",
      "the 5,000 most frequent 3-letter sequences"],
     [lbl("input"), "sandhi dissolved (segmented)", "raw sandhied text"],
     [lbl("sees"), "particles, pronouns, vocabulary habits",
-     "morphology, phonology, sandhi habits"],
+     "morphology, phonology"],
   ];
   s.addTable(rows, { x: 1.3, y: 2.4, w: 10.7, colW: [1.5, 4.6, 4.6],
     fontFace: BODY, fontSize: 15, color: INK, rowH: 0.75, valign: "middle",
     border: { pt: 0.75, color: "DDDDDD" } });
-  s.addText("Nearly orthogonal measurements — almost no shared failure modes.", {
+  s.addText("Independent failure modes: nothing that could fool one lens can fool the other.", {
     x: 0.9, y: 5.9, w: 11.5, h: 0.7, fontFace: HEAD, fontSize: 20, bold: true,
     color: BLUE, align: "center" });
   s.addNotes("Flag now, cash in at Act 4: any segmentation-pipeline artifact " +
