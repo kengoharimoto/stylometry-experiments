@@ -395,3 +395,11 @@ r = subprocess.run(['osascript', '-e', script], capture_output=True, text=True)
 print(r.stdout.strip() or r.stderr.strip())
 if OUT.exists():
     STAMP.write_text(str(OUT.stat().st_mtime))
+
+# Draft-conformance gate: dump the freshly built deck and verify every
+# on-slide line of slides_draft.md is present — fail the build otherwise.
+here = Path(__file__).parent
+subprocess.run([sys.executable, str(here / 'dump_keynote_text.py')], check=True)
+g = subprocess.run([sys.executable,
+                    str(here / 'check_draft_conformance.py'), 'key'])
+sys.exit(g.returncode)

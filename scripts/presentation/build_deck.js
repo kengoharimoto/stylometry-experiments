@@ -137,6 +137,15 @@ const plain = (text, opts = {}) => ({ text, options: { breakLine: true, ...opts 
   s.addNotes("Thirty seconds; straight into the picture.");
 }
 
+// 2a · Teaser (added in Keynote 2026-07-26; mirrored here)
+{
+  const s = pres.addSlide();
+  s.background = { color: "FFFFFF" };
+  s.addText("Take a look at the next slide", {
+    x: 1.0, y: 3.1, w: W - 2, h: 1.2, fontFace: HEAD, fontSize: 32,
+    bold: true, color: INK, align: "center", valign: "middle" });
+}
+
 // 2 · The map (hero)
 fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
   "Let the audience find their texts. Epics left, old purāṇic core upper " +
@@ -201,7 +210,7 @@ fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
   const s = pres.addSlide();
   s.background = { color: "FFFFFF" };
   kicker(s, "How the map was made");
-  title(s, "The corpus");
+  title(s, "The corpus: 111 texts and sections · ≈ 4.8 million words");
   const stats = [["111", "texts and sections"], ["≈ 4.8 M", "running words"],
                  ["× 2", "parallel versions:\nsandhied · unsandhied"]];
   stats.forEach(([n, l], i) => {
@@ -215,7 +224,7 @@ fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
   s.addText([
     bullet("Mahābhārata by parvan (18)  ·  Rāmāyaṇa by kāṇḍa (7)"),
     bullet("purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it"),
-    bullet("machine-readable editions, cleaned", { breakLine: false }),
+    bullet("machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved", { breakLine: false }),
   ], { x: 1.7, y: 4.5, w: 10.3, h: 1.45, fontFace: BODY, fontSize: 18,
        color: INK, paraSpaceAfter: 10 });
   s.addText("Caveat kept in view: sections differ enormously in length; " +
@@ -248,7 +257,7 @@ fullFigure(pres.addSlide(), "mfw_habits",
     bullet("different habits  →  large number"),
     plain("", {}),
     plain("Result: a 111 × 111 table of stylistic distances", { fontSize: 18 }),
-    plain("(Burrows’s Delta — stylometry’s standard workhorse since 2002)",
+    plain("(Burrows’s Delta — the standard workhorse of stylometry, in use since 2002)",
       { italic: true, fontSize: 13.5, color: FAINT, breakLine: false }),
   ], { x: 0.9, y: 1.8, w: 6.2, h: 5.2, fontFace: BODY, fontSize: 18, color: INK,
        paraSpaceAfter: 10, valign: "middle" });
@@ -306,10 +315,10 @@ fullFigure(pres.addSlide(), "mds_explainer",
 // ══ Act 3 — Reading the map ═══════════════════════════════════════════════════
 
 tourSlide("Reading the map · 1", "The epic zone", "hero_W1_delta_MDS_hl-epic", [
-  bullet("battle books MBh 6–9 tight; Droṇa ↔ Karṇa the tightest pair (0.28 ≈ ¼ of typical)"),
-  bullet("MBh 12–13: mutual nearest neighbours — drifted toward purāṇa-space"),
-  bullet("Rām 2–6 hold together; Bāla ↔ Uttara are each other’s nearest neighbour"),
-  plain("Structure recovered blind — without assuming any of it.", { italic: true, color: MUTED, breakLine: false }),
+  bullet("battle books MBh 6–9 cluster tightly — Droṇa ↔ Karṇa the tightest pair (0.28 ≈ ¼ of a typical distance)"),
+  bullet("MBh 12–13 (Śānti, Anuśāsana): mutual nearest neighbours — and drifted toward purāṇa-space..."),
+  bullet("Rām 2–6 hold together; Bāla(R1)’s nearest neighbour is the Uttara(R7)... — in both lenses"),
+  plain("The stratification of higher criticism, recovered blind.", { italic: true, color: MUTED, breakLine: false }),
 ],
   "The machine has read no Hopkins and no Brockington, yet the battle books " +
   "cluster, the didactic parvans MBh 12–13 drift toward purāṇa-space, and the " +
@@ -320,7 +329,7 @@ tourSlide("Reading the map · 1", "The epic zone", "hero_W1_delta_MDS_hl-epic", 
   "nearest to MBh 3.");
 
 tourSlide("Reading the map · 2", "The old purāṇic core?", "hero_W1_delta_MDS_hl-oldcore", [
-  bullet("Vāyu ↔ Brahmāṇḍa: 0.28 — Kirfel’s Vāyuproktaṃ Purāṇam, as a number"),
+  bullet("Vāyu ↔ Brahmāṇḍa: 0.28 — a quarter of a typical distance. Kirfel’s single Vāyuproktaṃ Purāṇam, as a number."),
   bullet("Viṣṇu ↔ Mārkaṇḍeya: mutual nearest neighbours, in both lenses"),
   bullet("Matsya’s cosmogonic chapters sit with them", { breakLine: false }),
 ],
@@ -361,10 +370,12 @@ tourSlide("Reading the map · 4", "The sectarian & encyclopedic mass", "hero_W1_
   "style is simply the style of the digest.");
 
 tourSlide("Reading the map · 5", "A purāṇa that refuses to unify", "hero_W1_delta_MDS_hl-skmp", [
-  bullet("the Skāndamahāpurāṇa: 0 of 4 khaṇḍas with an internal nearest neighbour, in either lens"),
-  bullet("they share no text; all full-sized — no length caveat"),
-  bullet("what connects them: the colophon phrase (śrī)skānde mahāpurāṇe"),
-  plain("ŚiP: same story (3/8, 4/8 internal). Cohesion is measurable — next slide.", { italic: true, color: MUTED, breakLine: false }),
+  plain("The Skāndamahāpurāṇa, plotted khaṇḍa by khaṇḍa:", { bold: true }),
+  bullet("0 of 4 khaṇḍas have their nearest neighbour inside the Skāndamahāpurāṇa — in either lens"),
+  bullet("the reuse scan finds they share no text with one another"),
+  bullet("each khaṇḍa is a full-sized text — the length caveat does not apply"),
+  bullet("What connects them is a phrase in the colophons: (śrī)skānde mahāpurāṇe."),
+  plain("The Śivapurāṇa tells the same story, saṃhitā by saṃhitā (3 of 8 internal in the word lens, 4 of 8 in the 3-gram lens). Compare the Bhāgavata on the next slide — cohesion is measurable.", { italic: true, color: MUTED, breakLine: false }),
 ],
   "The compilation model, confirmed from word counts alone; contrast with " +
   "the Bhāgavata set up deliberately. Nothing connects the khaṇḍas but the " +
@@ -376,9 +387,10 @@ tourSlide("Reading the map · 5", "A purāṇa that refuses to unify", "hero_W1_
   "closer to its namesake in another purāṇa than to its own compilation.");
 
 tourSlide("Reading the map · 6", "The Bhāgavata", "hero_W1_delta_MDS_hl-bhp", [
+  plain("The Bhāgavatapurāṇa, plotted skandha by skandha:", { bold: true }),
   bullet("all twelve skandhas’ nearest neighbours are internal — in both lenses"),
   bullet("archaic features noticed for over a century — its date has already been in dispute"),
-  bullet("apparently a very unique composition according to our map — virtually no contacts with any of the epics or purāṇas"),
+  bullet("apparently a very unique composition according to our map, virtually no contacts with any of the epic or purāṇas"),
   plain("The numbers do not settle its date; they deepen its puzzle.", { italic: true, color: MUTED, breakLine: false }),
 ],
   "The date of the purāṇa has always been in dispute. What we have here " +
@@ -457,8 +469,8 @@ fullFigure(pres.addSlide(), "robustness_grid",
     x: 0.9, y: 1.75, w: 11, h: 0.5, fontFace: BODY, fontSize: 19, italic: true,
     color: MUTED, margin: 0 });
   const rows = [
-    ["authorial aptitude", "in composing metrical Sanskrit: the use of more fillers as the aptitude goes down — the better the author, the fewer the fillers"],
-    ["reuse of preexisting material", "the more the materials are shared, the tighter the groups the containers form (see B8)"],
+    ["authorial aptitude", "in composing metrical Sanskrit: the use of more fillers as the aptitude goes down. The better author, the less fillers"],
+    ["reuse of preexisting material", "the more the materials are shared, the tighter groups the containers form (See slide B8)"],
     ["genre", "when the vocabularies are completely different, there is no telling where they land"],
   ];
   rows.forEach(([a, b], i) => {
@@ -489,29 +501,25 @@ fullFigure(pres.addSlide(), "robustness_grid",
   kicker(s, "Old problems, revived");
   title(s, "What’s the point of this?");
   s.addText([
-    plain("our lenses confirm some things we had suspected:  ",
-      { bold: true, color: BLUE, breakLine: false }),
-    plain("the relative age of the epics; the didactic portions of the MBh " +
-      "being late; the affinity of certain purāṇas; the relative age of " +
-      "uncontaminated purāṇas (Skandapurāṇa)"),
-    plain("at the same time, they illuminate contentious issues:  ",
-      { bold: true, color: BLUE, breakLine: false }),
-    plain("the relative dates of the closing parvans of the Mahābhārata; the " +
-      "relative age of the Mahābhārata and the Rāmāyaṇa — they show up at " +
-      "about the same place, confirming the long-suspected composition at " +
-      "about the same time"),
-    plain("it will not date your text; it will tell you ",
-      { align: "center", fontSize: 19, color: BLUE, breakLine: false }),
-    plain("whose company it keeps", { bold: true, fontSize: 19, color: BLUE }),
-    plain("it also tells us where interesting things are happening:  ",
-      { bold: true, color: BLUE, breakLine: false }),
-    plain("the uniqueness of the Bhāgavatapurāṇa deserves serious thought " +
-      "again; the composition — not integration — date of the closing " +
-      "parvans wants unprecedented approaches; the provenance of the " +
-      "Bhaviṣya wants fine-grained research; etc., etc., …",
-      { breakLine: false }),
-  ], { x: 1.0, y: 2.3, w: 11.3, h: 4.8, fontFace: BODY, fontSize: 16,
-       color: INK, valign: "top", paraSpaceAfter: 16 });
+    bullet("Our lenses confirm some things that we had suspected: The " +
+      "relative age of the epics; the didactic portions of the MBh being " +
+      "late; the affinity of certain purāṇas; relative age of " +
+      "uncontaminated Purāṇas (Skandapurāṇa)"),
+    bullet("At the same time, they illuminate contentious issues: relative " +
+      "dates of the closing parvans of the Mahābhārata; relative age of " +
+      "the Mahābhārata and the Rāmāyaṇa (well, they show up at about the " +
+      "same place, so, our map also confirms long suspected their being " +
+      "composed about the same time)"),
+    bullet("It will not date your text; it will tell you whose company it keeps"),
+    bullet("It also tells us where interesting things are happening; it is " +
+      "about time someone gives serious thought about the uniqueness of " +
+      "the Bhāgavatapurāṇa again; someone should look for unprecedented " +
+      "approaches to settle the questions of the composition, not " +
+      "integration date of the closing parvans of the Mahābhārata; do " +
+      "some fine grained research of the provenance of the " +
+      "Bhaviṣyapurāṇa, etc., etc., ...", { breakLine: false }),
+  ], { x: 1.0, y: 2.1, w: 11.3, h: 5.0, fontFace: BODY, fontSize: 15.5,
+       color: INK, valign: "top", paraSpaceAfter: 14 });
   s.addNotes("This is the point of the whole talk: the counts make us look " +
     "at old problems from a new angle, and the charts hand scholars hints " +
     "about where to dig. The Bhaviṣya being the fountain of many " +
@@ -553,7 +561,7 @@ fullFigure(pres.addSlide(), "robustness_grid",
     bullet("for each of the top-80 words: how far is each text from the " +
       "corpus-average rate, in standard deviations (a z-score)?"),
     bullet("Delta(A, B) = the average disagreement of A and B across those words"),
-    bullet("variants in the grid: Cosine Delta (angle instead of average); " +
+    bullet("variants used in the grid: Cosine Delta (angle instead of average), " +
       "min-max and Manhattan (raw-frequency geometry)", { breakLine: false }),
   ], { x: 1.0, y: 1.8, w: 11.3, h: 4.8, fontFace: BODY, fontSize: 19,
        color: INK, valign: "middle", paraSpaceAfter: 20 });
@@ -608,8 +616,8 @@ fullFigure(pres.addSlide(), "robustness_grid",
   title(s, "The length caveat");
   s.addText([
     bullet("sections range from a few thousand to hundreds of thousands of words"),
-    bullet("sub-5k-word fragments have noisy profiles → inflated distances, " +
-      "unreliable positions"),
+    bullet("short sections have noisy profiles → inflated distances, " +
+      "positions unreliable"),
     bullet("marked as small dots on every map; none of the argument rests on them",
       { breakLine: false }),
   ], { x: 1.0, y: 1.8, w: 11.3, h: 4.8, fontFace: BODY, fontSize: 19,
@@ -632,7 +640,7 @@ fullFigure(pres.addSlide(), "robustness_grid",
       { breakLine: false }),
   ], { x: 1.0, y: 2.45, w: 11.3, h: 2.0, fontFace: BODY, fontSize: 18,
        color: INK, paraSpaceAfter: 14 });
-  s.addText("Lens disagreement flags preprocessing problems — it does not hide them.", {
+  s.addText("Disagreement between lenses flags preprocessing problems — it does not hide them.", {
     x: 1.0, y: 5.3, w: 11.3, h: 0.9, fontFace: HEAD, fontSize: 21, bold: true,
     color: BLUE, align: "center" });
   s.addNotes("If asked about pipeline trust: same story with the Nīlamata, " +
@@ -710,7 +718,22 @@ fullFigure(pres.addSlide(), "reuse_overlay_MDS",
   "they are different facts about the corpus.");
 
 // B9 · The Bhaviṣya: a text that is mostly other texts
-fullFigure(pres.addSlide(), "bhavisya_reuse_strip",
+{
+  const s = pres.addSlide();
+  s.background = { color: "FFFFFF" };
+  s.addImage({ path: fig("bhavisya_reuse_strip"), x: 0, y: 0, w: W, h: H });
+  s.addShape(pres.shapes.RECTANGLE, {
+    x: 8.55, y: 0.12, w: 4.55, h: 2.75, fill: { color: "FFFFFF", transparency: 4 },
+    line: { color: CARD_EDGE, width: 0.75 } });
+  s.addText([
+    plain("The Bhaviṣyapurāṇa, scanned pāda-by-pāda against the whole e-text library:", { bold: true }),
+    bullet("47% of its pāda-units occur in other texts (Brāhmaparvan 38%, Uttaraparvan 59%)"),
+    bullet("the borrowing is block-wise and source-datable: Manusmṛti swallowed whole, the Sāmbapurāṇa’s saura corpus, Śivadharmaśāstra & -ottara, Bṛhatsaṃhitā, Matsya-type vrata blocks — and a physiognomy block shared with the Buddhist Śārdūlakarṇāvadāna"),
+    bullet("whole stretches match nothing — a genuine own-text residue in between"),
+    plain("Not an author’s stratum — a compilation event with datable ingredients.", { italic: true, color: MUTED, breakLine: false }),
+  ], { x: 8.55, y: 0.12, w: 4.55, h: 2.75, fontFace: BODY, fontSize: 9.5,
+       color: INK, valign: "middle", margin: 8, paraSpaceAfter: 4 });
+  s.addNotes(
   "B9 — three beats. (1) THE SCALE: 47% of the entire " +
   "Bhaviṣya (40k pāda-units; Brāhmaparvan 38%, Uttaraparvan 59%) matches " +
   "another text at ≥0.7 — the extreme case of compilation literature. " +
@@ -733,6 +756,7 @@ fullFigure(pres.addSlide(), "bhavisya_reuse_strip",
   "precisely what the scan delivers and one dot on the map cannot. If " +
   "shown after slide 14: the Bhaviṣya is the mosaic that stayed together; " +
   "the Skāndamahāpurāṇa a 'purāṇa' whose parts never even met.");
+}
 
 // B10 · Why the Śivadharma pair plots "late" (Q&A; works from the hero map)
 fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
@@ -756,4 +780,13 @@ fullFigure(pres.addSlide(), "hero_W1_delta_MDS",
   "credibility as revealers of a text's age.");
 
 const OUT = path.join(MAT, "chronology_stratification.pptx");
-pres.writeFile({ fileName: OUT }).then(() => console.log("wrote", OUT));
+pres.writeFile({ fileName: OUT }).then(() => {
+  console.log("wrote", OUT);
+  // Draft-conformance gate: the build FAILS unless every on-slide line of
+  // slides_draft.md is present in the deck just written.
+  const { spawnSync } = require("child_process");
+  const r = spawnSync("python3",
+    [path.join(__dirname, "check_draft_conformance.py"), "pptx"],
+    { stdio: "inherit" });
+  process.exit(r.status ?? 1);
+});

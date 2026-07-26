@@ -123,26 +123,29 @@ Title & Bullets
 
 TITLE: The corpus: 111 texts and sections · ≈ 4.8 million words
 
-BODY: Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
+BODY: 111 texts and sections · ≈ 4.8 million words
+Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
 purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it
-machine-readable editions, cleaned — two parallel versions of every text: with and without sandhi dissolved
-sections differ enormously in length; short fragments are marked with smaller dots on every map
+machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
+Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
 TEXTITEM: The corpus: 111 texts and sections · ≈ 4.8 million words
 
 TEXTITEM: 
 
-TEXTITEM: Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
+TEXTITEM: 111 texts and sections · ≈ 4.8 million words
+Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
 purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it
-machine-readable editions, cleaned — two parallel versions of every text: with and without sandhi dissolved
-sections differ enormously in length; short fragments are marked with smaller dots on every map
+machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
+Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
 TEXTITEM: The corpus: 111 texts and sections · ≈ 4.8 million words
 
-TEXTITEM: Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
+TEXTITEM: 111 texts and sections · ≈ 4.8 million words
+Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
 purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it
-machine-readable editions, cleaned — two parallel versions of every text: with and without sandhi dissolved
-sections differ enormously in length; short fragments are marked with smaller dots on every map
+machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
+Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
 NOTES: One line on e-text provenance; do not linger.
 
@@ -166,26 +169,26 @@ Title & Bullets
 
 TITLE: From counts to distances
 
-BODY: for each pair of texts: how differently do they use their most common words?
-similar habits → small number · different habits → large number
-result: a 111 × 111 table of stylistic distances
-(Burrows’s Delta — stylometry’s standard workhorse since 2002)
+BODY: For each pair of texts: how differently do they use their most common words?
+similar habits → small number
+different habits → large number
+Result: a 111 × 111 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 
 TEXTITEM: From counts to distances
 
 TEXTITEM: 
 
-TEXTITEM: for each pair of texts: how differently do they use their most common words?
-similar habits → small number · different habits → large number
-result: a 111 × 111 table of stylistic distances
-(Burrows’s Delta — stylometry’s standard workhorse since 2002)
+TEXTITEM: For each pair of texts: how differently do they use their most common words?
+similar habits → small number
+different habits → large number
+Result: a 111 × 111 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 
 TEXTITEM: From counts to distances
 
-TEXTITEM: for each pair of texts: how differently do they use their most common words?
-similar habits → small number · different habits → large number
-result: a 111 × 111 table of stylistic distances
-(Burrows’s Delta — stylometry’s standard workhorse since 2002)
+TEXTITEM: For each pair of texts: how differently do they use their most common words?
+similar habits → small number
+different habits → large number
+Result: a 111 × 111 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 
 TABLEROW: pair | distance | 
 
@@ -252,8 +255,10 @@ TITLE:
 BODY: 
 
 TEXTITEM: THE EPIC ZONE
-parvans and kāṇḍas mingle
-MBh 12–13 pull right, toward the purāṇas
+battle books MBh 6–9 cluster tightly — Droṇa ↔ Karṇa the tightest pair (0.28 ≈ ¼ of a typical distance)
+MBh 12–13 (Śānti, Anuśāsana): mutual nearest neighbours — and drifted toward purāṇa-space...
+Rām 2–6 hold together; Bāla(R1)'s nearest neighbour is the Uttara(R7)... — in both lenses
+The stratification of higher criticism, recovered blind.
 
 TEXTITEM: 
 
@@ -270,9 +275,9 @@ TITLE:
 BODY: 
 
 TEXTITEM: THE OLD PURĀṆIC CORE?
-Vāyu ↔ Brahmāṇḍa: 0.28 — Kirfel, as a number
-Viṣṇu ↔ Mārkaṇḍeya: mutual nearest neighbours
-Matsya’s cosmogonic chapters sit with them
+Vāyu ↔ Brahmāṇḍa: 0.28 — a quarter of a typical distance. Kirfel's single Vāyuproktaṃ Purāṇam, as a number.
+Viṣṇu ↔ Mārkaṇḍeya: mutual nearest neighbours, in both lenses
+Matsya's cosmogonic chapters sit with them
 
 TEXTITEM: 
 
@@ -307,8 +312,9 @@ TITLE:
 BODY: 
 
 TEXTITEM: THE SECTARIAN & ENCYCLOPEDIC MASS
-one broad, continuous stratum
-Agni · Garuḍa · Nārada crowd the far right
+one broad, continuous stratum — no clean line between "middle" and "late"
+Agni · Garuḍa · Nārada: the encyclopedic digests, crowded on the far right
+internally blurry — exactly what compilation literature should look like
 
 TEXTITEM: 
 
@@ -325,8 +331,12 @@ TITLE:
 BODY: 
 
 TEXTITEM: A PURĀṆA THAT REFUSES TO UNIFY
-SkMP: 0 of 4 khaṇḍas have an internal neighbour
-they share no text; only colophons connect them
+The Skāndamahāpurāṇa, plotted khaṇḍa by khaṇḍa:
+0 of 4 khaṇḍas have their nearest neighbour inside the Skāndamahāpurāṇa — in either lens
+the reuse scan finds they share no text with one another
+each khaṇḍa is a full-sized text — the length caveat does not apply
+What connects them is a phrase in the colophons: (śrī)skānde mahāpurāṇe.
+The Śivapurāṇa tells the same story, saṃhitā by saṃhitā (3 of 8 internal in the word lens, 4 of 8 in the 3-gram lens). Compare the Bhāgavata on the next slide — cohesion is measurable.
 
 TEXTITEM: 
 
@@ -343,8 +353,11 @@ TITLE:
 BODY: 
 
 TEXTITEM: THE BHĀGAVATA
-all 12 skandhas: internal neighbours, both lenses
-apparently a very unique composition — virtually no contacts with any of the epics or purāṇas
+The Bhāgavatapurāṇa, plotted skandha by skandha:
+all twelve skandhas' nearest neighbours are internal — in both lenses
+archaic features noticed for over a century — its date has already been in dispute
+apparently a very unique composition according to our map, virtually no contacts with any of the epic or purāṇas
+The numbers do not settle its date; they deepen its puzzle.
 
 TEXTITEM: 
 
@@ -372,25 +385,31 @@ Title & Bullets
 
 TITLE: Suppose the axis were an artifact…
 
-BODY: a flaw in sandhi segmentation → could distort the word lens only
+BODY: Suppose the axis were an artifact:
+a flaw in sandhi segmentation → could distort the word lens only
 an orthographic / sandhi convention → could distort the 3-gram lens only
 a quirk of one distance formula → fails to explain the other five
+The lenses share almost no assumptions — yet draw the same axis.
 
 TEXTITEM: Suppose the axis were an artifact…
 
 TEXTITEM: 
 
-TEXTITEM: a flaw in sandhi segmentation → could distort the word lens only
+TEXTITEM: Suppose the axis were an artifact:
+a flaw in sandhi segmentation → could distort the word lens only
 an orthographic / sandhi convention → could distort the 3-gram lens only
 a quirk of one distance formula → fails to explain the other five
+The lenses share almost no assumptions — yet draw the same axis.
 
 TEXTITEM: The signal is in the texts.
 
 TEXTITEM: Suppose the axis were an artifact…
 
-TEXTITEM: a flaw in sandhi segmentation → could distort the word lens only
+TEXTITEM: Suppose the axis were an artifact:
+a flaw in sandhi segmentation → could distort the word lens only
 an orthographic / sandhi convention → could distort the 3-gram lens only
 a quirk of one distance formula → fails to explain the other five
+The lenses share almost no assumptions — yet draw the same axis.
 
 NOTES: The abstract’s core argument; deliver slowly. The lenses share almost no assumptions — yet draw the same axis.
 
@@ -426,29 +445,35 @@ Title & Bullets
 
 TITLE: What the axis is made of
 
-BODY: “diachronic linguistic drift” — but confounded:
-authorial aptitude: the better the author, the fewer the metrical fillers
-reuse of preexisting material: shared materials pull the containers together (B8)
+BODY: "Diachronic linguistic drift" — but confounded:
+authorial aptitude in composing metrical Sanskrit: the use of more fillers as the aptitude goes down. The better author, the less fillers
+reuse of preexisting material: the more the materials are shared, the tighter groups the containers form (See slide B8)
 genre: when the vocabularies are completely different, there is no telling where they land
-Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.
+Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; Also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.
 
 TEXTITEM: What the axis is made of
 
 TEXTITEM: 
 
-TEXTITEM: “diachronic linguistic drift” — but confounded:
-authorial aptitude: the better the author, the fewer the metrical fillers
-reuse of preexisting material: shared materials pull the containers together (B8)
+TEXTITEM: "Diachronic linguistic drift" — but confounded:
+authorial aptitude in composing metrical Sanskrit: the use of more fillers as the aptitude goes down. The better author, the less fillers
+reuse of preexisting material: the more the materials are shared, the tighter groups the containers form (See slide B8)
 genre: when the vocabularies are completely different, there is no telling where they land
-Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.
+Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; Also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.
+
+TEXTITEM: The Bhaviṣyapurāṇa, scanned pāda-by-pāda against the whole e-text library:
+47% of its pāda-units occur in other texts (Brāhmaparvan 38%, Uttaraparvan 59%)
+the borrowing is block-wise and source-datable: Manusmṛti swallowed whole, the Sāmbapurāṇa's saura corpus, Śivadharmaśāstra & -ottara, Bṛhatsaṃhitā, Matsya-type vrata blocks — and a physiognomy block shared with the Buddhist Śārdūlakarṇāvadāna
+whole stretches match nothing — a genuine own-text residue in between
+Not an author's stratum — a compilation event with datable ingredients.
 
 TEXTITEM: What the axis is made of
 
-TEXTITEM: “diachronic linguistic drift” — but confounded:
-authorial aptitude: the better the author, the fewer the metrical fillers
-reuse of preexisting material: shared materials pull the containers together (B8)
+TEXTITEM: "Diachronic linguistic drift" — but confounded:
+authorial aptitude in composing metrical Sanskrit: the use of more fillers as the aptitude goes down. The better author, the less fillers
+reuse of preexisting material: the more the materials are shared, the tighter groups the containers form (See slide B8)
 genre: when the vocabularies are completely different, there is no telling where they land
-Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.
+Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; Also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.
 
 NOTES: Look at where the final parvans of the MBh landed — exactly the parvans whose relative dates are contested. And the Śivadharmaśāstra and Śivadharmottara: the purāṇas known to incorporate them are very much to the left. MFWs tend to be fillers; inapt authors rely on them. The Bhāgavata: an old problem, shows in our map (B7). Mode of compilation: the Bhaviṣya (B8, B9).
 
@@ -458,26 +483,26 @@ Title & Bullets
 
 TITLE: What’s the point of this?
 
-BODY: confirms things we suspected: relative age of the epics; late didactic MBh; affinities of purāṇas
-illuminates contentious issues: the closing parvans; MBh and Rām composed about the same time
-it will not date your text; it will tell you whose company it keeps
-and it shows where interesting things are happening: the Bhāgavata’s uniqueness, the closing parvans’ composition date, the Bhaviṣya’s provenance …
+BODY: Our lenses confirm some things that we had suspected: The relative age of the epics; the didactic portions of the MBh being late; the affinity of certain purāṇas; relative age of uncontaminated Purāṇas (Skandapurāṇa)
+At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed about the same time)
+It will not date your text; it will tell you whose company it keeps
+It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the composition, not integration date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ...
 
 TEXTITEM: What’s the point of this?
 
 TEXTITEM: 
 
-TEXTITEM: confirms things we suspected: relative age of the epics; late didactic MBh; affinities of purāṇas
-illuminates contentious issues: the closing parvans; MBh and Rām composed about the same time
-it will not date your text; it will tell you whose company it keeps
-and it shows where interesting things are happening: the Bhāgavata’s uniqueness, the closing parvans’ composition date, the Bhaviṣya’s provenance …
+TEXTITEM: Our lenses confirm some things that we had suspected: The relative age of the epics; the didactic portions of the MBh being late; the affinity of certain purāṇas; relative age of uncontaminated Purāṇas (Skandapurāṇa)
+At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed about the same time)
+It will not date your text; it will tell you whose company it keeps
+It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the composition, not integration date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ...
 
 TEXTITEM: What’s the point of this?
 
-TEXTITEM: confirms things we suspected: relative age of the epics; late didactic MBh; affinities of purāṇas
-illuminates contentious issues: the closing parvans; MBh and Rām composed about the same time
-it will not date your text; it will tell you whose company it keeps
-and it shows where interesting things are happening: the Bhāgavata’s uniqueness, the closing parvans’ composition date, the Bhaviṣya’s provenance …
+TEXTITEM: Our lenses confirm some things that we had suspected: The relative age of the epics; the didactic portions of the MBh being late; the affinity of certain purāṇas; relative age of uncontaminated Purāṇas (Skandapurāṇa)
+At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed about the same time)
+It will not date your text; it will tell you whose company it keeps
+It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the composition, not integration date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ...
 
 NOTES: This is the point of the whole talk: the counts make us look at old problems from a new angle, and the charts hand scholars hints about where to dig.
 
@@ -519,53 +544,80 @@ Title & Bullets
 
 TITLE: B1 · Burrows’s Delta, one level deeper
 
-BODY: for each of the top-80 words: how far is each text from the corpus-average rate, in standard deviations (a z-score)?
+BODY: for each of the top-80 words: how far is each text from the corpus average rate, in standard deviations (a z-score)?
 Delta(A, B) = the average disagreement of A and B across those words
-variants in the grid: Cosine Delta (angle instead of average); min-max and Manhattan (raw-frequency geometry)
+variants used in the grid: Cosine Delta (angle instead of average), min-max and Manhattan (raw-frequency geometry)
 
 TEXTITEM: B1 · Burrows’s Delta, one level deeper
 
 TEXTITEM: 
 
-TEXTITEM: for each of the top-80 words: how far is each text from the corpus-average rate, in standard deviations (a z-score)?
+TEXTITEM: for each of the top-80 words: how far is each text from the corpus average rate, in standard deviations (a z-score)?
 Delta(A, B) = the average disagreement of A and B across those words
-variants in the grid: Cosine Delta (angle instead of average); min-max and Manhattan (raw-frequency geometry)
+variants used in the grid: Cosine Delta (angle instead of average), min-max and Manhattan (raw-frequency geometry)
 
 TEXTITEM: B1 · Burrows’s Delta, one level deeper
 
-TEXTITEM: for each of the top-80 words: how far is each text from the corpus-average rate, in standard deviations (a z-score)?
+TEXTITEM: for each of the top-80 words: how far is each text from the corpus average rate, in standard deviations (a z-score)?
 Delta(A, B) = the average disagreement of A and B across those words
-variants in the grid: Cosine Delta (angle instead of average); min-max and Manhattan (raw-frequency geometry)
+variants used in the grid: Cosine Delta (angle instead of average), min-max and Manhattan (raw-frequency geometry)
 
 NOTES: 
 
 ======================================================================
 SLIDE 26
-Blank
+Title & Bullets
 
-TITLE: 
+TITLE: B3 · The length caveat
 
-BODY: 
+BODY: sections range from a few thousand to hundreds of thousands of words
+short sections have noisy profiles → inflated distances, positions unreliable
+marked as small dots on every map; none of the argument rests on them
+
+TEXTITEM: B3 · The length caveat
 
 TEXTITEM: 
 
-TEXTITEM: 
+TEXTITEM: sections range from a few thousand to hundreds of thousands of words
+short sections have noisy profiles → inflated distances, positions unreliable
+marked as small dots on every map; none of the argument rests on them
 
-NOTES: B3/B6: the length caveat, in one figure.
+TEXTITEM: B3 · The length caveat
+
+TEXTITEM: sections range from a few thousand to hundreds of thousands of words
+short sections have noisy profiles → inflated distances, positions unreliable
+marked as small dots on every map; none of the argument rests on them
+
+NOTES: 
 
 ======================================================================
 SLIDE 27
-Blank
+Title & Bullets
 
-TITLE: 
+TITLE: B4 · When the lenses disagree — a diagnostic, not a failure
 
-BODY: 
+BODY: BhP 10.29–33 transmitted with commentary (Bh10c on the maps):
+word lens: nearest neighbour = Kāśīkhaṇḍa — expelled from the Bhāgavata cluster (commentary vocabulary contaminates word counts)
+3-gram lens: nearest neighbour = BhP 10 — back inside the family
+Disagreement between lenses flags preprocessing problems — it does not hide them.
+
+TEXTITEM: B4 · When the lenses disagree — a diagnostic, not a failure
 
 TEXTITEM: 
 
-TEXTITEM: 
+TEXTITEM: BhP 10.29–33 transmitted with commentary (Bh10c on the maps):
+word lens: nearest neighbour = Kāśīkhaṇḍa — expelled from the Bhāgavata cluster (commentary vocabulary contaminates word counts)
+3-gram lens: nearest neighbour = BhP 10 — back inside the family
+Disagreement between lenses flags preprocessing problems — it does not hide them.
 
-NOTES: B5: majority-rule consensus, 500 replicates.
+TEXTITEM: B4 · When the lenses disagree — a diagnostic, not a failure
+
+TEXTITEM: BhP 10.29–33 transmitted with commentary (Bh10c on the maps):
+word lens: nearest neighbour = Kāśīkhaṇḍa — expelled from the Bhāgavata cluster (commentary vocabulary contaminates word counts)
+3-gram lens: nearest neighbour = BhP 10 — back inside the family
+Disagreement between lenses flags preprocessing problems — it does not hide them.
+
+NOTES: 
 
 ======================================================================
 SLIDE 28
@@ -579,7 +631,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: B7: the Bhāgavata, book by book.
+NOTES: B3/B6: the length caveat, in one figure.
 
 ======================================================================
 SLIDE 29
@@ -593,7 +645,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: B8: is the map just a borrowing web? Reuse overlay on the hero layout.
+NOTES: B5: majority-rule consensus, 500 replicates.
 
 ======================================================================
 SLIDE 30
@@ -607,10 +659,38 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: B9: the Bhaviṣya — a text that is mostly other texts; 53% of pāda-units matched; donors incl. Manu, Śivadharma corpus, Bṛhatsaṃhitā, the Buddhist ŚKA; per-block dating is the only dating it admits.
+NOTES: B7: the Bhāgavata, book by book.
 
 ======================================================================
 SLIDE 31
+Blank
+
+TITLE: 
+
+BODY: 
+
+TEXTITEM: 
+
+TEXTITEM: 
+
+NOTES: B8: is the map just a borrowing web? Reuse overlay on the hero layout.
+
+======================================================================
+SLIDE 32
+Blank
+
+TITLE: 
+
+BODY: 
+
+TEXTITEM: 
+
+TEXTITEM: 
+
+NOTES: B9: the Bhaviṣya — a text that is mostly other texts; 53% of pāda-units matched; donors incl. Manu, Śivadharma corpus, Bṛhatsaṃhitā, the Buddhist ŚKA; per-block dating is the only dating it admits.
+
+======================================================================
+SLIDE 33
 Blank
 
 TITLE: 
