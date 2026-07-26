@@ -269,7 +269,7 @@ def darken(hexcol, f=0.55):
 # figure spends its whole width on the map, with a compact strata-only legend
 # strip along the bottom right (bottom left stays clear for the tour cards).
 fig = plt.figure(figsize=(13.33, 7.5))
-ax = fig.add_axes([0.005, 0.10, 0.99, 0.80])
+ax = fig.add_axes([0.005, 0.145, 0.99, 0.755])
 
 for s in GROUP_ORDER:
     sel = [i for i, n in enumerate(names) if strata[n] == s]
@@ -289,11 +289,13 @@ for i, n in enumerate(names):
                 color=FADE_TXT if faded else darken(PALETTE[strata[n]]),
                 zorder=4)
 
-ax.annotate('', xy=(0.97, 0.02), xytext=(0.03, 0.02),
-            xycoords='axes fraction',
+# axis annotation lives BELOW the plot area — no collision with points
+fig.text(0.5, 0.126, 'earlier  →  later', ha='center', va='center',
+         fontsize=14, color='#555555', style='italic')
+ax.annotate('', xy=(0.97, 0.104), xytext=(0.03, 0.104),
+            xycoords='figure fraction', textcoords='figure fraction',
+            annotation_clip=False,
             arrowprops=dict(arrowstyle='-|>', color='#555555', lw=2.2))
-ax.text(0.5, 0.038, 'earlier  →  later', transform=ax.transAxes,
-        ha='center', fontsize=14, color='#555555', style='italic')
 
 feat_desc = ('80 most frequent words' if W1
              else f'{MFW} most frequent character 3-grams')
@@ -310,26 +312,20 @@ ax.set_xticks([]); ax.set_yticks([])
 for sp in ax.spines.values():
     sp.set_visible(False)
 
-# ── Strata legend strip (bottom right, two rows) ─────────────────────────────
+# ── Strata legend (matplotlib native columns; right of the tour-card zone) ──
+from matplotlib.lines import Line2D
 leg = [(s, labels_map[group_members[s][0]]) for s in GROUP_ORDER if group_members[s]]
-X0, X1 = 0.335, 0.995            # keep bottom left free for the tour cards
-n3 = (len(leg) + 2) // 3
-rows_ = (leg[:n3], leg[n3:2 * n3], leg[2 * n3:])
-for r, chunk in enumerate(rows_):
-    y = 0.082 - r * 0.034
-    # advance x by an estimate of each label's width so entries pack evenly
-    widths = [0.016 + 0.0082 * len(t) for _, t in chunk]
-    gap = max(0.004, ((X1 - X0) - sum(widths)) / max(1, len(chunk) - 1))
-    x = X0
-    for (s, txt), wd in zip(chunk, widths):
-        faded = hl and s not in hl
-        fig.patches.append(plt.Circle(
-            (x + 0.005, y + 0.0035), 0.0048, transform=fig.transFigure,
-            color=FADE if faded else PALETTE[s], clip_on=False))
-        fig.text(x + 0.014, y, txt, fontsize=11.5, fontweight='bold',
-                 va='center', ha='left',
-                 color=FADE_TXT if faded else darken(PALETTE[s], 0.45))
-        x += wd + gap
+handles = [Line2D([], [], marker='o', linestyle='', markersize=8,
+                  markerfacecolor=(FADE if hl and s not in hl else PALETTE[s]),
+                  markeredgecolor='white', label=txt) for s, txt in leg]
+legend = fig.legend(handles=handles, ncol=5, loc='lower center',
+                    bbox_to_anchor=(0.652, -0.014), frameon=False,
+                    fontsize=10.8, columnspacing=0.9, handletextpad=0.2,
+                    labelspacing=0.4)
+for t, (s, _) in zip(legend.get_texts(), leg):
+    faded = hl and s not in hl
+    t.set_color(FADE_TXT if faded else darken(PALETTE[s], 0.45))
+    t.set_fontweight('bold')
 
 fig.savefig(f'{OUT}.png', dpi=200)
 fig.savefig(f'{OUT}.pdf')
