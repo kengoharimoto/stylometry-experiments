@@ -143,29 +143,29 @@ NOTES: Roadmap: first how the map is made, then a guided tour, then the robustne
 SLIDE 8
 Title & Bullets
 
-TITLE: The corpus: 111 texts/text sections
+TITLE: The corpus: 114 texts/text sections
 
-BODY: 111 texts and sections · ≈ 4.8 million words
+BODY: 111 texts and sections · ≈ 4.85 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
-purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it
+purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, etc.)
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
 Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
-TEXTITEM: The corpus: 111 texts/text sections
+TEXTITEM: The corpus: 114 texts/text sections
 
 TEXTITEM: ≈ 4.8 million words
 
-TEXTITEM: 111 texts and sections · ≈ 4.8 million words
+TEXTITEM: 111 texts and sections · ≈ 4.85 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
-purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it
+purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, etc.)
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
 Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
-TEXTITEM: The corpus: 111 texts/text sections
+TEXTITEM: The corpus: 114 texts/text sections
 
-TEXTITEM: 111 texts and sections · ≈ 4.8 million words
+TEXTITEM: 111 texts and sections · ≈ 4.85 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
-purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it
+purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, etc.)
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
 Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
@@ -194,7 +194,7 @@ TITLE: From counts to distances
 BODY: For each pair of texts: how differently do they use their most common words?
 similar habits → small number
 different habits → large number
-Result: a 111 × 111 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
+Result: a 114 × 114 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 
 TEXTITEM: From counts to distances
 
@@ -203,14 +203,14 @@ TEXTITEM:
 TEXTITEM: For each pair of texts: how differently do they use their most common words?
 similar habits → small number
 different habits → large number
-Result: a 111 × 111 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
+Result: a 114 × 114 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 
 TEXTITEM: From counts to distances
 
 TEXTITEM: For each pair of texts: how differently do they use their most common words?
 similar habits → small number
 different habits → large number
-Result: a 111 × 111 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
+Result: a 114 × 114 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 
 TABLEROW: pair | distance | 
 
@@ -264,7 +264,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: Mileage-chart analogy: given only road distances between cities you can redraw the map of India. MDS does exactly that with stylistic distances. The opening map is this with the full 111×111 table. Axes mean nothing by themselves; only nearness does.
+NOTES: Mileage-chart analogy: given only road distances between cities you can redraw the map of India. MDS does exactly that with stylistic distances. The opening map is this with the full 114×114 table. Axes mean nothing by themselves; only nearness does.
 
 ======================================================================
 SLIDE 13
@@ -307,7 +307,7 @@ TEXTITEM:
 NOTES: • The old purāṇic core: Vāyu, Brahmāṇḍa, Mārkaṇḍeya, Matsya, Viṣṇu. Vāyu ↔ Brahmāṇḍa at 0.28 — Kirfel’s Vāyuproktaṃ Purāṇam, as a number. 
 • V8 is of Vaṃśa, Kirfel's oldest core
 V2 is primarily yoga chapters
-
+Mārkaṇḍeya post Devīmāhātmya in the epic realm
 
 ======================================================================
 SLIDE 15
@@ -387,7 +387,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: The date of the purāṇa has always been in dispute. What we have here adds one more data point to the intrigue.
+NOTES: The date of the purāṇa has always been in dispute. What we have here adds one more data point to the intrigue. Bh10c is with a commentary; to the right but not so much
 
 ======================================================================
 SLIDE 19
@@ -401,7 +401,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: Walk the grid: top row words/unsandhied, bottom row 3-grams/sandhied, three distance metrics each — six independent pipelines, one geometry. Layout agreement with the opening map: 0.95-0.96 (words), 0.82-0.89 (3-grams).
+NOTES: Walk the grid: top row words/unsandhied, bottom row 3-grams/sandhied, three distance metrics each — six independent pipelines, one geometry. Layout agreement with the opening map: 0.94-0.95 (words), 0.81-0.87 (3-grams).
 
 ======================================================================
 SLIDE 20
@@ -583,7 +583,7 @@ NOTES:
 SLIDE 27
 Title & Bullets
 
-TITLE: The 111 sources
+TITLE: The 114 sources
 
 BODY: Mahābhārata
 MBh1  MBh 1
@@ -617,7 +617,10 @@ Bḍ  Brahmāṇḍa
 Bḍ1  Brahmāṇḍa 1
 Bḍ2  Brahmāṇḍa 2
 Bḍ3  Brahmāṇḍa 3
-Mā  Mārkaṇḍeya 1–93
+Mā  Mārkaṇḍeya
+Mā1  Mārkaṇḍeya 1–80
+MāD  Devīmāhātmya (81–93)
+Mā9  Mā post-DM
 Mt  Matsya
 V  Vāyu
 V×B  Vāyu×BḍP
@@ -710,9 +713,9 @@ HV  Harivaṃśa
 ŚDh  Śivadharmaśāstra
 ŚDhU  Śivadharmottara
 
-TEXTITEM: The 111 sources
+TEXTITEM: The 114 sources
 
-TEXTITEM: Legends
+TEXTITEM: Keys
 
 TEXTITEM: Mahābhārata
 MBh1  MBh 1
@@ -746,7 +749,10 @@ Bḍ  Brahmāṇḍa
 Bḍ1  Brahmāṇḍa 1
 Bḍ2  Brahmāṇḍa 2
 Bḍ3  Brahmāṇḍa 3
-Mā  Mārkaṇḍeya 1–93
+Mā  Mārkaṇḍeya
+Mā1  Mārkaṇḍeya 1–80
+MāD  Devīmāhātmya (81–93)
+Mā9  Mā post-DM
 Mt  Matsya
 V  Vāyu
 V×B  Vāyu×BḍP
@@ -839,7 +845,7 @@ HV  Harivaṃśa
 ŚDh  Śivadharmaśāstra
 ŚDhU  Śivadharmottara
 
-TEXTITEM: The 111 sources
+TEXTITEM: The 114 sources
 
 TEXTITEM: Mahābhārata
 MBh1  MBh 1
@@ -873,7 +879,10 @@ Bḍ  Brahmāṇḍa
 Bḍ1  Brahmāṇḍa 1
 Bḍ2  Brahmāṇḍa 2
 Bḍ3  Brahmāṇḍa 3
-Mā  Mārkaṇḍeya 1–93
+Mā  Mārkaṇḍeya
+Mā1  Mārkaṇḍeya 1–80
+MāD  Devīmāhātmya (81–93)
+Mā9  Mā post-DM
 Mt  Matsya
 V  Vāyu
 V×B  Vāyu×BḍP
