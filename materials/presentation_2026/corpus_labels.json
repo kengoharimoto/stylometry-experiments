@@ -203,11 +203,32 @@
   "display": "Brahmāṇḍa 3"
  },
  {
-  "text": "markandeyapurana_adhyaya-1-93_u",
+  "text": "markandeyapurana",
   "stratum": 3,
   "label": "old purāṇic core",
   "code": "Mā",
-  "display": "Mārkaṇḍeya 1–93"
+  "display": "Mārkaṇḍeya"
+ },
+ {
+  "text": "markandeyapurana_adhyaya-1-80_u",
+  "stratum": 3,
+  "label": "old purāṇic core",
+  "code": "Mā1",
+  "display": "Mārkaṇḍeya 1–80"
+ },
+ {
+  "text": "markandeyapurana_adhyaya-81-93_devimahatmya_u",
+  "stratum": 3,
+  "label": "old purāṇic core",
+  "code": "MāD",
+  "display": "Devīmāhātmya (Mā 81–93)"
+ },
+ {
+  "text": "markandeyapurana_adhyaya-94-141_u",
+  "stratum": 3,
+  "label": "old purāṇic core",
+  "code": "Mā9",
+  "display": "Mārkaṇḍeya 94–141"
  },
  {
   "text": "matsyapurana_pu",

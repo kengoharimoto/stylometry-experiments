@@ -46,6 +46,7 @@ def family(n):
     if n == 'vayu_ba' or re.match(r'vayupurana(_\d+_|$)', n):
         return 'vayu'                       # Vāyu whole + ten sections + V×B
     for fam in ('brahmandapurana', 'skandapurana', 'matsyapurana',
+                'markandeyapurana',
                 'devibhagavatapurana', 'bhagavatapurana_skandha-10',
                 'garudapurana', 'kurmapurana', 'lingapurana', 'naradapurana'):
         if n == fam or n.startswith(fam + '_') or n.startswith(fam):

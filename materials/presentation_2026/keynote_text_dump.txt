@@ -84,73 +84,95 @@ Statement
 
 TITLE: 
 
-BODY: Yet the familiar relative chronology reads left to right 😳
+BODY: Yet the familiar relative chronology reads left to right
 
-TEXTITEM: Yet the familiar relative chronology reads left to right 😳
+TEXTITEM: Yet the familiar relative chronology reads left to right
 
 TEXTITEM: 
 
-TEXTITEM: Yet the familiar relative chronology reads left to right 😳
+TEXTITEM: Yet the familiar relative chronology reads left to right
 
 NOTES: 
 
 ======================================================================
 SLIDE 6
-Title & Bullets
+Section
 
-TITLE: Two questions worth thirty minutes
+TITLE: Questions
 
-BODY: What exactly was counted?
-Can the left–right axis be trusted — and what good does it do if it is?
+BODY: 
 
-TEXTITEM: Two questions worth thirty minutes
+TEXTITEM: Questions
+
+TEXTITEM: Questions
 
 TEXTITEM: 
 
-TEXTITEM: What exactly was counted?
-Can the left–right axis be trusted — and what good does it do if it is?
-
-TEXTITEM: Two questions worth thirty minutes
-
-TEXTITEM: What exactly was counted?
-Can the left–right axis be trusted — and what good does it do if it is?
-
-NOTES: Roadmap: first how the map is made, then a guided tour, then the robustness case, then honest caveats.
+NOTES: 
 
 ======================================================================
 SLIDE 7
 Title & Bullets
 
-TITLE: The corpus: 111 texts and sections · ≈ 4.8 million words
+TITLE: I will answer the three questions
+
+BODY: What exactly was counted?
+How was the map plotted?
+Can the left–right axis be trusted 
+And what good does it do, if it is?
+
+TEXTITEM: I will answer the three questions
+
+TEXTITEM: in this presentation
+
+TEXTITEM: What exactly was counted?
+How was the map plotted?
+Can the left–right axis be trusted 
+And what good does it do, if it is?
+
+TEXTITEM: I will answer the three questions
+
+TEXTITEM: What exactly was counted?
+How was the map plotted?
+Can the left–right axis be trusted 
+And what good does it do, if it is?
+
+NOTES: Roadmap: first how the map is made, then a guided tour, then the robustness case, then honest caveats.
+
+======================================================================
+SLIDE 8
+Title & Bullets
+
+TITLE: The corpus: 111 texts/text sections
 
 BODY: 111 texts and sections · ≈ 4.8 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
-purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it
+purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
 Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
-TEXTITEM: The corpus: 111 texts and sections · ≈ 4.8 million words
+TEXTITEM: The corpus: 111 texts/text sections
 
-TEXTITEM: 
+TEXTITEM: ≈ 4.8 million words
 
 TEXTITEM: 111 texts and sections · ≈ 4.8 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
-purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it
+purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
 Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
-TEXTITEM: The corpus: 111 texts and sections · ≈ 4.8 million words
+TEXTITEM: The corpus: 111 texts/text sections
 
 TEXTITEM: 111 texts and sections · ≈ 4.8 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
-purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it
+purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
 Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
 NOTES: One line on e-text provenance; do not linger.
 
 ======================================================================
-SLIDE 8
+SLIDE 9
 Blank
 
 TITLE: 
@@ -164,7 +186,7 @@ TEXTITEM:
 NOTES: Left: the features are ca, tu, eva, na, sa, tathā — grammatical glue, not content. Nobody composes with their rate of tu in mind. Right: the old purāṇic core uses tu/eva/tathā/vai about 1.5–3x as often as the Mahābhārata; the Bhāgavata suppresses all four. These boring words carry the signal.
 
 ======================================================================
-SLIDE 9
+SLIDE 10
 Title & Bullets
 
 TITLE: From counts to distances
@@ -203,16 +225,14 @@ TABLEROW: Rām 2 (Ayodhyā) ↔ Agni | 1.34 |
 NOTES: No formulas: an average of disagreements in word habits, in units of what is normal for this corpus. Table rows preview later tour stops.
 
 ======================================================================
-SLIDE 10
-Title & Bullets
+SLIDE 11
+Title Only
 
 TITLE: The same corpus, measured twice
 
 BODY: 
 
 TEXTITEM: The same corpus, measured twice
-
-TEXTITEM: 
 
 TEXTITEM: 
 
@@ -233,7 +253,7 @@ TABLEROW: sees | particles, pronouns, vocabulary habits | morphology, phonology 
 NOTES: Flag now, cash in at Act 4: any segmentation-pipeline artifact could only touch Lens 1; any orthographic/sandhi artifact only Lens 2.
 
 ======================================================================
-SLIDE 11
+SLIDE 12
 Blank
 
 TITLE: 
@@ -247,18 +267,19 @@ TEXTITEM:
 NOTES: Mileage-chart analogy: given only road distances between cities you can redraw the map of India. MDS does exactly that with stylistic distances. The opening map is this with the full 111×111 table. Axes mean nothing by themselves; only nearness does.
 
 ======================================================================
-SLIDE 12
+SLIDE 13
 Blank
 
 TITLE: 
 
 BODY: 
 
-TEXTITEM: THE EPIC ZONE
+TEXTITEM: The Epic Zone
 battle books MBh 6–9 cluster tightly — Droṇa ↔ Karṇa the tightest pair (0.28 ≈ ¼ of a typical distance)
 MBh 12–13 (Śānti, Anuśāsana): mutual nearest neighbours — and drifted toward purāṇa-space...
 Rām 2–6 hold together; Bāla(R1)'s nearest neighbour is the Uttara(R7)... — in both lenses
-The stratification of higher criticism, recovered blind.
+The stratification of higher criticism, recovered blind
+Some more secrets may be hiding
 
 TEXTITEM: 
 
@@ -267,7 +288,7 @@ TEXTITEM:
 NOTES: The epic zone: parvans and kāṇḍas mingle; MBh and Rām overlap. The didactic parvans 12-13 sit to the right of the battle books.
 
 ======================================================================
-SLIDE 13
+SLIDE 14
 Blank
 
 TITLE: 
@@ -283,10 +304,13 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: The old purāṇic core: Vāyu, Brahmāṇḍa, Mārkaṇḍeya, Matsya, Viṣṇu. Vāyu ↔ Brahmāṇḍa at 0.28 — Kirfel’s Vāyuproktaṃ Purāṇam, as a number.
+NOTES: • The old purāṇic core: Vāyu, Brahmāṇḍa, Mārkaṇḍeya, Matsya, Viṣṇu. Vāyu ↔ Brahmāṇḍa at 0.28 — Kirfel’s Vāyuproktaṃ Purāṇam, as a number. 
+• V8 is of Vaṃśa, Kirfel's oldest core
+V2 is primarily yoga chapters
+
 
 ======================================================================
-SLIDE 14
+SLIDE 15
 Blank
 
 TITLE: 
@@ -301,10 +325,10 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: The old Skandapurāṇa: mostly with the old core; the Pāśupata chapters (SP2) jump far right — doctrine added later than the narrative bulk.
+NOTES: The old Skandapurāṇa: preserving old text (9th c. MSS); mostly with the old core; the Pāśupata chapters (SP2) jump far right (Is it the 9th c.?)— doctrine added later than the narrative bulk.
 
 ======================================================================
-SLIDE 15
+SLIDE 16
 Blank
 
 TITLE: 
@@ -320,10 +344,10 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: The sectarian & encyclopedic mass: one broad stratum, no clean middle/late line; digests at the far right.
+NOTES: The sectarian & encyclopedic mass: one broad stratum, no clean middle/late line; digests at the far right; not much different from the Vāyu spread
 
 ======================================================================
-SLIDE 16
+SLIDE 17
 Blank
 
 TITLE: 
@@ -345,7 +369,7 @@ TEXTITEM:
 NOTES: The Skāndamahāpurāṇa, khaṇḍa by khaṇḍa: 0 of 4 khaṇḍas have their nearest neighbour inside the SkMP, in either lens; the reuse scan finds they share no text with one another. What connects them is a phrase in the colophons. The Śivapurāṇa tells the same story. Revākhaṇḍa: nearest neighbour is the other Revākhaṇḍa, transmitted with the Vāyu — ~5% shared lines.
 
 ======================================================================
-SLIDE 17
+SLIDE 18
 Blank
 
 TITLE: 
@@ -366,7 +390,7 @@ TEXTITEM:
 NOTES: The date of the purāṇa has always been in dispute. What we have here adds one more data point to the intrigue.
 
 ======================================================================
-SLIDE 18
+SLIDE 19
 Blank
 
 TITLE: 
@@ -380,7 +404,7 @@ TEXTITEM:
 NOTES: Walk the grid: top row words/unsandhied, bottom row 3-grams/sandhied, three distance metrics each — six independent pipelines, one geometry. Layout agreement with the opening map: 0.95-0.96 (words), 0.82-0.89 (3-grams).
 
 ======================================================================
-SLIDE 19
+SLIDE 20
 Title & Bullets
 
 TITLE: Suppose the axis were an artifact…
@@ -389,19 +413,19 @@ BODY: Suppose the axis were an artifact:
 a flaw in sandhi segmentation → could distort the word lens only
 an orthographic / sandhi convention → could distort the 3-gram lens only
 a quirk of one distance formula → fails to explain the other five
-The lenses share almost no assumptions — yet draw the same axis.
+The lenses share almost no assumptions
+yet draw the same axis.
 
 TEXTITEM: Suppose the axis were an artifact…
 
-TEXTITEM: 
+TEXTITEM: Or is it?
 
 TEXTITEM: Suppose the axis were an artifact:
 a flaw in sandhi segmentation → could distort the word lens only
 an orthographic / sandhi convention → could distort the 3-gram lens only
 a quirk of one distance formula → fails to explain the other five
-The lenses share almost no assumptions — yet draw the same axis.
-
-TEXTITEM: The signal is in the texts.
+The lenses share almost no assumptions
+yet draw the same axis.
 
 TEXTITEM: Suppose the axis were an artifact…
 
@@ -409,29 +433,46 @@ TEXTITEM: Suppose the axis were an artifact:
 a flaw in sandhi segmentation → could distort the word lens only
 an orthographic / sandhi convention → could distort the 3-gram lens only
 a quirk of one distance formula → fails to explain the other five
-The lenses share almost no assumptions — yet draw the same axis.
+The lenses share almost no assumptions
+yet draw the same axis.
 
 NOTES: The abstract’s core argument; deliver slowly. The lenses share almost no assumptions — yet draw the same axis.
 
 ======================================================================
-SLIDE 20
+SLIDE 21
+Statement
+
+TITLE: 
+
+BODY: The signal is in the texts
+
+TEXTITEM: The signal is in the texts
+
+TEXTITEM: 
+
+TEXTITEM: The signal is in the texts
+
+NOTES: 
+
+======================================================================
+SLIDE 22
 Title & Bullets
 
-TITLE: What the second axis is not
+TITLE: What does the second axis represent, then?
 
 BODY: the vertical axis is unstable across configurations
 depending on features and metric it separates by something like genre, region, or sectarian register — no labeling survives all six panels
 honest conclusion: one axis is chronology-like and robust; the second resists a stable name
 
-TEXTITEM: What the second axis is not
+TEXTITEM: What does the second axis represent, then?
 
-TEXTITEM: 
+TEXTITEM: Various possibilities
 
 TEXTITEM: the vertical axis is unstable across configurations
 depending on features and metric it separates by something like genre, region, or sectarian register — no labeling survives all six panels
 honest conclusion: one axis is chronology-like and robust; the second resists a stable name
 
-TEXTITEM: What the second axis is not
+TEXTITEM: What does the second axis represent, then?
 
 TEXTITEM: the vertical axis is unstable across configurations
 depending on features and metric it separates by something like genre, region, or sectarian register — no labeling survives all six panels
@@ -440,7 +481,7 @@ honest conclusion: one axis is chronology-like and robust; the second resists a 
 NOTES: Promised in the abstract; agnosticism as a feature, not a weakness. The Bhāgavata’s vertical displacement is the clearest case.
 
 ======================================================================
-SLIDE 21
+SLIDE 23
 Title & Bullets
 
 TITLE: What the axis is made of
@@ -478,7 +519,7 @@ Look at where the final parvans of the MBh landed in our map. Those are exactly 
 NOTES: Look at where the final parvans of the MBh landed — exactly the parvans whose relative dates are contested. And the Śivadharmaśāstra and Śivadharmottara: the purāṇas known to incorporate them are very much to the left. MFWs tend to be fillers; inapt authors rely on them. The Bhāgavata: an old problem, shows in our map (B7). Mode of compilation: the Bhaviṣya (B8, B9).
 
 ======================================================================
-SLIDE 22
+SLIDE 24
 Title & Bullets
 
 TITLE: What’s the point of this?
@@ -507,7 +548,7 @@ It also tells us where interesting things are happening; it is about time someon
 NOTES: This is the point of the whole talk: the counts make us look at old problems from a new angle, and the charts hand scholars hints about where to dig.
 
 ======================================================================
-SLIDE 23
+SLIDE 25
 Blank
 
 TITLE: 
@@ -523,7 +564,7 @@ TEXTITEM:
 NOTES: End where we began — now everyone can read the map. Thanks; over to questions.
 
 ======================================================================
-SLIDE 24
+SLIDE 26
 Section
 
 TITLE: Backup slides
@@ -539,7 +580,396 @@ TEXTITEM:
 NOTES: 
 
 ======================================================================
-SLIDE 25
+SLIDE 27
+Title & Bullets
+
+TITLE: The 111 sources
+
+BODY: Mahābhārata
+MBh1  MBh 1
+MBh2  MBh 2
+MBh3  MBh 3
+MBh4  MBh 4
+MBh5  MBh 5
+MBh6  MBh 6
+MBh7  MBh 7
+MBh8  MBh 8
+MBh9  MBh 9
+MBh10  MBh 10
+MBh11  MBh 11
+MBh12  MBh 12
+MBh13  MBh 13
+MBh14  MBh 14
+MBh15  MBh 15
+MBh16  MBh 16
+MBh17  MBh 17
+MBh18  MBh 18
+Rāmāyaṇa
+R1  Rām 1
+R2  Rām 2
+R3  Rām 3
+R4  Rām 4
+R5  Rām 5
+R6  Rām 6
+R7  Rām 7
+old purāṇic core
+Bḍ  Brahmāṇḍa
+Bḍ1  Brahmāṇḍa 1
+Bḍ2  Brahmāṇḍa 2
+Bḍ3  Brahmāṇḍa 3
+Mā  Mārkaṇḍeya 1–93
+Mt  Matsya
+V  Vāyu
+V×B  Vāyu×BḍP
+V1  Vāyu 1.1–1.10
+V2  Vāyu 1.11–1.20
+V3  Vāyu 1.21–1.33
+V4  Vāyu 1.34–1.49
+V5  Vāyu 1.50–1.61
+V6  Vāyu 2.1–2.9
+V7  Vāyu 2.10–2.22
+V8  Vāyu 2.23–2.37
+V9  Vāyu 2.38–2.42
+V10  Vāyu 2.43–2.50
+Vi  Viṣṇu
+old Skandapurāṇa
+SP  SP (old)
+SP1  SP (old) 1–31
+SP2  SP (old) Pāśupata
+sectarian & encyclopedic
+A  Agni
+Bhv  Bhaviṣya
+Br  Brahma
+DB  DevīBhP
+DG  Devīgītā (DBhP 7.31–40)
+Dv  Devī
+G1  Garuḍa 1
+G2  Garuḍa 2
+G3  Garuḍa 3
+K1  Kūrma 1
+K2  Kūrma 2
+Kā  Kālikā
+Kt  Karatoyā
+L1  Liṅga 1
+L2  Liṅga 2
+N1  Nārada 1
+N2  Nārada 2
+Nī  Nīlamata
+Nṛ  Nṛsiṃha
+Pd  Padma
+RvV  Revākh. (Vāyu)
+Sau  Saura
+Sr  Saromāhātmya
+Vd  Viṣṇudharma
+Vm  Vāmana
+Vt  ViDhUt (exc.)
+Śivapurāṇa
+Dh  ŚiP Dharma
+Kv  ŚiP Kārvaṇa māh.
+Ru  ŚiP Rudra
+Sn  ŚiP Sanatkumāra
+Śt  ŚiP Śatarudra
+U  ŚiP Umā
+Vā  ŚiP Vāyavīya
+Vy  ŚiP Vidyeśvara
+Bhāgavata
+Bh1  BhP 1
+Bh2  BhP 2
+Bh3  BhP 3
+Bh4  BhP 4
+Bh5  BhP 5
+Bh6  BhP 6
+Bh7  BhP 7
+Bh8  BhP 8
+Bh9  BhP 9
+Bh10  BhP 10
+Bh11  BhP 11
+Bh12  BhP 12
+BhP with commentary
+Bh10c  BhP 10 + comm.
+Śāstra
+Pk  Praṇavakalpa
+Skāndamahāpurāṇa
+Hm  Himavatkh. (SkMP)
+Kś  Kāśīkh. (SkMP)
+Rv  Revākh. (SkMP)
+Sū  Sūtasaṃhitā 4
+epic appendices
+HA29  HV App. 29–30 (Mathurā)
+HA31  HV App. 31
+HA41  HV App. 41
+HA42  HV App. 42 (prādurbh.)
+MA2  MBh 2 App. 21 (Śiśupāla)
+MA7  MBh 7 App. 8 (Ṣoḍaśarājika)
+MA12  MBh 12 App. 29 (Mokṣadh.)
+MA13  MBh 13 App. 15 (Umāmah.)
+MA14  MBh 14 App. 4 (Vaiṣṇavadh.)
+Harivaṃśa
+HV  Harivaṃśa
+Śivadharma
+ŚDh  Śivadharmaśāstra
+ŚDhU  Śivadharmottara
+
+TEXTITEM: The 111 sources
+
+TEXTITEM: Legends
+
+TEXTITEM: Mahābhārata
+MBh1  MBh 1
+MBh2  MBh 2
+MBh3  MBh 3
+MBh4  MBh 4
+MBh5  MBh 5
+MBh6  MBh 6
+MBh7  MBh 7
+MBh8  MBh 8
+MBh9  MBh 9
+MBh10  MBh 10
+MBh11  MBh 11
+MBh12  MBh 12
+MBh13  MBh 13
+MBh14  MBh 14
+MBh15  MBh 15
+MBh16  MBh 16
+MBh17  MBh 17
+MBh18  MBh 18
+Rāmāyaṇa
+R1  Rām 1
+R2  Rām 2
+R3  Rām 3
+R4  Rām 4
+R5  Rām 5
+R6  Rām 6
+R7  Rām 7
+old purāṇic core
+Bḍ  Brahmāṇḍa
+Bḍ1  Brahmāṇḍa 1
+Bḍ2  Brahmāṇḍa 2
+Bḍ3  Brahmāṇḍa 3
+Mā  Mārkaṇḍeya 1–93
+Mt  Matsya
+V  Vāyu
+V×B  Vāyu×BḍP
+V1  Vāyu 1.1–1.10
+V2  Vāyu 1.11–1.20
+V3  Vāyu 1.21–1.33
+V4  Vāyu 1.34–1.49
+V5  Vāyu 1.50–1.61
+V6  Vāyu 2.1–2.9
+V7  Vāyu 2.10–2.22
+V8  Vāyu 2.23–2.37
+V9  Vāyu 2.38–2.42
+V10  Vāyu 2.43–2.50
+Vi  Viṣṇu
+old Skandapurāṇa
+SP  SP (old)
+SP1  SP (old) 1–31
+SP2  SP (old) Pāśupata
+sectarian & encyclopedic
+A  Agni
+Bhv  Bhaviṣya
+Br  Brahma
+DB  DevīBhP
+DG  Devīgītā (DBhP 7.31–40)
+Dv  Devī
+G1  Garuḍa 1
+G2  Garuḍa 2
+G3  Garuḍa 3
+K1  Kūrma 1
+K2  Kūrma 2
+Kā  Kālikā
+Kt  Karatoyā
+L1  Liṅga 1
+L2  Liṅga 2
+N1  Nārada 1
+N2  Nārada 2
+Nī  Nīlamata
+Nṛ  Nṛsiṃha
+Pd  Padma
+RvV  Revākh. (Vāyu)
+Sau  Saura
+Sr  Saromāhātmya
+Vd  Viṣṇudharma
+Vm  Vāmana
+Vt  ViDhUt (exc.)
+Śivapurāṇa
+Dh  ŚiP Dharma
+Kv  ŚiP Kārvaṇa māh.
+Ru  ŚiP Rudra
+Sn  ŚiP Sanatkumāra
+Śt  ŚiP Śatarudra
+U  ŚiP Umā
+Vā  ŚiP Vāyavīya
+Vy  ŚiP Vidyeśvara
+Bhāgavata
+Bh1  BhP 1
+Bh2  BhP 2
+Bh3  BhP 3
+Bh4  BhP 4
+Bh5  BhP 5
+Bh6  BhP 6
+Bh7  BhP 7
+Bh8  BhP 8
+Bh9  BhP 9
+Bh10  BhP 10
+Bh11  BhP 11
+Bh12  BhP 12
+BhP with commentary
+Bh10c  BhP 10 + comm.
+Śāstra
+Pk  Praṇavakalpa
+Skāndamahāpurāṇa
+Hm  Himavatkh. (SkMP)
+Kś  Kāśīkh. (SkMP)
+Rv  Revākh. (SkMP)
+Sū  Sūtasaṃhitā 4
+epic appendices
+HA29  HV App. 29–30 (Mathurā)
+HA31  HV App. 31
+HA41  HV App. 41
+HA42  HV App. 42 (prādurbh.)
+MA2  MBh 2 App. 21 (Śiśupāla)
+MA7  MBh 7 App. 8 (Ṣoḍaśarājika)
+MA12  MBh 12 App. 29 (Mokṣadh.)
+MA13  MBh 13 App. 15 (Umāmah.)
+MA14  MBh 14 App. 4 (Vaiṣṇavadh.)
+Harivaṃśa
+HV  Harivaṃśa
+Śivadharma
+ŚDh  Śivadharmaśāstra
+ŚDhU  Śivadharmottara
+
+TEXTITEM: The 111 sources
+
+TEXTITEM: Mahābhārata
+MBh1  MBh 1
+MBh2  MBh 2
+MBh3  MBh 3
+MBh4  MBh 4
+MBh5  MBh 5
+MBh6  MBh 6
+MBh7  MBh 7
+MBh8  MBh 8
+MBh9  MBh 9
+MBh10  MBh 10
+MBh11  MBh 11
+MBh12  MBh 12
+MBh13  MBh 13
+MBh14  MBh 14
+MBh15  MBh 15
+MBh16  MBh 16
+MBh17  MBh 17
+MBh18  MBh 18
+Rāmāyaṇa
+R1  Rām 1
+R2  Rām 2
+R3  Rām 3
+R4  Rām 4
+R5  Rām 5
+R6  Rām 6
+R7  Rām 7
+old purāṇic core
+Bḍ  Brahmāṇḍa
+Bḍ1  Brahmāṇḍa 1
+Bḍ2  Brahmāṇḍa 2
+Bḍ3  Brahmāṇḍa 3
+Mā  Mārkaṇḍeya 1–93
+Mt  Matsya
+V  Vāyu
+V×B  Vāyu×BḍP
+V1  Vāyu 1.1–1.10
+V2  Vāyu 1.11–1.20
+V3  Vāyu 1.21–1.33
+V4  Vāyu 1.34–1.49
+V5  Vāyu 1.50–1.61
+V6  Vāyu 2.1–2.9
+V7  Vāyu 2.10–2.22
+V8  Vāyu 2.23–2.37
+V9  Vāyu 2.38–2.42
+V10  Vāyu 2.43–2.50
+Vi  Viṣṇu
+old Skandapurāṇa
+SP  SP (old)
+SP1  SP (old) 1–31
+SP2  SP (old) Pāśupata
+sectarian & encyclopedic
+A  Agni
+Bhv  Bhaviṣya
+Br  Brahma
+DB  DevīBhP
+DG  Devīgītā (DBhP 7.31–40)
+Dv  Devī
+G1  Garuḍa 1
+G2  Garuḍa 2
+G3  Garuḍa 3
+K1  Kūrma 1
+K2  Kūrma 2
+Kā  Kālikā
+Kt  Karatoyā
+L1  Liṅga 1
+L2  Liṅga 2
+N1  Nārada 1
+N2  Nārada 2
+Nī  Nīlamata
+Nṛ  Nṛsiṃha
+Pd  Padma
+RvV  Revākh. (Vāyu)
+Sau  Saura
+Sr  Saromāhātmya
+Vd  Viṣṇudharma
+Vm  Vāmana
+Vt  ViDhUt (exc.)
+Śivapurāṇa
+Dh  ŚiP Dharma
+Kv  ŚiP Kārvaṇa māh.
+Ru  ŚiP Rudra
+Sn  ŚiP Sanatkumāra
+Śt  ŚiP Śatarudra
+U  ŚiP Umā
+Vā  ŚiP Vāyavīya
+Vy  ŚiP Vidyeśvara
+Bhāgavata
+Bh1  BhP 1
+Bh2  BhP 2
+Bh3  BhP 3
+Bh4  BhP 4
+Bh5  BhP 5
+Bh6  BhP 6
+Bh7  BhP 7
+Bh8  BhP 8
+Bh9  BhP 9
+Bh10  BhP 10
+Bh11  BhP 11
+Bh12  BhP 12
+BhP with commentary
+Bh10c  BhP 10 + comm.
+Śāstra
+Pk  Praṇavakalpa
+Skāndamahāpurāṇa
+Hm  Himavatkh. (SkMP)
+Kś  Kāśīkh. (SkMP)
+Rv  Revākh. (SkMP)
+Sū  Sūtasaṃhitā 4
+epic appendices
+HA29  HV App. 29–30 (Mathurā)
+HA31  HV App. 31
+HA41  HV App. 41
+HA42  HV App. 42 (prādurbh.)
+MA2  MBh 2 App. 21 (Śiśupāla)
+MA7  MBh 7 App. 8 (Ṣoḍaśarājika)
+MA12  MBh 12 App. 29 (Mokṣadh.)
+MA13  MBh 13 App. 15 (Umāmah.)
+MA14  MBh 14 App. 4 (Vaiṣṇavadh.)
+Harivaṃśa
+HV  Harivaṃśa
+Śivadharma
+ŚDh  Śivadharmaśāstra
+ŚDhU  Śivadharmottara
+
+NOTES: 
+
+======================================================================
+SLIDE 28
 Title & Bullets
 
 TITLE: B1 · Burrows’s Delta, one level deeper
@@ -565,7 +995,7 @@ variants used in the grid: Cosine Delta (angle instead of average), min-max and 
 NOTES: 
 
 ======================================================================
-SLIDE 26
+SLIDE 29
 Title & Bullets
 
 TITLE: B3 · The length caveat
@@ -591,7 +1021,7 @@ marked as small dots on every map; none of the argument rests on them
 NOTES: 
 
 ======================================================================
-SLIDE 27
+SLIDE 30
 Title & Bullets
 
 TITLE: B4 · When the lenses disagree — a diagnostic, not a failure
@@ -620,7 +1050,7 @@ Disagreement between lenses flags preprocessing problems — it does not hide th
 NOTES: 
 
 ======================================================================
-SLIDE 28
+SLIDE 31
 Blank
 
 TITLE: 
@@ -634,7 +1064,7 @@ TEXTITEM:
 NOTES: B3/B6: the length caveat, in one figure.
 
 ======================================================================
-SLIDE 29
+SLIDE 32
 Blank
 
 TITLE: 
@@ -648,7 +1078,7 @@ TEXTITEM:
 NOTES: B5: majority-rule consensus, 500 replicates.
 
 ======================================================================
-SLIDE 30
+SLIDE 33
 Blank
 
 TITLE: 
@@ -662,7 +1092,7 @@ TEXTITEM:
 NOTES: B7: the Bhāgavata, book by book.
 
 ======================================================================
-SLIDE 31
+SLIDE 34
 Blank
 
 TITLE: 
@@ -676,7 +1106,7 @@ TEXTITEM:
 NOTES: B8: is the map just a borrowing web? Reuse overlay on the hero layout.
 
 ======================================================================
-SLIDE 32
+SLIDE 35
 Blank
 
 TITLE: 
@@ -690,7 +1120,7 @@ TEXTITEM:
 NOTES: B9: the Bhaviṣya — a text that is mostly other texts; 53% of pāda-units matched; donors incl. Manu, Śivadharma corpus, Bṛhatsaṃhitā, the Buddhist ŚKA; per-block dating is the only dating it admits.
 
 ======================================================================
-SLIDE 33
+SLIDE 36
 Blank
 
 TITLE: 
