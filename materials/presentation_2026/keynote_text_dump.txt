@@ -145,7 +145,7 @@ Title & Bullets
 
 TITLE: The corpus: 114 texts/text sections
 
-BODY: 111 texts and sections · ≈ 4.85 million words
+BODY: 114 texts and sections · ≈ 4.85 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
 purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, etc.)
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
@@ -155,7 +155,7 @@ TEXTITEM: The corpus: 114 texts/text sections
 
 TEXTITEM: ≈ 4.8 million words
 
-TEXTITEM: 111 texts and sections · ≈ 4.85 million words
+TEXTITEM: 114 texts and sections · ≈ 4.85 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
 purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, etc.)
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
@@ -163,7 +163,7 @@ Caveat kept in view: sections differ enormously in length; short fragments are m
 
 TEXTITEM: The corpus: 114 texts/text sections
 
-TEXTITEM: 111 texts and sections · ≈ 4.85 million words
+TEXTITEM: 114 texts and sections · ≈ 4.85 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
 purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, etc.)
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
