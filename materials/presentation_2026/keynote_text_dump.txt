@@ -1097,13 +1097,13 @@ NOTES:
 SLIDE 32
 Title & Bullets
 
-TITLE: B1 · Burrows’s Delta, one level deeper
+TITLE: Burrows’s Delta, one level deeper
 
 BODY: for each of the top-80 words: how far is each text from the corpus average rate, in standard deviations (a z-score)?
 Delta(A, B) = the average disagreement of A and B across those words
 variants used in the grid: Cosine Delta (angle instead of average), min-max and Manhattan (raw-frequency geometry)
 
-TEXTITEM: B1 · Burrows’s Delta, one level deeper
+TEXTITEM: Burrows’s Delta, one level deeper
 
 TEXTITEM: 
 
@@ -1111,7 +1111,7 @@ TEXTITEM: for each of the top-80 words: how far is each text from the corpus ave
 Delta(A, B) = the average disagreement of A and B across those words
 variants used in the grid: Cosine Delta (angle instead of average), min-max and Manhattan (raw-frequency geometry)
 
-TEXTITEM: B1 · Burrows’s Delta, one level deeper
+TEXTITEM: Burrows’s Delta, one level deeper
 
 TEXTITEM: for each of the top-80 words: how far is each text from the corpus average rate, in standard deviations (a z-score)?
 Delta(A, B) = the average disagreement of A and B across those words
@@ -1123,13 +1123,13 @@ NOTES:
 SLIDE 33
 Title & Bullets
 
-TITLE: B3 · The length caveat
+TITLE: The length caveat
 
 BODY: sections range from a few thousand to hundreds of thousands of words
 short sections have noisy profiles → inflated distances, positions unreliable
 marked as small dots on every map; none of the argument rests on them
 
-TEXTITEM: B3 · The length caveat
+TEXTITEM: The length caveat
 
 TEXTITEM: 
 
@@ -1137,7 +1137,7 @@ TEXTITEM: sections range from a few thousand to hundreds of thousands of words
 short sections have noisy profiles → inflated distances, positions unreliable
 marked as small dots on every map; none of the argument rests on them
 
-TEXTITEM: B3 · The length caveat
+TEXTITEM: The length caveat
 
 TEXTITEM: sections range from a few thousand to hundreds of thousands of words
 short sections have noisy profiles → inflated distances, positions unreliable
@@ -1298,7 +1298,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: B9: the Bhaviṣya — a text that is mostly other texts; 53% of pāda-units matched; donors incl. Manu, Śivadharma corpus, Bṛhatsaṃhitā, the Buddhist ŚKA; per-block dating is the only dating it admits.
+NOTES: B9: the Bhaviṣya — a text that is mostly other texts; 47% of pāda-units matched; donors incl. Manu, Śivadharma corpus, Bṛhatsaṃhitā, the Buddhist ŚKA; per-block dating is the only dating it admits.
 
 The Bhaviṣyapurāṇa, scanned pāda-by-pāda against the whole e-text library:
 47% of its pāda-units occur in other texts (Brāhmaparvan 38%, Uttaraparvan 59%)
