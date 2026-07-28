@@ -89,7 +89,7 @@ the robustness case, then honest caveats.
 
 **On slide:**
 
-> **111 texts and sections · ≈ 4.8 million words**
+> **120 texts and sections · ≈ 4.85 million words**
 >
 > - Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
 > - purāṇas whole, or by khaṇḍa / saṃhitā where transmission demands it
@@ -162,7 +162,7 @@ signal. Possibly the quality of the composers? Those words are very often suppli
 > - similar habits → small number
 > - different habits → large number
 >
-> Result: a **111 × 111 table of stylistic distances**
+> Result: a **120 × 120 table of stylistic distances**
 > (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 >
 > | pair | distance |

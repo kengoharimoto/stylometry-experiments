@@ -396,8 +396,9 @@ print(r.stdout.strip() or r.stderr.strip())
 if OUT.exists():
     STAMP.write_text(str(OUT.stat().st_mtime))
 
-# Draft-conformance gate: dump the freshly built deck and verify every
-# on-slide line of slides_draft.md is present — fail the build otherwise.
+# Draft-drift report: dump the freshly built deck and list any on-slide line
+# of slides_draft.md that is not in it. The deck is the authority, so drift
+# means the draft is stale — reported, not fatal (--strict restores fatal).
 here = Path(__file__).parent
 subprocess.run([sys.executable, str(here / 'dump_keynote_text.py')], check=True)
 g = subprocess.run([sys.executable,

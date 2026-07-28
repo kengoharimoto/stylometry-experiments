@@ -12,8 +12,15 @@ is synced is exactly what the gate checks) and applies them to the open deck:
 
 Layout, images, and slides outside the mapping are never touched.
 
-Usage: python3 sync_draft_to_deck.py [--dry-run]
-Then save is performed via Keynote; re-run the dump + conformance gate after.
+⚠ SUPERSEDED 2026-07-28: THE DECK IS THE AUTHORITY. This script runs
+draft → deck, which is now backwards — the hand-edited .key governs and the
+draft trails it. It therefore DRY-RUNS BY DEFAULT and needs an explicit
+--force-overwrite-deck to touch the deck. To go the right way (deck → draft),
+read dump_keynote_text.py's output and reconcile the draft by hand; drift is
+listed by check_draft_conformance.py.
+
+Usage: python3 sync_draft_to_deck.py [--dry-run | --force-overwrite-deck]
+Then save is performed via Keynote; re-run the dump + drift report after.
 """
 import subprocess
 import sys
@@ -72,7 +79,16 @@ ALREADY_ELSEWHERE = {
 
 
 def main():
-    dry = '--dry-run' in sys.argv
+    # THE DECK IS THE AUTHORITY (Kengo, 2026-07-28). This script pushes the
+    # DRAFT into the deck, i.e. the wrong way round: the draft now lags the
+    # hand-edited .key, so an unguarded run overwrites Kengo's live wording
+    # with stale prose. Default to dry-run; writing needs an explicit flag.
+    dry = '--dry-run' in sys.argv or '--force-overwrite-deck' not in sys.argv
+    if dry and '--dry-run' not in sys.argv:
+        print('REFUSING TO WRITE: the deck is the authority and this script '
+              'pushes the draft into it.\nShowing a dry run instead. If you '
+              'really mean to overwrite the live deck with draft text, '
+              're-run with --force-overwrite-deck.\n')
     reqs = dict(draft_requirements())
     L = []
     for prefix, action in MAP.items():
