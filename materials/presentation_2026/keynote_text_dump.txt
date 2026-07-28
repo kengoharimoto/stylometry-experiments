@@ -262,7 +262,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: Mileage-chart analogy: given only road distances between cities you can redraw the map of India. MDS does exactly that with stylistic distances. The opening map is this with the full 114×114 table. Axes mean nothing by themselves; only nearness does.
+NOTES: Mileage-chart analogy: given only road distances between cities you can redraw the map of India. MDS does exactly that with stylistic distances. The opening map is this with the full 120×120 table. Axes mean nothing by themselves; only nearness does.
 
 ======================================================================
 SLIDE 13
@@ -681,7 +681,7 @@ NOTES:
 SLIDE 31
 Title & Bullets
 
-TITLE: The 114 sources
+TITLE: The 120 sources
 
 BODY: Mahābhārata
 MBh1  MBh 1
@@ -718,7 +718,7 @@ Bḍ3  Brahmāṇḍa 3
 Mā  Mārkaṇḍeya
 Mā1  Mārkaṇḍeya 1–80
 MāD  Devīmāhātmya (81–93)
-Mā9  Mā post-DM
+Mā9  Mārkaṇḍeya 94–141
 Mt  Matsya
 V  Vāyu
 V×B  Vāyu×BḍP
@@ -817,7 +817,7 @@ HV  Harivaṃśa
 ŚDh  Śivadharmaśāstra
 ŚDhU  Śivadharmottara
 
-TEXTITEM: The 114 sources
+TEXTITEM: The 120 sources
 
 TEXTITEM: Keys
 
@@ -856,7 +856,7 @@ Bḍ3  Brahmāṇḍa 3
 Mā  Mārkaṇḍeya
 Mā1  Mārkaṇḍeya 1–80
 MāD  Devīmāhātmya (81–93)
-Mā9  Mā post-DM
+Mā9  Mārkaṇḍeya 94–141
 Mt  Matsya
 V  Vāyu
 V×B  Vāyu×BḍP
@@ -955,7 +955,7 @@ HV  Harivaṃśa
 ŚDh  Śivadharmaśāstra
 ŚDhU  Śivadharmottara
 
-TEXTITEM: The 114 sources
+TEXTITEM: The 120 sources
 
 TEXTITEM: Mahābhārata
 MBh1  MBh 1
@@ -992,7 +992,7 @@ Bḍ3  Brahmāṇḍa 3
 Mā  Mārkaṇḍeya
 Mā1  Mārkaṇḍeya 1–80
 MāD  Devīmāhātmya (81–93)
-Mā9  Mā post-DM
+Mā9  Mārkaṇḍeya 94–141
 Mt  Matsya
 V  Vāyu
 V×B  Vāyu×BḍP
