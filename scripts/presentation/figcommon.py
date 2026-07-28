@@ -296,6 +296,92 @@ def hero_layout():
     return names, Y, D
 
 
+def repel_labels(fig, ax, texts, anchors, dot_r=7.0, leader_px=26,
+                 max_iter=1000, leader_color='#999999'):
+    """Nudge point labels apart until none overlap; draw leader lines.
+
+    texts: ax.text objects already placed at their start positions (data
+    coords, ha/va center). anchors: (n, 2) data coordinates of the points the
+    labels belong to. Labels repel each other and every point (a label may sit
+    next to its own point but not on top of another); pushes act along the
+    vector between box centers, which converges where single-axis separation
+    deadlocks. Deterministic: identical inputs give the identical layout, so
+    color-variant figures stay aligned. A thin leader line ties a label to its
+    point once it has drifted more than leader_px. Prints any pair still
+    colliding at the iteration cap.
+    """
+    anchors = np.asarray(anchors)
+    fig.canvas.draw()
+    renderer = fig.canvas.get_renderer()
+    inv = ax.transData.inverted()
+    dot_disp = ax.transData.transform(anchors)
+    pos = np.array([t.get_position() for t in texts])
+    for _ in range(max_iter):
+        boxes = [t.get_window_extent(renderer).expanded(1.02, 1.02)
+                 for t in texts]
+        disp = np.array([ax.transData.transform(p) for p in pos])
+        shift = np.zeros_like(disp)
+        moved = False
+        for i in range(len(texts)):
+            bi = boxes[i]
+            ci = np.array([(bi.x0 + bi.x1) / 2, (bi.y0 + bi.y1) / 2])
+            for j in range(i + 1, len(texts)):
+                bj = boxes[j]
+                ox = min(bi.x1, bj.x1) - max(bi.x0, bj.x0) + 1
+                oy = min(bi.y1, bj.y1) - max(bi.y0, bj.y0) + 1
+                if ox > 0 and oy > 0:
+                    moved = True
+                    cj = np.array([(bj.x0 + bj.x1) / 2, (bj.y0 + bj.y1) / 2])
+                    v = ci - cj
+                    if np.hypot(*v) < 1e-6:
+                        v = dot_disp[i] - dot_disp[j]  # coincident: use anchors
+                    if np.hypot(*v) < 1e-6:
+                        v = np.array([1.0, 0.0])
+                    u = v / np.hypot(*v)
+                    m = min(ox, oy) / 2
+                    shift[i] += u * m; shift[j] -= u * m
+            for k, dd in enumerate(dot_disp):
+                if k == i:
+                    continue           # a label may sit near its own dot
+                if (bi.x0 - dot_r < dd[0] < bi.x1 + dot_r and
+                        bi.y0 - dot_r < dd[1] < bi.y1 + dot_r):
+                    moved = True
+                    v = ci - dd
+                    u = (v / np.hypot(*v) if np.hypot(*v) > 1e-6
+                         else np.array([0.0, 1.0]))
+                    shift[i] += u * 1.2
+        if not moved:
+            break
+        disp += np.clip(shift, -3, 3)
+        pos = np.array([inv.transform(p) for p in disp])
+        for t, p in zip(texts, pos):
+            t.set_position(tuple(p))
+    else:
+        boxes = [t.get_window_extent(renderer) for t in texts]
+        for i in range(len(texts)):
+            for j in range(i + 1, len(texts)):
+                if boxes[i].overlaps(boxes[j]):
+                    print(f'  unresolved overlap: {texts[i].get_text()} / '
+                          f'{texts[j].get_text()}')
+
+    for t, (x, y) in zip(texts, anchors):
+        bb = t.get_window_extent(renderer)
+        lab_d = np.array([(bb.x0 + bb.x1) / 2, (bb.y0 + bb.y1) / 2])
+        pt_d = ax.transData.transform((x, y))
+        if np.hypot(*(lab_d - pt_d)) > leader_px:
+            lx, ly = inv.transform(lab_d)
+            ax.plot([x, lx], [y, ly], color=leader_color, lw=0.7,
+                    zorder=2, alpha=0.8)
+
+
+def label_start_positions(fig, ax, anchors, rise_px=13):
+    """Data-coord start positions rise_px above each point (for repel_labels)."""
+    fig.canvas.draw()
+    inv = ax.transData.inverted()
+    disp = ax.transData.transform(np.asarray(anchors))
+    return np.array([inv.transform(p + (0, rise_px)) for p in disp])
+
+
 def procrustes_align(Y, Yref):
     """Rotate/reflect (and center) Y onto Yref; returns (Y_aligned, similarity).
 

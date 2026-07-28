@@ -27,6 +27,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
+import matplotlib.patheffects as pe
 from matplotlib.colors import to_rgb
 
 
@@ -270,24 +271,37 @@ def darken(hexcol, f=0.55):
 # strip along the bottom right (bottom left stays clear for the tour cards).
 fig = plt.figure(figsize=(13.33, 7.5))
 ax = fig.add_axes([0.005, 0.145, 0.99, 0.755])
+xpad = 0.025 * (Y[:, 0].max() - Y[:, 0].min())
+ypad = 0.026 * (Y[:, 1].max() - Y[:, 1].min())
+ax.set_xlim(Y[:, 0].min() - xpad, Y[:, 0].max() + xpad)
+ax.set_ylim(Y[:, 1].min() - ypad, Y[:, 1].max() + ypad)
 
 for s in GROUP_ORDER:
     sel = [i for i, n in enumerate(names) if strata[n] == s]
     if not sel:
         continue
-    sizes = [48 if names[i] in tiny else 110 for i in sel]
+    sizes = [34 if names[i] in tiny else 72 for i in sel]
     faded = hl and s not in hl
     ax.scatter(Y[sel, 0], Y[sel, 1], s=sizes,
                c=FADE if faded else PALETTE[s], alpha=0.9,
                edgecolors='white', linewidths=0.7, zorder=2 if faded else 3)
 
+# Labels: white halo so neighboring dots can't swallow them; each starts just
+# above its point, then figcommon.repel_labels nudges collisions apart and
+# draws leader lines. Independent of the hl coloring — every highlight variant
+# gets the identical label layout.
+from figcommon import repel_labels, label_start_positions  # noqa: E402
+HALO = [pe.withStroke(linewidth=2.8, foreground='white')]
+start = label_start_positions(fig, ax, Y)
+texts = []
 for i, n in enumerate(names):
     faded = hl and strata[n] not in hl
-    ax.annotate(codes[n], (Y[i, 0], Y[i, 1]),
-                xytext=(4, 3), textcoords='offset points',
-                fontsize=10.5, fontweight='bold',
-                color=FADE_TXT if faded else darken(PALETTE[strata[n]]),
-                zorder=4)
+    texts.append(ax.text(start[i, 0], start[i, 1], codes[n],
+                 ha='center', va='center',
+                 fontsize=10.5, fontweight='bold',
+                 color=FADE_TXT if faded else darken(PALETTE[strata[n]], 0.62),
+                 zorder=5 if faded else 6, path_effects=HALO))
+repel_labels(fig, ax, texts, Y)
 
 # axis annotation lives BELOW the plot area — no collision with points
 fig.text(0.5, 0.126, 'earlier  →  later', ha='center', va='center',

@@ -27,10 +27,12 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import matplotlib.patheffects as pe
 from matplotlib.colors import to_rgb
 
 from figcommon import (FIGDIR, ROOT, PALETTE, GROUP_ORDER, code, display,
-                       hero_layout, load_strata)
+                       hero_layout, load_strata, repel_labels,
+                       label_start_positions)
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--min-containment', type=float, default=0.05,
@@ -116,12 +118,17 @@ for s in GROUP_ORDER:
                    s=[30 if names[i] in tiny else 70 for i in sel],
                    c=PALETTE[s], alpha=0.9, edgecolors='white',
                    linewidths=0.6, zorder=3)
+HALO = [pe.withStroke(linewidth=2.0, foreground='white')]
+start = label_start_positions(fig, ax, Y, rise_px=9)
+texts = []
 for i, n in enumerate(names):
-    ax.annotate(codes[n], (Y[i, 0], Y[i, 1]),
-                xytext=(3, 2), textcoords='offset points',
-                fontsize=6.5, fontweight='bold',
-                color=darken(PALETTE[strata[n]]),
-                alpha=1.0 if n in linked else 0.5, zorder=4)
+    texts.append(ax.text(start[i, 0], start[i, 1], codes[n],
+                 ha='center', va='center',
+                 fontsize=6.5, fontweight='bold',
+                 color=darken(PALETTE[strata[n]], 0.62),
+                 alpha=1.0 if n in linked else 0.5, zorder=4,
+                 path_effects=HALO))
+repel_labels(fig, ax, texts, Y, dot_r=6.0, leader_px=20)
 
 ax.set_title('Shared text overlaid on the stylometric map\n'
              '(line width = share of the smaller text’s half-śloka lines '
