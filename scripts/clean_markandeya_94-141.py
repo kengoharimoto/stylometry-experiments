@@ -38,7 +38,11 @@ def clean_line(line: str) -> str:
     # compound-split hyphens: rejoin (sandhied corpus keeps compounds solid)
     line = re.sub(r'(?<=\S)-(?=\S)', '', line)
     line = re.sub(r'\s+', ' ', line).strip()
-    return apply_sandhi(line).strip()
+    line = apply_sandhi(line).strip()
+    # apply_sandhi writes e/o + a- as "o 'a" (avagraha + retained vowel);
+    # printed editions elide: "o '". Normalize so C3 trigrams match the
+    # edition-derived corpus convention.
+    return re.sub(r"'a", "'", line)
 
 
 def chapter_lines(path: Path) -> list[str]:
