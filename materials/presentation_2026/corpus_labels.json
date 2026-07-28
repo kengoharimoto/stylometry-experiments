@@ -329,6 +329,48 @@
   "display": "Viṣṇu"
  },
  {
+  "text": "visnupurana_amsa-1_u",
+  "stratum": 3,
+  "label": "old purāṇic core",
+  "code": "Vi1",
+  "display": "Viṣṇu aṃśa 1"
+ },
+ {
+  "text": "visnupurana_amsa-2_u",
+  "stratum": 3,
+  "label": "old purāṇic core",
+  "code": "Vi2",
+  "display": "Viṣṇu aṃśa 2"
+ },
+ {
+  "text": "visnupurana_amsa-3_u",
+  "stratum": 3,
+  "label": "old purāṇic core",
+  "code": "Vi3",
+  "display": "Viṣṇu aṃśa 3"
+ },
+ {
+  "text": "visnupurana_amsa-4_u",
+  "stratum": 3,
+  "label": "old purāṇic core",
+  "code": "Vi4",
+  "display": "Viṣṇu aṃśa 4"
+ },
+ {
+  "text": "visnupurana_amsa-5_u",
+  "stratum": 3,
+  "label": "old purāṇic core",
+  "code": "Vi5",
+  "display": "Viṣṇu aṃśa 5"
+ },
+ {
+  "text": "visnupurana_amsa-6_u",
+  "stratum": 3,
+  "label": "old purāṇic core",
+  "code": "Vi6",
+  "display": "Viṣṇu aṃśa 6"
+ },
+ {
   "text": "brahmapurana_pu",
   "stratum": 5,
   "label": "sectarian & encyclopedic",

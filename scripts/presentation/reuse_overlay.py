@@ -35,6 +35,9 @@ from figcommon import (FIGDIR, ROOT, PALETTE, GROUP_ORDER, code, display,
 ap = argparse.ArgumentParser()
 ap.add_argument('--min-containment', type=float, default=0.05,
                 help='draw an edge at or above this line-containment share')
+ap.add_argument('--no-key', action='store_true',
+                help='map only, full width; the ranked link list is printed '
+                     'to stdout for the presenter notes instead')
 args = ap.parse_args()
 
 PAIRS = ROOT / 'materials/presentation_2026/reuse_pairs.tsv'
@@ -46,7 +49,7 @@ def family(n):
     if n == 'vayu_ba' or re.match(r'vayupurana(_\d+_|$)', n):
         return 'vayu'                       # Vāyu whole + ten sections + V×B
     for fam in ('brahmandapurana', 'skandapurana', 'matsyapurana',
-                'markandeyapurana',
+                'markandeyapurana', 'visnupurana',
                 'devibhagavatapurana', 'bhagavatapurana_skandha-10',
                 'garudapurana', 'kurmapurana', 'lingapurana', 'naradapurana'):
         if n == fam or n.startswith(fam + '_') or n.startswith(fam):
@@ -89,8 +92,12 @@ def darken(hexcol, f=0.55):
 
 
 fig = plt.figure(figsize=(13.33, 7.5))
-ax = fig.add_axes([0.005, 0.02, 0.715, 0.90])
-key = fig.add_axes([0.725, 0.00, 0.275, 0.95]); key.axis('off')
+if args.no_key:
+    ax = fig.add_axes([0.005, 0.02, 0.99, 0.90])
+    key = None
+else:
+    ax = fig.add_axes([0.005, 0.02, 0.715, 0.90])
+    key = fig.add_axes([0.725, 0.00, 0.275, 0.95]); key.axis('off')
 
 # ── Reuse edges (under the points) ───────────────────────────────────────────
 EDGE_INK = '#3a3a3a'
@@ -125,6 +132,11 @@ for sp in ax.spines.values():
     sp.set_visible(False)
 
 # ── Key panel: ranked links ──────────────────────────────────────────────────
+if key is None:
+    fig.savefig(f'{OUT}.png', dpi=200)
+    fig.savefig(f'{OUT}.pdf')
+    print('wrote', OUT.with_suffix('.png'), '(no key panel)')
+    raise SystemExit
 key.text(0.02, 0.985, f'shared-text links (≥ {args.min_containment:.0%} of '
                       'the smaller text)',
          transform=key.transAxes, fontsize=7.5, fontweight='bold', va='top')

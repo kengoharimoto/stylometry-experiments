@@ -143,29 +143,29 @@ NOTES: Roadmap: first how the map is made, then a guided tour, then the robustne
 SLIDE 8
 Title & Bullets
 
-TITLE: The corpus: 114 texts/text sections
+TITLE: The corpus: 120 texts/text sections
 
-BODY: 114 texts and sections · ≈ 4.85 million words
+BODY: 120 texts and sections · ≈ 4.85 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
-purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, etc.)
+purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, Viṣṇu, etc.)
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
 Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
-TEXTITEM: The corpus: 114 texts/text sections
+TEXTITEM: The corpus: 120 texts/text sections
 
-TEXTITEM: ≈ 4.8 million words
+TEXTITEM: ≈ 4.85 million words
 
-TEXTITEM: 114 texts and sections · ≈ 4.85 million words
+TEXTITEM: 120 texts and sections · ≈ 4.85 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
-purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, etc.)
+purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, Viṣṇu, etc.)
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
 Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
-TEXTITEM: The corpus: 114 texts/text sections
+TEXTITEM: The corpus: 120 texts/text sections
 
-TEXTITEM: 114 texts and sections · ≈ 4.85 million words
+TEXTITEM: 120 texts and sections · ≈ 4.85 million words
 Mahābhārata by parvan (18) · Rāmāyaṇa by kāṇḍa (7)
-purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, etc.)
+purāṇas whole, or by khaṇḍa/saṃhitā where transmission demands it; in some cases, a whole and parts are both analyzed (Mārkaṇḍeya, Vāyu, Viṣṇu, etc.)
 machine-readable editions, cleaned; two parallel versions of every text — with and without sandhi dissolved
 Caveat kept in view: sections differ enormously in length; short fragments are marked with smaller dots on every map.
 
@@ -194,23 +194,23 @@ TITLE: From counts to distances
 BODY: For each pair of texts: how differently do they use their most common words?
 similar habits → small number
 different habits → large number
-Result: a 114 × 114 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
+Result: a 120 × 120 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 
 TEXTITEM: From counts to distances
 
-TEXTITEM: 
+TEXTITEM: How similar is a pair?
 
 TEXTITEM: For each pair of texts: how differently do they use their most common words?
 similar habits → small number
 different habits → large number
-Result: a 114 × 114 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
+Result: a 120 × 120 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 
 TEXTITEM: From counts to distances
 
 TEXTITEM: For each pair of texts: how differently do they use their most common words?
 similar habits → small number
 different habits → large number
-Result: a 114 × 114 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
+Result: a 120 × 120 table of stylistic distances (Burrows's Delta — the standard workhorse of stylometry, in use since 2002)
 
 TABLEROW: pair | distance | 
 
@@ -234,9 +234,7 @@ BODY:
 
 TEXTITEM: The same corpus, measured twice
 
-TEXTITEM: 
-
-TEXTITEM: Independent failure modes: nothing that could fool one lens can fool the other.
+TEXTITEM: Through different lenses; will get back to this later
 
 TEXTITEM: The same corpus, measured twice
 
@@ -285,7 +283,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: The epic zone: parvans and kāṇḍas mingle; MBh and Rām overlap. The didactic parvans 12-13 sit to the right of the battle books.
+NOTES: The epic zone: parvans and kāṇḍas mingle; MBh and Rām overlap. The didactic parvans 12-13 sit to the right of the battle books. Better not read too much in the fact that the MBh epilogues are in the extreme left.
 
 ======================================================================
 SLIDE 14
@@ -304,10 +302,15 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: • The old purāṇic core: Vāyu, Brahmāṇḍa, Mārkaṇḍeya, Matsya, Viṣṇu. Vāyu ↔ Brahmāṇḍa at 0.28 — Kirfel’s Vāyuproktaṃ Purāṇam, as a number. 
-• V8 is of Vaṃśa, Kirfel's oldest core
-V2 is primarily yoga chapters
-Mārkaṇḍeya post Devīmāhātmya in the epic realm
+NOTES: The old purāṇic core: Vāyu, Brahmāṇḍa, Mārkaṇḍeya, Matsya, Viṣṇu
+Vāyu ↔ Brahmāṇḍa at 0.28 — 
+Pay attention to V8 Mā9 and V2
+Kirfel’s• V8 is of Vaṃśa, Kirfel's oldest core
+Mā9 is also Vaṃśa and it doesn't even include historical kings…
+that checks out
+V2 is primarily yoga chapters -> conceivable to be late
+But why do they call them old? -> received scholarship; why did they argue they were old? Partly because of the contents in V8 and Mā9 that drift towards left so much
+the Viṣṇu and the Matsya are in the middle but analyzed as a whole; most definitely mixed with very late parts; also, all those parts that are very much to the right may have been pulled by late texts that reused them
 
 ======================================================================
 SLIDE 15
@@ -344,7 +347,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: The sectarian & encyclopedic mass: one broad stratum, no clean middle/late line; digests at the far right; not much different from the Vāyu spread
+NOTES: The sectarian & encyclopedic mass: one broad stratum, no clean middle/late line; digests at the far right; not much different from the Vāyu spread. As will be shown later, they reuse materials each other.
 
 ======================================================================
 SLIDE 17
@@ -490,23 +493,21 @@ BODY: "Diachronic linguistic drift" — but confounded:
 authorial aptitude in composing metrical Sanskrit: the use of more fillers as the aptitude goes down. The better author, the less fillers
 reuse of preexisting material: the more the materials are shared, the tighter groups the containers form (See slide B8)
 genre: when the vocabularies are completely different, there is no telling where they land
-Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; Also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.
+Look at where the final parvans of the MBh land in our maps. Those are exactly the parvans whose relative dates are contested; 
+Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left (probably because they also incorporates much older meterial)
+And hard to explain independence of the Bhāgavatapurāṇa in all measurements
 
 TEXTITEM: What the axis is made of
 
-TEXTITEM: 
+TEXTITEM: It's complicated
 
 TEXTITEM: "Diachronic linguistic drift" — but confounded:
 authorial aptitude in composing metrical Sanskrit: the use of more fillers as the aptitude goes down. The better author, the less fillers
 reuse of preexisting material: the more the materials are shared, the tighter groups the containers form (See slide B8)
 genre: when the vocabularies are completely different, there is no telling where they land
-Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; Also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.
-
-TEXTITEM: The Bhaviṣyapurāṇa, scanned pāda-by-pāda against the whole e-text library:
-47% of its pāda-units occur in other texts (Brāhmaparvan 38%, Uttaraparvan 59%)
-the borrowing is block-wise and source-datable: Manusmṛti swallowed whole, the Sāmbapurāṇa's saura corpus, Śivadharmaśāstra & -ottara, Bṛhatsaṃhitā, Matsya-type vrata blocks — and a physiognomy block shared with the Buddhist Śārdūlakarṇāvadāna
-whole stretches match nothing — a genuine own-text residue in between
-Not an author's stratum — a compilation event with datable ingredients.
+Look at where the final parvans of the MBh land in our maps. Those are exactly the parvans whose relative dates are contested; 
+Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left (probably because they also incorporates much older meterial)
+And hard to explain independence of the Bhāgavatapurāṇa in all measurements
 
 TEXTITEM: What the axis is made of
 
@@ -514,9 +515,12 @@ TEXTITEM: "Diachronic linguistic drift" — but confounded:
 authorial aptitude in composing metrical Sanskrit: the use of more fillers as the aptitude goes down. The better author, the less fillers
 reuse of preexisting material: the more the materials are shared, the tighter groups the containers form (See slide B8)
 genre: when the vocabularies are completely different, there is no telling where they land
-Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; Also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.
+Look at where the final parvans of the MBh land in our maps. Those are exactly the parvans whose relative dates are contested; 
+Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left (probably because they also incorporates much older meterial)
+And hard to explain independence of the Bhāgavatapurāṇa in all measurements
 
 NOTES: Look at where the final parvans of the MBh landed — exactly the parvans whose relative dates are contested. And the Śivadharmaśāstra and Śivadharmottara: the purāṇas known to incorporate them are very much to the left. MFWs tend to be fillers; inapt authors rely on them. The Bhāgavata: an old problem, shows in our map (B7). Mode of compilation: the Bhaviṣya (B8, B9).
+
 
 ======================================================================
 SLIDE 24
@@ -525,30 +529,124 @@ Title & Bullets
 TITLE: What’s the point of this?
 
 BODY: Our lenses confirm some things that we had suspected: The relative age of the epics; the didactic portions of the MBh being late; the affinity of certain purāṇas; relative age of uncontaminated Purāṇas (Skandapurāṇa)
-At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed about the same time)
+At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata (Their positions are unstable in different maps); relative age of the Mahābhārata and the Rāmāyaṇa (They show up at about the same place, so, our map also confirms long suspected their being composed about the same time, but which looks earlier is unstable in different maps)
 It will not date your text; it will tell you whose company it keeps
-It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the composition, not integration date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ...
+It affirms what scholars have been saying: where there is a scholarly consensus,  we get stylometric consensus, where there are disputes, there is no stylometric consensus
 
 TEXTITEM: What’s the point of this?
 
-TEXTITEM: 
+TEXTITEM: Do we need something like this?
 
 TEXTITEM: Our lenses confirm some things that we had suspected: The relative age of the epics; the didactic portions of the MBh being late; the affinity of certain purāṇas; relative age of uncontaminated Purāṇas (Skandapurāṇa)
-At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed about the same time)
+At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata (Their positions are unstable in different maps); relative age of the Mahābhārata and the Rāmāyaṇa (They show up at about the same place, so, our map also confirms long suspected their being composed about the same time, but which looks earlier is unstable in different maps)
 It will not date your text; it will tell you whose company it keeps
-It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the composition, not integration date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ...
+It affirms what scholars have been saying: where there is a scholarly consensus,  we get stylometric consensus, where there are disputes, there is no stylometric consensus
 
 TEXTITEM: What’s the point of this?
 
 TEXTITEM: Our lenses confirm some things that we had suspected: The relative age of the epics; the didactic portions of the MBh being late; the affinity of certain purāṇas; relative age of uncontaminated Purāṇas (Skandapurāṇa)
-At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed about the same time)
+At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata (Their positions are unstable in different maps); relative age of the Mahābhārata and the Rāmāyaṇa (They show up at about the same place, so, our map also confirms long suspected their being composed about the same time, but which looks earlier is unstable in different maps)
 It will not date your text; it will tell you whose company it keeps
-It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the composition, not integration date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ...
+It affirms what scholars have been saying: where there is a scholarly consensus,  we get stylometric consensus, where there are disputes, there is no stylometric consensus
 
 NOTES: This is the point of the whole talk: the counts make us look at old problems from a new angle, and the charts hand scholars hints about where to dig.
 
+removed from the slide: It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the composition, not integration date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ...
+
 ======================================================================
 SLIDE 25
+Statement
+
+TITLE: 
+
+BODY: Then
+
+TEXTITEM: Then
+
+TEXTITEM: 
+
+TEXTITEM: Then
+
+NOTES: 
+
+======================================================================
+SLIDE 26
+Title & Bullets
+
+TITLE: If what it does is to affirm that the scholars were right
+
+BODY: Do we need this?
+Answers
+maybe, but it is interesting this is happening, and we should figure out why
+yes, it illustrates where interesting things are
+The position of the Bhāgavata
+The relative chronology of epics and the purāṇas
+The relative chronology of parts of the epics and the purāṇas
+The mechanism of reuse shaped the outlook of the corpus
+(The charts of all the reuse between epics and purāṇas are here, or it takes about 15 minutes to produce afresh today)
+
+TEXTITEM: If what it does is to affirm that the scholars were right
+
+TEXTITEM: even in disputing relative chronology
+
+TEXTITEM: Do we need this?
+Answers
+maybe, but it is interesting this is happening, and we should figure out why
+yes, it illustrates where interesting things are
+The position of the Bhāgavata
+The relative chronology of epics and the purāṇas
+The relative chronology of parts of the epics and the purāṇas
+The mechanism of reuse shaped the outlook of the corpus
+(The charts of all the reuse between epics and purāṇas are here, or it takes about 15 minutes to produce afresh today)
+
+TEXTITEM: If what it does is to affirm that the scholars were right
+
+TEXTITEM: Do we need this?
+Answers
+maybe, but it is interesting this is happening, and we should figure out why
+yes, it illustrates where interesting things are
+The position of the Bhāgavata
+The relative chronology of epics and the purāṇas
+The relative chronology of parts of the epics and the purāṇas
+The mechanism of reuse shaped the outlook of the corpus
+(The charts of all the reuse between epics and purāṇas are here, or it takes about 15 minutes to produce afresh today)
+
+NOTES: 
+
+======================================================================
+SLIDE 27
+Statement
+
+TITLE: 
+
+BODY: Oh, and we need a big caveat: all this is meaningful as much as the published editions' trustworthiness!
+
+TEXTITEM: Oh, and we need a big caveat: all this is meaningful as much as the published editions' trustworthiness!
+
+TEXTITEM: 
+
+TEXTITEM: Oh, and we need a big caveat: all this is meaningful as much as the published editions' trustworthiness!
+
+NOTES: 
+
+======================================================================
+SLIDE 28
+Statement
+
+TITLE: 
+
+BODY: To be pedantic: we always need better texts!
+
+TEXTITEM: To be pedantic: we always need better texts!
+
+TEXTITEM: 
+
+TEXTITEM: To be pedantic: we always need better texts!
+
+NOTES: 
+
+======================================================================
+SLIDE 29
 Blank
 
 TITLE: 
@@ -564,7 +662,7 @@ TEXTITEM:
 NOTES: End where we began — now everyone can read the map. Thanks; over to questions.
 
 ======================================================================
-SLIDE 26
+SLIDE 30
 Section
 
 TITLE: Backup slides
@@ -580,7 +678,7 @@ TEXTITEM:
 NOTES: 
 
 ======================================================================
-SLIDE 27
+SLIDE 31
 Title & Bullets
 
 TITLE: The 114 sources
@@ -635,6 +733,12 @@ V8  Vāyu 2.23–2.37
 V9  Vāyu 2.38–2.42
 V10  Vāyu 2.43–2.50
 Vi  Viṣṇu
+Vi1  Viṣṇu aṃśa 1
+Vi2  Viṣṇu aṃśa 2
+Vi3  Viṣṇu aṃśa 3
+Vi4  Viṣṇu aṃśa 4
+Vi5  Viṣṇu aṃśa 5
+Vi6  Viṣṇu aṃśa 6
 old Skandapurāṇa
 SP  SP (old)
 SP1  SP (old) 1–31
@@ -767,6 +871,12 @@ V8  Vāyu 2.23–2.37
 V9  Vāyu 2.38–2.42
 V10  Vāyu 2.43–2.50
 Vi  Viṣṇu
+Vi1  Viṣṇu aṃśa 1
+Vi2  Viṣṇu aṃśa 2
+Vi3  Viṣṇu aṃśa 3
+Vi4  Viṣṇu aṃśa 4
+Vi5  Viṣṇu aṃśa 5
+Vi6  Viṣṇu aṃśa 6
 old Skandapurāṇa
 SP  SP (old)
 SP1  SP (old) 1–31
@@ -897,6 +1007,12 @@ V8  Vāyu 2.23–2.37
 V9  Vāyu 2.38–2.42
 V10  Vāyu 2.43–2.50
 Vi  Viṣṇu
+Vi1  Viṣṇu aṃśa 1
+Vi2  Viṣṇu aṃśa 2
+Vi3  Viṣṇu aṃśa 3
+Vi4  Viṣṇu aṃśa 4
+Vi5  Viṣṇu aṃśa 5
+Vi6  Viṣṇu aṃśa 6
 old Skandapurāṇa
 SP  SP (old)
 SP1  SP (old) 1–31
@@ -978,7 +1094,7 @@ HV  Harivaṃśa
 NOTES: 
 
 ======================================================================
-SLIDE 28
+SLIDE 32
 Title & Bullets
 
 TITLE: B1 · Burrows’s Delta, one level deeper
@@ -1004,7 +1120,7 @@ variants used in the grid: Cosine Delta (angle instead of average), min-max and 
 NOTES: 
 
 ======================================================================
-SLIDE 29
+SLIDE 33
 Title & Bullets
 
 TITLE: B3 · The length caveat
@@ -1030,36 +1146,7 @@ marked as small dots on every map; none of the argument rests on them
 NOTES: 
 
 ======================================================================
-SLIDE 30
-Title & Bullets
-
-TITLE: B4 · When the lenses disagree — a diagnostic, not a failure
-
-BODY: BhP 10.29–33 transmitted with commentary (Bh10c on the maps):
-word lens: nearest neighbour = Kāśīkhaṇḍa — expelled from the Bhāgavata cluster (commentary vocabulary contaminates word counts)
-3-gram lens: nearest neighbour = BhP 10 — back inside the family
-Disagreement between lenses flags preprocessing problems — it does not hide them.
-
-TEXTITEM: B4 · When the lenses disagree — a diagnostic, not a failure
-
-TEXTITEM: 
-
-TEXTITEM: BhP 10.29–33 transmitted with commentary (Bh10c on the maps):
-word lens: nearest neighbour = Kāśīkhaṇḍa — expelled from the Bhāgavata cluster (commentary vocabulary contaminates word counts)
-3-gram lens: nearest neighbour = BhP 10 — back inside the family
-Disagreement between lenses flags preprocessing problems — it does not hide them.
-
-TEXTITEM: B4 · When the lenses disagree — a diagnostic, not a failure
-
-TEXTITEM: BhP 10.29–33 transmitted with commentary (Bh10c on the maps):
-word lens: nearest neighbour = Kāśīkhaṇḍa — expelled from the Bhāgavata cluster (commentary vocabulary contaminates word counts)
-3-gram lens: nearest neighbour = BhP 10 — back inside the family
-Disagreement between lenses flags preprocessing problems — it does not hide them.
-
-NOTES: 
-
-======================================================================
-SLIDE 31
+SLIDE 34
 Blank
 
 TITLE: 
@@ -1073,7 +1160,7 @@ TEXTITEM:
 NOTES: B3/B6: the length caveat, in one figure.
 
 ======================================================================
-SLIDE 32
+SLIDE 35
 Blank
 
 TITLE: 
@@ -1087,7 +1174,7 @@ TEXTITEM:
 NOTES: B5: majority-rule consensus, 500 replicates.
 
 ======================================================================
-SLIDE 33
+SLIDE 36
 Blank
 
 TITLE: 
@@ -1101,7 +1188,7 @@ TEXTITEM:
 NOTES: B7: the Bhāgavata, book by book.
 
 ======================================================================
-SLIDE 34
+SLIDE 37
 Blank
 
 TITLE: 
@@ -1112,10 +1199,95 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: B8: is the map just a borrowing web? Reuse overlay on the hero layout.
+NOTES: B8. Shared-text links (>= 5% of the smaller text), strongest first. rapidfuzz>=80 on aksara streams, half-sloka lines, stock formulae excluded; whole/part units of one work collapsed.
+
+Brahmāṇḍa 1 ↔ Vāyu §5 81.1%
+Brahma ↔ Viṣṇu aṃśa 5 75.9%
+Liṅga 1 ↔ Vāyu §2 45.8%
+ŚiP Dharma ↔ ŚiP Umā 44.3%
+Harivaṃśa ↔ MBh 2 App. 21 (Śiśupāla) 31.6%
+Nārada 1 ↔ Viṣṇu aṃśa 6 31.3%
+Matsya ↔ Vāyu §5 29.2%
+Matsya ↔ Padma 28.6%
+ŚiP Sanatkumāra ↔ SP (old) Pāśupata 27.3%
+Śivadharmottara ↔ ŚiP Dharma 26.0%
+Bhaviṣya ↔ Śivadharmaśāstra 24.5%
+Kūrma 2 ↔ Padma 23.0%
+Bhaviṣya ↔ Śivadharmottara 22.4%
+Brahma ↔ Vāyu §8 22.4%
+Padma ↔ Viṣṇu aṃśa 1 22.1%
+Harivaṃśa ↔ Vāyu §8 21.8%
+Brahma ↔ Harivaṃśa 21.2%
+Brahmāṇḍa 1 ↔ Matsya 19.3%
+Brahmāṇḍa 1 ↔ Liṅga 1 18.8%
+ŚiP Śatarudra ↔ Kāśīkh. (SkMP) 18.6%
+HV App. 41 ↔ Matsya 17.7%
+Liṅga 1 ↔ ŚiP Śatarudra 17.5%
+Bhaviṣya ↔ Viṣṇudharma 16.7%
+Padma ↔ Śivadharmottara 15.5%
+Revākh. (SkMP) ↔ Revākh. (Vāyu) 15.5%
+Saromāhātmya ↔ Viṣṇudharma 15.0%
+HV App. 41 ↔ Padma 14.0%
+Brahma ↔ SP (old) 1–31 13.7%
+BhP 5 ↔ DevīBhP 13.1%
+Matsya ↔ Saromāhātmya 13.1%
+HV App. 42 (prādurbh.) ↔ Matsya 13.1%
+Śivadharmottara ↔ ŚiP Umā 12.9%
+MBh 7 App. 8 (Ṣoḍaśarājika) ↔ MBh 12 12.5%
+Padma ↔ Vāyu §1 12.3%
+Kūrma 1 ↔ Viṣṇu aṃśa 2 12.0%
+Śivadharmottara ↔ Revākh. (SkMP) 11.5%
+Brahmāṇḍa 1 ↔ Viṣṇu aṃśa 2 11.3%
+Mārkaṇḍeya ↔ Vāyu §1 11.3%
+Kūrma 1 ↔ Vāyu §1 11.2%
+Mārkaṇḍeya ↔ Viṣṇu aṃśa 1 11.0%
+Vāyu ↔ Viṣṇu aṃśa 1 10.9%
+Kūrma 1 ↔ Liṅga 1 10.7%
+ŚiP Dharma ↔ Viṣṇu aṃśa 2 10.6%
+Brahmāṇḍa ↔ Harivaṃśa 10.4%
+Agni ↔ Viṣṇu aṃśa 2 10.4%
+Brahma ↔ ŚiP Umā 10.4%
+Harivaṃśa ↔ Viṣṇu aṃśa 1 9.7%
+Garuḍa 1 ↔ Vāyu §10 9.7%
+Liṅga 1 ↔ SP (old) 1–31 9.6%
+Harivaṃśa ↔ ŚiP Umā 9.3%
+Brahmāṇḍa 2 ↔ Brahma 9.2%
+Brahma ↔ MBh 2 App. 21 (Śiśupāla) 8.9%
+Brahma ↔ ŚiP Dharma 8.6%
+Brahma ↔ Mārkaṇḍeya 1–80 8.5%
+Garuḍa 1 ↔ Viṣṇu aṃśa 2 8.4%
+Bhaviṣya ↔ ŚiP Dharma 8.2%
+ŚiP Umā ↔ Viṣṇu aṃśa 2 8.2%
+HV App. 42 (prādurbh.) ↔ Padma 8.2%
+Bhaviṣya ↔ Matsya 8.2%
+Harivaṃśa ↔ ŚiP Dharma 8.1%
+Harivaṃśa ↔ Matsya 8.0%
+ŚiP Vāyavīya ↔ Vāyu §1 8.0%
+Bhaviṣya ↔ ŚiP Umā 7.8%
+Harivaṃśa ↔ Padma 7.3%
+Brahmāṇḍa ↔ Kūrma 1 7.2%
+MBh 1 ↔ Matsya 6.9%
+Padma ↔ ŚiP Umā 6.8%
+Nṛsiṃha ↔ Viṣṇu aṃśa 1 6.8%
+ŚiP Dharma ↔ ŚiP Rudra 6.8%
+MBh 13 ↔ ŚiP Dharma 6.6%
+Padma ↔ ŚiP Dharma 6.6%
+Padma ↔ Saromāhātmya 6.3%
+Garuḍa 1 ↔ Mārkaṇḍeya 94–141 6.3%
+Liṅga 1 ↔ ŚiP Vāyavīya 6.3%
+Bhaviṣya ↔ Viṣṇu aṃśa 3 6.1%
+Liṅga 1 ↔ Saura 5.9%
+Agni ↔ Vāyu §10 5.9%
+HV App. 42 (prādurbh.) ↔ Saromāhātmya 5.7%
+Kālikā ↔ ŚiP Rudra 5.6%
+MBh 3 ↔ Padma 5.6%
+Matsya ↔ Viṣṇu aṃśa 2 5.6%
+Kūrma 1 ↔ Matsya 5.5%
+Liṅga 1 ↔ Viṣṇu aṃśa 1 5.3%
+Garuḍa 1 ↔ Kūrma 2 5.3%
 
 ======================================================================
-SLIDE 35
+SLIDE 38
 Blank
 
 TITLE: 
@@ -1128,8 +1300,15 @@ TEXTITEM:
 
 NOTES: B9: the Bhaviṣya — a text that is mostly other texts; 53% of pāda-units matched; donors incl. Manu, Śivadharma corpus, Bṛhatsaṃhitā, the Buddhist ŚKA; per-block dating is the only dating it admits.
 
+The Bhaviṣyapurāṇa, scanned pāda-by-pāda against the whole e-text library:
+47% of its pāda-units occur in other texts (Brāhmaparvan 38%, Uttaraparvan 59%)
+the borrowing is block-wise and source-datable: Manusmṛti swallowed whole, the Sāmbapurāṇa's saura corpus, Śivadharmaśāstra & -ottara, Bṛhatsaṃhitā, Matsya-type vrata blocks — 
+and a physiognomy block shared with the Buddhist Śārdūlakarṇāvadāna
+whole stretches match nothing — a genuine own-text residue in between
+Not an author's stratum — a compilation event with datable ingredients.
+
 ======================================================================
-SLIDE 36
+SLIDE 39
 Blank
 
 TITLE: 
@@ -1141,4 +1320,60 @@ TEXTITEM:
 TEXTITEM: 
 
 NOTES: B10: the same map in the 3-gram lens.
+
+======================================================================
+SLIDE 40
+Blank
+
+TITLE: 
+
+BODY: 
+
+TEXTITEM: 
+
+TEXTITEM: 
+
+NOTES: Backup: full-scale W1 · Cosine Delta (agreement with opening map 0.95).
+
+======================================================================
+SLIDE 41
+Blank
+
+TITLE: 
+
+BODY: 
+
+TEXTITEM: 
+
+TEXTITEM: 
+
+NOTES: Backup: full-scale W1 · min-max (agreement 0.94).
+
+======================================================================
+SLIDE 42
+Blank
+
+TITLE: 
+
+BODY: 
+
+TEXTITEM: 
+
+TEXTITEM: 
+
+NOTES: Backup: full-scale C3 · Cosine Delta (agreement 0.81).
+
+======================================================================
+SLIDE 43
+Blank
+
+TITLE: 
+
+BODY: 
+
+TEXTITEM: 
+
+TEXTITEM: 
+
+NOTES: Backup: full-scale C3 · min-max (agreement 0.86).
 
