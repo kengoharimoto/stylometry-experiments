@@ -69,14 +69,16 @@ plot; the geometry is blind.
 *(The slide currently carries a 😳 after this line — assumed to be a
 placeholder for the beat; remove or keep deliberately.)*
 
-### Slide 4 · The question
+### Slide 4 · The question *(= deck slides 6–7; retitled "I will answer the three questions")*
 
 **On slide:**
 
-> Two questions worth thirty minutes:
+> I will answer the three questions
+> in this presentation
 >
-> 1. **What** exactly was counted?
-> 2. Can the left–right axis be **trusted** — and what good does it do if it is?
+> - What exactly was counted?
+> - Can the left–right axis be trusted
+> - And what good does it do, if it is?
 
 **Cue:** roadmap sentence: first how the map is made, then a guided tour, then
 the robustness case, then honest caveats.
@@ -187,10 +189,12 @@ what is normal for this corpus." The table rows preview later stops on the tour.
 > | input | sandhi **dissolved** (segmented) | raw **sandhied** text |
 > | sees | particles, pronouns, vocabulary habits | morphology, phonology |
 >
-> **Independent failure modes**: nothing that could fool one lens can fool the other.
+> Through different lenses; will get back to this later
 
 **Cue:** flag now, cash in at Act 4: any segmentation-pipeline artifact could
-only touch Lens 1; any orthographic/sandhi artifact only Lens 2.
+only touch Lens 1; any orthographic/sandhi artifact only Lens 2. Spoken, no
+longer on the slide: *independent failure modes — nothing that could fool one
+lens can fool the other.*
 
 **Backup (if asked "what are the top 3-grams?"):** ␣ = space; trigrams run
 across word boundaries. Shares are of all 30.5 M trigram tokens in the
@@ -429,7 +433,11 @@ The Bhāgavata's vertical displacement is the clearest case.
 > - **genre**: when the vocabularies are completely different, there is no telling where 
 >   they land
 > 
-> *Look at where the final parvans of the MBh landed in our map. Those are exactly the parvans whose relative dates are contested; Also, look at where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left.*
+> Look at where the final parvans of the MBh land in our maps. Those are exactly the parvans whose relative dates are contested;
+>
+> Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left (probably because they also incorporates much older meterial)
+>
+> And hard to explain independence of the Bhāgavatapurāṇa in all measurements
 
 **Cue:** mfws tend to be fillers. Inapt authors tend to rely on meter fillers. The Bhāgavata: when was it composed? An old problem. It shows in our map. (B7). The mode or the motivation of composition/compilation. E.g., the Bhaviṣya (B8 and B9).
 
@@ -438,13 +446,21 @@ The Bhāgavata's vertical displacement is the clearest case.
 **On slide:**
 
 > - Our lenses confirm some things that we had suspected: The relative age of the epics; the didactic portions of the MBh being late; the affinity of certain purāṇas; relative age of uncontaminated Purāṇas (Skandapurāṇa)
-> - At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata; relative age of the Mahābhārata and the Rāmāyaṇa (well, they show up at about the same place, so, our map also confirms long suspected their being composed **about the same time**)
+> - At the same time, they illuminate contentious issues: relative dates of the closing parvans of the Mahābhārata (Their positions are unstable in different maps); relative age of the Mahābhārata and the Rāmāyaṇa (They show up at about the same place, so, our map also confirms long suspected their being composed about the same time, but which looks earlier is unstable in different maps)
 > - It will not date your text; it will tell you **whose company it keeps**
-> - It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the **composition, not integration** date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ... 
+> - It affirms what scholars have been saying: where there is a scholarly consensus,  we get stylometric consensus, where there are disputes, there is no stylometric consensus
 
 **Cue:** this is the point of the whole talk: the counts make us look at old
 problems from a new angle, and the charts hand scholars hints about where to
 dig. ... The Bhaviṣya being the fountain of many interesting things. Wish I have time to show slide B9.
+
+**Replaced on the slide by the "affirms what scholars have been saying" bullet,
+kept here as spoken material:** it also tells us where interesting things are
+happening; it is about time someone gives serious thought about the uniqueness
+of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches
+to settle the questions of the **composition, not integration** date of the
+closing parvans of the Mahābhārata; do some fine grained research of the
+provenance of the Bhaviṣyapurāṇa, etc., etc., ...
 
 ### Slide 21 · Closing
 
@@ -517,16 +533,20 @@ Devīgītā is 2.3% of the parent, so the effect is negligible.)
 
 ### B4 · When the lenses disagree — a diagnostic, not a failure
 
-**On slide:**
+**⚠ NOT IN THE DECK.** There is no B4 slide in
+`chronology_stratification.key`: the backups present are the source key, B1,
+B3, B3/B6, B5, B7, B8, B9, B10 and four full-scale map variants. This section
+did not survive the move to Keynote. Kept here as material — spoken if the
+question comes up, or rebuild the slide if it should be back.
 
-> **BhP 10.29–33 transmitted with commentary** (Bh10c on the maps):
->
-> - **word lens**: nearest neighbour = Kāśīkhaṇḍa — expelled from the
->   Bhāgavata cluster (commentary vocabulary contaminates word counts)
-> - **3-gram lens**: nearest neighbour = BhP 10 — back inside the family
->
-> Disagreement between lenses **flags preprocessing problems** — it does not
-> hide them.
+**Material (was the slide text):**
+
+- **BhP 10.29–33 transmitted with commentary** (Bh10c on the maps)
+- **word lens**: nearest neighbour = Kāśīkhaṇḍa — expelled from the
+  Bhāgavata cluster (commentary vocabulary contaminates word counts)
+- **3-gram lens**: nearest neighbour = BhP 10 — back inside the family
+- Disagreement between lenses **flags preprocessing problems** — it does not
+  hide them.
 
 **Cue:** if asked about pipeline trust: same story with the Nīlamata, where a
 raw-cosine outlier exposed an editorially dissolved source text (2026-07-09).
@@ -600,19 +620,24 @@ Sāmba–Brahmapurāṇa saura, Śivadharma, Matsya/Padma vrata, Viṣṇudharma
 Vāyu–Brahmāṇḍa–Harivaṃśa; hatched = matched only in the nibandha citers;
 ▲/▼ markers = Buddhist / Bṛhatsaṃhitā chapters).
 
-**On slide:**
+**On slide:** the figure only. In the deck (slide 38) this is a figure-only
+slide with no text box — the bullets below are spoken, not shown.
 
-> The **Bhaviṣyapurāṇa**, scanned pāda-by-pāda against the whole e-text library:
->
-> - **47% of its pāda-units occur in other texts** (Brāhmaparvan 38%,
->   Uttaraparvan 59%)
-> - the borrowing is **block-wise and source-datable**: Manusmṛti swallowed
->   whole, the Sāmbapurāṇa's saura corpus, Śivadharmaśāstra & -ottara,
->   Bṛhatsaṃhitā, Matsya-type vrata blocks — and a physiognomy block shared
->   with the **Buddhist Śārdūlakarṇāvadāna**
-> - whole stretches match **nothing** — a genuine own-text residue in between
->
-> *Not an author's stratum — a compilation event with datable ingredients.*
+**⚠ The deck's presenter note on that slide still says "53% of pāda-units
+matched," which is the pre-Sāmba number. The settled figures are the ones
+below (47% / 38% / 59%). The note needs correcting in Keynote.**
+
+**Spoken (was the slide text):**
+
+- The **Bhaviṣyapurāṇa**, scanned pāda-by-pāda against the whole e-text library
+- **47% of its pāda-units occur in other texts** (Brāhmaparvan 38%,
+  Uttaraparvan 59%)
+- the borrowing is **block-wise and source-datable**: Manusmṛti swallowed
+  whole, the Sāmbapurāṇa's saura corpus, Śivadharmaśāstra & -ottara,
+  Bṛhatsaṃhitā, Matsya-type vrata blocks — and a physiognomy block shared
+  with the **Buddhist Śārdūlakarṇāvadāna**
+- whole stretches match **nothing** — a genuine own-text residue in between
+- *Not an author's stratum — a compilation event with datable ingredients.*
 
 **Cue:** three points, in order. (1) **The scale**: 47% of the entire text
 (40k pāda-units) matches something else at ≥0.7 — no other unit on the map
