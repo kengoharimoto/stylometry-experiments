@@ -1,0 +1,20006 @@
+# This file contains the words that were used for building the table
+# of frequencies. It can be also used for further tasks, and for this
+# purpose it can be manually revised, edited, deleted, culled, etc.
+# You can either delete unwanted words, or mark them with "#"
+# -----------------------------------------------------------------------
+
+a ṃ  
+a ḥ  
+  s a
+  t a
+c a  
+ā ṃ  
+  c a
+a m  
+a r a
+ḥ   s
+  p r
+y a  
+ā ḥ  
+  m a
+p r a
+t a t
+a t a
+  b h
+a m a
+ḥ   p
+  v i
+a t h
+b h a
+a v a
+y a t
+  p a
+d h a
+a n a
+a y a
+t a ḥ
+a m ā
+  v a
+t h ā
+v a r
+ṃ   p
+t e  
+m a h
+s a ṃ
+a   s
+  y a
+ṃ   s
+t i  
+n a  
+i ḥ  
+y a ṃ
+v ā  
+ṃ   t
+t a ṃ
+  n a
+ā y a
+s a r
+a b h
+ā n a
+i t a
+a s y
+t r a
+v a  
+p a r
+a s a
+a   t
+a r v
+  k a
+t h a
+ḥ   k
+a h ā
+t a m
+y ā  
+a   p
+ṃ   v
+a n t
+ā r a
+r a t
+i v a
+s y a
+a s t
+a y ā
+  p u
+r a m
+s a m
+h a r
+a r ā
+h ā  
+ā m a
+a   v
+t v ā
+a t i
+e v a
+ā n  
+t a s
+t ā  
+r v a
+h a ṃ
+  ś a
+ṃ   c
+m a n
+a k ṣ
+r a ṃ
+b h ā
+ā n ā
+d e v
+a d ā
+i t ā
+k ṣ a
+a h a
+v a ṃ
+v a t
+k a r
+a v ā
+ṃ   d
+a t ā
+a k a
+t u  
+h a v
+ḥ   ś
+n a ṃ
+a   m
+ṃ   k
+e n a
+d h ā
+a ṇ a
+a d h
+  v ā
+a n ā
+  n ā
+a l a
+m ā n
+k ṛ t
+r a s
+  d a
+ś c a
+a   k
+b h i
+t y a
+  n i
+  s u
+b h ū
+y a ḥ
+a   d
+y a m
+h a  
+a d a
+ṃ   m
+ā   s
+  d h
+a t e
+  r ā
+  d e
+a p a
+d d h
+ā m  
+r ā j
+  k ā
+ś   c
+h y ā
+p r ā
+  p ā
+ṃ   n
+h i t
+a v i
+  ś r
+  g a
+a i v
+ā c a
+r a  
+a t r
+ā   t
+  t u
+r a v
+t a d
+ā s a
+t o  
+ā v a
+  m ā
+ā   v
+a i ḥ
+n ā ṃ
+  t e
+  k ṛ
+v a i
+a   c
+h a s
+n a ḥ
+m   a
+ḥ   t
+ṃ   b
+r a ṇ
+s a  
+  j a
+n a m
+y ā ṃ
+v ā n
+p a t
+y a s
+a   b
+d h i
+a ś a
+a u  
+s t a
+h ā n
+h a n
+t t a
+ā b h
+v ā c
+h ā r
+s t h
+ā   p
+s   t
+ṃ   ś
+t a r
+t ā ḥ
+a k ā
+ā t m
+  s ā
+y a n
+h y a
+ṛ t a
+t v a
+t ā n
+p u r
+a r m
+ā n i
+r a k
+ā p a
+ṣ ṭ h
+s v a
+r ā ṇ
+ś v a
+y ā m
+ā   d
+r t h
+r a h
+a   n
+v a s
+ṛ ṣ ṭ
+n t a
+ā t a
+n i  
+a   ś
+k ā r
+a g a
+ā d a
+v a n
+g a t
+ā d h
+n ā m
+a r i
+v i d
+d h y
+v i ṣ
+h a t
+y ā t
+r a ḥ
+i ṣ ṭ
+ā s t
+u v ā
+  t ā
+y ā n
+a s ā
+ā   m
+a i r
+y e  
+  s v
+m a  
+p i  
+j a n
+d ā  
+a n d
+t a  
+u r ā
+  h a
+a ṇ ā
+o   '
+  r a
+e   t
+a ś c
+t h i
+ṣ ṭ a
+  c ā
+  b r
+r a d
+h a m
+  k u
+r m a
+t ā ṃ
+i   s
+e   s
+t r ā
+ṃ   y
+ā y ā
+m a ṇ
+ā   b
+a   y
+v a d
+s y ā
+r a y
+u ḥ  
+ā l a
+c c h
+i b h
+  t v
+a k t
+ā   n
+e   p
+ā g a
+k h a
+v a m
+c a i
+b r a
+ṇ a ṃ
+i t y
+i r a
+m a t
+ṣ u  
+i ṃ  
+ā n t
+d r a
+t a v
+a y e
+ṇ a  
+r y a
+ā t  
+i   t
+  u v
+h ā t
+v i ś
+  d v
+a   u
+n ā  
+y o  
+o   v
+a t o
+s a h
+a t t
+n a r
+a t  
+i r  
+ḥ   a
+m a d
+m ā t
+ā   k
+a t y
+ā r t
+ā d i
+  s t
+a r t
+y a d
+  p ū
+h ū t
+ā j a
+ā r ā
+d v i
+i d h
+  b a
+j ñ ā
+s a t
+e ṇ a
+  i t
+u r a
+t r i
+ṃ   g
+ṣ y a
+h m a
+n t i
+r e  
+ś a t
+  e v
+v a y
+ā h a
+h a k
+u b h
+ā   c
+ā m ā
+u k t
+  m u
+m a m
+n ā n
+m a y
+v ā s
+a y o
+m   ā
+i   v
+i t i
+a s m
+a p ā
+v y a
+a r e
+l a ṃ
+i   p
+d a ś
+a m u
+r ā  
+t y ā
+  ś i
+l o k
+y ā d
+m a ṃ
+h ā v
+e ṣ u
+a j a
+ṭ h a
+m a r
+e   v
+a r ṣ
+t a n
+  y ā
+a l ā
+o   m
+h i  
+h a y
+a ṇ ḍ
+a i  
+r a b
+ā   y
+p ū r
+ṇ ā ṃ
+t m a
+p i t
+a p r
+ā m i
+u t a
+r ū p
+  k ṣ
+u n a
+s ā  
+h i r
+s t r
+y a k
+r i y
+d y a
+k a ṃ
+v i t
+v y ā
+k ṣ i
+n i r
+t a p
+ḥ   v
+n a s
+ā ṇ i
+ā ṇ ā
+o   d
+  ś u
+a h m
+ṇ ḍ a
+  h i
+n y a
+i v ā
+m a s
+v a k
+m ṛ t
+y ā y
+b h y
+e ṣ ā
+u t r
+a r ṇ
+u r u
+r u t
+e t  
+k t a
+a t ī
+  a n
+ā p i
+ṣ a ṇ
+r ā h
+e   m
+s a n
+t ā m
+i k ā
+r a j
+  p i
+i n ā
+b h u
+ā ś a
+ā t r
+a   r
+ī ṃ  
+a c a
+v i j
+r ṇ a
+a m e
+ñ c a
+o   b
+r v ā
+c a n
+v ā r
+i k a
+r ā d
+  d ṛ
+d ā n
+ś a ṃ
+d ṛ ṣ
+n ā t
+d a r
+n a v
+p u t
+ṛ t ā
+a v e
+m ā  
+m ā s
+o   n
+p a d
+i n a
+ṃ   j
+k r a
+a j ā
+i ṣ y
+ā k ṣ
+d a ṃ
+e v ā
+s t u
+ḥ   d
+y ā s
+  t r
+e   d
+a n  
+m ā r
+e t a
+ṇ i  
+a s  
+ṅ g a
+m u k
+ṃ   r
+r o  
+a ś  
+m e  
+ā ṇ a
+a ṅ g
+h a ḥ
+i ṣ ṇ
+v ā d
+k a l
+a   g
+m   t
+ś a r
+ś y a
+h e  
+r y ā
+i   ś
+e   k
+a ṃ s
+a ṣ ṭ
+s u r
+a ñ c
+d a n
+u d h
+i   m
+l a k
+m a ḥ
+y a v
+h i ḥ
+r ā m
+ś r ī
+r ā p
+a n y
+v i n
+k ā m
+k h y
+i   c
+j a y
+c a k
+a n u
+b a l
+n d h
+n e  
+a   h
+ṇ a m
+n d r
+ś a k
+u d d
+p a ś
+n ā r
+ṃ   h
+ā   ś
+j a g
+e   n
+v a ḥ
+a n i
+  d u
+a n n
+r a ś
+c h a
+k ā l
+d a d
+s ā d
+a j ñ
+ī r t
+p t a
+r ā t
+  d i
+u   s
+r a i
+y a ś
+s a d
+  a t
+n a n
+v e  
+c a t
+ṣ ṭ ā
+ḥ   n
+ṇ e  
+ṣ a y
+a i ś
+ā r y
+m ā d
+i   k
+a t u
+ṣ ā ṃ
+y e t
+u k h
+a p i
+h a i
+h a l
+i   d
+t a y
+a t v
+v ṛ t
+ā n y
+h o  
+g a v
+r v e
+c i t
+y a j
+c a r
+k a m
+r i t
+ā ś c
+a k r
+  k i
+p u n
+t e n
+u ṃ  
+ā t i
+p ū j
+m   s
+k a t
+r ā n
+t e ṣ
+i   n
+ṇ a ḥ
+r ā y
+ś r u
+m i  
+  y u
+  v y
+h ṛ t
+u   t
+e   c
+ā t ā
+  d ā
+ṃ ś a
+i y a
+  y o
+e ś a
+g a m
+k u r
+y ā ḥ
+s m ā
+h ā p
+ā d y
+d a k
+a v y
+a n e
+h ā y
+ḥ   m
+ā n u
+a c c
+g ṛ h
+a ś ā
+a p u
+  ś ā
+a r o
+a   j
+r a p
+  j ā
+d y ā
+h ā g
+  v ṛ
+ś a n
+  m e
+ḥ   y
+k ṛ ṣ
+n y ā
+t a k
+r e ṇ
+t   p
+ū t a
+v e d
+  s m
+t   t
+a d v
+h ā b
+r ā ḥ
+ū r v
+i t r
+t u r
+ṛ ṣ ṇ
+m y a
+y a i
+h ā s
+t a i
+ā   r
+a ṅ k
+d v ā
+y a y
+  l a
+ḥ   b
+a ś y
+r ṣ a
+e ṣ ṭ
+ṇ y a
+  l o
+a ṃ k
+a s i
+m i t
+n a i
+c ā r
+ṣ a t
+b h o
+ṣ ṭ v
+m   i
+ṣ i t
+ū p a
+  k r
+ā r i
+h a g
+v a ś
+t i ḥ
+n n a
+ā v i
+m u n
+g a r
+a r ī
+v a c
+ṭ v ā
+ṇ ā  
+  y e
+a s r
+ś r a
+ā   g
+s a p
+ā ṃ ś
+t   s
+a d y
+m ā ṃ
+ś i v
+a ṃ ś
+e   b
+p ā p
+ṣ ṇ a
+k t ā
+p ā r
+p y a
+m   p
+t i t
+t m ā
+g r a
+p ā t
+d a y
+u   p
+p a s
+d i t
+a d e
+u p a
+e ṣ a
+ś a y
+ṣ a s
+p ā d
+e   ś
+i m a
+r e ṣ
+h ā d
+u   v
+i p r
+k ṣ y
+i   b
+l a m
+a m o
+h ā m
+e y a
+t ī r
+a p t
+ī y a
+ā y u
+e ś v
+a t s
+b h ī
+d i v
+p h a
+r ā k
+d r ā
+ā ṃ s
+m ā ṇ
+k ṣ ā
+ā s ā
+r u d
+ā d  
+a d  
+ṛ t v
+y u d
+  p ṛ
+  a p
+u ṣ ṭ
+p a ṃ
+y a p
+i   y
+d a t
+t s a
+ā   h
+ṣ y ā
+i m ā
+  s ū
+t a ś
+a ṃ t
+ī t a
+o d h
+o p a
+v ā p
+u v a
+r d h
+v i p
+p a ñ
+i r ā
+v ī r
+a v ī
+s m ṛ
+h a d
+i ś a
+k ā n
+e d a
+n d a
+a i t
+j ā t
+ā p y
+ā s u
+g h a
+  n ṛ
+s i  
+e   y
+v a p
+i ś c
+n o  
+d h v
+k ā ś
+j i t
+o k a
+t ā r
+d u r
+d b h
+p u ṇ
+ā j ā
+ṣ ṇ u
+t i r
+ṣ i ṇ
+a ṃ p
+m a v
+c ā p
+p a n
+ī r a
+a r ś
+a s v
+y o g
+  g u
+i s t
+m   u
+g a ṇ
+i d a
+j ā n
+ā k a
+v a l
+o   y
+p ā ṇ
+h i v
+u t ā
+ā k h
+i p a
+v r a
+k a ḥ
+m a p
+j y a
+r t a
+n ā d
+t ā s
+t i m
+t r e
+m   e
+m a k
+ś u b
+a y i
+g u ṇ
+n a y
+  e t
+a r ū
+h i n
+j ñ a
+ṛ t y
+r u ṣ
+ā ś  
+i s a
+a g ā
+ṇ ā n
+ā   j
+a s u
+a   e
+  c i
+y u k
+ś a m
+  a b
+d v a
+n a k
+s u t
+v ā ṃ
+m u d
+u d r
+ṇ a s
+v ā k
+a k ṛ
+ś a ḥ
+ā l ā
+i n ī
+  v e
+u ṇ y
+i j a
+ā d ā
+a m y
+a ṇ e
+a l i
+n   s
+ś c ā
+v ā t
+h i ṣ
+i ś v
+a   a
+k a s
+ā ś r
+ā s y
+a   i
+v ā y
+i l a
+v i v
+m o  
+ṛ t h
+r b h
+r ā s
+p a k
+k a n
+d a m
+m ā y
+j a s
+s t e
+k h ā
+d ṛ ś
+y u t
+u r  
+h v a
+i y ā
+r g a
+a m b
+j ā  
+ā h m
+b r ā
+u t t
+n ā ś
+k ī r
+g a ṃ
+s t ā
+ś e ṣ
+p u ṣ
+r a n
+  j ñ
+t i ṣ
+  b ā
+b h r
+r m ā
+n ṛ p
+o b h
+y e n
+e n ā
+s a ḥ
+ā ṇ ḍ
+  a s
+s ā r
+ñ ā n
+d a i
+n ī  
+h ā ḥ
+ā   a
+ṣ a ṃ
+n i t
+y   a
+m   v
+m   k
+l e  
+ā p t
+e k a
+u m a
+n a d
+i ṣ a
+ā r d
+v e t
+g a n
+r ā v
+a m i
+ū t ā
+u   d
+v i k
+u   m
+o t t
+b a h
+p a y
+ś ā n
+  ā s
+a ṃ b
+r ī  
+v a j
+a t p
+ṣ ṭ i
+s m i
+ā ṅ g
+i ṇ a
+  g ṛ
+o   r
+  m ṛ
+k t i
+ā d e
+n a t
+ṃ s t
+h r a
+v ā m
+d h u
+k i ṃ
+ā r u
+u ṣ a
+i n d
+n   p
+t   k
+a l o
+p ṛ t
+y ā v
+ṛ p a
+r i ṇ
+ṇ a v
+u r v
+a s e
+v o  
+b h ṛ
+n i ś
+v i b
+n t e
+i v i
+u t v
+t ī  
+v a b
+u ṇ a
+k ṣ e
+m b h
+d u ḥ
+ḥ   e
+r ś a
+n m a
+ā k ā
+u m ā
+ś a s
+k ā  
+ṛ t t
+o d a
+  k h
+  v ī
+i ś ā
+m   d
+n i ṣ
+u   k
+d h e
+  r u
+  ś ṛ
+p a v
+ā s  
+r t i
+g a d
+o m a
+  k e
+s a u
+t t v
+  s i
+s a k
+  e k
+ā n e
+a h i
+ṇ a i
+  s o
+a r u
+v e ṣ
+ś a  
+v ā ḥ
+a n o
+o   h
+s u k
+ī n ā
+  u p
+t i k
+ṇ ā m
+a d d
+  h y
+ā t h
+n i v
+b h e
+e n d
+s v ā
+t r ī
+ḥ   ā
+o ḥ  
+d h ī
+k y a
+v ā h
+j a l
+r ā ṃ
+n   m
+u l a
+s n ā
+a n m
+ṅ g ā
+e   '
+ś r e
+u n i
+i v y
+s r a
+t p a
+r a g
+a r y
+r ā ś
+a g h
+v e ś
+ī v a
+t a u
+  a v
+ā j ñ
+s u d
+s m a
+i d d
+y ā ś
+ṃ b h
+y ā p
+a ṃ g
+  i v
+ś ṛ ṇ
+i t o
+e t ā
+i ṃ ś
+o k t
+a t n
+m i n
+ṣ a m
+k e  
+ṇ o  
+i t v
+n ā s
+ā t u
+a r g
+t i ṃ
+i t e
+k a ś
+t ā t
+m a l
+a ṃ d
+t h e
+b u d
+k u l
+ā h ā
+ī   s
+i l ā
+  u t
+m a b
+d ā r
+  a d
+h i k
+a h e
+k a p
+ī p a
+r a u
+l a b
+t ā y
+a n ī
+  g h
+m ā h
+a d r
+ṛ ṇ u
+a l e
+o g a
+a i k
+i m  
+ā ṣ ṭ
+l a v
+ā s i
+ṃ   l
+e   r
+a l p
+h r ā
+m   n
+l a s
+n a p
+a k h
+p ā l
+h ā ṃ
+u   c
+r u ṇ
+u p ā
+n ā ḥ
+p r o
+ī k ṣ
+n t r
+n n ā
+  d r
+ī m a
+l ā n
+n v i
+r ṇ ā
+p a  
+ṭ h ā
+ḥ   g
+k ā ḥ
+y e ṣ
+  ṣ a
+i d y
+l a y
+v a ṇ
+y a ṇ
+  g ā
+  s n
+v i s
+a u r
+ā ṇ e
+n   n
+h u r
+v a v
+n   v
+g r ā
+ḥ   i
+h a ṇ
+m a ś
+m   ś
+i h a
+' d h
+  t i
+g h ā
+s a v
+i j ā
+n a ś
+p a ḥ
+a d i
+m   y
+ṣ a  
+  ś ū
+ī m  
+s a s
+o   g
+ū l a
+o   j
+ī t i
+a m ī
+p a m
+i r v
+i ṇ ā
+a h ī
+ī   t
+t y u
+ī t ā
+t t i
+ṃ s a
+ā p u
+n   a
+j ī v
+k a i
+t i s
+ā d d
+m a i
+ā h u
+ū r ṇ
+a r d
+u r y
+s ā ṃ
+ṣ ā  
+ā v ā
+ā t v
+i n i
+h e n
+r i ṣ
+d ā t
+u ṣ p
+l a ḥ
+u   n
+  h ṛ
+v ī  
+a ś r
+ā p ā
+r d a
+ā ś v
+  g o
+a r j
+e v ī
+p r i
+ā c ā
+  t ī
+c ā n
+  a r
+t ā v
+n t ā
+h y e
+s ū t
+  a h
+m ā ḥ
+v i m
+k ṣ u
+a ṃ v
+  s y
+i k ṣ
+  ṛ ṣ
+ā ñ c
+n e n
+m ū r
+ṛ ś a
+t t ā
+h ī t
+ū y a
+a ṃ j
+v ṛ ṣ
+m ā l
+ū j a
+i ś  
+m   m
+a n v
+d h ṛ
+  d ī
+n u ṣ
+ś y ā
+h m ā
+ṭ h i
+u   b
+g n i
+c y a
+a ṇ i
+a k u
+ṛ ṣ a
+o r a
+l ā  
+  m ū
+a ś o
+v ī t
+t e j
+ṇ ḍ e
+h ī m
+a y u
+v a h
+a h u
+g ā n
+s i d
+ñ j a
+o k ā
+a t k
+ṛ h a
+j ñ e
+ā n v
+s o  
+h u ḥ
+ā n n
+u   y
+y i t
+h a u
+r   a
+a   l
+ā n ī
+h i p
+ṛ t i
+r ī t
+e t i
+a d ī
+ṣ m a
+ḥ   r
+m a j
+d a  
+h ū m
+ā r o
+h i m
+k ṣ m
+h ā ś
+u n ā
+k a ṇ
+d ā y
+ś o  
+ś ā s
+ū r y
+h e t
+a   ā
+d i n
+r o t
+r o d
+ś a i
+ṭ a ṃ
+m ā k
+u ḥ k
+g u r
+a ṃ y
+p ā n
+c c a
+n   d
+a g r
+i t t
+e   g
+s ā m
+ḥ k h
+s t i
+u k a
+p ā y
+j ā y
+o j a
+t y  
+d e ś
+ū p ā
+  c h
+t ā ś
+b ā h
+t u ṃ
+ś v ā
+ā s ī
+u ṇ ā
+t u ṣ
+ḥ   j
+i v e
+r i k
+r e t
+k e ś
+c h ā
+i r m
+  p h
+n ā g
+a k e
+  k o
+v i r
+i   r
+a d ṛ
+g e  
+j ā ḥ
+ṅ k a
+ī   c
+j a ḥ
+d e h
+i ś r
+s e n
+e ḥ  
+r ā g
+ḍ a v
+t u m
+p r ī
+p r e
+y a r
+h a p
+t h o
+r u v
+r j a
+j a ṃ
+ā j y
+d a s
+' p i
+a d b
+a b d
+h ā k
+m   b
+k o  
+ṃ t a
+i p u
+ā g h
+a i l
+r ā r
+n   k
+n ā y
+k t v
+a p ū
+g i r
+n y e
+ś r ā
+u   ś
+h o r
+  ā t
+ā m u
+a ṇ y
+ṇ ā ḥ
+t ī y
+ś a ṅ
+s ū r
+p t ā
+a d u
+a v ṛ
+ī r y
+a g n
+ś i r
+y a g
+ś u k
+t a l
+ṣ a ḥ
+t y e
+i k h
+c a y
+e   j
+ā m y
+j a  
+d   v
+ī   p
+a ś i
+d a ḥ
+t ā p
+h u v
+ā c c
+u ṣ ā
+t ā d
+v i c
+y ā g
+ā m e
+r   v
+h a ś
+e t r
+ā n d
+y u g
+d i ś
+ā l e
+ṃ ś  
+e   a
+d   a
+y a u
+n a g
+o t i
+s r ā
+ḥ   u
+e   h
+h ṛ ṣ
+u ṇ ḍ
+ś r i
+u d ā
+y o d
+ū r a
+n t u
+g h o
+ā p n
+ā t t
+a k o
+m e v
+e t e
+i p ā
+g ā m
+y a c
+ā k y
+m ā g
+a c ā
+  ā d
+ī ś v
+r o k
+i ṇ ī
+ā g ā
+ī b h
+k a d
+r i ṃ
+n t y
+ṇ y ā
+n i ḥ
+i ś e
+a ś ī
+a ś v
+s t v
+e b h
+o h a
+d i  
+r t t
+a i s
+c   c
+ṃ g a
+u d a
+k ā ṃ
+g a c
+h ṛ d
+p ṛ ṣ
+  a ś
+c i n
+y a b
+ṇ ī  
+t r o
+ñ ā t
+l a p
+c a m
+ṭ a m
+ḥ   c
+  ' s
+o c a
+r i v
+ā v ṛ
+i ṅ g
+v e n
+ā d v
+v a g
+i j ñ
+u m  
+ā l i
+ś c i
+r a r
+h ū ṣ
+k ṣ ī
+a i n
+a i ṣ
+  m o
+ṃ ś c
+r ī r
+r a c
+' b h
+r k a
+s u m
+i r e
+  u d
+ī y ā
+a r p
+e k ā
+j a p
+ṭ ā  
+  ' p
+d i k
+  j ī
+i c c
+ḍ a l
+ī n a
+ṃ p r
+a m p
+ā r g
+k h i
+i   g
+ṣ a d
+ā h i
+ā r ī
+a c i
+y ā ṇ
+p a p
+ā g r
+ā p r
+r v i
+m ā m
+r ī m
+ś a b
+i r d
+j a m
+a m ū
+m ā p
+t a c
+c h i
+ṣ ṭ r
+a ṃ h
+ī t  
+  r ū
+k a u
+a s ū
+n i d
+s ā n
+ṣ p a
+m y ā
+h ī ṣ
+ā b a
+  ś o
+o k e
+ś ā r
+r ī k
+ā   i
+g a s
+h e d
+n   b
+i r i
+r i p
+e h a
+c ā t
+a b a
+u s a
+ṃ d h
+ū r t
+o ṣ a
+a b r
+k a v
+s p a
+n ā p
+d   d
+o k ṣ
+i t u
+d h o
+m u t
+b a b
+ś a v
+s u  
+ṛ k ṣ
+ṛ t e
+d ī p
+ṇ ā t
+s a i
+ā   l
+  v r
+ī   v
+j a r
+  b u
+n ā b
+ś a ś
+u r d
+ś i ṣ
+ā r e
+r d d
+l p a
+y e d
+u j a
+d h ū
+k u m
+v i ṃ
+u r o
+ṣ ṭ o
+h e ś
+i   j
+ā g n
+ṛ d d
+  g r
+ṇ a p
+c i d
+ṇ u  
+v ā ṇ
+d ī n
+y ā k
+d r o
+t p r
+ḥ   h
+k r o
+ṃ s  
+ś i k
+i n n
+e y ā
+g h r
+r t ā
+ī m ā
+e k ṣ
+i n y
+ṛ ś y
+  c e
+h ā ṣ
+d a u
+a k ī
+ā n o
+l y a
+a v o
+  ' b
+ḍ h a
+ṣ v a
+ṃ k a
+ā ś ā
+k o ṭ
+s k a
+  a k
+n n i
+t i p
+y ā r
+p i ṇ
+s i t
+e d ā
+ṣ ā m
+ṣ o  
+ṃ s ā
+i ṣ ā
+u s t
+ā t e
+h ī n
+  t ṛ
+  a g
+n v a
+n i n
+ā t p
+k ā d
+ś ā k
+d ā s
+  i d
+e j a
+b ā l
+ī   k
+a g u
+r i d
+a ṇ o
+l a  
+e ś ā
+s a ṅ
+h u t
+h ū y
+j a t
+m ā ś
+ṇ ā d
+i r b
+y ā h
+s i ṃ
+  k ī
+h ī  
+m o h
+a r b
+a d m
+t i v
+  e ṣ
+c e t
+i t  
+  p ī
+d u ṣ
+g ā  
+ṣ ā ṇ
+ā r k
+d r i
+ū ṣ a
+ī r ṇ
+  a m
+l i ṅ
+d e  
+  n ī
+ā m b
+k r i
+ṣ e  
+ṃ y u
+v i h
+m a g
+k t y
+a s p
+n i b
+l a i
+d a ṇ
+m ā v
+ś e  
+ṇ a n
+i ś i
+l ā ḥ
+ṛ ṣ i
+a s ī
+u g a
+ī l a
+ā ś i
+d a v
+t t h
+ṣ i p
+s ṛ ṣ
+d a p
+a p h
+i t ṛ
+ṇ e n
+o h i
+t u ḥ
+i g a
+ā n m
+y ā c
+e t u
+ś i t
+ñ c ā
+y u r
+m b a
+u   r
+e ṣ v
+ī   m
+l i n
+ś v e
+  ā r
+ṭ h e
+d   b
+ā t s
+k ā y
+s u v
+  s ṛ
+u ṣ k
+ā ś u
+ī   d
+i ṣ u
+ś u d
+a m ṛ
+i d ā
+ḍ i t
+ṣ ṇ o
+p a u
+u ś a
+ī r ā
+u c y
+r h a
+ṣ a b
+u y ā
+ā m o
+s e  
+v i g
+e v e
+ṣ e t
+a ṃ c
+  ś ī
+ṣ a r
+y ā b
+u c i
+v ṛ k
+i   h
+a ś u
+ū r d
+g a l
+t i ś
+m ā c
+o v ā
+  ś v
+m e d
+ā d ī
+k r ā
+u v i
+a h o
+r ṣ i
+e d h
+v ā ś
+t   a
+ṭ a k
+  ' d
+ś o b
+ś ā l
+s ī t
+n ī y
+a ś e
+ā ṃ t
+v i  
+v ā g
+d i ṣ
+d y u
+t ā b
+m u p
+h ū r
+h i ṃ
+n ā v
+i c a
+m   g
+y o n
+d o  
+e v i
+ś ā ṃ
+ṣ ṇ ā
+c ā s
+ḍ e  
+n i k
+i m u
+i l o
+r   m
+r a ṣ
+ṣ k a
+ṇ a ś
+ī   b
+i s  
+  ā ś
+n t ī
+a p o
+l ā d
+ā t y
+p ā ś
+ā k ṛ
+ī   n
+m ū l
+c h r
+s o m
+v ī p
+g a ṅ
+i ṃ h
+n i y
+b a r
+d ā d
+i v ī
+r   d
+ā l o
+ṃ h a
+i n t
+y o ḥ
+y a h
+o ' d
+r   b
+ṣ e ṇ
+ā k u
+ṇ ā y
+t i n
+p a i
+r ī v
+ū ḍ h
+h o j
+j ā p
+t u l
+m ṛ g
+n i s
+ī ṇ ā
+b a n
+v   a
+v ṛ d
+n a b
+u ṣ y
+p a l
+a j e
+ṃ k h
+h i d
+g a ḥ
+t ṛ t
+r ā b
+b ā ṇ
+  t y
+a ṇ ī
+ā k r
+c i r
+r g h
+  j i
+k ṣ o
+  ā h
+k r u
+p a ṇ
+i t ī
+ṇ a t
+a s k
+i t h
+h i s
+k u ś
+s ṛ j
+ṣ a ṣ
+i k r
+u t i
+u r b
+e m a
+  ' n
+t i b
+y i ṣ
+i ś y
+m i ṣ
+v ā l
+h e ṣ
+l o  
+l a n
+y o j
+p o  
+ṇ a y
+ū j y
+a l ī
+a u t
+u n e
+g ā y
+i r y
+g ā t
+i k e
+l e n
+n i m
+p a ṭ
+h i l
+r ṣ ā
+ā d ṛ
+ā j i
+u t p
+r ī ṃ
+g ā d
+h v ā
+a d o
+h r u
+g h n
+h ū v
+h i ś
+u p r
+i   a
+  g i
+p ī ḍ
+m o k
+a r h
+o g ā
+ñ e y
+s u p
+ṭ o  
+v ā b
+y o r
+ṛ t ī
+h ū p
+r j i
+t n a
+ṣ ā d
+ū c u
+h y o
+c a s
+i h ā
+d h r
+u   g
+  s e
+ā t o
+u r m
+g a u
+r i ś
+ā v e
+  j y
+n i p
+u l ā
+a ṭ a
+ī v i
+l y ā
+n t o
+' h a
+u k ā
+u t e
+  r o
+  u k
+ā   ā
+k e n
+t a b
+  a ṣ
+ṣ y e
+a s o
+n a u
+b d h
+ṇ ḍ ā
+t ī t
+m a u
+n o t
+c a ḥ
+ṛ d a
+k a  
+r ā ṣ
+  s p
+r p a
+ṇ ḍ i
+n   y
+i k ī
+v ī ṃ
+  ī ś
+l ā ṃ
+n u r
+  ā p
+i n e
+n ī t
+ī k a
+ṇ a k
+ś o k
+t h y
+  ' t
+u d e
+p ā v
+  c o
+y e v
+  ā g
+l a ś
+g a j
+u r ī
+h u k
+  ā k
+l a t
+y u ḥ
+s ā k
+ā ś ī
+d m a
+k a ṭ
+ṛ c c
+a r c
+r m i
+d v ī
+n   t
+m   r
+ṅ k h
+  ū c
+m u c
+r   n
+t ā l
+m e t
+y ā j
+u g r
+a ṇ ṭ
+i r u
+ā   e
+ś ī t
+t k a
+i n  
+p a h
+ṛ h ī
+r c a
+j a j
+r ā c
+ṃ j a
+ā ṅ k
+ṣ ā n
+n e t
+r ī ṇ
+h u j
+l a d
+a v r
+s i n
+r o g
+r o h
+l i t
+u r e
+i r g
+k t e
+t ī ṃ
+y   u
+c a l
+c ā ś
+ī   ś
+ā g e
+ū ṣ i
+s ā t
+ś u c
+k t o
+d ā ṃ
+h u n
+n m ā
+t i d
+  n y
+ṃ c a
+k u ṇ
+  l i
+ṣ ṭ e
+' t h
+y o t
+i d u
+ā y o
+ṣ a k
+p n u
+s ā g
+h a j
+g d h
+o p ā
+s a b
+t   v
+g y a
+u r ū
+d r u
+ṛ t o
+d a g
+ś ū l
+ś a d
+n i h
+ū j ā
+ṣ a v
+l ī  
+c a ṃ
+t p ā
+a l y
+j y ā
+ū m i
+d ā h
+ṃ t i
+o ṭ i
+ā d r
+ṣ ṭ u
+ś a l
+p e t
+d ā m
+n ā k
+r a l
+v ā v
+g ā r
+ī k ṛ
+r u k
+e v y
+m i k
+a ṭ h
+p ā k
+n u y
+ī ḥ  
+a ñ j
+ī ṣ m
+  m i
+h n a
+ā y e
+ṃ j ñ
+ā m n
+r ī b
+e p a
+p ā  
+ṭ a ḥ
+  a y
+e c c
+c h e
+i r n
+n ī l
+r y o
+a j j
+t   d
+s e v
+g ā ḥ
+ṅ k ā
+ā d b
+ṃ ś o
+k h e
+y   e
+d i b
+t ā k
+k i m
+a u m
+p ā s
+u t s
+d ī r
+i g h
+' y a
+  ā v
+p ā ḥ
+ś a u
+n ī m
+o t r
+r ī p
+m   j
+c u ḥ
+u ś c
+h o g
+m a c
+v i l
+h y  
+ū t v
+n ī ṃ
+g o p
+s p ṛ
+u ś r
+o ṃ  
+ā   u
+n u g
+ā d u
+t r y
+ṇ ā ś
+m e ṣ
+n u j
+s ā h
+ī p ā
+v ā j
+b a d
+j y e
+ś r ū
+  h e
+  a j
+i ś u
+r u r
+d o ṣ
+p u ṃ
+m u h
+o v i
+r i r
+r e v
+s ī d
+ṇ u r
+y u ṣ
+r e ś
+r i  
+i d r
+t   n
+ś ī  
+u c a
+i r o
+a ṃ n
+ś ā p
+ā v y
+t   ś
+ṭ a s
+h ā ṇ
+e ṇ ā
+e v o
+ī t v
+k v a
+t t e
+k r e
+t i l
+ā v  
+i m i
+u   j
+ḥ s a
+a b ā
+ā ñ j
+i k ṛ
+  k v
+a ḥ s
+ṣ a ḍ
+ā c i
+ū p e
+ṛ g a
+b ṛ h
+i ṇ e
+o m ā
+s a l
+  o ṃ
+l ā s
+g o  
+m n ā
+ś a p
+l i k
+ṃ p a
+ṇ i k
+ā t ṛ
+ḍ e y
+p y  
+o n i
+o r ā
+ā t ī
+m e ṇ
+s ā v
+t ī k
+y u v
+ā l y
+j v a
+a g ṛ
+i d v
+s i ṣ
+ṛ ṅ g
+  h ā
+  ā y
+ṭ e  
+p e  
+e d  
+e t y
+i ṣ e
+i y o
+k r ī
+  ś e
+i ṣ k
+p ī t
+t m y
+ṇ ṭ h
+r   ā
+t p u
+n d ā
+s ā y
+ā n s
+h a b
+a p y
+g a p
+l ā ś
+ś i l
+r i ḥ
+k ā k
+m ī  
+ḥ   ṣ
+p ā ṃ
+r g ā
+s a ś
+ū d r
+i v ṛ
+r i b
+d ā c
+ṣ a p
+ś r o
+ś ū r
+d ā ś
+o   l
+ṃ h i
+ī t y
+l a l
+ḍ a ṃ
+m ṛ d
+t a j
+h ī y
+ī n  
+ṭ ā n
+i r ī
+h a ṭ
+k a k
+e   l
+a h ṛ
+ī ś a
+j o  
+l ā y
+ā y i
+g h ṛ
+r ī ś
+ṛ p ā
+j j a
+h ṛ ś
+r i m
+m e n
+t u t
+ā m ṛ
+t s u
+g a  
+d d a
+  i m
+ṣ m ā
+t e ḥ
+j e t
+p n o
+a c  
+a ṭ ā
+ṃ d a
+ī ṣ a
+h a c
+t h u
+u k r
+ḍ a ś
+ṭ r a
+a r k
+r u m
+s u s
+b d a
+  n o
+t   y
+r t u
+r ī ḍ
+r o ṇ
+c a v
+d ū r
+t a g
+s ū k
+  i n
+ā ṣ a
+r e y
+ā r c
+u ṣ o
+ṃ k ā
+i r ū
+a p e
+i d e
+d ā ḥ
+d r e
+i s m
+u t o
+a k i
+l ā k
+b o d
+o r  
+ā s e
+u n ī
+  b ṛ
+d g a
+j ā m
+k i l
+ā ḍ h
+ā b ā
+n d i
+ś ī l
+u r g
+ṃ s i
+u k l
+c ā d
+y u p
+a ṃ m
+p e ṇ
+g i n
+ś ā y
+ḥ   l
+s u b
+n y o
+s u n
+a g o
+ṣ a ś
+u m b
+ā r ū
+v a u
+r y e
+t s ā
+ś u ś
+ū j i
+g ā ṃ
+ṭ a v
+h ī r
+n   ā
+u h y
+t r u
+h n i
+ṃ v a
+n i g
+ṇ i n
+ś ū d
+g e n
+h o t
+n   r
+i ṇ ḍ
+a l l
+r e k
+h u s
+ū p i
+r   u
+d e n
+m   c
+ñ e  
+ś i n
+r ṇ i
+j ā ṃ
+' s m
+ṭ i t
+ṣ ī r
+ṇ a d
+e   e
+i c ā
+  n e
+n s a
+g a i
+i n o
+u c c
+n a l
+n   g
+ṣ ā t
+ā n p
+r ṣ e
+c a p
+ū n ā
+n y  
+  ' h
+i c i
+j e n
+b r ū
+t v  
+t   m
+n u t
+t ī n
+u m u
+r m u
+t o '
+d a h
+ī k ā
+p s a
+e   ā
+l o c
+s v i
+h ū n
+ū v a
+g a ś
+ṛ ṣ ī
+o k y
+ṣ a i
+u j ā
+l l a
+k u t
+n u p
+m i d
+n ā h
+ṛ ṇ ā
+ā ṇ y
+m e ś
+i d i
+i m e
+s t ī
+i g r
+m e k
+i d  
+m ā b
+l a g
+n a ṣ
+a p ī
+u n d
+  ā j
+d ī  
+  s ī
+e d i
+s t y
+ṣ a ṭ
+g u l
+r o m
+n u v
+i k o
+u ñ j
+o ṣ i
+  d ū
+t v e
+t ṛ p
+a u d
+r o p
+r   y
+r u p
+ā r ṣ
+g r ī
+a   ṛ
+ī   r
+ī v ā
+k ṛ p
+ṅ g u
+n ṛ t
+t k ṛ
+a u k
+  r e
+j ñ o
+l ā t
+ū m a
+ṭ h o
+ā h ṛ
+j a ś
+a c e
+i t ṝ
+ī   y
+c a d
+v ī k
+ṛ h ā
+  i h
+u k ṣ
+o y a
+l ā v
+ṣ a n
+s a g
+j y o
+ḥ   ṛ
+  ā c
+h ī p
+ṛ j a
+r ṇ e
+ś ā ḥ
+ñ ā  
+ṣ ī ṇ
+t k ā
+ā r j
+h o d
+o n a
+t   b
+ū r ā
+r d i
+t v i
+ā h y
+h u ṃ
+ṇ ā s
+t o y
+ū n a
+s ā ḥ
+j a h
+r u h
+s y e
+u l y
+a j r
+d ā k
+ū t e
+i   l
+i p ū
+ś ā c
+ā l ī
+i r j
+  u c
+t ī v
+d y o
+m   h
+ā r v
+j a v
+d   y
+p u l
+ū k ṣ
+a d g
+k ṣ ṇ
+ṇ a b
+p y ā
+t s y
+  b i
+c ā m
+t y o
+l ā b
+ś ṛ ṅ
+n e ṣ
+ṣ p ā
+r u ḍ
+ṃ b a
+p i ś
+e t t
+  ' a
+ḍ a m
+ś ā d
+ṇ a u
+ṣ ṭ y
+ī p t
+r ū r
+i ṃ s
+ś ī r
+u g h
+ā s v
+g a y
+s ī  
+t t u
+ā t k
+j ñ i
+o t s
+ū t r
+h i b
+ī j a
+r m e
+a u ṣ
+k ā s
+n e k
+d v e
+ī ḍ a
+a u v
+p a ṣ
+ā v ī
+ṃ p ā
+k e t
+o ' p
+ā s m
+ā c  
+a i d
+ī ḍ i
+ś u  
+ā p s
+y   ā
+g ī t
+m o d
+r u  
+a r  
+n i j
+ā ṭ a
+ṃ t r
+ī g h
+k e ṣ
+s k ṛ
+h e m
+n u m
+ṛ h e
+i j o
+r i g
+ṅ g i
+s a y
+d ā v
+v e g
+y a ṅ
+n i ṃ
+  ' y
+h o m
+i g u
+p a g
+e r a
+ś ā ś
+ś o '
+  t o
+e ś e
+g ī  
+h ṛ g
+ṛ h y
+u l e
+a ṃ ḍ
+a   ū
+m   ṛ
+a ḥ p
+ṅ g e
+h ā l
+k o p
+o g i
+ī h a
+n   i
+ṣ v ā
+i v o
+l ā m
+u p u
+ā s o
+l a ṅ
+p i n
+g u h
+ṭ a u
+r   i
+ū n  
+  k ū
+o d i
+n   u
+a h n
+e   i
+n a c
+u   h
+ā r ś
+k u n
+e c a
+a k y
+ā j e
+  a ṅ
+h u ś
+d i r
+i b a
+ī r e
+ṣ m ī
+  a l
+r i s
+d ā p
+t h ī
+t n ī
+c ā l
+n a h
+ṣ ā y
+s p h
+a k  
+ś ā  
+ṇ i t
+n n  
+k u ṭ
+ṭ i k
+e j ā
+ā g y
+o ḍ a
+i k u
+r ū y
+d d i
+u h u
+t u s
+o d d
+h u m
+m p a
+ā b r
+i ś o
+p a c
+r ā ṅ
+u g ā
+u ś  
+  ā n
+m p r
+ī r g
+r ś v
+d i d
+v e ṇ
+u s  
+b ī j
+ṣ ī  
+k a c
+r o c
+ṝ ṇ ā
+a ṣ a
+  d o
+  ṛ t
+k ā ñ
+g n a
+m o '
+i h i
+k l a
+a   ṣ
+e d y
+y e ṇ
+ā r h
+c i k
+ī l ā
+ṃ v ā
+a ṣ c
+k i r
+ś m a
+ā ṃ b
+u   a
+s u g
+k h ī
+a j i
+c a ṇ
+ṭ a p
+  ū r
+p t i
+ḍ h ā
+t i g
+ś ī g
+ā r ṇ
+c ā b
+n u ḥ
+h i ṇ
+ī r ṣ
+ṣ ā ḥ
+  h u
+i ḥ s
+j a k
+k i n
+s ī n
+ṇ ḍ u
+n d u
+r ī s
+ṣ o ḍ
+d   r
+r g e
+ī d a
+r t y
+ṣ ā r
+n   ś
+ñ a ḥ
+u g e
+ā h o
+t i h
+d d e
+u k u
+l a u
+ṛ h ṇ
+  j v
+o ṇ a
+ṛ ḍ h
+ṭ a y
+c ā k
+ā h e
+h ā j
+a g m
+ā m ī
+l a j
+ḍ a n
+t o d
+j ṣ ā
+j ā s
+d ṛ ḍ
+p ṛ c
+k y ā
+ś ā t
+o ' s
+a y ī
+h u b
+ṅ k u
+  h r
+r n ā
+u   l
+m ī ś
+ṃ p ū
+n u k
+e   u
+o t p
+s t o
+ñ o  
+s v e
+r y u
+ṣ i b
+ñ c h
+u l o
+ṃ ś u
+h ā h
+g a k
+j o t
+d ī y
+u ṣ e
+i ñ c
+l ā p
+ū t i
+y o p
+  t ū
+m a ṅ
+a g d
+k ī  
+u ṣ v
+y a ṣ
+s u ś
+t u k
+u d y
+t o ṣ
+ṛ b h
+y u m
+n   h
+ṃ ḍ a
+h o k
+k ā t
+m b u
+ā ś e
+ū d a
+ā j o
+u ḍ a
+ṃ g r
+n d e
+a j y
+e h i
+j a i
+ṭ y ā
+m   ī
+v ā ṅ
+ṃ n i
+u d u
+l e ś
+ā ś y
+ā ñ  
+ī d ṛ
+ī r i
+k ā ṣ
+y y ā
+ṛ t  
+ṭ a d
+ñ   ś
+c y u
+r v v
+m ū ḍ
+ṇ ā r
+ṭ ā ḥ
+y i n
+ā ṃ g
+e d v
+n ṛ ṇ
+r o v
+i y u
+v y o
+  s r
+ā ṇ o
+j a ṭ
+r u ḥ
+r n a
+p t o
+ā d o
+h u  
+n m u
+o d ā
+r d ū
+t s n
+c e ṣ
+a s ṛ
+ī   g
+a ḍ a
+ś e n
+l i ṃ
+ṅ k ṣ
+t i j
+t u b
+k ā v
+ṣ u d
+a j ī
+c e d
+  ṣ o
+ṣ e p
+e k h
+  i c
+c c ā
+e d e
+ṣ v  
+ṃ ś ā
+ṅ g h
+ṛ ś ā
+r j u
+a u c
+r o ṣ
+d   ā
+n o r
+i ṣ i
+a i m
+a u n
+t o t
+d ū l
+i l e
+m ā j
+c o d
+ā m r
+t e y
+k a y
+r ī n
+a h y
+ṃ k ṣ
+r   g
+t ṝ ṇ
+ū r i
+h ū d
+p t e
+ṛ t s
+ā r m
+s s a
+ī s a
+r ū ṣ
+e c i
+m i ṃ
+d a b
+o d b
+ṛ ṣ y
+e y o
+e ṣ e
+o ṣ ṭ
+t ū r
+k e c
+ñ c i
+e s a
+j v ā
+k r ū
+ū l ā
+ī d  
+t k ṣ
+ṣ i k
+ī ś ā
+r u c
+c a b
+ṃ g h
+u h i
+u h ū
+h a ṅ
+g r e
+t ī m
+j u n
+ṃ c i
+' s t
+m a ṣ
+m ṛ ṣ
+u ṣ m
+g m u
+ṃ ś e
+r ā l
+l p ā
+k ū ṭ
+n ī k
+ṇ v a
+p ṛ ś
+ā s k
+ī   j
+s k ā
+ṣ u ṣ
+d   i
+t ā ḍ
+y a l
+ī t o
+ḍ a y
+n ī n
+ī n i
+ñ ā ṃ
+p ā ṭ
+y o '
+r ū h
+ṭ ā v
+e g h
+  i ṣ
+ī c a
+ṇ y e
+ū h i
+ā h ū
+c ā  
+h y u
+j e  
+ñ ā y
+r ī y
+ṣ u r
+t ā ñ
+m e g
+ṇ ī ṃ
+ā c y
+m e r
+o ṣ ā
+a c o
+  g ī
+s y o
+u r t
+i   e
+ś o d
+ṇ e ś
+r ṇ o
+t   e
+ā ṇ ī
+r i c
+r ū ḍ
+p l a
+u s u
+s e t
+ā p ī
+u d b
+u m i
+e h ā
+i h v
+m y  
+ṇ ā b
+ṣ ṇ e
+y ī  
+a ś m
+ṃ d r
+ḍ a k
+ś i ś
+a u ś
+a h ū
+h o ṣ
+ṭ ā d
+n   e
+p e n
+u ś ā
+u ś i
+i s ṛ
+r ṇ y
+ṛ p t
+ṇ u ṃ
+ṣ c a
+ā p o
+d   g
+d i g
+l a r
+m ī p
+o g e
+k h o
+r h i
+m u m
+t e r
+d ū t
+m ī k
+p ā g
+ā n k
+o v a
+ṃ h ā
+v e k
+l i p
+s a c
+ś ā m
+h i g
+h ā c
+o ś a
+ṣ i  
+ā   ṛ
+ā p ū
+a y y
+k ṣ v
+ṇ o t
+n u s
+a u p
+l o h
+n o p
+ḍ a p
+t ṛ b
+u v e
+s ū y
+j i n
+' s a
+ḍ h y
+u p t
+u d i
+i ṣ p
+r l a
+ś ū n
+u ñ c
+  a i
+d ā b
+ā k ī
+r ī d
+r o r
+ṣ k ṛ
+u ṅ k
+ṇ ā v
+r m o
+u l i
+r e n
+a n ū
+l e ṣ
+ṇ i p
+r d e
+ṭ i s
+t e t
+y y a
+u h ā
+t ā g
+e n n
+h e y
+s ā p
+ṣ i r
+l ā g
+d a l
+ī ḍ ā
+j ā l
+m r a
+ṇ o r
+ṇ u m
+k t r
+l o m
+p a b
+ś y e
+r n i
+e t s
+r ā ṭ
+r y y
+s u h
+m u r
+u h ṛ
+r v o
+ā p e
+g ā v
+i   i
+a j o
+ā ṣ i
+ṇ ī y
+h a ḍ
+i p t
+t   g
+u ṃ s
+r a ṅ
+e n e
+e ś o
+ṃ v i
+  ś l
+a ḍ g
+ā n ṛ
+e d d
+v ī d
+k i t
+i s ā
+m n a
+i ṃ d
+r v ṛ
+ṭ r ā
+a j ṣ
+n o d
+i   ā
+m i v
+b r u
+c y ā
+u r n
+v ā ñ
+d e y
+t e b
+u d v
+o t u
+h i j
+' n y
+g o v
+j r a
+n ā c
+ā n b
+c a c
+e t p
+  y ū
+r b a
+m y e
+h u d
+ṃ t ā
+n u  
+a ś ū
+e n o
+r e ḥ
+ś e t
+ṇ ḍ ī
+r v ī
+i ṇ y
+j j ā
+ū y ā
+a u b
+m o c
+e r  
+ṇ u ḥ
+p i l
+a d ū
+y i  
+ṃ t u
+n p r
+o s t
+ṭ i ṃ
+p o ṣ
+p ā ñ
+r u ṃ
+ṛ g u
+y ā l
+m ū t
+a ṃ r
+a j v
+a k ū
+g a g
+k a b
+p i b
+ṭ ā s
+d   e
+t   i
+c i m
+d h n
+k ā ṅ
+ṛ ṇ v
+t o r
+c i ḥ
+t   ā
+ī p u
+ṭ i r
+  l ā
+r ī ṣ
+ṣ ā s
+n e h
+ā j j
+i g ṛ
+r i j
+s i k
+n u b
+r c i
+a ḥ k
+m i ś
+a b u
+v ī m
+ī t e
+a u g
+  h o
+a p ṛ
+ṛ ṇ a
+i ḥ ś
+t u v
+u d ī
+n i l
+t t o
+v a ṣ
+p a ṅ
+t n ā
+u p ū
+j i h
+t ṛ ṇ
+r p i
+c ā g
+ṃ y a
+ī   a
+p i p
+a ś n
+n a j
+  ś y
+ī r o
+ṇ ī m
+o h ā
+r u ś
+u ṇ o
+y e c
+m ī r
+i b o
+l m a
+n ū n
+e r u
+u m n
+k u ṃ
+ṛ d h
+o p e
+d ī k
+i m o
+ñ a y
+o g ī
+e ś i
+t s ṛ
+  s k
+u r l
+s ū d
+ī y e
+j a d
+o g y
+t a ṅ
+h ū l
+c i c
+ṃ g ā
+r ī c
+ū l e
+m u ṣ
+y e y
+c ā h
+g a b
+r   e
+h u l
+n e y
+r a ñ
+y o ṣ
+l e p
+u d g
+e m ā
+g n e
+ṛ d i
+t u ś
+ṭ y a
+u ṣ u
+  a c
+ḥ   o
+l i ḥ
+u n t
+i k t
+p o d
+ṭ a n
+' p y
+g ā ṇ
+p h u
+s y u
+ā v o
+c ā v
+h v ī
+ā ḍ a
+e k o
+k u k
+  a ṃ
+ū ṇ ā
+u r i
+t e p
+t o m
+d i s
+o t a
+r ū ṇ
+n ī ṣ
+ś a g
+g ā ś
+r e r
+y u j
+ā h v
+ḍ a r
+ṣ a u
+a l u
+r   j
+s ū n
+ā ṣ ā
+r ś i
+e ṣ y
+m i m
+ś u p
+i ṇ o
+ṃ v ṛ
+ṇ i m
+u v r
+v   i
+a s s
+a u j
+ḍ a s
+o ' b
+ī d h
+ī v r
+t ā h
+a ḥ ś
+a n ṛ
+l a h
+ṃ m a
+ā k i
+h ṛ ṇ
+m i c
+a s n
+h ī ṃ
+k t u
+ṭ u ṃ
+j a ṅ
+ī   h
+h u ṣ
+ṛ j y
+d   u
+s t ū
+  b ī
+ś u r
+ṃ s k
+ṛ g ā
+ī n d
+ū t o
+ṇ e ṣ
+p a j
+u j ñ
+  h ī
+o c c
+ā ṃ k
+n e ś
+ṇ u ṣ
+ṣ o t
+a ṭ e
+p s y
+u k ṛ
+j ṣ a
+ā ś o
+a ṃ ṣ
+b ā d
+b i b
+n v ā
+u h a
+ñ a ṃ
+ñ a s
+h r i
+n n o
+y o m
+t k u
+ṃ   a
+r ī g
+t a h
+v ā '
+g o m
+ā b d
+ḍ ā n
+n y u
+t t r
+m   l
+ś a c
+d u d
+h o p
+o ' t
+p ū t
+ṭ e n
+ā   ū
+l ī l
+y e k
+s u ṣ
+ṇ u n
+t i y
+  d y
+t e ś
+ṃ ṣ ṭ
+v y e
+ī y o
+r v y
+ś i  
+t e s
+ṇ i r
+u y u
+k ā ṇ
+ś u m
+l i l
+n ī ś
+ṭ a t
+ḍ y a
+  u m
+a c y
+ṅ g o
+s o '
+ṭ a ś
+l o b
+u m y
+d e t
+ś c e
+u ṭ a
+ū ṭ a
+  u b
+ñ ā p
+y a ñ
+ṭ a  
+ū k a
+d u k
+ī d e
+e g a
+p o t
+o ṇ i
+ṅ g ī
+o r v
+m i ṇ
+ṇ ā k
+ṭ a i
+ṭ i ś
+  k l
+r i n
+  p l
+r   h
+ā h n
+c a ś
+h l ā
+t e '
+u p o
+u b a
+v a ṅ
+j   j
+h ī ḥ
+ṇ ā p
+i y e
+o d y
+s ṛ t
+c h u
+t ā ṅ
+t s v
+o n y
+u ś o
+k i ñ
+m i r
+v o d
+v v a
+u ś u
+ī k e
+ṇ a r
+s ā ś
+  ' r
+ṃ k ṛ
+o r d
+a ṭ ṭ
+c o  
+d y e
+a ṭ i
+ū n y
+j ā g
+y ū t
+  ' v
+n u ṃ
+ṭ ā ṃ
+i ṃ c
+r u s
+u ṅ g
+ū ṣ ā
+k l e
+o p i
+ś v i
+t a ṭ
+t s t
+ṃ   ṣ
+i s u
+ṇ o ḥ
+' t i
+s ā s
+n ā l
+p ī  
+ū h a
+a ś ṛ
+s o p
+j ā ś
+s a j
+g ā s
+n n e
+g o d
+u s ū
+ā j ṣ
+ṭ a b
+ī ṇ a
+ū t  
+h i y
+h n ā
+' b r
+' p a
+h o ḥ
+r o ś
+g h y
+ṅ k i
+r e m
+k a j
+ṃ s y
+t ṛ ṣ
+i ṣ v
+k ā p
+ṅ k ṛ
+t h ū
+k ā b
+k u s
+ā g o
+ī p e
+h r ī
+n ā ñ
+  r i
+  n ū
+a   ī
+n b h
+a l m
+k e y
+v o p
+u ṣ i
+ā c e
+ṃ t e
+o t k
+c c i
+m p ū
+ṛ ś e
+l ā r
+t o p
+ū y o
+i k y
+ś o ṇ
+u r j
+' n u
+r g u
+u m o
+d i p
+ī g a
+n o h
+n u ś
+ī ṣ u
+ṇ y  
+ī ṣ i
+d e ṣ
+ṇ ā g
+u k m
+d ī ś
+o c i
+s n a
+ṅ m u
+  v o
+k ṛ c
+ṛ ṇ o
+t   r
+ṃ k r
+j ā r
+ḍ a d
+ṇ a g
+ṛ k  
+s t ṛ
+b i k
+p i ṣ
+ū r c
+y ū y
+h a ñ
+p u m
+ā ṃ p
+ḥ p r
+t ṝ n
+u s ā
+j ā d
+m i h
+y u s
+i v r
+i p e
+l o d
+' t r
+a g e
+ṣ i s
+ā g u
+l p e
+n d ī
+a p s
+r ā ñ
+  j u
+ā ṅ m
+e ś y
+c ā ṃ
+l   l
+t ī h
+a u h
+ṃ ś r
+' n a
+m r ā
+a y ū
+l e k
+o   a
+t   j
+g n ā
+ñ a  
+o d v
+c o t
+ṣ ā ś
+t u p
+y o v
+i ṃ g
+u l ī
+ṇ ḍ o
+e s t
+b ā n
+s u ṃ
+b a k
+t u d
+u ṇ e
+o j y
+ṣ ī k
+i   ṣ
+p u ṭ
+ū r u
+e j o
+ṃ n a
+ṅ k t
+ṣ i ḥ
+  l e
+' s i
+r u g
+ṣ o b
+m ā ṣ
+v ṛ ṇ
+p u ṅ
+t ā c
+ā ṭ h
+d d v
+k a ṣ
+s n e
+k ṛ ś
+o n ā
+e n m
+g h u
+p l u
+ṃ r a
+o ' y
+e h e
+h r e
+ṇ u p
+ṣ e v
+ṇ u d
+ṛ ṣ ā
+ḍ g a
+k u b
+r o '
+d u t
+e t o
+k ṛ d
+d u p
+r m m
+d g u
+ḍ i k
+c h ṛ
+h e r
+r u n
+t p h
+  a u
+g b h
+p ī ṭ
+' s y
+ś u ṣ
+e d b
+n t h
+o m u
+b i n
+' v a
+c ā y
+g o t
+ṭ h y
+n   j
+g e ṣ
+i h ī
+ṭ u m
+d ū ṣ
+t t y
+ṣ a j
+b d ā
+e   ṣ
+v a ñ
+h u ñ
+ś o c
+s r e
+y u n
+ī ṭ h
+t i c
+ṣ ṇ ī
+g u p
+ś c o
+e n u
+u ḥ s
+  ' g
+h u p
+ū r m
+m u ñ
+ā ' p
+o ṣ y
+j i g
+n u d
+b a ṃ
+d b r
+k ū l
+u j y
+u v u
+' n t
+t o b
+i g d
+t ī p
+v   e
+d m ā
+e ṇ u
+k ū r
+l ī n
+t e k
+  n u
+k e v
+r j ā
+  l ī
+l u t
+u ṇ i
+ā d g
+ś u n
+ṭ ā t
+u t k
+ṇ u y
+y e ś
+ṇ u s
+u ṇ ṭ
+r d v
+i r h
+l i r
+h ā ṅ
+h e c
+o   t
+ṣ ṇ i
+a ṇ m
+n d o
+t o v
+d ṛ k
+s a ñ
+v i y
+ś i p
+v o t
+ñ   j
+j o v
+m b ū
+r e b
+ṛ t u
+v ṛ n
+d r ū
+s ā b
+d u h
+ā ṭ  
+j ā v
+s   c
+ḥ   ī
+a l k
+l o p
+ṃ k u
+n ī h
+ṣ e m
+u ṃ d
+v   ā
+y ā '
+d ā g
+ś i b
+ṇ u t
+a ṭ  
+m ī t
+i t s
+ñ i t
+s u ḥ
+u t ī
+y u ś
+i s v
+ṇ ī t
+o g r
+p s i
+u ṃ b
+ṇ a c
+n u n
+ṛ d ā
+r u b
+a u ṇ
+d i m
+k   p
+r t e
+o d e
+m u ṇ
+ṣ a g
+h ṛ k
+a i p
+ī ś i
+l ā l
+p y e
+ā g i
+ḥ p u
+ū t h
+l l o
+o l a
+o ś c
+l ī k
+c i ṃ
+i l ī
+n o ḥ
+ū p o
+ā c ī
+ṛ p o
+ā ṃ c
+a u l
+n ā j
+a ḍ ā
+l ī y
+p u ḥ
+r e d
+ū ḥ  
+g u ṣ
+k ū p
+a g ī
+ṇ o d
+r p ā
+y ū r
+i p y
+k ā c
+ṇ o p
+u ḥ ś
+  u r
+ḍ ā l
+l a c
+y u ṃ
+ṃ t y
+i s r
+ḥ ś a
+o   s
+t t ī
+l i ṣ
+t e v
+  ' m
+  ā l
+e y u
+ṛ ś ī
+u ṣ ṇ
+u t y
+p h ā
+r k ṣ
+t p i
+g y ā
+d a ṅ
+a j u
+l p i
+ī r u
+ñ i r
+c a g
+k o d
+n e v
+ṇ i b
+a ñ  
+i ṣ ī
+ṇ a j
+ñ a v
+r ṣ ī
+h a h
+v e v
+c ū r
+a c ī
+h u ṅ
+ū v u
+ī r  
+s v ī
+m i s
+u ṃ g
+c e n
+i ś ū
+o a d
+ṛ ś o
+ṣ v e
+ṭ h ī
+  u ṣ
+a p n
+k o n
+o   p
+o c y
+o r m
+u p e
+ā r p
+ṇ ṭ a
+ā s s
+ḍ ā  
+e ' p
+t   u
+  ā m
+  u g
+g ṛ d
+ī ṇ i
+c o p
+d a j
+r c c
+r o b
+t p ū
+e   ṛ
+g e ṇ
+n e d
+o p y
+ṭ ā ś
+a g i
+g h e
+h o '
+i h o
+r t ṛ
+ḥ s v
+n i c
+o r u
+u y a
+  ā b
+m a ñ
+ḥ   ū
+m m a
+ṛ n d
+v ī b
+v y ū
+ṣ u v
+  i y
+h n e
+c a u
+d u s
+p ā m
+ṭ i b
+a u s
+e p ā
+v i ṇ
+ū m ā
+m ā ṅ
+ṃ y o
+v i ḥ
+k ā g
+k o ś
+l ā h
+u k i
+j u h
+s r o
+m e y
+g ī r
+u   ā
+ā v u
+r i l
+d ī ṃ
+i j i
+ī p s
+c u k
+ñ a i
+ś v o
+k u p
+o ' n
+o j ā
+y o s
+d ṛ t
+c ā ṣ
+ḥ ś r
+ṇ u ś
+ś c h
+o   k
+u k e
+c i ṣ
+' g n
+l o t
+ṣ ā l
+ṭ ā y
+ā ḍ i
+i   u
+a h l
+c o r
+h r ū
+u c ā
+e t k
+m i p
+s u c
+t   c
+p t v
+e ṣ i
+v u ḥ
+u p i
+ṣ e k
+ś m i
+ś u ḥ
+ī j ā
+b u j
+l g u
+ṣ ā k
+y ā ñ
+i d ṛ
+p i ṅ
+ṣ e ṣ
+m   ū
+n d y
+ś ā ṅ
+d u n
+ṭ i ḥ
+ṛ t r
+s ī ṃ
+ṭ ṭ a
+h ṇ ā
+c u r
+v e y
+y ā ṅ
+ī m u
+p e d
+r c y
+a c ū
+ṃ h ṛ
+ṝ n  
+ṭ ā k
+  ṛ k
+g u ḍ
+m u v
+ṇ a h
+i d ū
+k l i
+k v ā
+ś r ṛ
+ḍ i n
+o g h
+ṇ i ḥ
+ā v r
+h ā '
+i p ī
+d u b
+l v a
+o ṭ a
+v a ṭ
+ī m i
+l ā ṭ
+n p a
+o ' h
+ā ' t
+d ā j
+j ā b
+k a g
+g a h
+h ī k
+ī p r
+m b i
+n e m
+r ī ṭ
+ṛ ś u
+e ṃ d
+l ā ṅ
+ṃ b u
+o k o
+p e ṣ
+u r ṇ
+ṃ ś i
+ṃ s p
+ā g ī
+t ṛ k
+e p r
+ī n o
+ś ī ṃ
+t   h
+ū l i
+b u b
+ḍ h o
+r b r
+t u n
+e ṣ o
+i r ṛ
+k u ñ
+n ī v
+ṣ u b
+ā   ṣ
+l i ś
+g e ś
+m u ḥ
+ṇ ī ṣ
+n u l
+t ū n
+t n y
+e ' t
+r l o
+g u n
+ṇ ā j
+ś l o
+n n ṛ
+ā ḥ s
+ī   l
+ī t h
+ñ a p
+y ū h
+h e ṇ
+j u ṣ
+m ī ṃ
+n e r
+t a ñ
+ḍ o  
+ī h i
+ñ j ī
+n ī r
+ṭ a c
+v u r
+o m i
+r d r
+g r y
+n ā ḍ
+n k ā
+o ṣ ṇ
+r o ḥ
+t a ṇ
+ḍ a  
+d d ā
+r i h
+r ś ā
+ś ā v
+t a ḍ
+ū ṃ  
+d r ī
+ī l i
+ṭ i m
+  i k
+ā p h
+ī s u
+ī ṭ a
+n   ṛ
+n t v
+y u y
+d b a
+h ṇ a
+ū c a
+d a ṣ
+d v ṛ
+k o ṇ
+ṛ k a
+ṭ a r
+ā k  
+e p s
+ṃ c ā
+ṣ ā v
+u ś ī
+e n  
+ś ā b
+t ṛ v
+k l ā
+ṃ s m
+ṣ u ḥ
+a ṣ ā
+e n i
+n a ṅ
+g e h
+ṛ d u
+t h v
+ī ṣ ṭ
+o t  
+ā h l
+i c e
+ṇ i ṃ
+ā ' s
+e d u
+ṇ ā c
+t n e
+v ī y
+a t ṛ
+r u j
+ṣ u t
+b i l
+i t k
+d u g
+g o c
+o ṣ e
+r g o
+y e h
+o ṭ y
+s ā c
+t o n
+ś ī v
+t ū y
+v o r
+ā m ū
+ḍ a ḥ
+i b u
+ṃ j ā
+ā ṃ ḍ
+i b i
+ñ j ā
+' d y
+j ī r
+k ṛ m
+a b i
+ī c i
+ṭ i n
+t m i
+ū b h
+a n p
+n m e
+ṇ y o
+u n m
+p ā h
+ṣ y o
+n m ū
+u k o
+c ī  
+ī v e
+ṣ k r
+ī ḍ y
+j a u
+u ṣ ī
+ī s k
+k a ṅ
+ṃ s o
+m u s
+ṣ ā ḍ
+u t u
+y o k
+' ṣ ṭ
+h i h
+i l i
+u m e
+  j ṣ
+i j e
+u l l
+v e c
+a h v
+i p i
+i ś ī
+ā ṃ l
+  ' ś
+  ī d
+ā l u
+a n s
+j a b
+p e k
+r ṣ ṇ
+a u ṃ
+k o v
+l e c
+r ṛ t
+ī l o
+r b u
+r ū n
+g ā k
+ṇ ā ñ
+r ṅ g
+t e d
+ū n i
+ū r o
+c ī r
+ñ ā s
+ḍ ā g
+d v y
+p i k
+  e n
+ā j ī
+ā r ṅ
+ṃ s e
+m o a
+n d v
+u ṃ ḍ
+h o v
+i t p
+n u c
+i n m
+i s p
+o t y
+p i v
+i ṅ k
+ī t ī
+p ā ṣ
+a ḍ v
+k a h
+ṣ ī n
+ṭ a l
+u   e
+ā ṇ u
+ḍ ī  
+ṇ u b
+ṣ a l
+s ā ṅ
+u ṭ i
+h u y
+n e ḥ
+ṇ ṭ ā
+ṭ ā b
+u j e
+l l i
+  a ṇ
+a ṭ k
+t ī ś
+v e p
+k ī d
+u n n
+d u ś
+e r i
+i g ī
+e d o
+ṃ d i
+t k r
+m o p
+ṇ i s
+y o ś
+h i c
+ñ a k
+v ā ṣ
+o n m
+v ī n
+e p u
+ḍ r a
+l e b
+ā y ī
+ṃ s u
+ṇ ḍ r
+ā h ī
+ḍ a t
+ś ī k
+ū d v
+ā k e
+p y u
+ṣ p r
+s r y
+t ṛ d
+ā ' '
+ṭ u v
+ā k o
+ā m p
+m i b
+ṭ ā r
+a b ī
+d e k
+k u ṣ
+ṃ g u
+j j ñ
+p ī n
+s ī m
+ś n a
+ṭ i p
+g i ṇ
+ṇ e b
+t ā '
+t v o
+u   ṣ
+e ś m
+ḥ p a
+ī p y
+o y ā
+a h r
+b j a
+e r ā
+g o k
+ṭ o t
+y e '
+e m e
+ṣ k ā
+i ṣ o
+ī ś u
+r h ā
+ś e k
+ā ṃ d
+c ū ḍ
+p e y
+ś n u
+ś o ṣ
+u g d
+n o j
+  ' k
+ī s t
+ī ṣ v
+s e d
+t ī s
+i r l
+h ṇ ī
+i m ṛ
+i m ū
+u v ṛ
+a ś ś
+n ū m
+ṛ d e
+a g  
+i d o
+u   i
+l k a
+n a ñ
+j ī t
+o m e
+  ś m
+e m i
+ṭ i l
+ū r e
+v e r
+b ā ṣ
+j i r
+j j v
+k   s
+ṣ p i
+ū ṣ ṇ
+a ṭ o
+d ā l
+c ī n
+n ā ṅ
+ś u ṃ
+ū r j
+ḥ k a
+ḥ s ṛ
+l o l
+n ṛ ś
+ṣ ī ṃ
+a i b
+a l g
+d m e
+m ī n
+ṇ i v
+o l ā
+a ṭ ī
+j ā h
+h m e
+ī ṃ ś
+ṃ l  
+n p u
+p i s
+g ā h
+i ṣ m
+ṃ d e
+y u b
+ś a j
+u b d
+a m m
+ī v o
+ḍ a i
+d o d
+l i m
+ṇ e t
+ṣ ā b
+v   u
+m o t
+d ā ṅ
+k y e
+r ā ḍ
+g ā b
+m l e
+e k e
+o r e
+ṛ k ā
+ā ' n
+k ī ṃ
+n v e
+y e m
+y i k
+a r n
+c ā ṇ
+n   c
+ñ ā ḥ
+ā j  
+b d e
+ṭ ī  
+u k ī
+v r ā
+ā l l
+e h ī
+ī k h
+  c ū
+k o '
+b a v
+g ī y
+m b ā
+n o '
+o ḍ h
+ṣ ā p
+e y e
+g o ṣ
+h ī ś
+h ū b
+ī b r
+i l v
+a   o
+ā l m
+k ī ṭ
+ṭ e ṣ
+ḥ ś ā
+' s u
+ṃ ṣ i
+u ḍ e
+i p o
+ṭ i v
+a k n
+d i h
+g ā l
+ṣ c ā
+t e m
+ū k t
+e l ā
+h e ḥ
+m b o
+m o n
+e g ā
+v o k
+ā d m
+o g o
+a i h
+a ṇ ṇ
+g m a
+j ā k
+ṇ ā h
+e ś ī
+g v i
+ṣ i ṃ
+u r h
+ā n g
+ḥ s t
+o v ṛ
+r ū t
+s u l
+v y u
+  c u
+m o g
+v u b
+  c y
+j i ṣ
+ś ś a
+ū p ī
+a k p
+ṃ t o
+v e l
+v ī ṇ
+a k v
+e ṃ  
+i s ū
+v r ī
+  p e
+a g v
+ā ṣ y
+o t ā
+ṛ m i
+c ā c
+i l y
+n o v
+s n i
+t ā j
+ḍ e n
+ḍ u r
+k i ṅ
+  b o
+o m o
+h ī b
+t r ū
+ā s p
+ā t ṝ
+i ṇ i
+m u l
+s y  
+ḍ ā ṃ
+p ā c
+u v ī
+ī c y
+ṇ i g
+o b a
+c a j
+ḥ s ā
+r b ā
+ṭ ā m
+h o c
+m   o
+ū t t
+y ī ṃ
+ā ' b
+c i v
+d g ā
+d u m
+ṣ i d
+u b ā
+e r ī
+ī   e
+ī r ū
+o ṭ ī
+r c ā
+s ā l
+u y o
+y u ñ
+  j e
+  u n
+b e r
+e ' s
+p ṛ h
+v ī j
+y o b
+  ṛ c
+ā s ṛ
+i ṃ t
+t ṛ g
+h ū ḥ
+ṣ m y
+l ī ṃ
+r d u
+e d r
+ī c c
+ṣ e y
+ś ī m
+ś l e
+t ṛ s
+ū   r
+ṃ c h
+l u  
+n ṛ s
+o ṇ ā
+h ā ñ
+r t r
+u j j
+u ṭ ā
+c e  
+n ī c
+n k a
+ṛ s i
+h ī d
+ṇ ḍ ū
+ñ j i
+t ū ṣ
+  u l
+r d ā
+ṛ ṣ e
+ṭ r o
+a ṭ u
+i g ā
+ṃ ḍ i
+o s  
+t ī c
+a ṃ l
+e r v
+j e d
+ñ a ś
+ṣ m e
+o r b
+ṛ ṇ ī
+y e b
+c ā ṅ
+u k ū
+e p i
+ḥ s u
+l l ā
+p ī y
+ṣ i g
+ṭ u k
+y ū n
+e h o
+ṭ a h
+u v o
+ā ṣ p
+g n ī
+i   ṛ
+s ū c
+k e s
+t s i
+k   t
+l ū k
+ṇ ī n
+r ī h
+a k l
+m ā ñ
+i m b
+p u s
+ś a h
+b i ṣ
+ī   u
+n ṛ ṣ
+o y e
+r d ṛ
+ū m r
+u n o
+  g e
+i j y
+ṇ a l
+ṣ e d
+  c ī
+  m l
+  p o
+e g e
+i b ā
+k ṛ n
+n v ī
+s o d
+u g u
+ā d ū
+ḍ b h
+n ī p
+ś u s
+ū v ā
+d y ū
+ṃ b i
+i k i
+i p l
+l ā j
+ṇ e y
+d i l
+o t h
+a ṃ ṭ
+l ī m
+g ā ṅ
+k m i
+p i d
+ṣ ṇ y
+s u y
+u g ṛ
+h o b
+i l b
+o ṣ o
+r c h
+ṛ g o
+' ś v
+d ī c
+g n y
+i p ṛ
+j h a
+k a ñ
+l y o
+m   ṣ
+o   ś
+j a ḍ
+ṇ m a
+o j i
+ś l a
+  ś c
+c a ṣ
+l b i
+m i ḥ
+n o b
+ś ā h
+a m r
+ī ś c
+ṃ   ā
+ī m ū
+v i ḍ
+ā p ṛ
+e ' n
+e ś c
+i l p
+ṇ ī k
+ṛ ñ j
+ṣ e c
+d ṛ g
+' ṅ g
+ḍ i l
+d ī m
+g o b
+j ṣ e
+p s u
+u ṇ ī
+g ā c
+ī   ā
+l ā c
+l ī p
+ṇ v ā
+p l ā
+u   u
+v o '
+h n u
+i c y
+k i ṇ
+g o r
+i p h
+ṛ g v
+ṭ a g
+  o ṣ
+ā   o
+g e y
+ī y u
+l u b
+ṇ u l
+o b r
+r ṛ ṇ
+u s v
+b a t
+d d ṛ
+n ā '
+o j j
+u d ṛ
+u p y
+a i g
+d g ṛ
+ḍ i m
+g ī ṣ
+ī m e
+ṃ m i
+ṃ n ā
+p o h
+ṛ v a
+u b e
+c i s
+h ṛ ṅ
+i h e
+n o n
+k i k
+k o ṣ
+r e p
+s i s
+t o ḥ
+ā n h
+c h ū
+ḥ ś v
+ṭ r e
+  c c
+  l u
+a n k
+ḍ h e
+e r o
+s ṛ k
+ṭ ṭ i
+g ū ḍ
+k e ṇ
+k o l
+m ī m
+ṇ u v
+t k i
+ā g ṛ
+ā y y
+j e ṣ
+l k ā
+ṃ n y
+ṅ m a
+r ī l
+ā k t
+h e k
+o ṅ k
+r   l
+u ś e
+ī m o
+r o n
+ṣ a h
+ā g  
+ḍ ī v
+ī g ā
+j r ā
+j u ḥ
+o k i
+t u y
+y e p
+' m a
+ā g b
+ā ṃ v
+e t h
+ī d v
+r k ā
+ṣ a ṅ
+v ā ṭ
+ḍ h u
+i d b
+i d ī
+m p ā
+ṃ p u
+a u ñ
+e d ī
+n m o
+ṣ i m
+ṇ o '
+o ś  
+ṣ ṇ v
+a b o
+ā ṃ j
+ḍ ā s
+j a ñ
+ṃ g e
+ṅ k e
+' a s
+ḍ a ṅ
+e s u
+h e p
+k o k
+ṇ ḍ y
+n s u
+u ṃ k
+ḍ u p
+e l a
+ṇ i j
+ṣ u p
+ṇ ā ṅ
+ṭ i g
+h u ṭ
+r ṣ o
+e p e
+i m n
+k m a
+ṇ ṇ a
+t   l
+ā p l
+ā ṭ y
+d d u
+ḍ ā d
+ḍ v i
+i s s
+ṃ k ī
+ṣ i c
+e m u
+ū ṃ ṣ
+v e b
+ā l p
+i j ṣ
+ī ś o
+h ā ṭ
+k h u
+n d ṛ
+r e s
+r n ṛ
+ṣ ā c
+s m ī
+t p ṛ
+ū d  
+ā s ū
+e y ī
+ṃ t ī
+o h e
+r ṇ ī
+ṣ i v
+t ī ḥ
+u l m
+ā b j
+d b u
+ī   i
+i ṃ k
+ṣ u s
+u t ū
+i g n
+l u k
+m o v
+o ṇ e
+r j y
+t ṛ m
+ṛ k o
+ṣ e r
+ṣ o p
+y ū p
+ī ḍ h
+n m ṛ
+p ā b
+p p a
+g ā ḍ
+k e k
+o ṃ k
+o s a
+s r u
+u ḍ ā
+a ḍ b
+b ū n
+ṃ ṭ h
+m u ṃ
+ṇ ā l
+ṛ j e
+ī p i
+u b j
+d a c
+k ā h
+p o v
+t y ū
+ū m e
+c o k
+e h y
+l ī b
+n h a
+ṣ ī y
+n o m
+  m ī
+p ū ṣ
+ṛ s a
+ṭ i  
+u g m
+a j  
+g ī ś
+j e ś
+k t ī
+ṃ ḍ ā
+s o t
+t ū h
+ā n r
+ī ṃ s
+l y e
+ṃ b ā
+s ṛ ñ
+  ' ṣ
+ā ḍ y
+a ṅ m
+ś y o
+ā   ī
+ā ṃ n
+k   k
+k u v
+p i m
+ṭ a j
+ā b u
+ā ḥ p
+ā k ū
+ī r v
+m ī v
+d o h
+k y o
+r m y
+u j o
+o t ī
+ṭ k ā
+v e h
+  ṛ g
+ī k u
+i ṣ ū
+ṃ m ā
+o r n
+s n u
+t u ṅ
+a i ṃ
+h ī c
+ḥ ṣ a
+ī k o
+i k ū
+r g ṛ
+t s e
+v ī c
+ḥ ś e
+i ṭ a
+j i j
+ś o t
+t e c
+ī h ā
+p o p
+p t u
+h n ī
+i r ṇ
+m ī ḍ
+ñ a m
+u l k
+a t ū
+l e y
+l i y
+p i r
+r t o
+u c e
+o d g
+o m ū
+r e c
+t o a
+d ī t
+h ū ṃ
+n   l
+n ī b
+r ī ḥ
+ṛ n m
+h o n
+h r o
+h u g
+l p o
+ṃ d u
+m ī d
+ā ś m
+ḍ ā k
+i ḥ k
+g i t
+ṇ i d
+n o k
+p n a
+' v y
+ā ṣ e
+a ś l
+ṛ d b
+t s o
+  g ū
+g ī ṃ
+g r o
+t o h
+ā ś n
+i m ī
+u m ū
+h e s
+i ḍ a
+p i c
+c ī k
+k i ḥ
+ṃ j ī
+ñ ā m
+' k h
+g v a
+ḥ k ā
+ṃ g ṛ
+ṇ u k
+ḍ ā r
+h ā ḍ
+v v ā
+' k ṣ
+ā ṭ i
+l m ī
+m i y
+ṃ p l
+m ṛ ś
+o c u
+o r y
+' a p
+a p l
+ā ṭ e
+a ṭ s
+h ū  
+ī d ā
+j ñ ī
+ṇ a ñ
+ś l ā
+ṭ   s
+ṭ v a
+ū p y
+v o c
+ā c o
+ḍ ā y
+ḍ u n
+n b a
+r j ñ
+' t ī
+b ū l
+e ṇ o
+l i s
+p i ḥ
+a ḍ i
+a ṇ v
+r k h
+ṛ t p
+d ā '
+ī n m
+o l o
+p e ś
+ṛ ṃ h
+r t ī
+a i ḍ
+a n b
+ā s n
+e r d
+m m ā
+u ṭ u
+ā h ṇ
+d o r
+m i l
+ś ṛ ṃ
+a k s
+e ṇ e
+i h n
+j ī m
+j j ī
+m e j
+t u ṇ
+ā l g
+h n o
+m ī l
+ṛ g y
+s e ṣ
+ṭ o m
+ṛ d v
+ṭ ā ṅ
+v i ṭ
+ḍ ā ś
+l ā ñ
+m ū c
+ū ṣ m
+v a ḍ
+ḍ a j
+ū r k
+  h ū
+c i h
+j ī  
+l ā ṣ
+ñ a b
+ṛ d y
+b ṛ ṃ
+ḍ u l
+t k o
+t o s
+ū k ā
+ū l o
+ā ḥ k
+ḥ k ṣ
+o a b
+o r j
+r e '
+ś ī n
+ū n u
+y ā ṣ
+y ū ṣ
+  a ñ
+ḍ ā m
+ṛ ṃ g
+g h ū
+ṃ d ā
+o n n
+s m y
+ū t y
+d u v
+e r y
+h e b
+i ṃ n
+ī t t
+l e v
+m n o
+r ū k
+e c ā
+g u d
+i k p
+ṃ l l
+m ū ṣ
+ṛ d  
+v ī s
+ā   '
+ā ' h
+a ṭ p
+b i ṃ
+ī n e
+n e c
+ṇ m ā
+n t ū
+u ṭ ī
+' n v
+c u s
+i p p
+k o t
+r t m
+r ū ṃ
+ś e ś
+ṣ v i
+ṭ ā p
+u ḥ ṣ
+  ā ṣ
+k e d
+o p ī
+r d ī
+b d o
+d b ā
+d ī v
+ṃ b ū
+ṃ ḍ e
+n s v
+s s u
+h a ṣ
+i ḥ p
+ṃ   ṭ
+ṃ h o
+n ū p
+r e j
+a ṣ i
+d ṛ c
+ī ṣ ā
+ī t u
+n b r
+ṅ g y
+o j ñ
+p ā ṅ
+r p ū
+ś l i
+ū y i
+ṇ i ś
+g ā p
+m ī ḥ
+ṃ v ī
+ṣ ā g
+t s ū
+ā ḍ ī
+g v ā
+p h e
+r ā '
+ṣ u m
+ā p m
+d i c
+d m i
+i b r
+l a ñ
+ṣ m o
+ṭ ī k
+c i  
+m u ś
+u s m
+ā ' d
+a i j
+h ī v
+' m b
+ī ś  
+l i b
+ś n ā
+' m ṛ
+a ṭ t
+c h o
+e d ṛ
+h ū s
+j ā j
+j j i
+p o b
+ś a ṭ
+h e j
+i b e
+i g b
+k   c
+ṇ ī d
+o r ū
+ś u g
+ṭ h u
+ū r  
+  t h
+ṃ   u
+s e ś
+ṣ ī t
+ū ṇ a
+ī p o
+j u r
+m n i
+e y ū
+g y o
+m ṇ ā
+t o g
+  ' j
+' r t
+b i r
+c e r
+d h m
+d o t
+e c  
+k   ś
+ṃ   e
+ṃ   i
+n y ū
+o g u
+ṣ a c
+s v  
+c a ñ
+d o g
+o ’ d
+ṛ p y
+’ d h
+e ' d
+e ṇ y
+s i b
+v ī ś
+ā ṣ c
+d d ī
+d g h
+u k k
+ā l v
+b a s
+o ś ā
+r o ḍ
+ṛ ṣ o
+c ā j
+k p ṛ
+k u h
+ṭ ā c
+ṭ p a
+y e s
+d y  
+ī k ū
+i ñ j
+i s e
+i ś ṛ
+l u ṣ
+m r i
+o p t
+ś m ī
+  ṣ ṭ
+e k u
+ī b a
+i n v
+k n o
+ñ c e
+ṛ ṣ u
+c e ś
+l m ā
+o m y
+r   ī
+ś o r
+  i l
+c a h
+c ī p
+e s  
+e t v
+g o l
+t t ṛ
+b ū d
+h e v
+ī d d
+i h ṛ
+m ī h
+u   ṛ
+a b ṛ
+a ṇ u
+j e y
+l k y
+ṇ e m
+n e s
+n k ṛ
+ñ o p
+e d g
+ī v ṛ
+k u c
+m ī y
+ṃ s ṛ
+p h o
+ṛ n t
+r ṣ u
+  ' ṅ
+a r l
+c e m
+n g a
+ṇ i c
+p i ṃ
+ś n ī
+ś ū k
+v e m
+y ī t
+i c  
+i k l
+l i  
+l u p
+r t s
+e ṣ m
+k ī y
+ṃ g ī
+m y o
+ṣ i ś
+g u ḥ
+u h o
+e ś u
+t ī b
+  ī ṣ
+  m r
+i ḍ ā
+n ī d
+r m ū
+ṣ o '
+ṣ ū d
+u l ū
+h u ṇ
+i s i
+ṅ g r
+s o r
+ś ś i
+ṭ i d
+y u c
+ṣ ṭ ī
+' g r
+c ī ṃ
+d   ṛ
+d u c
+j a c
+k u d
+o ' r
+s ā '
+ṭ o '
+h o ṭ
+m u g
+n ū r
+s o b
+m ā '
+n m i
+p u c
+ś e d
+ṣ u k
+t   ṣ
+  ī r
+' n i
+ḍ y ā
+e ś  
+h u c
+o ' g
+o a p
+ṭ t r
+ī r b
+ī t p
+k k u
+m e '
+ū ḍ ā
+y o a
+c y e
+k p ā
+s ṛ p
+ū m y
+  ' c
+  u ś
+c h ī
+e ṣ ū
+i ṃ p
+ṃ m o
+ñ e ṣ
+ṇ ī s
+o ’ p
+o c ā
+p n e
+r j j
+y e r
+e k i
+k e r
+ṃ d ī
+a u ḥ
+m o m
+m ū k
+ś ā g
+s i m
+b a  
+ī c ā
+ī ṣ y
+m i ñ
+r o j
+  ṛ ṇ
+d u ṃ
+ī ṇ e
+ṃ y ā
+a k k
+h m ī
+ḥ ś i
+j ṣ o
+n p ā
+ṣ p h
+ū l y
+' r j
+' t y
+e   ī
+h e '
+ḥ p ā
+ī ṭ i
+k s a
+n o g
+o h y
+p ū p
+t u g
+v e ḥ
+ḍ a b
+e j j
+ī v y
+l i h
+ṣ ī d
+t ṝ ṃ
+’ p i
+k u j
+k u ṅ
+ṇ ṇ ā
+o ṇ o
+ṣ i n
+t o k
+t ṛ ś
+u k  
+u m ṛ
+d u l
+n ṝ ṇ
+ṛ g e
+' s ṛ
+ā ś l
+d o p
+h o s
+k k ā
+l l ī
+ṃ g i
+ṅ k o
+n o c
+p m ā
+u c u
+' a d
+ā y ū
+c e y
+d ū n
+ī t s
+ṃ d v
+m e s
+n u h
+p o '
+t ā ṣ
+u ṭ o
+' v i
+ā g v
+b a m
+b y a
+c h v
+d i y
+ī c ī
+ī p h
+k ī m
+ṇ ī r
+o d ī
+r ṛ ṅ
+t   ṛ
+t e ṃ
+b j ā
+c ā '
+d i ḥ
+m e h
+p o n
+  ṛ d
+c o c
+g h i
+ī j e
+k k a
+l b a
+l p y
+ṃ   ḍ
+n ī s
+i g o
+k o m
+o   c
+s i p
+c i ś
+ñ ā d
+o d r
+ṣ i ṣ
+t ī d
+t o j
+ū ṭ ā
+  ṃ  
+l l e
+p ā j
+r h ṛ
+t p ī
+e ' h
+ī s ā
+ṛ m a
+ū ḍ a
+b u k
+d e d
+e l i
+ṛ m ā
+a l v
+h ū k
+j i k
+m ū h
+r g y
+ś e y
+b ā  
+b a ṇ
+d v r
+ī s ṛ
+ś o a
+ṣ o d
+ṭ o d
+j o m
+n p ū
+o d u
+o ṇ ī
+r ṣ y
+r u l
+ś u l
+ṭ ṭ ā
+ū p u
+ū r p
+v v e
+  a ṭ
+  ṭ h
+a i ṇ
+b u r
+c o b
+e k ṛ
+h v i
+r m ṛ
+t s m
+u ṃ j
+v e '
+a m l
+m ī s
+n e p
+r ī j
+ṣ e ś
+v r e
+ā s r
+c o g
+h v  
+ī d i
+ṛ p e
+ṣ o r
+  n ṝ
+ḍ v a
+e r m
+ī l e
+j ī j
+j o b
+k i y
+m ṛ j
+ṇ ī ḥ
+ṇ o ś
+o ' v
+t a ṣ
+ū d h
+a ṭ v
+k l ī
+ṃ b o
+m o r
+ñ c o
+n p i
+o y u
+ś ā ṭ
+ū ṃ ś
+e s v
+g   a
+n ī ḥ
+v ā ḍ
+v o v
+g e t
+ī s  
+k i ṣ
+y o c
+  e b
+g u t
+h v o
+j r e
+k n u
+l e t
+p e b
+u ḥ p
+v o ḍ
+e b r
+ī v ī
+ñ e n
+o p o
+ṣ ā ñ
+u v y
+g o s
+h o l
+k i ś
+ṅ k r
+ṇ m u
+o d  
+ṣ c h
+s e y
+t o l
+e m ṇ
+h ū c
+k p a
+ṇ o m
+ṣ i ñ
+s s v
+a ṣ e
+m e p
+p o r
+ū k h
+ā ḥ ś
+ā k s
+ā v ū
+g g a
+ḥ   ḥ
+h ī s
+ṛ ṃ  
+a g b
+ā n ū
+b ā ṃ
+i j j
+ñ ī  
+o g d
+o m n
+o r o
+o s m
+p ū y
+r g i
+ṛ j u
+ṣ ī v
+t u h
+y e j
+o l k
+ṛ j ā
+ṣ p o
+a i c
+g ā g
+g ū l
+i ṃ b
+k o r
+k ū j
+l a ṣ
+ṇ ā ṣ
+n n y
+p ī v
+ṣ m i
+d ā ḍ
+g o g
+ī k i
+ṃ t v
+o a s
+o r g
+o r i
+ṣ p e
+s s ā
+s u j
+ū n m
+y ī m
+b ī b
+e ṇ ī
+g ā j
+i g v
+i n k
+ṃ g o
+n n ī
+r h e
+ṣ e n
+t k e
+u n y
+v e s
+  o ṅ
+d o l
+ḥ k ṛ
+j ṛ m
+o d ṛ
+ṛ m b
+r ū d
+ū c ī
+u s s
+l e r
+v u s
+ā l  
+ḍ ā ḥ
+d i ṃ
+g u ś
+k i  
+l o '
+m e b
+ṛ h u
+ṭ   t
+t ū ṇ
+ū t ī
+v ī v
+' r c
+a g y
+b o j
+d i j
+ḍ u s
+i n s
+ṃ m u
+ñ ā ś
+ṇ a ṣ
+ṇ ī p
+ṇ o s
+n r ā
+r p y
+r ū  
+ṣ ā ṅ
+ā ṭ ṭ
+h v y
+m p i
+r k o
+ś i m
+ū d d
+u p ī
+ū ṭ e
+  ś  
+a i y
+ā ṭ ā
+c ā ḥ
+c i j
+h e l
+ṃ k i
+ṇ e r
+n s ā
+s ā j
+u g o
+  i ṃ
+e r b
+ī ś e
+ṃ d ṛ
+r y  
+ṭ a ṅ
+  ṭ a
+ā y v
+ḍ o d
+e ' b
+ī ṃ ṣ
+m o b
+ṅ k ī
+n k u
+n r a
+p i y
+r o y
+t ṛ r
+  ī p
+  ṛ j
+ī b ṛ
+k ū ṣ
+ṃ h e
+o ṃ '
+o v ī
+ṭ u t
+u b u
+u m ī
+a j ū
+ā k k
+ḍ a g
+o y o
+p ī ś
+p t y
+ś u ṇ
+ṭ ī n
+u p ṛ
+v u ś
+i n p
+ī s v
+ṇ e d
+o ' m
+ṛ c ā
+ś e p
+ś i s
+t k h
+ū c c
+d d r
+ḍ r ā
+h e h
+i l l
+ṇ ī b
+r k e
+t e a
+ū l ī
+  e h
+d o '
+h ṇ e
+m ṛ ṇ
+ṇ ī v
+ṭ r i
+ū c i
+u s n
+y a ṭ
+  i r
+d e r
+ḍ ū r
+e ṣ ṇ
+g i b
+m ṛ c
+m ṛ k
+s ṛ g
+a ṛ ṣ
+ḍ ī k
+e   o
+e y y
+ñ ā r
+ñ c ī
+ṇ o n
+ś u v
+' a b
+a e v
+ḍ ā p
+e j e
+i j v
+ṅ g ū
+p y o
+r g r
+r ṣ ṭ
+s ī c
+ū r b
+  j h
+e l l
+ī b ā
+n o s
+o s i
+ś e r
+ṣ j a
+u b r
+ī y ū
+j o r
+k ī k
+ṇ e v
+ṣ o g
+ṣ u ś
+t ṛ y
+' t a
+ā ḍ  
+ā t ū
+i k  
+j ā ṅ
+ṃ s ī
+r o s
+ṣ u ṇ
+t o ’
+ū r ī
+v o n
+' g a
+e   ū
+g o ś
+h n y
+m p u
+  ū ṣ
+ā ṃ m
+e j i
+j o p
+k ī l
+k ṣ ū
+m a ṭ
+ṃ k t
+m o ’
+ṇ m ū
+ṛ k s
+ṣ k u
+t ṛ n
+v o m
+y o y
+g i  
+j o d
+l o ṣ
+m i j
+m l ā
+ṃ v e
+ṇ i h
+p h ī
+ṛ c a
+ṣ e ḥ
+ī ṣ e
+j u g
+m n e
+o l ū
+ṭ i h
+  ī k
+ā k l
+j i m
+k   v
+o ’ s
+r ś e
+ś u t
+u d ū
+c ā ṭ
+ī n s
+l e ḥ
+p ī l
+p o l
+r t v
+s i v
+ṭ e t
+t u j
+  j ṛ
+ā j v
+ā ś ś
+c ī m
+d ṛ p
+h l ī
+i ṇ m
+o l l
+o p u
+o v y
+ṭ   p
+t e g
+t e h
+t y ṛ
+v e j
+' p s
+c c e
+e r g
+h ū ś
+ñ a t
+o h o
+ṣ o m
+t ṛ h
+ū r l
+v ū c
+y o h
+  ā  
+d o v
+e r n
+h e ṭ
+i j ī
+ṃ   o
+m ī ṣ
+ṃ s v
+o p r
+ū ṣ u
+' ś u
+ā g d
+ā r b
+b i m
+d u  
+ḍ ū k
+g g u
+k ā j
+ṃ l a
+n a ṭ
+n e '
+o ṣ u
+ṛ c ī
+' a n
+b ā ḍ
+c o ṣ
+e ṭ a
+l v ā
+ṃ   ṛ
+ṅ g ṛ
+s e c
+ś ī p
+  ' l
+' a t
+a u ḍ
+j ū ṃ
+l ī v
+m e m
+r g ī
+ṛ g ī
+ś i ṃ
+u ḍ o
+u ś v
+' c a
+' j a
+a i ṭ
+b o  
+d g r
+d r y
+m m i
+ṭ s a
+ū y e
+d g o
+g u g
+ḥ k r
+h o ś
+ī c  
+ī r d
+k p r
+ñ c u
+ś ā ṇ
+ṭ k a
+  u j
+ā ' v
+ā ṣ k
+c e h
+d g ī
+d o n
+g o ḥ
+ī j i
+ī ṭ ā
+m ī b
+o ' k
+ś ī s
+ṣ u c
+t d ṛ
+t ī ṣ
+v o ṣ
+ḍ e ṣ
+e ś r
+ḥ k u
+ī c e
+s ī p
+s o ḥ
+s v o
+ṭ ā h
+u j ī
+' s ā
+ḍ o p
+g   v
+h ī g
+ñ i y
+p u ñ
+t k ī
+  ḍ a
+' j ñ
+c e k
+i ḍ ū
+l i d
+m ṛ n
+ṇ o k
+o k u
+t m e
+u ṭ h
+v o b
+' r a
+a m v
+g u k
+i ś ś
+ṃ r u
+ṇ a ṅ
+o r '
+s o ḍ
+t   o
+u j i
+v u d
+d d o
+ḍ e ś
+e k ī
+ī s ū
+n a ḍ
+ṇ ī j
+ś o p
+u d o
+b d i
+c e l
+ḍ e v
+e s ā
+g ṛ ṇ
+g u s
+o n u
+s ī r
+ṭ i ṣ
+ā g j
+b u n
+ī t k
+j h i
+n   ṣ
+n ū ṃ
+o ' ś
+ṣ ā h
+ś a ṣ
+ṭ y o
+u l u
+ā ś ū
+ī d r
+l ī t
+l u ṃ
+ṃ m ū
+ṇ e k
+p o y
+ṛ p i
+s ī v
+ṭ   k
+d o ḥ
+e p h
+p ū g
+ṛ j j
+ṛ ś c
+u g g
+ū h ā
+y ū ḍ
+ā ' k
+i   o
+k u ḍ
+p i h
+ṣ a ñ
+s i c
+s ī s
+ṣ o v
+ṭ ī ś
+  ' ṃ
+a ṭ y
+b e t
+g e v
+h m o
+j o '
+k ī b
+l e d
+l ī ś
+m o s
+ṃ s r
+n o ṣ
+o a y
+ṛ h i
+u g ī
+ū t s
+' r i
+ā ṇ ū
+b a p
+ḍ ā b
+ḥ s n
+k ū t
+o l u
+p o ḥ
+ṛ d o
+r e ṃ
+ṛ y ā
+ś m ā
+u t  
+ā ' m
+i h m
+k t h
+ṃ j ṣ
+n h i
+r a ṭ
+ṛ g  
+r ś o
+u c ī
+ū d i
+u s e
+v ṛ ś
+y y  
+' c y
+' ṃ ś
+' p r
+ā k p
+e y i
+h ū ṇ
+ī ñ c
+ṇ y u
+o v e
+p o m
+ṛ d g
+r i ñ
+ṛ ṇ e
+' k a
+a c m
+ā m l
+a n h
+b a ḥ
+g n o
+ḥ ś u
+i ḍ i
+ī j y
+k e '
+n ā ṭ
+n n u
+ṛ ṣ v
+ṭ e ś
+u p s
+u s r
+ū y u
+a ṅ  
+d v o
+e g i
+k e l
+k ī c
+ṇ ī ś
+ṝ ṃ ś
+ṛ ṣ t
+ṛ y a
+t s p
+ū m  
+a ḍ r
+c u ś
+ḍ ā v
+ī n n
+ñ a d
+ṣ   c
+ū ṇ i
+v ṛ ṃ
+y u l
+c o v
+ḍ g ā
+e l o
+i d m
+ī r m
+l o n
+m i g
+ñ ā v
+o t o
+t ū l
+ū t p
+e ' m
+g d a
+h u h
+h v e
+i k k
+ī n p
+ī p ū
+ṃ ḍ u
+n o y
+ṇ ū r
+o c e
+p ī h
+r j h
+ṛ t k
+s ū p
+ā ' g
+a n g
+ā ṣ j
+c e ḥ
+d a ñ
+g m ā
+g y e
+k   d
+k s e
+o n ī
+o n ṛ
+t s r
+t u c
+a   ṃ
+a ḍ  
+a u y
+b i t
+d o k
+g o '
+ḥ ś ī
+ḥ s p
+i g  
+ī t r
+l b h
+m e c
+ṛ n n
+ṣ e s
+ū t k
+d ī d
+g   d
+ī ṃ d
+i ṅ m
+j e ṃ
+j j u
+l u m
+ṣ k i
+ṭ i y
+ū r ū
+u ṭ e
+v ī h
+y e l
+c i p
+d   ī
+ḍ g e
+e a p
+e b a
+e p ū
+ī ṇ y
+ṅ m ā
+p ū n
+s ā ñ
+ṭ o p
+u t m
+  o j
+  ū n
+ḍ a u
+d ī s
+g u ṃ
+h ṛ c
+i ṇ ṇ
+i p s
+ī ṣ o
+l e '
+o m ī
+ś ī b
+ṭ ā j
+ṭ a ṣ
+u h e
+ā h r
+a ṣ o
+c m i
+c ū t
+h l i
+k e p
+m u  
+ñ   c
+s ī k
+ṣ ū p
+y u  
+  ṛ b
+' n n
+ā ' r
+a m d
+d i ṅ
+d m o
+e t ī
+g   b
+g ī n
+g u v
+h ṛ n
+ṃ ś y
+m ū m
+n k ṣ
+s i r
+ṭ u p
+y v a
+' a h
+' l p
+b a i
+l e l
+ñ ā b
+n d ū
+ṇ o v
+r h o
+t n o
+ū s a
+v ṛ ṭ
+a c h
+ḍ y o
+e n ī
+e r j
+j j h
+l ī s
+ṃ d o
+ṃ t h
+p n ā
+r   ṛ
+ṛ c o
+r d o
+r o a
+s o n
+ś o v
+ū ṃ s
+g a ñ
+h i ṅ
+i g m
+ī l y
+m b e
+ṃ p i
+n e b
+ñ e ś
+ṛ k t
+ṣ c i
+s k h
+ū g a
+u ṃ c
+  ḍ ā
+' n ā
+ḍ a h
+h e ṃ
+i   ī
+k s ā
+ṇ e s
+ṛ g ū
+ṛ n  
+r u y
+ṣ k o
+ṣ ṇ ū
+ṭ ā g
+ṭ r ī
+t t ū
+ū d b
+u ś ṛ
+y ā ḍ
+y i ṇ
+  i j
+a j h
+a t m
+b u s
+ī n y
+ī r n
+l u ḥ
+m ṛ ḍ
+r p o
+ś o ’
+ṭ c a
+u l b
+y i v
+b u p
+c i b
+e g u
+e r e
+g   u
+g o n
+s m o
+ṭ ā l
+t o ṃ
+ṭ u b
+ū ṇ ī
+  ḍ i
+a b j
+a g ū
+a ṭ c
+a v u
+g v e
+ḥ p ū
+ḥ s m
+ṅ   m
+ṇ ā '
+ṇ e '
+o ḍ ā
+t   ī
+v ī ṣ
+ā g m
+d g i
+d ī ṣ
+g l ā
+h o y
+i c o
+i d g
+ñ j ñ
+o   ṛ
+r o l
+r ś ī
+' ś a
+a g g
+b ā r
+ḍ ā t
+e j y
+g j y
+ī   ṛ
+ī g u
+o v r
+p ī k
+u ḍ h
+u t h
+' n e
+ḍ ū n
+e p y
+ī ṭ ī
+l o v
+ṃ ṭ a
+n m ī
+o b ā
+r p e
+s ā ṣ
+s e k
+s o v
+b a u
+b y ā
+c y o
+i m p
+n   ī
+p u ś
+ṛ h o
+ṣ e '
+ṭ s ā
+u ṃ ṭ
+ū s t
+y ṛ ṣ
+' g h
+a l  
+ā ś ṛ
+e t ū
+ī m ṛ
+ī r ī
+k c a
+ṃ p ī
+ṇ i ṣ
+p h ū
+r e h
+r ū m
+ś c y
+ṣ u n
+y o ṃ
+y ū c
+  b ū
+  ṣ ā
+ā ṃ y
+g a ḍ
+g h ī
+g i k
+h l a
+j ṛ ṃ
+k u ḥ
+ṃ ' t
+m v a
+o j ī
+s o a
+u ṃ ś
+u p h
+d   ū
+e s m
+g ū h
+ī m y
+k ṛ k
+n s t
+o   i
+o a t
+o g ṛ
+r d y
+ṣ ā j
+' c i
+' l a
+' p ā
+a ḍ e
+c e c
+e g o
+h ī l
+n ṛ b
+o d o
+ū h y
+u ṭ ṭ
+  ā ḍ
+ā ñ ś
+b u v
+c h y
+e ṣ ī
+h ṛ j
+i s n
+l e s
+l i v
+o r h
+ṛ j i
+t n i
+v o g
+y e a
+  ī j
+ā c h
+a m ś
+ḍ u k
+e p o
+g ṛ t
+m b y
+ṃ v y
+p ṛ k
+ṛ l o
+r v r
+t ṣ a
+y o ’
+y y e
+ā b i
+ḍ a ṭ
+e ḍ h
+ī   ṣ
+ṃ r ū
+ṃ s n
+ṇ ḍ h
+ṇ u g
+r o ṃ
+ṛ ṭ k
+ś a ṇ
+a c u
+ā j u
+ā k ś
+b u  
+ḍ i v
+d ṛ d
+i b y
+ī p ṛ
+j e k
+m p l
+ñ i k
+ṇ i y
+ṇ u h
+o l i
+r h y
+r n ī
+r ṣ m
+r ū ḥ
+s a ṣ
+ṭ   c
+u s i
+v e ṃ
+v ṛ j
+' n d
+a m j
+ā ṭ o
+b ā y
+c o l
+ḍ ī r
+e ṃ '
+e n ū
+i y ū
+j ī y
+k e b
+m ś a
+o h ṛ
+o l b
+o n e
+r m ī
+s ī b
+' r d
+e d m
+e g ṛ
+i   ū
+j i d
+m e ḍ
+ṇ ī h
+o   e
+r j ī
+ś o n
+ū b a
+  g l
+' a y
+' n ṛ
+' r u
+e ' v
+h ū h
+i b ī
+i ṃ ḍ
+i ś n
+k   y
+k ī s
+ṃ k e
+m o ṣ
+n o ś
+s   s
+s r ī
+t i ñ
+ṭ k o
+v   ṛ
+v ī g
+' d a
+b e n
+g ī k
+h ī ṇ
+ḥ p i
+k   a
+l ā ḍ
+l g a
+m l a
+m u j
+ṅ   n
+o g n
+r l l
+ṣ e b
+ṣ k e
+ū ś c
+u s ṛ
+y ū  
+a   ṇ
+a ḍ u
+b a ś
+e ṅ g
+k ī p
+ṃ h r
+ṃ r ā
+ṃ ś v
+n b ā
+ṇ o b
+ṛ k k
+r l i
+ṛ v y
+s o s
+ṭ ī ṃ
+u c o
+u n v
+  e r
+' ' t
+a   ḍ
+b a ṭ
+b a y
+b i ḍ
+c ā ñ
+c i l
+ḍ g u
+e ' ṣ
+h m i
+ī c o
+j ū r
+l u r
+m o j
+m ṭ a
+n ā ṣ
+ñ j e
+n v y
+o ṇ y
+o r t
+ṣ ū ṇ
+t ī g
+ṭ o b
+ū n n
+  n v
+' ś r
+ḍ e t
+e m ṛ
+e s n
+i ṣ c
+j ṣ i
+k ḷ p
+o ' ṅ
+o ṣ m
+ṛ ṃ b
+s i ś
+ṣ t v
+u ṃ t
+ū n o
+  ī h
+' d b
+' t m
+d o m
+i ñ  
+ī ś ū
+j i b
+j j y
+k e m
+k ī n
+k o c
+k o s
+ṃ p ṛ
+m ū ḥ
+p i ṭ
+s e ṃ
+ṭ y u
+u n ṛ
+y e ṃ
+ā i v
+ā m s
+e j u
+g e b
+h o h
+h o ṇ
+i l u
+j e b
+k   m
+ñ a r
+n g h
+ñ i  
+n ī ḍ
+n k r
+o n t
+r j ū
+ṛ k u
+ṣ o n
+t ū  
+ṭ v e
+u l p
+ū ṣ e
+u ś ś
+v ṛ h
+ā b ī
+e l u
+e m o
+h y ū
+ḷ p t
+m r e
+ṇ e ḥ
+n ṛ g
+ṛ g b
+ṣ ī m
+ś n o
+s r i
+t k v
+u   ī
+y u ṅ
+a j c
+a n r
+d e b
+e ṇ i
+ḥ s i
+i g g
+j o g
+k ū b
+l o ḍ
+l p h
+ṇ e p
+n g u
+ñ j u
+ṇ u c
+o m ṛ
+p i j
+s i h
+ś ī y
+ś o m
+t ṛ  
+u b i
+v   ū
+  k t
+e ' r
+e n t
+e ś ṛ
+i c u
+ī d b
+i g ū
+i j ṛ
+k i s
+ṃ ś l
+ṇ e c
+ṛ p r
+ś i g
+t ā ṇ
+ṭ u r
+u r ṣ
+y ū k
+ā ' ś
+ā n ś
+b e d
+ḍ h i
+i n ṛ
+k   b
+k k ṛ
+o ' ṣ
+o a h
+ṛ v i
+  ḍ h
+b ā m
+d d ū
+ḍ ī b
+e r '
+i ṃ v
+j i v
+ṃ d y
+ṇ o j
+o ḍ u
+p i g
+s n y
+s o g
+ṭ e r
+ḍ o r
+ḥ k i
+h ṛ ṃ
+j o ṣ
+ṃ c o
+ṃ ḍ ī
+n   ū
+n ṛ v
+n v  
+ṛ k p
+ṛ ṇ y
+r t ṝ
+ś a ñ
+ś c ū
+ṣ ī b
+ś i d
+ṣ u y
+s y ū
+ṭ a ṇ
+ū r ṣ
+ḍ h r
+e ' k
+g d ā
+m n ī
+m ū n
+n g ṛ
+s a ṭ
+ś c ī
+ṣ ī ḥ
+s k o
+s p r
+u ṃ n
+' h n
+g   ā
+g   y
+ī ś r
+ṃ r o
+ṃ ś ī
+p ā ḍ
+ś ṛ g
+t e l
+ū   s
+ū n ṛ
+ū v i
+  ' '
+a ḍ h
+ḍ ī n
+ḍ ī ś
+e n y
+g ā ñ
+ī ṃ l
+k   n
+m e ḥ
+m m u
+m o ṅ
+ñ ā k
+ṇ e h
+o a n
+o r l
+o ś v
+p e c
+r b i
+r n y
+ṛ v ā
+ś ā j
+ś ī ś
+t ṛ j
+t ṛ ṭ
+u h ī
+v o y
+ā ṃ r
+ḍ i b
+d ū d
+i ṭ i
+k m ā
+ṃ ' ś
+m ā ḍ
+m s  
+n p ṛ
+ṛ p u
+t o ś
+ū   p
+ū c e
+  d d
+ā ṇ v
+a ṣ j
+ā ū c
+h a ā
+ṃ ḍ r
+ṃ l i
+n t s
+p u p
+r ' c
+ṝ ṃ s
+ś i j
+ṣ o l
+t p e
+u h v
+  b e
+  i ḍ
+ā c ū
+a g j
+a ṅ n
+e b ā
+e n ṛ
+g ī m
+h o a
+i r t
+i s o
+j r i
+k o b
+k s r
+ṃ ṣ y
+o h ī
+p i ñ
+r ū ś
+t ā ṭ
+ṭ i j
+ṭ u ḥ
+u ḍ u
+ū d y
+y v ā
+  ṇ a
+  ṛ ś
+' s ī
+' ś n
+a ḍ d
+a k c
+ā ṛ ṣ
+d o b
+g j a
+ṇ o c
+n ū  
+n v ṛ
+o ś e
+p u  
+ṛ ṇ m
+ś ī d
+s o ’
+ś o ḥ
+ṣ y  
+ṭ   ś
+ṭ o s
+t ṛ l
+t s ī
+ū k o
+v e ḍ
+' d i
+' k ā
+ā ' y
+b e  
+c c y
+d ī b
+g e k
+g u b
+i j  
+i ś l
+l a ṭ
+l e h
+n k i
+ṛ ṅ k
+ṣ ū n
+ṭ o r
+u ṣ c
+v o j
+  ī ḍ
+  t t
+c a ṭ
+d o s
+g d e
+i g i
+ī n v
+k ī t
+m o ṃ
+o a r
+p ī d
+ṛ d r
+ṛ l l
+ś ā ṣ
+ś e v
+s i g
+s m e
+u   o
+' p ī
+a r ṃ
+b u g
+ḍ   i
+d ā ñ
+g o h
+g r ū
+ī ḍ e
+j ā c
+j i c
+k o y
+ṃ   ī
+m d h
+ṃ m ṛ
+m o y
+p ī ṃ
+ṛ ṅ m
+ṣ o ṇ
+s o y
+ṭ   n
+  e d
+  t s
+  y i
+ā l b
+c c o
+d ū y
+ī g ṛ
+j u s
+m ū ṃ
+ṇ ā ḍ
+ṇ u j
+s e p
+ś ś u
+ṭ   a
+y e g
+a ḍ j
+d e ḥ
+ḍ ū y
+h ṛ y
+m e ṃ
+ṃ j i
+ñ a u
+o j v
+r ṛ ṣ
+s ṛ b
+ṣ ṭ ṛ
+s ū ḥ
+ṭ ī b
+t ū t
+ū s u
+v o h
+y u h
+  h l
+  r ī
+ḍ g ī
+e a t
+g m ī
+h i ḍ
+i t ḥ
+j ā '
+j e c
+k t ṛ
+ñ a n
+n n ū
+ṇ ū  
+r h ī
+r h u
+r j e
+ṭ e ḥ
+t ū k
+ū   t
+ū c y
+v r i
+  ṅ e
+a ḍ ḍ
+a ṣ y
+ḍ i d
+h e g
+ī d u
+i k s
+j c ā
+k ā ṭ
+m ā ṭ
+ṃ d ū
+n ī g
+o ś o
+r e g
+s ī j
+s o c
+ṭ v o
+u ś y
+  e l
+  i ṅ
+' ' ś
+' m i
+' r k
+' v ā
+a i ṛ
+ḍ a c
+d ṛ  
+e a h
+e a s
+e m y
+g e s
+g o y
+ī n ṛ
+ṃ h ī
+ṃ k o
+ṇ ṇ o
+ṛ p ū
+r ś y
+s i ñ
+ṣ o ḥ
+s o ṃ
+s ṛ ṇ
+ṣ u ṃ
+t ū p
+ū   c
+u ḍ ū
+u m ṇ
+y ā a
+y y o
+  ū h
+' m u
+a b b
+ḍ i ṇ
+ḍ ī s
+g v ī
+ḥ ś ṛ
+i n u
+i ṛ t
+j u l
+k c h
+k ī v
+k o j
+l u ś
+n e g
+ṇ o ṣ
+n ṛ k
+o ṅ g
+r ṃ m
+ṣ ī s
+ṭ ī r
+u ṇ u
+y   ū
+y o l
+  ī y
+’ s m
+a   ṭ
+a ṣ u
+ā ṭ ī
+d e s
+ḍ h ī
+e r ṣ
+e v ṛ
+g e p
+g h v
+g m i
+ḥ   ḍ
+ī d y
+k ś i
+l u l
+n s o
+ṇ ū n
+o ś ī
+ṛ c  
+r h r
+ṛ t ū
+s o h
+ṭ o v
+ū d ā
+u j ṣ
+ū m o
+u s p
+  ṇ ā
+  t d
+ā t ṣ
+c o n
+ḍ ū ṣ
+i ṣ  
+ṇ v o
+p s ā
+p u k
+ṛ ḍ a
+r n e
+ś e m
+ṣ i j
+ṭ y e
+u   ū
+u ṣ j
+v o ḥ
+v y  
+  r v
+' a m
+’ h a
+ḍ i r
+ḍ v ā
+e j  
+g e '
+g u m
+h ṇ i
+h ū j
+ī j o
+j ā ḍ
+o   ā
+r   ū
+ṛ d n
+ś i ḥ
+ṣ ū ṃ
+ṭ   d
+t   ū
+v o l
+' ' d
+ā   ḍ
+b j e
+e ṃ t
+g l a
+k o h
+k ṛ s
+l ī ṣ
+m j ñ
+ñ o '
+ṇ o g
+n o l
+o   ṣ
+o l e
+s e h
+s i y
+ś ṛ t
+ū ś  
+u t ṛ
+v r u
+  ' ṇ
+  ḥ s
+' y u
+ā ' ṣ
+h ī j
+ḥ k o
+i ṃ l
+m u b
+ṇ o ṃ
+o s y
+p a ḍ
+t m o
+ū h e
+v ī ḥ
+y   ṛ
+' d r
+a m k
+ā ṅ  
+c o m
+d b ī
+d b ṛ
+d e p
+ḍ ī ṃ
+ḍ ū c
+ḍ u t
+h o ṃ
+ī   ī
+i ḍ h
+k ū ṇ
+l a ḍ
+l i g
+l k i
+m e l
+ṃ k l
+ṇ o a
+n s ū
+p h i
+r k i
+s i j
+s s ṛ
+u j u
+ū n s
+ū ṭ o
+y ṛ c
+  p y
+a ṣ ī
+a ṭ ś
+b a ṣ
+b i s
+d ī ḥ
+d i ṇ
+ḍ i p
+d o c
+k ā '
+l ī d
+m b ī
+m ī c
+ñ a h
+o b u
+r l e
+ṛ m ī
+r o ’
+r p p
+ś e '
+ś e c
+s o l
+ś ś ā
+ś ṭ a
+ṭ   v
+t h n
+ṭ s u
+ū ñ  
+u s ī
+’ b h
+a m s
+ā m v
+b ī r
+c ī t
+c u l
+d ṛ ṅ
+ḍ u ṃ
+g   e
+h r y
+i h y
+ī p ī
+ī y ī
+j e p
+l ī ḍ
+l k e
+ṃ p e
+ṇ ī c
+n t ṛ
+p m a
+r a ā
+ṛ ḍ ā
+r ū c
+s e r
+ś e s
+ṣ u l
+ṭ ī m
+t i ṅ
+ū h o
+ū n v
+  u ḍ
+' a v
+a   ḥ
+a ḍ ī
+a l b
+a u ṭ
+ḍ j a
+e ' g
+e n v
+e s ū
+h ṛ l
+ḥ ś ū
+h ū g
+ī ḍ o
+i j u
+j i s
+l ī h
+l i j
+ṃ b r
+n r u
+o ’ b
+o j e
+o n  
+r ' t
+r ī ñ
+ṣ o h
+ṭ e d
+ṭ o n
+u p l
+v o s
+v u p
+  ā ṅ
+  j o
+' ṇ ḍ
+' ñ j
+a a n
+d ī j
+d n a
+ḍ u ś
+e ' ś
+e p t
+e r ū
+ī   ū
+i ṃ j
+j ū ṭ
+l p ī
+l u s
+l v  
+ṃ b e
+ṃ ḍ o
+ñ c y
+ṅ e ṃ
+o j ṣ
+o r ṇ
+p ī m
+r u ṭ
+ū   d
+ū d e
+ū g ā
+u ṇ ṇ
+ū ś a
+v k a
+v ṛ c
+  ā ṃ
+  o m
+b ā v
+b u m
+e m ī
+h m u
+i n b
+j ñ y
+j r ī
+j u ś
+k   ā
+k m ī
+l e m
+l o j
+l u v
+ṃ g y
+ñ i v
+n k o
+ṇ o y
+n s i
+o ṃ n
+p o j
+p ū ṇ
+ṛ d ū
+r j v
+s i l
+ṭ ī v
+t o c
+t ū ṃ
+u d m
+ū m ī
+v a ṛ
+v ī l
+y ī s
+y i y
+y ū ṃ
+  r m
+  r y
+' m ā
+a ṣ  
+b o ṣ
+c ī b
+e j ñ
+g ā ṭ
+g b a
+ḥ s y
+i c h
+i g y
+ī l ī
+j ā ñ
+j i  
+j ṣ ī
+k   e
+ṅ n a
+n ṛ h
+n ū t
+o   u
+o ’ t
+o k ī
+o t v
+r b ṛ
+ṛ n ā
+ṛ r ṇ
+ś ā ḍ
+ś r v
+ṭ ā '
+ū ḍ o
+u ḍ y
+u h r
+u k y
+u ṃ v
+' g ā
+ā j ū
+ā ṃ h
+a r s
+b a g
+b ū p
+ḍ i ṃ
+ḍ u ḥ
+g e m
+ḥ s o
+ḥ s r
+ī k r
+i n g
+k ī ś
+k o a
+k v e
+l ī r
+ṃ   ṃ
+m p ī
+ñ ā ṅ
+o ñ c
+p ī j
+p ī ṣ
+ṭ a ñ
+ṭ o l
+t ṛ ḍ
+ū c  
+u g i
+ū n e
+u s o
+y ī b
+' k ṛ
+b ū m
+g o j
+g ū d
+ī ṅ k
+ī r j
+i s y
+j j e
+l e ṃ
+l v e
+ṃ s ū
+ñ j y
+o ḥ s
+p ī p
+r c e
+r n n
+ṛ ś r
+ṣ ā ṭ
+ṣ e ṃ
+ś ī ḥ
+s o ś
+t ā a
+t p l
+u y e
+v ā a
+ā ḍ g
+a ḍ o
+a i ñ
+ā k c
+d   h
+ḍ o ḥ
+ḍ u b
+e d ū
+e ṇ ū
+g r i
+g u  
+ī g ī
+ī n ī
+ī ṭ e
+k ś a
+k s t
+l o r
+ṃ c e
+n e j
+n o a
+o k h
+r e a
+ṛ ś i
+ś ā ñ
+s ī ś
+s o ṣ
+ṣ p ī
+ś u h
+ṣ ū t
+ṭ ā ṭ
+t m ī
+t ū d
+y i b
+  l l
+  v u
+' ' s
+ā ' j
+ā m ś
+ā ṣ ī
+ā ṣ o
+a ū c
+c o '
+e ṅ k
+e s i
+g   i
+g m e
+ḥ ṇ ā
+h o ’
+h ṝ n
+ī ṣ ī
+ī s n
+j ā ṭ
+k p u
+ṃ l ā
+m l o
+m y u
+n   o
+ñ ā c
+ñ e t
+ṇ ī g
+n k h
+ñ ś a
+ṇ v ī
+o r ī
+p e '
+p ī b
+p o g
+ṛ g r
+ṣ ā '
+ṣ ā ṣ
+ṣ i y
+s ū  
+ṭ o h
+u p  
+u ś l
+v o ṃ
+v o ś
+  ' ñ
+  k ḷ
+  t m
+' k r
+’ s t
+’ y a
+ā ḍ v
+a ḥ ṣ
+ā i t
+a k ś
+a ṇ  
+b ā b
+b ū r
+d g e
+e a n
+e ḍ a
+e k r
+g e r
+g ū ṇ
+i b ṛ
+i c ū
+ī n t
+k k i
+m r o
+ṃ ṭ ā
+n ī j
+ṇ ṭ e
+p ī c
+ṛ   t
+ṛ k e
+r ṣ v
+s e '
+s k u
+ṣ o j
+ś u j
+ṭ   h
+ṭ o a
+ṭ ṛ t
+ṭ ś a
+ū h u
+ū ṣ y
+v o a
+  प र
+' b d
+ā   ṇ
+ā r '
+a s c
+ā t d
+b b h
+c ī s
+ḍ ā c
+ḍ u m
+e ḍ i
+g i m
+h m y
+ī g o
+i l ū
+ī ṅ g
+k i p
+k s u
+k s v
+l e j
+ṃ b y
+m v i
+ṇ o h
+n o ṃ
+o ' c
+o ' j
+o n v
+p i ḍ
+p r u
+p u j
+ṛ n a
+ṝ n t
+r ū b
+s ī ḥ
+t k ū
+ū h ū
+ū ṇ y
+v u t
+  ḥ  
+ā g ū
+a m t
+a ṭ ṣ
+c ī v
+d b i
+ḍ ḍ ī
+ḍ h ū
+ī n u
+k l o
+l m u
+ṃ p h
+m ś  
+n k e
+n ū c
+o ’ h
+o ’ y
+o l ī
+o ṣ p
+s c a
+t r ṇ
+u b o
+u m p
+u ṃ p
+  v k
+' a r
+a n ś
+a ṣ k
+c o ś
+e ṭ ā
+g e c
+g ī s
+h v ṛ
+ī s i
+i ṭ h
+ī y i
+k k r
+k ṛ j
+l v o
+m ḍ h
+ṃ l ī
+m v ā
+o ḍ y
+p e l
+p o ḍ
+p ū  
+ṛ ṇ i
+s ī h
+s ṛ m
+ṣ u g
+ṣ u j
+ṭ ā ṣ
+t ḥ ṇ
+u g ṇ
+' a g
+' b a
+' d ṛ
+' r h
+ā ' ṅ
+a i ṅ
+ā k v
+a m ṇ
+b a ḍ
+b a j
+c ī y
+c u m
+e m ū
+g i l
+g r u
+ī g r
+ī h e
+ī j j
+ī l l
+ī n k
+k   g
+k p ū
+m m e
+m m o
+m m ṛ
+n g i
+ṅ k ū
+ṅ n ā
+ṅ n i
+o m  
+o s s
+r i ṭ
+ṛ s y
+s e b
+s ī g
+ś n i
+s o k
+ṭ e b
+ṭ ṣ a
+ṭ ṭ e
+ū   k
+ū   v
+u d  
+y a a
+y a e
+' ' n
+' j i
+' m ī
+a e k
+a ṣ v
+b ū t
+ḍ   v
+ḍ ḍ u
+d e c
+ḍ ī t
+ḍ m a
+e ’ p
+e r h
+g u ñ
+g ū r
+h o ḍ
+ḥ p h
+ḥ p ṛ
+ī n b
+i ṭ ś
+j o n
+j u b
+k   i
+k   j
+l ā ṇ
+l ī g
+l u d
+l u n
+ṃ   '
+m e a
+m p e
+ṃ ṣ a
+n j a
+n s ṛ
+r ' k
+ṛ g h
+r y ū
+s e m
+ṭ e '
+ṭ ī d
+ṭ ī s
+ṭ o j
+ū h ī
+ū j o
+u k s
+ū r n
+ū s  
+y ā ṭ
+  ṭ ā
+  t p
+' ' k
+ā ' l
+a l ū
+ā l ū
+ā ṣ  
+b ū k
+b u ṣ
+c a a
+ḍ ā j
+g   g
+ḥ k e
+i h r
+ī ṇ o
+ī s e
+l v i
+ṃ j v
+ṃ ś ṛ
+m ū p
+ñ c c
+n g ā
+ṇ i l
+o t e
+p ī s
+r   o
+ṝ n a
+ṛ r ū
+ṛ s t
+ṛ v ī
+ś o h
+ṣ o ṃ
+ṣ o y
+s s o
+t a ṛ
+ṭ ī t
+ṭ ī y
+ū   n
+ū d g
+ū k e
+u p c
+v ṛ ḍ
+y o ḍ
+  ḥ t
+  s s
+ā g g
+c e ṃ
+ḍ   a
+e ’ s
+g y u
+i m l
+ī ṇ ī
+j ī b
+k i b
+ṃ c u
+ñ e '
+ṛ m u
+ṝ n s
+ṛ ś n
+ṛ s u
+ś   t
+ś ī c
+s s i
+ś ū  
+ṭ p u
+ū m u
+y ṛ k
+  n n
+  u h
+’ p y
+ā a b
+a ī ś
+a n ḍ
+a ṛ t
+a ṣ p
+b o p
+ḍ   b
+ḍ i  
+ḍ ī y
+d ū  
+g ī c
+g ī p
+ḥ s e
+ḥ s ū
+ī b ī
+j o j
+k ṛ ṃ
+l ī c
+l ū ṣ
+ṃ c c
+n o ’
+n ū j
+o ' l
+o ṃ ś
+p o a
+ṛ g ṛ
+r k y
+ṛ ṅ  
+ś e b
+s s m
+s t t
+t ī j
+t r r
+ṭ ś ū
+t v ṛ
+u ḍ ḍ
+u n u
+u ś ū
+v i ṅ
+y a ū
+ā ḍ ā
+a e ṣ
+ā m ì
+a m n
+ḍ i ś
+d m ī
+d ṛ ṇ
+g ī b
+ī j ī
+ī ṃ b
+i ṛ ṣ
+i ś m
+j ū ṣ
+k i c
+l o g
+l ū n
+m ī g
+ṅ   g
+n g r
+n ū d
+o d ū
+p l ī
+r ḍ h
+ṝ n d
+ś c u
+ś o y
+s ṛ ṃ
+ṣ ū c
+ś v ī
+t a e
+ṭ p r
+u ḍ m
+ū n d
+ū v ṛ
+v e ṅ
+y i s
+  ḍ e
+  n d
+  r t
+ā a p
+a ḍ ū
+a m ḍ
+b ā s
+c a ṅ
+c u  
+e a r
+e l  
+e r l
+e ś ū
+g i ṣ
+g ṛ ñ
+h ī h
+ī d g
+ī h ī
+ī h ṛ
+ī h y
+i k n
+i m ś
+ī s y
+j i ś
+ṃ   ū
+m a ḍ
+m l l
+m ṇ a
+ñ ā ñ
+ṇ o l
+n v o
+p ṛ ṭ
+ṛ ṃ t
+ṛ s v
+s a e
+ṣ o s
+ś y u
+ṭ e s
+ū r g
+' b u
+' d ā
+' j ā
+' ś e
+ā c ñ
+a h ṝ
+ā n j
+ā r ḍ
+a t ṣ
+ḍ g o
+ḍ r o
+e p ī
+g e d
+ḥ   ṭ
+ḥ k v
+ḥ t a
+i ḍ ī
+i ṭ ā
+j r o
+j v i
+k   u
+k u y
+l u ṅ
+n ḍ a
+n k ī
+p c h
+r e l
+ṛ g g
+ṛ ṃ d
+ṛ ṃ j
+r r i
+r ū ñ
+r ū v
+ś o g
+t v ī
+u g  
+y e ḥ
+  ḍ u
+  u ñ
+' ' j
+' g u
+b i d
+b u ṃ
+ḍ a ñ
+d d y
+d u j
+e s y
+g   j
+h ṝ ṅ
+ī c h
+i k v
+ī ñ  
+j e ḥ
+j u ṃ
+k e ḥ
+l ī ḥ
+l o y
+ṃ m e
+m n y
+ṃ v r
+o j o
+p u b
+r   t
+r ū s
+ṣ i l
+ś o l
+ś ū ṃ
+t ā i
+y ī v
+  e ṇ
+  l ū
+' ' v
+' h i
+’ s a
+ā a n
+b ā t
+b ṛ s
+c i g
+d e ṃ
+ḍ e s
+ḍ ī m
+d o a
+ḍ r e
+d u y
+g k a
+g o ṃ
+g ū ṃ
+ḥ k ī
+i n r
+i s k
+ī s m
+i ṭ p
+j ā ṇ
+j h ā
+j o h
+k o ’
+k t ū
+l l y
+ṇ ā ṭ
+ṇ e ṃ
+ñ ī ṃ
+o m ṇ
+o s u
+o t ṛ
+p ū ṃ
+ṛ s n
+ṛ ṭ a
+ś ā '
+s ṛ ṅ
+ṣ ṣ a
+ṭ   b
+ṭ   m
+t e ’
+ṭ e v
+t v y
+u ḍ ī
+ū j j
+ū p r
+ū ś v
+v ū r
+y ā i
+  ḥ a
+' ' g
+' r y
+' s ū
+' y ā
+a   ṅ
+ā ḍ b
+ā e k
+a m ṭ
+ā ṅ n
+b h v
+b ū v
+c a ṛ
+c c ū
+c ū l
+d a ḍ
+e g r
+e h ṛ
+e j ī
+e m n
+e v r
+g d v
+g i s
+ī h o
+ī j  
+i k c
+j e m
+j u v
+k ā ḍ
+l l u
+m ī ṇ
+ṃ j u
+ṃ l o
+m o l
+ñ a g
+n a ṇ
+n h ṛ
+o a g
+o ṃ t
+o t ṝ
+p o s
+ṛ d ī
+ṛ g d
+ṛ n i
+ṛ r ā
+s ā ṭ
+ṣ ī p
+ṣ o a
+ś o s
+ṭ ī ḥ
+t ṛ c
+ū   m
+u g b
+v d y
+y a ā
+  r n
+  ṣ i
+' r ṇ
+’ t h
+a h ṇ
+ā n ṣ
+a ṛ k
+b j i
+c e v
+c ñ ā
+c ū c
+ḍ d ī
+d ī g
+ḍ y e
+e a b
+e a ṣ
+e c y
+e l e
+g d i
+g ī d
+g ṛ ṣ
+g u ṭ
+h ā a
+h ū ñ
+ī g i
+ī ñ j
+ī ś ī
+j i p
+k ī g
+k ū n
+l ā '
+l k ī
+l y u
+ṃ   ṅ
+m d a
+ṃ ḍ h
+m s t
+ṃ ś ū
+ṃ y e
+n ā a
+n e ṃ
+n ṛ l
+n ś a
+ṇ v i
+o '  
+o ’ n
+o ḥ p
+o s ā
+o ś ṛ
+p ā '
+p e ḥ
+p u v
+ṛ ḍ b
+r i ṅ
+ṛ ṭ h
+ṣ j ī
+s n o
+ś ś r
+ṣ ū r
+ṭ k u
+ū   j
+ū g r
+ū n p
+v ā ṛ
+  a ḥ
+  r d
+  ṣ y
+’ s i
+' y o
+ā ' c
+a ā l
+ā b y
+ā ṇ  
+a t d
+ā ṭ s
+b ā ś
+c e j
+c e p
+c u ṃ
+ḍ   e
+ḍ o t
+e k t
+ḥ k ū
+i ḍ b
+i s ī
+i t n
+k a ḍ
+ṃ ' g
+ṃ b ī
+ṃ j y
+n ṛ j
+o ṃ b
+o n o
+o s v
+p   c
+p e ṃ
+p e p
+p u y
+r a ṛ
+r c u
+r k k
+ṣ ī ś
+ṣ ī ṣ
+s ī y
+ṣ j ā
+ṣ ṭ ū
+ś u y
+ṭ   o
+ṭ e y
+ū   y
+ū p h
+v ī ṭ
+y ī k
+  ā ṭ
+  ṅ a
+' ' h
+' r p
+ā m m
+ā ṃ ṣ
+ā m ṭ
+b i j
+b u ś
+d e '
+e ḥ s
+e ṭ h
+g ī v
+ī   o
+ī ṃ p
+ī ṃ t
+i ṅ  
+j ī n
+k ī ḥ
+k m e
+k t t
+l u ṇ
+ṃ ḍ ū
+m p ṛ
+m t a
+ñ j o
+n ṣ a
+n s m
+o ḥ ś
+o l m
+o ś r
+o ś ś
+p u g
+r b ī
+ṛ c i
+r i ḍ
+ṛ ṃ k
+ṝ ṅ k
+r n o
+ṝ n p
+r o ṭ
+ṛ ṣ m
+s e s
+ṣ ī c
+ś ī ṣ
+s s t
+ṭ ā ñ
+u h m
+v a a
+v e a
+v o ’
+v v i
+y ī ś
+  ḥ p
+  ī t
+  ṇ i
+  म ह
+' ś o
+ā a d
+ā ṇ m
+ā ṭ u
+b ā k
+d ā ṣ
+ḍ a ṣ
+ḍ ī p
+d o j
+d ṛ s
+e p ṛ
+g a ṣ
+g ā ṣ
+g d ṛ
+g e ṃ
+g i d
+g u c
+g v ṛ
+h ā i
+ī r h
+ī u d
+j e r
+j e v
+j ī k
+l ū p
+l ū t
+m j a
+ṃ n ī
+m o ṭ
+m p y
+m ṛ  
+m s a
+ṇ   m
+n ā ṇ
+n g o
+n ṛ d
+o ḍ e
+o ś i
+p e r
+p e s
+ṛ c e
+r ī u
+ṛ m e
+r ū l
+ṣ   t
+ṣ o c
+ś ś ī
+ṣ ū  
+ṭ   ā
+ṭ   e
+t ī ñ
+ṭ o ṣ
+t s k
+u g n
+ū m n
+v ā ū
+  i ś
+  n m
+  n r
+  t k
+' ś i
+a ā n
+ā a s
+a ā t
+a g k
+a ñ ś
+c h l
+d e m
+ḍ o v
+d ū p
+e c e
+e ṃ ś
+e ṛ ṣ
+e s e
+g   r
+g j ā
+g ū n
+h u ḍ
+ī d o
+i ḍ v
+i g j
+ī l  
+j i ḥ
+k o g
+k ṛ ṭ
+k s i
+ṃ t ū
+n e a
+n h e
+ñ j ū
+o a v
+o ṭ ā
+p o c
+r   ś
+r a ḍ
+r e ṅ
+ṛ r n
+s ā ṇ
+s ī l
+s ū ṃ
+t ḥ n
+ṭ u  
+ṭ u ś
+ū c ā
+u ḍ i
+ū ṣ o
+y   o
+y e ’
+y ī n
+स य  
+  c d
+' ' p
+' b j
+a ā d
+a ā g
+a ḍ ṛ
+a g l
+b e ṣ
+d   s
+d o y
+ḍ u ṣ
+e   ṇ
+e c o
+e s o
+e t ṛ
+g g h
+h e a
+i g e
+i ṃ ṣ
+j u k
+k   h
+k   r
+k t ṝ
+l u ṭ
+ṅ k y
+ṇ o ’
+n ṛ n
+o k ṛ
+p ī r
+r ' j
+r ā i
+r b o
+ṛ k ṛ
+ṛ p ī
+r y ṛ
+ś o j
+ṣ o ṣ
+s s e
+ṣ t a
+ṭ ṭ o
+ṭ ū y
+u g y
+u j v
+u n  
+ū p ṛ
+y a ḍ
+y u ṇ
+  h ṝ
+' j u
+' ṅ k
+' p ū
+' ś m
+a   '
+ā   ṭ
+a ā y
+a j ṛ
+a k ḷ
+a ṭ ū
+a y v
+b ī  
+b ṛ d
+b v ā
+ḍ ā h
+d h d
+e g ī
+e ñ c
+g d u
+g i g
+g i ṃ
+g i v
+g u j
+h y ṛ
+i n h
+i ṭ k
+j a ṣ
+k i g
+k i v
+k ṛ l
+l o ṭ
+m a e
+m a ṛ
+m ṇ o
+m ū  
+ṇ ā ṇ
+n v r
+ñ y ā
+o ḍ i
+o n d
+o ṭ e
+p e m
+p o k
+p o ś
+p u d
+p y ū
+ṛ   p
+r ī ṅ
+ṛ j v
+ṛ ṭ ā
+ṛ ṭ p
+ṣ a a
+ṣ o k
+ṣ t i
+ś u ṅ
+ṣ y u
+ṭ   g
+t h ṛ
+ṭ i c
+t k l
+t r t
+u h l
+u ṣ ṣ
+v a e
+v u k
+  ' ṛ
+' ' r
+' n ī
+' r b
+ā '  
+a a p
+a b ū
+ā c u
+a l h
+a m h
+ā n l
+a p  
+ā r  
+a ṣ ṇ
+ā ṣ u
+b a c
+b a ñ
+b d y
+b ṛ t
+b y o
+c i ñ
+c u c
+d b o
+ḍ e d
+d n ā
+ḍ o n
+ḍ ṛ t
+e a d
+e ḍ ā
+e s p
+g v y
+i   ḥ
+ī d ī
+ī m ī
+j ī g
+j j o
+j o a
+j u m
+k i ṭ
+k ś r
+l h ā
+l i c
+l o ṃ
+ṃ   ṇ
+ṃ c ū
+ṃ g ū
+m ū d
+m u y
+ñ ā h
+n ī ñ
+n ṛ c
+n r ṇ
+n s e
+ñ ś i
+o ḍ ī
+p e ṭ
+p s ū
+ṛ   s
+r ā a
+r c ī
+r n  
+s c h
+ś e h
+ś e j
+ṣ i h
+ś n e
+t i ḍ
+t ī l
+u   ḍ
+ū   ś
+v ā i
+v ī ñ
+y ṛ t
+त व  
+  e y
+  g y
+  ū d
+  u ṭ
+' ' c
+' p u
+' v ṛ
+a b y
+a e t
+b r ī
+c d  
+ḍ   d
+d ī h
+d m y
+d v u
+e   ḍ
+e ' ṅ
+e c h
+e j ṣ
+e l ī
+e ṇ v
+g b u
+g i p
+ḥ ś l
+ḥ ś o
+i ḍ o
+i ḥ ṣ
+i h u
+i r ṣ
+i v h
+j ā ṣ
+j i ṃ
+j j ṣ
+j o y
+j ū n
+k ī j
+k ṛ ṇ
+k u  
+l o s
+l u j
+ṃ ' b
+m ā a
+m ī j
+m ṇ e
+ñ ī y
+n ṛ m
+n r o
+ṇ ṭ o
+ṇ v  
+o   ḥ
+o l y
+o s ṛ
+p e j
+p ī g
+p s e
+r a a
+r l ā
+ś i c
+ś m e
+s o j
+s s y
+ś y  
+ṭ   y
+t a a
+t p o
+ṭ t i
+u c h
+ū j e
+u k p
+y i r
+y o ṅ
+त   स
+  b y
+  d b
+  r g
+  ś ś
+' a ṣ
+' p ṛ
+' t e
+ā a a
+a a t
+ā u p
+b h d
+b i ḥ
+b j o
+b u t
+c o a
+d   o
+ḍ o g
+d o ś
+e ṃ b
+e s s
+g j ñ
+h a ṛ
+h d a
+h ṛ p
+ḥ s k
+i ḍ  
+i i t
+ī ṃ k
+i ṃ m
+ī ṃ m
+ī ṃ n
+ī n ū
+ī ṣ ū
+i ṭ  
+j c a
+k e h
+k l ṛ
+k o ṃ
+l e a
+l ṛ p
+l ū  
+n a a
+ñ ā l
+ṇ e j
+ṇ e ṭ
+n ś r
+ṇ ṭ i
+o   ī
+o a ś
+o ḥ k
+o r c
+p e v
+p p ā
+p t ṛ
+ṛ b a
+r e ’
+ṛ k c
+r l ī
+ṛ s ā
+s a ḍ
+s ā ḍ
+ś e ḥ
+ś e l
+s i ḥ
+ś o ṃ
+ś o ś
+s s ū
+t a ā
+ṭ k r
+t o ṅ
+t r n
+u b ī
+ū ḍ e
+u g v
+u ṃ m
+u r k
+u r ṛ
+u s k
+ū v e
+v a ā
+य त  
+  r ṛ
+  ṭ i
+'   n
+' r ā
+’ s y
+a ḍ y
+a m g
+a m ṣ
+a ū r
+b i p
+b ṛ ṣ
+b u ḥ
+c e ṭ
+ḍ o '
+d r d
+ḍ u h
+e a v
+e r t
+g ā '
+g ṇ a
+g ṇ ā
+h   y
+i a n
+ī ḍ u
+i m y
+ī ṭ o
+k n ī
+l k o
+l o a
+l o ñ
+m u ḍ
+ñ a j
+n i ñ
+n m l
+ṅ m ū
+ñ o t
+n ś i
+o r k
+ṛ   d
+ṝ n ā
+r ṛ k
+r s a
+ṛ t ṛ
+ṭ   j
+ṭ e c
+ṭ e p
+ṭ ī c
+ṭ o ’
+t ṝ ñ
+t ū b
+u b ṛ
+ū ṅ k
+u ṛ ṣ
+ū ś ā
+u s y
+v   ī
+v h ā
+y ī d
+y i p
+  h v
+  m y
+  r h
+  ṣ v
+  स व
+' g ṛ
+' r g
+' ś ī
+' t u
+a a r
+a a s
+ā a ś
+a m ṃ
+a n j
+ā ṭ k
+a v d
+b b i
+c e s
+d ā ṇ
+d r v
+ḍ u ṇ
+ḍ u v
+e   ḥ
+e b u
+e b y
+e e k
+e h n
+e ṇ ṇ
+h a a
+ḥ n  
+ī l u
+i ṃ r
+ī n g
+ī r l
+i ṭ ṭ
+i t ū
+j e s
+j i l
+j i y
+j o c
+j o ṃ
+k k e
+k k ṣ
+k s ṛ
+l ī j
+ṃ ḥ  
+ṃ m ī
+ṃ n ṛ
+ṃ n t
+m p o
+ṃ t ṛ
+m ū v
+ñ o v
+n s n
+o ’ r
+o a  
+o c  
+o ṃ g
+o ṣ v
+o y ū
+p t r
+r   r
+ṛ ñ c
+ṛ s ī
+r ṣ ū
+r u ñ
+ṣ ī g
+ś i h
+ṣ o ś
+ś ś e
+s ṭ a
+ś t h
+ṭ k ṛ
+ṭ o y
+ū g o
+v e ’
+y a ṛ
+y ī p
+y ū m
+  g n
+  i b
+  n t
+  ṇ y
+  o g
+  r j
+  ṭ ī
+  ū ḍ
+  स म
+' s p
+ā a h
+a b e
+ā b o
+ā i ṃ
+ā i n
+a ṃ ṇ
+a ñ a
+a ṅ j
+a ṇ j
+ā r s
+b ā c
+c c ī
+c c u
+c h m
+c u p
+ḍ ā ñ
+ḍ d a
+ḍ e k
+ḍ g i
+ḍ h v
+ḍ ī c
+ḍ ī d
+d ī ñ
+ḍ i s
+d o ’
+d ū k
+e ' c
+e ’ t
+e ḥ ś
+e ṭ i
+g   ū
+g b ā
+g e g
+h i ñ
+h ṛ  
+h ṭ h
+ī b u
+i d ṝ
+ī g e
+i g l
+ī k ī
+i l  
+i ś ṭ
+j ñ u
+j o k
+k o ḍ
+k ū  
+l e g
+ṃ ' d
+m ì  
+ṃ m  
+m r ī
+n b u
+ṇ d a
+ṇ j a
+ṅ k l
+n l o
+n ś u
+n ū k
+o   ḍ
+o a k
+o b i
+o j u
+r   p
+ṛ d ṛ
+r ī a
+r j o
+ṝ n b
+ṛ r a
+r ṛ d
+ṛ ṭ  
+ś l ī
+ś ś ū
+ṭ h ṭ
+t ṛ ā
+ṭ s v
+t u a
+ṭ u s
+ū   b
+ū k ī
+u m l
+ū ñ j
+u ṅ m
+ū v o
+y b h
+y ī r
+त   श
+  k y
+  o d
+  म न
+' ' y
+' a c
+' a k
+' a ś
+' c c
+' t o
+a a  
+ā a m
+a a v
+a b  
+ā ḥ ṣ
+ā i y
+ā t n
+ā t ś
+b ā g
+c ī d
+c u d
+c u t
+ḍ   r
+ḍ e '
+d e g
+d o ṃ
+ḍ o s
+d ū c
+ḍ u c
+d u ṇ
+d y b
+e   ṭ
+e ’ h
+e s ī
+g   ṛ
+g b r
+g d o
+g o a
+ī   ḍ
+i   ṇ
+i e k
+i g k
+ī ṃ r
+ī n h
+i ṅ n
+i ṇ u
+ī ṛ ṣ
+j e j
+k ā i
+k e a
+k n y
+k o ṅ
+l u g
+ṃ c y
+m l u
+m ṃ  
+ṇ a a
+ñ a l
+ñ c ū
+n h ā
+ṇ ṇ e
+ñ ś u
+n u ñ
+n ū ṣ
+ñ y a
+o l v
+o m b
+o s ī
+o ṣ ī
+o ś y
+p o ṃ
+ṛ i t
+ṛ j o
+ṝ n n
+r n ū
+ṝ n u
+ṛ ś v
+s   k
+s a ṛ
+ṣ e a
+s p ā
+ś ś ṛ
+s ū m
+t ā ā
+ṭ ī p
+t n u
+ṭ t a
+ū   l
+ū c ū
+ū l l
+u m ḍ
+ū ñ c
+u n ḍ
+ū n h
+ū n ī
+v o ṅ
+त   त
+न त  
+र म  
+  ḍ o
+  ḥ v
+  ḥ y
+  ṇ ḍ
+  क र
+  श र
+' a j
+' d v
+' k e
+' k u
+' r ī
+' s o
+’ t i
+ā a r
+ā ḍ u
+a h  
+a ḥ a
+a i a
+ā j h
+ā ṛ t
+ā u  
+a u ṅ
+b e y
+b o g
+c ī ś
+d   m
+d   t
+ḍ ā ṅ
+ḍ ḍ h
+ḍ e b
+ḍ ī ṣ
+d o ṅ
+d ṛ h
+ḍ u d
+ḍ u g
+e ḍ y
+e k v
+e t ṣ
+g e a
+g g r
+g y  
+h a e
+h o ṅ
+h ṛ s
+h ū ṅ
+ḥ y a
+i ḍ e
+ī d ū
+ī ḥ k
+ī ṃ v
+i ṇ v
+ī s o
+j ā ū
+j e '
+k e g
+k e j
+k e ṃ
+k e ṭ
+k v i
+m i ḍ
+m k h
+ṃ n d
+ṃ n o
+m ṛ ṭ
+m ū b
+n ā ṛ
+n e ṅ
+n p h
+n p ī
+n p o
+ñ ś r
+ñ ś ṛ
+n t t
+ñ y u
+o a ṣ
+o c o
+o ṃ s
+o v o
+ṛ   c
+r   s
+r ' d
+r j ṣ
+ṛ j ū
+r k ī
+ṛ v e
+ṛ v r
+s   y
+s ā a
+s e j
+ṣ e j
+ś i ñ
+s m u
+ṣ p ū
+ṣ t h
+ṣ u h
+ṭ i ñ
+ṭ p h
+t ṛ ṃ
+t ṣ o
+u k c
+ū k i
+u ṃ l
+ū n b
+u ṅ n
+u t d
+u ṭ y
+v h a
+y ā ā
+त   व
+र ण  
+स त  
+  ' i
+  e p
+  ḥ d
+  ḥ n
+  j ū
+  o k
+  ṛ á
+  r ṣ
+  स  
+' i h
+a   ñ
+a ā  
+a ā c
+ā ḍ e
+ā g l
+ā i m
+ā ṃ '
+ā ṛ k
+ā r n
+ā s c
+a ś t
+ā ṭ p
+ā v d
+ā v ṇ
+b e c
+c   ś
+d ā a
+ḍ ā ḍ
+ḍ i ḥ
+e '  
+e a m
+e k ū
+h b h
+ḥ b h
+ḥ p ī
+h ṛ h
+h ṛ r
+i   ṭ
+i c ī
+ī h r
+ī j ñ
+i y i
+j ī ṃ
+j o s
+j ū k
+k   l
+k p t
+l u c
+ṃ ' j
+m b v
+ṃ ḍ y
+m h a
+m o ś
+m ṛ p
+n   ḥ
+n a e
+ṇ a ṇ
+n a ṛ
+ṅ j a
+ṅ k v
+n m y
+n ś ṛ
+n s y
+ṇ ṭ ī
+n ū ḥ
+o ’ k
+o ḍ r
+o l p
+o ṃ d
+o ṇ ḍ
+o n ū
+p   y
+p u h
+ṛ   b
+ṛ   n
+r c o
+ṛ k ṇ
+ṛ k ś
+r s i
+ṛ ś ū
+ṛ ṭ i
+r y i
+ṣ e h
+s e l
+s ī ṣ
+ṣ j u
+ṣ p u
+ś ś o
+ś ū b
+t ā ṛ
+ṭ e m
+ṭ k ṣ
+ṭ o g
+ṭ o k
+ū   g
+ū   h
+u k v
+u l v
+ū m ì
+u ṃ r
+u p p
+u y ū
+v ā e
+v ā u
+v v o
+y ā u
+y ī c
+y ū s
+त   न
+त स य
+  j j
+  k k
+  r b
+  r c
+  ṛ ṅ
+  त  
+’ n a
+ā   ṃ
+a a m
+a ā v
+ā a v
+ā b ṛ
+ā e v
+a i i
+ã ṃ  
+a ṅ a
+a ṇ d
+a ṅ v
+a t ś
+ā u t
+b ā ḥ
+b i  
+c e b
+c ī g
+d ā ṭ
+ḍ b r
+d d d
+d e j
+ḍ e r
+ḍ u  
+ḍ ū ṃ
+e a ś
+e j v
+g e j
+g g o
+g ī ḥ
+g i j
+g i y
+h ā ṛ
+h e ḍ
+ḥ m a
+h ṛ ñ
+ḥ s ī
+ḥ ś y
+i   ḍ
+i m h
+i m s
+i n ū
+i ṣ t
+i v u
+j e g
+j ī p
+j v ī
+k k o
+k ṇ a
+k o ḥ
+k ṛ  
+k u g
+k y  
+l a ṇ
+l l ū
+l o ’
+m a a
+ṃ c ī
+m e ’
+m ì s
+m k a
+ṃ ñ c
+ṃ p o
+ṃ r v
+m ṣ a
+ṃ v o
+ñ ā '
+ñ ā g
+ñ ā j
+ṅ b h
+n b i
+ṇ e a
+n i ṅ
+ñ i n
+n i ṛ
+n r ū
+n t ṝ
+n ū h
+ṅ y a
+o ' ṇ
+o a m
+o b ṛ
+o ḍ ḍ
+o h u
+p ṛ d
+p ū c
+p ū k
+ṛ   ś
+r ' g
+ṝ ṃ  
+ṛ ṅ n
+ṛ n u
+r o ṅ
+r ś u
+r u ṅ
+ṣ ī j
+s k r
+ṣ p ṛ
+ś v  
+ṣ v ī
+ṭ   i
+ṭ   r
+t ā ū
+t i a
+t ī ṅ
+ṭ o ṃ
+t u ā
+t ū c
+ṭ u l
+ū d u
+ū k ṛ
+ū n k
+v r o
+v v ī
+y a '
+y ā ’
+y ū d
+त   म
+त म  
+य   प
+व त  
+  ḥ ā
+  ḥ b
+  h n
+  त त
+'   d
+' d e
+' h y
+' ṇ i
+’ n y
+' ś ā
+’ t r
+ā   ḥ
+a a h
+a ā h
+a a k
+ā a k
+a h k
+a n c
+ā n c
+a ṇ n
+ā r l
+a ś ṭ
+a ṣ t
+b ā p
+b i v
+c ā ḍ
+c ī c
+c o y
+d   p
+ḍ   u
+ḍ ḍ a
+d e a
+ḍ ī j
+ḍ j ā
+ḍ o b
+ḍ o k
+d ṝ ṇ
+ḍ ū l
+e ṃ n
+e r k
+e ṣ t
+g   m
+g ī g
+h ṛ ā
+ḥ ṣ v
+ḥ v i
+i a u
+ī b i
+ī ṃ c
+ī ṣ p
+ī t ṛ
+j h o
+j j ū
+j u d
+j u t
+k   ṛ
+k a e
+k ī ḍ
+k ī ṇ
+k ṣ r
+k s y
+k ū c
+l i ñ
+l o ś
+m ā i
+m c i
+m m ū
+ṃ ṅ g
+ṃ ṅ k
+ṃ n u
+m ṛ b
+ñ a c
+ṇ ā i
+ñ a ñ
+ṇ e g
+ṇ i a
+n ī ṅ
+ṇ ī ñ
+n o ḍ
+ñ o d
+n r i
+n ṛ y
+o ś u
+o ṭ h
+p o ’
+p t ī
+r ' y
+ṛ ā ṇ
+ṛ b ā
+ṛ b r
+r e ḍ
+r g g
+ṛ g j
+ṛ g l
+r ṃ s
+r ṛ ṃ
+ṛ ṣ k
+ṛ y o
+s   n
+s a ā
+ś a a
+ṣ a ā
+ś e a
+ś ī j
+ś m y
+s v ṛ
+ṭ   l
+ṭ   u
+t ā e
+t e ṛ
+t i ṇ
+ṭ i ṭ
+ṭ k e
+t u i
+u   ṇ
+ū d ṛ
+ū k u
+u ṃ h
+u m v
+u ṅ  
+ū p l
+u r p
+ū ś r
+v u  
+v u v
+y i d
+y ū ḥ
+क त  
+त   क
+न   स
+म न  
+  ā ṇ
+  ī s
+  ñ a
+  इ त
+  त स
+  न र
+  प त
+' b ā
+' d ī
+' h o
+' m ū
+’ p a
+’ s u
+' s v
+ā ’ v
+a a ś
+a ā s
+ā a y
+ā b ū
+ā ḍ ḍ
+ā h  
+ā i h
+a ṃ '
+a m c
+a ṃ ḥ
+a ṃ ṅ
+a ñ i
+a ṛ c
+ā u d
+b b a
+b h b
+b ī ṃ
+b u c
+c i ṇ
+c o ḍ
+c o j
+c v ā
+ḍ   ā
+d   k
+ḍ b a
+ḍ d h
+d ṛ v
+e ’ n
+e ḥ k
+e ḥ p
+e h u
+e ś ś
+e u p
+g j i
+g m ū
+h d h
+h d y
+h e ’
+ḥ k l
+ḥ n a
+ḥ v a
+i i  
+i j h
+ī j u
+i ṃ ṅ
+i m r
+i m v
+i ṅ a
+ī n r
+i n ś
+i ñ ś
+ì s t
+i ṭ ī
+ī t ū
+i u p
+j a ṇ
+k a ṛ
+k p h
+k p i
+k ś u
+k y u
+l g i
+l u ñ
+m i i
+m k ṛ
+m k ṣ
+ṃ k ū
+ṃ ṇ a
+ṃ r d
+m ś e
+ṃ t t
+ṇ a ā
+ṅ a g
+n ā i
+n c h
+ṇ ḍ v
+ñ e b
+n i i
+n k ū
+o   ṇ
+o ’ ś
+o ’ v
+o h r
+o m ṭ
+o ñ j
+o p ū
+p i a
+p o ṭ
+p ū v
+p y ṛ
+ṛ   h
+ṝ ḥ  
+ṛ h n
+ṛ h ṛ
+r ī ṛ
+ṛ j  
+r ṃ ś
+ṛ m y
+r p ī
+ṛ r t
+ṝ ṣ a
+r s t
+ṛ s ū
+r s v
+r ṭ h
+ṛ ṭ s
+s   a
+s   v
+ṣ e g
+ṣ o ṭ
+s ṛ s
+s s s
+ṣ t ā
+ṣ t y
+s ū ṣ
+ś ū ś
+t   ḍ
+ṭ   ṣ
+ṭ e k
+ṭ i ṅ
+t i ṛ
+t r ṃ
+u c ū
+u ḍ r
+u j h
+u ṃ ṣ
+u ṃ y
+u ṣ t
+u u  
+v a ī
+v ṛ ṅ
+y y u
+z g a
+त   प
+न   व
+न म  
+य   त
+य   म
+र य  
+  ā ḥ
+  h m
+  ḥ m
+  ḥ ś
+  ī n
+  l p
+  ṇ e
+  n h
+  o r
+  ṛ  
+  ṛ m
+  r ṇ
+  ṛ s
+  ṝ ṣ
+  u ṃ
+  ū m
+  ū ṃ
+  व र
+’ b r
+' j ī
+' p h
+’ r c
+ā   ṅ
+a ' s
+a a d
+a a g
+ā a j
+ā ā n
+a a y
+ā ā y
+a ḥ t
+ā ṇ ṭ
+a o ṃ
+a p p
+ā p p
+ā ṣ ṇ
+ā ś t
+ā ṭ t
+b o t
+b r e
+b u h
+b u l
+b ū ś
+c m y
+d   n
+d d b
+ḍ e p
+d ṛ m
+d ṛ r
+d ū h
+ḍ y  
+e ' ṇ
+e a k
+e ṇ ḍ
+g d ī
+g i c
+g i ś
+g ū t
+ḥ   '
+h   s
+h ā u
+h i i
+h ṛ ṭ
+ī   ḥ
+ī b o
+ī j ṣ
+ī j v
+i ṃ y
+j h ī
+k   ṣ
+k c i
+k k ī
+l ā i
+l e ṅ
+l g ū
+l o ḥ
+l o ṅ
+l ū r
+m   ṭ
+m a ā
+ṃ h l
+m ì ś
+ṃ ṇ ḍ
+m p h
+m ṛ r
+m ś c
+ṃ ś t
+m ū s
+m v ṛ
+ṅ a  
+ṇ e l
+ṅ e n
+ṇ g a
+ñ j h
+n l a
+n m r
+ṇ n a
+n n ṝ
+n s p
+ṇ u ṇ
+o   ṅ
+o h l
+o ṃ m
+o p h
+o ṛ ṣ
+p   t
+p a e
+ṛ   g
+ṛ   i
+r ā e
+r b b
+r ḥ  
+ṛ j ī
+ṝ ñ c
+ṝ n m
+r ṇ u
+ṛ s e
+ṛ ṭ t
+ś b h
+ṣ j ñ
+ṣ m u
+ṣ o ’
+ś p a
+s p i
+s s r
+ṣ ṭ ṭ
+ṭ ā ḍ
+ṭ ā ṇ
+ṭ a ṭ
+t b h
+t i ā
+t i e
+t i i
+ṭ ī ṣ
+ṭ o c
+t o ḍ
+t ś r
+t t ṝ
+t t t
+t u ñ
+ṭ u n
+ū   i
+ū b u
+ū d ī
+u g ū
+ū m ū
+ū ṇ o
+ū r h
+u ṣ  
+ū ṣ ṭ
+ū t n
+v ā ’
+v o ṇ
+v ṛ p
+y a ī
+त न  
+प त र
+य   स
+य य  
+व स त
+ह त  
+  a ḍ
+  c f
+  i s
+  ḷ  
+  ṅ k
+  o t
+  ṣ ṇ
+  ś ṭ
+  ū  
+  ū p
+  र ज
+' ḍ a
+' g i
+' l i
+' n ū
+' ṇ u
+' p o
+' r o
+' ṛ t
+' t t
+’ v a
+a ' p
+ā a g
+a ā k
+a a ṃ
+a a ṣ
+a ā ś
+ā ā t
+a ḥ h
+a ḥ ṛ
+ā ī ś
+a ṇ k
+a ṇ t
+a r ḍ
+a s ṝ
+ā ṣ ś
+ā t b
+a u '
+b e j
+b e ś
+b i ś
+b o l
+b o n
+b ū h
+b ū y
+c f  
+c ū  
+c u n
+ḍ ā '
+d a ṭ
+ḍ d i
+ḍ ī ḥ
+d i ṛ
+d i ṭ
+d ū b
+ḍ u j
+ḍ ū m
+ḍ ū t
+e   ṅ
+e a g
+e b j
+e ṃ v
+e ṣ c
+g g ā
+h ā ’
+ḥ ā d
+h g a
+h l o
+h ṛ m
+h ṛ v
+ḥ ṣ o
+ī   ṭ
+i a d
+ī b e
+i b ū
+i h ṝ
+i i ś
+i m c
+i ṇ ṭ
+i r ś
+ī ś ṛ
+ī s s
+i s ṭ
+j ī c
+j ī d
+j ī ṣ
+j m a
+j o ’
+k e ’
+k k ū
+k p l
+k s m
+k ū ś
+l y  
+m   ḥ
+m b r
+ṃ b v
+m g a
+m g r
+m h ā
+ṃ h y
+m i ṅ
+ṃ m b
+ṃ n n
+ṃ r e
+m r u
+m ṣ ṭ
+ṃ ś ṭ
+ṃ ṣ u
+m v u
+ṇ   n
+n b ṛ
+n c a
+n d d
+n e ’
+ṅ g v
+ṇ ī l
+n j ā
+n ś ā
+n ṭ h
+n ū ḍ
+ṇ ū p
+ṇ v e
+o   ṭ
+o b d
+o k r
+o ṃ a
+o p s
+o ś n
+o s r
+o ṭ o
+r   k
+ṛ   k
+ṛ   m
+ṛ   v
+ṛ c h
+ṛ ḍ  
+ṛ g i
+r g ū
+ṛ k ī
+r k u
+ṛ k v
+r o ñ
+r ṛ c
+r ṛ g
+r ṛ h
+ṛ r ṃ
+r ū g
+ṣ   j
+ṣ ā ā
+ś c c
+ṣ k ū
+ṣ ṛ t
+s ṭ h
+ś t r
+s ū l
+ṣ y ī
+t ā u
+t c h
+t e ā
+t e ṅ
+t h r
+ṭ p ā
+t ṝ ḥ
+ṭ ś i
+t u ḍ
+ṭ u g
+t u ṛ
+ṭ y  
+ū   a
+ū j  
+u m m
+u m r
+v ā ā
+v i i
+v r ū
+y ā ṛ
+y ī g
+y ī ṣ
+y v ī
+त य  
+त स त
+त स म
+न   क
+य   व
+स र  
+  a a
+  e j
+  e ś
+  ḥ k
+  ī  
+  i p
+  l y
+  m b
+  ṅ g
+  ṇ o
+  n p
+  o ḍ
+  r k
+  क च
+  ग र
+  ज ग
+  त व
+  द त
+  द व
+  न  
+  व च
+  व य
+  ह  
+'   s
+' ' b
+' c ā
+' c e
+' m o
+' n g
+' ṣ ā
+' s r
+’ t y
+' v r
+ā ’ s
+a a b
+a a c
+a ā m
+a ā ṃ
+a a ṭ
+a ā ṭ
+ā a t
+ā b b
+ā b e
+ā ḍ m
+a d n
+ā d ṝ
+ā ḍ ū
+ā e t
+a ḥ ā
+ā j ṛ
+ā l k
+ā m ṇ
+ā m t
+ã n a
+a ṛ ṇ
+a r r
+b b ā
+b ī k
+b ī n
+b u y
+c a ḍ
+c c c
+c e '
+c e ṅ
+c o ṃ
+c y  
+ḍ   y
+d ā i
+ḍ a ṇ
+ḍ e c
+d h b
+ḍ o a
+d o ḍ
+ḍ o m
+ḍ o ṃ
+ḍ o ś
+e ' j
+e ' l
+e g n
+e i n
+e i t
+e j h
+e l v
+e m  
+e ṃ a
+e m b
+e ṣ k
+e t ṝ
+g a ṭ
+g g ṛ
+g l o
+g ṛ ṃ
+ḥ p l
+h t ā
+i   ṅ
+ī c ū
+i h l
+i k m
+ī ṃ g
+i m m
+ī m n
+ī ṃ y
+i r ṅ
+ì ś c
+i ṣ j
+ī s p
+ī s r
+i ṭ s
+i v v
+j ā a
+j a e
+j a ṛ
+j h e
+j o l
+j u p
+j u y
+k ī ñ
+k ś ā
+k ś ī
+k s o
+k ū s
+l e ḍ
+l i ḍ
+l m e
+l m o
+l ū y
+m   ḍ
+ṃ '  
+m a '
+m ā e
+ṃ a t
+m c a
+ṃ d d
+m h i
+ṃ h u
+m i a
+ṃ k v
+ṃ l e
+ṃ ṇ ā
+m ṇ i
+m ṛ l
+ṃ ś m
+ṃ v u
+n a ā
+ñ c v
+ṇ e ṅ
+ṇ e ṇ
+ñ ī k
+ñ ī m
+ñ ī n
+n o ṅ
+n ū b
+ṇ ū k
+n ū l
+ṇ u ñ
+ṇ ū t
+ṅ v a
+ṅ v ā
+ṅ y ā
+o b j
+o s ū
+p i ṛ
+p ṛ i
+ṛ   r
+r a '
+ṛ ā d
+r a ī
+r b ū
+ṛ b u
+ṛ h ñ
+ṛ l a
+ṛ ṃ ś
+r r a
+ṛ r d
+ṛ r h
+r ṛ y
+r s ā
+r ṭ a
+ṛ v ṛ
+r v u
+ś   ś
+ṣ ā i
+ṣ c ī
+ṣ c o
+s e g
+s e ṇ
+ś ī h
+ṣ k ī
+s p u
+ś ṛ ṣ
+s t  
+ś t a
+ṣ ū k
+s u ṇ
+ṣ y i
+ṭ b h
+ṭ c h
+t d h
+ṭ ī g
+ṭ o ḥ
+t ṛ ñ
+t ṛ ṅ
+t ū g
+t y i
+ṭ y ū
+ū c h
+ū ḍ i
+u j ṛ
+u k ś
+ū ṃ k
+ū ṃ l
+ū ṃ r
+ū n g
+u n ṭ
+ū p ū
+u r s
+ū ṭ ī
+ū v y
+v   y
+v ī a
+v o ñ
+v ṛ b
+y e ñ
+y ī j
+y i ś
+y v o
+क र  
+क र म
+त   ग
+त   द
+त र  
+न द र
+प र य
+म   क
+म   स
+म य  
+य न त
+र   म
+र ह  
+व य  
+  ' ṭ
+  ḍ ū
+  e ḍ
+  e m
+  ḥ i
+  ī ṃ
+  ḹ  
+  l ṛ
+  ñ c
+  ñ j
+  n s
+  p n
+  p t
+  ṣ ī
+  ū t
+  ū v
+  v d
+  च  
+  भ व
+  र म
+'   v
+' ' l
+' a ṅ
+' b i
+' b y
+' d d
+' j ṣ
+' l o
+' m l
+’ ṅ g
+' p l
+' r v
+' ṭ ṭ
+' v o
+ā ’ ’
+ā ’ n
+ā ā ṃ
+a a ṅ
+ā ā s
+ā e ṃ
+ã h  
+a ḥ d
+a h g
+a ḥ m
+ā ḥ v
+ā l h
+ā ñ a
+a ṅ b
+ā ṇ d
+a ṛ  
+ā r r
+ā ś b
+a s ś
+a ṭ r
+ā v h
+a v k
+b b ū
+b e v
+b ū  
+b ū ḥ
+b ū ṣ
+b y  
+c a ā
+c ā a
+c a e
+c o h
+d e ṇ
+d h ṝ
+ḍ i c
+d i ḍ
+ḍ i ṣ
+ḍ m u
+d ṛ ṃ
+d r ṛ
+d ū ḍ
+ḍ ū p
+ḍ ū ś
+ḍ y u
+e ’ d
+e ’ r
+e a ṅ
+e ā t
+e k s
+e ṃ k
+f   k
+g   ī
+g   l
+g a a
+g d r
+g j ī
+g ṛ y
+ḥ   ṇ
+h   p
+ḥ   ṝ
+h ā ā
+ḥ a ṃ
+ḥ a u
+h b i
+ḥ d a
+h i ṭ
+h k a
+h k h
+h ṇ o
+ḥ r u
+ḥ ṣ u
+ḥ t e
+i   ṃ
+ī a k
+i ā y
+i ḍ g
+i ḍ y
+i e t
+i ḥ r
+ī ḥ s
+i i ṣ
+i k ś
+ī ṃ j
+i m ṣ
+i ṅ v
+i ṛ k
+ī r p
+i r ṭ
+i s c
+ī ṣ ṇ
+i ś p
+i y y
+j e h
+j o ś
+j u  
+k c ā
+k ī ṛ
+l e ’
+l g v
+l h a
+l m i
+l o ṇ
+l p u
+m ā u
+ṃ b d
+ṃ j e
+m l  
+ṃ n e
+m ṛ ṅ
+ṃ r t
+m ś ā
+ṃ ṣ ī
+ṃ s s
+n   ḍ
+ṅ   k
+n   ṅ
+n a '
+ṅ a n
+n b ī
+n ḍ i
+n e e
+n e l
+n g e
+n h u
+n i a
+n i ṇ
+ñ ī s
+ñ ī t
+ñ j v
+n m  
+ṇ m e
+ñ o c
+ñ ś ā
+n s r
+ñ u ḥ
+n ū s
+n ū ś
+n y ṛ
+o a j
+o c h
+o m l
+o ṃ p
+o m r
+p c a
+p e h
+p ū ḍ
+p ū ḥ
+p ū ñ
+r a e
+r ā ṛ
+ṛ á ṣ
+ṛ ḍ g
+ṛ ḍ ī
+ṛ m ṛ
+r ṃ y
+ṛ ṅ a
+r n u
+r ṛ ñ
+ṝ ṣ i
+r v  
+ṛ y u
+s   d
+ś   s
+s ā i
+s a ṇ
+s c ā
+ṣ c e
+ṣ e l
+s h a
+ṣ ī ñ
+ṣ j e
+ṣ j i
+ṣ j ṣ
+s k e
+ś l  
+š o  
+ś ṛ n
+ṣ t r
+ś ū c
+s ū g
+s ū v
+ṣ v o
+s v y
+t   ḥ
+t a ū
+t e i
+t e ṇ
+t ḥ  
+t h k
+ṭ h ū
+ṭ ī j
+t i u
+t o ṭ
+t r  
+t r ṛ
+ṭ s ū
+ṭ u d
+ṭ ū n
+t u o
+t u u
+t ū v
+ū j ī
+ū n ū
+ū ś i
+ū ś m
+u ṣ ū
+ū ṣ v
+u y y
+v d h
+v e ā
+v ī ḍ
+v i ñ
+v ī ṅ
+v ṛ r
+v ū  
+v u g
+v u m
+y   ś
+y ā e
+y ī y
+y r ā
+ज ञ  
+त त  
+त त र
+त र स
+थ त  
+प त  
+प र ण
+ब र ह
+भ व त
+म   व
+म त  
+य   क
+र   न
+र त  
+व   त
+व   म
+श च  
+स   म
+स थ त
+  ā ñ
+  b d
+  d g
+  e e
+  ḥ r
+  p ṝ
+  ṝ k
+  r l
+  ṛ p
+  r s
+  ṛ ṭ
+  ṣ ṛ
+  ṣ u
+  t n
+  ū k
+  क ल
+  त द
+  त न
+  त ष
+  द र
+  न श
+  श भ
+  स ग
+  स र
+'   p
+’ g n
+' h ā
+' j e
+' j y
+' k i
+’ k ṣ
+’ n t
+' p n
+’ ś v
+’ v i
+a '  
+ā ’ b
+a ' k
+a ' n
+ā ā k
+a a l
+ā a l
+ā a ṃ
+a b l
+a ḍ l
+a d ṝ
+a d ś
+ā e ṣ
+a ḥ c
+a ḥ o
+ā h ṝ
+a h t
+a ī d
+ā i d
+ā i k
+a m ã
+a ṃ a
+a ṇ g
+a ñ k
+ā n ṝ
+a ṅ u
+a ṇ ū
+a ṅ y
+ā ṅ y
+ā o ṃ
+a ṛ e
+a ṣ ū
+a t c
+a ṭ d
+a u a
+ā u v
+a v h
+a y l
+b e s
+b o '
+b o r
+b ṛ k
+b ū ṃ
+b v a
+c o s
+c u b
+ḍ   g
+ḍ   j
+ḍ a ḍ
+d ā e
+ḍ ā ṭ
+ḍ b u
+d d  
+ḍ ḍ ā
+ḍ e m
+ḍ g r
+d h h
+ḍ i g
+ḍ i h
+ḍ i j
+ḍ o h
+d ṝ ḍ
+d ṛ n
+d ṝ ṣ
+d ṛ y
+d ś a
+d ū ṃ
+d v ū
+e ’ b
+e b ṛ
+e e n
+e k y
+e m l
+e ṃ s
+e r c
+e s ṛ
+e ś t
+e t m
+g ā i
+g b ī
+g ī j
+g o ’
+g ṛ  
+g ū m
+ḥ   ṅ
+ḥ ā  
+ḥ a b
+h ā e
+ḥ a s
+h a ū
+h h a
+h ī ṅ
+ḥ i t
+h k ā
+h ñ ā
+h n ū
+ḥ p e
+ḥ ṛ  
+ḥ ṣ k
+ḥ y e
+i ā n
+ī a n
+ī ḍ ī
+ī j h
+ī k v
+i m ṭ
+i n c
+i r p
+ī ṣ k
+i ṣ n
+ī ś y
+j ā u
+j h y
+j ī ḥ
+k   o
+k ā a
+k i j
+k ṛ r
+k ṣ ṛ
+k v o
+l a e
+l g ā
+ḷ k ā
+l y i
+m   '
+ṃ   ḥ
+ṃ ' ḍ
+ṃ a g
+m ã n
+m ā ṛ
+ṃ b ṛ
+m d e
+m d ṛ
+m h ṛ
+ṃ h ū
+m ī ṅ
+ṃ i t
+ṃ j o
+m m y
+m o ḍ
+ṃ o ṃ
+ṃ ṣ  
+ṃ ṣ ā
+ṃ ṣ e
+m ś v
+m v ī
+m v o
+ṇ   j
+n ā ’
+n a ī
+n ã ṃ
+ñ a ṇ
+ṅ a s
+ṅ a y
+n ḍ ā
+ṇ e ’
+ñ e p
+ñ e s
+ṅ e t
+n h r
+ṇ i ḍ
+ṇ i e
+ṇ k a
+n k l
+n k v
+ṅ n e
+n n r
+ñ o a
+ñ o y
+n p l
+n r e
+n ṛ r
+n ś ū
+ñ ś ū
+ṇ ṭ u
+n u ḍ
+ṇ y ṛ
+o   ’
+o ' ñ
+o a c
+o ṃ ḍ
+o ṇ ṭ
+o p l
+o y y
+p   d
+p   ś
+p ā a
+p e a
+p i ā
+p ī ḥ
+p l ū
+p p i
+p ū d
+r ' p
+r ' v
+ṝ ḍ h
+r d n
+ṛ e ṣ
+ṛ k r
+ṛ l  
+ṛ l i
+r ṃ  
+r n d
+r ṅ e
+ṝ n e
+ṝ n v
+ṝ r  
+ṛ r ṣ
+ṛ ṣ n
+ṝ ṣ ṭ
+ṛ ṭ ś
+r ū j
+s   b
+s   p
+s a a
+ṣ c y
+s e a
+s e ḥ
+ś e ṃ
+ś ī ṅ
+ṣ i ṅ
+ṣ i ṭ
+ṣ n a
+ś o ḍ
+ṣ r a
+ś r c
+ś ṛ m
+ś ṛ ñ
+s ś ā
+s s p
+ś t ā
+ṣ ṭ t
+ṣ ū g
+s ū j
+ś ū m
+ś ū ṣ
+ś ū t
+ṣ ū y
+ṭ a ḍ
+t a ī
+ṭ e g
+ṭ e h
+t e ī
+t i ṭ
+t ś a
+ṭ t e
+t t k
+t u ṭ
+u   ṃ
+ū   ṣ
+u b  
+u b b
+u b ū
+ū g ṛ
+u ḥ t
+ū k s
+u ṇ d
+ū ṇ e
+u ṇ v
+u r c
+ū s v
+u ṭ  
+v   o
+v a '
+v ã h
+v d i
+v o ṭ
+v u c
+v u j
+v ū l
+v u ṣ
+y ā ī
+y e ḍ
+y l o
+y s a
+y u ḍ
+y ū g
+इ त  
+थ   प
+न   त
+न   न
+न त र
+न न  
+न प र
+प र  
+प र त
+प र व
+म   त
+म ह त
+य   श
+य क त
+र क त
+र क ष
+र त न
+र प  
+र म य
+र य त
+र स त
+र ह त
+व   न
+व   व
+व   श
+व   स
+व न  
+व न श
+व र ण
+श र त
+स त स
+स म र
+  ’ p
+  ḍ r
+  e ṃ
+  ḥ j
+  ī m
+  i ṇ
+  k p
+  ḷ k
+  m d
+  m ṭ
+  ṅ ī
+  ṇ ī
+  n k
+  ṇ ṛ
+  r p
+  ṣ c
+  s l
+  š u
+  ṭ u
+  क त
+  क म
+  ग त
+  त र
+  द न
+  न म
+  प थ
+  ब र
+  म त
+  म म
+  ल क
+  व ध
+  श त
+  श श
+  स त
+'   b
+'   c
+'   t
+' ' m
+' a l
+' a ṃ
+' a ñ
+' h ī
+' j o
+’ k ā
+' m ś
+' ṇ ī
+’ r ṇ
+' ś ṛ
+' v e
+a   ṝ
+ā ’ d
+ā ' ṇ
+a ā b
+ā ā g
+a a i
+ā a ṅ
+a ā r
+ā a ṣ
+a a u
+ā ḍ d
+ā ḍ o
+ā ḍ r
+a e n
+ā g k
+a ḥ b
+a ḥ n
+a ḥ v
+a ḥ y
+a i '
+a i u
+a m '
+a ṃ ā
+a m ḥ
+a ṃ ñ
+ā ṃ ñ
+ā ṃ ṇ
+ā ṃ ṭ
+a ṅ ā
+ã n ã
+a ñ g
+a n l
+a ṅ l
+a n ṃ
+a ṅ ṅ
+ā n ṅ
+ā p k
+a p ś
+a ṛ d
+a r ṛ
+a r ṭ
+ā r z
+a ṣ m
+a ṣ ṣ
+a s ṭ
+ā ṭ c
+ā t g
+ā t ḥ
+a t ṝ
+a v  
+a v v
+ā y  
+a z g
+b   s
+b ā ñ
+b b e
+b b r
+b h m
+b ī d
+b i h
+b ī t
+b o k
+b ṛ n
+b u ḍ
+b ū j
+b ū s
+b y u
+c h h
+c r a
+c v a
+d   j
+d a ṛ
+ḍ ā ṣ
+ḍ d e
+ḍ ḍ ū
+ḍ d v
+d e ḍ
+ḍ e g
+ḍ e h
+d e l
+d g ū
+ḍ h ṛ
+d h t
+ḍ i ḍ
+d ī l
+ḍ ī l
+d r b
+d ṛ b
+d r g
+d ṝ n
+d s a
+ḍ u ḍ
+ḍ u ñ
+d ū v
+d v  
+d y r
+e ' y
+e a c
+e ā d
+e b b
+e b i
+e h r
+e i v
+e l y
+e ṃ g
+e ṃ ṇ
+e o k
+e r p
+e s r
+e ś ṭ
+e t ś
+e u d
+e u t
+e v d
+g   h
+g i h
+g i ḥ
+g ī l
+g m o
+g ṛ b
+g ṛ g
+g ṛ r
+g ū  
+g y r
+ḥ a  
+ḥ b u
+h c a
+ḥ c a
+h d e
+h e ṅ
+ḥ h a
+ḥ j a
+h k t
+ḥ l a
+h l e
+ḥ m u
+ḥ r a
+ḥ r ā
+h r v
+h ṭ a
+ḥ t r
+h v ū
+h y y
+i   '
+i ' s
+ī a d
+i a k
+i a p
+i e v
+ī ḥ p
+ī ḥ ś
+ī h u
+i i n
+i ī ś
+ī m p
+ī ñ ś
+i ṛ c
+i r ḍ
+ī ṛ t
+ì ṣ i
+i s ṝ
+i ṣ r
+i ṣ ṛ
+i ṣ s
+i ṣ ṣ
+ī ṣ s
+i ṭ o
+i u d
+ī y y
+j a ā
+j ā ā
+j i ṅ
+j j ṛ
+j ū  
+j u j
+k d h
+k e ṅ
+k h r
+k h ū
+k m y
+k ṇ ā
+k s n
+k ṣ ṭ
+k ū v
+ḷ   ḹ
+l e o
+l ī ṅ
+l i ṭ
+l ṛ k
+l u y
+m '  
+ṃ ' s
+m ī ñ
+m ì ṣ
+ṃ k ḷ
+ṃ k y
+ṃ l u
+ṃ m m
+ṃ p t
+ṃ p y
+m ṛ h
+ṃ r i
+m ś r
+ṃ ṣ v
+ṃ ṭ i
+m ū y
+ṅ   p
+ṇ   p
+ṇ   v
+ṇ   y
+ṇ ā a
+ṇ a ḍ
+ṇ a e
+ṅ a k
+n ā u
+n c ā
+ṇ c a
+n c c
+ṇ d ā
+n d b
+ñ e j
+ṅ e y
+n h ī
+n i ā
+n i e
+ṇ ī ṅ
+n i ṭ
+ñ j ṛ
+n ṃ  
+ṅ m i
+n ṅ e
+ṅ n ṛ
+ñ o b
+ñ o r
+ñ o s
+n ṛ  
+n ś  
+n s ī
+n ś v
+ñ ś v
+ṇ u ṅ
+n ū y
+ṅ v i
+o ’ ṅ
+o ḍ o
+o h  
+o p ṛ
+o u  
+p a ā
+p ṛ  
+p ṛ ā
+p ṛ g
+p ṛ j
+p ṛ s
+p ṭ h
+ṛ   ṣ
+r ' h
+ṛ ā t
+r d b
+ṛ ḍ j
+r e i
+r e ṛ
+r h ū
+ṝ k ā
+r k t
+ṛ k ū
+r m l
+ṛ m ṇ
+ṛ m o
+ṛ ṃ s
+r ṃ v
+ṝ ñ  
+ṝ ṇ a
+ṝ ṅ g
+ṝ n i
+ṛ ṇ j
+ṛ ṅ ṇ
+ṛ ṇ ṇ
+r n p
+ṛ p n
+ṛ r b
+ṛ s o
+ṛ ṣ ṛ
+r s u
+ṝ t a
+ṛ ṭ y
+r z g
+s   m
+s   ś
+ṣ   y
+s a '
+ś a e
+ṣ a ṛ
+s ā u
+ś e g
+ṣ ī h
+ś i ṅ
+ṣ k y
+s n ī
+s o ṅ
+s p t
+ṣ p y
+s ṛ c
+ś ṛ ī
+s ṛ n
+s ṝ ṇ
+s ṛ ś
+s ṛ ṭ
+s r ū
+ṣ ś a
+s s d
+ṣ s i
+s s k
+s ś u
+ś ś v
+ṣ t e
+ṣ ṭ ḥ
+s t m
+ṣ ṭ p
+s t s
+ś t u
+ś u ḍ
+ṣ v ṛ
+ś y i
+ṭ   ī
+ṭ   ṛ
+ṭ a e
+t d a
+ṭ d a
+ṭ e a
+ṭ h v
+t ī ḍ
+ṭ ī l
+t ī ṛ
+ṭ m a
+t m u
+t n  
+t ṇ ā
+t o ñ
+t ṝ r
+ṭ ś r
+ṭ ṭ ī
+t t m
+t t s
+ṭ t u
+ṭ ū  
+ṭ ū k
+ṭ u ñ
+t ū ś
+ṭ ū ṣ
+ū g ī
+ū ḥ p
+ū ḥ s
+u j c
+ū j u
+ū ṃ h
+u ñ  
+ū n t
+u n ū
+ū r ṃ
+ū ṣ ī
+ū s p
+ū ṣ p
+ū s r
+ū v ū
+v i ā
+v ṇ o
+v v y
+y e e
+y e o
+y e ṛ
+y i j
+y i m
+y i ṃ
+y o ṛ
+y ū j
+क त व
+क र त
+क ष  
+क ष ण
+क ष त
+ग र ह
+च ण ड
+च र य
+त   इ
+त   ब
+त   य
+त त म
+त त स
+त य क
+द त  
+द य न
+द र ल
+द व  
+न   प
+प र स
+भ व  
+म   इ
+म   ग
+म ण ड
+म ह स
+य   न
+य   य
+र   द
+र   प
+र   व
+र   स
+र व  
+र व स
+र स न
+ल क ष
+व   प
+व ग र
+व म ह
+व य स
+श त  
+श र व
+स   त
+स ग र
+स त क
+  b b
+  ḍ ī
+  e a
+  e s
+  g d
+  ḥ e
+  ḥ l
+  ḥ ṛ
+  ḥ u
+  i ḥ
+  k ś
+  m v
+  o h
+  ṝ t
+  s h
+  ṭ o
+  y s
+  क थ
+  क व
+  क ष
+  च ण
+  द य
+  न ग
+  न ष
+  प ञ
+  प द
+  ब ल
+  म  
+  य त
+  य थ
+  र क
+  र ण
+  व  
+  व क
+  व द
+  व न
+  व ल
+  व श
+  स थ
+  स न
+'   ṣ
+' d ū
+' h ṛ
+' h ū
+’ k h
+' l u
+' m e
+' m ṣ
+’ n u
+’ p ī
+' ṛ v
+’ ś a
+' s n
+' ṣ t
+' t ā
+' ṭ a
+' t v
+’ v y
+a ' b
+a ' h
+a ' m
+a ' r
+a ' t
+ā ā  
+ā a c
+a ā ḍ
+a ā ḥ
+ā ā h
+ā a i
+a ā j
+ā ā m
+a ā p
+ā ā p
+a b v
+ā c ṣ
+ā d ḥ
+ā e ṅ
+ā ḥ d
+ā ḥ m
+a i ā
+a ī p
+ā ṃ ḥ
+a ṃ ī
+ā m ṣ
+a ṅ c
+a ṇ c
+ā n ḍ
+a ṇ p
+a n ṣ
+ā o  
+ā ṛ d
+a ṛ g
+a r ḥ
+a ṛ j
+ā r ṃ
+a r ṅ
+ā ṝ ṣ
+a ś p
+ā ś ṭ
+ā ṣ t
+a t b
+ā t j
+a ṭ m
+ā ṭ ṛ
+ā ṭ ś
+ā u r
+a u u
+a v ã
+a y  
+a y r
+b   j
+b ā j
+b e ḥ
+b e k
+b h l
+b h ṭ
+b ī c
+b ī ṣ
+b m a
+b o a
+b o ś
+b r o
+b ū b
+c a o
+c a ū
+c h c
+c ī h
+c ī l
+c i y
+c o ṅ
+c ū ḥ
+c ū ṣ
+ḍ   n
+d ā ’
+d ā ṛ
+d b y
+ḍ ḍ i
+ḍ ḍ o
+ḍ e j
+d ḥ a
+d i a
+ḍ ī g
+ḍ i y
+ḍ j v
+ḍ l i
+ḍ o l
+ḍ ū  
+d u ḍ
+ḍ ū ḥ
+ḍ ū i
+ḍ v e
+ḍ v ī
+e ’ ṅ
+e ā y
+e c ī
+e ḍ ū
+e i  
+e ī d
+e ī ś
+e m m
+e ñ j
+e o  
+e r ś
+e ṣ ã
+e ṣ s
+e t d
+e ṭ e
+g   s
+g a e
+g e ḍ
+g e l
+g g e
+g h d
+g h m
+g k t
+g k u
+g o ṅ
+g r  
+g ṛ k
+g ṛ ṅ
+g r ṛ
+g ū c
+g ū g
+g ū p
+h   k
+h ā o
+ḥ ā r
+ḥ a t
+ḥ ā y
+h a z
+ḥ d e
+ḥ d h
+h d v
+h g u
+h ḥ  
+ḥ ḥ  
+ḥ h ā
+h h i
+h ī ṭ
+h i u
+h j a
+ḥ m ā
+ḥ ṃ ś
+ḥ n ā
+ḥ n i
+h n v
+h o ñ
+h ṛ b
+h ṛ ḍ
+h r ṭ
+h t a
+h t i
+h t r
+h ū ḍ
+h u ṛ
+ī   ṃ
+ī   ṅ
+i a b
+i ā g
+i a ḥ
+i ā s
+ī a v
+i a y
+i ḍ m
+i ḥ ā
+i i d
+i i h
+i i k
+i j c
+ì l l
+ī ṃ h
+i ṃ ñ
+i ṇ  
+ī ṅ  
+i ṅ ā
+i ṇ d
+i ṇ g
+i n j
+ī p  
+i ṛ  
+ī ṛ n
+i r s
+ī r ś
+ī ś l
+i ś s
+i ṭ c
+i ṭ e
+i t ṇ
+ī u p
+i u t
+i v  
+i v d
+i y ī
+j ā i
+j c i
+j ī l
+j ṣ y
+k a a
+k ā u
+k h v
+k i d
+k ī h
+k k h
+k l y
+k n e
+k ṛ i
+k r ṣ
+k ṛ v
+k ū d
+k ū k
+l a a
+l a ā
+l ī ñ
+l u h
+m   ṝ
+ṃ ' k
+m ā ā
+m d ā
+m i ā
+m ì l
+m i ṭ
+m j ā
+ṃ j h
+m j ī
+ṃ n m
+m ṛ s
+m s r
+m s y
+ṃ t d
+m t e
+m u ṭ
+m v e
+ṇ   a
+ṇ   c
+ṇ   s
+ṇ a '
+ṅ ā d
+ṅ a ñ
+ṇ a ṛ
+ṅ a t
+ṇ ā ū
+ṇ b h
+n b o
+n b ū
+n ḍ e
+ṇ d e
+n ḍ o
+ṅ d v
+ñ e d
+ñ e v
+ṇ g ā
+n g ī
+n h o
+n h y
+ṅ i  
+ñ i c
+ñ ī g
+ñ i ḥ
+ṇ i ṅ
+ṇ i ṇ
+ṅ ī p
+n j ñ
+ñ k a
+ñ k ṣ
+ṅ l a
+ṅ m e
+n ṇ ā
+ṇ n ā
+ṅ ṇ e
+ṅ o  
+n s k
+n ṣ o
+n t d
+ṇ t h
+ṇ ṭ y
+ṅ u l
+ṇ ū ṃ
+ṇ y i
+o ’ g
+o ā ś
+o b ī
+o g ū
+o h n
+o j h
+o k l
+o ṃ l
+o n ṝ
+o r ṛ
+o s h
+o s p
+o t m
+o y i
+o y ī
+p   s
+p ā i
+p b h
+p h r
+p k a
+p ṛ ṅ
+p s o
+p s v
+p u ḍ
+p ū l
+p u u
+p v ā
+ṛ   j
+r ' b
+r ' ś
+ṛ ā k
+r ḍ a
+r ḍ ā
+ṛ ḍ e
+r ḍ g
+r e ā
+r g l
+ṛ ḥ  
+ṛ h ū
+ṛ ī ḍ
+ṛ ī ḥ
+r i ṛ
+ṛ j ñ
+ṛ k d
+ṛ l ā
+ṛ ṃ ṣ
+r n m
+ṛ n o
+ṝ ñ ś
+r o u
+r r ā
+ṛ r c
+ṛ r i
+r ṛ j
+r ṛ ś
+ṛ r ś
+ṝ ś  
+r t d
+ṝ t e
+r t ḥ
+r t ū
+ṛ ṭ v
+ṝ ū p
+r ū ṭ
+ṛ y e
+s   e
+s   u
+ṣ a '
+ś ā a
+ṣ ā a
+ś a ḍ
+ṣ a e
+ś a ī
+ṣ ã ṃ
+ś a ṛ
+ṣ a ū
+ṣ ā u
+s c e
+ś e ṇ
+ś e ṭ
+ś i y
+ṣ k ṇ
+s l o
+ś ṛ d
+ś ṛ k
+ś r l
+ṣ ṛ ṇ
+ṣ r o
+s ṝ r
+ś r ś
+s s ī
+s ṣ ṭ
+ś ś y
+ṣ ṭ  
+ś ṭ h
+ṣ ṭ k
+š u c
+s u ḍ
+ṣ u ñ
+s ū s
+ś ū s
+ṣ ū ṣ
+s v ã
+s v u
+s y i
+ṭ ā a
+t a o
+t e ñ
+t m n
+t o ṇ
+ṭ ṛ d
+t ṛ ḥ
+t ṛ ī
+t ṝ ś
+ṭ ṛ s
+t ṝ ū
+t ś ā
+t ś i
+ṭ t ā
+ṭ t v
+ṭ u ṇ
+ṭ v i
+u   ṅ
+ū   o
+ū   ṛ
+u   ṭ
+ū   ū
+u a n
+u ā n
+u a v
+ū b ā
+u d n
+ū d o
+ū ḍ y
+u g j
+u h k
+u ḥ r
+u ḥ v
+u i  
+u i m
+ū i ṃ
+ū k y
+ū ṃ ḍ
+u m j
+u n h
+u o ṃ
+u ṛ g
+u r ṃ
+ū ṛ ṇ
+u r r
+ū s i
+u ś m
+ū ś o
+ū t u
+u u d
+u v h
+ū y y
+v   ś
+v d a
+v e ṛ
+v n ā
+v ṇ e
+v ṛ g
+v ṛ y
+v u l
+v u ṃ
+v y i
+y e i
+y e ṅ
+y e u
+y i c
+y ī ḥ
+y o ā
+y o ṇ
+y o ṭ
+y r a
+y ṛ d
+y r y
+y ū ś
+क च द
+क थ  
+क म  
+क ष य
+क ष र
+क ष व
+ग त  
+ग र  
+घ न व
+च न  
+ज   व
+ण   क
+ण   र
+ण ड म
+ण न  
+त   र
+त द  
+त न न
+त म न
+त र य
+त व य
+द क ष
+द त य
+द र  
+द श  
+द ष ट
+ध त  
+ध य य
+न   र
+न त द
+न त व
+न म न
+न र म
+न व  
+न व त
+न श व
+प ञ च
+प त त
+प र क
+प र श
+प र ष
+भ   स
+म   द
+म   प
+म ण  
+म ब र
+म र  
+म ह ब
+य   ज
+य   र
+य   ह
+य ग  
+य ग न
+य त व
+य द  
+य न  
+य व न
+य स त
+र ज ञ
+र ज न
+र ण स
+र त व
+र द ध
+र श व
+र ष  
+ल   प
+ल   स
+ल भ  
+व च  
+व च न
+व द य
+व ध न
+व र य
+व ल क
+श म भ
+श व स
+श श र
+ष ट  
+ष ण  
+ष त  
+ष य त
+ष व क
+स त त
+स त य
+स त र
+स म त
+स म द
+स म प
+स व त
+ह   प
+ह   स
+ऽ भ व
+  a '
+  a ā
+  c v
+  ḍ y
+  e g
+  e i
+  g v
+  ḥ c
+  ḥ h
+  ḥ ṃ
+  h t
+  ī l
+  j r
+  ḷ ṅ
+  m n
+  m p
+  n ã
+  ñ i
+  n ṇ
+  ṇ u
+  ṇ v
+  ṅ y
+  o n
+  o ñ
+  p ã
+  p k
+  p p
+  p s
+  ṝ  
+  s ã
+  ṣ e
+  ś n
+  ś p
+  s ṣ
+  ṣ ū
+  ṭ e
+  t ṝ
+  u a
+  u i
+  u ṇ
+  u s
+  v h
+  v ū
+  अ न
+  अ स
+  इ क
+  क प
+  च न
+  ज त
+  त प
+  द ष
+  ध न
+  ध र
+  न प
+  न य
+  प ण
+  ब भ
+  म द
+  य ग
+  य द
+  ऱ ū
+  र थ
+  र प
+  व ज
+  व भ
+  व ष
+  व स
+  श म
+  स क
+  स ध
+  ह त
+  ह म
+  ર  
+'   h
+'   y
+' b ī
+’ d r
+’ d y
+' g e
+' j v
+' k ī
+' k t
+' l ī
+' m  
+’ m ṛ
+' ṇ a
+’ ṅ k
+' p e
+' r e
+' ṛ j
+’ r t
+' ś l
+’ t o
+' t ṛ
+' y e
+ā   ñ
+a ' d
+ā ’ k
+a ' l
+ā a  
+a a j
+a a ṇ
+ā a ṇ
+ā ā v
+a d l
+a ḍ m
+ā d n
+ā ḍ n
+a d p
+a d s
+ā d ś
+a ḍ t
+a g ṇ
+ã h a
+ā ḥ a
+a h ḥ
+a ḥ i
+ā i b
+ā i c
+ā i l
+a ī ṃ
+a j ã
+ā j c
+a k m
+a k ṭ
+ã m a
+ā ṃ a
+ā ṃ ā
+ā m d
+ā ṃ e
+a ṃ i
+ā m k
+a ṃ ṃ
+ā ṃ ṅ
+a ṃ u
+a n ã
+a ṇ b
+a ṅ e
+ã n i
+ā ñ i
+ā ṅ i
+ā ñ k
+ā ñ ñ
+ā ṅ ṇ
+ā ṇ n
+a n ṭ
+ā ṅ u
+a o j
+ā o ṣ
+a p b
+a p d
+a p m
+a p ṭ
+ā ṛ c
+ā r ḥ
+ã s  
+a s '
+ā s b
+a s h
+á ṣ i
+ā s ṭ
+ā ṣ v
+ā ṭ b
+a t ḥ
+a t l
+a ṭ n
+ā ṭ ū
+ā u a
+ā u j
+ā u m
+ã v a
+ā v j
+a v ṝ
+a v t
+a x  
+ã y a
+a y m
+a y ṃ
+b   ś
+b ā ṅ
+b d d
+b d ī
+b e g
+b e ṇ
+b h n
+b h t
+b i g
+b ī v
+b i y
+b j ī
+b l a
+b l i
+b o ḍ
+b o h
+b o m
+b o v
+b r i
+b ṛ ś
+b u ñ
+c   n
+c a ī
+c c r
+c d ṛ
+c i ḍ
+c ñ a
+c u ḍ
+c u g
+c u ñ
+c u ṣ
+c u ṭ
+c u v
+ḍ   h
+d   l
+ḍ   l
+d   ś
+d b b
+d b d
+d e ’
+d e i
+ḍ g h
+d g l
+ḍ h ḍ
+ḍ h g
+ḍ h j
+d ī ṅ
+ḍ ī ñ
+ḍ j o
+ḍ l a
+d m  
+ḍ m ā
+d n  
+ḍ n a
+ḍ o c
+ḍ o ḍ
+ḍ o j
+ḍ o y
+d r ṣ
+d ṝ ś
+d ṛ ṭ
+d ś ā
+d ṣ a
+ḍ ū b
+ḍ ū d
+d ū j
+d ū m
+d u ñ
+ḍ ū s
+ḍ u y
+ḍ v y
+d y ṛ
+d y v
+e   ḷ
+e   ñ
+e ’ ś
+e ā h
+e ā n
+e b ī
+e c u
+e ḍ ī
+e ḍ o
+e e v
+e g d
+e h  
+e i d
+e k l
+e ṃ c
+e m r
+e m ṭ
+e o t
+e r ṃ
+e r ṛ
+e s k
+e ś l
+e ṣ p
+e ṣ r
+e s ṭ
+e ऱ u
+g ā ā
+g ā u
+g g m
+g ī h
+g j v
+g k ṛ
+g ṇ e
+g ṛ m
+g ṛ s
+g ṛ v
+g s u
+g ū ṅ
+g ū ś
+g u y
+g v o
+g v r
+ḥ   ḷ
+ḥ   ñ
+h   r
+h   ś
+ḥ a d
+ḥ a g
+ḥ a ḥ
+ḥ a j
+ḥ a k
+ḥ a n
+ḥ a v
+h c ā
+ḥ c h
+h d ā
+h ḍ h
+ḥ d ṛ
+ḥ d u
+ḥ d v
+h e ñ
+ḥ e v
+ḥ g a
+h h y
+h i a
+h ī a
+h i e
+h ī ñ
+h i ṛ
+h l u
+ḥ n d
+ḥ n u
+h o i
+ḥ o r
+h ō t
+h p ā
+h ṛ a
+h ṝ ṃ
+h ṝ ṇ
+h r ṛ
+ḥ ṛ ṣ
+h ṝ t
+ḥ s  
+ḥ ṣ e
+ḥ ś m
+h s t
+h t h
+ḥ t u
+h t v
+ḥ v ī
+ḥ v ṛ
+ḥ y ā
+ì   d
+ì   m
+i ā d
+i a h
+i ā h
+i a l
+i a m
+i a ṃ
+ī a ṃ
+i ā ś
+i ā t
+i a v
+i ā v
+i d ḍ
+i ḍ j
+i ḍ ṇ
+i ḍ r
+i ḍ u
+ī e k
+i ḥ a
+i ḥ m
+i h ū
+ī i ṃ
+i i v
+i k d
+i k ḷ
+ī k l
+ī k ḷ
+i l k
+ĩ l l
+ī l v
+i m ṇ
+i ṃ ṇ
+i ṅ i
+ī n j
+ī n l
+ī ṅ y
+i p ṭ
+i p v
+i r c
+i r ṃ
+i ṛ ṇ
+ī s ī
+i ś k
+ī ś m
+i ṣ ś
+i ś t
+i t d
+i t ś
+i t ṣ
+i u v
+j a a
+j c e
+j c h
+j e a
+j e l
+j ī s
+j ī ś
+j l a
+j n ā
+j o ṅ
+j ṛ ṣ
+j ū l
+j u ṅ
+k   ī
+k a ā
+k c o
+k e ḍ
+k h  
+k i ḍ
+k ī ṅ
+k ī ṣ
+k k v
+k l p
+k n ā
+k p ī
+k ṛ ī
+k r ṭ
+k ṣ  
+k s ī
+k ṣ n
+k ṣ t
+k ś ū
+k ṭ a
+k u z
+l   t
+l ā a
+l e u
+l i ṇ
+l k ṣ
+ḷ ṅ  
+ḷ p a
+l p t
+l ṛ t
+l ū ṃ
+ṃ   ऱ
+ṃ ā d
+m a ī
+ṃ c  
+m d u
+m e ऱ
+m ḥ  
+ṃ h  
+m ḥ h
+m i e
+m ĩ l
+m i ṛ
+m j i
+ṃ j ū
+m k ā
+m k r
+m l i
+m m ī
+ṃ m ṭ
+ṃ n  
+ṃ ṅ o
+ṃ n p
+ṃ ṇ u
+ṃ r ṣ
+m ṣ  
+m s ā
+m s e
+m ṣ e
+m s i
+m ś o
+ṃ ś ś
+ṃ s ṭ
+ṃ ṣ t
+m ś u
+m ṣ u
+ṃ t  
+m t h
+m t i
+ṃ ṭ ī
+ṃ t m
+ṃ t p
+ṃ t s
+m t u
+m ū ś
+m ū ढ़
+ṃ y y
+ṅ   a
+ṅ   c
+ñ   n
+ñ   p
+ṇ   t
+ṅ   u
+n ' t
+ṇ ā ā
+ṅ a ḥ
+n ã m
+ṅ a ś
+ṅ ā t
+ñ b h
+ṅ c a
+ṅ c ā
+ṅ d h
+ṅ e b
+ṇ e ḍ
+ñ e k
+ñ e m
+n e u
+ṅ g d
+ñ g h
+ṇ h a
+n ḥ ṇ
+n h ṝ
+n i ḍ
+ṇ i ñ
+n i u
+ñ ī v
+ṅ j ā
+n j i
+ñ j m
+ṇ j o
+n j ṣ
+ṅ m o
+ṅ ṅ  
+n ṅ a
+ṅ ṅ ā
+ñ ñ i
+ṇ ṇ i
+n n m
+n n n
+n n v
+ṅ o '
+ṇ o ḍ
+ñ o h
+ñ o l
+ñ o m
+ñ o n
+n o ṭ
+ṇ p ā
+n ṛ i
+n r m
+n ṝ n
+ṇ ṛ p
+ṇ s a
+ñ ś e
+n ś ī
+n ś o
+ñ ś o
+ṇ ū c
+ṇ ū d
+n u i
+ñ u r
+ṇ u ṛ
+ñ u s
+ñ u ṣ
+ṇ ū ś
+n ū v
+ṇ ū y
+n y i
+o   ñ
+o   o
+o ’ m
+o ' ṭ
+o a l
+o a ṅ
+o a ṇ
+o b b
+o c ī
+o ḍ ś
+o ḍ ū
+o g l
+o ṃ c
+o ṃ j
+o ṃ ṇ
+o ṃ o
+o ṃ r
+o ṃ ṭ
+o r ṃ
+o r p
+o s e
+o ṭ  
+o ṭ ṭ
+p ā ṛ
+p ã v
+p e ñ
+p i e
+p ī ṇ
+p ṇ a
+p n i
+p ṛ ṇ
+p r ś
+p ṝ ṣ
+p r ṭ
+p ṝ t
+p ṛ y
+p ś a
+p ṣ i
+p ṭ a
+p t ṝ
+p ū ṛ
+p ū s
+p ū ś
+p v a
+ṛ   a
+r   c
+ṛ   l
+ṝ   ḷ
+ṛ   ṝ
+ṛ   y
+r ā ā
+ṛ á g
+r ã n
+ṛ á t
+r ā u
+r ā ū
+ṝ b a
+ṛ b d
+ṛ b i
+ṛ b ṛ
+ṛ c u
+ṝ d e
+r ḍ i
+ṛ ḍ i
+ṛ ḍ u
+ṛ ḍ v
+r e ṭ
+ṛ h m
+ṛ h r
+r i a
+r i i
+r ī i
+ṛ i k
+ṛ i m
+ṛ k h
+r k r
+ṝ k ṣ
+r l u
+r m  
+ṛ ṅ d
+ṛ ṇ h
+ṝ ṇ i
+r ñ j
+ṛ ṇ n
+r n t
+r ṇ v
+ṛ n v
+r p h
+ṛ p s
+r r d
+r r o
+r ṛ p
+ṛ r v
+ṛ r y
+r ś c
+r s e
+ṛ ś m
+ṛ ś ṛ
+ṛ ṣ ṣ
+r s ū
+r s y
+ṝ ś y
+ṛ ṭ b
+r ṭ e
+ṝ t h
+ṝ t i
+s   ā
+ṣ   d
+s   j
+s   r
+s ' m
+s ā ī
+ś ā i
+s ā ṛ
+ṣ ā ṛ
+ś c r
+s d h
+s e ṭ
+s ḥ  
+ṣ i a
+s i ḍ
+ṣ i ṛ
+s k ī
+ṣ k ṣ
+s m ĩ
+ś m o
+ś m u
+s n  
+ṣ n ā
+ṣ n o
+s n t
+s o ṇ
+ś p h
+s p o
+s ṛ  
+ṣ r ā
+s ṛ d
+s ṛ ḍ
+s ṛ h
+ś ṛ i
+ṣ ṛ j
+ṣ ṛ ṣ
+ṣ r u
+ś ṛ v
+ś r y
+ṣ r y
+ṣ ṛ y
+s s  
+ṣ s a
+s s c
+ṣ ś i
+ṣ s t
+ṣ ṣ u
+ṣ s y
+ś t i
+ṣ u e
+s ū ñ
+ś u ñ
+ś ū ñ
+ś ū ṇ
+ṣ ū ñ
+ś u ṛ
+s u š
+s u u
+ṣ v y
+s y ī
+ṣ y y
+t   ṭ
+t a '
+t ā ’
+ṭ a a
+ṭ a ā
+t ā ṝ
+ṭ ā ṛ
+t b ā
+t d e
+t d y
+t e ḍ
+t e e
+ṭ e ṃ
+t e o
+t e u
+t g h
+t h  
+t h ã
+ṭ ḥ a
+ṭ h k
+t ḥ ṃ
+t h ō
+ṭ h r
+t ī i
+ṭ k h
+t k k
+t k t
+ṭ k ū
+t m ū
+ṭ n a
+ṭ o ḍ
+t r ã
+ṭ ṛ b
+t ṝ d
+t ṛ i
+ṭ ṛ n
+ṭ ṛ p
+t ṝ t
+t r v
+ṭ r y
+t s  
+t ś ṛ
+t ś t
+t ś v
+t ṭ a
+t t p
+t u e
+ṭ u h
+ṭ u j
+ṭ u ṣ
+ṭ ū s
+ṭ ū t
+ṭ u y
+t v k
+t y v
+ū   ā
+ū   ḍ
+u   ḥ
+ū   u
+u ' s
+u ' t
+u ā c
+u a g
+u a k
+u a ṃ
+u ā t
+u ā y
+u ḍ j
+ū ḍ u
+ū g e
+u h n
+u h ṇ
+u i ṃ
+u i ś
+ū k l
+u l  
+ū ṃ c
+u m d
+u ṃ ḥ
+ū m l
+u m ṭ
+ū n r
+ū ṇ ṭ
+ū s ā
+ū ṣ c
+u s ś
+ū s ū
+u ṭ r
+u t ṣ
+u u p
+u v d
+u v ū
+u y i
+ū y ū
+v a o
+v ā o
+v d e
+v e i
+v e u
+v i u
+v j a
+v ṇ ā
+v o ṛ
+v ṛ  
+v ṝ b
+v ṛ ñ
+v ṛ s
+v ṛ v
+v t ā
+v ū j
+v u n
+v ū n
+v ū ṣ
+v ū t
+y   b
+y   n
+y   t
+y ã ṃ
+y ā ū
+y i ḥ
+y ī h
+y ṃ  
+y n a
+y o u
+y r e
+y s ā
+y u ā
+इ क ष
+इ त य
+क च त
+क ण  
+क त म
+क म त
+क य  
+क र ण
+क र य
+क व ल
+ग   स
+ग ज  
+ग न  
+ग न ध
+ग र त
+ग र व
+च   प
+च न द
+च म य
+च य त
+ज   त
+ज ग द
+ज ज ञ
+ज ञ प
+ज त  
+ज न म
+ज य  
+ञ च म
+ञ प त
+ट व  
+ड म ण
+ण   प
+ण   श
+ण   स
+ण म  
+ण स थ
+त   उ
+त   ज
+त   ह
+त क म
+त क र
+त द भ
+त न द
+त न म
+त प र
+त य व
+त र व
+त र श
+त र ष
+त व र
+त ष  
+त स स
+त ऽ भ
+थ   भ
+थ ल  
+द त त
+द ध त
+द न  
+द न व
+द य द
+द र स
+ध   म
+ध न  
+ध न ध
+ध र ढ
+ध र म
+न   च
+न   द
+न   म
+न   श
+न द व
+न भ  
+न म ह
+न य  
+न य न
+न य स
+न र य
+न र व
+न व द
+न श भ
+न श म
+न ष द
+न स त
+प   व
+प   स
+प त स
+प थ व
+प र ज
+प र भ
+प र म
+भ   क
+भ क त
+भ र  
+भ व न
+भ स त
+म   अ
+म   ब
+म त स
+म न य
+म न र
+म प र
+म भ स
+म स  
+म स ह
+म ह न
+म ह म
+म ह य
+म ह श
+य   घ
+य   भ
+य ज ञ
+य त म
+य प र
+य म न
+य म स
+य स य
+र   क
+र   त
+र   ब
+ऱ u d
+ऱ ū ḍ
+र ज  
+र ज त
+र ण य
+र त य
+र ध र
+र न त
+र भ र
+र म ण
+र म त
+र य ण
+र य न
+र य य
+र ल भ
+र व ण
+र श ऽ
+र ष ट
+र ष य
+र ह म
+ल क य
+ल श व
+व   क
+व   र
+व   ह
+व क र
+व त त
+व त न
+व त स
+व द श
+व ध  
+व न त
+व न म
+व भ र
+व र ज
+व ल श
+व श त
+व श ल
+श   स
+श क न
+श य  
+श र द
+श र श
+श ल क
+श व म
+श ऽ ध
+ष   र
+ष   ल
+ष   व
+ष ट व
+ष य म
+स   य
+स   व
+स त द
+स त न
+स त व
+स थ ल
+स द र
+स न  
+स म न
+स व स
+स व ह
+स ह त
+ह   क
+ह   म
+ह त म
+ह त य
+ह म न
+ह य श
+ह स र
+ऽ ध य
+ऽ स र
+ર   ś
+  ' ḍ
+  ' e
+  ’ s
+  d j
+  d m
+  d ṃ
+  e c
+  ḥ g
+  ḥ ṣ
+  ī a
+  ī c
+  ī v
+  j l
+  j m
+  k c
+  k n
+  k s
+  ḷ ṭ
+  m ã
+  ṅ n
+  ṇ r
+  ṇ ṭ
+  ṇ ū
+  ñ y
+  o y
+  q a
+  ṛ h
+  ṛ ḷ
+  ṛ r
+  ṛ y
+  s b
+  ṣ k
+  š l
+  s ṃ
+  ṣ m
+  ṣ p
+  ś t
+  ṭ ṭ
+  ū g
+  u ḥ
+  u ṅ
+  v ã
+  v n
+  y ī
+  ॐ  
+  ॐ p
+  अ र
+  इ न
+  इ व
+  क क
+  क ट
+  ग ज
+  ग न
+  ग ह
+  घ न
+  घ म
+  ज न
+  त थ
+  त म
+  द द
+  न त
+  न न
+  न स
+  भ क
+  भ ज
+  भ ष
+  य  
+  य ज
+  य म
+  य व
+  र स
+  ल ल
+  व ग
+  व घ
+  व त
+  व प
+  व म
+  श क
+  श न
+  श प
+  श व
+  स ज
+  स द
+  स प
+  स य
+  स ह
+  ह य
+'   i
+'   k
+'   m
+' ' ḍ
+’ ’ d
+’ ’ g
+' ' ṅ
+' ' ṣ
+' a ṭ
+' b ū
+’ d a
+’ d b
+' ḍ h
+’ d i
+' d o
+' d u
+’ d v
+’ g a
+' g ñ
+’ g r
+' h  
+' h ṇ
+’ h n
+' h r
+' h ṝ
+' h u
+’ j ñ
+’ k a
+' k l
+' l ā
+’ l a
+’ m a
+' ṃ b
+' ṃ h
+' n  
+' ñ ā
+’ n ā
+' ṇ g
+' ṅ i
+’ n ī
+’ n n
+’ n v
+' p  
+' p t
+' ṛ d
+’ r j
+' ṛ ṇ
+' ṣ i
+’ ś ṛ
+' ś t
+' t s
+' u t
+' v ī
+’ v r
+’ v ṛ
+ā   ḷ
+ã   v
+a ' '
+ā ’ g
+ā ’ h
+ā ' ṭ
+ā ’ t
+a a a
+ā ā b
+ā ā d
+ā ā j
+a ā ṅ
+ā ā r
+ā ā ś
+a b m
+ā c j
+ā c m
+a c p
+a c t
+ā c v
+a ḍ c
+a d ḥ
+ā ḍ j
+ā ḍ k
+ā d p
+ā d t
+a d w
+a e  
+a e h
+ā e n
+ā ġ a
+ā g ṃ
+ã g n
+a g s
+a g ṭ
+ã h ã
+a h b
+ā ḥ b
+a h d
+ā h d
+a ḥ g
+ā h g
+ā ḥ g
+a ḥ ḥ
+a ḥ j
+ā ḥ n
+a h p
+a ḥ r
+ā ḥ ṛ
+ā h s
+ā ḥ y
+ā i  
+ā ī  
+ā ī d
+a i e
+ā i g
+a ī k
+ā i ṇ
+ā i p
+ā i r
+a ī s
+a ī ṣ
+ā i s
+ā i ś
+ā j m
+ā j r
+a j s
+a j ś
+a j t
+á j u
+ā k b
+a k d
+a k j
+ā k ḷ
+á k ṣ
+à k t
+a ḷ a
+a ḷ ā
+a l ḍ
+ā l ṛ
+a l ś
+a l ṣ
+ā l t
+ā ḷ u
+ā m c
+a ṃ e
+ā m ḥ
+a m ì
+ā ṃ o
+a ṃ ṛ
+ā ṅ a
+ā ṇ g
+ā ṅ ī
+ā ṅ j
+ā ṇ k
+a n ṅ
+a ñ n
+a ṅ ṇ
+ā ṇ ṇ
+ā ṇ ṛ
+a ñ s
+a ṇ s
+a ñ u
+a ñ y
+a o k
+á p r
+ā p v
+a r '
+a ṛ á
+a ṛ b
+ā ṛ b
+ā ṛ g
+a ṛ m
+ā r ṛ
+a ṛ ś
+a ṝ ṣ
+a ṝ t
+a ṛ v
+á ṣ a
+a ṣ b
+a s ḥ
+ā s ḥ
+á ṣ ī
+ã s i
+a s ṃ
+à ṣ ṇ
+a ṣ ṛ
+ā ṣ ṛ
+a s ṣ
+ā ṣ ṣ
+a t '
+a ṭ b
+ā t c
+a t g
+a t j
+ā ṭ v
+a ū  
+a u ā
+ā u ā
+ā u b
+ā u g
+a u ṛ
+ā ū r
+ā u ṣ
+a u w
+a ū y
+a v ū
+ā y r
+a y s
+a y t
+ā z a
+a ळ m
+b   h
+b   n
+b   v
+b a ṅ
+b ā ṭ
+b b ṛ
+b d r
+b d v
+b e '
+b e b
+b e h
+b h  
+b h c
+b h h
+b i c
+b ī g
+b ī m
+b ī ṇ
+b ī s
+b l ā
+b ṛ c
+b r h
+b r ṛ
+b ṛ r
+b u ṇ
+b v y
+b y e
+c   t
+c   y
+c ā i
+c ā u
+c e a
+c e ḍ
+c e g
+c e i
+c e ñ
+c h t
+c ī ḥ
+c i i
+c ī j
+c ī ñ
+c j a
+c j ā
+c ñ e
+c n n
+c p a
+c ṛ t
+c ṣ a
+c ṣ ā
+c ṣ ṭ
+c t r
+c ū d
+c ū ṇ
+c ū s
+c ū ś
+c u y
+ḍ   ṛ
+d a '
+d a ā
+ḍ a a
+d a e
+ḍ a e
+d ā ī
+ḍ ā i
+ḍ a ṛ
+ḍ b ī
+d b ū
+ḍ c a
+ḍ d ā
+d ḍ h
+d e ā
+d e e
+ḍ e ḥ
+ḍ e l
+ḍ e ṃ
+d e ṭ
+d g n
+ḍ g ū
+d h  
+ḍ h  
+d h k
+d h s
+ḍ ī h
+ḍ i ṅ
+ḍ ī ṅ
+d i u
+d ī u
+d i z
+ḍ j e
+ḍ j i
+ḍ k ā
+ḍ k u
+d l ī
+d ṃ ṣ
+ḍ ṅ g
+d n i
+d n ī
+ḍ ṇ i
+d ṅ m
+ḍ o ’
+d o ñ
+ḍ o ṣ
+d p ā
+d p u
+d r  
+ḍ r i
+ḍ ṛ k
+d ṛ l
+ḍ r ū
+ḍ ś a
+d ś o
+d ś r
+d ṣ ṭ
+d s y
+ḍ t i
+ḍ t r
+d ū ḥ
+ḍ ū ñ
+d ū ś
+d u ṭ
+ḍ ū ṭ
+ḍ ū v
+ḍ v ṛ
+d y i
+d y n
+e ’ g
+e ’ m
+e ' ñ
+e ’ v
+e ā c
+e ā g
+e a l
+e ā ṃ
+e a u
+e a y
+e b e
+e b o
+e c ū
+e ḍ  
+e d ś
+e g ū
+e ḥ a
+e h m
+e h ṝ
+e ḥ ṣ
+e h ū
+e i k
+e i p
+e k ṃ
+e ṃ m
+e ṃ p
+e ṃ r
+e ṃ y
+e n ṅ
+e ñ u
+e ṅ y
+e o ṃ
+e o r
+e o ṣ
+e p  
+e r ñ
+e r s
+e ṛ t
+e ṣ  
+e ś b
+e ṣ d
+e ṭ  
+e t c
+e ṭ u
+e ṭ y
+e u  
+e v  
+e v t
+e y v
+g   n
+g a ā
+g ā a
+g ā ī
+g a o
+g ā ṛ
+g b i
+g d b
+g d d
+g d ū
+g h ō
+g ī ṅ
+g ī ṇ
+g ī ṭ
+g k ā
+g k e
+g k ṣ
+g l i
+g m  
+g ṃ  
+g m y
+g ñ i
+g ṇ ī
+g ṇ o
+g n u
+g o ḍ
+g o ṇ
+g o ṭ
+g ṛ ḍ
+g ṛ i
+g ṛ p
+g ṭ a
+g ṭ h
+g u i
+g ū k
+g u ṅ
+g ū s
+g v  
+h   a
+h   b
+h   i
+h   n
+h   o
+ḥ   š
+h   t
+h   v
+ḥ   ॐ
+ḥ ā c
+h a ī
+h ā ī
+h ã n
+ḥ a ṅ
+ḥ a ṇ
+ḥ ā n
+ḥ ā t
+h ā ū
+h a ळ
+h b ā
+ḥ b ā
+ḥ b r
+ḥ c ā
+h c h
+ḥ c i
+h d d
+h d i
+ḥ d ī
+h e ā
+h e i
+ḥ e n
+h e o
+h e u
+h g e
+ḥ g n
+h h ā
+ḥ h i
+ḥ h ṛ
+ḥ h y
+h i ā
+ḥ i l
+h k u
+ḥ k y
+ḥ l o
+h l y
+h m  
+ḥ m e
+ḥ m ṛ
+ḥ ṃ s
+h ō  
+ḥ o ṃ
+h o ṛ
+h r d
+h ṛ i
+ḥ ṛ k
+ḥ ṛ t
+h s a
+h ṣ a
+ḥ ś c
+ḥ ṣ i
+ḥ ṣ p
+ḥ s s
+ḥ ṣ ṭ
+ḥ t ā
+ḥ t h
+ḥ t s
+h t y
+h ū a
+ḥ u d
+h u ī
+h ū i
+h u š
+h ū ṭ
+h u u
+ḥ v  
+ḥ v ā
+h y i
+h y r
+ì   k
+i   ḷ
+ì   n
+ī   ṇ
+ì   t
+ì   v
+i '  
+ī ' b
+i ' p
+i ' t
+i ā  
+ī a g
+ī a h
+i a i
+i ā k
+ī ā n
+i a r
+ī a r
+i a s
+i a ś
+i a t
+ī a y
+ī b ū
+ī b y
+i ḍ d
+ī ḍ ḍ
+ī d ṝ
+i d s
+i d ś
+i d ṣ
+ī ḍ t
+i e ṣ
+ī e ṣ
+ī g y
+i h  
+i ḥ b
+i ḥ t
+ī ī d
+i i g
+i i ḥ
+i i j
+i i l
+i i m
+i i ṃ
+ī i m
+ī i n
+i k ñ
+ī k t
+i ḷ a
+ī ḷ e
+ī l ū
+i ṃ '
+i m d
+i ṃ ḥ
+ī m ś
+i ṅ b
+i ṇ c
+i n ñ
+i n ṣ
+ī n ś
+ī p ś
+ī p ṣ
+i r ḥ
+i r k
+ī r k
+ī ṛ ṇ
+i ṝ t
+i ṛ v
+i ṛ y
+ī s c
+ī ṣ c
+i ś d
+i s ṣ
+i ś ṣ
+ī ś ś
+i š t
+i š ṭ
+ì s y
+i t b
+i t ṭ
+i ṭ u
+i ṭ y
+ī u  
+i u ṇ
+ī u r
+ī v n
+i y ã
+i z a
+i z m
+j ā e
+j ā o
+j ā ṛ
+j c o
+j e ṅ
+j e ṇ
+j g a
+j h c
+j ī ṇ
+j j r
+j ṇ a
+j o ḍ
+j o ḥ
+j ṛ b
+j ṛ d
+j r j
+j ṣ ṇ
+j ś u
+j t r
+j ū ḥ
+j ū j
+j ū m
+j y u
+k ā ’
+k ā ū
+k b i
+k c c
+k d a
+k e u
+k h n
+k h ṛ
+k i a
+k i h
+k i i
+k j ī
+k k l
+k l u
+k ṃ  
+k m o
+k n a
+k ñ c
+k o ñ
+k ṛ à
+k ṛ g
+k ṛ h
+k ṛ ñ
+k ṛ y
+k s '
+k ś e
+k s k
+k ś o
+k s p
+k ś ṛ
+k ṣ s
+k ś v
+k ś y
+k ṭ ā
+k t k
+k ū ḍ
+ḹ   a
+l   c
+l   e
+ḷ   k
+ḹ   t
+l   y
+l ā ā
+l ā e
+ḷ a ṃ
+ḷ ā ś
+l b e
+l ḍ i
+ḷ e  
+l e ā
+l h ī
+l h o
+l i i
+l m  
+l ō  
+l ṛ  
+l t h
+l ū d
+l ū j
+ḷ u k
+l ū l
+ṃ   ḷ
+m   ṇ
+ṃ ' ṅ
+ṃ ' p
+ṃ ’ ś
+m ā ’
+ṃ a b
+ṃ a d
+ṃ a k
+ṃ ā ṃ
+ṃ a n
+ṃ ā n
+ṃ ā ṇ
+m a o
+ṃ a ś
+ṃ c ṛ
+m ḍ a
+m ḍ ā
+ṃ d b
+m ḍ g
+m d i
+m ḍ i
+m d ū
+m d v
+ṃ e  
+m e ā
+m e i
+ṃ e k
+ṃ e t
+m g h
+ṃ g n
+ṃ g v
+ṃ ḥ ā
+ṃ h n
+m i ī
+m ī ḷ
+ṃ ī ś
+ṃ l k
+ṃ ṃ  
+ṃ m r
+ṃ m y
+ṃ ṇ e
+m ṇ ī
+ṃ ṇ i
+m n t
+ṃ n ū
+ṃ n v
+m o ḥ
+m o ṇ
+m ṛ ā
+m ṛ i
+m ṛ ī
+ṃ r ī
+ṃ r j
+m r m
+m ṛ m
+ṃ ṛ ṣ
+m ṛ y
+ṃ r y
+m ś i
+ṃ ś n
+m s o
+m š o
+m ṣ o
+m s p
+m s u
+m t ā
+m ṭ ā
+m t ī
+m t o
+ṃ ṭ o
+m t r
+ṃ t ṝ
+ṃ ṭ u
+m ū g
+m u ṅ
+m ū ṅ
+m v ū
+ṃ y  
+ṃ y i
+m y ṛ
+m y ū
+ṃ y ū
+n   '
+ṅ   ā
+ñ   d
+ṅ   d
+ṇ   d
+ṇ   g
+ñ   h
+ṇ   ī
+ṅ   j
+ñ   k
+ṇ   k
+ñ   m
+ṇ   ś
+n   ṭ
+n ā ā
+ñ a a
+ñ a ḍ
+ñ ā ḍ
+ṅ a d
+n ā e
+ṅ ā k
+ṅ a m
+ṅ ā m
+ṅ a ṇ
+ṅ ā ṅ
+ṅ ā ś
+ṇ a ṭ
+ṇ a ū
+ṇ ā u
+n d  
+ṇ ḍ  
+ṇ d i
+ṇ d ī
+ṇ d o
+ñ e a
+n e ṭ
+ñ g a
+ṇ g e
+ṅ g k
+ṅ g l
+ñ h a
+n h d
+n ī '
+ṇ ī a
+ñ ī b
+ñ ī c
+ñ ī d
+ṅ i ḍ
+n i ī
+n ī i
+ñ i ṇ
+ñ ī p
+ṅ ī r
+ṇ i ṛ
+ṅ ī ṣ
+ṇ i u
+n j ī
+ṅ j o
+ṇ j u
+ñ k ā
+ṇ k h
+ṇ k ṣ
+ñ k t
+n l u
+ṇ m  
+ṅ ṇ a
+n n d
+ṇ n e
+ñ n i
+ṅ n ī
+ṅ ṇ ī
+ṅ n o
+ṇ n r
+n n t
+ṅ n y
+ñ o j
+ñ o k
+n o ṛ
+ṇ r a
+n ṝ p
+ṇ r p
+n ṝ ṣ
+ṇ ṛ ṣ
+n r ṭ
+n s  
+n ṣ ā
+ñ s a
+ṇ ṣ a
+n ś c
+ṅ s u
+ñ ś y
+n t  
+n ṭ a
+ṇ t a
+ṇ t ā
+ṅ t e
+n t k
+n t p
+ñ u b
+n ū g
+ñ u h
+n u ṅ
+n u ṛ
+ṅ u s
+ṇ v u
+ṇ v y
+ñ y e
+ō   n
+o   ū
+o ' '
+o a a
+o b o
+o c n
+o ḥ v
+o i '
+o i d
+o i j
+o i ṃ
+o i t
+o j  
+o k  
+o k ṭ
+o l h
+o ṃ ’
+o m m
+o ṃ v
+o n c
+o p  
+o p ṭ
+o ṛ  
+o ṛ c
+o r ś
+o r ṣ
+o s k
+o s o
+o s ś
+o ṣ t
+o t d
+ō t p
+ō t s
+o u ṣ
+o ʼ s
+p   k
+p   p
+p   š
+p   v
+p ā e
+p a ū
+p e ’
+p e i
+p h t
+p ī ṅ
+p i u
+p k y
+p m e
+p m o
+p m u
+p p e
+p p r
+p ṛ n
+p ṛ r
+p r v
+p ś i
+p s r
+p ṭ ā
+p t h
+p t t
+p ū e
+p ū ṅ
+p v e
+ṛ   ā
+r   ḍ
+ṛ   ḍ
+ṛ   ḷ
+ṛ   ṇ
+r ' '
+r ' m
+ṛ ā  
+r ā ’
+ṛ a d
+ṛ ā h
+ṛ á j
+ṛ á k
+ṛ ā n
+r a o
+r á p
+r ã s
+ṛ à ṣ
+r a ū
+r b v
+r b y
+r c ū
+r e e
+r e ñ
+r e o
+r e u
+ṛ g m
+ṝ g ṛ
+ṝ h  
+r h d
+ṛ h g
+ṛ h l
+r h m
+ṛ ī d
+ṛ i h
+r ī ī
+ṛ i ṃ
+ṛ ī ś
+r j ṛ
+ṛ k l
+r k s
+r k ū
+r k v
+r l ū
+ṛ m  
+r ṃ e
+ṝ ṃ l
+r m n
+r m ṇ
+r ṃ ṇ
+ṛ ṃ ṇ
+ṛ m ū
+ṛ m v
+r ṅ a
+ṛ ñ a
+ṛ ñ ā
+ṛ ṅ ā
+ṛ n b
+ṛ ṅ b
+ṛ ṇ ḍ
+ṛ n e
+ṛ ṇ g
+ṝ n g
+ṝ n k
+r ṇ ṇ
+ṛ n p
+r n s
+ṛ n s
+ṛ ṇ ū
+r n v
+ṛ ṅ v
+ṛ n y
+ṝ n y
+r o ṛ
+ṛ p  
+ṛ p l
+ṛ p m
+ṝ p o
+r p r
+ṛ p ṛ
+r ṛ á
+r ṛ b
+r r e
+ṛ r k
+ṛ r m
+ṛ r ñ
+ṛ ṛ ṇ
+r r t
+ṛ r u
+r r v
+r s  
+ṝ s  
+r s ī
+ṝ ṣ ī
+ṛ ṣ j
+r ṣ k
+r ś l
+ṛ ś l
+r ś n
+r ṣ n
+r s o
+r š o
+ṛ s p
+r ś r
+r ś ṛ
+ṛ s r
+r s s
+ṛ ś ṭ
+ṛ ṣ ū
+ṛ ṭ c
+ṛ ṭ e
+r ṭ i
+ṛ ṭ ī
+r t n
+ṛ ṭ o
+r t ṣ
+ṛ t ṣ
+r ṭ t
+ṛ ṭ u
+ṝ t ū
+r u ṛ
+r v ē
+r v ṇ
+ṛ y  
+ṛ y ū
+ṣ   a
+ś   b
+ṣ   e
+s   h
+s   i
+ś   j
+ś   k
+ś   o
+ṣ   ṭ
+ś   v
+s ã  
+ś a '
+s ā ā
+ś a ā
+s ā e
+s a ī
+s a ū
+ṣ ā ū
+s b a
+ś b a
+s b h
+ṣ b h
+ṣ c c
+s d ā
+ṣ d ā
+ś e ’
+ṣ e ā
+ṣ e ñ
+ṣ e u
+ṣ g a
+ṣ h a
+s h i
+s h t
+ś i a
+ś ī a
+ṣ ī ā
+s ī ḍ
+ṣ ī ḍ
+ś i i
+ṣ i i
+s ī ñ
+s ī ṅ
+ś i ṇ
+ṣ ī ṅ
+ś i ṛ
+s i ṭ
+s j a
+ṣ j o
+ṣ j v
+s k i
+ś k r
+s k ṣ
+ṣ k v
+s l  
+š l  
+s m n
+s m r
+ś m ṛ
+s ṃ s
+ṣ m v
+ṣ n i
+ṣ n ī
+ṣ ṇ n
+ṣ ṇ ṇ
+s n p
+s n ṛ
+s n ū
+ṣ n u
+ś o ṅ
+ś o ṭ
+ś p ā
+s p ū
+ṣ ṛ  
+ṣ ṛ d
+s ṝ ḥ
+s ṛ i
+ṣ r ī
+ṣ r j
+ś ṛ l
+ś r ṇ
+ś ṛ r
+ṣ r ū
+ṣ ṛ v
+s ṛ y
+s ṣ ā
+ṣ s ā
+ṣ ś ā
+ś ś c
+s s n
+ṣ ṣ ṭ
+ṣ ś u
+s ṣ y
+ś ṣ y
+s ṭ i
+ś ṭ i
+ṣ t ī
+ṣ ṭ m
+s t n
+ṣ t o
+s t p
+ṣ ṭ ṝ
+ṣ t u
+s ū b
+s ū ḍ
+ṣ u ḍ
+ṣ ū ḥ
+ṣ ū ṅ
+s u ṛ
+ṣ u ṛ
+s u ṭ
+š u v
+ṣ ū v
+s v p
+ś v r
+ṣ v u
+ṣ v ū
+ś v y
+ṣ y ã
+t   ṅ
+t   ॐ
+t ' h
+ṭ ā ’
+ṭ ā ā
+t ã h
+t ā o
+t b a
+t b ṛ
+ṭ c c
+t d b
+t d i
+t d v
+ṭ e j
+ṭ e l
+ṭ e ṅ
+t g a
+t ḥ ā
+t ḥ s
+t ī '
+ṭ ī ṅ
+t ī ṭ
+t j a
+t j ā
+t j ñ
+ṭ k ī
+t k y
+t l ā
+t l e
+t m  
+t ṃ  
+ṭ m ā
+t m b
+ṭ n i
+t ṛ a
+ṭ ṛ ā
+t ṝ g
+t ṝ h
+t r k
+ṭ ṛ m
+ṭ ṝ ṇ
+t ṝ p
+t ṛ ṛ
+t r ṣ
+t ṝ s
+t ṛ u
+ṭ ś ā
+ṭ ś o
+t ṣ r
+ṭ s ṛ
+t s s
+t ś ṭ
+t ṣ ṭ
+t ś u
+ṭ ś y
+ṭ ṭ h
+ṭ t o
+ṭ t ṛ
+ṭ ṭ ṛ
+t u ī
+t ū j
+t ū ñ
+t ū ṭ
+ṭ ū v
+t y s
+u   '
+u   ṝ
+u ' d
+u a  
+u ā  
+u a d
+u ā d
+u à k
+u a m
+u a r
+u à r
+u a s
+u ā s
+u a t
+u a y
+ū b ṛ
+u b v
+u b y
+u c  
+ū c o
+u ḍ g
+u d ṅ
+u ḍ v
+u e k
+u e t
+ū g k
+ū g u
+u h  
+u ḥ ā
+u ḥ b
+u h d
+ū h l
+u ḥ m
+u ḥ y
+u i d
+u i n
+u i r
+u i t
+u i y
+u j  
+u k b
+u k ḷ
+ū k m
+u k n
+ū k r
+ū l  
+ū l ū
+u ṃ '
+ū ṃ g
+u m h
+u ṃ i
+u ṃ ṅ
+u ṃ ṇ
+ū m p
+ū ṃ p
+ū ṃ t
+ū ṃ v
+u ṇ  
+u ñ a
+u ṅ ā
+u n b
+u ṅ c
+ū ṅ d
+u ñ k
+ū ṅ m
+ū n ṣ
+u ṅ t
+ū ṅ y
+ū p t
+u ṛ  
+u r á
+u ṛ k
+u r ś
+ū r s
+u ṛ t
+ū r ṭ
+ū ṣ  
+ū ś e
+u ṣ g
+ū ś ī
+ū ṣ j
+ū ṣ k
+u š o
+ū s o
+u ṣ r
+u ṣ ṛ
+u s ṭ
+u š u
+ū ś ū
+ū ṣ ū
+u t ḥ
+u t ṝ
+u u ṣ
+u u t
+ū v ī
+u v v
+ū y ī
+u z m
+ū ढ़ ā
+v   b
+v   c
+v   n
+v   v
+v a ḷ
+v ā ḷ
+v ã n
+v ā ṝ
+v ã s
+v ã y
+v d ā
+v ē  
+v e ñ
+v e ṭ
+v h e
+v h ī
+v h o
+v ī e
+v j e
+v k ṣ
+v m a
+v n a
+v ṇ a
+v ṇ i
+v o i
+v p a
+v p r
+v ṛ i
+v ṛ ī
+v r ṛ
+v ṛ ṛ
+v ū ṃ
+v u ñ
+v u ṇ
+v v k
+v y s
+y   h
+y   v
+y ã  
+y a ṝ
+y a x
+y a z
+y g a
+y i l
+y ī ṇ
+y m  
+y o ñ
+y o ʼ
+y ṛ  
+y r v
+y u à
+y ū b
+y u i
+y u ṭ
+y u u
+y y y
+z a  
+z m ī
+z m u
+ॐ   n
+ॐ p r
+अ न य
+इ न द
+क   क
+क   त
+क   प
+क   व
+क क त
+क च न
+क ट श
+क त ब
+क त र
+क त श
+क त स
+क न य
+क प  
+क प त
+क प र
+क ल  
+क ल क
+क ष स
+ग त व
+ग म  
+ग म र
+ग य त
+ग र म
+ग ल द
+ग व न
+ग ह त
+घ म र
+घ र  
+च   क
+च   त
+च   द
+च   म
+च   व
+च क र
+च त व
+च त स
+च द भ
+च प  
+च र ण
+ज   स
+ज ग म
+ज ञ य
+ज न त
+ज न न
+ज प त
+ज र ष
+ञ   व
+ञ   श
+ञ य  
+ट   स
+ट श  
+ण   ग
+ण   च
+ण   त
+ण   द
+ण ड  
+ण ड क
+ण ड ल
+ण य  
+ण य द
+ण व ल
+ण स त
+त   अ
+त   घ
+त   च
+त   ध
+त   भ
+त   ल
+त क  
+त क त
+त त क
+त त त
+त थ  
+त न त
+त न व
+त न ष
+त प  
+त प स
+त ब ज
+त म र
+त म स
+त य च
+त य म
+त य स
+त र क
+त र च
+त र थ
+त र प
+त र ह
+त व म
+त व स
+त श श
+त ष र
+त स  
+त स थ
+थ   क
+थ   व
+थ प र
+थ य त
+द   क
+द   त
+द द य
+द ध  
+द ध क
+द ध प
+द न त
+द भ  
+द भ र
+द म ह
+द य  
+द य त
+द र ण
+द र प
+द र व
+द र श
+द र ष
+द व न
+द व य
+ध क र
+ध न त
+ध य  
+ध व न
+न   अ
+न   ग
+न ज  
+न त न
+न त म
+न थ  
+न द त
+न ध  
+न ध न
+न ध म
+न ध व
+न न त
+न न भ
+न म य
+न म व
+न य क
+न य य
+न र भ
+न व न
+न स य
+न ह र
+प   त
+प   न
+प ज य
+प थ  
+प य  
+प य य
+प र ञ
+प र प
+प र ह
+प र ऽ
+ब ण व
+ब द ध
+ब भ व
+ब भ ष
+ब ल  
+ब ल न
+भ   इ
+भ   द
+भ   म
+भ   व
+भ ग  
+भ त  
+भ म  
+भ य  
+भ र ण
+भ र त
+भ ष  
+भ ष त
+भ स र
+म   न
+म   श
+म   ह
+म क र
+म क ष
+म ज  
+म ज ञ
+म त त
+म त प
+म त म
+म त र
+म द  
+म द त
+म द न
+म द र
+म न क
+म न ज
+म न त
+म न द
+म न न
+म न म
+म न स
+म न ह
+म प  
+म भ  
+म म  
+म र क
+म र थ
+म र ह
+म ल क
+म ल त
+म व च
+म व श
+म स त
+म स न
+म ह  
+म ह क
+म ह ग
+म ह प
+य   च
+य   द
+य ण  
+य त न
+य थ  
+य द भ
+य द व
+य म  
+य म प
+य व  
+य व र
+य श  
+य श च
+य ष य
+र   ज
+र   ध
+र   भ
+र   र
+र   श
+र क  
+र क र
+र ज प
+र ञ ज
+र ण न
+र ण म
+र त क
+र त म
+र त र
+र थ श
+र द न
+र द भ
+र द र
+र द व
+र भ  
+र भ त
+र भ म
+र म स
+र म ह
+र य म
+र व क
+र व त
+र व द
+र श य
+र श र
+र स  
+र स य
+र स स
+र ऽ भ
+र ऽ स
+ल   र
+ल क न
+ल क प
+ल क व
+ल च न
+ल त  
+ल द र
+ल प र
+ळ m ū
+व   य
+व क  
+व क त
+व क ष
+व घ न
+व च क
+व च य
+व ज ञ
+व ण न
+व थ  
+व द त
+व ध य
+व न य
+व प त
+व म त
+व र श
+व ल ल
+व ल व
+व श  
+व ष ण
+व स  
+व स ष
+व ह न
+व ह म
+श   द
+श   प
+श   म
+श   य
+श क त
+श च प
+श च र
+श त र
+श न  
+श भ  
+श भ म
+श म य
+श र ण
+श र म
+श व  
+श व र
+ष   प
+ष   म
+ष ण न
+ष ण स
+ष त र
+ष त स
+ष य  
+ष र  
+स   इ
+स   स
+स क म
+स क ष
+स ख  
+स ग  
+स थ  
+स न त
+स न द
+स न न
+स प ज
+स फ ल
+स म क
+स म य
+स म व
+स म स
+स य ग
+स र द
+स र व
+स र श
+स र स
+स व  
+स व य
+स ष ठ
+स स थ
+स स य
+स स व
+स ऽ य
+ह   ध
+ह ण  
+ह त क
+ह त व
+ह न  
+ह न च
+ह प र
+ह ब ल
+ह य ग
+ह र म
+ऽ प  
+  ' ā
+  ' u
+  ' ū
+  ā '
+  ā a
+  a ī
+  ā i
+  á s
+  b l
+  b ḷ
+  b v
+  c l
+  c r
+  c ṛ
+  c ś
+  c t
+  d ḍ
+  d ś
+  d ṣ
+  e ā
+  e f
+  e ḥ
+  e ḷ
+  e o
+  f a
+  g g
+  g m
+  g ṭ
+  h h
+  ḥ ñ
+  h s
+  ḥ ū
+  i a
+  ī b
+  i ñ
+  ī ṭ
+  i u
+  j g
+  j ṇ
+  ḷ ḍ
+  l g
+  ḹ k
+  l t
+  m g
+  m h
+  m m
+  ṃ r
+  ṃ ś
+  ṃ ū
+  ñ ā
+  ṅ ā
+  ṉ a
+  n b
+  n ḥ
+  ṅ i
+  n j
+  n l
+  ṇ m
+  ṇ ṇ
+  ñ o
+  ṅ o
+  ṇ ṝ
+  o l
+  o ṇ
+  o s
+  o v
+  p j
+  p ṭ
+  p v
+  q o
+  r ã
+  ṝ d
+  ṝ g
+  ṛ ḥ
+  ṛ l
+  ṛ ṃ
+  ṛ n
+  r ś
+  ṛ v
+  ś å
+  s c
+  s d
+  ś h
+  ś ṅ
+  ṣ ṣ
+  s ṭ
+  ṭ  
+  t ã
+  t l
+  t ḷ
+  ṭ t
+  ṭ y
+  ū ḥ
+  ū j
+  ū l
+  ū ṅ
+  u y
+  ū y
+  v c
+  v p
+  v v
+  y j
+  ו ן
+  ן  
+  በ  
+  अ क
+  अ ज
+  अ त
+  अ द
+  अ य
+  अ ल
+  अ श
+  आ च
+  आ प
+  इ ह
+  उ त
+  उ द
+  उ ल
+  ए क
+  ए व
+  क  
+  क ण
+  क द
+  क श
+  क ऽ
+  ख ल
+  ग च
+  ग य
+  ग ल
+  घ ट
+  घ ड
+  घ ण
+  घ र
+  च द
+  च र
+  च ल
+  ज ज
+  ज य
+  ज ल
+  त ज
+  त य
+  द क
+  द ख
+  द ग
+  ध व
+  न क
+  न व
+  प ज
+  प प
+  प ल
+  प ष
+  ब ण
+  ब द
+  ब ध
+  ब ष
+  ब ह
+  भ  
+  भ ग
+  भ ट
+  भ त
+  भ स
+  म क
+  म ख
+  म ज
+  म ढ
+  म ण
+  म प
+  म य
+  म र
+  म ल
+  य न
+  य ह
+  य ऽ
+  र ग
+  र त
+  र व
+  ल ख
+  ल च
+  ल व
+  व ख
+  व थ
+  व व
+  श घ
+  श च
+  श ड
+  श ण
+  श द
+  श ल
+  ष ट
+  स ख
+  स ट
+  स फ
+  स भ
+  स श
+  स स
+  स ऽ
+  ह द
+  ह र
+  ह व
+  ह श
+  ह स
+  য ā
+  ઢ  
+  ส  
+  ཀ  
+  尘  
+  擎  
+  華  
+  隆 隆
+'   g
+'   j
+'   l
+'   ś
+'   u
+’ ’ b
+’ ’ n
+' ' ṭ
+’ ’ v
+' ā d
+' b b
+’ b d
+’ b i
+’ c i
+' c o
+' c ū
+' ḍ ī
+' d m
+’ d ṛ
+' e  
+' e t
+' e v
+' g ī
+' g l
+' g ṭ
+' h b
+' h e
+' h l
+’ h r
+' h v
+' i t
+’ j ā
+' j j
+’ k r
+' l e
+’ l p
+' l y
+' ṃ  
+’ m ā
+' m k
+' m š
+’ ṃ ś
+' m v
+' m y
+' ṇ  
+’ ṇ  
+' n '
+’ n '
+' ṇ ā
+’ n d
+’ ṇ ḍ
+’ n e
+’ n i
+’ ṇ i
+' ṅ n
+' n o
+’ n ṛ
+' ṇ v
+' o d
+’ p r
+’ p s
+’ r ā
+’ r d
+’ r g
+’ r i
+' ṛ k
+' r ś
+' ṛ ṣ
+' r ū
+’ r ū
+' ṛ y
+' s ã
+' ṣ a
+’ s ā
+' s c
+' ś c
+' ṣ c
+’ ś e
+' s k
+’ ś m
+’ ś n
+’ ś r
+' s ṭ
+’ ṣ ṭ
+' ś ū
+' ś y
+' ṭ ā
+' ṭ h
+’ t ī
+' ṭ o
+' ū k
+’ v ā
+’ v e
+' v n
+' y i
+' y y
+ã   c
+ã   d
+ā   f
+a   ḹ
+ā   ḹ
+ã   p
+ā   ṝ
+a   š
+ã   s
+ã   t
+a   ן
+ā   በ
+ā   स
+a   য
+a   ર
+ā   華
+a ' e
+a ’ h
+ā ' i
+ā ’ j
+ā ’ l
+ā ' ṃ
+ā ’ m
+a ' ṅ
+ā ’ ṅ
+ā ’ ṇ
+a ’ p
+a ' ś
+ā ' u
+a ' v
+a ' y
+ā ’ y
+ā ā c
+ā a ḍ
+a a ḥ
+ā a ḥ
+ā ā ḥ
+a ā ñ
+a ā ṇ
+ā à ṇ
+a ā ṣ
+ā a u
+a b ã
+a b ḥ
+a b ḻ
+ā b l
+ā b m
+ā b n
+á c ā
+ā c é
+a c k
+a c ṇ
+a c r
+ā c ś
+a c v
+a d c
+a d ḍ
+à d h
+à d i
+a d k
+a ḍ k
+ā ḍ l
+a d ṃ
+a ḍ n
+a ḍ ṅ
+ā ḍ ṅ
+ā ḍ ṛ
+a ḍ ś
+a ḍ ṣ
+ā d s
+a d t
+ā ḍ t
+a d а
+a é  
+ā e  
+ā e ā
+ā e h
+a e i
+a e l
+ā e ñ
+ā e p
+a f a
+á g  
+a ġ a
+a ġ ā
+ã g a
+á g g
+a ġ h
+ā ġ i
+a ġ m
+ā g ṇ
+a g p
+ā g p
+ā g s
+ā g ś
+ā g ṣ
+ā g t
+á g v
+a ḥ '
+ā ḥ '
+a ḥ ã
+a h c
+a ḥ ḍ
+ā ḥ ḍ
+a ḥ e
+ā ḥ e
+a h h
+a h j
+ā ḥ j
+ā h k
+a h ḷ
+a ḥ l
+ā ḥ l
+a h ñ
+a h ō
+ã h o
+ā h t
+ā ḥ t
+a ḥ u
+ã h u
+a ī  
+a i à
+ā i ā
+ā ī ā
+a ī g
+a ī ḥ
+ā i ḥ
+ā ī ḥ
+a i ī
+a ī i
+a ī j
+ā i j
+ā ī j
+a ī l
+ā ī m
+ā i ṅ
+ā ī p
+a ī r
+ā i ṣ
+ā ī s
+a ī t
+ā i ṭ
+ā ī u
+ã j ã
+a j g
+a j m
+a j n
+a j ṇ
+å j ñ
+ā j ṇ
+ā j t
+a k ē
+ā k g
+ā k m
+a k ṇ
+a k ō
+a ḻ a
+a l d
+a ḷ e
+ā ḻ e
+a l ḥ
+ā ḷ k
+a l ṃ
+a l ṇ
+a l ō
+a ḷ p
+a l ṛ
+ā l s
+a l t
+ā ṃ ġ
+ā ṃ i
+ā m j
+ā m ñ
+a ṃ o
+a m š
+ã m s
+ā ṃ u
+a m о
+a m و
+a m य
+ā n '
+a ñ ã
+a ñ ā
+á ṇ a
+ã ṇ a
+ā ṅ ā
+ā ñ b
+ā ṅ b
+ā ṅ c
+a ñ ḍ
+a ṅ d
+ā ṅ d
+a ñ h
+a ñ ḥ
+a ṅ h
+a ṇ h
+a ṇ ḥ
+ā ñ h
+ā ṅ h
+a ñ ī
+a ṅ i
+a ṅ ī
+à ṇ i
+a ń k
+a ṇ l
+ā ñ m
+a ñ ñ
+a ṇ ñ
+ã ñ n
+ā n ñ
+a n ō
+a ñ o
+a n ṝ
+a ṇ r
+ā ñ r
+ā ṅ r
+a ṅ ś
+a ṇ ṣ
+ā ñ s
+ā ṅ s
+ā ṇ s
+a ñ t
+a ñ ṭ
+a ṅ t
+ā n ṭ
+ā ṇ t
+a n ṷ
+ã n u
+à n v
+ā ñ v
+ā ṅ v
+ã n y
+a o  
+a o ṅ
+ā o ṅ
+a o ṣ
+a o t
+a o y
+ā p  
+a p ã
+ã p a
+ā p b
+a p c
+à p c
+ā p ḥ
+a p ṅ
+ā p ṇ
+a p ō
+ā p ṭ
+ã p u
+a p v
+a ṛ a
+a ṛ ā
+ā ṛ á
+à r b
+a ṝ h
+a ṛ ī
+ã r i
+ā ṛ i
+ā ṛ j
+a ṝ k
+a ṝ m
+a ṛ n
+à r n
+ā ṛ ṇ
+a r ō
+a ṛ r
+ā ṛ ś
+ā ṝ t
+à r v
+a ś b
+a s d
+a š e
+ā ś è
+ā s h
+ā ṣ h
+a s j
+a ś k
+ā ś k
+a s l
+ā s l
+ā ṣ m
+a s ṇ
+ā š o
+a ṣ ś
+ā s ś
+ā ś s
+ā ṣ ū
+á s v
+ã t  
+á t ā
+á t e
+ā ṭ g
+a t ķ
+a t ḻ
+a t ṃ
+a ṭ ṃ
+ã t m
+ā t ṅ
+ā ṭ n
+á t r
+ā ṭ r
+a t ṭ
+á t u
+a ū d
+ā u h
+a u i
+a u ī
+ā u i
+ā u k
+ā u l
+ā u n
+a ü r
+a ū ṣ
+ā u ś
+ã v  
+a v ḍ
+ā v g
+a v m
+a v n
+ā v ñ
+ā v ṝ
+a v ś
+a v ṭ
+ā v v
+ā x  
+a y '
+a y ã
+ā ẏ ā
+a y k
+ā y k
+a y n
+a y ṣ
+ā z g
+a z ī
+a z m
+ā z m
+a р е
+a т к
+a ر ي
+a ढ ā
+a ढ़ n
+a ढ y
+a भ त
+a ह ī
+b   e
+b   g
+b   i
+b   l
+b   m
+b ā '
+b a ā
+b ā a
+b ã h
+b ā i
+b a ḷ
+b a ṛ
+b b ī
+b b o
+b b y
+b d  
+b d u
+b e ḍ
+b e l
+b e m
+b e p
+b e u
+b h ã
+b h g
+b h j
+b h k
+b h ṇ
+b h ō
+b h s
+b h ṣ
+b ḥ ū
+b ī '
+b ī h
+b ī l
+b ī ñ
+b ī p
+b ī ś
+b ī z
+b ḷ ṃ
+b l ū
+b ḻ u
+b n a
+b n e
+b o ’
+b o b
+b o ḥ
+b o s
+b o y
+b r  
+b ṛ  
+b ṛ b
+b ṛ g
+b ṛ m
+b ṛ ṇ
+b ū c
+b u ṭ
+b v i
+b v ī
+c   e
+c   g
+c   j
+c   k
+c   m
+c   p
+c   s
+c   v
+c ā ’
+c ā ṛ
+c c  
+c c l
+c c ṛ
+c c t
+c d d
+c é d
+c e ṇ
+c h  
+c ḥ ā
+c h b
+c h d
+c h g
+c h p
+c h ṝ
+c i ā
+c i đ
+c ī ṅ
+c ī ṇ
+c i ṛ
+c ī ṣ
+c i ṭ
+c i р
+c k i
+c k r
+c k ṛ
+c l i
+c l u
+c m ā
+c m ī
+c n a
+c ṇ a
+c n o
+c o ’
+c o ḥ
+c o ñ
+c o ṛ
+c o u
+c r ā
+c r b
+c r e
+c r i
+c ṛ k
+c ṛ ṇ
+c ṛ r
+c ś ī
+c ś v
+c ś y
+c t c
+c t e
+c t h
+c t i
+c t v
+c u a
+c ū b
+c ū j
+c ū n
+c u ṛ
+c ū ṛ
+c y ã
+c y s
+d   c
+ḍ   ḍ
+ḍ   m
+ḍ   o
+ḍ   p
+ḍ   ū
+d ' y
+d ā ā
+ḍ ā a
+d a ī
+d a ḷ
+ḍ ā ḷ
+ḍ ā ṇ
+d a š
+d a ū
+d ā u
+d ā x
+ḍ b ā
+d b m
+ḍ b ṛ
+ḍ b y
+d c ā
+d c h
+ḍ c h
+d ḍ a
+d ḍ ā
+ḍ d g
+d ḍ ī
+d d j
+d d k
+d d ś
+d d t
+ḍ e ’
+d e à
+ḍ e a
+ḍ e ḍ
+ḍ e e
+d ē k
+d e ñ
+d e o
+ḍ g l
+d ḥ  
+d h á
+d ḥ ā
+ḍ ḥ a
+d h ḍ
+d h é
+d h ē
+d h ḥ
+d h j
+d h ṃ
+ḍ h m
+d ḥ r
+d i ā
+ḍ ī e
+d i i
+d ī ī
+d i ñ
+d ī ṇ
+ḍ i ṭ
+d j a
+d j i
+d j ñ
+ḍ j ñ
+ḍ j ṛ
+d j ū
+ḍ j y
+d k a
+d k ā
+ḍ k a
+d k ī
+ḍ k i
+d k t
+ḍ k t
+d k y
+d l a
+d l i
+d l o
+ḍ l o
+d ṃ  
+d ṃ g
+d m u
+d m ū
+ḍ m ū
+d m v
+ḍ n e
+ḍ ṇ e
+ḍ n ī
+d n r
+d n u
+d o ṇ
+ḍ o ñ
+d o ʼ
+d p a
+d p i
+d p r
+ḍ p r
+d ṛ a
+ḍ r b
+d r c
+ḍ ṛ c
+ḍ r ḍ
+ḍ ṛ g
+d ṛ j
+d r m
+d ṝ ṃ
+d r r
+d r ś
+d r š
+ḍ ṛ ś
+ḍ ṛ ṣ
+d r t
+ḍ r u
+ḍ ś ā
+ḍ ṣ a
+d ś c
+ḍ ś i
+ḍ ś o
+d s t
+d ś u
+d ś y
+d t  
+ḍ t ā
+d t h
+d t i
+d t ī
+ḍ t ī
+d t r
+d t v
+d t y
+ḍ ū à
+ḍ ū ḍ
+ḍ ū g
+d u ṅ
+d ū ṅ
+ḍ ū ṇ
+d u o
+d ū s
+đ v a
+d v b
+d v d
+d v g
+d v h
+d v j
+ḍ v o
+d v ṝ
+d v t
+d v v
+d w ā
+d w ī
+d y h
+ḍ y i
+d y y
+d а с
+d е v
+e   ’
+é   a
+è   c
+e   ṃ
+e   ṉ
+e   ṝ
+ē   s
+ē   t
+ē   v
+e   प
+e   ઢ
+e ' '
+e ' a
+e ’ c
+e ’ j
+e ’ k
+e ’ l
+e ’ ṃ
+e ’ ṇ
+e ' ṭ
+e ’ y
+e a  
+e a a
+e ā a
+e ā b
+e à d
+e a i
+e ā j
+e a ṃ
+e ā m
+e a ñ
+e a ṇ
+e ā r
+e ā s
+e ā v
+e c j
+e c ṣ
+e c t
+é d a
+e ḍ e
+e d k
+e ḍ k
+e d n
+e d s
+e d ṣ
+e d t
+e ḍ u
+e e  
+e e a
+e e t
+e f  
+e g l
+e ḥ c
+e ḥ i
+e ḥ m
+e h ō
+e i '
+e i h
+e i m
+e i ṇ
+e i ṣ
+e j c
+e j ṛ
+e j ū
+e k k
+ē k ṣ
+e ḷ a
+e ḷ ā
+e ḻ e
+ē l i
+e ḷ k
+e l m
+e l p
+e ḷ v
+e ṃ ā
+e m h
+e ṃ h
+e ṃ j
+e m p
+e m s
+e m ś
+e ṃ ṣ
+e ṇ  
+e ñ a
+e n c
+e n ḍ
+é n d
+e ṇ m
+e n p
+e n ṝ
+e n ś
+e ṅ s
+e ṇ ṣ
+e o ḍ
+e o ṇ
+e o p
+e o v
+e o y
+e p m
+e p ś
+e p ṣ
+e p v
+e ṛ c
+e r ḍ
+e ṛ k
+e r ṇ
+e ṝ t
+e s c
+e s h
+e ṣ j
+e ś n
+e s ṣ
+e š u
+ē ṣ u
+e š v
+è t a
+e t g
+e ṭ ī
+é t i
+e t n
+e ṭ o
+e ṭ r
+e ṭ ṭ
+e u a
+e ū c
+e u k
+e u l
+e u ś
+e u ṣ
+e v ã
+e v p
+e v ś
+e v u
+e v ū
+é y a
+e y d
+e y k
+f   a
+f   m
+f   ś
+f   t
+f a  
+f a s
+g   p
+g   t
+g a '
+g a é
+g ā e
+g a ġ
+ġ a i
+ġ a m
+ġ a n
+ġ ā n
+ġ a p
+g a ṛ
+g ā ū
+g a ढ
+g b n
+g e ’
+g e e
+g e ḥ
+g e ṅ
+g e ṭ
+g g i
+g g ī
+g g l
+ġ h a
+g h b
+g h c
+g h h
+g h ṇ
+g h ṣ
+g h t
+g i e
+g i ñ
+g i ṅ
+g ī ñ
+g i ṛ
+g ī ṛ
+ġ i r
+g j e
+g j h
+g j j
+g j ṣ
+g k h
+g k i
+g k ī
+g l e
+g l ī
+ġ m u
+g ṇ ḍ
+g n r
+g o i
+g p ā
+g p l
+g p r
+g p s
+g ṛ c
+g r h
+g r ḥ
+g ṛ ḥ
+g ṛ j
+g ṛ l
+g ṝ m
+g ṛ n
+g ṛ ś
+g ś  
+g s ā
+g s ṛ
+g ṣ ṭ
+g ṣ u
+g t h
+g ū ñ
+g v d
+g y i
+g y ū
+g о  
+ḥ   á
+h   d
+h   e
+ḥ   ḹ
+h   m
+ḥ   q
+h   š
+h   ṣ
+ḥ   अ
+ḥ   ર
+ḥ   隆
+ḥ '  
+ḥ ' p
+ḥ ' t
+h ã  
+h a '
+h ã g
+h ā ġ
+ḥ ā g
+h ã h
+ḥ a h
+ḥ a i
+ḥ ā m
+h ã p
+ḥ a p
+ḥ a r
+ḥ ā s
+ḥ ā ś
+h á t
+ḥ ã t
+ḥ ā v
+h b a
+h c e
+ḥ d ā
+ḥ ḍ a
+h ḍ ḍ
+ḥ ḍ h
+h ḍ ī
+h d r
+h ē  
+ḥ e k
+ḥ e ṃ
+h é y
+h g ā
+ḥ g i
+h h e
+ḥ h e
+ḥ h o
+h h t
+h h ū
+ḥ h u
+h ī '
+ḥ i d
+h i ī
+h ī ī
+ḥ i k
+h i ḷ
+ḥ i m
+ḥ i n
+h ī ṛ
+h i š
+ḥ i ṣ
+ḥ ī ś
+h ī u
+ḥ j ā
+h j h
+ḥ j h
+ḥ j ī
+h j ñ
+ḥ j ñ
+h j u
+ḥ j y
+h k  
+ḥ k  
+h k k
+ḥ k ḷ
+ḥ k n
+h k o
+h ḷ ā
+h ṃ  
+h m n
+ḥ m r
+h m ū
+h ñ a
+ḥ ṇ a
+h ṇ ḍ
+h ñ i
+ḥ n ī
+ḥ ñ j
+h ñ k
+ḥ n m
+ḥ n n
+h n ṛ
+ḥ n ṛ
+h ṇ u
+ḥ n v
+ḥ ñ y
+ḥ o  
+h o ā
+h ō d
+h o e
+h ō g
+h ō r
+h p a
+h p o
+ḥ p o
+h r  
+h r ḍ
+ḥ ṛ d
+ḥ r e
+ḥ r j
+ḥ r m
+ḥ ṛ ṅ
+ḥ r o
+h r r
+h ṝ r
+h r ṣ
+h r t
+ḥ ṛ ṭ
+ḥ ṛ y
+ḥ ṣ ā
+h s e
+h ṣ i
+ḥ ś k
+h s p
+ḥ ṣ ṛ
+ḥ ṣ ṣ
+ḥ s ṭ
+h t  
+h t e
+h t ī
+ḥ t ī
+ḥ ṭ i
+ḥ t ṛ
+ḥ t y
+h ū '
+h ū à
+ḥ u b
+h u i
+h ū ī
+ḥ u r
+ḥ ū r
+ḥ u t
+ḥ ū t
+h ū u
+h u z
+h v ṃ
+ḥ v r
+h y t
+ḥ y u
+h y v
+ī   '
+ì   g
+ī   ḷ
+i   ñ
+ī   ñ
+ì   r
+ī   ṝ
+ì   ś
+i   尘
+ī ' h
+ī ' j
+i ' k
+i ' l
+ī ' m
+ī ' t
+ī ' v
+ī a b
+ī a c
+ī ā d
+ī ā g
+ī a j
+ī ā j
+i ā m
+i ā ṃ
+i a ṇ
+ī a ṅ
+i ā p
+i à r
+ī ā r
+i a ṣ
+ī a t
+ī a ṭ
+ī ā t
+ī ā v
+i b b
+ī b d
+i c ḥ
+ì c ī
+i c n
+i c ñ
+i c t
+ī c u
+ī d '
+ī ḍ b
+i d c
+i ḍ c
+i d k
+i ḍ k
+i ḍ l
+i d n
+i ḍ n
+i ḍ p
+i ḍ ṛ
+ī d ś
+i d t
+i đ v
+i e  
+i e d
+i e m
+i e ṅ
+i e r
+i e s
+ī g m
+i g ṇ
+i g p
+i g ṣ
+i ḥ '
+i ḥ c
+i h d
+i ḥ d
+i h h
+i ḥ h
+i ḥ ḥ
+i ḥ i
+i ḥ j
+i ḥ l
+ī h m
+i ḥ n
+ī h ṣ
+ī h ū
+i ḥ v
+i i b
+i i c
+i ī d
+i ī g
+ī ī g
+i ī h
+ī i h
+i ī k
+ī i k
+i ī ṃ
+ī ī ṃ
+i i p
+i i r
+ī i r
+i ī s
+ī i ṣ
+i i y
+ī i y
+i j g
+i j ṅ
+i j r
+i j ṝ
+i j ś
+ī k  
+i k ã
+ī k c
+ī k p
+ī k s
+ī k ś
+ī k y
+i ḷ ā
+i l g
+i l m
+i l ō
+ī l p
+i l r
+i m ã
+i ṃ a
+i ṃ ā
+ī ṃ a
+i m ḍ
+i m ḥ
+ī m h
+ī ṃ ḥ
+i ṃ i
+ī ṃ ī
+i m k
+ī m m
+i m t
+i ṃ ṭ
+ī m ṭ
+ī ṇ  
+ī ṅ a
+i ñ b
+ī ṅ d
+ī ṇ ḍ
+i ñ e
+i ṅ e
+i ñ i
+i ñ ī
+i ṅ ī
+i ñ k
+i ṇ k
+i ṅ l
+ī ṅ m
+i n ṇ
+i ñ n
+i ñ ñ
+i ṅ ṅ
+i ṅ o
+i ñ p
+ī n ṝ
+i ṅ s
+ī n ṣ
+ī ṅ ś
+i n ṭ
+i ṅ u
+i ṇ ū
+ī ṅ v
+i o j
+i o ṃ
+i o ṣ
+ī o ṣ
+i p  
+ì p h
+i p m
+i p n
+i p ṇ
+ī r c
+i ṛ d
+ī ṛ g
+i ṛ j
+ī ṛ k
+i r ñ
+i ṛ n
+i ṛ o
+i ṛ p
+ī r r
+ī r ṛ
+i ṛ ṭ
+i r а
+ì ś a
+i ś b
+ī ś b
+ī ś d
+i s h
+i ś ḥ
+i ṣ h
+i š i
+i s l
+i ś ṇ
+i ṣ ñ
+ī ś n
+ī ṣ r
+i s ś
+ī s ṭ
+ī ṣ t
+i ṣ ṷ
+ì ś v
+i t ã
+i t c
+i t l
+i t m
+i t ṃ
+ī t ṇ
+i t ō
+i ṭ r
+ī t ś
+i ṭ t
+i ṭ v
+i t ο
+i u b
+i ū c
+i u g
+i u i
+i u k
+i u m
+i u n
+i u ṣ
+i v é
+i v è
+i v j
+i v n
+i y  
+ì y o
+ī y r
+i y v
+ī z a
+i р е
+i ت ā
+j   d
+j   g
+j   ñ
+j   o
+j   ś
+j   v
+j   y
+j ā ’
+j a ġ
+j ã h
+j a ī
+j ã n
+j a o
+j ã p
+j ã y
+j e ñ
+j e u
+j g ā
+j h j
+j h ū
+j h v
+j i '
+j i ā
+j ī h
+j i i
+j i ṇ
+j ī ñ
+j j c
+j j j
+j j l
+j j n
+j m ā
+j m i
+j n a
+j ṅ ā
+j ṇ e
+j n ī
+j ñ j
+j ñ r
+j o т
+j ṛ  
+j ṛ k
+j ṝ m
+j ṛ ṇ
+j ṛ p
+j ṛ r
+j r y
+j s a
+j s ā
+j ś r
+j t h
+j ū b
+j u c
+j u ḍ
+j ū p
+j u ṛ
+j u ṭ
+j ū v
+j v e
+j v o
+j y  
+j y ī
+k   ū
+k a '
+k ā ā
+k a f
+k ã g
+k a ḷ
+k a o
+k ā o
+ķ ā r
+k ā š
+k b ā
+k b h
+k c e
+k c ū
+k d e
+k d v
+k e ā
+k e i
+k e ḷ
+k ē l
+k g a
+k h l
+k h ṇ
+k h p
+k h t
+k i ā
+k ī a
+k i ṛ
+k ī u
+k j a
+k k k
+k k ḷ
+k k ṃ
+k k t
+k k y
+k ḹ p
+k l ś
+k ṃ m
+k ṃ s
+k ṇ e
+k ṅ k
+k n n
+k n r
+k ṇ ṭ
+k o ī
+k ō ṭ
+k p e
+k r  
+k ṛ b
+k r c
+k ṛ ḍ
+k r ō
+k r ṛ
+k r š
+k ṛ ū
+k ś c
+k ṣ d
+k ṣ h
+k ṣ k
+k ś l
+k ś m
+k ṣ ṃ
+k s ū
+k t  
+k t '
+k ṭ h
+k t о
+k u ā
+k ū m
+k ū ṃ
+k ū ñ
+k u u
+k ū y
+k v ṛ
+k v y
+k y ū
+l   a
+l   ā
+l   d
+ḷ   d
+ḹ   e
+l   j
+l   k
+ḹ   k
+ḹ   n
+ḷ   o
+l   p
+l   s
+l   ś
+ḷ   s
+l   v
+ḻ a  
+l ā ’
+ḷ ā d
+ḷ a g
+ḻ ā g
+l a ī
+l ā ī
+ḷ a k
+l a ḷ
+l a ṛ
+ḷ ā s
+ḷ ā ṭ
+ḻ a v
+ḷ a y
+l b d
+l b ī
+l b v
+l c h
+ḷ ḍ  
+l d a
+l e ī
+ḻ e m
+l e ṛ
+ḻ e ś
+l e ṭ
+ḷ e t
+l g n
+l g o
+l g r
+l ḥ  
+l i a
+l i ā
+l ī ṛ
+l i š
+l ī ṭ
+ḹ k ā
+l k l
+ḷ k ṣ
+l l  
+l l v
+ḷ ṃ  
+l ṃ k
+l m ṣ
+l ṇ ā
+ḷ ṅ b
+l ṇ ṇ
+l o w
+ḷ p e
+ḹ p t
+l r ā
+l s a
+l ś a
+l ṣ ā
+l ś c
+l ṣ m
+l ś o
+ḷ ś ū
+l t a
+ḷ t a
+ḷ ṭ i
+l t m
+ḷ ṭ ū
+l t y
+l ū b
+l ū c
+ḻ u g
+l ū ñ
+ḷ v a
+l v ī
+l v y
+l y k
+m   ñ
+m   ṅ
+ṃ   ñ
+m   q
+m   ו
+ṃ   ब
+m   ཀ
+m   擎
+ṃ ' '
+ṃ ' r
+ṃ ' v
+ṃ ' y
+m ã  
+ṃ ā  
+m a ’
+m a ġ
+m ā ġ
+m ã h
+m ā ī
+m a ḻ
+ṃ a m
+ṃ a ṃ
+ṃ ā m
+m ã ṇ
+ṃ a ṇ
+ṃ a r
+ṃ a ṣ
+ṃ ā s
+m ã t
+m ā ū
+m ā ẏ
+ṃ a y
+m a भ
+m a ह
+ṃ b l
+m b ṛ
+m c ā
+m c e
+ṃ c v
+m d b
+m ḍ b
+ṃ ḍ g
+m d ī
+ṃ d m
+m d o
+m d r
+m ḍ ṛ
+ṃ ḍ v
+m e ī
+ṃ e l
+m e o
+m g ā
+ṃ ġ a
+m h e
+m ḥ e
+m h l
+m h o
+m ḥ ṛ
+ṃ ḥ t
+m h ū
+ṃ h v
+m ī a
+m ī ā
+m ì c
+ṃ ī ḥ
+ṃ ī k
+m i ḷ
+ṃ i m
+ṃ ī ṃ
+m i o
+m ì p
+m i ṝ
+m i š
+m i u
+ṃ ī v
+m ì y
+ṃ j m
+m j n
+m j o
+ṃ j r
+ṃ j ṛ
+m k i
+m k ī
+m k l
+ṃ k m
+m k o
+m k t
+m k u
+m l ī
+m ṃ k
+ṃ ṃ l
+ṃ m n
+m ṃ o
+ṃ ṃ t
+ṃ m v
+m n  
+ṃ n b
+m ṇ ḍ
+m ñ e
+ṃ ṅ e
+ṃ n h
+ṃ ṇ ī
+ṃ n j
+ṃ ñ j
+ṃ ṇ o
+ṃ n ś
+ṃ ṇ ṭ
+m n u
+m n v
+m ō  
+ṃ o h
+m o ñ
+m o o
+m o ṛ
+ṃ p j
+m p m
+ṃ p n
+ṃ p s
+ṃ r b
+ṃ r ḍ
+ṃ r g
+ṃ r h
+ṃ r k
+m ṛ ṃ
+ṃ r m
+m ṛ ñ
+ṃ r n
+ṃ r ṇ
+m r ś
+ṃ r ś
+ṃ r ṭ
+ṃ ṛ t
+m r ū
+m ṛ v
+m r y
+m ṣ ā
+ṃ s c
+ṃ ṣ d
+ṃ ṣ k
+m s m
+m s n
+m ś n
+ṃ ṣ o
+ṃ ś p
+ṃ ṣ p
+m ś ṛ
+m ṣ t
+m s v
+m t  
+ṃ ṭ e
+m ṭ h
+ṃ t l
+m t m
+m t p
+m t ṛ
+m t y
+ṃ u  
+ṃ ū ḍ
+m u i
+m ū i
+m ū ḻ
+ṃ u m
+ṃ u ṃ
+ṃ u p
+m ū ṛ
+ṃ u ṣ
+ṃ v m
+ṃ v ū
+m v v
+ṃ v v
+m v y
+m y s
+m о '
+m و د
+m य ग
+ṅ   b
+ñ   e
+ṇ   h
+ñ   i
+ṅ   i
+ṅ   l
+ṇ   l
+n   ṇ
+n   ṝ
+ṅ   r
+ñ   s
+ṅ   s
+ṅ   ś
+ñ   t
+ṅ   t
+ṇ   ṭ
+ñ   u
+ṇ   u
+ṅ   v
+ñ ã  
+ṇ ā ’
+ñ ā a
+ṅ a ā
+ṅ ā b
+n a ġ
+n ã g
+n ã h
+n ā ī
+ṅ a i
+ṇ a ī
+ṉ a k
+ṅ a ṃ
+ṅ ā ṃ
+n ã n
+ñ ā ṇ
+n a ṝ
+ṅ a r
+ṅ ā r
+ṇ ā ṛ
+ñ ā ṣ
+ṅ ā s
+n a ū
+n ā ū
+ñ a ū
+ñ ā u
+ṇ a ü
+ṅ a v
+ṅ ā y
+ṇ ā z
+n a т
+ñ c  
+ṇ c ā
+n c e
+ṇ c h
+n c i
+ṅ c ī
+ñ c j
+n c r
+n c u
+n c y
+ñ ḍ e
+ṅ d e
+n d g
+ṅ ḍ g
+ṇ d h
+ṇ ḍ k
+n d m
+n d ṃ
+n ḍ r
+n ḍ u
+n ḍ ū
+ṅ d ū
+ṇ d u
+n d е
+ṅ e  
+n e ḍ
+ñ e h
+ñ e ḥ
+n e i
+ṅ e k
+n e ṇ
+n e o
+ṇ e o
+n e ṛ
+ñ e r
+n e š
+ṅ e s
+ṅ e ṭ
+ṇ e u
+ṅ g g
+ṇ g o
+ṅ g ṝ
+ṅ g s
+n g ū
+ṇ g u
+n ḥ  
+ñ ḥ  
+ṇ ḥ  
+ṅ h ā
+ṇ h ā
+ṅ h ū
+n ī a
+ñ i d
+ñ i e
+ṅ i g
+ñ i i
+ṇ i i
+ṇ i ī
+ṅ i k
+n i ḷ
+ñ i ṃ
+n ī ṇ
+n i ṝ
+n ī ṛ
+ñ ī r
+ṅ i r
+ṇ ī ṛ
+n i š
+ñ i ś
+ñ i ṣ
+ṅ i s
+ṅ ī s
+ñ i ṭ
+ṅ i t
+ṇ i ṭ
+n ī u
+ṅ j e
+ṇ j i
+ñ j j
+ñ j n
+ṅ j ṛ
+n j u
+n j y
+ń k e
+ñ k h
+ṇ k i
+ṅ k ḷ
+ṅ k p
+ṇ k ṛ
+ṅ k s
+ṅ k ś
+n k t
+ṅ l ā
+ṇ l a
+n l ī
+n l l
+ṅ l u
+ṅ m  
+ṇ ṃ  
+ñ m a
+ṇ m i
+n m k
+ṇ m l
+ṇ m o
+ṅ m ṛ
+ṇ ṃ t
+n ñ  
+ṇ n  
+ñ n a
+ñ ñ a
+ṅ ṅ a
+ṅ ṇ ā
+n ñ c
+ṇ ṇ d
+ñ n e
+ṇ ñ e
+n n ḥ
+ñ ñ ī
+ṇ n i
+n ñ j
+n ṅ o
+ñ ñ o
+ṅ n r
+ṅ n ṝ
+ṅ ṇ ū
+ṇ n u
+ṇ ṇ ū
+ñ o ’
+ñ o ḍ
+ñ o ḥ
+n o i
+n o ñ
+ṇ o ñ
+ṇ o ṅ
+ñ o ś
+n ō t
+ṇ o ṭ
+n o u
+ṇ o ʼ
+ñ p i
+ṇ p r
+n p s
+n r  
+n ṛ ā
+ñ r a
+ṇ r ā
+n r b
+n r c
+n ṛ ḥ
+n r ī
+ñ r i
+n ṝ ṃ
+n r n
+ṇ ṛ n
+ṇ ṛ ṇ
+ṇ ṝ ṇ
+n r ś
+n r ṣ
+n ṝ t
+ṅ r ū
+n r v
+ñ ś  
+n s c
+n s d
+n ś e
+n ṣ i
+ñ s i
+ñ ś ī
+ṅ ś i
+ṅ ś ī
+n ṣ k
+n ś l
+n ś m
+ṅ s m
+ṅ s n
+ṅ ś r
+n ṣ ṭ
+ṇ ṣ ṭ
+n ṣ u
+ṅ ṣ u
+n ś y
+n ṣ y
+ṇ s y
+ñ ṭ a
+ṅ t h
+n ṭ i
+ṅ t i
+ṇ t i
+ñ t r
+ṇ t t
+ṇ ṭ ū
+ṇ t v
+ṇ ṭ v
+n ṭ y
+ñ ū  
+ṇ u a
+ṇ u à
+ṇ ū a
+ñ u d
+ṅ u d
+ṅ u ḍ
+ṇ u e
+ṇ ū h
+ṇ ū j
+ṅ u k
+ṇ ū l
+n ṷ m
+ṇ ū m
+n u ṇ
+n ū ñ
+ñ u p
+ṅ u p
+ñ u ś
+ṇ ū s
+ṇ ū ṣ
+ṇ u u
+ṇ ū v
+ñ v a
+ñ v ā
+ṅ v e
+ṅ v g
+ṅ v ṛ
+n y g
+n y ī
+n y n
+ṅ y o
+n y t
+ṅ y u
+n y v
+n y о
+ō   d
+ō   g
+ő   k
+o   ḷ
+o   ṃ
+o   q
+ō   r
+ō   v
+ō   y
+o ' ḍ
+o ’ j
+o ’ l
+o ' ṃ
+o ’ ṇ
+o ' ṛ
+o ’ ṣ
+o ā n
+o ā s
+o ā t
+o a u
+o b  
+o c ś
+o c ṣ
+o ḍ g
+o ḍ ḥ
+ō d h
+ō d i
+o d p
+o d s
+o d t
+o ḍ v
+o e  
+o e m
+o f  
+o g m
+o g s
+o g v
+ō g y
+o ḥ a
+o ḥ d
+o ḥ h
+o h ṇ
+o ḥ r
+o ḥ ṣ
+o h ū
+o h v
+o ḥ y
+o ī  
+o i h
+o i ś
+o i ṣ
+o ī ś
+o j ū
+o k k
+o k p
+o k s
+o k ū
+o k v
+o l  
+ō l a
+o ṃ h
+o ṃ ṛ
+o m t
+o ṃ u
+o ṅ  
+o ṅ a
+o n g
+o n h
+o n k
+o n s
+o ṇ u
+o o  
+o o k
+o o r
+o p j
+o p m
+o ṛ ā
+ō r ā
+o ṛ j
+o ṛ k
+o r ḷ
+o r ṅ
+o ṛ p
+o r ṭ
+o r а
+o ṣ  
+o s '
+o ś b
+o ṣ c
+o ṣ j
+o ṣ k
+o ś m
+o s n
+o ṣ n
+o s ő
+o ś p
+o ṣ r
+o ṣ ṣ
+o s ṭ
+o ś t
+o ś ū
+o ṣ ū
+ō ṭ i
+o ṭ ṛ
+o t ṭ
+o ṭ t
+o t ū
+o u d
+o u k
+o u n
+o ū r
+o v  
+o v s
+o v v
+o w e
+o ʼ p
+o ʼ t
+o т т
+o م a
+o ऽ s
+p   a
+p   b
+p   i
+p   l
+p   m
+p   ṛ
+p a '
+p ā ā
+p ã h
+p a ī
+p a ń
+p a ṛ
+p ā u
+p a р
+p a ر
+p a ढ़
+p d a
+p d ā
+p d e
+p d m
+p e ḍ
+p e e
+p e g
+p h l
+p ḥ ṛ
+p h y
+p ī '
+p ī a
+p i i
+p i ī
+p ī i
+p j a
+p j ī
+p j v
+p k ā
+p k u
+p l y
+p ṇ ā
+p n ī
+p ṅ k
+p ō l
+p o ṇ
+p p  
+p p ī
+p p ṇ
+p p o
+p p s
+p r ã
+p r c
+p ṛ ī
+p r k
+p ṛ v
+p ś ā
+p ś c
+p s ī
+p ś y
+p t  
+p ṭ e
+p ṭ i
+p t ṇ
+p u '
+p u ā
+p u i
+p ū m
+p u ṛ
+p ū ṭ
+p v o
+p y i
+p y ī
+q a r
+q a t
+q o t
+ṛ   ī
+ṛ   o
+ṛ   u
+r ' ṇ
+ṛ a  
+ṛ á c
+ṛ ā ḍ
+ṛ a h
+ṛ ā ḥ
+r ā ī
+r ã j
+ṛ ā j
+ṛ a ṃ
+ṛ a n
+ṛ á ṇ
+ṛ ā p
+r a ṝ
+ṛ a ś
+ṛ ā s
+ṛ ā ś
+ṛ a y
+r a z
+r b e
+ṛ b e
+ṝ b h
+ṛ b o
+ṛ c y
+r d  
+ṛ ḍ d
+ṝ d d
+ṛ d ḥ
+r d j
+r d l
+ṛ d l
+ṛ ḍ o
+r d p
+r d ṣ
+r ḍ ś
+r ḍ y
+ṛ ḍ y
+r e ḷ
+ṛ e ṇ
+r ē ṣ
+r e ū
+r g b
+r g d
+r g m
+ṛ g n
+r g v
+ṝ g v
+r ḥ ā
+ṝ h a
+ṝ h ī
+ṛ ḥ k
+r h l
+r h n
+ṛ ḥ ṇ
+r ḥ p
+ṛ h s
+ṛ ḥ ṣ
+r h t
+ṛ h t
+r h v
+ṛ h v
+r i '
+r ī ā
+ṛ i a
+ṛ i b
+ṛ i g
+r i ī
+ṛ ī k
+ṛ ī m
+ṛ i ṇ
+ṛ ī n
+ṛ ī ṇ
+ṛ i r
+ṛ ī r
+r i š
+ṛ i s
+ṛ i ś
+ṛ ī t
+r i ū
+ṛ j h
+r j n
+ṛ k i
+ṛ k j
+r k m
+ṛ k y
+ṛ ḷ  
+ṛ l e
+ṛ l m
+r ḷ ṅ
+ṛ ḷ ś
+r ṃ ā
+ṝ m ā
+r m b
+r ṃ b
+ṝ m b
+ṝ ṃ c
+r ṃ h
+ṛ m h
+r ṃ k
+ṛ m m
+ṛ ṃ n
+ṛ ṃ ṅ
+r m ō
+ṝ m o
+r m r
+r m s
+ṛ m ś
+ṛ ṃ v
+r ṇ  
+ṛ ṇ  
+r ñ a
+ṛ n ã
+r n b
+ṛ ñ b
+ṛ ṇ b
+r ñ c
+ṛ n c
+r ṇ d
+ṝ ṇ d
+ṛ n g
+r n ḥ
+ṝ n h
+r ṅ i
+ṛ n ī
+ṝ ṇ ī
+ṛ ṅ j
+ṛ n k
+ṛ ṇ ṃ
+ṛ ṅ ṅ
+ṛ ṅ o
+r n ṝ
+r ṇ r
+ṛ n ṛ
+ṝ n ṛ
+r ṇ s
+ṛ ṇ ṣ
+r ṅ t
+ṛ ñ u
+ṛ ñ ū
+ṛ ñ v
+ṛ ṅ y
+r ō  
+ṛ o  
+r o ā
+r ō d
+r o i
+ṛ o t
+r o م
+ṝ p a
+ṛ p ṇ
+r p t
+ṝ p t
+r p u
+ṝ r a
+ṛ r e
+ṛ r ḥ
+ṝ r h
+r r ī
+ṝ r ṃ
+ṛ r p
+r ṛ r
+r ṛ s
+ṛ ṛ t
+r r u
+ṛ ṛ v
+ṝ r v
+r r y
+r ś  
+ṛ ś  
+ṛ ṣ '
+ṝ ś c
+ṝ ṣ e
+ṛ ṣ h
+r ś m
+ṛ s m
+r ṣ p
+ṛ ṣ p
+r s r
+r s ṛ
+ṛ s ṛ
+ṛ s s
+ṛ ṣ s
+ṛ ṣ ś
+ṛ s ṭ
+ṛ ś t
+ṝ s t
+ṝ ṣ y
+ṝ t  
+ṛ t ã
+r t b
+ṛ ṭ g
+ṛ t ḥ
+ṛ ṭ ḥ
+ṛ t j
+ṛ t m
+r ṭ o
+r t p
+r ṭ ṛ
+r t ś
+ṛ t ś
+ṛ ṭ ṣ
+ṛ ṭ ṭ
+ṛ ṭ ū
+ṝ t u
+r ṭ v
+ṝ t v
+ṛ u  
+r u a
+r u ā
+r ū ṅ
+ṛ u ṇ
+r ū o
+ṛ ū r
+ṛ u t
+r ū u
+ṛ v  
+r v '
+r v m
+ṛ v o
+r v ū
+ṛ v u
+r v ष
+r y c
+r y p
+r а г
+r а с
+r а т
+ś   a
+ś   d
+ś   h
+ś   n
+ṣ   p
+s   ṛ
+ṣ   s
+ṣ   u
+ṣ   v
+s ' ḍ
+ṣ ' ñ
+s ' o
+s ' s
+ś ā ’
+ṣ ā ’
+ṣ ā à
+ṣ ā e
+ṣ a ī
+ś å j
+ś ā ḻ
+s ã n
+s ā o
+ś a ṝ
+ś a ū
+ś ā u
+s ã v
+ṣ a x
+s a ढ
+ś b o
+s b u
+ś c k
+ṣ c u
+ś c v
+s d a
+ś d a
+s d e
+ś d e
+s d n
+s d r
+ṣ d r
+s d u
+ṣ d u
+ś d v
+ṣ d v
+ś è  
+š e  
+s e ’
+ṣ e ’
+s e ā
+s e ḍ
+ṣ e ḍ
+ṣ e e
+ṣ e i
+ś e ñ
+ś e ṅ
+ś e o
+s e ṛ
+ṣ e ṭ
+ś e u
+s g a
+ś ḥ  
+s h ā
+ṣ h ā
+s h e
+ṣ h i
+s ḥ ṇ
+s h o
+s h p
+ś h ṛ
+ṣ h y
+ś i '
+s i a
+s ī ā
+š i b
+ś i ḍ
+s i e
+ś ī e
+s i i
+ṣ ī i
+ṣ ī l
+s i ṅ
+s i ṇ
+ś ī ṇ
+s i ṛ
+ś ī ṛ
+s i u
+ś i u
+ṣ j m
+ṣ j y
+ś k a
+ś k ā
+š k ā
+ś k i
+ś k ī
+ṣ k k
+s k l
+s l a
+s l e
+s l i
+ś l u
+s ṃ  
+s m ã
+s ṃ a
+s m b
+ṣ ṃ ī
+s m p
+ṣ m ū
+s m v
+ś n  
+ṣ ṇ  
+s ṇ ā
+ṣ ñ c
+ṣ ṇ d
+ś ṅ k
+ṣ ṇ m
+ṣ ṇ ṃ
+s n n
+ṣ n t
+ś ṇ u
+s n v
+ś n y
+s ő  
+s o ā
+s o i
+ś o i
+ṣ o ṅ
+ś o o
+s o ṛ
+s o u
+s p e
+s p ī
+ś p i
+s p m
+ś p ṛ
+s p ṭ
+s p y
+ś ṛ  
+ṣ ṛ a
+ś ṛ b
+ś r d
+ś ṛ ḍ
+ś ṛ h
+s r l
+s r m
+s r n
+s ṝ n
+ś r ṅ
+ṣ r ṇ
+s r ṛ
+ś r r
+s r ś
+s ṝ s
+s ṝ ś
+ś r ṣ
+s r t
+ś ṛ u
+s ṛ v
+ṣ ṣ ā
+s ś c
+ś s c
+ṣ ṣ c
+ṣ ṣ e
+s s g
+s s h
+s ś i
+ś s i
+ṣ s ī
+ṣ ś ī
+s s l
+ṣ ś l
+ś ś m
+s ś o
+ṣ ṣ o
+ś s p
+s ś r
+s s ś
+ś s t
+ś s u
+ṣ s u
+ṣ ṣ v
+ṣ ś y
+š ṭ a
+s t b
+ṣ ṭ b
+ṣ ṭ c
+ṣ ṭ d
+ś t e
+š t e
+s ṭ ḥ
+š t h
+š ṭ h
+s t k
+ṣ ṭ n
+ś t o
+s ṭ v
+ś t y
+š u  
+s u a
+s u ā
+ś u a
+ṣ u a
+ṣ u ā
+ṣ ū b
+ṣ ū ḍ
+s u e
+ś ū h
+ś ū ḥ
+s u i
+ṣ u i
+š u k
+ṣ ṷ k
+ṣ ū m
+s u ñ
+s u ṅ
+s ū ṅ
+ś ū ṅ
+ṣ u ṅ
+s ū ṛ
+ṣ ū s
+s ū ṭ
+ṣ u ṭ
+ṣ ū ṭ
+ṣ u u
+ś v ã
+š v a
+s v c
+s v l
+s v n
+s v r
+ś v s
+s v ū
+ś v u
+s y ã
+s y é
+ś y t
+s y v
+ṣ y v
+ś y y
+t   '
+t   ḷ
+ṭ   ṭ
+t   ર
+t '  
+ṭ a '
+ṭ a ī
+ṭ ā i
+t ã n
+t ã ñ
+t a ṝ
+ṭ a ṛ
+ṭ ā ū
+t ā z
+ṭ b a
+t b i
+t b r
+t c a
+ṭ c ā
+t c c
+t c i
+t d ā
+ṭ d h
+t d ī
+t d r
+t d u
+ṭ d v
+ṭ e ṇ
+t g ā
+ṭ g h
+t g o
+t g u
+ṭ g u
+ṭ ḥ  
+ṭ ḥ ā
+ṭ h c
+ṭ h ḍ
+t h h
+ṭ ḥ i
+ṭ ḥ k
+t h ṇ
+ṭ h ṇ
+t h t
+t h ṭ
+ṭ h t
+t i '
+t ī a
+t ī ā
+ṭ i a
+ṭ ī ā
+ṭ i ḍ
+t ī e
+t i ī
+t ī ṇ
+ṭ i ṇ
+ṭ ī ñ
+ṭ i ṛ
+ṭ ī ṭ
+t i z
+t j v
+t k  
+t ķ ā
+t k ṇ
+t k s
+t k ṭ
+t ḻ ā
+t l i
+t l l
+t ḷ t
+t l u
+ṭ ṃ  
+t m d
+t ṅ a
+t ṇ a
+t n r
+t n ū
+t ō  
+t o i
+t o ī
+ṭ o i
+ṭ o ṇ
+t o ṛ
+ṭ o ś
+t o ū
+t o ऽ
+ṭ p ī
+t p t
+ṭ p ū
+t p v
+ṭ ṛ  
+t r '
+t ṝ b
+t r c
+t r ē
+t r ḥ
+ṭ ṛ h
+ṭ ṛ j
+t ṝ k
+ṭ ṛ k
+t r m
+ṭ r ṇ
+ṭ ṛ ṅ
+t r p
+ṭ r r
+ṭ ṛ r
+t r ś
+t ṝ ṣ
+ṭ r ś
+ṭ ṛ ṣ
+ṭ r t
+ṭ ṛ v
+t ṣ ā
+ṭ ṣ ā
+t ś c
+t s d
+t ś e
+t ṣ e
+ṭ s e
+t ś ī
+ṭ s i
+ṭ ś ī
+t s j
+ṭ s m
+ṭ s n
+t ś o
+ṭ ṣ o
+ṭ s r
+ṭ s t
+t ṣ u
+ṭ ś u
+ṭ ṣ u
+ṭ ś v
+ṭ ṣ v
+t ś y
+t ṣ y
+ṭ s y
+t t  
+t ṭ ā
+t t b
+t t ḥ
+ṭ t h
+ṭ ṭ k
+t t n
+ṭ ṭ p
+ṭ ṭ r
+t t ś
+ṭ ṭ u
+ṭ ṭ ū
+ṭ t y
+t u à
+ṭ u à
+ṭ u c
+ṭ ū l
+t ū m
+ṭ ū ṃ
+ṭ u ṅ
+ṭ ū p
+ṭ ū r
+ṭ u ṭ
+t u ū
+t u z
+t v ã
+ṭ v ī
+ṭ v r
+t v t
+t v v
+ṭ v y
+t y b
+t y g
+t y ḥ
+t y ī
+t y k
+t y p
+t y y
+t ο  
+t о  
+ū   e
+u   ñ
+ū   ṇ
+u   š
+ū   ṭ
+u   ส
+u ' b
+u ' r
+u ' ś
+ū ' t
+u a b
+ū à d
+u ā g
+u a h
+u a ḥ
+u ā h
+u ā k
+u ā m
+u ā ṃ
+u a ṅ
+ū à n
+u à p
+u a ś
+u ā ś
+ū a ś
+u a ṭ
+ū a t
+ū a v
+ū b d
+ū b e
+ū b i
+ū b ī
+ū b r
+u c d
+u c k
+u c ṛ
+ū c t
+u ḍ  
+ū ḍ  
+ū ḍ ḍ
+u d ē
+ū ḍ ī
+u d k
+u ḍ k
+u ḍ ṛ
+u e  
+u e h
+ū e ṇ
+u e p
+u e v
+ū e v
+ū g g
+ū g h
+u g k
+ū g m
+u g p
+u g о
+u ḥ a
+ū ḥ a
+u ḥ c
+u ḥ h
+u ḥ ḥ
+u ḥ ī
+u ḥ j
+ū ḥ k
+u ḥ n
+u ḥ ñ
+u h ṝ
+ū h ṛ
+ū ḥ ś
+u ḥ ṭ
+u ī  
+ū ī  
+u i c
+ū i d
+u i ḥ
+u i j
+u ī ṃ
+u i p
+u ī r
+ū i r
+u i ṣ
+u ī ś
+u ī ṣ
+ū i t
+u i v
+u j m
+ū j v
+u k ḹ
+ū k ṃ
+u k ṅ
+ṷ k ṣ
+ū k v
+ū ḻ a
+u l c
+u l h
+ū l h
+ū l k
+ū l m
+u l ṇ
+u l t
+ū l u
+u ṃ a
+u ṃ ā
+ṷ m ā
+ū m b
+ū ṃ b
+ū ṃ d
+u m g
+u m ì
+ū ṃ j
+ū m k
+u ṃ ṃ
+ū m ṛ
+u m s
+ū m s
+u m t
+u ñ ā
+u ṅ a
+ū ñ a
+ū ṅ ā
+u n c
+u ṇ c
+u ṅ d
+u ṅ ḍ
+u ñ e
+u ṇ g
+ū ṇ g
+u n ḥ
+u n j
+u ṅ j
+u ṇ j
+ū n j
+u ñ ñ
+u ṇ n
+u n p
+u n ṝ
+u ṇ r
+u ñ ś
+ū n ś
+ū ṅ s
+ū ṅ ś
+ū ṅ ṣ
+u ṇ t
+u ñ u
+ū ṇ u
+u ñ y
+u o  
+u o g
+ū o g
+u o j
+u o n
+u p d
+u p m
+ū p p
+ū p ṭ
+u p v
+u r ã
+u r ḍ
+u ṛ e
+u ṛ i
+u ṛ o
+ü r o
+ū ṛ ṣ
+u r ṭ
+ū ṛ t
+u s d
+u ṣ d
+ū s e
+u ṣ h
+u š k
+ū s k
+ū s m
+u ṣ n
+u ś p
+u ṣ s
+u ṣ ś
+ū ś ś
+ū ś u
+u t ã
+u t b
+u ṭ c
+ū ṭ h
+ū ṭ i
+u t l
+u ṭ m
+ū t ṛ
+u ṭ s
+u ṭ ṣ
+ū t ś
+u ṭ t
+ū ṭ y
+ū u  
+ū u b
+u u m
+u u n
+u ū r
+u u v
+u v  
+ū v d
+u v j
+ū v v
+u w a
+u w ś
+u y ī
+ū y r
+u z g
+u z i
+u z k
+ū ढ़  
+v   d
+v   g
+v   k
+v   m
+v   p
+v   t
+v ' m
+v ā ġ
+v ā ī
+v a ṝ
+v ã r
+v a ū
+v ā z
+v b r
+v c a
+v c n
+v ḍ d
+v d u
+v d v
+v e e
+v e ḷ
+v é n
+v è t
+v g h
+v g i
+v g n
+v h ū
+v h y
+v i '
+v i a
+v i e
+v i ī
+v ī i
+v i o
+v ī o
+v ī u
+v i z
+v i ت
+v j o
+v l ī
+v ṃ  
+v m ā
+v ñ ā
+v n ī
+v n ṛ
+v r  
+v ṝ h
+v r ṇ
+v ṝ ṇ
+v r t
+v r v
+v r а
+v s a
+v ś ā
+v ś i
+v s t
+v t a
+v ṭ a
+v t o
+v t r
+v t u
+v u a
+v ū b
+v u h
+v ū k
+v ū m
+v ū ñ
+v ū p
+v ū s
+v v u
+v v v
+v y ã
+v y v
+v ष u
+w a  
+w ā j
+w e r
+w ī p
+w ś i
+x   a
+x   d
+x   s
+x   t
+y   c
+y   d
+y   g
+y   j
+y   ṃ
+y   p
+y   r
+y   s
+y   ṣ
+y   y
+y ' a
+ẏ ā  
+y a ’
+y ã m
+y ã n
+y a o
+y ā o
+y ã s
+y ā z
+y c a
+y d ā
+y e ā
+y e ḻ
+y e ṝ
+y e š
+y e ṭ
+y é t
+y ḥ  
+y h y
+y i ā
+y i h
+y i i
+y ī l
+y i o
+y ī u
+y j ñ
+y k a
+y k h
+y k o
+y k ṣ
+y k t
+y m o
+y n t
+y o e
+y o i
+y o o
+y p o
+y p r
+y ṛ g
+y ṛ r
+y ṣ ā
+y s o
+y s t
+y s y
+y t  
+y t e
+y t p
+y t u
+y t y
+y u '
+y ū l
+y ū ñ
+y ū ṇ
+y ū ṭ
+y ū v
+y v i
+y y ṛ
+y о  
+z a n
+z a p
+z a u
+z g i
+z ī j
+z i n
+z k t
+z m a
+z m ā
+ʼ p i
+ʼ s a
+ʼ s ṛ
+ʼ t r
+ο   b
+а   m
+а г ā
+а с a
+а с в
+а т о
+в а  
+г ā ḥ
+е   s
+е ṇ a
+е v a
+к u m
+о   c
+о   m
+о   n
+о   ś
+о ' d
+р е  
+р е ṇ
+с a ṃ
+с в а
+т a m
+т к u
+т о  
+т т a
+ו ן  
+ן   a
+ן   s
+ت ā  
+د ā r
+ر ي  
+م a  
+و د ā
+ي   y
+በ   n
+अ क म
+अ ज ज
+अ त न
+अ द र
+अ न त
+अ य घ
+अ र द
+अ र न
+अ ल क
+अ श क
+अ स त
+अ स थ
+अ स म
+आ च र
+आ प य
+आ श र
+इ त न
+इ त र
+इ व  
+इ व त
+इ ह  
+उ त त
+उ द ग
+उ म स
+उ ल ब
+ए क द
+ए व  
+क   च
+क   भ
+क   र
+क   ल
+क क ण
+क क ष
+क ग ल
+क घ व
+क छ त
+क ड ण
+क ण ठ
+क ण ड
+क ण न
+क त ग
+क त त
+क त य
+क त ऽ
+क थ य
+क द  
+क द प
+क न  
+क न त
+क न न
+क न प
+क न म
+क प य
+क भ  
+क म क
+क म ज
+क म थ
+क म द
+क म ब
+क म य
+क य त
+क य म
+क य स
+क र ध
+क र न
+क र ल
+क र श
+क र ष
+क र स
+क ल च
+क ल न
+क ल य
+क ल श
+क ल स
+क व  
+क व न
+क व श
+क श च
+क श ण
+क श म
+क ष च
+क ष ञ
+क ष ट
+क ष द
+क स स
+क ऽ थ
+क ऽ प
+ख   द
+ख   प
+ख ण ड
+ख त  
+ख त ऽ
+ख म  
+ख य त
+ख र  
+ख र ष
+ख ल म
+ख ल य
+ख व ह
+ख स त
+ख ऽ च
+ग   इ
+ग   क
+ग   घ
+ग   त
+ग   द
+ग   न
+ग   प
+ग   म
+ग   व
+ग   ह
+ग a ṃ
+ग च छ
+ग ज ध
+ग ण न
+ग त म
+ग त य
+ग त र
+ग त स
+ग द  
+ग द म
+ग द य
+ग ध द
+ग ध र
+ग न ज
+ग न त
+ग न म
+ग प र
+ग भ स
+ग म म
+ग य ग
+ग र घ
+ग र ण
+ग र न
+ग र भ
+ग र ऽ
+ग ल य
+ग ल र
+ग व ल
+ग ष य
+ग स म
+ग ह  
+ग ऽ थ
+ग ऽ न
+घ   त
+घ ट त
+घ ड घ
+घ ड ध
+घ ण ट
+घ त  
+घ त य
+घ न  
+घ न घ
+घ न र
+घ र द
+घ र प
+घ र म
+घ र य
+घ र श
+घ व न
+घ व ल
+घ श श
+घ स य
+ङ ग र
+ङ ग ह
+च   च
+च   ज
+च   ब
+च   भ
+च   य
+च   र
+च   श
+च क य
+च क ष
+च ग र
+च च य
+च छ  
+च छ ख
+च छ म
+च छ य
+च त  
+च त क
+च द  
+च द च
+च द द
+च द श
+च न च
+च न ज
+च न त
+च न म
+च न व
+च य  
+च य य
+च य र
+च य व
+च र त
+च र ह
+च ल  
+च ल त
+च ल द
+च ल स
+च ष म
+छ   त
+छ   द
+छ ख र
+छ त  
+छ म भ
+छ य ग
+ज   आ
+ज   म
+ज   र
+ज   ह
+ज ग  
+ज ग ज
+ज ग ष
+ज ञ त
+ज ञ न
+ज ञ व
+ज ञ श
+ज ञ स
+ज त क
+ज त प
+ज त व
+ज त स
+ज त ऽ
+ज ध र
+ज न  
+ज न प
+ज न य
+ज न र
+ज न व
+ज म ह
+ज य त
+ज य द
+ज य भ
+ज य श
+ज र च
+ज ल य
+ज व ध
+ज श व
+ज स  
+ज स म
+ज स र
+ज ह त
+ज ह ष
+झ झ र
+झ र न
+ञ   इ
+ञ   त
+ञ   स
+ञ च त
+ञ च द
+ञ छ  
+ञ ज न
+ञ ज र
+ञ ज श
+ञ त  
+ञ न न
+ञ व र
+ञ श क
+ञ श र
+ञ स त
+ट   न
+ट   र
+ट   व
+ट   श
+ट   ह
+ट त  
+ट त र
+ट न  
+ट ब त
+ट भ र
+ट म द
+ट श व
+ट स ज
+ठ त  
+ठ भ र
+ठ व च
+ठ स य
+ड   च
+ड   त
+ड क  
+ड क प
+ड ख ण
+ड घ ड
+ड च य
+ड ड च
+ड ण ड
+ड त  
+ड ध भ
+ड भ य
+ड म झ
+ड र क
+ड ल  
+ड ल ध
+ड व ग
+ढ़   m
+ढ   न
+ढ   स
+ढ़ ā  
+ढ़ ā h
+ढ ā s
+ढ़ n t
+ढ y ā
+ढ श च
+ढ स त
+ण   अ
+ण   इ
+ण   ख
+ण   न
+ण   भ
+ण   म
+ण   य
+ण क ण
+ण ग ऽ
+ण घ त
+ण ज त
+ण ट  
+ण ठ भ
+ण ड ख
+ण ड त
+ण ड भ
+ण ड र
+ण ण  
+ण त म
+ण त व
+ण त स
+ण न त
+ण न द
+ण न म
+ण न व
+ण भ  
+ण भ म
+ण य त
+ण य न
+ण य व
+ण य ष
+ण र ज
+ण र म
+ण व श
+ण स य
+ण स व
+त   i
+त   ए
+त a ṃ
+त क क
+त क च
+त क ण
+त क भ
+त क ष
+त क ऽ
+त ग त
+त ग न
+त ग भ
+त ग स
+त च क
+त च त
+त ज  
+त ज ञ
+त ज न
+त ज स
+त ट  
+त त च
+त त न
+त त प
+त त य
+त त व
+त त ष
+त थ त
+त थ प
+त थ व
+त द क
+त द प
+त द म
+त द र
+त द ल
+त द व
+त द श
+त द ऽ
+त न प
+त प त
+त भ  
+त भ व
+त म क
+त म घ
+त म ज
+त म त
+त म द
+त म प
+त म ब
+त म ह
+त य प
+त य ऽ
+त र ग
+त र ज
+त र ञ
+त र ण
+त र ध
+त र भ
+त र म
+त र र
+त र ऽ
+त ल क
+त व क
+त व च
+त व द
+त व ल
+त व ह
+त श च
+त श प
+त श ब
+त श र
+त श स
+त ष ठ
+त ष त
+त स क
+त स ख
+त स भ
+त स र
+त स व
+त ह त
+त ह न
+त ऽ स
+थ   न
+थ   य
+थ   र
+थ   ल
+थ   स
+थ च  
+थ त म
+थ द क
+थ द श
+थ ध र
+थ न न
+थ प य
+थ म ण
+थ य  
+थ र त
+थ व  
+थ व च
+थ व ध
+थ व प
+थ व य
+थ श क
+थ श च
+थ श व
+थ स य
+थ स र
+थ ऽ व
+द   अ
+द   ग
+द   घ
+द   द
+द   न
+द   प
+द   ब
+द   र
+द   श
+द   स
+द   ह
+द क  
+द क त
+द ख त
+द ग ध
+द ग म
+द ग र
+द च य
+द च र
+द ज  
+द त क
+द त ज
+द त म
+द त ल
+द त व
+द द क
+द द त
+द द ध
+द द ल
+द द ष
+द ध च
+द न द
+द न र
+द न स
+द प  
+द प य
+द प ल
+द ब व
+द भ क
+द भ य
+द भ व
+द भ श
+द भ ष
+द भ स
+द म ब
+द म म
+द म स
+द य म
+द य य
+द र क
+द र द
+द र ध
+द र भ
+द र म
+द ल  
+द ल क
+द ल म
+द व क
+द व ग
+द व घ
+द व ज
+द व त
+द व ध
+द व भ
+द व म
+द व श
+द श क
+द श च
+द श न
+द श य
+द श स
+द स  
+द स त
+द स य
+द स व
+द स स
+द ह द
+द ह श
+द ह ऽ
+द ऽ न
+द ऽ स
+ध   क
+ध   न
+ध   ब
+ध   भ
+ध   व
+ध   श
+ध च न
+ध द ध
+ध द य
+ध द ह
+ध न म
+ध न य
+ध न स
+ध प ट
+ध प ण
+ध भ व
+ध म त
+ध म म
+ध म र
+ध य व
+ध य ष
+ध र  
+ध र ण
+ध र द
+ध र ह
+ध व  
+ध व थ
+ध व ध
+न   t
+न   इ
+न   ज
+न   ब
+न   भ
+न   य
+न   ह
+न क त
+न क थ
+न क न
+न क म
+न क य
+न क र
+न ख र
+न ग  
+न ग म
+न ग ल
+न ग व
+न घ  
+न घ न
+न च  
+न च ण
+न च ल
+न ज ञ
+न ज न
+न त ग
+न त त
+न त थ
+न त ह
+न द  
+न द ध
+न द प
+न द श
+न द ह
+न न द
+न न प
+न न ब
+न न य
+न न व
+न न ष
+न न स
+न प  
+न प त
+न प य
+न प ऽ
+न ब ध
+न ब भ
+न ब र
+न भ व
+न म ञ
+न य ग
+न य थ
+न य ध
+न य प
+न य भ
+न य व
+न र  
+न र क
+न र ज
+न र ण
+न र द
+न र र
+न व प
+न व र
+न व श
+न व स
+न व ह
+न श  
+न श च
+न श न
+न श य
+न श र
+न ष क
+न ष ट
+न ष य
+न ष श
+न स द
+न स म
+न स र
+न ह त
+प   अ
+प   क
+प   ग
+प   च
+प   ज
+प   द
+प   य
+प   ह
+प ज न
+प ज स
+प ट ब
+प ण भ
+प ण य
+प ण र
+प ण स
+प त च
+प त द
+प थ द
+प थ र
+प द त
+प द न
+प द म
+प द य
+प द स
+प न  
+प न श
+प प न
+प प व
+प भ त
+प म  
+प य स
+प य ह
+प र ग
+प र घ
+प र द
+प र न
+प ल  
+प ल म
+प व ग
+प श द
+प ष  
+प ष भ
+प स त
+प स द
+प स र
+प स ऽ
+प ह र
+प ऽ भ
+फ ल  
+फ ल ग
+ब   म
+ब क  
+ब ज व
+ब ज स
+ब ण म
+ब त स
+ब द म
+ब ध  
+ब ध व
+ब न द
+ब न ध
+ब र  
+ब र द
+ब र म
+ब ल द
+ब ल प
+ब ल म
+ब व ब
+ब ष ट
+ब ह  
+ब ह द
+भ   अ
+भ   ग
+भ   च
+भ   त
+भ   र
+भ   श
+भ क ष
+भ ग य
+भ ग व
+भ ज न
+भ ज र
+भ ट श
+भ त a
+भ त म
+भ त य
+भ त श
+भ त स
+भ न द
+भ न श
+भ भ ष
+भ म ख
+भ म ग
+भ म ज
+भ म भ
+भ य द
+भ र च
+भ र ज
+भ र न
+भ र भ
+भ र म
+भ र स
+भ ल ष
+भ व ञ
+भ व द
+भ व व
+भ व ष
+भ व स
+भ श च
+भ ष ण
+भ ष म
+भ ष य
+भ स  
+भ स म
+म   y
+म   घ
+म   च
+म   ज
+म   य
+म   र
+म   ष
+म क ग
+म क त
+म ख म
+म ख ल
+म ख स
+म ख ऽ
+म ग त
+म ग म
+म घ न
+म च ल
+म ज त
+म ज न
+म झ झ
+म ञ ज
+म ढ  
+म ण क
+म ण त
+म ण य
+म त ग
+म त न
+म त य
+म त श
+म थ स
+म द ग
+म द द
+म द व
+म ध य
+म न थ
+म न प
+म न व
+म प त
+म प थ
+म प द
+म प य
+म ब  
+म ब क
+म ब ण
+म भ भ
+म भ व
+म म ज
+म म ण
+म म न
+म म प
+म म र
+म म श
+म य उ
+म य क
+म य द
+म य प
+म य भ
+म य म
+म य य
+म य व
+म य श
+म य स
+म र घ
+म र द
+म र ध
+म र ब
+म र म
+म र य
+म र ल
+म र ऽ
+म व द
+म व ध
+म श च
+म श र
+म ष  
+म स प
+म स म
+म ह घ
+म ह द
+म ह भ
+म ह र
+म ह व
+य   अ
+य   ए
+य   ध
+य   ल
+य उ म
+य क  
+य क छ
+य क ल
+य ग a
+य ग ण
+य ग त
+य ग य
+य ग व
+य ग ऽ
+य घ र
+य घ स
+य च य
+य च र
+य ज य
+य ज ह
+य ण य
+य त य
+य त र
+य थ द
+य थ व
+य थ श
+य थ ऽ
+य द च
+य द ध
+य द ब
+य द श
+य द ह
+य ध  
+य ध त
+य ध य
+य न ख
+य न ध
+य न न
+य न ब
+य न य
+य न श
+य प ह
+य भ  
+य भ र
+य भ ल
+य भ ष
+य म ख
+य म ण
+य म त
+य म व
+य य ज
+य य त
+य य द
+य य ध
+य य व
+य य ष
+य र  
+य र च
+य ल ग
+य ल स
+य व क
+य व ग
+य व ण
+य व त
+य श म
+य श य
+य ष  
+य स  
+य स ग
+य स प
+य स म
+य स र
+य स व
+य स स
+य ह  
+य ह च
+य ऽ घ
+य ऽ प
+र   अ
+र   आ
+र   य
+र   ह
+र क ड
+र क प
+र ग  
+र ग ध
+र ग प
+र घ न
+र घ र
+र घ श
+र च ग
+र च त
+र च य
+र च र
+र च ष
+र ज ज
+र ज य
+र ज र
+र ञ श
+र ढ  
+र ढ श
+र ढ स
+र ण ग
+र ण घ
+र ण ज
+र ण त
+र ण भ
+र ण व
+र त ज
+र त स
+र थ  
+र थ च
+र थ ध
+र थ न
+र थ म
+र थ य
+र द क
+र द ल
+र ध न
+र न क
+र न थ
+र न भ
+र न म
+र न व
+र प त
+र प थ
+र प प
+र प म
+र प र
+र प स
+र ब न
+र ब ल
+र भ य
+र म क
+र म ख
+र म ध
+र म न
+र म ब
+र म र
+र म ल
+र म श
+र य ज
+र य भ
+र य र
+र य ल
+र य व
+र र त
+र र ब
+र ल  
+र ल क
+र ल घ
+र ल च
+र व न
+र व य
+र व र
+र व ल
+र व व
+र व श
+र श  
+र श ड
+र श त
+र श न
+र श ल
+र श श
+र श स
+र ष त
+र ष न
+र ष म
+र ष ल
+र ष व
+र स क
+र स ख
+र स ङ
+र स थ
+र स द
+र स प
+र ह ण
+र ह य
+र ह र
+र ऽ ध
+ल   अ
+ल   इ
+ल   त
+ल   द
+ल   म
+ल   ह
+ल क  
+ल क घ
+ल क ण
+ल क त
+ल क श
+ल क स
+ल ख त
+ल ग  
+ल ग न
+ल घ व
+ल च र
+ल त क
+ल त द
+ल द द
+ल द स
+ल ध र
+ल न  
+ल न त
+ल न द
+ल न य
+ल न व
+ल न स
+ल ब ण
+ल भ म
+ल म  
+ल म त
+ल म न
+ल म र
+ल म ल
+ल य  
+ल य ग
+ल य न
+ल य म
+ल र भ
+ल ल  
+ल ल त
+ल ल न
+ल ल भ
+ल व क
+ल व ग
+ल व न
+ल व ष
+ल श ल
+ल ष ण
+ल स त
+ल स थ
+ल स द
+व   v
+व   च
+व   ज
+व   द
+व   ब
+व   भ
+व   ल
+व आ श
+व क क
+व क ण
+व क न
+व क म
+व क ल
+व क श
+व ख य
+व ग  
+व ग त
+व ग न
+व ग ल
+व घ त
+व घ र
+व ङ ग
+व च च
+व च छ
+व ज  
+व ज म
+व ज य
+व ञ छ
+व ण  
+व ण ण
+व ण र
+व त थ
+व द  
+व द भ
+व द स
+व ध द
+व ध व
+व न क
+व न न
+व न प
+व न ब
+व न ह
+व प ज
+व प न
+व प र
+व प ष
+व ब न
+व भ ग
+व म  
+व म द
+व म न
+व य क
+व य ग
+व य घ
+व य ज
+व य न
+व य म
+व र  
+व र क
+व र त
+व र न
+व र म
+व र ष
+व ल  
+व ल म
+व व ङ
+व व च
+व व ह
+व श च
+व श व
+व श ष
+व श स
+व ष ट
+व ष त
+व ष य
+व ष ष
+व स थ
+व स द
+व स न
+व स फ
+व स य
+व ह  
+व ह ण
+व ह त
+व ह य
+श   त
+श   न
+श   श
+श क र
+श घ र
+श च क
+श च ल
+श ड ड
+श ड व
+श ण ड
+श ण त
+श ण य
+श त ग
+श त म
+श त श
+श त स
+श द त
+श द द
+श द र
+श न क
+श न त
+श न म
+श प त
+श प भ
+श प र
+श ब द
+श भ क
+श भ त
+श भ न
+श भ व
+श भ स
+श म र
+श म स
+श य त
+श य न
+श य प
+श र  
+श र क
+श र प
+श र य
+श र ष
+श र स
+श ल  
+श ल न
+श ल प
+श ल भ
+श ल व
+श व ग
+श व घ
+श व ज
+श व त
+श व न
+श व प
+श व श
+श श  
+श श ण
+श श त
+श श द
+श श ल
+श ष त
+श स ग
+श स त
+श स भ
+श स य
+ष   च
+ष   ज
+ष   न
+ष   य
+ष   श
+ष u  
+ष क र
+ष च छ
+ष ञ च
+ष ट त
+ष ट न
+ष ट भ
+ष ट म
+ष ट स
+ष ठ त
+ष ठ व
+ष ठ स
+ष ण य
+ष त क
+ष त त
+ष त म
+ष द ज
+ष द म
+ष द र
+ष द स
+ष न त
+ष भ र
+ष म  
+ष म ण
+ष म ब
+ष य ग
+ष य थ
+ष य न
+ष य य
+ष य श
+ष र त
+ष र द
+ष र य
+ष र स
+ष ल न
+ष व  
+ष श र

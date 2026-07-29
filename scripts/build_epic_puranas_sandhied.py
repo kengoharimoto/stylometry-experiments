@@ -43,7 +43,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).parent
 sys.path.insert(0, str(SCRIPT_DIR))
 from process_epic_puranas_unsandhied_local import (  # noqa: E402
-    is_skip_line,
+    skip_test_for,
     strip_ref_markers,
     has_sanskrit,
 )
@@ -70,9 +70,9 @@ def clean_token(tok: str) -> str | None:
     return w
 
 
-def clean_line(line: str) -> str | None:
+def clean_line(line: str, skip) -> str | None:
     """Return the cleaned sandhied line, or None if nothing usable remains."""
-    if is_skip_line(line):
+    if skip(line):
         return None
     s = strip_ref_markers(line)
     out = []
@@ -88,7 +88,8 @@ def clean_line(line: str) -> str | None:
 
 def process_file(input_path: Path, output_path: Path) -> tuple[int, int]:
     lines = input_path.read_text(encoding="utf-8").splitlines()
-    kept = [c for c in (clean_line(l) for l in lines) if c is not None]
+    skip = skip_test_for(input_path.name)
+    kept = [c for c in (clean_line(l, skip) for l in lines) if c is not None]
     output_path.write_text("\n".join(kept) + ("\n" if kept else ""), encoding="utf-8")
     return len(lines), len(kept)
 

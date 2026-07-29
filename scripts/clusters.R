@@ -56,6 +56,9 @@ TITLES_ON_GRAPHS <- TRUE
 LABEL_OFFSET <- 0
 GROUPS_COL <- NULL  # named character vector, e.g. c(group1 = "red", group2 = "#1a9850")
 EXCLUDE_PATTERN <- NULL  # regex applied to filenames to exclude files from corpus
+FILES_FROM_PATH <- NULL  # manifest file: one unit basename per line; the run
+                         # uses exactly these files, and the manifest name goes
+                         # into the results-dir name (reproducible selections)
 
 # Save options
 SAVE_DISTANCE_TABLES <- TRUE
@@ -113,6 +116,9 @@ for (a in args) {
     if (grepl("^--exclude=", a)) {
         EXCLUDE_PATTERN <- sub("^--exclude=", "", a)
     }
+    if (grepl("^--files-from=", a)) {
+        FILES_FROM_PATH <- sub("^--files-from=", "", a)
+    }
     if (grepl("^--highlight=", a)) {
         val <- sub("^--highlight=", "", a)
         pairs <- strsplit(val, ",")[[1]]
@@ -134,9 +140,24 @@ feature_type <- if(ANALYZED_FEATURES == "c") {
   paste0("W", NGRAM_SIZE)
 }
 
+# Manifest: the run uses exactly the units listed (comments and blanks ignored);
+# the manifest's name becomes part of the results-dir name, so a figure is
+# reproducible from its directory name alone.
+FILES_FROM <- NULL
+MANIFEST_LABEL <- NULL
+if (!is.null(FILES_FROM_PATH)) {
+    if (!file.exists(FILES_FROM_PATH)) stop("Manifest not found: ", FILES_FROM_PATH)
+    entries <- trimws(readLines(FILES_FROM_PATH, warn = FALSE))
+    entries <- entries[nchar(entries) > 0 & !grepl("^#", entries)]
+    FILES_FROM <- ifelse(grepl("\\.txt$", entries), entries, paste0(entries, ".txt"))
+    MANIFEST_LABEL <- sub("\\.txt$", "", basename(FILES_FROM_PATH))
+}
+
 corpus_name <- basename(sub("/+$", "", CORPUS_DIR))
 OUTPUT_DIR <- paste0("results_", corpus_name, "_", feature_type, "_",
-                     MFW_MIN, "-", MFW_MAX, "_", timestamp)
+                     MFW_MIN, "-", MFW_MAX, "_",
+                     if (is.null(MANIFEST_LABEL)) "" else paste0(MANIFEST_LABEL, "_"),
+                     timestamp)
 
 # Create the output directory
 dir.create(OUTPUT_DIR, showWarnings = FALSE)
@@ -166,6 +187,14 @@ if (!is.null(EXCLUDE_PATTERN)) {
     if (any(excluded)) cat("Excluding", sum(excluded), "file(s) matching pattern:", EXCLUDE_PATTERN, "\n")
     txt_files <- txt_files[!excluded]
 }
+if (!is.null(FILES_FROM)) {
+    missing <- setdiff(FILES_FROM, basename(txt_files))
+    if (length(missing) > 0)
+        stop("Manifest ", FILES_FROM_PATH, " lists file(s) not in ", CORPUS_DIR, ": ",
+             paste(missing, collapse = ", "))
+    txt_files <- txt_files[basename(txt_files) %in% FILES_FROM]
+    cat("Manifest", MANIFEST_LABEL, "selects", length(txt_files), "file(s)\n")
+}
 if (length(txt_files) == 0) stop("No .txt files found in corpus directory: ", CORPUS_PATH)
 invisible(file.copy(txt_files, corpus_tmp))
 CORPUS_PATH <- corpus_tmp
@@ -190,10 +219,13 @@ cat("========================================\n")
 SPLITTING_RULE <- "[[:space:]]+"
 
 # Cache helpers ---------------------------------------------------------------
-freq_cache_path <- function(corpus_dir, features, ngram, preserve, cutoff) {
+freq_cache_path <- function(corpus_dir, features, ngram, preserve, cutoff, manifest) {
     # "_ws" marks whitespace splitting.rule; caches from the old language-based
-    # tokenization use a different tag and are therefore never reused.
-    tag <- paste0(features, ngram, "_pc", as.integer(preserve), "_cut", cutoff, "_ws")
+    # tokenization use a different tag and are therefore never reused. The
+    # manifest label keys the cache per file selection, so alternating manifest
+    # and full-corpus runs don't evict each other.
+    tag <- paste0(features, ngram, "_pc", as.integer(preserve), "_cut", cutoff, "_ws",
+                  if (is.null(manifest)) "" else paste0("_", manifest))
     file.path(corpus_dir, paste0(".cache_freq_", tag, ".rds"))
 }
 
@@ -201,11 +233,14 @@ load_freq_table_cached <- function(corpus_dir, corpus_tmp, features, ngram,
                                    preserve, cutoff, exclude_pattern,
                                    mfw_min, mfw_max, mfw_incr,
                                    culling_min, culling_max, culling_incr,
-                                   encoding, save_features, save_freqs) {
-    cache_path   <- freq_cache_path(corpus_dir, features, ngram, preserve, cutoff)
+                                   encoding, save_features, save_freqs,
+                                   files_from = NULL, manifest = NULL) {
+    cache_path   <- freq_cache_path(corpus_dir, features, ngram, preserve, cutoff, manifest)
     corpus_files <- list.files(corpus_dir, pattern = "\\.txt$", full.names = TRUE)
     if (!is.null(exclude_pattern))
         corpus_files <- corpus_files[!grepl(exclude_pattern, basename(corpus_files), perl = TRUE)]
+    if (!is.null(files_from))
+        corpus_files <- corpus_files[basename(corpus_files) %in% files_from]
     current_names <- sort(sub("\\.txt$", "", basename(corpus_files)))
     newest_input  <- if (length(corpus_files) > 0) max(file.mtime(corpus_files)) else -Inf
 
@@ -265,7 +300,9 @@ freq_table <- load_freq_table_cached(
     culling_incr  = CULLING_INCR,
     encoding      = ENCODING,
     save_features = SAVE_ANALYZED_FEATURES,
-    save_freqs    = SAVE_ANALYZED_FREQS
+    save_freqs    = SAVE_ANALYZED_FREQS,
+    files_from    = FILES_FROM,
+    manifest      = MANIFEST_LABEL
 )
 
 cat("Corpus loaded! Texts:", nrow(freq_table), "\n")
