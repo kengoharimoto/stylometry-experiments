@@ -65,6 +65,25 @@ def is_skip_line(line: str) -> bool:
         return True
     return False
 
+
+# Constituted-text files (curated IAST, e.g. Kirfel's Purāṇapañcalakṣaṇa) carry
+# no editorial furniture beyond "#" segmenter comments. The English-detection
+# heuristics in is_skip_line misfire on their sparse-diacritic Sanskrit lines
+# (dropping ~35% of the text), so these files get a minimal test instead.
+CONSTITUTED_PREFIXES = ("kirfel_",)
+
+
+def is_skip_line_constituted(line: str) -> bool:
+    s = line.strip()
+    return not s or s.startswith("#")
+
+
+def skip_test_for(basename: str):
+    """Return the line-skip predicate appropriate for this input file."""
+    if basename.startswith(CONSTITUTED_PREFIXES):
+        return is_skip_line_constituted
+    return is_skip_line
+
 # ── Paths ─────────────────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).parent
 REPO_ROOT  = SCRIPT_DIR.parent
@@ -182,9 +201,10 @@ def process_file(translator, tokenizer, input_path: Path, output_path: Path) -> 
     # Strip editorial furniture up front, then drop lines left without Sanskrit
     # content (pure lacuna / verse-number rows), which the model would otherwise
     # hallucinate into junk. Downstream batches receive the already-stripped text.
+    skip = skip_test_for(input_path.name)
     to_process = []
     for l in lines:
-        if is_skip_line(l):
+        if skip(l):
             continue
         s = strip_ref_markers(l)
         if has_sanskrit(s):
