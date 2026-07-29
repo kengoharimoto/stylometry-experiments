@@ -7,11 +7,9 @@
 
 ## 1. Abschnitt. Sarga und Pratisarga | 1. Kapitel  (Bd. I. 3.1—38; Kū. 4.6—66; L. 70.3—66; Mr. 45.29—73; Vā. 4.5—92.)
 
-śṛrutemāṃ kathāṃ divyāṃ sarvapāpapramocinīṃ,
-kathyamānāṃ mayā citrāṃ bahvarthāṃ śrutisammatāṃ! || 1 ||
+śṛrutemāṃ kathāṃ divyāṃ sarvapāpapramocinīṃ, kathyamānāṃ mayā citrāṃ bahvarthāṃ śrutisammatāṃ! || 1 ||
 yaś cemāṃ dhārayen nityaṃ śṛnuyād vāpy abhikṣṇaśaḥ, |
-| śrāvayec cāpi viprebhyo yatibhyas ca viśeṣataḥ
-| śucihṛ parvasu yuktāmā tirtheṣv āyataneṣu ca, |
+| śrāvayec cāpi viprebhyo yatibhyas ca viśeṣataḥ | śucihṛ parvasu yuktāmā tirtheṣv āyataneṣu ca, |
 | dirgham āyur avāpnoti sa purāṇānukīrtanāt; || 2 ||
 svavamśadhāraṇaṃ kṛtvā svargaloke mahīyate. || 2 ||
 vistārāvayavaṃ teṣāṃ yathāvṛttaṃ yathāśrutaṃ |
@@ -20,8 +18,7 @@ dhanyaṃ yaśasyaṃ śatrughnaṃ svargyam āyurvivardhanaṃ |
 kīrtanaṃ sthirakīrtināṃ sarveṣāṃ puṇyakarmaṇāṃ! || 4 ||
 | sargaś ca pratisargaś ca vaṃśo manvantarāṇi ca |
 | vaṃśyānucaritaṃ ceti purāṇaṃ pañcalakṣaṇaṃ. || 4 ||
-yasmāt kalpāyate kalpaḥ | kalpebhyo 'pi hi yaḥ kalpaḥ
-samagraṃ śucaye sucihṛ, | śucibhyo niyataḥ śucihṛ, |
+yasmāt kalpāyate kalpaḥ | kalpebhyo 'pi hi yaḥ kalpaḥ samagraṃ śucaye sucihṛ, | śucibhyo niyataḥ śucihṛ, |
 | purāṇaṃ saṃpravakṣyāmi mārutaṃ vedasaṃmitaṃ. || 4 ||
 | prabodhaḥ pralayaś caiva sthitir utpattir eva ca |
 | prakriyā prathamahṛ pādahṛ kathyavastuparigrahaḥ, || 4 ||
@@ -29,75 +26,41 @@ samagraṃ śucaye sucihṛ, | śucibhyo niyataḥ śucihṛ, |
 | [dharmyaṃ yaśasyam āyuṣyaṃ sarvapāpapraṇāśaṇam.] || 4 ||
 evaṃ hi pādās catvāraḥ samāsāt kīrtitā mayā. |
 vakṣyāmy etān punas tāṃs tu vistareṇa yathākramaṃ. || 45 ||
-tasmai hiranyagarbhāya,
-lokatantrāya dhimate |
-praṇamya samyag vakṣyāmi
-bhūtasargam anuttamaṃ. || 5 ||
+tasmai hiranyagarbhāya, lokatantrāya dhimate |
+praṇamya samyag vakṣyāmi bhūtasargam anuttamaṃ. || 5 ||
 mahadādyaṃ viśeṣāntaṃ savairūpyaṃ salakṣaṇaṃ, |
-pramāṇaiḥ pañcabhir gamyaṃ
-srotobhiḥ ṣadbhīr anvitaṃ. || 6 ||
-puruṣādhiṣṭhitaṃ nityaṃ
-anityam iva ca sthitaṃ |
-tac chrūyatāṃ mahābhāga
-parameṇa samādhinā, || 7 ||
-pradhānaṃ kāraṇaṃ yat, tad
-avyaktākhyaṃ maharṣayaḥ, |
-yad āhuḥ prakṛtiṃ sūkṣmāṃ
-nityāṃ sadasadātmikāṃ, || 8 ||
-dhruvam akṣayyam ajaraṃ
-ameyaṃ nānyasaṃśrayaṃ |
-gandharūparasair hīnaṃ
-śabdasparsāvivarjitaṃ! || 9 ||
-tasmai hiranyagarbhāya
-puruṣāyeśvarāya ca, |
-ajāya prathamāyaiva
-varišṭhāya prajāsṛje, |
-brahmaṇe lokatantrāya
-namaskṛtya svayambhuve, || 5 ||
-pañcapramāṇaṃ ṣaṭsrotaṃ
-puruṣādhiṣṭhitaṃ ca yat, || 6 ||
-ā samyamāt pravakṣyāmi
-bhūtasargam anuttamaṃ. |
-avyaktaṃ kāraṇaṃ yat, tan
-nityaṃ sadasadātmakaṃ || 7 ||
-pradhānaṃ prakṛtiṃ caiva
-yam āhus tattvacintakāḥ, |
-gandhavarṇarasair hīnaṃ,
-śabdasparsāvivarjitaṃ, || 8 ||
-ajaraṃ dhruvam akṣayyaṃ
-nityaṃ svātmany avasthitaṃ |
-jagadyoniṃ mahābhūtaṃ
-paraṃ brahma sanātanaṃ, |
-vigrahaṃ sarvabhūtānāṃ,
-avyaktam abhavat kila. || 9 ||
+pramāṇaiḥ pañcabhir gamyaṃ srotobhiḥ ṣadbhīr anvitaṃ. || 6 ||
+puruṣādhiṣṭhitaṃ nityaṃ anityam iva ca sthitaṃ |
+tac chrūyatāṃ mahābhāga parameṇa samādhinā, || 7 ||
+pradhānaṃ kāraṇaṃ yat, tad avyaktākhyaṃ maharṣayaḥ, |
+yad āhuḥ prakṛtiṃ sūkṣmāṃ nityāṃ sadasadātmikāṃ, || 8 ||
+dhruvam akṣayyam ajaraṃ ameyaṃ nānyasaṃśrayaṃ |
+gandharūparasair hīnaṃ śabdasparsāvivarjitaṃ! || 9 ||
+tasmai hiranyagarbhāya puruṣāyeśvarāya ca, |
+ajāya prathamāyaiva varišṭhāya prajāsṛje, |
+brahmaṇe lokatantrāya namaskṛtya svayambhuve, || 5 ||
+pañcapramāṇaṃ ṣaṭsrotaṃ puruṣādhiṣṭhitaṃ ca yat, || 6 ||
+ā samyamāt pravakṣyāmi bhūtasargam anuttamaṃ. |
+avyaktaṃ kāraṇaṃ yat, tan nityaṃ sadasadātmakaṃ || 7 ||
+pradhānaṃ prakṛtiṃ caiva yam āhus tattvacintakāḥ, |
+gandhavarṇarasair hīnaṃ, śabdasparsāvivarjitaṃ, || 8 ||
+ajaraṃ dhruvam akṣayyaṃ nityaṃ svātmany avasthitaṃ |
+jagadyoniṃ mahābhūtaṃ paraṃ brahma sanātanaṃ, |
+vigrahaṃ sarvabhūtānāṃ, avyaktam abhavat kila. || 9 ||
 anādyantam ajaṃ sūksmaṃ triguṇaṃ prabhavāpyayaṃ |
 aśampratam avijñeyaṃ brahmāgre samāvartata, || 10 ||
-pralayasyānu tenedaṃ
-vyāptam āsid aśeṣataḥ. |
-guṇasāmyāt tatas tasmāt
-kṣetrajñādhiṣṭhitān mune || 11
-guṇabhāvāt sṛjyamānāt
-sargakāle tataḥ punaḥ |
-pradhānaṃ tattvam udbhūtaṃ
-mahāntaṃ tat samāvṛṇot. || 12 ||
-yathā bijaṃ tvacā, tadvad
-avyaktenāvṛṭo mahān |
-sāt tviko rājasaś caiva
-tāmasaś ca tridhoditaḥ. || 13 ||
-tasyātmanā sarvam idaṃ
-vyāptam āsit tamomayaṃ. |
-guṇasāmye tadā tasmin
-avibhāge tamomaye |
-sargakāle pradhānasya
-kṣetrajñādhiṣṭhitasya vai || 11 ||
-guṇabhāvād vācyamāno
-mahān prādur babhūva ha |
-sūksmeṇa mahatā so 'tha
-avyaktena samāvṛṭaḥ. || 12 ||
-sattvodrikto mahān agre
-sattvamātraprakāśakaḥ |
-mano mahāṃś ca vijñeyaṃ
-ekaṃ tatkāraṇaṃ smṛtaṃ. || 13 ||
+pralayasyānu tenedaṃ vyāptam āsid aśeṣataḥ. |
+guṇasāmyāt tatas tasmāt kṣetrajñādhiṣṭhitān mune || 11 guṇabhāvāt sṛjyamānāt sargakāle tataḥ punaḥ |
+pradhānaṃ tattvam udbhūtaṃ mahāntaṃ tat samāvṛṇot. || 12 ||
+yathā bijaṃ tvacā, tadvad avyaktenāvṛṭo mahān |
+sāt tviko rājasaś caiva tāmasaś ca tridhoditaḥ. || 13 ||
+tasyātmanā sarvam idaṃ vyāptam āsit tamomayaṃ. |
+guṇasāmye tadā tasmin avibhāge tamomaye |
+sargakāle pradhānasya kṣetrajñādhiṣṭhitasya vai || 11 ||
+guṇabhāvād vācyamāno mahān prādur babhūva ha |
+sūksmeṇa mahatā so 'tha avyaktena samāvṛṭaḥ. || 12 ||
+sattvodrikto mahān agre sattvamātraprakāśakaḥ |
+mano mahāṃś ca vijñeyaṃ ekaṃ tatkāraṇaṃ smṛtaṃ. || 13 ||
 lingamātraṃ samutpannaṃ kṣetrajñādhiṣṭhitaṃ mahat, |
 dharmādīni ca rūpāni lokatattvārthahetavaḥ. || 14 ||
 saṃkalpo 'dhyavasāyaś ca tasya vṛttidvayaṃ smṛtaṃ, |
@@ -139,35 +102,21 @@ yasmāt pury anuṣete ca, tasmāt puruṣa ucyate, |
 notpāditatvāt pūrvatvāt svayambhūr iti cocyate]. || 29 ||
 panyāyavācakaḥ śabdais tattvam ādyam anuttamaṃ |
 vyākhyātaṃ tattvabhāvajñair devaṣadbhāvacitutakaiḥ. || 30 ||
-tatas tasmād ahaṃkāras
-trividho vai vyajāyata, |
-vaikārikas taijjasas ca
-bhūtādīs ca sa tāmasaḥ, || 31 ||
-mahatā cāvṛtaḥ so 'pi
-yathā vyakteva vai mahān. |
-mahān sṛṣṭiṃ vikurute
-codyamānaḥ sisṛkṣayā, |
-samkalpo 'dhyavasāyas ca
-tasya vṛtidvayaṃ smṛtaṃ. || 30 ||
-dharmādīni ca rūpāṇi
-lokatattvārthahetavaḥ, |
-triguṇaḥ tu sa viñeyāḥ
-sattvarājasatāmasaḥ. || 31 ||
-triguṇād rajasodriktād
-ahaṃkāras tato 'bhavat, |
-mahatā cā'vṛtaḥ sargo
-bhūtādir bāhyatas tu saḥ. || 31 ||
-tasmāc ca tamas'odriktād
-ahaṃkārad ajāyata |
-bhūtatanmātrasargas tu
-bhūtādīs tāmasas tu saḥ. || 31 ||
-bhūtādis tu vikurvāṇaḥ
-śabdatanmātrakaṃ tataḥ |
-sasarja, śabdatanmātrād
-ākāśaṃ śabdalakṣaṇaṃ. || 32 ||
+tatas tasmād ahaṃkāras trividho vai vyajāyata, |
+vaikārikas taijjasas ca bhūtādīs ca sa tāmasaḥ, || 31 ||
+mahatā cāvṛtaḥ so 'pi yathā vyakteva vai mahān. |
+mahān sṛṣṭiṃ vikurute codyamānaḥ sisṛkṣayā, |
+samkalpo 'dhyavasāyas ca tasya vṛtidvayaṃ smṛtaṃ. || 30 ||
+dharmādīni ca rūpāṇi lokatattvārthahetavaḥ, |
+triguṇaḥ tu sa viñeyāḥ sattvarājasatāmasaḥ. || 31 ||
+triguṇād rajasodriktād ahaṃkāras tato 'bhavat, |
+mahatā cā'vṛtaḥ sargo bhūtādir bāhyatas tu saḥ. || 31 ||
+tasmāc ca tamas'odriktād ahaṃkārad ajāyata |
+bhūtatanmātrasargas tu bhūtādīs tāmasas tu saḥ. || 31 ||
+bhūtādis tu vikurvāṇaḥ śabdatanmātrakaṃ tataḥ |
+sasarja, śabdatanmātrād ākāśaṃ śabdalakṣaṇaṃ. || 32 ||
 ākāśaṃ śabdamātraṃ tu bhūtādiś cāvṛṇot punaḥ). |
-sparśatanmātram eveha
-jāyate nātra samśayaḥ. || 33 ||
+sparśatanmātram eveha jāyate nātra samśayaḥ. || 33 ||
 balavān jāyate vāyus), tasya) sparśo) guṇo mataḥ). |
 vāyus cāpi vikurvāṇo rūpamātraṃ sasarja ha, |
 jyotir utpadyate vāyos, tad rūpaguṇam ucyate. || 35 ||
@@ -178,17 +127,13 @@ rasamātrās) tu tā hy āpo(!) rūpamātro 'gnir) āvṛṇot. || 37 ||
 āpas cāpi) vikurvatyo) gandhamātraṃ sasarjire, |
 saṃghāto jāyate tasmāt, tasya gandho guṇo mataḥ). || 38 ||
 | [rasamātraṃ tu tat toyaṃ gandhamātraṃ samāvṛṇot] |
-tasmiṃs tasmiṃs tu) tanmātram), tena tanmātratā smṛtā,
-aviśeṣavācakatvād aviśeṣās tatas tu te). || 39 ||
-na śāntā, nāpi ghorās te,
-na mūḍhās cāviśeṣaṇaḥ). |
-bhūtatanmātrasargo 'yaṃ
-ahamkārāt tu tāmasāt. || 40 ||
+tasmiṃs tasmiṃs tu) tanmātram), tena tanmātratā smṛtā, aviśeṣavācakatvād aviśeṣās tatas tu te). || 39 ||
+na śāntā, nāpi ghorās te, na mūḍhās cāviśeṣaṇaḥ). |
+bhūtatanmātrasargo 'yaṃ ahamkārāt tu tāmasāt. || 40 ||
 vaikārikād ahaṃkārāt sattvodriktāt tu sātvikāt |
 vaikārikaḥ sa sargas tu yugapat saṃpravartate. || 41 ||
 buddhindriyaṇi pañcaiva, pañca karmendriyaṇi ca |
-taijasānindriyaṇy āhur | sādhakānindriyaṇi syur
-devā vaikārikā daśa. || 42 || devā vaikārikā daśa. || 42 ||
+taijasānindriyaṇy āhur | sādhakānindriyaṇi syur devā vaikārikā daśa. || 42 || devā vaikārikā daśa. || 42 ||
 ekādaśaṃ manas tatra, devā vaikārikāḥ smṛtāḥ. |
 śrotraṃ tvak cakṣuṣi jihvā nāsikā caiva pañcami || 43 ||
 śabdādinaṃ avāptyarthaṃ buddhiyuktāni vaksyate. |
@@ -211,53 +156,32 @@ guṇaṃ pūrvasya pūrvasya prāpnuvanty uttarottaraṃ, ||
 teṣāṃ yāvac ca yad yac ca, tat tat tāvadguṇaṃ smṛtaṃ. || 52 ||
 upalabhyāpsu vai gandhaṃ kecid brūyur apāṃ guṇaṃ; |
 pṛthivyāṃ eva taṃ vidyād apāṃ vāyoś ca saṃśrayāt. || 52 ||
-nānāviryāḥ pṛthagbhūtāḥ
-saptaite saṃhatiṃ vinā |
-nāśaknuvan prajāāḥ sraṣṭuṃ
-sametyānyonyasamयोगaṃ
-anyonyāśrayiṇās ca te |
-ekasaṃghātacihnās ca
-saṃprāpyaikyam aśeṣataḥ || 54 ||
+nānāviryāḥ pṛthagbhūtāḥ saptaite saṃhatiṃ vinā |
+nāśaknuvan prajāāḥ sraṣṭuṃ sametyānyonyasamयोगaṃ anyonyāśrayiṇās ca te |
+ekasaṃghātacihnās ca saṃprāpyaikyam aśeṣataḥ || 54 ||
 puruṣādhiṣṭhitatvāc ca avyaktānugraheṇa ca |
 mahadādyā viśeṣāntā hy aṇdam utpādayanti te. || 55 ||
-jalabudbudavat tatra
-kramād vai vṛddhim āgataṃ |
-bhūtebhyo 'ṇḍaṃ mahābuddhe
-bṛhat tad udakeśayaṃ. || 56 ||
-| tasmin kāryasya karaṇaṃ saṃsiddhaṃ brahmaṇas tadā,
-prākṛte 'ṇḍe vivṛddhe tu kṣetrajño brahmasaṃjñitaḥ. || 57 ||
+jalabudbudavat tatra kramād vai vṛddhim āgataṃ |
+bhūtebhyo 'ṇḍaṃ mahābuddhe bṛhat tad udakeśayaṃ. || 56 ||
+| tasmin kāryasya karaṇaṃ saṃsiddhaṃ brahmaṇas tadā, prākṛte 'ṇḍe vivṛddhe tu kṣetrajño brahmasaṃjñitaḥ. || 57 ||
 sa vai śarīri prathamāḥ, sa vai puruṣa ucyate, |
 ādikartā ca bhūtānāṃ brahmāgre samavartata. || 58 ||
-tena sarvam idaṃ vyāptaṃ
-trilokyaṃ sacarācaraṃ. || 59 ||
-merur ulbam abhūt tasya
-jarāyus̄ cāpi parvatāḥ, |
+tena sarvam idaṃ vyāptaṃ trilokyaṃ sacarācaraṃ. || 59 ||
+merur ulbam abhūt tasya jarāyus̄ cāpi parvatāḥ, |
 garbhodakaṃ samudrās̄ ca tasyāsan paramātmanaḥ. || 60 ||
-tasminn aṇḍe jagat sarvaṃ
-sadevāsuraṃānuṣaṃ |
-dvīpādy adrisamudrās̄ ca
-sajyotir lokasaṃgrahaḥ. || 61 ||
-jalānilānalākāsais
-tato bhūtādinaṃ bahiḥ |
-vṛtaṃ daśagunair aṇḍaṃ
-ekaikatvena taiḥ punaḥ. || 64 ||
-mahatā tatpramāṇena
-sahaivānena veṣṭitaḥ, |
-mahāms taiḥ sahitaḥ sarvair
-avyaktena samāvṛtaḥ. || 65 ||
+tasminn aṇḍe jagat sarvaṃ sadevāsuraṃānuṣaṃ |
+dvīpādy adrisamudrās̄ ca sajyotir lokasaṃgrahaḥ. || 61 ||
+jalānilānalākāsais tato bhūtādinaṃ bahiḥ |
+vṛtaṃ daśagunair aṇḍaṃ ekaikatvena taiḥ punaḥ. || 64 ||
+mahatā tatpramāṇena sahaivānena veṣṭitaḥ, |
+mahāms taiḥ sahitaḥ sarvair avyaktena samāvṛtaḥ. || 65 ||
 etair āvaranair aṇḍaṃ saptabhiḥ prākṛtair vṛtaṃ, |
-etā āvṛtya cānyonyam aṣṭau
-eṣā sā prakṛtir nityā,
-tadantaḥ puruṣaś ca saḥ; |
-brahmākhyaś kathito yas te,
-samāsāt śrūyatāṃ punaḥ. || 65 ||
-yathā magno jale kaścid
-unmajjan jalasaṃbhavaṃ |
-jalaṃ ca kṣipati, brahmā
-sa tathā prakṛtir vibhuḥ. || 66 ||
+etā āvṛtya cānyonyam aṣṭau eṣā sā prakṛtir nityā, tadantaḥ puruṣaś ca saḥ; |
+brahmākhyaś kathito yas te, samāsāt śrūyatāṃ punaḥ. || 65 ||
+yathā magno jale kaścid unmajjan jalasaṃbhavaṃ |
+jalaṃ ca kṣipati, brahmā sa tathā prakṛtir vibhuḥ. || 66 ||
 avyaktaṃ kṣetram uddiṣṭaṃ brahmā kṣetrajñā ucyate; |
-etat samastaṃ jāniyāt
-kṣetrakṣetrajñalakṣaṇaṃ. || 67 ||
+etat samastaṃ jāniyāt kṣetrakṣetrajñalakṣaṇaṃ. || 67 ||
 ity eṣa prākṛtaḥ sargaḥ kṣetrajñādhiṣṭhitas tu saḥ, |
 abuddhipūrvaḥ prathamaḥ prādurbhūtas tadid yathā. || 68 ||
 etad dhiranyagarbhasya janma yo veda tattvataḥ, |
@@ -290,16 +214,11 @@ upāsyā rajanīṃ kṛtsnāṃ parāṃ māheśvarīṃ tadā || 9 ||
 aharmukhe pravṛtte ca parahḥ prakṛtisambhavaḥ |
 kṣobhayāmāsa yogena pareṇa parameśvaraḥ. || 10 ||
 pradhānaṃ puruṣaṃ caiva praviṣyāṇḍaṃ maheśvaraḥ |
-pradhānāt kṣobhyamāṇāt tu
-rajo vai samavartata, |
-rajaḥ pravartakaṃ tatra
-bijeṣv api yathā jalaṃ. || 11 ||
-guṇavaiṣamyam āsādyā
-prasūyante hy adhiṣṭhitāḥ, |
-guṇebhyāḥ kṣobhyamāṇebhyas
-trayo devā vijajñire, || 11 ||
-maheśvarāt trayo devā
-jajñire jagadiśvarāt, || 11 ||
+pradhānāt kṣobhyamāṇāt tu rajo vai samavartata, |
+rajaḥ pravartakaṃ tatra bijeṣv api yathā jalaṃ. || 11 ||
+guṇavaiṣamyam āsādyā prasūyante hy adhiṣṭhitāḥ, |
+guṇebhyāḥ kṣobhyamāṇebhyas trayo devā vijajñire, || 11 ||
+maheśvarāt trayo devā jajñire jagadiśvarāt, || 11 ||
 śāśvatāḥ paramā guhyāḥ sarvātmāuaḥ śarīriṇāḥ. || 12 ||
 rajo brahmā, tamo hy agniḥ, sattvaṃ viṣṇur ajāyata; |
 rajaḥ prakāśako brahmā sraṣṭṛtvena vyavasthitāḥ, || 12 ||
@@ -342,8 +261,7 @@ yogeśvaraḥ śarīrāṇi karoti vikaroti ca |
 nānakṛtikriyārūpanāmaṅvanti svalilayā. || 26 ||
 tridhā yad vartate loke, tasmāt triguṇa ucyate, |
 caturdhā pravibhaktatvāc caturvyūhaḥ prakīrtitaḥ. || 27 ||
-yad āpnoti, yad ādatte, yac cātti viṣayaṃ prabhuḥ,
-yac cāsyā satataṃ bhāvas, tasmād ātmā nirucyate. || 28 ||
+yad āpnoti, yad ādatte, yac cātti viṣayaṃ prabhuḥ, yac cāsyā satataṃ bhāvas, tasmād ātmā nirucyate. || 28 ||
 ṛṣiḥ sarvagatatvāc ca śarīrī so 'sya yat prabhuḥ; |
 svāmitvam asya yat sarvaṃ, viṣṇuḥ sarvapraveśanāt. || 29 ||
 bhagavān bhagasadbhāvād, rāgo rāgasya śāsanāt, |
@@ -386,19 +304,15 @@ anāgatesu tadvac ca tarkaḥ kāryo vijānatā. || 47 ||
 
 ## 1. Abschnitt. Sarga und Pratisarga | 3. Kapitel  (Bd. I. 5.1—141; Kū. 6.1—25; L. 70.115—195a; Vā. 6.1—79.)
 
-āsīd ekārṇavaṃ ghoram | āpo hy agre samabhavan
-avibhāgaṃ tamomayaṃ, | naṣṭe 'gnau pṛthivitale, |
+āsīd ekārṇavaṃ ghoram | āpo hy agre samabhavan avibhāgaṃ tamomayaṃ, | naṣṭe 'gnau pṛthivitale, |
 sāntarālaikaline 'smin na prājñāyata kimcana. || 1 ||
 { ekārṇave tadā tasmin naṣṭe sthāvarajaṅgame |
 tadā samabhad brahmā sahasrākṣaḥ sahasrapāt || 2 ||
 sahasraśīrṣā puruṣo rukmavarṇo hy atīndriyaḥ |
 brahmā nārāyaṇākhyas tu suśvāpa salile tadā, || 3 ||
-sattvodrekāt prabuddhas tu śūnyaṃ lokam avaikṣata!
-imaṃ codāharanty atra ślokaṃ nārāyaṇaṃ prati: || 4 ||
-āpo nārā iti proktā,
-apo vai narasūnavaḥ, |
-ayanaṃ tasya tāḥ proktās,
-tena nārāyaṇaḥ smṛtaḥ. || 5 ||
+sattvodrekāt prabuddhas tu śūnyaṃ lokam avaikṣata! imaṃ codāharanty atra ślokaṃ nārāyaṇaṃ prati: || 4 ||
+āpo nārā iti proktā, apo vai narasūnavaḥ, |
+ayanaṃ tasya tāḥ proktās, tena nārāyaṇaḥ smṛtaḥ. || 5 ||
 (tulyaṃ yugasahasrasya naiṣaṃ kālam upāsyā saḥ |
 śarvaryante prakurute brahmaṭvaṃ sargakāraṇāt. || 6 ||
 brahmā tu salile tasmin vāyur bhūtvā tadā caran |
@@ -421,10 +335,7 @@ rūpam āsthāya vipulaṃ vārāham amitaṃ hariḥ |
 pṛthivyuddharāṇārthāya praviveśa rasātalaṃ. || 12 ||
 sa vedapād yūpadamṣṭraḥ kratuvakṣās citimukhaḥ |
 aguijihvī darbharomā brahmaśirṣo mahātaṭāḥ, || 12 ||
-γ
-cf. 5. kap.
-sl. 7—8
-ahoṛātrekṣaṇadharo vedāṅgaśrutibhūṣaṇaḥ |
+γ cf. 5. kap. sl. 7—8 ahoṛātrekṣaṇadharo vedāṅgaśrutibhūṣaṇaḥ |
 ājyaṇāsaḥ sruvatunḍaḥ sāmaghoṣasvano mahān, || 122 ||
 satyadharmamayāḥ śrīmāḥ dharmaṭvikramasaṃsthitaḥ |
 prāyaścittanakho ghorāḥ paṣujānur mahākṛtiḥ, || 123 ||
@@ -475,10 +386,8 @@ mukhyasargaṃ tathābhūtaṃ dṛṣṭvā brahmā hy asādhakaṃ || 30 ||
 aprasannamanāḥ so 'tha tato 'nyaṃ so 'hy amanyata. |
 tasyābhidyāyataś caiva tiryaksroto 'bhyavaryata. || 31 ||
 yas'māt tiryak pravṛttaḥ sa, tiryaksrotas tataḥ smṛtāḥ; |
-paśvādayas te vikhyātā tamobahutvāt te sarve hy
-ajñānanabahulāḥ smṛtāḥ |
-utpathagrāhiṇo dvijāḥ. || 32 || utpathagrāhiṇās caiva
-te jñāne jñānamāninaḥ || 32 ||
+paśvādayas te vikhyātā tamobahutvāt te sarve hy ajñānanabahulāḥ smṛtāḥ |
+utpathagrāhiṇo dvijāḥ. || 32 || utpathagrāhiṇās caiva te jñāne jñānamāninaḥ || 32 ||
 [tiryaksrotas tu dṛṣṭvā vai dvitīyaṃ viśvam īśvaraḥ |]
 ahaṃkṛtā ahaṃmānā aṣṭāviṃśadvidhātmaḥ, || 321 ||
 ekādaśendriyavidhā navadhā codayas tathā |
@@ -492,8 +401,7 @@ tasyābhidyāyato 'nyaṃ vai sāttvikāḥ samavartata, |
 yasmād vyavartatordhvaṃ tu, ūrdhvasrotās tataḥ smṛtaḥ. |
 te sukhapritibahulā bahir antas ca samvṛtāḥ. || 34 ||
 prakāśā bahir antas ca ūrdhvasrotodbhavāḥ smṛtāḥ, |
-te sattvasya ca yogena | nava dhātuvādayas te vai
-sṛstāḥ sattvodbhavāḥ smṛtāḥ. || 35 || tuṣṭātmāno budhāḥ smṛtāḥ. || 35 ||
+te sattvasya ca yogena | nava dhātuvādayas te vai sṛstāḥ sattvodbhavāḥ smṛtāḥ. || 35 || tuṣṭātmāno budhāḥ smṛtāḥ. || 35 ||
 ūrdhvasrotās trīyo vai, devasargas tu sa smṛtaḥ. |
 ūrdhvasrotaḥsu sṛṣṭeṣu deveṣu sa tadā prabhuḥ || 36 ||
 prītīmān abhavat brahmā, tato 'nyaṃ so 'bhya'manyata. |
@@ -533,8 +441,7 @@ viparyayeṇa śaktyā ca tuṣṭyā siddhyā tathaiva ca. || 53 ||
 sthāvareṣu viparyāṣas, tiryagyoniṣu śaktitā, |
 siddhātmāno manuṣyās tu, tuṣṭir deveṣu kṛtsnaṣaḥ. || 53 ||
 ity ete prākṛtās caiva vaikṛtās ca nava smṛtāḥ. |
-parasparānuraktās ca
-kāraṇaiś ca budhaiḥ smṛtāḥ. || 54 ||
+parasparānuraktās ca kāraṇaiś ca budhaiḥ smṛtāḥ. || 54 ||
 agre sasarja vai brahmā mānasān ātmanāḥ samān: |
 sanandanaṃ ca sanakaṃ vidvāṃsaṃ ca sanātanaṃ. || 55 ||
 vijñānena nivṛttās te, vaivartena mahaujasaḥ, |
@@ -542,13 +449,8 @@ sambuddhās caiva nānātve apavṛttas trayo 'pi te. || 56 ||
 asṛṭvaiva prajāsargaṃ pratisargaṃ gatāḥ punaḥ. |
 tadā teṣu vyatiteṣu tato 'nyān sādhakān sutān. || 57 ||
 mānasān asṛjad brahmā punaḥ sthānābhimāninaḥ, |
-ābhūtasamplavāvasthā
-yair iyaṃ vidhṛtā mahi. || 58 ||
-śl.
-5. kap.
-18 — 21
-{ samudrāṃs ca nadiś caiva
-tathā śailavanaspatin, || 59 ||
+ābhūtasamplavāvasthā yair iyaṃ vidhṛtā mahi. || 58 ||
+śl. 5. kap. 18 — 21 { samudrāṃs ca nadiś caiva tathā śailavanaspatin, || 59 ||
 oṣadhināṃ tathātmano hy ātmāno vṛksavīrudhāṃ, |
 lavāḥ kāṣṭhāḥ kalās caiva muhūrtān samdhirātṛyahān. || 60 ||
 ardhamāsāṃs ca māśāṃs ca ayanābdayugāni ca, |
@@ -559,8 +461,7 @@ dakṣam atriṃ vasiṣṭhaṃ ca so 'sṛjan nava mānasān. || 62 ||
 nava brahmāṇa ity ete purāṇe niścayaṃ gatāḥ. |
 teṣāṃ brahmātmakānāṃ vai sarveṣāṃ brahmavādināṃ || 63 ||
 tato sṛjat punar brahmā rudraṃ roṣātmasambhavaṃ |
-saṃkalpaṃ caiva dharmaṃ ca, pūrvveṣām api
-pūrvajaṃ. || 64 ||
+saṃkalpaṃ caiva dharmaṃ ca, pūrvveṣām api pūrvajaṃ. || 64 ||
 so 'sṛjad vyavasāyaṃ tu, dharmaṃ bhūtasukhāvahaṃ |
 saṃkalpaṃ caiva saṃkalpāt sarvalokapitāmahaḥ. || 65 ||
 prāṇād brahmāsṛjad dakṣaṃ, cakṣurbhyāṃ ca marīcinaṃ, |
@@ -602,18 +503,13 @@ mukhyādayas tu ṣaṭ sargā vaikṛtā buddhipūrvakāḥ, |
 vaikalpāt sampravartante brahmaṇas te 'bhimanyāvaḥ. || 7423 ||
 ity ete pṛākṛṭās caiva vaikṛtās ca nava smṛtāḥ |
 sargāḥ parasparotpannāḥ, kāraṇaṃ tu budhaiḥ smṛtaṃ. || 7424 ||
-dyauḥ pradhāuam) yasya vedā vadanti,
-viyan nābhim) candrasūryau ca netre, |
-diṣaḥ śrotre vidhhi pādau kṣitiṃ ca,
-so) 'cintyātmā sarvabhūtapraṇetā. || 7425 ||
-vaktrād yasya brāhmanāḥ samprasūtā
-yadvakṣastaḥ kṣatriyāḥ pūrvabhāge, |
-vaiśyāś corvor yasya padbhyāḥ ca sūdrāḥ,
-sarve varṇā gātrataḥ samprasūtāḥ. || 7426 ||
+dyauḥ pradhāuam) yasya vedā vadanti, viyan nābhim) candrasūryau ca netre, |
+diṣaḥ śrotre vidhhi pādau kṣitiṃ ca, so) 'cintyātmā sarvabhūtapraṇetā. || 7425 ||
+vaktrād yasya brāhmanāḥ samprasūtā yadvakṣastaḥ kṣatriyāḥ pūrvabhāge, |
+vaiśyāś corvor yasya padbhyāḥ ca sūdrāḥ, sarve varṇā gātrataḥ samprasūtāḥ. || 7426 ||
 nārāyaṇāḥ paro 'vyaktād, aṇḍam avyaktasaṃbhavaṃ, |
 aṇḍaj jajñe punar brahmā, lokās tena kṛtāḥ svayaṃ. || 7427 ||
-[brahmāṇḍap. i. 5.110—141 = 4. kap. śl. 33—64.]
-eṣa vaḥ kathitaḥ pādāḥ samāsān, na tu viṣtarāt, |
+[brahmāṇḍap. i. 5.110—141 = 4. kap. śl. 33—64.] eṣa vaḥ kathitaḥ pādāḥ samāsān, na tu viṣtarāt, |
 anenādyena pādena purāṇaṃ parikīrtitaṃ. || 7428 ||
 
 ## 1. Abschnitt. Sarga und Pratisarga | 4. Kapitel  (Bd. I. 5.110—141a; 6.1—77; Vā. 7.1—80).
@@ -627,8 +523,7 @@ kalpayor antaraṃ yac ca pratisaṃdhiṣ ca yas tayoḥ. |
 etad veditum icchāma yathāvat, kuśalo hy asi! || 3 ||
 [kāpeyenaivam uktas tu sūtaḥ pravadatāṃ varaḥ |
 trailokyasyodbhavaṃ kṛtsnam ākhyātum upacakrame.] || 4 ||
-sūta uvāca:
-atra vo varṇayiṣyāmi yāthātathyena suvratāḥ |
+sūta uvāca: atra vo varṇayiṣyāmi yāthātathyena suvratāḥ |
 kalpaṃ bhūtaṃ bhaviṣyaṃ ca pratisaṃdhiṣ ca yas tayoḥ, || 5 ||
 manvantarāni kalpeṣu yeṣu yāni ca suvratāḥ. |
 yaś cāyaṃ vartate kalpo vārāhaḥ sāṃprataḥ śubhaḥ, || 6 ||
@@ -735,8 +630,7 @@ saṃchādyemāṃ sthitāṃ bhūmim arṇavākhya tadābhavat. |
 sarvataḥ samanuplāvyā tāsāṃ cāmbho vibhāvyate, |
 tad ambhas, tanute yasmāt sarvāṃ pṛthvīṃ samantataḥ. || 57 ||
 dhātus tanoti vistāre, tenāmbhas tanavaḥ smṛtāḥ, |
-śara ity eṣa śīrṇe tu, | aram ity eṣa śīghraṃ tu,
-nānārtho dhātur ucyate. || 58 || | nipātaḥ kavibhiḥ smṛtaḥ. || 58 ||
+śara ity eṣa śīrṇe tu, | aram ity eṣa śīghraṃ tu, nānārtho dhātur ucyate. || 58 || | nipātaḥ kavibhiḥ smṛtaḥ. || 58 ||
 ekārṇave bhavanty āpo, na śīghrās tena te narāḥ. |
 tasmin yugasahasrānte saṃsthite brahmano 'hani || 59 ||
 tāvat kālāṃ rajanyāṃ ca vartantyāṃ salilātmanāḥ |
@@ -791,8 +685,7 @@ brahmā tu salile tasmin vāyur bhūtvā tadā caran) |
 andhakārārṇave) tasmin naṣṭe sthāvarajaṅgame. || 2 ||
 jalena samanuvyāpte) sarvataḥ pṛthivitale |
 avibhāgena bhūtesu satyamātre) sthitesu ca || 3 ||
-sl. 59-61
-tatas tu tāṃ samuddhṛtya kṣitim antarjalāt prabhuḥ || 12 ||
+sl. 59-61 tatas tu tāṃ samuddhṛtya kṣitim antarjalāt prabhuḥ || 12 ||
 svasthāne sthāpayitvā ca vibhāgam akarot punaḥ, |
 sapta sapta tu vaiṣāṇi tasyā dvīpeṣu saptasu. || 13 ||
 viṣamāṇi samikṛtya śilābhir acinod giṇin |
@@ -840,22 +733,17 @@ tāny evānāgate kāle prāyaśaḥ pratipedire, || 34 ||
 tasmāt tu) nāmarūpāṇi tāny eva pratipedire, |
 punaḥ punas te kalpeṣu jāyante nāmarūpataḥ). |
 tataḥ sarge hy avaṣṭabdhe) sisṛkṣor brahmaṇas tu vai || 35 ||
-krauṣṭukir uvāca:
-arvākṣrotas tu kathito, bhavatā, yas tu mānuṣaḥ |
+krauṣṭukir uvāca: arvākṣrotas tu kathito, bhavatā, yas tu mānuṣaḥ |
 brahman vistarato brūhi, brahmā samasṛjad yathā, || 35 ||
 yathā ca varṇān asṛjad yadguṇāṃś ca mahāmate |
 yac ca yeṣāṃ smṛtaṃ karma viprādīnāṃ, vadasva tat! || 35 ||
-mārkaṇḍeya uvāca:
-brahmaṇaḥ sṛjataḥ pūrvaṃ
-satyābhidhyāyinas tathā |
-prajās tā) dhyāyatas tasya
-satyābhidhyāyinas tadā |
+mārkaṇḍeya uvāca: brahmaṇaḥ sṛjataḥ pūrvaṃ satyābhidhyāyinas tathā |
+prajās tā) dhyāyatas tasya satyābhidhyāyinas tadā |
 mithunānāṃ sahasraṃ tu so 'sṛjad vai mukhāt tadā, || 36 ||
 janās te hy upapadyante sattvodriktāḥ sutejasaḥ. |
 sahasram anyad vakṣasto mithunānāṃ sasarja ha, || 37 ||
 te sarve rajasodriktāḥ śusmiṇaḥ cāpy amarṣiṇaḥ. |
-sasarjānyat sahasraṃ tu
-duḥsthānām ūrutaḥ punaḥ, || 38 ||
+sasarjānyat sahasraṃ tu duḥsthānām ūrutaḥ punaḥ, || 38 ||
 rajastamobhyām udriktā ihāśilās tu te smṛtāḥ. |
 padbhyaḥ sahasram anyat tu mithunānāṃ sasarja ha, || 39 ||
 udriktās tamasā sarve niḥśrikā hy alpatejasaḥ. |
@@ -870,17 +758,13 @@ tasmāt tadā na suṣuvuḥ sevitair api maithunaiḥ. || 42 ||
 tataḥ prabhṛti kalpe 'smīn mithunānāṃ hi saṃbhavaḥ, |
 dhyānena manasā tāṣāṃ prajānāṃ jāyate 'sakṛt. || 44 ||
 śabdādiviṣayaḥ śuddhaḥ pratyekaṃ pañcalakṣaṇaḥ, |
-ity eṣā mānuṣī sṛṣtir,
-yā pūrvaṃ vai prajāpateḥ. || 45 ||
+ity eṣā mānuṣī sṛṣtir, yā pūrvaṃ vai prajāpateḥ. || 45 ||
 tasyānvavāye saṃbhūtā, yair idaṃ pūritaṃ jagat. |
 saritsaraḥsamudramś ca sevante parvatān api, || 46 ||
 tadā tā hy alpāśitoṣṇā yuge tasminś caranti vai, |
-pṛthvirasodbhavaṃ nāma
-āhāraṃ hy āhāranti vai |
-tāḥ prajāḥ kāmacāriṇyo
-mānasīṃ siddhim āsthītāḥ. || 47 ||
-tṛṭtiṃ svābhāvikīṃ prāptā
-viśayeṣu mahāmate. || 47 ||
+pṛthvirasodbhavaṃ nāma āhāraṃ hy āhāranti vai |
+tāḥ prajāḥ kāmacāriṇyo mānasīṃ siddhim āsthītāḥ. || 47 ||
+tṛṭtiṃ svābhāvikīṃ prāptā viśayeṣu mahāmate. || 47 ||
 dharmaḍharmau na tāsv āstāṃ, nirviśeṣāḥ prajās tu tāḥ, |
 tulyam āyuḥ sukhāṃ rūpāṃ tāsam āsit kṛte yuge. |
 dharmaḍharmau na tāsv āstāṃ kalpādaṃ tu kṛte yuge. || 47 ||
@@ -892,36 +776,21 @@ na tāsaṃ pratighāto 'sti, na dvandvaṃ, nāpi ca kṛmaḥ, |
 parvatodadhisevinyo hy aniketāśrayās tu tāḥ || 48 ||
 | viśokāḥ sattvabahulā ekāntasukhinā prajāḥ. |
 tā vai nikāmacāriṇyo nityaṃ muditamānasāḥ. || 49 ||
-piśācoragarakṣaṃsi
-tathā matsariṇo janāḥ |
-paśavaḥ pakṣiṇās caiva
-nakrā matsyāḥ sarīṣṭpāḥ |
-avārakā hy aṇḍajā vā
-te hy adharmaprasūtayaḥ. || 50 ||
-paśavaḥ pakṣiṇās caiva
-na tadāsan sarīṣṭpāḥ |
-nodbhijjā nārakās caiva,
-te hy adharamaprasūtayaḥ. || 50 ||
+piśācoragarakṣaṃsi tathā matsariṇo janāḥ |
+paśavaḥ pakṣiṇās caiva nakrā matsyāḥ sarīṣṭpāḥ |
+avārakā hy aṇḍajā vā te hy adharmaprasūtayaḥ. || 50 ||
+paśavaḥ pakṣiṇās caiva na tadāsan sarīṣṭpāḥ |
+nodbhijjā nārakās caiva, te hy adharamaprasūtayaḥ. || 50 ||
 na mūlapalāpuṣpaṇi nārtavā vatsarāṇi ca, |
 sarvakāmasukhaḥ kālo, nātyarthaṃ hy uṣṇāṣitatā || 51 ||
-kālena gacchatā teṣāṃ
-citrā siddhir ajāyata |
-tataś ca teṣāṃ pūrvāhne
-madhyāhne ca vitṛptatā. || 52 ||
-punas tathecchatāṃ tṛptir
-anāyāśena sābhavat, |
-icchatāṃ ca tathāyāso
-manasaḥ samajāyata || 52 ||
-apāṃ sauksmyaṃ tatas tāsaṃ
-siddhir nānārasollasā
-samajāyata caivānyā
-sarvakāmapradāyini. || 52 ||
-manobhilaṣitāḥ kāmā
-tāsāṃ sarvatra sarvadā |
-uttīṣṭhanti pṛthivyāṃ vai
-tābhīr dhyātā rasotthitāḥ. |
-balavarṇakari tāsaṃ
-siddhiḥ, sā rogauāśini, || 52 ||
+kālena gacchatā teṣāṃ citrā siddhir ajāyata |
+tataś ca teṣāṃ pūrvāhne madhyāhne ca vitṛptatā. || 52 ||
+punas tathecchatāṃ tṛptir anāyāśena sābhavat, |
+icchatāṃ ca tathāyāso manasaḥ samajāyata || 52 ||
+apāṃ sauksmyaṃ tatas tāsaṃ siddhir nānārasollasā samajāyata caivānyā sarvakāmapradāyini. || 52 ||
+manobhilaṣitāḥ kāmā tāsāṃ sarvatra sarvadā |
+uttīṣṭhanti pṛthivyāṃ vai tābhīr dhyātā rasotthitāḥ. |
+balavarṇakari tāsaṃ siddhiḥ, sā rogauāśini, || 52 ||
 asaṃskāryaḥ śarīraś ca prajās tāḥ sthirayauvanāḥ, |
 tāsāṃ vinā tu saṃkalpaj jāyante mithunāḥ prajāḥ, || 53 ||
 samaṃ janma ca rūpaṃ ca mriyante caiva tāḥ samaṃ. |
@@ -945,17 +814,14 @@ kālaḥ kṛtayuge tv eṣa, tasya samkhyāṃ nibodhata! || 555 ||
 catvāri tu sahasrāni vaṣānāṃ tat kṛtaṃ yugaṃ, |
 samdhyāṃśau tasya divyāni sātāny aṣṭau ca samkhyayā. || 556 ||
 catvāri tu sahasrāni varṣānāṃ mānuṣāni tu |
-āyuḥpramānaṃ jīvanti
-tadā tā-āṃ babhūvdhyur,
-na ca kleśād vipattayaḥ. || 56 ||
+āyuḥpramānaṃ jīvanti tadā tā-āṃ babhūvdhyur, na ca kleśād vipattayaḥ. || 56 ||
 na ca kleśavipattayaḥ. || 56 ||
 tataḥ kṛtayuge tasmin samdhyāṃśe gate tadā |
 pādāvaśiṣṭo bhavati yugadharmas tu sarvaśaḥ. || 561 ||
 samdhyāyām apy atitāyām antakālo yugasya tu |
 pādātās cāvaśiṣṭe tu samdhyādharṃe yugasya tu || 562 ||
 evaṃ kṛte tu niḥśeṣe siddhis tv autardadhe tadā, |
-tasyāṃ ca siddhau bhraṣṭāyāṃ mānasyām abhavat tataḥ || 563
-siddhir anyā yuge tasmims tretākhye 'nanttare kṛtāt |
+tasyāṃ ca siddhau bhraṣṭāyāṃ mānasyām abhavat tataḥ || 563 siddhir anyā yuge tasmims tretākhye 'nanttare kṛtāt |
 sargādaṃ yā mayāṣṭau tu mānasyo vai prakīrtitāḥ, |
 aṣṭau tāḥ kramayogena siddhayo yānti samkṣayaṃ. || 564 ||
 kalpādau mānāsī hy eṣā siddhir bhavati sā kṛte |
@@ -966,143 +832,81 @@ kṛtasamṛdhyaṃśakā hy ete, trims trīṃ pādān parasparān |
 hiyante yugadharmās te tapaḥśrutabalāyusaḥ. || 567 ||
 tataḥ kṛtāṃśe kṣiṇe tu babhūva tadanantaraṃ |
 tretāyugasamutpattiḥ sāmśā ca ṛṣisattamāḥ. || 568 ||
-kvacit kvacit punaḥ sabbhūt
-kṣitir bhāgyena sarvaṣāḥ, |
-kālena gacchatā nāśaṃ
-upayānti yathā prajāḥ. || 57 ||
-tathā tāḥ kramaśo nāśaṃ
-jagmuḥ sarvatra siddhayāḥ. |
-tāsu sarvāsu naṣṭāsu
-nabhasaḥ pracyutā narāḥ, |
-prāyaṣāḥ kalpavṛkṣās te
-saṃbhūtā gṛhasamjñitāḥ. || 58 ||
-tasmīn kṣiṇe kṛtāṃśe tu
-tacchiṣṭāsu prajāsv iha |
-kalpādau saṃpravṛttāyās
-tretāyāḥ pramukhe tadā || 57 ||
-pranaśyati tadā siddhiḥ
-kālayogena nānyathā. |
-tasyāṃ siddhau pranaṣṭāyāṃ
-anyā siddhir ajāyata. || 571 ||
-apāṃ sauḥkṣmye pratigate
-tadā meghātmanā tu vai |
-meghebhyaḥ stanayitnubhyāḥ
-pravṛttaṃ vṛṣṭisarjanaṃ. || 572 ||
-sakṛd eva tayā vṛṣṭyā
-saṃyukte pṛthivīṭale |
-prādurāsams tadā tāṣāṃ
-vṛkṣās tu gṛhasamjñitāḥ. || 58 ||
+kvacit kvacit punaḥ sabbhūt kṣitir bhāgyena sarvaṣāḥ, |
+kālena gacchatā nāśaṃ upayānti yathā prajāḥ. || 57 ||
+tathā tāḥ kramaśo nāśaṃ jagmuḥ sarvatra siddhayāḥ. |
+tāsu sarvāsu naṣṭāsu nabhasaḥ pracyutā narāḥ, |
+prāyaṣāḥ kalpavṛkṣās te saṃbhūtā gṛhasamjñitāḥ. || 58 ||
+tasmīn kṣiṇe kṛtāṃśe tu tacchiṣṭāsu prajāsv iha |
+kalpādau saṃpravṛttāyās tretāyāḥ pramukhe tadā || 57 ||
+pranaśyati tadā siddhiḥ kālayogena nānyathā. |
+tasyāṃ siddhau pranaṣṭāyāṃ anyā siddhir ajāyata. || 571 ||
+apāṃ sauḥkṣmye pratigate tadā meghātmanā tu vai |
+meghebhyaḥ stanayitnubhyāḥ pravṛttaṃ vṛṣṭisarjanaṃ. || 572 ||
+sakṛd eva tayā vṛṣṭyā saṃyukte pṛthivīṭale |
+prādurāsams tadā tāṣāṃ vṛkṣās tu gṛhasamjñitāḥ. || 58 ||
 sarvapratyupabhogas tu) tāsāṃ tebhyaḥ prajayate, |
 vartayanti) sma) tebhyaṣ tās tretāyugamukhe prajāḥ). || 59 ||
-tataḥ kālena vai rāgas
-tāsām ākasmiko 'bhavat. |
-māsi māsy ārtavotpattyā
-garbhotpattiḥ punaḥ punaḥ || 60 ||
-rāgotpattyā tatas tāsāṃ
-vṛkṣās te gṛhasamjñitāḥ. || 61 ||
-brahman anv apareṣāṃ tu
-petuḥ śākhā mahiruhāṃ. |
+tataḥ kālena vai rāgas tāsām ākasmiko 'bhavat. |
+māsi māsy ārtavotpattyā garbhotpattiḥ punaḥ punaḥ || 60 ||
+rāgotpattyā tatas tāsāṃ vṛkṣās te gṛhasamjñitāḥ. || 61 ||
+brahman anv apareṣāṃ tu petuḥ śākhā mahiruhāṃ. |
 vastrāṇi ca prasūyante phaleṣv ābharaṇāni ca. || 62 |
 tesv eva jāyate tāsāṃ gandhavarṇarasānvitaṃ |
 amāksikaṃ mahāvīryaṃ puṭake puṭake madhu. || 63 ||
 tena tā vartayanti sma mukhe tretāyugasya vai |
 | hṛṣṭatuṣṭās tayā siddhyā prajā vai vigatajvarāḥ. || 64 ||
 tataḥ kālāntareṇaiva punar lobhāvṛṭās tu tāḥ |
-vṛkṣāms tāḥ paryagrṛhṇanta
-mamatvāviṣṭacetasaḥ. || 65 ||
-neṣus tenāpacāreṇa
-te 'pi tāsāṃ mahīruhāḥ, |
-tato dvandvāny ajāyanta
-śītoṣṇakṣumukhāni vai. || 66 ||
-tās tadbandhopaghātārthaṃ
-cakruḥ pūrvaṃ purāṇi tu |
-vṛkṣāms tāḥ paryagrṛhṇanta
-madhu vā māksikaṃ balāt. || 65 ||
-tāsāṃ tenāpacāreṇa
-punar lobhakṛṭena vai |
-pranaṣṭā madhunā sārḍhaṃ
-kalpavṛkṣāḥ kvacit kvacit. || 65 ||
-tasyām evālpāsiṣṭāyāṃ
-siddhyāṃ kālavaśāt tadā |
-prāvantanta tadā tāsāṃ
-dvandvāny abhyuṭhitāni tu. || 66 ||
-śītavātātāpāis tīvraīs
-tatas tā duḥkhitā bhṛṣaṃ |
-dvandvais tāḥ pīḍyamānās tu
-cakrur āvaraṇāni ca. || 66 ||
-kṛṭvā dvandvapratīkārāṃ
-niketāni hi bhejire, |
-pūrvaṃ nikāmacārās te hy
-aniketāśrayābhavan. || 66 ||
+vṛkṣāms tāḥ paryagrṛhṇanta mamatvāviṣṭacetasaḥ. || 65 ||
+neṣus tenāpacāreṇa te 'pi tāsāṃ mahīruhāḥ, |
+tato dvandvāny ajāyanta śītoṣṇakṣumukhāni vai. || 66 ||
+tās tadbandhopaghātārthaṃ cakruḥ pūrvaṃ purāṇi tu |
+vṛkṣāms tāḥ paryagrṛhṇanta madhu vā māksikaṃ balāt. || 65 ||
+tāsāṃ tenāpacāreṇa punar lobhakṛṭena vai |
+pranaṣṭā madhunā sārḍhaṃ kalpavṛkṣāḥ kvacit kvacit. || 65 ||
+tasyām evālpāsiṣṭāyāṃ siddhyāṃ kālavaśāt tadā |
+prāvantanta tadā tāsāṃ dvandvāny abhyuṭhitāni tu. || 66 ||
+śītavātātāpāis tīvraīs tatas tā duḥkhitā bhṛṣaṃ |
+dvandvais tāḥ pīḍyamānās tu cakrur āvaraṇāni ca. || 66 ||
+kṛṭvā dvandvapratīkārāṃ niketāni hi bhejire, |
+pūrvaṃ nikāmacārās te hy aniketāśrayābhavan. || 66 ||
 | yathāyoga yathāpṛiti niketeṣv avasan purā |
 marudhanvasu nimneṣu parvateṣu nadīṣu ca || 67 ||
 saṃśrayanti ca durgāni vārkaṣaṃ pārvatam audakaṃ |
-kṛtrimaṃ ca tathā durgaṃ
-mitvā mitvātmano 'ngulaiḥ || 68 ||
-mānārthāni pramaṇāni
-tās tu pūrvaṃ pracakrire: |
-paramaṇuḥ paraṃ sukṣmaṃ,
-traṣareṇur mahīrajaḥ, || 69 ||
-vālāgraṃ caiva likṣaṃ ca
-yūkāṃ cātha yavodaraṃ |
-ekādaśaguṇaṃ teṣāṃ
-yavamadhyaṃ tathāṅgulaṃ, || 70 ||
-ṣaḍaṅgulaṃ padaṃ tac ca
-vitastir dviguṇaṃ sinṛtaṃ, |
-yathāyoga yathākānaṃ
-sameṣu viṣameṣu ca || 66 ||
-ārabdhās te niketān vai
-kartuṃ śītoṣṇavāraṇaṃ. |
-tatas te nirmayāmāsuḥ
-kheṭāni ca purā i ca || 68 ||
-grānāmās caiva yathābhāgaṃ
-tathaivāntaḥpurāni ca. |
-tāsām āyāmaṣkambhān
-saṃniveśāntarāni ca || 68 ||
-cakrus tadā yathāprajñāṃ
-mitvā mitvātmano 'ngulaiḥ. |
-mānārthāni pramaṇāni
-tadā prabhṛti cakrire: || 69 ||
-yavāṅgulapradeśaṃs tīn
-hastakiṣkudhanūṃṣi ca |
-daśa tv aṅgulaparvāni
-prādeśa iti saṃjñitaḥ. || 70 ||
-aṅguṣṭhasya pradeśinyā
-vyāsaḥ prādeśa ucyate, |
-tālāḥ smṛto madhyamayā
-gokarṇaṣ cāpy auāmayā, || 71 ||
-dve vitasti tathā hasto
-brāhmyatirthādiveṣṭanaṃ. || 71 ||
-kanisṭhayā vitastis tu
-dvādaśāṅgula ucyate. |
-ratnir aṅgulaparvāṇi
-saṃkhyayā tv ekavimśatiḥ, || 71 ||
-catvāri vimśatis caiva
-hastaḥ syād aṅgulāni tu, |
-kiṣkuḥ smṛto dviratnis tu
-dvicatvārimśadaṅgulaḥ. || 71 ||
+kṛtrimaṃ ca tathā durgaṃ mitvā mitvātmano 'ngulaiḥ || 68 ||
+mānārthāni pramaṇāni tās tu pūrvaṃ pracakrire: |
+paramaṇuḥ paraṃ sukṣmaṃ, traṣareṇur mahīrajaḥ, || 69 ||
+vālāgraṃ caiva likṣaṃ ca yūkāṃ cātha yavodaraṃ |
+ekādaśaguṇaṃ teṣāṃ yavamadhyaṃ tathāṅgulaṃ, || 70 ||
+ṣaḍaṅgulaṃ padaṃ tac ca vitastir dviguṇaṃ sinṛtaṃ, |
+yathāyoga yathākānaṃ sameṣu viṣameṣu ca || 66 ||
+ārabdhās te niketān vai kartuṃ śītoṣṇavāraṇaṃ. |
+tatas te nirmayāmāsuḥ kheṭāni ca purā i ca || 68 ||
+grānāmās caiva yathābhāgaṃ tathaivāntaḥpurāni ca. |
+tāsām āyāmaṣkambhān saṃniveśāntarāni ca || 68 ||
+cakrus tadā yathāprajñāṃ mitvā mitvātmano 'ngulaiḥ. |
+mānārthāni pramaṇāni tadā prabhṛti cakrire: || 69 ||
+yavāṅgulapradeśaṃs tīn hastakiṣkudhanūṃṣi ca |
+daśa tv aṅgulaparvāni prādeśa iti saṃjñitaḥ. || 70 ||
+aṅguṣṭhasya pradeśinyā vyāsaḥ prādeśa ucyate, |
+tālāḥ smṛto madhyamayā gokarṇaṣ cāpy auāmayā, || 71 ||
+dve vitasti tathā hasto brāhmyatirthādiveṣṭanaṃ. || 71 ||
+kanisṭhayā vitastis tu dvādaśāṅgula ucyate. |
+ratnir aṅgulaparvāṇi saṃkhyayā tv ekavimśatiḥ, || 71 ||
+catvāri vimśatis caiva hastaḥ syād aṅgulāni tu, |
+kiṣkuḥ smṛto dviratnis tu dvicatvārimśadaṅgulaḥ. || 71 ||
 caturhastaṃ dhanur daṇḍo nālīkāyugam eva ca. |
-dhanuṣāṃ dve sahasre tu
-gavyūtis, taccaturguṇaṃ || 72 ||
-proktaṃ ca yojanaṃ prājñaiḥ,
-saṃkhyānārtham idaṃ paraṃ. || 73 ||
-dhanuṣasahasre dve tatra
-gavyūtis tair vibhāvyate. || 72 ||
-aṣṭau dhanuṣasahasrāṇi
-yojanaṃ tair nirucyate. |
-etena yojanenaiva
-saṃniveśas tataḥ kṛtaḥ. || 73 ||
+dhanuṣāṃ dve sahasre tu gavyūtis, taccaturguṇaṃ || 72 ||
+proktaṃ ca yojanaṃ prājñaiḥ, saṃkhyānārtham idaṃ paraṃ. || 73 ||
+dhanuṣasahasre dve tatra gavyūtis tair vibhāvyate. || 72 ||
+aṣṭau dhanuṣasahasrāṇi yojanaṃ tair nirucyate. |
+etena yojanenaiva saṃniveśas tataḥ kṛtaḥ. || 73 ||
 caturṇām atha durgāṇāṃ svasamutthāni trīṇi tu, |
-caturthaṃ kṛtrimaṃ durgaṃ,
-tac cakrur yātnatas tu te. || 74 ||
-puraṃ ca keṭakaṃ caiva
-tadvad droṇimukhaṃ dvija |
-śākhānagarakaṃ cāpi
-tathā karvaṭakaṃ trayī, || 74 ||
-grāmasaṃghoṣavinyāsaṃ
-teṣu cāvasathān pṛthak. |
-caturthaṃ kṛtrimaṃ durgaṃ,
-tasya vakṣyāmy ahaṃ vidhiṃ. || 74 ||
+caturthaṃ kṛtrimaṃ durgaṃ, tac cakrur yātnatas tu te. || 74 ||
+puraṃ ca keṭakaṃ caiva tadvad droṇimukhaṃ dvija |
+śākhānagarakaṃ cāpi tathā karvaṭakaṃ trayī, || 74 ||
+grāmasaṃghoṣavinyāsaṃ teṣu cāvasathān pṛthak. |
+caturthaṃ kṛtrimaṃ durgaṃ, tasya vakṣyāmy ahaṃ vidhiṃ. || 74 ||
 sotsedhavapraprākāraṃ sarvataḥ parikhāvṛtaṃ. || 75 ||
 | rucakaḥ svastikadvāraṃ kumārīpuram eva ca |
 | srotasīsaṃhatadvāraṃ nikhātaṃ punar eva ca. || 75 ||
@@ -1111,62 +915,34 @@ kheṭā.āṃ ca purāṇāṃ ca grāmāṇāṃ caiva sarvaśaḥ. || 752 ||
 trividhānāṃ ca durgāṇāṃ parvatodakadhanvināṃ |
 kṛtrimāṇāṃ ca durgāṇāṃ viṣkambhāyāmam eva ca. || 753 ||
 yojanārdhārdhaviṣkambham aṣṭabhāgārdham āyataṃ |
-prāgudakplavanaṃ śastaṃ
-śuddhavaṃśabahirgamaṃ. || 76 ||
-tadardhena tathā khetaṃ,
-tatpādena ca karvaṭaṃ, |
-nyūnaṃ droṇimukhaṃ tasmād
-antabhāgena cocyate. || 77 ||
-prākāraparikhāhinaṃ
-puraṃ varmavad ucyate, |
-śākhānagarakaṃ cānyan
-mantrisāmantabhuktimat. || 78 ||
-tathā śūdrajalaprayā
-svasamṛddhikṣivalā |
-kṣetropabhogyabhūmadhye
-vasatir grāmasamjñitā. || 79 ||
-anyasmān nagarāder yā
-kāryam uddiśya mānavaiḥ |
-kriyate vasatiḥ, sā vai
-vijñeyā vasatir navaiḥ. || 80 ||
-duṣṭaprayo vinā kṣetraḥ
-parabhūmicaro balī |
-grāma evākrimiṣamjño
-rājavalabbhasaṃśrayaḥ. || 81 ||
-śakaṭārūḍhabhāṇḍaiś ca
-gopālair vipaṇaṃ vinā |
-gosamūhas tathā ghoṣo,
-yatrecchā bhūmiketanaḥ. || 82 ||
-ta evaṃ nagarādīṃs tu
-kṛtvā vāsārtham ātmanaḥ, |
-niketanāni dvandvānāṃ
-cakrur āvasathāya vai || 83 ||
-gṛhākārā yathā pūrvaṃ
-teṣām āsan mahīruhāḥ, |
-tathā saṃsmṛtya tat sarvaṃ
-cakrur veśmāni tāḥ prajāḥ || 84 ||
-vṛkṣasyaivaṃ gatāḥ śākhās
-tathaivaṃ cāparā gatāḥ |
-natās caivonnatās caiva,
-tadvac chākhāḥ pracakrire. || 85 ||
-yāḥ śākhāḥ kalpavṛkṣānāṃ
-pūrvam āsan dvijottama, |
-tā eva śākhā gehānāṃ
-śālātvaṃ tena tāsu tat. || 86 ||
-ata ūrdhvaṃ gatās cānyā,
-evaṃ tiryaggatāḥ parāḥ. |
-buddhyānviṣya yathānyāyaṃ
-vṛkṣaśākhā yathā gatāḥ, || 85 ||
-tathā kṛtās tu taiḥ śākhās,
-tasmāc chālās tu tāḥ smṛtāḥ. |
-evaṃ prasiddhāḥ śākhābhyaḥ
-śālās caiva gṛhāṇi ca. || 86 ||
-tasmāt tāś ca smṛtāḥ śālāḥ
-śālātvaṃ caiva tāsu tat. |
-prasīdanti yataś tasu,
-tataḥ prāsādasamjñitāḥ, |
-tasmād gṛhāṇi śālās ca
-prāsādās caiva samjñitāḥ. || 861 ||
+prāgudakplavanaṃ śastaṃ śuddhavaṃśabahirgamaṃ. || 76 ||
+tadardhena tathā khetaṃ, tatpādena ca karvaṭaṃ, |
+nyūnaṃ droṇimukhaṃ tasmād antabhāgena cocyate. || 77 ||
+prākāraparikhāhinaṃ puraṃ varmavad ucyate, |
+śākhānagarakaṃ cānyan mantrisāmantabhuktimat. || 78 ||
+tathā śūdrajalaprayā svasamṛddhikṣivalā |
+kṣetropabhogyabhūmadhye vasatir grāmasamjñitā. || 79 ||
+anyasmān nagarāder yā kāryam uddiśya mānavaiḥ |
+kriyate vasatiḥ, sā vai vijñeyā vasatir navaiḥ. || 80 ||
+duṣṭaprayo vinā kṣetraḥ parabhūmicaro balī |
+grāma evākrimiṣamjño rājavalabbhasaṃśrayaḥ. || 81 ||
+śakaṭārūḍhabhāṇḍaiś ca gopālair vipaṇaṃ vinā |
+gosamūhas tathā ghoṣo, yatrecchā bhūmiketanaḥ. || 82 ||
+ta evaṃ nagarādīṃs tu kṛtvā vāsārtham ātmanaḥ, |
+niketanāni dvandvānāṃ cakrur āvasathāya vai || 83 ||
+gṛhākārā yathā pūrvaṃ teṣām āsan mahīruhāḥ, |
+tathā saṃsmṛtya tat sarvaṃ cakrur veśmāni tāḥ prajāḥ || 84 ||
+vṛkṣasyaivaṃ gatāḥ śākhās tathaivaṃ cāparā gatāḥ |
+natās caivonnatās caiva, tadvac chākhāḥ pracakrire. || 85 ||
+yāḥ śākhāḥ kalpavṛkṣānāṃ pūrvam āsan dvijottama, |
+tā eva śākhā gehānāṃ śālātvaṃ tena tāsu tat. || 86 ||
+ata ūrdhvaṃ gatās cānyā, evaṃ tiryaggatāḥ parāḥ. |
+buddhyānviṣya yathānyāyaṃ vṛkṣaśākhā yathā gatāḥ, || 85 ||
+tathā kṛtās tu taiḥ śākhās, tasmāc chālās tu tāḥ smṛtāḥ. |
+evaṃ prasiddhāḥ śākhābhyaḥ śālās caiva gṛhāṇi ca. || 86 ||
+tasmāt tāś ca smṛtāḥ śālāḥ śālātvaṃ caiva tāsu tat. |
+prasīdanti yataś tasu, tataḥ prāsādasamjñitāḥ, |
+tasmād gṛhāṇi śālās ca prāsādās caiva samjñitāḥ. || 861 ||
 kṛtvā dvandvopaghātāms te vārtopāyam acirtayan |
 naṣṭeṣu madhunā sārḍhaṃ kalpavṛkṣeṣu vai tadā. || 87 ||
 viṣādavyākulās tā vai prajās tṛṣṇāksudhārditāḥ |
@@ -1182,8 +958,7 @@ aphālakṣṭās cānuptā grāmyāraṇyās caturdaśa || 92 ||
 ṛtupuṣpaphalās caiva vṛksā gulmās ca jajñire. |
 praḍurbhāvas tu tretāyāṃ vārtāyām auṣadhasya tu. || 93 ||
 tenauṣadhenā vartante prajās tretāyuge tadā. |
-rāgalobhau samāsādyā
-prajās cākasmikau tadā || 94 ||
+rāgalobhau samāsādyā prajās cākasmikau tadā || 94 ||
 siddhātmānas tu ye pūrvaṃ vyākhyātāḥ prak kṛte mayā, |
 brahmaṇo mānasās te vā utpannā ye janād ihā, || 951 ||
 śāntā ye śuṣmiṇās caiva karmiṇo duḥkhinas tathā, |
@@ -1196,15 +971,11 @@ parigrahaṃ na kurvanti tebhyas cānye 'lpatejasaḥ, |
 teṣāṃ karmāṇi kurvanti tebhyas caivābalās tu ye. || 955 ||
 paricaryāsu vartante tebhyas cānye 'lpatejasaḥ. |
 evaṃ vipratipanneṣu prapanneṣu parasparaṃ || 956 ||
-tena doṣeṇa tā neśur
-oṣadhyo miṣatāṃ dvija. |
-agrasad bhūr yugapat tās
-tadauṣadhyo mahāmate. || 96 ||
+tena doṣeṇa tā neśur oṣadhyo miṣatāṃ dvija. |
+agrasad bhūr yugapat tās tadauṣadhyo mahāmate. || 96 ||
 tatas tāsu pranāṣṭāsu vibhrāntās tāḥ prajās tadā |
-brahmāṇaḥ śaraṇaḥ jagmuḥ
-kṣudhārihāḥ parameṣṭhiuṇaḥ. || 96 ||
-sa cāpi tattvato jñātvā
-tadā grastāṃ vasuṇdharāṃ |
+brahmāṇaḥ śaraṇaḥ jagmuḥ kṣudhārihāḥ parameṣṭhiuṇaḥ. || 96 ||
+sa cāpi tattvato jñātvā tadā grastāṃ vasuṇdharāṃ |
 kṛtvā vatsaṃ sumeruṇ tu duduha pṛthivīm imāṃ, |
 dugdheyaṇ gaus tadā tena bijāni pṛthivitale. || 98 ||
 jajñire tāni bijāni grāmyāraṇyās tu tāḥ punaḥ |
@@ -1241,8 +1012,7 @@ kiṇāsā nāśayanti sma pṛthivyāṃ prāg atandritāḥ, || 107 ||
 vaiśyān ity eva tān āhuḥ kiṇāsān vṛttisādhakān. |
 sevantaś ca dravantaś ca paricaryāsu ye ratāḥ, || 107 ||
 nistejaso 'lpaviryāś ca, śūdrāṃs tān abravīt tu saḥ. |
-varṇānām āśramāṇāṃ ca
-dharmaṇ dharma bhṛtāṃ vara, ||
+varṇānām āśramāṇāṃ ca dharmaṇ dharma bhṛtāṃ vara, ||
 samsthityāṃ tu kṛtāyāṃ hi cāturvarṇyasya tena vai |
 punaḥ prajās tu tā mohād dharmāṃś tān nānvapālayaṇ; || 108 ||
 vaiṇadharmair ajivantyo vyarudhyanta paraspaṃ. |
@@ -1255,12 +1025,10 @@ pāśupālyaṃ vānijyaṃ ca kṛṣiṃ caiva viśāṃ dadau; || 108 ||
 sāmānyāni tu karmāni brahmakṣatraviśāṃ punaḥ || 108 ||
 yājanādhyāpane dānaṃ sāmānyāni tu teṣu ca. |
 karmājivaṃ tato dattvā tebhyas caiva paraspaṃ || 108 ||
-lokānāṃ sarvavarṇānāṃ
-samyagdbarmārthapālināṃ |
+lokānāṃ sarvavarṇānāṃ samyagdbarmārthapālināṃ |
 prājāpatyaṃ brāhmaṇānāṃ smṛtaṃ sthānaṃ kriyāvatāṃ, || 109 ||
 sthānam aindraṃ kṣatriyānāṃ samgrāmeṣv apalāyināṃ, |
-vaiśvānāṃ mārutaṃ sthānaṃ svadharmam upajīvināṃ,
-gāndharvaṃ śūdrajātināṃ paricaryānuvartatāṃ. || 110 ||
+vaiśvānāṃ mārutaṃ sthānaṃ svadharmam upajīvināṃ, gāndharvaṃ śūdrajātināṃ paricaryānuvartatāṃ. || 110 ||
 sthānāny etāni varṇānāṃ yogyācāravatāṃ satāṃ, |
 tataḥ sthiteṣu varṇeṣu sthāpayāmāsa cāśramān: || 110 ||
 gṛhastho brahmacārī ca vānaprastho yatis tathā, |
@@ -1279,19 +1047,15 @@ daṇḍī ca mekhali caiva adhahāśayī tathā jaṭī |
 guruśuśrūṣaṇaṃ bhaikṣyaṃ vidyārthe brahmacāriṇaḥ. || 110 ||
 cīrapatrājināni syur vanamūlaphalaṣadhaṃ |
 ubhe samdhye 'vagāhaś ca homaś cāraṇyavāsīnāṃ. || 110 ||
-teṣāṃ lokāntare mūrdhni
-sthānāni vidadhe punaḥ.
-vipannamusale bhaikṣam) asteyaṃ śaucam eva ca |
+teṣāṃ lokāntare mūrdhni sthānāni vidadhe punaḥ. vipannamusale bhaikṣam) asteyaṃ śaucam eva ca |
 apramādo 'vyavāyaś ca dayā bhūteṣu ca kṣamā || 11010 ||
 akrodho) guruśuśrūṣā satyaṃ ca daśamaṃ smṛtaṃ, |
 daśalakṣaṇako hy eṣa dharmaḥ proktaḥ svayambhuvā. |
 bhikṣor vratāni pañcātra pañcaivopavratāni ca. || 11011 ||
 ācāraśuddhir vinayaḥ śaucaṃ cāpratikarma ca |
 samyagdarśanam, ity evaṃ pañcaivopavratāny api. || 11012 ||
-dhyānaṃ samādhir manasendriyaṇāṃ
-sasāgarair bhaikṣyam athopagamya |
-maunaṃ pavitropacitair vimuktiḥ
-parivrajo dharmam imaṃ vadanti. || 11013 ||
+dhyānaṃ samādhir manasendriyaṇāṃ sasāgarair bhaikṣyam athopagamya |
+maunaṃ pavitropacitair vimuktiḥ parivrajo dharmam imaṃ vadanti. || 11013 ||
 sarve to śreyase proktā āśramā brahmanā svayaṃ |
 satyārjavaṃ tapaḥ kṣāntir yogejyā damapūrvikā. || 11014 ||
 vedāḥ sāṅgāś ca yajñāś ca vratāni niyamāś ca ye |
@@ -1378,8 +1142,7 @@ tato 'nyāṃ sa punar brahmā tanuṃ vai pratyapadyata, || 17 ||
 rajomātrātmikāyāṃ tu manasā so 'sṛjat prabhuḥ, |
 rajaḥprāyāt tataḥ so 'tha mānasān asṛjat sutān. || 18 ||
 manasas tu tatas tasya mānavā jajñire prajāḥ |
-[mananāc ca manuṣyās te prajanāt prathitāḥ prajāḥ]
-sṛstvā punaḥ prajās cāpi svāṃ tanuṃ tām apohata. || 19 ||
+[mananāc ca manuṣyās te prajanāt prathitāḥ prajāḥ] sṛstvā punaḥ prajās cāpi svāṃ tanuṃ tām apohata. || 19 ||
 sāpaviḍdhā tanus tena jyotsnā sadyas tv ajāyata, |
 tasmād bhavanti samḥṛṣṭā jyotsnāyā udbhave prajāḥ. || 20 ||
 ity etās tanavas tena hy apaviḍdhā mahātmanā |
@@ -1436,14 +1199,9 @@ evaṃ paśvo sadhiḥ sṛṣtvā nyayūñjat so 'dhvare prabhuḥ, || 45 ||
 tasmād ādau tu kalpasya tretāyugamukhe tadā |
 gaur ajāḥ puruṣo meṣo hy aśvāśvataragardabhāḥ; || 46 ||
 etān grāmyān paśūn āhur āraṇyaṃś ca nibodhata! |
-cf. 3. kap.
-šl. 746-748.
-cf. 3. kap.
-šl. 749-11.
-śvāpado dvikhuro hasti vānaraḥ pakṣipañcamāḥ, || 47 ||
+cf. 3. kap. šl. 746-748. cf. 3. kap. šl. 749-11. śvāpado dvikhuro hasti vānaraḥ pakṣipañcamāḥ, || 47 ||
 au dakāḥ paśavaḥ ṣaṣṭhāḥ, saptamās tu sarīṣpāḥ. |
-mahiṣā gavayoṣṭrāṣ ca plavaṅgāḥ śarabhā vṛkāḥ, || 48 || —
-siṃhas tu saptamas teṣām, āraṇyāḥ paśavaḥ smṛīḥ. |
+mahiṣā gavayoṣṭrāṣ ca plavaṅgāḥ śarabhā vṛkāḥ, || 48 || — siṃhas tu saptamas teṣām, āraṇyāḥ paśavaḥ smṛīḥ. |
 gāyatraṃ ca ṛcaṃ caiva trivṛtstomaṃ ratham̄taraṃ || 49 ||
 agniṣṭomam̄ ca yajñānāṃ nirmame prathamān mukhāt. |
 yajūṃṣi traiṣṭubham̄ chandaḥ stomam̄ pañcadaṣam̄ tathā || 50 ||
@@ -1488,14 +1246,8 @@ athānyān mānasān putrān sadṛṣān ātmano 'sṛjat. |
 bhṛḍguṃ pulastyaṃ pulahaṃ kratum āṅgirasaṃ tathā || 66 ||
 marīciṃ dakṣam atriṃ ca vasiṣṭhaṃ caiva mānasaṃ. |
 nava brahmāṇa ity ete purāṇe niṣcayaṃ gatāḥ. || 66 ||
-cf. 5. kap.
-śl. 32—33.
-cf. 7. kap.
-śl. 64—66.
-tesaṃ brahmātmakānāṃ vai sarveṣāṃ brahmavādināṃ | || 663 ||
-tato 'sṛjat punar brahmā rudraṃ roṣātmasaṃbhavaṃ
-saṃkalpaṃ caiva dharmaṃ ca pūrvveṣām api pūrvajaṃ.
-agre sasarja vai brahmā mānasān ātmanāḥ samān: || 664 ||
+cf. 5. kap. śl. 32—33. cf. 7. kap. śl. 64—66. tesaṃ brahmātmakānāṃ vai sarveṣāṃ brahmavādināṃ | || 663 ||
+tato 'sṛjat punar brahmā rudraṃ roṣātmasaṃbhavaṃ saṃkalpaṃ caiva dharmaṃ ca pūrvveṣām api pūrvajaṃ. agre sasarja vai brahmā mānasān ātmanāḥ samān: || 664 ||
 sanandanaṃ sa-sanakaṃ vidvāṃsaṃ ca sanātanaṃ |
 sanatkumāraṃ ca vibhuṃ sanakaṃ ca sanandanaṃ. || 665 ||
 na te lokesu sajjante nirapekṣāḥ sanātaṇāḥ, |
@@ -1507,8 +1259,7 @@ ardhanaṛīnaravapus tejasā jvalanopamaḥ. || 67 ||
 sarvaṃ tejomayaṃ jātam ādityasamatejasaṃ |
 vibhajātmānam ity uktvā tatraivāntaradhiyata. || 671 ||
 evam uktvā dvidhā bhūtāḥ pṛthak strī, puruṣaḥ pṛthak. |
-sa evaikādaśārdhena | sa caikādaśadhā jajñe
-sthito 'sau parameśvaraḥ. || 68 || | ardhān ātmānam īśvaraḥ. || 68 ||
+sa evaikādaśārdhena | sa caikādaśadhā jajñe sthito 'sau parameśvaraḥ. || 68 || | ardhān ātmānam īśvaraḥ. || 68 ||
 tenoktās te mahātmanāḥ sarva eva mahātmanā |
 jagato bahuliḍbhāvam adhikṛtya hitaiṣiṇāḥ: || 681 ||
 lokavṛttāntahetor hi prayatadhvam atandritāḥ |
@@ -1519,8 +1270,7 @@ yair hi vyāptam idaṃ sarvaṃ trailokyaṃ sacarācaraṃ, |
 teṣām anuttarā loke sarvalokaparāyaṇāḥ |
 naikanāgāyutabalā vikrāntās ca gaṇeśvaraḥ. || 684 ||
 tatra yā sā mahābhāgā śaṃkarasyārdhakāyini |
-prāg uktā tu mahādevi, | prāg uktā tu mayā tubhyaṃ
-strī saiveha sati hy abhūt, | strī svayaṃbhor mukhodgatā. || 69 ||
+prāg uktā tu mahādevi, | prāg uktā tu mayā tubhyaṃ strī saiveha sati hy abhūt, | strī svayaṃbhor mukhodgatā. || 69 ||
 hitāya jagatāṃ devi |
 dakṣeṇāradhitā purā. || 69 ||
 kāyārdhaṃ dakṣiṇaṃ tasyāḥ śuklaṃ, vāmaṃ tathāsitaṃ. |
@@ -1543,11 +1293,9 @@ dvāparāntavikāreṣu devyā nāmāni suvrataḥ: |
 gautamī kauśikī āryā caṇḍī kātyāyanī satī || 75 ||
 kumārī yādavī devī varadā kṛṣṇapiṅgalā |
 barhi(r)dhvajā śūladharā paramā brahmacārīṇī |
-māhendr-opendrabhagiṇī | māhendrī c-endrabhagiṇī
-dṛṣadvaty ekaśūladhṛk || 76 || | vṛṣakany-aikavāsasī || 76 ||
+māhendr-opendrabhagiṇī | māhendrī c-endrabhagiṇī dṛṣadvaty ekaśūladhṛk || 76 || | vṛṣakany-aikavāsasī || 76 ||
 aparājitā bahubhujā pragalbhā siṃhavāhinī |
-śumbhādidaityahantrī ca | ekānaṃsā daityahanī
-mahāmahiṣamardini | māyā mahiṣamardini |
+śumbhādidaityahantrī ca | ekānaṃsā daityahanī mahāmahiṣamardini | māyā mahiṣamardini |
 amoghā vindhyanilayā vikrāntā gaṇanāyikā. || 77 ||
 devīnānavikārāṇī ity etāni yathākramaṃ |
 bhadrakālyā mayoktāni devyā nāmāni tattvataḥ, || 78 ||
@@ -1560,8 +1308,7 @@ arbhakagrahabhūtaṃ ca pūtanāmātṛbhiḥ sadā || 81 ||
 abhyarditanāṃ bālānāṃ rakṣām etāṃ prayojayet. |
 mahādevī kule dve tu prajñā śrīś ca prakīrtite, |
 ābhyāṃ devisahasrāṇi, yair vyāptam akhilaṃ jagat. || 82 ||
-cf. 3. kap. śl. 65—741.
-so 'srijad vyavasāyaṃ tu dharmaṃ bhūtasukhāvahaṃ |
+cf. 3. kap. śl. 65—741. so 'srijad vyavasāyaṃ tu dharmaṃ bhūtasukhāvahaṃ |
 saṃkalpaṃ caiva, kalpādau jajñire 'vyaktayonitaḥ. || 82 ||
 mānasas ca rucir nāma vijñeyo brahmaṇaḥ sutaḥ, |
 prāṇāt svād asrijad dakṣaṃ cakṣurbhyāṃ ca marīcinaṃ. || 82 ||
@@ -1581,12 +1328,10 @@ vyatite prathame kalpe purāṇe lokasādhakau |
 vairāje tāv ubhau loke tejaḥ saṃkṣipya cāsthitaḥ. || 82 ||
 tāv ubhau yogadharmāṇāv āropyātmānam ātmani |
 prajādharmaṃ ca kāmaṃ ca vartayetāṃ mahaujasau. || 82 ||
-cf. 7. kap. śl. 67—614.
-yathotpannas tathaiveha kumāra iti cocyate, |
+cf. 7. kap. śl. 67—614. yathotpannas tathaiveha kumāra iti cocyate, |
 tasmāt sanatkumāro 'yam' iti nāmāsyā kīrtitaṃ. || 8211 ||
 teṣāṃ dvādaśa te vaṃśā divyā devaguṇānviṭāḥ |
-kriyāvantāḥ prajāvanto maharṣibhir alamkṛtāḥ. || 8212
-ity eṣa karaṇodbhūto lokān sraṣṭuḥ svayambhuvāḥ |
+kriyāvantāḥ prajāvanto maharṣibhir alamkṛtāḥ. || 8212 ity eṣa karaṇodbhūto lokān sraṣṭuḥ svayambhuvāḥ |
 mahādādiviṣeṣānto vikāraḥ prakṛteḥ svayaṃ. || 8213 ||
 candrasūryaprabhāloko grahanakṣatramanḍitāḥ |
 nadibhiṣ ca samudraiṣ ca parvataiṣ ca samāvṛtāḥ || 8214 ||
@@ -1605,21 +1350,16 @@ traikāle samavartanta brahmaṇas te 'bhimāninaḥ. || 8220 ||
 sargāḥ parasparyātha kāraṇaṃ te budhaiḥ smṛtāḥ |
 divyau suparṇau sayujau saśākhau paṭavidrumau, |
 ekas tu yo drumaṃ vetti nānyaḥ sarvātmanas tataḥ. || 8221 ||
-dyaur mūrdhānaṃ yasya viprāḥ stuvanti,
-khaṃ nābhir vai candrasūryau ca netre, |
-diśāḥ śrotre caranau cāsyā bhūmiḥ
-so 'cintyātmā sarvabhūtaprasūtiḥ, || 8222 ||
-vaktrād ya-ya brāhmaṇāḥ samprasūtā
-yadvakṣastāḥ kṣatriyāḥ pūrvabhāge, |
-vaiṣyāṣ corv or yasya padbhyāṃ ca sūdrāḥ,
-sarve varṇā gātrataḥ samprasūtāḥ || 8223 ||
+dyaur mūrdhānaṃ yasya viprāḥ stuvanti, khaṃ nābhir vai candrasūryau ca netre, |
+diśāḥ śrotre caranau cāsyā bhūmiḥ so 'cintyātmā sarvabhūtaprasūtiḥ, || 8222 ||
+vaktrād ya-ya brāhmaṇāḥ samprasūtā yadvakṣastāḥ kṣatriyāḥ pūrvabhāge, |
+vaiṣyāṣ corv or yasya padbhyāṃ ca sūdrāḥ, sarve varṇā gātrataḥ samprasūtāḥ || 8223 ||
 maheśvaraḥ paro 'vyaktād, aṇḍam avyaktasaṃbhavaṃ. |
 aṇḍāj jaṇñe punar brahmā, yena lokāḥ kṛtāṣ tv ime. || 8224 ||
 
 ## 1. Abschnitt. Sarga und Pratisarga | 7. Kapitel  (Bd. I. 9.1—92; Kū. 8.1—28; L. 70.260b—324; Vā. 10.1—67.)
 
-sūta uvāca:
-[rudraṃ dharmaṃ manas] caiva ruciṃ caiv-ākṛtiṃ tathā, |
+sūta uvāca: [rudraṃ dharmaṃ manas] caiva ruciṃ caiv-ākṛtiṃ tathā, |
 pañca kariṇ hi sa tadā manasā vyasṛjat prabhuḥ. || 11 ||
 ete mahābhujāḥ sarve prajānāṃ stithihetavaḥ. |
 oṣadhiḥ pratisamṛdhatte rudraḥ kṣiṇāyuṣaḥ punaḥ, || 12 ||
@@ -1635,11 +1375,8 @@ dhatte dharmāḥ prajāḥ sarvā, mano jñānakaraṃ smṛtaṃ. |
 ākṛtiḥ paramaṃ rūpaṃ, ruciḥ śradhākaraḥ smṛtāḥ. || 17 ||
 evam ete prajāpālāḥ prajānāṃ stithihetavaḥ |
 athāsyā sṛjataḥ sargaṃ prajānāṃ parivṛddhaye. || 18 || ]
-evaṃ bhūtāni sṛṣṭāni
-sthāvarāṇi carāṇi ca |
-yadāsyā tāḥ prajāḥ sṛṣṭā
-na vyavardhanta dhimataḥ||1
-tamomātrāvṛto brahmā tadā śokena duḥkhitāḥ. |
+evaṃ bhūtāni sṛṣṭāni sthāvarāṇi carāṇi ca |
+yadāsyā tāḥ prajāḥ sṛṣṭā na vyavardhanta dhimataḥ||1 tamomātrāvṛto brahmā tadā śokena duḥkhitāḥ. |
 tataḥ sa vidadhe buddhim arthaniṣcayagāminīṃ. || 2 ||
 aḥhātmani samadrākṣit tamomātrāṃ niyāmikāṃ |
 rajaḥ sattvaṃ parityajya vartamānaṃ svadhamataḥ. || 3 ||
@@ -1671,8 +1408,7 @@ abhimānātmakaṃ rudraṃ nirmame nilalohitaṃ |
 śiraso 'nīgirasaṃ caiva śrotrād atriṃ tathaiva ca || 610 ||
 pulastyaṃ ca tathodānād vyānāc ca pulahaṃ punaḥ. |
 samānajo vasiṣṭhaś ca hy, apānān nirmame kratuṃ. || 611 ||
-ity ete brahmaṇaḥ putraḥ prajādau dvādaśa smṛtāḥ.
-dharmas teṣāṃ prathamajo devatānāṃ smṛtas tu vai. || 612 ||
+ity ete brahmaṇaḥ putraḥ prajādau dvādaśa smṛtāḥ. dharmas teṣāṃ prathamajo devatānāṃ smṛtas tu vai. || 612 ||
 bhṛgvādayas tu ye sṛṣṭās, te vai brahmarṣayaḥ smṛtāḥ, |
 gṛhamedhipurāṇās te, dharmaś taiḥ prāk pravartitāḥ. || 613 ||
 dvādaśaite pra-ūyante prajāḥ kalpe punaḥ punaḥ. |
@@ -1717,18 +1453,12 @@ yamasya putrā yajñasya, tasmād yāmās tu te smṛtāḥ: |
 ajitās caiva śukrās ca gaṇau dvau brahmaṇāḥ smṛtau || 21 ||
 yāmāḥ pūrvam̃ parikrāntā yeṣām̃ samjñā divaukasaḥ̃ |
 svāyaṃbhuvasūṭāyām̃ tu prasūtyām̃ lokamātaraḥ̃ || 22 ||
-prasūtyām̃ ca tathā dakṣaś
-catasro vimṛśatim̃ tathā |
-sasarja kanyā, nāmāni
-tāsām̃ samyaḍ nibodhata: || 23 ||
-tasyām̃ kanyās caturvimṛśad
-dakṣas tv ajanayat prabhuḥ̃ |
-sarvās tās ca mahābhāgāḥ,
-sarvāḥ kamalalocanāḥ, || 23 ||
-yogapatnyaś ca tāḥ sarvāḥ,
-sarvās tā yogamātaraḥ̃, |
-sarvās ca brahmavādinyaḥ,
-sarvā viśvasya mātaraḥ̃: || 23 ||
+prasūtyām̃ ca tathā dakṣaś catasro vimṛśatim̃ tathā |
+sasarja kanyā, nāmāni tāsām̃ samyaḍ nibodhata: || 23 ||
+tasyām̃ kanyās caturvimṛśad dakṣas tv ajanayat prabhuḥ̃ |
+sarvās tās ca mahābhāgāḥ, sarvāḥ kamalalocanāḥ, || 23 ||
+yogapatnyaś ca tāḥ sarvāḥ, sarvās tā yogamātaraḥ̃, |
+sarvās ca brahmavādinyaḥ, sarvā viśvasya mātaraḥ̃: || 23 ||
 śraddhā lakṣmir dhṛtis tuṣṭiḥ puṣṭir medhā kriyā tathā |
 buddhir lajjā vapuḥ̃ śāntiḥ siddhiḥ kirtis trayodaśi; || 24 ||
 patnyartham̃ pratijagrāha dharmo dāksāyaṇiḥ̃ prabhuḥ̃. |
@@ -1736,19 +1466,12 @@ patnyartham̃ pratijagrāha dharmo dāksāyaṇiḥ̃ prabhuḥ̃. |
 tābhyaḥ śiṣṭā yaviyasya ekādaśa sulocanāḥ: |
 khyātiḥ saty aṭha sambhūtiḥ smṛtiḥ pritiḥ̃ kṣamā tathā || 26 ||
 samnatiś c-ānasūyā ca ūrjā svāhā svadhā tathā, |
-bhṛgur bhavo mariciś ca
-tathā caiv-āngirā muniḥ̃ || 27 ||
-pulastyaḥ̃ pulahaś caiva
-tās tadā pratyapadyanta
-punar anye maharṣayaḥ̃: || 27 ||
-rudro bhṛgur mariciś ca
-āngirāḥ pulahaḥ kratuḥ |
-pulastyo 'trir vaśiṣṭhaś ca
-kratuḥ paramadharmavit |
-atrir vasiṣṭho vahnis ca
-pitaraś ca yathākramaṃ || 28 ||
-khyātyādyā jagṛhuḥ kanyā
-munayo jñānasattamāḥ. || 29 ||
+bhṛgur bhavo mariciś ca tathā caiv-āngirā muniḥ̃ || 27 ||
+pulastyaḥ̃ pulahaś caiva tās tadā pratyapadyanta punar anye maharṣayaḥ̃: || 27 ||
+rudro bhṛgur mariciś ca āngirāḥ pulahaḥ kratuḥ |
+pulastyo 'trir vaśiṣṭhaś ca kratuḥ paramadharmavit |
+atrir vasiṣṭho vahnis ca pitaraś ca yathākramaṃ || 28 ||
+khyātyādyā jagṛhuḥ kanyā munayo jñānasattamāḥ. || 29 ||
 pṛitiṃ caiva pulastyāya kṣamāṃ vai pulahāya ca |
 kratave saṃnatiṃ nāma anasūyāṃ tath-āiraye. || 30 ||
 ūrjāṃ dadau vasiṣṭhāya svāhāṃ caiv-āgnaye dadau |
@@ -1774,8 +1497,7 @@ mṛtyor vyādhī-jarā-śoka-krodh-āsūyās ca jajñire. || 40 ||
 duḥkhottarāḥ smṛtā hy ete sarve cādharmalakṣaṇāḥ. |
 naiṣāṃ bhāryāsti putro vā, sarve hy anidhanāḥ smṛtāḥ || 41 ||
 ity eṣa tāmasaḥ sargo jajñe dharmaniyāmakaḥ. |
-saṃkṣepeṇa mayā proktā, | prajāḥ sṛjeti vyādiṣṭo
-viṣṭir munipuṃgavāḥ || 42 || | brahmaṇā nilalohitaḥ. || 42 ||
+saṃkṣepeṇa mayā proktā, | prajāḥ sṛjeti vyādiṣṭo viṣṭir munipuṃgavāḥ || 42 || | brahmaṇā nilalohitaḥ. || 42 ||
 so 'bhidhyāya satiṃ bhāryāṃ nirmame hy ātmasaṃbhavān |
 nādhikān na ca hināṃs tān mānasān ātmanāḥ samān. || 43 ||
 sahasraṃ hi sahasraṇām asṛjat kṛttivāsasāṃ, |
@@ -1787,16 +1509,11 @@ rathino varmiṇas caiva carmiṇas ca varūthināḥ || 46 ||
 sahasraśatabāhūṃś ca divyān bhaumāntariḥsaḍgān |
 sthūlasīrṣān aṣṭadamṣṭrān dvijihvāṃś tu trilocanān || 47 ||
 annādān piṣitādāṃś ca ājyapān somapāṃś tathā |
-miḍhuṣo 'tikapālāms ca
-śitikaṇṭhordhvaretaṣaḥ || 48 ||
-havyādān śrutadharmāms ca
-dharmaṇo hy atha varhiṇaḥ |
-āsinān dhāvataś caiva
-pañcabhūtān sahasraṣaḥ || 49 ||
-adhyāpino 'dhyāyinaś ca
-japato yuñjatas tathā |
-dhūmavanto jvalantaś ca
-nadimanto 'tidiṭtinaḥ || 50 ||
+miḍhuṣo 'tikapālāms ca śitikaṇṭhordhvaretaṣaḥ || 48 ||
+havyādān śrutadharmāms ca dharmaṇo hy atha varhiṇaḥ |
+āsinān dhāvataś caiva pañcabhūtān sahasraṣaḥ || 49 ||
+adhyāpino 'dhyāyinaś ca japato yuñjatas tathā |
+dhūmavanto jvalantaś ca nadimanto 'tidiṭtinaḥ || 50 ||
 buddhān buddhatamāms) caiva brahmiṣthāñ) śubhadarśanān) |
 nilagrivān sahasrākṣān sarvāms cātha) kṣapācarān) || 51 ||
 adṛśyān sarvabhūtānāṃ mahāyogān mahaujaṣaḥ |
@@ -1809,16 +1526,11 @@ nārapsyante) hi karmāṇi prajā nigatamṛtyavaḥ! |
 evaṃ ukto 'bravid enaṃ: nāhaṃ mṛtyujarānvitāḥ || 55 ||
 prajāḥ sraṣyāmi, bhadraṃ te, sthito 'haṃ, tvaṃ sṛja prajā)! |
 ete ye vai mayā sṛṣṭā virūpā nilalohitāḥ || 56 ||
-meḍhrapāms cātikāyāms) ca
-śitikaṇṭhogramanyavaḥ) || 48 ||
-sopāsaṅgatalatrāms) ca
-dhanvino hy upavarmiṇaḥ |
-āsinān dhāvataś) caiva)
-jṛmbhataś cāpy adhiṣṭhitān || 49 ||
-adhyāpino 'tha) japato
-yuñjato dhyāyatas tathā |
-jvalato varṣataś caiva
-dyotamānān pradhūpitān || 50 ||
+meḍhrapāms cātikāyāms) ca śitikaṇṭhogramanyavaḥ) || 48 ||
+sopāsaṅgatalatrāms) ca dhanvino hy upavarmiṇaḥ |
+āsinān dhāvataś) caiva) jṛmbhataś cāpy adhiṣṭhitān || 49 ||
+adhyāpino 'tha) japato yuñjato dhyāyatas tathā |
+jvalato varṣataś caiva dyotamānān pradhūpitān || 50 ||
 jñānaṃ vairāgyam aiśvaryaṃ tapaḥ satyaṃ kṣamā dhṛtiḥ |
 sraṣṭṛtvam ātmasambodhas tv adhiṣṭhātṛtvam eva ca || 631 ||
 atha yāni daśaitāni nityaṃ tiṣṭhanti śamkare. |
@@ -1829,11 +1541,9 @@ jñānena ca munīn sarvān yogād bhūtāni sarvaśaḥ || 633 ||
 
 ## 1. Abschnitt. Sarga und Pratisarga | 8. Kapitel  (Bd. I. 10.1—88; Vā. 27.1—60.)
 
-rṛsaya ūcuḥ (ṛsir uvāca):
-asmin kalpe tvayā noktaḥ prādurbhāvo mahātmanaḥ |
+rṛsaya ūcuḥ (ṛsir uvāca): asmin kalpe tvayā noktaḥ prādurbhāvo mahātmanaḥ |
 mahādevasya rudrasya sādhakair ṛsibhiḥ saha. || 1 ||
-sūta uvāca:
-utpattir ādisargasya mayā proktā samāsataḥ, |
+sūta uvāca: utpattir ādisargasya mayā proktā samāsataḥ, |
 vistareṇāsyā) vakṣyāmi nāmāni tanubhiḥ saha. || 2 ||
 patniṣu janayāmāsa mahādevaḥ sutān bahūn |
 kalpeṣv anyeṣv atiteṣu) hy, asmīn kalpe tu tāñ) śṛṇu! || 3 ||
@@ -1894,13 +1604,10 @@ viveśa tat tad āpas tu; tasmād āpo bhavaḥ smṛtaḥ. || 30 ||
 yasmād bhavanti bhūtāni tābhyas tā bhāvyanti ca, |
 bhavanād bhāvanāc caiva bhūtānām̃ ucyate bhavaḥ. || 31 ||
 tasmāñ mūtram̃ puriṣam̃ ca nāpsu kurvīta sarvadā |
-na niṣṭhīven nāvagāhen na snāyed apsu nagnās ca
-naiva gacchec ca maithunam̃, || 32 || va niṣṭhīvet kadācana, || 32 ||
-maithunam̃ naiva sevisa
-śiraḥsnānam̃ ca varjayet, |
+na niṣṭhīven nāvagāhen na snāyed apsu nagnās ca naiva gacchec ca maithunam̃, || 32 || va niṣṭhīvet kadācana, || 32 ||
+maithunam̃ naiva sevisa śiraḥsnānam̃ ca varjayet, |
 na caitāḥ paricakṣīta vahantyo vā sthitā api. || 33 ||
-medhyāmedhyās tv apām̃ etās medhyāmedhyaśarīratvān
-tanavo munibhiḥ smṛtaḥ, naiva duṣyanty apaḥ kvacit, |
+medhyāmedhyās tv apām̃ etās medhyāmedhyaśarīratvān tanavo munibhiḥ smṛtaḥ, naiva duṣyanty apaḥ kvacit, |
 vivarṇarasagandhās ca alpās ca parivarjayet. || 34 ||
 apām̃ yoniḥ samudras tu, tasmāt tam̃ kām̃ayanti tāḥ, |
 medhyās caivāmṛtā hy āpo bhavanti prāpya sāgaram̃. || 35 ||
@@ -2140,8 +1847,7 @@ vipāśāṃ kauśikiṃ caiva śatadrūṃ sarayūṃ tathā || 58 ||
 sitāṃ sarasvatiṃ caiva hlādiniṃ pāvaniṃ tathā; |
 tāsu soḍaśadhātmanāṃ pravibhajya pṛthak pṛthak || 59 ||
 ātmānaṃ vyadadhāt, tāsu dhiṣṇiṣv aṭha babhūva saḥ |
-kṛtikācāriṇi dhiṣṇi | dhiṣṇyād avyabhicāriṇyas
-jajñire tāś ca dhiṣṇayaḥ. || 60 || | tāṣūtpannās tu dhiṣṇayaḥ. || 60 ||
+kṛtikācāriṇi dhiṣṇi | dhiṣṇyād avyabhicāriṇyas jajñire tāś ca dhiṣṇayaḥ. || 60 || | tāṣūtpannās tu dhiṣṇayaḥ. || 60 ||
 dhiṣṇiṣu jajñire yasmād, dhiṣṇayas tena kīrtitāḥ. |
 ity ete vai nadīputrā dhiṣṇiṣv eva) vijajñire. || 61 ||
 teṣāṃ viharanīyā ye upastheyāś ca ye 'gnayaḥ, |
@@ -2151,8 +1857,7 @@ tāṃ śṛṇudhvaṃ samāśena kīrtyamānāṃ yathātatham): || 62 ||
 anirdeśyānyavācyānām) agnīnāṃ śṛṇuta kramam: |
 samrāḍ agniḥ kṛṣṇanur yo dvitiyo 'ntaravedikaḥ. || 64 ||
 samrāḍagnimulchān) aṣṭau upatiṣṭhanti tāṃ dvijān): |
-cf. śl. 70b, 71a.
-pariṣatpavamānas tu dviṭiyāḥ so 'nudiṣyate. || 65 ||
+cf. śl. 70b, 71a. pariṣatpavamānas tu dviṭiyāḥ so 'nudiṣyate. || 65 ||
 pratakkān yo nabho nāma, catvare 'sau vibhāvyate. |
 havyas tato hy asaṃmṛṣtaḥ śāmitre 'gnau vibhāvyate || 66 ||
 ṛṭudhāmā ca sujyotir audumbaryāḥ prakīrtyate |
@@ -2167,18 +1872,12 @@ vidhīyante yathāsthānaṃ sautye 'hni savane kramāt. |
 hotrīyas tu smṛto hy agnir vahni yo havyavāhanāḥ, || 71 ||
 praśānto 'gniḥ pracetās tu dviṭiyās cātra nāmakaḥ, |
 tato 'gnir vaiśvadevas tu brahmanācchāṃsir ucyate, || 72 ||
-uṣig agniḥ kavir yas tu
-potāgniḥ sa vibhāvyate, |
-āvārir agnir vābhārir
-vaiṣṭhiyāḥ sa vibhāvyate, || 73 ||
-avasphūrjo vivasvāṃś tu,
-āsthāṃś(?) caiva sa ucyate, |
-aṣṭamaḥ sudhyur agnir yo
-mārjāliyāḥ sa ucyate. || 74 ||
-dhiṣṇyāvāharanā hy ete
-sautye 'hniṭiyanta vai dviyaiḥ. |
-apāṃ yoniḥ smṛto 'sau, sa hy
-apsunāmā vibhāvyate. || 75 ||
+uṣig agniḥ kavir yas tu potāgniḥ sa vibhāvyate, |
+āvārir agnir vābhārir vaiṣṭhiyāḥ sa vibhāvyate, || 73 ||
+avasphūrjo vivasvāṃś tu, āsthāṃś(?) caiva sa ucyate, |
+aṣṭamaḥ sudhyur agnir yo mārjāliyāḥ sa ucyate. || 74 ||
+dhiṣṇyāvāharanā hy ete sautye 'hniṭiyanta vai dviyaiḥ. |
+apāṃ yoniḥ smṛto 'sau, sa hy apsunāmā vibhāvyate. || 75 ||
 tato yaḥ pāvako nāmna, sa cāpāṃ garbha ucyate, |
 agniḥ so 'vabhṛtho jñeyo, vārunena saheṭyate || 76 ||
 hṛcchayas tatsuto hy agnir, jaṭhare yo nṛṇāṃ pacan. |

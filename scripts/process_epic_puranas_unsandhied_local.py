@@ -87,8 +87,12 @@ def skip_test_for(basename: str):
 # ── Paths ─────────────────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).parent
 REPO_ROOT  = SCRIPT_DIR.parent
-INPUT_DIR  = REPO_ROOT / "corpus" / "epic_puranas"
-OUTPUT_DIR = REPO_ROOT / "corpus" / "epic_puranas_unsandhied"
+# Overridable so derived corpora (e.g. the noreuse experiment) can be
+# word-split without touching the canonical directories.
+INPUT_DIR  = Path(os.getenv("EPIC_INPUT_DIR",
+                            str(REPO_ROOT / "corpus" / "epic_puranas")))
+OUTPUT_DIR = Path(os.getenv("EPIC_OUTPUT_DIR",
+                            str(REPO_ROOT / "corpus" / "epic_puranas_unsandhied")))
 
 # ── Model ─────────────────────────────────────────────────────────────────────
 MODEL_PATH   = os.getenv(

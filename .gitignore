@@ -36,6 +36,12 @@ corpus/**
 !corpus/epic_puranas_unsandhied_stale_backup/**
 !corpus/epic_puranas_sandhied/
 !corpus/epic_puranas_sandhied/**
+!corpus/epic_puranas_noreuse/
+!corpus/epic_puranas_noreuse/**
+!corpus/epic_puranas_sandhied_noreuse/
+!corpus/epic_puranas_sandhied_noreuse/**
+!corpus/epic_puranas_unsandhied_noreuse/
+!corpus/epic_puranas_unsandhied_noreuse/**
 
 # Derived outputs
 results/
