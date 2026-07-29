@@ -46,6 +46,8 @@ PALETTE = {                       # 1 MBh · 2 Rām · 3 old core · 4 old SP ·
     12: '#0f8bb0',                # Harivaṃśa (azure: epic-family blue, nearest
                                   # neighbours ΔE 12.6/13.0 — point labels carry it)
     13: '#87104a',                # Śivadharma (deep maroon, ≥15 from ŚiP red)
+    14: '#2b2b2b',                # Purāṇapañcalakṣaṇa (charcoal: constituted
+                                  # text, no natural place in the hue families)
 }
 GROUP_ORDER = list(PALETTE)
 
@@ -107,6 +109,15 @@ CODES = {
     'harivamsa_appendix-42_pradurbhava': 'HA42',
     'sivadharmasastra': 'ŚDh',
     'sivadharmottara': 'ŚDhU',
+    # Purāṇapañcalakṣaṇa: Pl + Textgruppe number (arabic: roman I next
+    # to lowercase l is unreadable in a sans face — PlIII)
+    'kirfel_ppl_textgruppe_I_col1': 'Pl1',
+    'kirfel_ppl_textgruppe_Ia_col1': 'Pl1a',
+    'kirfel_ppl_textgruppe_II_col1': 'Pl2',
+    'kirfel_ppl_textgruppe_IIA_col1': 'Pl2A',
+    'kirfel_ppl_textgruppe_IIB_col1': 'Pl2B',
+    'kirfel_ppl_textgruppe_III_col1': 'Pl3',
+    'kirfel_ppl_ungrouped_col1': 'PlU',
 }
 
 EXTRA_DISPLAY = {
@@ -122,6 +133,13 @@ EXTRA_DISPLAY = {
     'harivamsa_appendix-42_pradurbhava': 'HV App. 42 (prādurbh.)',
     'sivadharmasastra': 'Śivadharmaśāstra',
     'sivadharmottara': 'Śivadharmottara',
+    'kirfel_ppl_textgruppe_I_col1': 'PPL Textgruppe I',
+    'kirfel_ppl_textgruppe_Ia_col1': 'PPL Textgruppe Ia',
+    'kirfel_ppl_textgruppe_II_col1': 'PPL Textgruppe II',
+    'kirfel_ppl_textgruppe_IIA_col1': 'PPL Textgruppe IIA',
+    'kirfel_ppl_textgruppe_IIB_col1': 'PPL Textgruppe IIB',
+    'kirfel_ppl_textgruppe_III_col1': 'PPL Textgruppe III',
+    'kirfel_ppl_ungrouped_col1': 'PPL ungrouped',
 }
 
 

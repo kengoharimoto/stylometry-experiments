@@ -70,7 +70,19 @@ ap.add_argument('--dump-coords', metavar='PATH',
 ap.add_argument('--compare-metrics', action='store_true',
                 help='report each metric\'s distance-matrix correlation with '
                      'the W1-delta hero matrix, then exit')
+ap.add_argument('--files-from', metavar='MANIFEST',
+                help='corpus manifest (one unit basename per line, as in '
+                     'manifests/); the manifest name is appended to the output '
+                     'filename, so variants never overwrite the deck hero')
 args = ap.parse_args()
+
+MANIFEST = None
+if args.files_from:
+    mpath = Path(args.files_from)
+    entries = [l.strip() for l in mpath.read_text(encoding='utf-8').splitlines()]
+    MANIFEST = {e[:-4] if e.endswith('.txt') else e
+                for e in entries if e and not e.startswith('#')}
+    MANIFEST_LABEL = mpath.stem
 
 W1 = args.features == 'w'
 MFW = args.mfw or (80 if W1 else 5000)
@@ -80,6 +92,8 @@ RESULTS = sorted(ROOT.glob('results_epic_puranas_unsandhied_W1_50-80_*/' if W1 e
 tag = f"{'W1' if W1 else 'C3'}_{args.metric}"
 OUT = FIGDIR / (f'hero_W1_delta_MDS' if (W1 and args.metric == 'delta')
                 else f'companion_{tag}_MDS')
+if MANIFEST is not None:
+    OUT = OUT.with_name(f'{OUT.name}_{MANIFEST_LABEL}')
 HIGHLIGHT_STRATA = {'epic': {1, 2}, 'oldcore': {3}, 'oldsp': {4}, 'late': {5},
                     'sip': {6}, 'bhp': {7, 8}, 'skmp': {10}}
 hl = HIGHLIGHT_STRATA.get(args.highlight)
@@ -104,6 +118,7 @@ PALETTE = {                       # 1 MBh · 2 Rām · 3 old core · 4 old SP ·
     11: '#d4589e',                # epic Appendix I (rose)
     12: '#0f8bb0',                # Harivaṃśa (azure)
     13: '#87104a',                # Śivadharma (deep maroon)
+    14: '#2b2b2b',                # Purāṇapañcalakṣaṇa (charcoal)
 }
 GROUP_ORDER = list(PALETTE)
 
@@ -118,8 +133,14 @@ def trigram_counts(path):
 count_fn = word_counts if W1 else trigram_counts
 names, counts = [], []
 for p in sorted(CORPUS.glob('*.txt')):
+    if MANIFEST is not None and p.stem not in MANIFEST:
+        continue
     names.append(p.stem)
     counts.append(count_fn(p))
+if MANIFEST is not None:
+    missing = MANIFEST - set(names)
+    if missing:
+        sys.exit(f'manifest units not in {CORPUS}: {sorted(missing)}')
 
 raw = Counter()
 for c in counts:
@@ -170,6 +191,8 @@ if args.compare_metrics:
     # reference: W1 delta on the unsandhied corpus
     ref_names, ref_counts = [], []
     for p in sorted((ROOT / 'corpus/epic_puranas_unsandhied').glob('*.txt')):
+        if MANIFEST is not None and p.stem not in MANIFEST:
+            continue
         ref_names.append(p.stem)
         ref_counts.append(word_counts(p))
     rraw = Counter()
@@ -216,6 +239,8 @@ else:
     # arbitrary; Procrustes alignment makes the figures directly comparable)
     ref_names, ref_counts = [], []
     for p in sorted((ROOT / 'corpus/epic_puranas_unsandhied').glob('*.txt')):
+        if MANIFEST is not None and p.stem not in MANIFEST:
+            continue
         ref_names.append(p.stem)
         ref_counts.append(word_counts(p))
     rraw = Counter()
@@ -332,10 +357,15 @@ leg = [(s, labels_map[group_members[s][0]]) for s in GROUP_ORDER if group_member
 handles = [Line2D([], [], marker='o', linestyle='', markersize=8,
                   markerfacecolor=(FADE if hl and s not in hl else PALETTE[s]),
                   markeredgecolor='white', label=txt) for s, txt in leg]
+# 13 groups (deck hero): anchored right of the tour-card zone. A 14th group
+# (the PPL variant) would clip at the figure edge, so that case pulls the
+# legend left and tightens the columns.
 legend = fig.legend(handles=handles, ncol=5, loc='lower center',
-                    bbox_to_anchor=(0.652, -0.014), frameon=False,
-                    fontsize=10.8, columnspacing=0.9, handletextpad=0.2,
-                    labelspacing=0.4)
+                    bbox_to_anchor=(0.60 if len(leg) > 13 else 0.652, -0.014),
+                    frameon=False,
+                    fontsize=10.8,
+                    columnspacing=0.7 if len(leg) > 13 else 0.9,
+                    handletextpad=0.2, labelspacing=0.4)
 for t, (s, _) in zip(legend.get_texts(), leg):
     faded = hl and s not in hl
     t.set_color(FADE_TXT if faded else darken(PALETTE[s], 0.45))
