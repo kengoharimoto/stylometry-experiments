@@ -16,6 +16,7 @@ Row "1.216" (4,487-unit colophon-less remainder, 16% matched) is left off
 the strip and footnoted.
 """
 import csv
+import os
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -24,7 +25,12 @@ import matplotlib.pyplot as plt
 
 import figcommon as fc
 
-REPORTS = Path.home() / 'Documents/E-texts/40_tools/reports/bhavisya_parallels'
+# default: the merged unit-length-normalised rescan (2026-07-30) — per
+# rescan_normalisation_2026-07-30.md, norm/merged/ is the authoritative set;
+# point BHAVISYA_REPORTS at the parent dir to rebuild from the original scan
+REPORTS = Path(os.getenv(
+    'BHAVISYA_REPORTS',
+    Path.home() / 'Documents/E-texts/40_tools/reports/bhavisya_parallels/norm/merged'))
 
 # ── donor families (colours = dataviz reference categorical, validated) ──────
 FAM_COLORS = {
