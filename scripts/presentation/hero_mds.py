@@ -70,6 +70,11 @@ ap.add_argument('--dump-coords', metavar='PATH',
 ap.add_argument('--compare-metrics', action='store_true',
                 help='report each metric\'s distance-matrix correlation with '
                      'the W1-delta hero matrix, then exit')
+ap.add_argument('--corpus-dir', metavar='DIR',
+                help='corpus directory relative to the repo root (default: '
+                     'corpus/epic_puranas_unsandhied for words, ..._sandhied '
+                     'for char 3-grams); the wordlist validation looks for the '
+                     'matching results_<dirname>_... stylo run')
 ap.add_argument('--files-from', metavar='MANIFEST',
                 help='corpus manifest (one unit basename per line, as in '
                      'manifests/); the manifest name is appended to the output '
@@ -86,9 +91,19 @@ if args.files_from:
 
 W1 = args.features == 'w'
 MFW = args.mfw or (80 if W1 else 5000)
-CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
-RESULTS = sorted(ROOT.glob('results_epic_puranas_unsandhied_W1_50-80_*/' if W1 else
-                           'results_epic_puranas_sandhied_C3_2000-5000_*/'))[-1]
+CORPUS = ROOT / (args.corpus_dir or
+                 ('corpus/epic_puranas_unsandhied' if W1 else
+                  'corpus/epic_puranas_sandhied'))
+_runs = sorted(ROOT.glob(f'results_{CORPUS.name}_W1_50-80_*/' if W1 else
+                         f'results_{CORPUS.name}_C3_2000-5000_*/'),
+               key=lambda p: p.name[-15:])          # trailing timestamp
+if MANIFEST is not None:
+    _mruns = [p for p in _runs if MANIFEST_LABEL in p.name]
+    _runs = _mruns or _runs
+RESULTS = _runs[-1]
+# reference layout for compare-metrics / Procrustes: the W1-delta hero on the
+# unsandhied sibling of CORPUS (identical to CORPUS when already unsandhied)
+REF_CORPUS = ROOT / f"corpus/{CORPUS.name.replace('_sandhied', '_unsandhied')}"
 tag = f"{'W1' if W1 else 'C3'}_{args.metric}"
 OUT = FIGDIR / (f'hero_W1_delta_MDS' if (W1 and args.metric == 'delta')
                 else f'companion_{tag}_MDS')
@@ -190,7 +205,7 @@ def distance_matrix(metric):
 if args.compare_metrics:
     # reference: W1 delta on the unsandhied corpus
     ref_names, ref_counts = [], []
-    for p in sorted((ROOT / 'corpus/epic_puranas_unsandhied').glob('*.txt')):
+    for p in sorted(REF_CORPUS.glob('*.txt')):
         if MANIFEST is not None and p.stem not in MANIFEST:
             continue
         ref_names.append(p.stem)
@@ -238,7 +253,7 @@ else:
     # companions: rotate/reflect onto the hero layout (MDS orientation is
     # arbitrary; Procrustes alignment makes the figures directly comparable)
     ref_names, ref_counts = [], []
-    for p in sorted((ROOT / 'corpus/epic_puranas_unsandhied').glob('*.txt')):
+    for p in sorted(REF_CORPUS.glob('*.txt')):
         if MANIFEST is not None and p.stem not in MANIFEST:
             continue
         ref_names.append(p.stem)
@@ -338,14 +353,16 @@ ax.annotate('', xy=(0.97, 0.104), xytext=(0.03, 0.104),
 
 feat_desc = ('80 most frequent words' if W1
              else f'{MFW} most frequent character 3-grams')
-corpus_desc = 'unsandhied' if W1 else 'sandhied'
+corpus_desc = ('unsandhied' if W1 else 'sandhied') + ' text'
+if 'noreuse' in CORPUS.name:
+    corpus_desc += ', shared passages removed'
 METRIC_NAMES = {'delta': 'Burrows’s Delta', 'wurzburg': 'Cosine Delta',
                 'argamon': 'Argamon’s Delta', 'eder': 'Eder’s Delta',
                 'cosine': 'cosine distance', 'euclidean': 'Euclidean distance',
                 'manhattan': 'Manhattan distance', 'canberra': 'Canberra distance',
                 'minmax': 'min-max distance'}
 ax.set_title(f'{len(names)} epic and purāṇic texts, arranged only by counted linguistic habits\n'
-             f'({METRIC_NAMES[args.metric]} on {feat_desc}, {corpus_desc} text · '
+             f'({METRIC_NAMES[args.metric]} on {feat_desc}, {corpus_desc} · '
              'multidimensional scaling)', fontsize=15)
 ax.set_xticks([]); ax.set_yticks([])
 for sp in ax.spines.values():
