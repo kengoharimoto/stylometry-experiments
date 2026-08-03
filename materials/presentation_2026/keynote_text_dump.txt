@@ -1440,7 +1440,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: B8a. The same word-lens (W1 Delta) map with shared passages removed (akṣara-stream match, symmetric drop; same 119 units; PPL excluded). The broad layout survives — reuse is not what makes the map. One visible change: the Viṣṇu aṃśas now cohabit with the Bhāgavata cluster. With reuse, the Viṣṇu's profile was dominated by its widely-copied material (whole Viṣṇu keeps only 45% of its words; the Bhāgavata keeps ~89–99%); on its own diction the Viṣṇu is as close to the Bhāgavata as to anything. The two barely share text with each other — aṃśa 5 loses 80% (to other purāṇas) while skandha 10, telling the same story, loses 6% — the Bhāgavata retells, it does not copy. Caveats: what survives of the Viṣṇu is its non-shared discursive portions (genre skew), and aṃśas 2/5/6 keep only ~1–3k words — do not over-read their individual positions.
+NOTES: B8a. The same word-lens (W1 Delta) map with shared passages removed (akṣara-stream match, symmetric drop; same 119 units; PPL excluded). The broad layout survives — reuse is not what makes the map. One visible change: the Viṣṇu aṃśas now cohabit with the Bhāgavata cluster. With reuse, the Viṣṇu's profile was dominated by its widely-copied material (whole Viṣṇu keeps only 45% of its words; the Bhāgavata keeps ~89–99%); on its own diction the Viṣṇu is as close to the Bhāgavata as to anything. The two barely share verbatim text with each other — aṃśa 5 loses 80% of its words (to other purāṇas) while skandha 10, treating the same material, loses only 6%: same story, independent wording, no copying in either direction. Consistent with two independent treatments of shared material; the map says nothing about which came first. Caveats: what survives of the Viṣṇu is its non-shared discursive portions (genre skew), and aṃśas 2/5/6 keep only ~1–3k words — do not over-read their individual positions.
 
 ======================================================================
 SLIDE 45
@@ -1454,7 +1454,7 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: B8b. The character-3-gram (C3 Delta) companion of the no-reuse map — same 119 units, sandhied corpus, shared passages removed. Same lesson as B8a: the groups hold without the shared text.
+NOTES: B8b. The character-3-gram (C3 Delta) companion of the no-reuse map — same 119 units, sandhied corpus, shared passages removed. Same lesson as B8a: the groups hold without the shared text. However, the details significantly diverge: same same but different. (closing parvans of the Mahābhārata; the date of the Bhāgavata. Can they so well pretend their text to sound like the Mahābhārata appendxes? Is the Purāṇapañcalakṣaṇa really the oldest core of the purāṇas?
 
 ======================================================================
 SLIDE 46
