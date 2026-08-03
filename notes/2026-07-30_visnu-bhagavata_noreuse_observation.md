@@ -29,9 +29,10 @@ Retention after reuse removal (words kept):
 | bhagavatapurana skandhas | 88.6–98.7% (all thirteen units) |
 
 - The two works barely share text *with each other*: aṃśa 5 (Kṛṣṇacarita)
-  loses 80% of its words while skandha 10, telling the same story, loses only
-  6.4%. The drop is symmetric, so their mutual verbatim overlap is small —
-  the Bhāgavata retells, it does not copy.
+  loses 80% of its words while skandha 10, treating the same material, loses
+  only 6.4%. The drop is symmetric, so their mutual verbatim overlap is small —
+  same story, independent wording, no copying in either direction (and no
+  implication about which came first).
 - With reuse, Viṣṇu's closest cross-work neighbors are its copyists:
   Mārkaṇḍeya (Δ 0.51), Brahmapurāṇa (0.58), Bhaviṣya (0.59). Without reuse
   the Brahmapurāṇa drops out of the top ten entirely and everything recedes
