@@ -19,15 +19,30 @@ import figcommon as fc
 rng = np.random.default_rng(20260804)
 
 strata, labels_map, _ = fc.load_strata()
-names, feats, X, _ = fc.load_profiles('c', 5000)
+
+# talk baseline: the dicsep2026_n120 manifest, not the raw corpus dir
+MANIFEST = {l.strip().removesuffix('.txt') for l in
+            (fc.ROOT / 'manifests/dicsep2026_n120.txt')
+            .read_text(encoding='utf-8').splitlines()
+            if l.strip() and not l.startswith('#')}
 
 corpus = fc.ROOT / 'corpus/epic_puranas_sandhied'
+names, counts = [], []
 raw, tot = Counter(), 0
 for p in sorted(corpus.glob('*.txt')):
+    if p.stem not in MANIFEST:
+        continue
     c = fc.trigram_counts(p)
+    names.append(p.stem)
+    counts.append(c)
     raw.update(c)
     tot += sum(c.values())
+assert len(names) == 120, len(names)
 top20 = raw.most_common(20)
+feats = [g for g, _ in raw.most_common(5000)]
+totals = [sum(c.values()) for c in counts]
+X = np.array([[c.get(g, 0) / t for g in feats]
+              for c, t in zip(counts, totals)])
 
 EXAMPLES = [' ca', 'am ', 'tat', 'saṃ']          # strong stratum contrasts
 GROUPS = [1, 3, 7]                               # Mahābhārata, old pur. core, BhP
