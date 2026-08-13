@@ -68,6 +68,43 @@ texture, Vāyu-Brahmāṇḍa-like grammatical usage. Same C3/W1 split as the
 2026-07-08 interpretation note. Caveat: the heavily pruned Vāyu sections are
 small (Vāyu-06 970 words, Vāyu-03 2,355), so W1 distances there are noisy.
 
-Results dirs: `*_dicsep2026_n127_ppl_20260813_1447*` (with-reuse C3/W1),
-`*_noreuse2026_n126_20260813_1449*`/`*_145611` (no-reuse C3/W1). The hero W1
-MDS figure was regenerated in place from the new with-reuse run.
+## Where everything lives (for studying the results)
+
+Results dirs, all timestamped 2026-08-13, each with distance tables per MFW
+band plus the full 31-variant figure family (5 distance measures × MDS/CA/BCT,
+consensus trees, PCA):
+
+- with-reuse C3: `results_epic_puranas_sandhied_C3_2000-5000_dicsep2026_n127_ppl_20260813_144752`
+- with-reuse W1: `results_epic_puranas_unsandhied_W1_50-80_dicsep2026_n127_ppl_20260813_144758`
+- no-reuse C3:  `results_epic_puranas_sandhied_noreuse_C3_2000-5000_noreuse2026_n126_20260813_144911`
+- no-reuse W1:  `results_epic_puranas_unsandhied_noreuse_W1_50-80_noreuse2026_n126_20260813_145611`
+
+Figures (`materials/presentation_2026/figures/`): the with-reuse hero
+`hero_W1_delta_MDS_dicsep2026_n127_ppl` was regenerated in place;
+`hero_W1_delta_MDS_noreuse2026_n126` and `companion_C3_delta_MDS_noreuse2026_n126`
+are the one-directional pair (PPL plotted as Pl1/Pl1a/Pl2/Pl2A/Pl2B/Pl3/PlU,
+stratum 14). The July `_noreuse2026_n119` pair (symmetric drop, PPL excluded)
+remains untouched and is what the deck's B8a/B8b slides still embed.
+
+The per-unit retention table for the one-directional build is in the b1e2b51
+commit message; regenerate anytime with `python3 scripts/build_noreuse_corpus.py`
+(stdout).
+
+## What to scrutinize before this goes into the deck
+
+The crux is the C3/W1 disagreement about the PPL (epic-like sound texture vs
+Vāyu-Bḍ-like function words). Checks that would firm it up or kill it:
+
+1. Does the C3 "MBh parvans nearest" pattern hold across the other distance
+   measures (canberra/cosine/argamon/minmax EDGES files), or is it
+   delta-specific?
+2. Does it hold across the MFW bands (2000/3000/4000 vs 5000)?
+3. Sample-size control: the pruned Vāyu sections are 460–3k words; PPL units
+   are 2.3k–19k. W1 at 80 MFW is length-sensitive — the Ia→Vāyu-06 proximity
+   (0.289) rests on 970 surviving words.
+4. Genre confound: what survives pruning in the purāṇas is their non-shared
+   (often discursive/māhātmya) material, while the PPL is wall-to-wall
+   pañcalakṣaṇa narrative. Some of the "epic-ward" C3 movement may be the
+   purāṇa residues moving away, not the PPL moving toward the epic — the
+   with-reuse vs no-reuse coordinate comparison (Procrustes-aligned hero maps)
+   can separate the two.
