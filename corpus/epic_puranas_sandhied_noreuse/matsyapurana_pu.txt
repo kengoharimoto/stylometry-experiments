@@ -61,9 +61,6 @@ bhūtānsarvānsamākṛṣya yogenāropya dharmavit
 ābhūtasamplave tasminn atīte yogaśāyinā
 pṛṣṭena manunā proktaṃ purāṇaṃ matsyarūpiṇā
 yadbhavadbhiḥ purā pṛṣṭaḥ sṛṣṭyādikamahaṃ dvijāḥ
-yā sā dehārdhasambhūtā gāyatrī brahmavādinī
-rājanyān asṛjadbāhvor viṭchūdrān ūrupādayoḥ
-vāmo 'sṛjannamartyāṃs tān brahmaṇā vinivāritaḥ
 ṛṣaya ūcuḥ
 sūta uvāca
 ṛṣaya ūcuḥ
@@ -520,7 +517,6 @@ kṣipreṣave sadaśvāya śivāya mokṣadāya ca
 nirguṇāya guṇajñāya vyākṛtāyāmṛtāya ca
 nirupākhyāya mitrāya tubhyaṃ sāṃkhyātmane namaḥ
 sūta uvāca
-samayānte devayānī tadotpannā iti śrutiḥ
 kāvyaṃ māṃ vo vijānīdhvaṃ toṣito giriśo vibhuḥ
 abravīt sampramūḍheṣu kāvyastānasurāṃstadā
 vañcitāḥ sopadhānena sve sve vastuni māyayā
@@ -582,7 +578,6 @@ tataḥ kāmaṃ saṃnivartya tasyānandādbṛhaspateḥ
 dvyāmuṣyāyaṇakaulīnāḥ smṛtāste dvividhena ca
 bharadvājo divaṃ yāto hy abhiṣicya sutamṛṣiḥ
 dāyādo vitathasyāsīd bhuvamanyur mahāyaśāḥ
-āhāryatanayaścaiva dhīmānāsīd urukṣavaḥ
 nīlinī dhūminī caiva keśinī caiva viśrutā
 bhāradvājaprasādena vistaraṃ teṣu me śṛṇu
 putrāḥ sarvaguṇopetā jātā vai viśrutā bhuvi
@@ -648,7 +643,6 @@ tadā tu viharaṃstāsu dhiṣṇyecchaḥ sa babhūva ha
 svābhidhānasthitā dhiṣṇyās tāsūtpannāśca dhiṣṇavaḥ
 dhiṣṇyeṣu jajñire yasmāt tataste dhiṣṇavaḥ smṛtāḥ
 śatadhāmā sudhājyotī raudraiśvaryaḥ sa ucyate
-manyumāñjaṭharaścāgnir viddhāgniḥ satataṃ smṛtaḥ
 tataḥ sutāstu sauvīryād gandharvairasurair hṛtāḥ
 pākayajñeṣv abhīmānī hutaṃ havyaṃ bhunakti yaḥ
 adbhutasya suto vīro devāṃśastu mahānsmṛtaḥ
@@ -1043,6 +1037,7 @@ pauṣṭikaṃ ca mahārājyam uttareṇāpyatharvavit
 vasordhārāvidhānaṃ ca lakṣahome viśiṣyate
 kṛtvā yatphalamāpnoti kauṭihomāt tadaśnute
 vaśyakarmābhicārādi tathaivoccāṭanādikam
+navagrahamakhaṃ kṛtvā tataḥ kāmyaṃ samācaret
 anyathā phaladaṃ puṃsāṃ na kāmyaṃ jāyate kvacit
 vṛttaṃ voccāṭane kuṇḍaṃ tathā ca vaśyakarmaṇi
 palāśasamidhaḥ śastā madhugorocanānvitāḥ

@@ -463,7 +463,6 @@ caturvidhāḥ prajāḥ sarvā brahmaśaktyā tamovṛtāḥ  /
 tadā vivartyamānaistairmahatparigataṃ parām  // 1,6.70 //
 gatyarthādṛṣaterdhātornāmaniṣpattirucyate  /
 evaṃ brahmā tāsu tāsu rajanīṣu sahasraśaḥ  /
-kalpasyādau subahulā yasmātsaṃsthāścaturddaśa  /
 kalpayā māsa vai brahmā tasmātkalpo nirucyate  // 1,6.74 //
 vyaktāvyako mahādevastasya sarvamidaṃ jagat  // 1,6.75 //
 ityeṣa pratisaṃbandhaḥ kīrtitaḥ kalpayordvayoḥ  /
@@ -648,7 +647,6 @@ ityeṣa vai sukhodarkaḥ sargo dharmasya sāttvikaḥ  /
 nikṛtyanṛtayorjajña bhayaṃ naraka eva ca  /
 māyā ca vedanā cāpi mithunadvayametayoḥ  // 1,9.64 //
 rathino varmiṇaścaiva dhanvino 'tha varūthinaḥ  /
-atimeḍhrograkāyāṃśca śitikaṇṭhogramanyukān  /
 jvalato varṣataścaiva dyotamānānpradhūpitān  /
 buddhānbuddhatamāṃścaiva brahmasvān brahmadarśinaḥ  // 1,9.76 //
 rudato dravataścaiva evaṃ yuktānsahasraśaḥ  /
@@ -2895,7 +2893,6 @@ janayitvā sutaṃ tasya pṛthuṃ prathitapauruṣam  // 1,36.110 //
 abru vaṃstveṣa vo rājā ṛṣayo muditāḥ prajāḥ  /
 sa dhanvī kavacī jajñe tejasā nirdahanniva  // 1,36.111 //
 tasya stavārthamutpannau nipuṇau sūtamāgadhau  // 1,36.113 //
-sarpaiḥ puṇyajanaiścaiva parvatairvṛkṣavīrudhaiḥ  // 1,36.115 //
 śāṃśapāyana uvāca
 vistareṇa pṛthorjanma kīrttayasva mahāvrata  /
 yakṣai rākṣasagandharvairapsarobhiryathā purā  // 1,36.118 //

@@ -962,7 +962,6 @@ vistareṇānupūrvyā ca tad bhavān vaktum arhati
 vaiśaṃpāyana uvāca
 vṛṣṇivaṃśaprasaṅgena svaṃ vaṃśaṃ pūrvam eva hi
 śṛṇu pūror mahārāja vaṃśam agre mahātmanaḥ
-vistareṇānupūrvyā ca yatra jāto 'si pārthiva
 hanta te vartayiṣyāmi pūror vaṃśam anuttamam
 druhyoścānor yadoś caiva turvasoś ca paraṃtapa
 rājā cābhayado nāma manasyor abhavat sutaḥ
@@ -1044,6 +1043,7 @@ surathasya tu vikrāntaḥ putro jajñe vidūrathaḥ
 bhīmasenās trayo rājan dvāv eva janamejayau
 ṛkṣasya tu dvitīyasya bhīmaseno 'bhavat sutaḥ
 śāṃtanoḥ prasavas tv eṣa yatra jāto 'si pārthiva
+bāhlikasya tu rājyaṃ vai saptabāhlyaṃ viśāṃ pate
 kṛṣṇadvaipāyanac caiva kṣetre vaicitravīryake
 abhimanyoḥ parīkṣit tu pitā tava janeśvara
 eṣa te pauravo vaṃśo yatra jāto 'si pārthiva
@@ -6066,7 +6066,6 @@ caidyasyārthe sunīthasya jarāsaṃdhas tu bhūmipaḥ
 varayām āsa tāṃ rājā bhīṣmakaṃ bhīmavikramam
 cedirājasya hi vasor āsīt putro bṛhadrathaḥ
 magadheṣu purā yena nirmitaṃ tad girivrajam
-tasyānvavāye jajñe 'tha jarāsaṃdho mahābalaḥ
 vasor eva tadā vaṃśe damaghoṣo 'pi cedirāṭ
 damaghoṣasya putrās tu pañca bhīmaparākramāḥ
 bhaginyāṃ vasudevasya śrutaśravasi jajñire
@@ -6912,7 +6911,6 @@ bhrātarau devasaṃkāśāv ubhau puruṣasattamau
 pauṇḍraś ca kapilaś caiva vāsudevasya tau sutau
 narācyāṃ kapilo jajñe pauṇḍraś ca sutanoḥ sutaḥ
 tayor nṛpo 'bhavat pauṇḍraḥ kapilaś ca vanaṃ yayau
-turyāṃ samabhavad vīro vasudevān mahābalaḥ
 jarā nāma niṣādānāṃ prabhuḥ sarvadhanuṣmatām
 sānor vajro 'niruddhasya vajras tv ādāv ajāyata
 vajrāj jajñe prativahaḥ sucārus tasya cātmajaḥ
@@ -7066,6 +7064,7 @@ so 'vagāhya narendrāṇāṃ madhyaṃ sāgarasaṃnibham
 āsanasthaṃ yaduśreṣṭam uvāca munir avyayaḥ
 āścaryaṃ khalu devānām ekas tvaṃ puruṣottama
 dhanyaś cāsi mahābāho loke nānyo 'sti kaś cana
+evam uktaḥ smitaṃ kṛtvā pratyuvāca muniṃ prabhuḥ
 āścaryaś caiva dhanyaś ca dakṣiṇābhiḥ sahety aham
 taṃ prasthitam abhiprekṣya pārthivāḥ prāhur īśvaram
 guhyaṃ mantram ajānanto vacanaṃ nāraderitam

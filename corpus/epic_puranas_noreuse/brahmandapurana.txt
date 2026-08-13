@@ -483,7 +483,6 @@ tadā vivartyamānaistairmahatparigataṃ parām // BndP_1,6.70 //
 gatyarthādṛṣaterdhātornāmaniṣpattirucyate /
 yasmādṛṣatisattvena mahattasmānmaharṣayaḥ // BndP_1,6.71 //
 evaṃ brahmā tāsu tāsu rajanīṣu sahasraśaḥ /
-kalpasyādau subahulā yasmātsaṃsthāścaturddaśa /
 kalpayā māsa vai brahmā tasmātkalpo nirucyate // BndP_1,6.74 //
 vyaktāvyako mahādevastasya sarvamidaṃ jagat // BndP_1,6.75 //
 ityeṣa pratisaṃbandhaḥ kīrtitaḥ kalpayordvayoḥ /
@@ -683,7 +682,6 @@ nikṛtyanṛtayorjajña bhayaṃ naraka eva ca /
 māyā ca vedanā cāpi mithunadvayametayoḥ // BndP_1,9.64 //
 ityeṣa tāmasaḥ sargo jajñe dharmaniyā makaḥ // BndP_1,9.67 //
 rathino varmiṇaścaiva dhanvino 'tha varūthinaḥ /
-atimeḍhrograkāyāṃśca śitikaṇṭhogramanyukān /
 jvalato varṣataścaiva dyotamānānpradhūpitān /
 buddhānbuddhatamāṃścaiva brahmasvān brahmadarśinaḥ // BndP_1,9.76 //
 rudato dravataścaiva evaṃ yuktānsahasraśaḥ /
@@ -3360,7 +3358,6 @@ surabhyanumate datto dhvajo māheśvarastu saḥ /
 yathendhanavaśādvahnirekastu bahudhā bhavet // BndP_2,3.80 //
 eko brahmāntakaścaiva puruṣaścaiti tatra yaḥ // BndP_2,3.81 //
 ekasyaitāḥ smṛtāstisrastanavastu svayaṃbhuvaḥ /
-tāmasī cāntakṛdyā tu tadaṃśo viṣṇurucyate // BndP_2,3.85 //
 trailokye tāḥ smṛtāstisrastanavo vai prajākarī /
 evametāḥ smṛtāstisrastanavo hi svayaṃbhuvaḥ // BndP_2,3.87 //
 abhijātiprabhāvajñairmunibhistattvadarśibhiḥ // BndP_2,3.89 //
@@ -3376,7 +3373,6 @@ guṇātmakatvavai kalpaye tasmādekaḥ sa ucyate // BndP_2,3.101 //
 manvantareṣu vai tisra āvarttante punaḥ punaḥ // BndP_2,3.103 //
 kṣetrajñā api cānye 'sya vibhorjāyantyanugrahāt /
 tejasā yaśasā buddhyā śrutena ca balena ca // BndP_2,3.104 //
-sāttvikyāśca tathāṃśena yajño viṣṇurajā yata // BndP_2,3.106 //
 manvantareṣviha sraṣṭumāvarttante punaḥ punaḥ // BndP_2,3.107 //
 saṃprāpte caiva kalpānte saptaraśimardivākaraḥ /
 viṣṇuḥ prajānugrahakṛtsadā pālayati prajāḥ /
@@ -4054,7 +4050,6 @@ gṛdhrī bhāsī śukī kraiñcī śyenī ca dhṛtarāṣṭrikā /
 aruṇasya ca gṛdrī tu vīryavantau mahābalau // BndP_2,7.446 //
 saṃpātervijayāḥ putrā dvirāsyāḥ prasahaśca ye // BndP_2,7.447 //
 putrapautravisargācca teṣāṃ vai vaṃśavistaraiḥ // BndP_2,7.451 //
-kraiñcā vādhrīṇasāḥ śyenāḥ kurarāḥ sārasā bakāḥ // BndP_2,7.456 //
 śyenyanantaṃ vijajñe tu putrapautraṃ dvijottamāḥ // BndP_2,7.458 //
 irā vijajñe kanyā vai tisraḥ kamalalojanāḥ // BndP_2,7.459 //
 latā caivālatā caiti vīrudhā caiti tatra yā // BndP_2,7.460 //
@@ -10556,7 +10551,6 @@ sāvarṇasya pravakṣyāmi manorvaivasvatasya ha /
 bhaviṣyasya bhaviṣyaṃ tu samāsāttannibodhata // BndP_3,1.9 //
 prabhāso māsakṛddharmastejoraśmiḥ kraturvirāṭ // BndP_3,1.14 //
 dāmo dānī ṛtaḥ somo vittaṃ vaidyo yamo nidhiḥ // BndP_3,1.18 //
-sāṃpratasya bhaviṣyanti ṣaṣṭirdevāstadantare /
 sāvarṇasya manoḥ putrā bhaviṣyanti navaiva tu // BndP_3,1.21 //
 jajñire manavaste hi bhaviṣyānāgatāntare // BndP_3,1.26 //
 prācetasasya dakṣasya dauhitrā manavastu ye /
@@ -14992,7 +14986,6 @@ mahāsurāstramuddāmaṃ vyasṛjadbhaṇḍadānavaḥ /
 madhuśca kaiṭabhaścaiva mahiṣāsura eva ca /
 dhūmralocanadaityaśca caṇḍamuṇḍādayo 'surāḥ // BndP_3,29.75 //
 cikṣubhaścāmaraścaiva raktabījo 'surastathā /
-śumbhaścaiva niśumbhaśca kālakeyā mahābalāḥ // BndP_3,29.76 //
 dhūmrābhidhānāśca pare tasmādastrātsamutthitāḥ /
 te sarve dānavaśreṣṭhāḥ kaṭhoraiḥ śastramaṇḍalaiḥ // BndP_3,29.77 //
 śaktisenāṃ mardayanto narddantaśca bhayaṅkaram /

@@ -7577,7 +7577,6 @@ buddhirvivarttamānasya prādurbhūtā caturvidhā ।
 mahataḥ saśarīrasya vaivarttyāt siddhirucyate ॥ 1.59.75 ॥
 
 
-kṣetrajñaḥ kṣetravijñānāt bhagavān matirucyate।
 yasmādbuddhyā tu śete ha tasmādbodhātmakaḥ sa vai ।
 saṃsiddhaye parigataṃ vyaktāvyaktamacetanam ॥ 1.59.77 ॥
 
@@ -8883,7 +8882,6 @@ sarve labdhavarāścaiva sutaptatapasastathā ॥ 2.7.2 ॥
 
 
 ajāmukho'tha bhagavān śilo vāmanasastathā।
-marīcirakṣakaścaiva mahāgārgyo'ṅgirāvṛtaḥ ॥ 2.7.5 ॥
 
 indrajidviśvajiccaiva tathāsura vimarddanaḥ ॥ 2.7.6 ॥
 
@@ -8891,7 +8889,6 @@ indrajidviśvajiccaiva tathāsura vimarddanaḥ ॥ 2.7.6 ॥
 
 
 
-asuraśca virupākṣaḥ supatho'tha mahāsuraḥ।
 
 
 teṣāmaparisaṅkhyeyaṃ putrapautrādyanantakam ।। 7.13 ।।
@@ -12032,7 +12029,6 @@ meṣau tyaktvā ca te sarve tatraivāntarhitābhavan ।। 29.27 ।।
 
 
 
-plakṣatīrthe puṣkariṇyāṃ vigāḍhenāmbunāplutām।
 
 apaśyatsā tataḥ subhrū rājānamavidūrataḥ।
 
@@ -12049,7 +12045,6 @@ niśāmekāntu vai rājā hyavasattu tayā saha ।। 29.35 ।।
 vṛṇe nityaṃ hi sālokyaṃ gandharvāṇāṃ mahātmanām।
 tathetyuktvā varaṃ vavre gandharvāśca tathāstviti ।। 29.39 ।।
 
-sthālīmagneḥ pūrayitvā gandharvvāśca tamabruvan।
 
 tamādāya kumārantu nagarāyopacakrame।
 niḥkṣipya tamaraṇyāñca sa putrantu gṛhaṃ yayau ।। 29.41 ।।
@@ -12325,7 +12320,6 @@ meṣau tyaktvā ca te sarve tatraivāntarhitābhavan ॥ 2.29.27 ॥
 
 
 
-plakṣatīrthe puṣkariṇyāṃ vigāḍhenāmbunāplutām।
 
 apaśyatsā tataḥ subhrū rājānamavidūrataḥ।
 
@@ -12342,7 +12336,6 @@ niśāmekāntu vai rājā hyavasattu tayā saha ॥ 2.29.35 ॥
 vṛṇe nityaṃ hi sālokyaṃ gandharvāṇāṃ mahātmanām।
 tathetyuktvā varaṃ vavre gandharvāśca tathāstviti ॥ 2.29.39 ॥
 
-sthālīmagneḥ pūrayitvā gandharvvāśca tamabruvan।
 
 tamādāya kumārantu nagarāyopacakrame।
 niḥkṣipya tamaraṇyāñca sa putrantu gṛhaṃ yayau ॥ 2.29.41 ॥
@@ -13939,7 +13932,6 @@ tato'tha vitathe jāte bharataḥ sa divaṃ yayau।
 vitathasya tu dāyādo bhuvamanyurbabhūva ha ॥ 2.37.152 ॥
 narasya sāṃkṛtiḥ putrastasya putrau mahaujasau।
 dāyādāścāpi gāgrasya śinibaddhāt babhūva ha।
-mahāvīryasutaścāpi bhīmastasmādubhakṣayaḥ।
 trayyāruṇiṃ puṣkariṇaṃ tṛtīyaṃ suṣuve kapim।
 bharadvājaprasādena śrṛṇudhvaṃ tasya vistaram।
 bṛhatkarmā sutastasya putrastasya bṛhadrathaḥ ॥ 2.37.164 ॥

@@ -2223,7 +2223,6 @@ ayaṃ teṣāṃ samastānāṃ śaktaḥ pratisamāsane
 tān nihatya raṇe śūraḥ punar yāsyati mānuṣān
 bhavāṃś cāsmanniyogena yātu tāvan mahītalam
 kāmyake drakṣyase vīraṃ nivasantaṃ yudhiṣṭhiram
-sa vācyo mama saṃdeśād dharmātmā satyasaṃgaraḥ
 notkaṇṭhā phalgune kāryā kṛtāstraḥ śīghram eṣyati
 nāśuddhabāhuvīryeṇa nākṛtāstreṇa vā raṇe
 bhīṣmadroṇādayo yuddhe śakyāḥ pratisamāsitum
@@ -3695,7 +3694,6 @@ brāhmaṇān vividhajñānān paryapṛcchad yudhiṣṭhiraḥ
 pāṇḍavāḥ kim akurvanta tam ṛte savyasācinam
 sa hi teṣāṃ maheṣvāso gatir āsīd anīkajit
 ādityānāṃ yathā viṣṇus tathaiva pratibhāti me
-tenendrasamavīryeṇa saṃgrāmeṣv anivartinā
 vinābhūtā vane vīrāḥ katham āsan pitāmahāḥ
 vaiśaṃpāyana uvāca
 gate tu kāmyakāt tāta pāṇḍave savyasācini
@@ -9812,6 +9810,7 @@ mahārhamālyābharaṇāḥ suvarṇāś candanokṣitāḥ
 maṇīn hema ca bibhratyo nṛtyagītaviśāradāḥ
 tāsāṃ nāma ca rūpaṃ ca bhojanācchādanāni ca
 sarvāsām eva vedāhaṃ karma caiva kṛtākṛtam
+śataṃ dāsīsahasrāṇi kuntīputrasya dhīmataḥ
 pātrīhastā divārātram atithīn bhojayanty uta
 etad āsīt tadā rājño yan mahīṃ paryapālayat
 yeṣāṃ saṃkhyāvidhiṃ caiva pradiśāmi śṛṇomi ca

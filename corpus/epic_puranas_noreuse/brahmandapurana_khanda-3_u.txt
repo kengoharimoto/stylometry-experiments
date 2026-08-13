@@ -9,7 +9,6 @@ etānyuktāni vai samyaksaptasaptasu vai prajāḥ  /
 sāvarṇasya pravakṣyāmi manorvaivasvatasya ha  /
 bhaviṣyasya bhaviṣyaṃ tu samāsāttannibodhata  // 3,1.9 //
 dāmo dānī ṛtaḥ somo vittaṃ vaidyo yamo nidhiḥ  // 3,1.18 //
-sāṃpratasya bhaviṣyanti ṣaṣṭirdevāstadantare  /
 sāvarṇasya manoḥ putrā bhaviṣyanti navaiva tu  // 3,1.21 //
 jajñire manavaste hi bhaviṣyānāgatāntare  // 3,1.26 //
 prācetasasya dakṣasya dauhitrā manavastu ye  /
@@ -4425,7 +4424,6 @@ mahāsurāstramuddāmaṃ vyasṛjadbhaṇḍadānavaḥ  /
 madhuśca kaiṭabhaścaiva mahiṣāsura eva ca  /
 dhūmralocanadaityaśca caṇḍamuṇḍādayo 'surāḥ  // 3,29.75 //
 cikṣubhaścāmaraścaiva raktabījo 'surastathā  /
-śumbhaścaiva niśumbhaśca kālakeyā mahābalāḥ  // 3,29.76 //
 dhūmrābhidhānāśca pare tasmādastrātsamutthitāḥ  /
 te sarve dānavaśreṣṭhāḥ kaṭhoraiḥ śastramaṇḍalaiḥ  // 3,29.77 //
 śaktisenāṃ mardayanto narddantaśca bhayaṅkaram  /

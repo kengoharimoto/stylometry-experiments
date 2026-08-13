@@ -1692,7 +1692,6 @@ sūta uvāca
 dhāraṇā dhṛtirityarthāddhātordharmaḥ prakīrttitaḥ
 ācinoti ca śāstrārthānyamaiḥ sanniyamairyutaḥ
 aticāre tu devānāmatideśe tayoryathā
-kṣetrajñaḥ kṣetravijñānāt bhagavān matirucyate
 ṛṣītyeṣa gatau dhātuḥśrutau satye tapasyatha
 etatsanniyate tasmin brahmaṇā sa ṛṣiḥ smṛtaḥ
 tasmāt śrutarṣayaste'pi śrutasya paridarśanāḥ
@@ -1832,8 +1831,6 @@ pañcamaṃ pañcamaḥ saumyaḥ skandhastu caratāṅgaṇaḥ
 ūrddhvaṃ grahādṛṣibhyastu ṣaṣṭo yo vai parāhataḥ
 nāvṛṣṭibhayamāpnoti bahvāyuśca bhavettataḥ
 sūta uvāca
-marīcirakṣakaścaiva mahāgārgyo'ṅgirāvṛtaḥ
-asuraśca virupākṣaḥ supatho'tha mahāsuraḥ
 śatagālaśca balavānnyāsaḥ śāmbastathaiva ca
 mayasya jātā ye putrāḥ sarve vīraparākramāḥ
 arūrurbālijambhau ca virakṣaśca viṣastathā
@@ -2182,13 +2179,11 @@ gandharvvā ūcuḥ
 tadahaṃ vacmi vaḥ sarvaṃ yathā tyakṣyati sā nṛpam
 meṣābabhyāṃ padavīṃ rājan gandharvvairvyutthitāmatha
 tirobhūtāntu tāṃ jñātvā gandharvāstatra tāvubhau
-plakṣatīrthe puṣkariṇyāṃ vigāḍhenāmbunāplutām
 apaśyatsā tataḥ subhrū rājānamavidūrataḥ
 tata āvirbabhūvustāḥ pañcacūḍāpsarāstu tāḥ
 dṛṣṭvā tu rājā tāṃ prītaḥ pralāpān kurute bahūn
 niśāmekāntu vai rājā hyavasattu tayā saha
 vṛṇe nityaṃ hi sālokyaṃ gandharvāṇāṃ mahātmanām
-sthālīmagneḥ pūrayitvā gandharvvāśca tamabruvan
 niḥkṣipya tamaraṇyāñca sa putrantu gṛhaṃ yayau
 punarādāya dṛśyāgnimaśvatthaṃ tatra dṛṣṭavān
 vāsāya ca sa gandharvvastretāyāṃ sa mahārathaḥ
@@ -2205,13 +2200,11 @@ gandharvvā ūcuḥ
 tadahaṃ vacmi vaḥ sarvaṃ yathā tyakṣyati sā nṛpam
 meṣābabhyāṃ padavīṃ rājan gandharvvairvyutthitāmatha
 tirobhūtāntu tāṃ jñātvā gandharvāstatra tāvubhau
-plakṣatīrthe puṣkariṇyāṃ vigāḍhenāmbunāplutām
 apaśyatsā tataḥ subhrū rājānamavidūrataḥ
 tata āvirbabhūvustāḥ pañcacūḍāpsarāstu tāḥ
 dṛṣṭvā tu rājā tāṃ prītaḥ pralāpān kurute bahūn
 niśāmekāntu vai rājā hyavasattu tayā saha
 vṛṇe nityaṃ hi sālokyaṃ gandharvāṇāṃ mahātmanām
-sthālīmagneḥ pūrayitvā gandharvvāśca tamabruvan
 niḥkṣipya tamaraṇyāñca sa putrantu gṛhaṃ yayau
 punarādāya dṛśyāgnimaśvatthaṃ tatra dṛṣṭavān
 vāsāya ca sa gandharvvastretāyāṃ sa mahārathaḥ
@@ -2295,7 +2288,6 @@ pādābhyāntena tacchannaṃ māturdvāraṃ bṛhaspateḥ
 evamuktvā gatāyāṃ sa putrantyajati tatkṣaṇāt
 bharadvājaṃ tataḥ putraṃ bārhaspatyaṃ manīṣiṇam
 dāyādāścāpi gāgrasya śinibaddhāt babhūva ha
-mahāvīryasutaścāpi bhīmastasmādubhakṣayaḥ
 trayyāruṇiṃ puṣkariṇaṃ tṛtīyaṃ suṣuve kapim
 bhallāṭastasya dāyādo yena rājā purāhataḥ
 ṛṣaya ūcuḥ

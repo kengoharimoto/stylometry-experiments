@@ -198,12 +198,9 @@ ko 'sau yaduriti prokto yadvaṃśe kāmasambhavaḥ /
 kathaṃ ca dagdho rudreṇa kimatha kusumāyudhaḥ // 4.22 //
 
 matsya uvāca
-yā sā dehārdhasambhūtā gāyatrī brahmavādinī /
 ratirmanastapo buddhir mahān diksambhramas tathā /
 vāmadevastu bhagavān asṛjanmukhato dvijān /
-rājanyān asṛjadbāhvor viṭchūdrān ūrupādayoḥ // 4.28 //
 chandāṃsi ca sasarjādau parjanyaṃ ca tataḥ param // 4.29 //
-vāmo 'sṛjannamartyāṃs tān brahmaṇā vinivāritaḥ /
 svāyambhuvo manurdhīmāṃs tapastaptvā suduścaram /
 priyavratottānapādau manustasyām ajījanat /
 apasyatim apasyantaṃ kīrtimantaṃ dhruvaṃ tathā // 4.35 //
@@ -2253,7 +2250,6 @@ devi cendīvaraśyāme varārhe vāmalocane /
 lakṣaṇaṃ tasya tadbuddhvā pratijagmuryathāgatam // 47.180 //
 buddhvā tadantaraṃ so 'pi daityānāmindranoditaḥ /
 tataste hṛṣṭamanaso vidyārthamupapedire // 47.184 //
-samayānte devayānī tadotpannā iti śrutiḥ /
 evamuktābravīd enaṃ bhaja bhaktānmahāvrata /
 eṣa dharmaḥ satāṃ brahman na dharmaṃ lopayāmi te // 47.187 //
 kāvyaṃ māṃ vo vijānīdhvaṃ toṣito giriśo vibhuḥ /
@@ -2476,7 +2472,6 @@ dvyāmuṣyāyaṇakaulīnāḥ smṛtāste dvividhena ca // 49.33 //
 tato jāte hi vitathe bharataśca divaṃ yayau /
 bharadvājo divaṃ yāto hy abhiṣicya sutamṛṣiḥ // 49.34 //
 dāyādo vitathasyāsīd bhuvamanyur mahāyaśāḥ /
-āhāryatanayaścaiva dhīmānāsīd urukṣavaḥ // 49.38 //
 ajamīḍhasya patnyastu tisraḥ kurukulodvahāḥ /
 nīlinī dhūminī caiva keśinī caiva viśrutā // 49.44 //
 sa tāsu janayāmāsa putrānvai devavarcasaḥ /
@@ -2649,7 +2644,6 @@ suto hyagner viśvavedā brāhmaṇācchaṃsirucyate // 51.25 //
 dhiṣṇya āharaṇā hyete somenejyanta vai dvijaiḥ // 51.26 //
 tato yaḥ pāvako nāmnā yaḥ sadbhiryoga ucyate /
 agniḥ so 'vabhṛtho jñeyo varuṇena sahejyate // 51.27 //
-manyumāñjaṭharaścāgnir viddhāgniḥ satataṃ smṛtaḥ // 51.28 //
 parasparotthito hyagnir bhūtānīha vibhurdahan /
 agnermanyumataḥ putro ghoraḥ saṃvartakaḥ smṛtaḥ // 51.29 //
 pibannapaḥ sa vasati samudre vaḍavāmukhe /
@@ -4288,6 +4282,7 @@ sarvapāpaviśuddhātmā padamindrasya gacchati // 93.137 //
 kṛtvā yatphalamāpnoti kauṭihomāt tadaśnute // 93.138 //
 koṭihomena naśyanti yathāvacchivabhāṣitam // 93.139 //
 vaśyakarmābhicārādi tathaivoccāṭanādikam /
+navagrahamakhaṃ kṛtvā tataḥ kāmyaṃ samācaret // 93.140 //
 anyathā phaladaṃ puṃsāṃ na kāmyaṃ jāyate kvacit /
 tasmādayutahomasya vidhānaṃ pūrvamācaret // 93.141 //
 vṛttaṃ voccāṭane kuṇḍaṃ tathā ca vaśyakarmaṇi /
