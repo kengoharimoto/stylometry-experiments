@@ -310,7 +310,6 @@ yados tu śṛṇu rājarṣe vaṃśaṃ rājarṣisatkṛtam
 vaiśaṃpāyana uvāca
 vṛṣṇivaṃśaprasaṅgena svaṃ vaṃśaṃ pūrvam eva hi
 śṛṇu pūror mahārāja vaṃśam agre mahātmanaḥ
-vistareṇānupūrvyā ca yatra jāto 'si pārthiva
 suvratasya tathāmbaṣṭhā titikṣos tu prajāḥ śṛṇu
 phenāt tu sutapā jajñe jajñe sutapasaḥ sutaḥ
 śṛṇu vaṃśam anuproktaṃ yatra jāto 'si pārthiva
@@ -320,6 +319,7 @@ viśvajid viśvakṛc caiva tathā satyavatī nṛpa
 sāṃkṛtyo gālavo rājan maudgalyaśveti viśrutāḥ
 tṛtīyā tava pūrveṣāṃ jananī pṛthivīpate
 śāṃtanoḥ prasavas tv eṣa yatra jāto 'si pārthiva
+bāhlikasya tu rājyaṃ vai saptabāhlyaṃ viśāṃ pate
 vaiśaṃpāyana uvāca
 kuntyasya śrutadevāyām agṛdhnuḥ suṣuve nṛpaḥ
 vasudevasya tu sutān kīrtayiṣyāmy tāñ śṛṇu
@@ -3458,7 +3458,6 @@ sa cābhilaṣitas tasyāḥ śravād eva janārdanaḥ
 tāṃ dadau na tu kṛṣṇāya rukmī dveṣān mahābalaḥ
 yācamānāya kaṃsasya preṣyo 'sāv iti cintayan
 varayām āsa tāṃ rājā bhīṣmakaṃ bhīmavikramam
-tasyānvavāye jajñe 'tha jarāsaṃdho mahābalaḥ
 vasor eva tadā vaṃśe damaghoṣo 'pi cedirāṭ
 damaghoṣasya putrās tu pañca bhīmaparākramāḥ
 śiśupālo daśagrīvo raibhyo 'thopadiśo balī
@@ -4010,7 +4009,6 @@ kauśikyāṃ sutasomāyāṃ yaudhiṣṭhiryāṃ yudhiṣṭhirau
 kāpālī garuḍaś caiva jajñāte citrayodhinau
 bhrātarau devasaṃkāśāv ubhau puruṣasattamau
 narācyāṃ kapilo jajñe pauṇḍraś ca sutanoḥ sutaḥ
-turyāṃ samabhavad vīro vasudevān mahābalaḥ
 jarā nāma niṣādānāṃ prabhuḥ sarvadhanuṣmatām
 śines tu satyavāg jajñe satyakaś ca mahārathaḥ
 satyakasyātmajaḥ śūro yuyudhānas tv ajāyata
@@ -4128,6 +4126,7 @@ so 'vagāhya narendrāṇāṃ madhyaṃ sāgarasaṃnibham
 āsanasthaṃ yaduśreṣṭam uvāca munir avyayaḥ
 āścaryaṃ khalu devānām ekas tvaṃ puruṣottama
 dhanyaś cāsi mahābāho loke nānyo 'sti kaś cana
+evam uktaḥ smitaṃ kṛtvā pratyuvāca muniṃ prabhuḥ
 āścaryaś caiva dhanyaś ca dakṣiṇābhiḥ sahety aham
 taṃ prasthitam abhiprekṣya pārthivāḥ prāhur īśvaram
 dakṣiṇābhiḥ sahety evaṃ pratyukte 'pi ca nārade

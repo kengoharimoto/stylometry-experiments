@@ -914,7 +914,6 @@ athājagāmasidhyarthaṃ tasyabrahmāvarapradaḥ |
 varaṃ varayabhadraṃ temānaveyayathepsitaṃ ||79||
 tathetyuktvātudeveśas tatra ivāṃ taradhīyata ||81||
 athaikadārathārūḍhailonijasutomanoḥ ||82||
-nirjagāmārthasidhyarthaminaprāyāṃ mahīmimāṃ |
 strītvaṃ jagāmasahasābaḍavāśvo'bhavatkṣaṇāt ||87||
 iletisābhavannārīpīnonnataghanastanī ||88||
 śyāmāgaureṇavarṇenatanutāmranakhāṅkurā |
@@ -1367,7 +1366,6 @@ yatiryayātiśśaryātiruttaraḥ para eva ca |
 ayatirviyatiś caiva saptaitevaṃśavarddhanāḥ ||92||
 yatiḥ kumārabhāvepiyogīvaikhānasobhavat |
 yadostuyādavājātā yatra taubalakeśavau ||97||
-bhārāvatāraṇārthāyapāṇḍavānāṃ hitāya ca |
 haihayasyatudāyādodharmanetraḥ pratiśrutaḥ |
 dharmanetrasyakuṃ tistusaṃ hatastasyacātmajaḥ ||101||
 bhadrasenasyaputrastudurdamonāmadhārmikaḥ ||103||
@@ -34271,6 +34269,7 @@ tvaṃ gacchamama sain yasya pālakaḥ sanmamājṣayā |
 śatrughnaḥ sodaromahyaṃ pālanīyastvahaṃ yathā ||12||
  yatra yatra matibhraṃ śaḥ śatrughnasya prajāyate |
  tatra tatra praboddhavyobhrātāmama mahā-mate ||13||
+iti śrutvā mahadvākyaṃ rāmacandrasyadhīmataḥ |
 athādiśanmahā-rājojāṃ bavantaṃ kapīśvaram |
 raghunāthasyasevāyaikapiṣūttamatejasam ||15||
 aṃ gadogavayomaiṃ das tathā dadhimukhaḥ kapiḥ |

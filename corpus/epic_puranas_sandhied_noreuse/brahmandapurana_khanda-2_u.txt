@@ -33,9 +33,7 @@ prakāśāḥ svasthamanasā yathāvadanuśāsitāḥ
 ṛṣaya ūcu
 sūta uvāca
 agneḥ putraṃ kumāraṃ tu svāhā jajñe śriyā ṣṛtam
-tāmasī cāntakṛdyā tu tadaṃśo viṣṇurucyate
 tasmāddevāstrayo hyete nairantaryeṇadhiṣṭatāḥ
-sāttvikyāśca tathāṃśena yajño viṣṇurajā yata
 viṣṇuḥ prajānugrahakṛtsadā pālayati prajāḥ
 yasmādviśvamidaṃ sarvaṃ jāyate līyate punaḥ
 yasyāṃśenāmarāḥ sarve jāyante tridiveśvarāḥ
@@ -266,6 +264,7 @@ prajāpatis tato dṛṣṭvā tadaṇḍaṃ vai dvidhākarot
 uvācādityabhāvacca yasmādaṇḍena vai smṛtaḥ
 udare praveśayāmāsa tasyāḥ sa jananecchayā
 devopavāhyā rājāno hastino balavattarāḥ
+uttaratra ca vo bhūyasteṣāṃ vakṣyāmi vistaram
 bhagavānsavitā sākṣātprabhāsayati raśmibhiḥ
 nirālokaṃ jagadidaṃ lokālokāntaraṃ dvijāḥ
 bāhyaṃ tamovṛtaṃ sarvaṃ tatpramāṇamaśeṣataḥ
@@ -337,7 +336,6 @@ tyorapatyaṃ catvāro vijñeyāḥ sṛmarādayaḥ
 kṛṣṇadhūmraruṇāscaiva dullo lasyāṣṭa kadrukāḥ
 gṛdhrī bhāsī śukī kraiñcī śyenī ca dhṛtarāṣṭrikā
 saṃpātervijayāḥ putrā dvirāsyāḥ prasahaśca ye
-kraiñcā vādhrīṇasāḥ śyenāḥ kurarāḥ sārasā bakāḥ
 gandhaśīlā muniścaiva krodhādhyāyanaśīlinī
 gītaśīlā hyariṣṭā tu krūraśīlā khaśā smṛtā
 manuṣyaprakṛtīstasmāddevādīṃśca vijānate

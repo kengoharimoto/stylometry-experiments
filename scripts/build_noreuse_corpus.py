@@ -9,7 +9,11 @@ akṣara streams, candidate pairs share >= 2 rare 8-char shingles (shingles in
 borrowing), confirmed at rapidfuzz ratio >= 80.
 
 A confirmed cross-family match drops the line from BOTH texts (the experiment
-asks what remains when shared text is gone, so neither copy survives). Texts
+asks what remains when shared text is gone, so neither copy survives).
+EXCEPTION: the kirfel family (Purāṇapañcalakṣaṇa) is treated as the reuse
+SOURCE under Kirfel's hypothesis that the purāṇas incorporated the PPL --
+a kirfel<->purāṇa match drops only the purāṇa line, so the constituted PPL
+survives intact while the purāṇas are rendered "without the PPL". Texts
 of the same work family (shared filename prefix before the first "_") are
 exempt: the corpus holds containers next to their own subdivisions
 (markandeyapurana + its three parts, visnupurana + six aṃśas, ...), and that
@@ -51,6 +55,9 @@ MIN_CHARS = 20
 # positives. The scan's original 80 was calibrated for conservative pair
 # counting, not exhaustive removal, and left such variants in place.
 RATIO = 70
+# One-directional family: matches trigger removal from the counterpart text,
+# but this family's own lines are never dropped (see docstring).
+SOURCE_FAM = 'kirfel'
 
 
 def cstream(s):
@@ -105,8 +112,10 @@ for ui, cs in enumerate(units):
             continue
         checked += 1
         if fuzz.ratio(cs, units[vj]) >= RATIO:
-            drop[ta].add(cs)
-            drop[unit_text[vj]].add(units[vj])
+            if fam[ta] != SOURCE_FAM:
+                drop[ta].add(cs)
+            if fam[unit_text[vj]] != SOURCE_FAM:
+                drop[unit_text[vj]].add(units[vj])
     if ui % 20000 == 0:
         print(f'  {ui}/{len(units)} units scanned, {checked} pairs scored', flush=True)
 

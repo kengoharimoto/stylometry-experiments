@@ -1472,7 +1472,6 @@
 09.20.002/1 janamejayo hyabhūt pūroḥ pracinvāṃstatsutastataḥ
 09.20.002/2 pravīro 'tha manusyurvai tasmāc cārupado 'bhavat
 09.20.003/1 tasya sudyurabhūt putrastasmādbahugavastataḥ
-09.20.003/2 saṃyātistasyāhaṃyātī raudrāśvastatsutaḥ smṛtaḥ
 09.20.004/1 ṛteyustasya kakṣeyuḥ sthaṇḍileyuḥ kṛteyukaḥ
 09.20.004/2 jaleyuḥ sannateyuśca dharmasatyavrateyavaḥ
 09.20.005/1 daśaite 'psarasaḥ putrā vaneyuścāvamaḥ smṛtaḥ

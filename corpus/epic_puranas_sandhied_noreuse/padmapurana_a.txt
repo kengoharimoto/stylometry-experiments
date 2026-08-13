@@ -421,7 +421,6 @@ tathetyuktaḥ saraviṇābhramekṛtvādivākaraṃ
 pṛthakcakāratejaś ca cakraṃ viṣṇoḥ prakalpayat
 daityadānavasaṃ hartṛsahasrakiraṇātmakaṃ
 jagāmatapasebhūyaḥ puṣkaraṃ satapovanaṃ
-nirjagāmārthasidhyarthaminaprāyāṃ mahīmimāṃ
 strītvaṃ jagāmasahasābaḍavāśvo'bhavatkṣaṇāt
 śyāmāgaureṇavarṇenatanutāmranakhāṅkurā
 kārmukabhrūyugopetāhaṃsāvaraṇagāminī
@@ -557,7 +556,6 @@ tadā suyuddhaṃ jagatāṃ kṣayāya
 nivārayāmāsa suraiḥ sahaiva
 keśiprabhṛtayodaityāstadbhṛtyatvaṃ samāgatāḥ
 prāhavajrītusaṃ tuṣṭonīyatāmiyameva ca
-bhārāvatāraṇārthāyapāṇḍavānāṃ hitāya ca
 saptadvīpapṛthivyāś ca cakravartī babhūva ha
 eṣa evamanorvaṃ śetvavagāhenmahārṇavam
 kareṇoddhṛtyavegaṃ tukāminīprīṇanenatu
@@ -20887,6 +20885,7 @@ eṣagaṃ tāsmiśatrughnapṛṣṭharakṣāprakārakaḥ
 bhohanūmanmahāvīraśṛṇumadvākyaṃ ādṛtaḥ
 sītayāmama saṃyogeyobhavāṣjaladhiṃ tareḥ
 śatrughnaḥ sodaromahyaṃ pālanīyastvahaṃ yathā
+iti śrutvā mahadvākyaṃ rāmacandrasyadhīmataḥ
 athādiśanmahārājojāṃ bavantaṃ kapīśvaram
 sugrīvaḥ plavagādhīśaḥ śatavalyakṣikaukapī
 nīlonalomanovego'dhigaṃ tāvānarāṃ gajaḥ

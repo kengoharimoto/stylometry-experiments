@@ -5237,7 +5237,6 @@ tasmāttadā na suṣuvuḥ sevitairapi maithunaiḥ  // 49.9 //
 tataḥ prabhṛti kalpe 'smin mithunānāṃ hi sambhavaḥ  // 49.10 //
 saritsaraḥ samudrāṃśca sevante parvatānapi  /
 parvatodadhisevinyo hyaniketāstu sarvaśaḥ  /
-apāṃ saukṣmyaṃ tatastāsāṃ siddhirnānārasollasā  // 49.20 //
 samaṃ janma ca rūpañca mriyante caiva tāḥ samam  // 49.22 //
 anicchādveṣasaṃyuktā vartante tu parasparam  /
 sarve pratyupabhogāśca tāsaṃ tebhyaḥ prajāyate  // 49.27 //
@@ -10111,7 +10110,6 @@ tataśca nāsikāyogaṃ tayostatra sametayoḥ|
 vaḍavāyāṃ ca tat tejo nāsikābhyāṃ vivasvataḥ|| 9||
 devau tatra samutpannāvaśvinau bhiṣajāṃ varau|
 nāsatyadasrau tanayāvaśvivaktrādvinirgatau|| 10||
-mārtaṇḍasya sutāvetāvaśvarūpadharasya hi|
 retaso 'nte ca revantaḥ khaḍgī dhanvī tanutradhṛk|| 11||
 aśvārūḍhaḥ samudbhūto bāṇatūṇasamanvitaḥ|
 tataḥ svarūpam amalaṃ darśayāmāsa bhānumān|| 12||
@@ -11848,7 +11846,6 @@ proktam abhyarthanāpūrvaṃ mamāsīt tanayaṃ prati|| 16||
 ta ime 'bhyāgatā bhītā dahyante tasya tejasā|
 mām ete śaraṇaṃ pūrvaṃ dattam ebhyo mayābhayam|| 17||
 ye māṃ śaraṇam āpannāste tvāṃ śaraṇam āgatāḥ|
-apṛthagdharmacaraṇā yātāhaṃ śaraṇaṃ tava|| 18||
 tannivāraya putraṃ tvaṃ maruttaṃ vacanāt tava|
 mayā cābhyarthito 'vaśyaṃ śamam abhyupayāsyati|| 19||
 rājovāca|
