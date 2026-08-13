@@ -33,7 +33,7 @@ TEXTITEM:
 
 TEXTITEM: Take a look at the next slide
 
-NOTES: The topic of this presentation was discovered accidentally. It involves stylometry. As those who know me know, I am interested in the authorship of one text. Being inspired by an article by Ivan Andrijanic. I was playing with stylo with R, ran so many experiments. Early on I discovered something unintended was happening. It looks like this… 
+NOTES: 
 
 ======================================================================
 SLIDE 3
@@ -47,24 +47,10 @@ TEXTITEM:
 
 TEXTITEM: 
 
-NOTES: "Originally, my curpus was śāstric, philosophical texts. This type of representing mutual distances between text, texts looked like arranged chronologically. Just for a kick, I collected the epic and puranic texts, mostly, and ran the experment. It produces something like this…" Let the audience find their texts. Epics left, old purāṇic core upper middle, sectarian digests right, Bhāgavata below. MBh 12 and 13 nicely to the right.
+NOTES: Let the audience find their texts. Epics left, old purāṇic core upper middle, sectarian digests right, Bhāgavata below. One color = one stratum of the RECEIVED chronology, not of the computation. MBh 12 and 13 nicely to the right.
 
 ======================================================================
 SLIDE 4
-Blank
-
-TITLE: 
-
-BODY: 
-
-TEXTITEM: 
-
-TEXTITEM: 
-
-NOTES: Backup after B10: full-scale C3 · Burrows's Delta — the hero map's own metric in the 3-gram lens, n120 baseline (layout agreement with the opening map 0.59, the weakest of the C3 metrics; Manhattan 0.86, Cosine 0.81, min-max 0.86; 2-D variance 19%). The groups hold; the long-range arrangement is less stable, which is why B10 shows Manhattan.
-
-======================================================================
-SLIDE 5
 Title & Bullets
 
 TITLE: What was that?
@@ -93,7 +79,7 @@ only the colors were painted on afterwards
 NOTES: The coloring is the only place received scholarship touches the plot; the geometry is blind.
 
 ======================================================================
-SLIDE 6
+SLIDE 5
 Statement
 
 TITLE: 
@@ -109,7 +95,7 @@ TEXTITEM: Yet the familiar relative chronology reads left to right
 NOTES: 
 
 ======================================================================
-SLIDE 7
+SLIDE 6
 Section
 
 TITLE: Questions
@@ -125,17 +111,17 @@ TEXTITEM:
 NOTES: 
 
 ======================================================================
-SLIDE 8
+SLIDE 7
 Title & Bullets
 
-TITLE: I will answer the four questions
+TITLE: I will answer the three questions
 
 BODY: What exactly was counted?
 How was the map plotted?
 Can the left–right axis be trusted 
 And what good does it do, if it is?
 
-TEXTITEM: I will answer the four questions
+TEXTITEM: I will answer the three questions
 
 TEXTITEM: in this presentation
 
@@ -144,7 +130,7 @@ How was the map plotted?
 Can the left–right axis be trusted 
 And what good does it do, if it is?
 
-TEXTITEM: I will answer the four questions
+TEXTITEM: I will answer the three questions
 
 TEXTITEM: What exactly was counted?
 How was the map plotted?
@@ -154,7 +140,7 @@ And what good does it do, if it is?
 NOTES: Roadmap: first how the map is made, then a guided tour, then the robustness case, then honest caveats.
 
 ======================================================================
-SLIDE 9
+SLIDE 8
 Title & Bullets
 
 TITLE: The corpus: 120 texts/text sections
@@ -186,7 +172,7 @@ Caveat kept in view: sections differ enormously in length; short fragments are m
 NOTES: One line on e-text provenance; do not linger.
 
 ======================================================================
-SLIDE 10
+SLIDE 9
 Blank
 
 TITLE: 
@@ -200,21 +186,7 @@ TEXTITEM:
 NOTES: Left: the features are ca, tu, eva, na, sa, tathā — grammatical glue, not content. Nobody composes with their rate of tu in mind. Right: the old purāṇic core uses tu/eva/tathā/vai about 1.5–3x as often as the Mahābhārata; the Bhāgavata suppresses all four. These boring words carry the signal.
 
 ======================================================================
-SLIDE 11
-Blank
-
-TITLE: 
-
-BODY: 
-
-TEXTITEM: 
-
-TEXTITEM: 
-
-NOTES: The C3 twin of the previous slide (sandhied corpus). Left: the top features are inflectional endings and junction habits — aṃ␣, aḥ␣, ␣sa — surface grammar, not content. Right: ␣ca echoes the word-lens ca (epics high, Bhāgavata low); tat and saṃ order the strata the same way. am␣ is the diverging detail: on unresolved final -am the Bhāgavata sits with the Mahābhārata while the old purāṇic core is low. Same groups, diverging details — the B8b lesson, visible in a single feature.
-
-======================================================================
-SLIDE 12
+SLIDE 10
 Title & Bullets
 
 TITLE: From counts to distances
@@ -253,7 +225,7 @@ TABLEROW: Rām 2 (Ayodhyā) ↔ Agni | 1.34 |
 NOTES: No formulas: an average of disagreements in word habits, in units of what is normal for this corpus. Table rows preview later tour stops.
 
 ======================================================================
-SLIDE 13
+SLIDE 11
 Title Only
 
 TITLE: The same corpus, measured twice
@@ -279,7 +251,7 @@ TABLEROW: sees | particles, pronouns, vocabulary habits | morphology, phonology 
 NOTES: Flag now, cash in at Act 4: any segmentation-pipeline artifact could only touch Lens 1; any orthographic/sandhi artifact only Lens 2.
 
 ======================================================================
-SLIDE 14
+SLIDE 12
 Blank
 
 TITLE: 
@@ -293,7 +265,7 @@ TEXTITEM:
 NOTES: Mileage-chart analogy: given only road distances between cities you can redraw the map of India. MDS does exactly that with stylistic distances. The opening map is this with the full 120×120 table. Axes mean nothing by themselves; only nearness does.
 
 ======================================================================
-SLIDE 15
+SLIDE 13
 Blank
 
 TITLE: 
@@ -314,7 +286,7 @@ TEXTITEM:
 NOTES: The epic zone: parvans and kāṇḍas mingle; MBh and Rām overlap. The didactic parvans 12-13 sit to the right of the battle books. Better not read too much in the fact that the MBh epilogues are in the extreme left.
 
 ======================================================================
-SLIDE 16
+SLIDE 14
 Blank
 
 TITLE: 
@@ -341,7 +313,7 @@ But why do they call them old? -> received scholarship; why did they argue they 
 the Viṣṇu and the Matsya are in the middle but analyzed as a whole; most definitely mixed with very late parts; also, all those parts that are very much to the right may have been pulled by late texts that reused them
 
 ======================================================================
-SLIDE 17
+SLIDE 15
 Blank
 
 TITLE: 
@@ -359,7 +331,7 @@ TEXTITEM:
 NOTES: The old Skandapurāṇa: preserving old text (9th c. MSS); mostly with the old core; the Pāśupata chapters (SP2) jump far right (Is it the 9th c.?)— doctrine added later than the narrative bulk.
 
 ======================================================================
-SLIDE 18
+SLIDE 16
 Blank
 
 TITLE: 
@@ -378,7 +350,7 @@ TEXTITEM:
 NOTES: The sectarian & encyclopedic mass: one broad stratum, no clean middle/late line; digests at the far right; not much different from the Vāyu spread. As will be shown later, they reuse materials each other.
 
 ======================================================================
-SLIDE 19
+SLIDE 17
 Blank
 
 TITLE: 
@@ -400,7 +372,7 @@ TEXTITEM:
 NOTES: The Skāndamahāpurāṇa, khaṇḍa by khaṇḍa: 0 of 4 khaṇḍas have their nearest neighbour inside the SkMP, in either lens; the reuse scan finds they share no text with one another. What connects them is a phrase in the colophons. The Śivapurāṇa tells the same story. Revākhaṇḍa: nearest neighbour is the other Revākhaṇḍa, transmitted with the Vāyu — ~5% shared lines.
 
 ======================================================================
-SLIDE 20
+SLIDE 18
 Blank
 
 TITLE: 
@@ -421,7 +393,7 @@ TEXTITEM:
 NOTES: The date of the purāṇa has always been in dispute. What we have here adds one more data point to the intrigue. Bh10c is with a commentary; to the right but not so much
 
 ======================================================================
-SLIDE 21
+SLIDE 19
 Blank
 
 TITLE: 
@@ -435,7 +407,7 @@ TEXTITEM:
 NOTES: Walk the grid: top row words/unsandhied, bottom row 3-grams/sandhied, three distance metrics each — six independent pipelines, one geometry. Layout agreement with the opening map: 0.94-0.95 (words), 0.81-0.87 (3-grams).
 
 ======================================================================
-SLIDE 22
+SLIDE 20
 Title & Bullets
 
 TITLE: Suppose the axis were an artifact…
@@ -470,7 +442,7 @@ yet draw the same axis.
 NOTES: The abstract’s core argument; deliver slowly. The lenses share almost no assumptions — yet draw the same axis.
 
 ======================================================================
-SLIDE 23
+SLIDE 21
 Statement
 
 TITLE: 
@@ -486,7 +458,7 @@ TEXTITEM: The signal is in the texts
 NOTES: 
 
 ======================================================================
-SLIDE 24
+SLIDE 22
 Title & Bullets
 
 TITLE: What does the second axis represent, then?
@@ -512,7 +484,7 @@ honest conclusion: one axis is chronology-like and robust; the second resists a 
 NOTES: Promised in the abstract; agnosticism as a feature, not a weakness. The Bhāgavata’s vertical displacement is the clearest case.
 
 ======================================================================
-SLIDE 25
+SLIDE 23
 Title & Bullets
 
 TITLE: What the axis is made of
@@ -522,7 +494,7 @@ authorial aptitude in composing metrical Sanskrit: the use of more fillers as th
 reuse of preexisting material: the more the materials are shared, the tighter groups the containers form (See slide B8)
 genre: when the vocabularies are completely different, there is no telling where they land
 Look at where the final parvans of the MBh land in our maps. Those are exactly the parvans whose relative dates are contested; 
-Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map
+Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left (probably because they also incorporates much older meterial)
 And hard to explain independence of the Bhāgavatapurāṇa in all measurements
 
 TEXTITEM: What the axis is made of
@@ -534,7 +506,7 @@ authorial aptitude in composing metrical Sanskrit: the use of more fillers as th
 reuse of preexisting material: the more the materials are shared, the tighter groups the containers form (See slide B8)
 genre: when the vocabularies are completely different, there is no telling where they land
 Look at where the final parvans of the MBh land in our maps. Those are exactly the parvans whose relative dates are contested; 
-Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map
+Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left (probably because they also incorporates much older meterial)
 And hard to explain independence of the Bhāgavatapurāṇa in all measurements
 
 TEXTITEM: What the axis is made of
@@ -544,14 +516,14 @@ authorial aptitude in composing metrical Sanskrit: the use of more fillers as th
 reuse of preexisting material: the more the materials are shared, the tighter groups the containers form (See slide B8)
 genre: when the vocabularies are completely different, there is no telling where they land
 Look at where the final parvans of the MBh land in our maps. Those are exactly the parvans whose relative dates are contested; 
-Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map
+Reuse can also pull texts in different directions. See, e.g., where the Śivadharmaśāstra and the Śivadharmottara are positioned in the map. The purāṇas that are known to incorporate them are very much to the left (probably because they also incorporates much older meterial)
 And hard to explain independence of the Bhāgavatapurāṇa in all measurements
 
 NOTES: Look at where the final parvans of the MBh landed — exactly the parvans whose relative dates are contested. And the Śivadharmaśāstra and Śivadharmottara: the purāṇas known to incorporate them are very much to the left. MFWs tend to be fillers; inapt authors rely on them. The Bhāgavata: an old problem, shows in our map (B7). Mode of compilation: the Bhaviṣya (B8, B9).
 
 
 ======================================================================
-SLIDE 26
+SLIDE 24
 Title & Bullets
 
 TITLE: What’s the point of this?
@@ -582,7 +554,7 @@ NOTES: This is the point of the whole talk: the counts make us look at old probl
 removed from the slide: It also tells us where interesting things are happening; it is about time someone gives serious thought about the uniqueness of the Bhāgavatapurāṇa again; someone should look for unprecedented approaches to settle the questions of the composition, not integration date of the closing parvans of the Mahābhārata; do some fine grained research of the provenance of the Bhaviṣyapurāṇa, etc., etc., ...
 
 ======================================================================
-SLIDE 27
+SLIDE 25
 Statement
 
 TITLE: 
@@ -604,7 +576,7 @@ Do we need something like this?
 NOTES: 
 
 ======================================================================
-SLIDE 28
+SLIDE 26
 Statement
 
 TITLE: 
@@ -620,7 +592,7 @@ TEXTITEM: My answer: Maybe…
 NOTES: 
 
 ======================================================================
-SLIDE 29
+SLIDE 27
 Title & Bullets
 
 TITLE: But before for what stylometric mds can be used
@@ -649,7 +621,7 @@ We do not have a good explanation why this is happening
 NOTES: 
 
 ======================================================================
-SLIDE 30
+SLIDE 28
 Statement
 
 TITLE: 
@@ -665,7 +637,7 @@ TEXTITEM: So, what is this good for?
 NOTES: 
 
 ======================================================================
-SLIDE 31
+SLIDE 29
 Title & Bullets
 
 TITLE: First
@@ -696,7 +668,7 @@ NOTES: The charts of all the reuse between epics and purāṇas are here, or it 
 I may have to jump to the final two slides
 
 ======================================================================
-SLIDE 32
+SLIDE 30
 Title & Bullets
 
 TITLE: Second
@@ -731,7 +703,7 @@ The framing parts (R1 and R7) of the Rāmāyaṇa, again, are they made of old m
 NOTES: 
 
 ======================================================================
-SLIDE 33
+SLIDE 31
 Title & Bullets
 
 TITLE: Another thing I don't have much time to talk about
@@ -766,7 +738,7 @@ This should be a topic of another talk, but if time permits, let's look at the f
 NOTES: 
 
 ======================================================================
-SLIDE 34
+SLIDE 32
 Quote
 
 TITLE: 
@@ -784,7 +756,7 @@ TEXTITEM: “Let them fight.”
 NOTES: 
 
 ======================================================================
-SLIDE 35
+SLIDE 33
 Statement
 
 TITLE: 
@@ -800,7 +772,7 @@ TEXTITEM: Oh, and we need a big caveat: all this is meaningful as much as the pu
 NOTES: 
 
 ======================================================================
-SLIDE 36
+SLIDE 34
 Statement
 
 TITLE: 
@@ -816,7 +788,7 @@ TEXTITEM: To be pedantic: we always need better texts!
 NOTES: 
 
 ======================================================================
-SLIDE 37
+SLIDE 35
 Blank
 
 TITLE: 
@@ -832,7 +804,7 @@ TEXTITEM:
 NOTES: End where we began — now everyone can read the map. Thanks; over to questions.
 
 ======================================================================
-SLIDE 38
+SLIDE 36
 Section
 
 TITLE: Backup slides
@@ -848,7 +820,7 @@ TEXTITEM:
 NOTES: 
 
 ======================================================================
-SLIDE 39
+SLIDE 37
 Title & Bullets
 
 TITLE: B-1: The 120 sources
@@ -1264,7 +1236,7 @@ HV  Harivaṃśa
 NOTES: 
 
 ======================================================================
-SLIDE 40
+SLIDE 38
 Title & Bullets
 
 TITLE: B-2: Burrows’s Delta, one level deeper
@@ -1290,7 +1262,7 @@ variants used in the grid: Cosine Delta (angle instead of average), min-max and 
 NOTES: 
 
 ======================================================================
-SLIDE 41
+SLIDE 39
 Title & Bullets
 
 TITLE: B-3: The length caveat
@@ -1316,7 +1288,7 @@ marked as small dots on every map; none of the argument rests on them
 NOTES: 
 
 ======================================================================
-SLIDE 42
+SLIDE 40
 Blank
 
 TITLE: 
@@ -1330,7 +1302,7 @@ TEXTITEM:
 NOTES: B3/B6: the length caveat, in one figure.
 
 ======================================================================
-SLIDE 43
+SLIDE 41
 Blank
 
 TITLE: 
@@ -1344,7 +1316,7 @@ TEXTITEM:
 NOTES: B5: majority-rule consensus, 500 replicates.
 
 ======================================================================
-SLIDE 44
+SLIDE 42
 Blank
 
 TITLE: 
@@ -1358,7 +1330,7 @@ TEXTITEM:
 NOTES: B7: the Bhāgavata, book by book.
 
 ======================================================================
-SLIDE 45
+SLIDE 43
 Blank
 
 TITLE: 
@@ -1457,7 +1429,7 @@ Liṅga 1 ↔ Viṣṇu aṃśa 1 5.3%
 Garuḍa 1 ↔ Kūrma 2 5.3%
 
 ======================================================================
-SLIDE 46
+SLIDE 44
 Blank
 
 TITLE: 
@@ -1471,7 +1443,7 @@ TEXTITEM:
 NOTES: B8a. The same word-lens (W1 Delta) map with shared passages removed (akṣara-stream match, symmetric drop; same 119 units; PPL excluded). The broad layout survives — reuse is not what makes the map. One visible change: the Viṣṇu aṃśas now cohabit with the Bhāgavata cluster. With reuse, the Viṣṇu's profile was dominated by its widely-copied material (whole Viṣṇu keeps only 45% of its words; the Bhāgavata keeps ~89–99%); on its own diction the Viṣṇu is as close to the Bhāgavata as to anything. The two barely share verbatim text with each other — aṃśa 5 loses 80% of its words (to other purāṇas) while skandha 10, treating the same material, loses only 6%: same story, independent wording, no copying in either direction. Consistent with two independent treatments of shared material; the map says nothing about which came first. Caveats: what survives of the Viṣṇu is its non-shared discursive portions (genre skew), and aṃśas 2/5/6 keep only ~1–3k words — do not over-read their individual positions.
 
 ======================================================================
-SLIDE 47
+SLIDE 45
 Blank
 
 TITLE: 
@@ -1485,7 +1457,7 @@ TEXTITEM:
 NOTES: B8b. The character-3-gram (C3 Delta) companion of the no-reuse map — same 119 units, sandhied corpus, shared passages removed. Same lesson as B8a: the groups hold without the shared text. However, the details significantly diverge: same same but different. (Closing parvans of the Mahābhārata; the date of the Bhāgavata. Can they so well pretend their text to sound like the Mahābhārata appendixes? Is the Purāṇapañcalakṣaṇa really the oldest core of the purāṇas?)
 
 ======================================================================
-SLIDE 48
+SLIDE 46
 Blank
 
 TITLE: 
@@ -1506,7 +1478,7 @@ whole stretches match nothing — a genuine own-text residue in between
 Not an author's stratum — a compilation event with datable ingredients.
 
 ======================================================================
-SLIDE 49
+SLIDE 47
 Blank
 
 TITLE: 
@@ -1520,21 +1492,7 @@ TEXTITEM:
 NOTES: B10: the same map in the 3-gram lens.
 
 ======================================================================
-SLIDE 50
-Blank
-
-TITLE: 
-
-BODY: 
-
-TEXTITEM: 
-
-TEXTITEM: 
-
-NOTES: Backup after B10: full-scale C3 · Burrows's Delta — the hero map's own metric in the 3-gram lens, n120 baseline (layout agreement with the opening map 0.59, the weakest of the C3 metrics; Manhattan 0.86, Cosine 0.81, min-max 0.86; 2-D variance 19%). The groups hold; the long-range arrangement is less stable, which is why B10 shows Manhattan.
-
-======================================================================
-SLIDE 51
+SLIDE 48
 Blank
 
 TITLE: 
@@ -1548,7 +1506,7 @@ TEXTITEM:
 NOTES: Backup: full-scale W1 · Cosine Delta (agreement with opening map 0.95).
 
 ======================================================================
-SLIDE 52
+SLIDE 49
 Blank
 
 TITLE: 
@@ -1562,7 +1520,7 @@ TEXTITEM:
 NOTES: Backup: full-scale W1 · min-max (agreement 0.94).
 
 ======================================================================
-SLIDE 53
+SLIDE 50
 Blank
 
 TITLE: 
@@ -1576,7 +1534,7 @@ TEXTITEM:
 NOTES: Backup: full-scale C3 · Cosine Delta (agreement 0.81).
 
 ======================================================================
-SLIDE 54
+SLIDE 51
 Blank
 
 TITLE: 
