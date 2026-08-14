@@ -29,6 +29,26 @@ simply a later date.
 
 ## 2. Bhāgavata: archaizing artifact or genuinely early?
 
+**[ANNOTATION 2026-08-14 (Kengo): the verdict below is a session hypothesis,
+not my position.** The three measurements stand as data — the MFW
+scale-dependence (19 @30 → 52 @80 → 26 @5000), the epic-marker
+over-performance (39%), and the split profile. What I do not endorse is the
+inferential leap from them to "artifact / imitation": that the BhP's
+placement is *explained* by deliberate archaizing, and that its composition
+date is thereby settled as late. The U-shape shows the BhP's position is
+scale-sensitive in a way the epics' is not; whether the cause is imitation,
+an unusual register interacting differently with different feature strata,
+or partly genuine antiquity in the particle layer, remains open. The closing
+sentence's "external anchors" claim is also wrong as stated: the reuse
+analysis found (a) that other purāṇas reused the *ViP's* text — a fact about
+the ViP's circulation that implies nothing about the BhP's date — and
+(b) that the BhP shares almost zero text with anything else in the corpus,
+the ViP included. There is no shared text on which a BhP→ViP dependency
+argument could stand; "ViP dependency" must not be cited as an anchor for
+BhP lateness. Until this is resolved, article prose must not cite this
+section's "artifact" conclusion as established; the BhP's date remains one
+of the open questions the drift analysis poses, not one it has answered.]**
+
 Artifact, on three convergent diagnostics:
 
 - **Scale dependence (the U-shape).** Mean W1 drift percentile of the BhP
