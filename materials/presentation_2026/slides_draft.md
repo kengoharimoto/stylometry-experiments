@@ -686,9 +686,16 @@ mass — while the very purāṇas that absorbed them plot far to their left
    with early Nepalese transmission — among the better-dated units we
    have. A text older than much of the sectarian mass plots to the right
    of it: the cleanest counterexample in the corpus to reading axis 1 as
-   a timeline, converging with the closing-parvans lesson from the
-   opposite pole (MBh 16–18 look "early" for lack of overlay; the
-   Śivadharma pair looks "late" for lack of frame).
+   a timeline (the Śivadharma pair looks "late" for lack of frame).
+   *[REVISED 2026-08-14: the former companion clause — "MBh 16–18 look
+   'early' for lack of overlay" — is withdrawn; the filler-density
+   mechanism behind it is refuted by measurement (the closing parvans'
+   tu/eva/tathā/vai density exceeds the Rām core's, and low-filler texts
+   sit at the late pole). The closing parvans are no longer a
+   counterexample to the timeline reading; their merged-block position is
+   evidence of old-patterning language. See
+   notes/2026-08-14_e1_apparatus_experiment.md. The Śivadharma
+   counterexample stands on its external dating.]*
 
 **The generalizing line (deliver as the point):** especially when the
 nature of the texts varies, the same lenses lose their credibility as

@@ -14,6 +14,11 @@ MBh 17 = 1,050 · MBh 18 = 1,947 · MBh 16 = 2,962 · MBh 15 = 11,363.
 Corpus mean unit ≈ 45k. So 16–18 are 2–7 % of a mean unit; 15 is mid-small.
 
 ## Result in one line
+> **[SUPERSEDED 2026-08-14 — see the correction at the end of this note and
+> `2026-08-14_e1_apparatus_experiment.md`. The "late-but-redactionally-thin"
+> reading rested on mechanism (c), which is refuted by measurement; D1 and D4
+> stand.]**
+
 The extreme *individual* positions of MBh 16/17/18 are **not trustworthy** (they are
 too short to resolve), **but the epic-pole placement itself is not a length artifact** —
 it is a real register/redactional signal. Do **not** say the closing parvans are early;
@@ -79,6 +84,7 @@ the sub-5k regime. That regime is exactly what D1 probes, which is why D1 is not
 redundant with "just look at the Rāmāyaṇa."
 
 ## Synthesis (the reading to take to the talk)
+> **[SUPERSEDED 2026-08-14 — see the correction at the end of this note.]**
 The load-bearing evidence is **D1 + D4**, not D6:
 - D1 → the *individual* positions of the sub-3k units MBh 16/17/18 are unresolvable
   (an uncertainty region, not a point).
@@ -137,3 +143,40 @@ Figure `closing_parvans_length.png` is ready as a length-control panel / backup 
 The caveats-slide sentence and whether to (a) exclude short units, (b) show an
 uncertainty region, or (c) foreground the §5 reading is **Kengo's interpretive call** —
 not yet wired into the deck.
+
+## CORRECTION 2026-08-14 (E1 run; mechanism (c) refuted)
+
+E1 was run on the e-text apparatus subset
+(`2026-08-14_e1_apparatus_experiment.md`): every CE-excluded stratum is
+later-styled than its constituted text and every augmented book swings
+rightward (MBh 18: constituted 5, apparatus 62 [46,76], augmented 22; MBh 13
+control as predicted). But E1 cannot arbitrate between "early composition"
+and "looks early" — accretions being later than the archetype is exactly
+what a correctly working *age* axis shows on layers of known relative order.
+E1 is a validation of the axis as a layer-dating instrument, nothing more.
+
+Meanwhile mechanism (c) — the load-bearing premise of the §5
+"redactional-thinness" reading — **fails on direct measurement** (Kengo's
+challenge, 2026-08-14):
+
+- The closing parvans' tu/eva/tathā/vai density is **23–32 per 1k words —
+  above the Rām core** (Ayodhyā 21). The premise "pure narrative lacks the
+  expository filler" is factually wrong for exactly these books.
+- Low filler does not drive pole position anyway: corpus-wide
+  corr(filler density, drift percentile) = **0.27**, and the lowest-density
+  units sit at the *late* pole (Śivadharmottara 10.3/1k at pct 97,
+  Śivadharmaśāstra 15.4/1k at 98, Praṇavakalpa 16.4/1k at 95) or mid-map
+  (BhP skandhas 9–15/1k).
+
+**Revised synthesis**: D1 stands (individual sub-3k positions are
+uncertainty regions), D4 stands (the merged block's pole position is a real
+signal). With mechanism (c) dead, that signal means what it says: the
+language of the constituted closing parvans genuinely patterns with the old
+epic stratum. Together with E1 (their accretions are late-styled and thin),
+the stylometry is consistent with an **early-fixed narrative kernel appended
+to the MBh late as books** — converging with Lüders (Ghata-Jātaka) and
+Jacobi rather than opposing Brockington: "late epilogue" is a statement
+about their status as books, the drift axis speaks to the age of their
+language, and the two are compatible without the thinness gloss. Standing
+caveat: language age ≠ book age; a faithfully transmitted old kernel and an
+old composition are indistinguishable from inside the corpus.

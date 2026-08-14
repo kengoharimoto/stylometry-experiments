@@ -4,6 +4,20 @@
 **With:** Kengo Harimoto
 **Status:** hypothesis + test plan. Nothing here has been run yet.
 
+> **STATUS UPDATE 2026-08-14.** D1–D6 were run 2026-07-15
+> (`notes/2026-07-15_closing_parvans_length_diagnostics.md`) and E1 on
+> 2026-08-14 (`notes/2026-08-14_e1_apparatus_experiment.md`). Outcomes:
+> D1/D4 → individual sub-3k positions unresolvable, but the merged block's
+> pole position is real. E1 → CE-excluded material is uniformly later-styled
+> (validates the axis on layers; does not distinguish "early" from "looks
+> early"). **Mechanism (c) below is refuted by measurement**: the closing
+> parvans' filler density (23–32/1k) exceeds the Rām core's, and low-filler
+> texts sit at the *late* pole (corr = 0.27). The §5 "redactional thinness /
+> not antiquity" reading and the §7 one-liner are therefore **superseded**:
+> the merged block's position is evidence of genuinely old-patterning
+> language — consistent with an early-fixed kernel appended late as books
+> (Lüders, Jacobi). See the 2026-08-14 correction sections in both notes.
+
 ---
 
 ## 1. The observation
