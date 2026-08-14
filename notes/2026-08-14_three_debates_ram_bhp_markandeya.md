@@ -54,10 +54,16 @@ spot is the *average* of imitated-early and residual-late signal.
 
 ## 3. Mārkaṇḍeya, and what "the purāṇa" meant
 
-Drift data: Mārkaṇḍeya 1–80 is the earliest-styled non-PPL purāṇic
-composition (W1 30 [28,34]), and it moves *earlier* when reuse is removed
-(46→31 / 59→47) — its own voice, not borrowed material. The PPL Textgruppen
-I/II sit at 22–38 but are a corpus reconstruction, not a transmitted title.
+Drift data: **[CORRECTED 2026-08-14 evening — see
+`2026-08-14_sp_mark_ppl_sequence.md`.** The original sentence here
+misattributed a CI and the "earliest non-PPL" title: Mārk 1–80 actually
+sits at W1 45 [40,48] / C3 60 — the *latest* Mārkaṇḍeya layer. The
+earliest-styled non-PPL purāṇic units are the old Skandapurāṇa whole
+(W1 26 [24,26] / C3 40 [40,43]) and Mārkaṇḍeya 94–141, the
+pañcalakṣaṇa-content block (W1 27 [23,28] / C3 31 [27,34]).] Mārk still
+moves *earlier* when reuse is removed (its own voice, not borrowed
+material), and the PPL Textgruppen I/II at 22–38 remain a corpus
+reconstruction, not a transmitted title.
 
 Reference sweep (with false positives weeded: Rām gopurāṇi; MBh 14's
 "satyaṃ... pañcalakṣaṇam" = five marks of truth; V1.44 ≈ Mārk 49.11
