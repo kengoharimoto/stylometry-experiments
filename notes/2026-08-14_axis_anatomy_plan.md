@@ -103,6 +103,35 @@ corpora, same n and unit sizes, features multinomial:
   together — and is not produced by mere heterogeneity. That is what
   "linguistic drift appears in the MDS" means mechanically.
 
+**B2b. The loss/gain decomposition (Kengo's hypothesis).** Hypothesis
+(2026-08-14): drift appears because a language starts with a set of
+features which randomly *disappear* over time while new features randomly
+*emerge*; since a disappeared feature is unlikely to re-emerge (the Dollo
+asymmetry), chronology is effectively the fraction of original features
+lost, and emergences can be ignored for dating. Nearest named relatives:
+**Dollo's law** / the **stochastic Dollo** birth-death model of language
+phylogenetics (Nicholls & Gray), and **glottochronology** (Swadesh:
+date = retention rate of an original inventory) — our version applies the
+idea to style features rather than cognates.
+
+Test: define the "original feature set" empirically (features
+characteristic of the epic pole / oldest stratum, selected on a split half
+to avoid circularity), then decompose each text's axis-1 displacement into
+a **loss component** (depletion of original features) and a **gain
+component** (acquisition of late-pole features). Predictions if the
+hypothesis holds: (i) the loss component alone reproduces the ordering
+(ρ ≥ ~0.9); (ii) the gain component orders the late texts only loosely.
+Known complications to report either way: our features are frequencies,
+not presence/absence, and some move *up* early (tu/eva/tathā/vai peak in
+the old purāṇic core, not the epics) — the pure-loss model needs the
+weaker, defensible form "**losses are the clock; gains are the community
+structure**"; and the late pole's coherence (sectarian digests resembling
+one another) already shows emergences are shared innovations, not
+per-text randomness. If (i) holds, Q2(b) gets a genuinely explanatory
+answer: the drift axis works because it is, in effect, a retention
+measure. Article citation trail: Swadesh; Dollo characters; Nicholls &
+Gray 2008; Gray & Atkinson-style applications.
+
 **B3. Convergent orderings.** Compare MDS axis 1 with orderings that make
 different assumptions: spectral seriation of the Delta matrix (Fiedler
 vector), 1-D isomap, and a TSP/Hamiltonian-path seriation. If all produce
@@ -198,8 +227,14 @@ register kinship, not date.
    the class assignments before anything is computed from them).
 3. **C1–C3** — after B5; C2 is the decision point for how much Q3 space
    the article gets.
-4. **B2 + B3** — self-contained methods work; can run any time; B2 is the
-   article's methodological centerpiece for Q2(a).
+4. **B2 + B2b + B3** — self-contained methods work; can run any time; B2 is
+   the article's methodological centerpiece for Q2(a), B2b for Q2(b) (its
+   epic-pole feature set should be defined after A1's loadings exist).
+   B3 gains a plain PCA on the z-scored features as a fourth convergent
+   ordering — near-equivalent to classical MDS but with directly readable
+   loadings; and the methods section states in one sentence why t-SNE/UMAP
+   are *not* used (they preserve local neighborhoods and discard the global
+   geometry a gradient reading lives in).
 5. **A4 + B4** — reading-and-assembly work (grammars, secondary
    literature), best done against A1's finished table; closes Q2(b).
 6. **A5 + C4** — polish passes once the above have stabilized.
