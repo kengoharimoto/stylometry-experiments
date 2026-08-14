@@ -50,12 +50,42 @@ W1-500/C3-500 maps: `e1_project.py`, results `e1_apparatus_{W1,C3}_500.tsv`.
    overlay is later-styled (55 vs 33) and pulls the augmented book to 45.
    Apparatus lateness tracks apparatus *character* (narrative variant vs
    Brahmanical overlay).
-3. **This completes the redactional-thinness argument** of the 2026-07-15
-   note: the closing parvans sit at the pole because they are unexpanded
-   *and* because what little expansion they attracted is excluded by the
-   CE; where expansion was massive (13, 18's ending) the text visibly
-   swells rightward. "Late as books, redactionally thin as text" now has
-   its positive control.
-4. For the paper: rerunning with Belvalkar's full print apparatus (App. I
+3. For the paper: rerunning with Belvalkar's full print apparatus (App. I
    of 15 especially) would raise the magnitudes; the e-text subset already
    suffices for the directional claim with CIs.
+
+## CORRECTION (same day, after Kengo's challenge)
+
+The reading in the first version of this note — and in the 2026-07-15
+note's §5 gloss "what the axis sees at the pole is absence of expository
+overlay, not antiquity" — overclaimed. Two corrections:
+
+1. **E1 does not arbitrate between "early composition" and "looks early".**
+   Accretions being later-styled than the archetype text is exactly what a
+   correctly functioning *age* axis would show on layers of known relative
+   date. E1 validates the axis as a layer-dating instrument (a genuinely
+   useful result); it does not show the pole is anything other than age.
+2. **Mechanism (c) of the brief (the filler-density/genre explanation) is
+   refuted by direct measurement.** The closing parvans' tu/eva/tathā/vai
+   density is 23–32 per 1k words — *above* the Rām core (Ayodhyā 21), so
+   the premise "pure narrative lacks the filler" is factually wrong for
+   these books. And low filler does not drive pole position anyway:
+   corpus-wide corr(filler density, drift pct) = 0.27, and the
+   lowest-density texts include Śivadharmottara (10.3/1k, pct 97),
+   Śivadharmaśāstra (15.4/1k, 98), Praṇavakalpa (16.4/1k, 95) — extreme
+   *late* pole. The BhP skandhas (9–15/1k) sit mid-map.
+
+**Revised reading**: what survives of 2026-07-15 is D1 (the individual
+positions of the sub-3k units are unresolvable) and D4 (the merged block's
+pole position is a real signal). With mechanism (c) dead, the merged
+closing-parvans block's position means what it says: the *language* of the
+constituted closing parvans genuinely patterns with the old epic stratum.
+Combined with E1 (their accretions are late-styled and thin), the stylometry
+is consistent with an early-fixed narrative kernel appended to the MBh late
+*as books* — which is also where the comparative evidence points (Lüders'
+independent Yādava-destruction cycle in the Ghata-Jātaka; Jacobi). The
+received "late epilogue" verdict concerns their status as books; the
+stylometry speaks to the age of their language, and the two are compatible
+without the thinness gloss. Standing caveats: language age ≠ book age
+(transmission can preserve or level), and individual sub-3k positions
+remain uncertain regions per D1.
