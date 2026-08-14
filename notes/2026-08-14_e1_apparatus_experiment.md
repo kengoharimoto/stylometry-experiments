@@ -75,6 +75,18 @@ overlay, not antiquity" — overclaimed. Two corrections:
    Śivadharmaśāstra (15.4/1k, 98), Praṇavakalpa (16.4/1k, 95) — extreme
    *late* pole. The BhP skandhas (9–15/1k) sit mid-map.
 
+### Addendum: expansion propensity vs position, all 18 parvans
+
+Apparatus fraction (star+appendix words / constituted words in the e-text)
+against W1-500 drift percentile: Spearman ρ = **0.40** (n = 18). The
+didactic books both attracted the most accretion and sit latest (13:
+84%@32, 14: 66%@18, 1: 64%@11, 12: 24%@28); the closing parvans 15–17
+attracted little and sit at the pole (8–22%@0–2); several late battle books
+are nearly as unexpanded and nearly as early (9: 14%@3, 10: 8%@7, 8:
+52%@6). Outlier: Virāṭa (141%@10) — its enormous apparatus is
+recension *divergence* (N/S retellings of the same episodes), not overlay,
+which marks the limit of apparatus fraction as an editing proxy.
+
 **Revised reading**: what survives of 2026-07-15 is D1 (the individual
 positions of the sub-3k units are unresolvable) and D4 (the merged block's
 pole position is a real signal). With mechanism (c) dead, the merged
