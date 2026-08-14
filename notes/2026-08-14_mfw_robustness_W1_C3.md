@@ -96,6 +96,33 @@ Single-number choice: 500 and 500. The deck's current 80/5000 is defensible
 (x is stable there), but 500/500 makes the "two independent feature systems,
 one chronology" claim measurably stronger.
 
+## Addendum 2026-08-14: name/ritual exclusion test; "function words" framing
+
+Kengo's challenge: the W1-500 list is framed as function words, but what is
+actually in it? Inspection: the grammatical layer dominates only ranks ~1–50;
+the top 80 already contain śiva (77), bhagavān (78), deva (45), dharma (58),
+rājan (74); ranks 481–500 are almost entirely content words (indraḥ, svarga,
+bhīṣmaḥ, viprāḥ, jajñe, īśvara, śrāddham...). Consequences: (a) say "most
+frequent words (MFW)", not "function words", and describe the function-word
+share as falling with rank; (b) the phrase "the content-free W1-80 axis"
+above overstates — W1-80 is content-light, not content-free.
+
+Sensitivity test (`figures/mfw_sweep/exclusion_test.py`; baseline reproduces
+the saved mfw500 sweep coords at rho 1.0000). Strike from the ranked list and
+refill to 500:
+
+- **names/theonyms only** (36 of the top 500): axis-1 Spearman rho vs
+  baseline **0.9976**; max mover 8 pts (BhP skandha 2, later).
+- **names + ritual/sectarian lexemes** (67 of the top 500, incl. dharma-,
+  brahma-forms, yajña, tīrtha, pūjā, vratam, śrāddham, svarga, veda, om,
+  demon-class nouns, jajñe): axis-1 rho **0.9898**; max mover 13 pts
+  (ViP aṃśa 2, later); Śaiva units drift ~10–12 pts earlier.
+
+The BhP skandha mean moves 50.9 → 52.6 → 54.8 (slightly *later*): its
+mid-map position is not manufactured by name/theonym frequencies. For the
+article: the W1-500 axis is not carried by proper names or sectarian
+vocabulary — strike all of them and the axis reproduces at rho ≈ 0.99.
+
 ## Repo change
 
 `scripts/presentation/hero_mds.py:354` hardcoded "80 most frequent words" in
