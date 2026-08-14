@@ -78,13 +78,44 @@ genealogical stratum (percentile ~20–40) — and that stratum is the PPL,
 whose constituted Textgruppen I/II sit in the same band. The Vāyu's
 reputation for antiquity is its cargo, not its voice.
 
+## Bootstrap CIs (added the same day)
+
+`complement_halves/bootstrap_cis.py`: line bootstrap, B = 500, seed fixed.
+Each layer's lines are resampled with replacement, reprofiled, and reprojected
+into the fixed map; 95% CI = 2.5/97.5 quantiles of the drift percentile.
+W1 subsets are single-line ByT5 output, so lines there are 16-word
+pseudo-verses. For C3, per-line trigram counting cannot see line-junction
+trigrams, so lines are counted space-padded and the replicate distribution is
+pivot-shifted onto the exact whole-text estimate (which matches the map dots).
+Results in `bootstrap_{W1,C3}_500.tsv`; whiskers now drawn in the dot-strip
+figure (thin layers < 150 words get no whisker).
+
+CI-backed verdicts on the headline contrasts (ppl vs vayubd, est [95% CI]):
+
+| unit | W1 | C3 | separated? |
+|---|---|---|---|
+| V8 vaṃśas | 21 [21,22] vs 36 [30,46] | 39 [33,42] vs 65 [60,77] | **yes, both** |
+| Bḍ2 | 23 [21,27] vs 62 [59,66] | 41 [40,47] vs 79 [76,82] | **yes, both** |
+| V7 śrāddha-kalpa | 30 [26,42] vs 86 [81,87] | 53 [29,80] vs 94 [93,95] | **yes, both** |
+| V6 pṛthu–prajāpati | 34 [29,42] vs 57 [49,62] | 68 [58,76] vs 76 [71,81] | W1 yes, C3 overlaps |
+| V1 cosmogony (reversed) | 74 [63,83] vs 66 [58,79] | 96 [94,98] vs 87 [79,89] | C3 yes, W1 overlaps |
+| Vi1 (reversed) | 63 [55,77] vs 26 [21,47] | 78 [71,86] vs 50 [21,77] | W1 yes, C3 overlaps |
+
+Constituted PPL, the heterogeneity claim: I 23 [21,26], II 38 [33,44],
+ungrouped 24 [21,27] vs IIA 78 [63,86], IIB 70 [63,81], III 77 [61,86] on W1
+(C3: 24/28/23 vs 60/64/45) — the early block and the late block are cleanly
+non-overlapping on both feature systems.
+
+So with error bars: the core stratigraphy (PPL layer earlier than the Vāyu↔Bḍ
+common layer in V7/V8/Bḍ2, direction consistent in V6) is solid; the V1
+late-cosmogony reversal is significant on C3 only and should be stated as
+suggestive; the ViP paraphrase reversal rests on W1.
+
 ## Caveats / next
 
 - The V8/vaṃśa genre control still applies to the *absolute* earliness of
   the ppl layer (list-genre style), though not to the ppl-vs-vayubd
   *contrast* within the same section, which is genre-matched by construction.
-- Bootstrap CIs on projected layer positions (thin layers flagged in the
-  figure at < 150 words are not interpretable).
 - Attribution classes overlap (a ppl line may also match vayubd
   counterparts); the ppl bucket takes precedence. `attribution.tsv` has the
   full family sets per line for finer splits.

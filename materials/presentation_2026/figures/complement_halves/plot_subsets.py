@@ -49,13 +49,19 @@ def load(tag):
             else:
                 w = int(row['words']) if row['words'] else 0
                 rows.setdefault(row['unit'], {})[row['kind']] = (p, w)
-    return rows, (min(band), max(band))
+    ci = {}
+    bpath = HERE / f'bootstrap_{tag}_500.tsv'
+    if bpath.exists():
+        with open(bpath, encoding='utf-8') as f:
+            for row in csv.DictReader(f, delimiter='\t'):
+                ci[(row['unit'], row['kind'])] = (float(row['lo']), float(row['hi']))
+    return rows, (min(band), max(band)), ci
 
 fig, axes = plt.subplots(1, 2, figsize=(13.33, 8.4), sharey=True)
 ys = range(len(UNITS) - 1, -1, -1)
 for ax, tag, sub in [(axes[0], 'W1', '500 most frequent words'),
                      (axes[1], 'C3', '500 most frequent character 3-grams')]:
-    rows, band = load(tag)
+    rows, band, ci = load(tag)
     ax.axvspan(band[0], band[1], color='#1f5fa8', alpha=0.10, zorder=0)
     ax.text((band[0] + band[1]) / 2, len(UNITS) / 2 - 0.5, 'constituted PPL I / II',
             ha='center', va='center', rotation=90, fontsize=10,
@@ -63,15 +69,27 @@ for ax, tag, sub in [(axes[0], 'W1', '500 most frequent words'),
     for y, u in zip(ys, UNITS):
         ax.axhline(y, color='#eeeeee', lw=0.8, zorder=0)
         r = rows.get(u, {})
+        # slight per-kind vertical offsets so whiskers do not overprint
+        offs = {'resid': 0.22, 'ppl': 0.07, 'vayubd': -0.07, 'other': -0.22}
         if 'resid' in r:
-            ax.scatter(r['resid'][0], y, s=64, facecolors='white',
+            yy = y + offs['resid']
+            if (u, 'resid') in ci:
+                lo, hi = ci[(u, 'resid')]
+                ax.plot([lo, hi], [yy, yy], color='#888888', lw=1.6,
+                        alpha=0.55, solid_capstyle='butt', zorder=2)
+            ax.scatter(r['resid'][0], yy, s=64, facecolors='white',
                        edgecolors='#555555', linewidths=1.6, zorder=3)
         for kind in ('ppl', 'vayubd', 'other'):
             if kind not in r:
                 continue
             p, w = r[kind]
             thin = w < MIN_WORDS
-            ax.scatter(p, y, s=26 if thin else 70, color=KIND_COL[kind],
+            yy = y + offs[kind]
+            if (u, kind) in ci and not thin:
+                lo, hi = ci[(u, kind)]
+                ax.plot([lo, hi], [yy, yy], color=KIND_COL[kind], lw=1.6,
+                        alpha=0.5, solid_capstyle='butt', zorder=2)
+            ax.scatter(p, yy, s=26 if thin else 70, color=KIND_COL[kind],
                        alpha=0.45 if thin else 1.0, edgecolors='white',
                        linewidths=0.8, zorder=4)
     ax.set_title(f"{tag} — Burrows's Delta, {sub}", fontsize=12.5)
