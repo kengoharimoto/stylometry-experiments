@@ -14,34 +14,9 @@ __pycache__/
 *.swp
 .claude/
 
-# Local corpus placeholders only
-corpus/**
-!corpus/
-!corpus/README.md
-!corpus/main/
-!corpus/main/.gitkeep
-!corpus/gi/
-!corpus/gi/.gitkeep
-!corpus/noroots/
-!corpus/noroots/.gitkeep
-
-# Track epic_puranas directories in full (overrides corpus/** and .DS_Store)
-!corpus/epic_puranas/
-!corpus/epic_puranas/**
-!corpus/epic_puranas_excluded/
-!corpus/epic_puranas_excluded/**
-!corpus/epic_puranas_unsandhied/
-!corpus/epic_puranas_unsandhied/**
-!corpus/epic_puranas_unsandhied_stale_backup/
-!corpus/epic_puranas_unsandhied_stale_backup/**
-!corpus/epic_puranas_sandhied/
-!corpus/epic_puranas_sandhied/**
-!corpus/epic_puranas_noreuse/
-!corpus/epic_puranas_noreuse/**
-!corpus/epic_puranas_sandhied_noreuse/
-!corpus/epic_puranas_sandhied_noreuse/**
-!corpus/epic_puranas_unsandhied_noreuse/
-!corpus/epic_puranas_unsandhied_noreuse/**
+# Corpus: fully versioned (2026-08-14). Regenerable stylo caches are excluded
+# by the .cache_freq_*.rds rule below; gi/ and main/ hold placeholders only
+# (their corpora were never imported).
 
 # Derived outputs
 results/

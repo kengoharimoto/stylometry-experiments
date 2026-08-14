@@ -2,11 +2,11 @@
 
 This repository contains analysis scripts and minimal supporting files for stylometric and General Imposters experiments on disputed authorship questions.
 
-The corpus itself is not distributed in this repository. The texts used for the underlying study came from:
+The epic/purāṇic corpora (raw prepared sources and all derived builds) are versioned in `corpus/` — see `corpus/README.md` for the directory layout and provenance notes. The corpora for the earlier GI / clustering experiments are not distributed; those came from:
 
 https://github.com/JacekBakowski/stylometry/tree/main
 
-This repo is intentionally kept lightweight so others can reproduce the experiments with their own prepared local corpus files.
+and can be prepared locally into `corpus/main`, `corpus/gi`, and `corpus/noroots`.
 
 ## License
 

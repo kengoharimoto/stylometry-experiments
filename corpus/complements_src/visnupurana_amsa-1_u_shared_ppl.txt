@@ -1,0 +1,575 @@
+avikārāya śuddhāya nityāya paramātmane /
+sadaikarūparūpāya viṣṇave sarvajiṣṇave // ViP_1,2.1 //
+vāsudevāya tārāya sarvasthityantakāriṇe // ViP_1,2.2 //
+ekānekasvarūpāya sthūlasūkṣmātmane namaḥ /
+sargasthitivināśānāṃ jagato yo jaganmayaḥ /
+ādhārabhūtaṃ viśvasyāpyaṇīyāṃsamaṇīyasām /
+viṣṇu grasiṣṇuṃ viśvasya sthitau sarge tathā prabhum /
+kathayāmi yathāpūrvaṃ dakṣādyair munisattamaiḥ /
+pṛṣṭaḥ provāca bhagavānabjayoniḥ pitāmahaḥ // ViP_1,2.8 //
+paraḥ parāṇāṃ paramaḥ paramātmātmasaṃsthitaḥ /
+rūpavarṇādinirdeśaviśeṣaṇavivarjitaḥ // ViP_1,2.10 //
+apakṣayavināśābhyāṃ pariṇāmarddhijanmabhiḥ /
+ekasvarūpaṃ tu sadā heyābhāvācca nirmalam // ViP_1,2.13 //
+tathā puruṣarūpeṇa kālarūpeṇa ca sthitam // ViP_1,2.14 //
+parasya brahmaṇo rūpaṃ purūṣaḥ prathamaṃ dvija /
+pradhānapūruṣavyaktakālānāṃ paramaṃ hi yat /
+paśyanti sūrayaḥ śuddhaṃ tadviṣṇoḥ paramaṃ padam // ViP_1,2.16 //
+pradhānapūruṣavyaktakālāstu pravibhāgaśaḥ /
+vyaktaṃ viṣṇustathavyaktaṃ purūṣaḥ kāla eva ca /
+krīḍato bālakasyeva ceṣṭāṃ tasya niśāmaya // ViP_1,2.18 //
+avyaktaṃ kāraṇaṃ yattatpradhānamṛṣisattamaiḥ /
+procyate prakṛtiḥ sīkṣmā nityaṃ sadasadātmakam // ViP_1,2.19 //
+akṣayyaṃ nānyadādhāramameyamajaraṃ dhruvam /
+śabdasparśavihīnaṃ tadrūpādibhir asaṃhitam // ViP_1,2.20 //
+śrotrādibuddhyānupalabhyamekaṃ prādhānikaṃ brahma pumāṃstadāsīt // ViP_1,2.23 //
+viṣṇoḥ svarūpātparatodite dve rūpe pradhānaṃ purūṣaś ca vipra /
+tasmātprākṛtasaṃjñoyamucyate pratisaṃcaraḥ // ViP_1,2.25 //
+sarvagaḥ sarvabhūteśaḥ sarvātmā parameśvaraḥ // ViP_1,2.28 //
+pradhānapurūṣau cāpi praviśyātmecchayā hariḥ /
+kṣobhayāmāsa saṃprāpte sargakāle vyayāvyayau // ViP_1,2.29 //
+yathā sannidhimātreṇa gandhaḥ kṣobhāya jāyate /
+sa saṃkocavikāsābhyāṃ pradhānatvepi ca sthitaḥ // ViP_1,2.31 //
+vikāsāṇusvarūpaiś ca brahmarūpādibhis tathā /
+vyaktasvarūpaś ca tathā viṣṇuḥ sarveśvareśvaraḥ // ViP_1,2.32 //
+pradhānatattvamudbhūtaṃ mahāntaṃ tatsamāvṛṇot /
+sāttviko rājasaścaiva tāmasaś ca tridhā mahān // ViP_1,2.34 //
+pradhānatattvena samaṃ tvacā bīja mivāvṛtam /
+vaikārekastaijasaś ca bhūtādiścaiva tāmasaḥ // ViP_1,2.35 //
+bhūtādistu vikurvāṇaḥ śabdatanmātrakaṃ tataḥ /
+sasarja śabdatanmātrādākāśaṃ śabdalakṣaṇam // ViP_1,2.37 //
+akāśastu vikurvāṇaḥ sparśamātraṃ sasarja ha // ViP_1,2.38 //
+ākāśaṃ śabdamātraṃ tu svarśamātraṃ samāvṛṇot // ViP_1,2.39 //
+tato vāyurvikurvāṇo rūpamātraṃ sasarja ha /
+sparśamātraṃ tu vai vāyū rūpamātraṃ samāvṛṇot /
+jyotiścāpi vikurvāṇaṃ rasamātraṃ sasarja ha // ViP_1,2.41 //
+vikurvāṇāni cāmbhāṃsi gandhamātraṃ sasa rjire /
+tasmiṃstasmiṃstu tanmātraṃ tena tanmātratā smṛtā // ViP_1,2.44 //
+tanmātraṇyaviśeṣāṇi aviśeṣāstato hi te // ViP_1,2.45 //
+na śāntā nāpi dhorāste na mūḍhāścāviśeṣiṇaḥ /
+bhūtatanmātrasargoyamahaṅkārāttu tāmasāt // ViP_1,2.46 //
+tejasānīndriyāṇyāhurdevā vaikārikā daśa /
+ekādaśaṃ manaścātra devā vaikārikāḥ smṛtāḥ // ViP_1,2.47 //
+śabdādīnāmavāptyarthaṃ buddhiyuktāni vai dvija // ViP_1,2.48 //
+ākāśavāyutejāṃsi salilaṃ pṛthivī tathā /
+śāntā ghorāś ca mūḍhāś ca viśeṣastena te smṛtāḥ // ViP_1,2.51 //
+nānāviryāḥ pṛthagbhūtāstataste saṃhatiṃ vinā /
+nāśaknuvanprajāḥ sraṣṭumasamāgamya sṛtstraśaḥ // ViP_1,2.52 //
+sametyānyonyasaṃyogaṃ parasparasamāśrayāḥ /
+ekasaṃghātalakṣyāś ca saṃprāpyaikyamaśeṣataḥ // ViP_1,2.53 //
+puruṣādhiṣṭhitatvācca pradhānānugraheṇa ca /
+mahadādya viśeṣāntā hyaṇḍamutpādayanti te // ViP_1,2.54 //
+prakṛtaṃ brahmarūpasya viṣṇoḥ sthānamanuttamam // ViP_1,2.55 //
+merurulbamabhūttasya jarāyuś ca mahīdharāḥ /
+tasminnaṇḍe 'bhavadvipra sadevāsuramānuṣāḥ // ViP_1,2.58 //
+vārivahnyanilākāśais tato bhūtādinā bahiḥ /
+vṛtaṃ daśaguṇair aṇḍaṃ bhūtādirmahatā tathā // ViP_1,2.59 //
+ebhir āvaraṇair aṇḍaṃ saptabhiḥ prakṛtair vṛtam /
+juṣan rajo guṇaṃ tatra svayaṃ viśveśvaro hariḥ /
+brahmābhūtvāsya jagato visṛṣṭau saṃpravartate // ViP_1,2.61 //
+sṛṣṭaṃ ca pātyanuyugaṃ yāvatkalpavikalpanā /
+maitreyākhilabhūtāni bhakṣayatyatidārūṇaḥ // ViP_1,2.63 //
+bhakṣayitvā ca bhūtāni jagatyekāṇavīkṛte /
+nāgaparyaṅkaśayane śete ca parameśvaraḥ // ViP_1,2.64 //
+prabuddhaś ca punaḥ sṛṣṭiṃ karoti brahmarūpadhṛk // ViP_1,2.65 //
+sṛṣṭisthityantakaraṇīṃ brahmaviṣṇuśivātmikām /
+sa saṃjñāṃ yāti bhagavāneka eva janārdanaḥ // ViP_1,2.66 //
+straṣṭā sṛjati cātmānaṃ viṣṇuḥ pālyaṃ ca pāti ca /
+pṛthivyāpas tathā tejo vāyurākāśa eva ca /
+sarvendriyāntaḥkaraṇaṃ puruṣākhyaṃ hi yajjagat // ViP_1,2.68 //
+sa eva sarvabhūtātmā viśvarūpo yato 'vyayaḥ /
+brahmādyavasthābhir aśeṣamūrtirviṣṇurvariṣṭho varado vareṇyaḥ // ViP_1,2.70 //
+śaktayaḥ sarvabhāvānāmacintyajñānagocarāḥ /
+bhavanti tapatāṃ śreṣṭha pāvakasya yathoṣṇatā // ViP_1,3.2 //
+nārāyaṇākhyo bhagavānbrahmā lokapitāmāhaḥ // ViP_1,3.3 //
+nijena tasya mānena āyurvarṣaśataṃ smṛtam /
+kālasvarūpaṃ viṣṇoś ca yanmayoktaṃ tavānagha /
+anyeṣāṃ caiva jantūnāṃ carāṇāmacarāś ca ye /
+bhūbhūbhṛtsāgarādīnāmaśeṣāṇāṃ ca sattama // ViP_1,3.7 //
+kāṣṭhā pañcadaśākhyātā nimeṣā munisattama /
+kāṣṭhātriṃśatkalā triṃśatkalā mauhūrtiko vidhiḥ // ViP_1,3.8 //
+tāvatsaṃkhyair ahorātraṃ muhūrtair mānuṣaṃ smṛtam /
+ahorātrāṇi tāvanti māsaḥ pakṣadvayātmakaḥ // ViP_1,3.9 //
+ayanaṃ dakṣiṇaṃ rātrirdevānāmuttaraṃ dinam // ViP_1,3.10 //
+catvāritrīṇi dve caikaṃ kṛtādiṣu yathākramam /
+dvivyābdānāṃ sahasrāṇi yugoṣvāhuḥ purāvidaḥ // ViP_1,3.12 //
+tatpramāṇaiḥ śataiḥ saṃdhyā pūrvā tatrābhidhīyate /
+sandhyāsaṃdhyāṃśayorantaryaḥ kālo munisattama /
+yugākhyaḥ sa tu vijñeyaḥ kṛtatretādisaṃjñitaḥ // ViP_1,3.14 //
+kṛtaṃ tretā dvāparaś ca kaliścaiva caturyugam /
+bhavanti pariṇāmaṃ ca teṣāṃ kālakṛtaṃ śṛṇu // ViP_1,3.16 //
+saptarṣayaḥ surāḥ śaktro manustatsūnavo nṛpāḥ /
+caturyugāṇāṃ saṃkhyātā sādhikā hyekasaptatiḥ /
+manvantaraṃ manoḥ kālaḥ surādīnāṃ ca sattama // ViP_1,3.18 //
+aṣṭau śata sahasrāṇi divyayā saṃkhyayā smṛtam /
+dvipañcāśattathānyāni sahasrāṇyadhikāni tu // ViP_1,3.19 //
+triṃśatkoṭyastu saṃpūrṇāḥ saṃkhyātāḥ saṃkhyayā dvija /
+saptaṣaṣṭistathānyāni niyutāni mahāmune // ViP_1,3.20 //
+viṃśatistu sahasrāṇi kāloyamadhikaṃ vinā /
+caturdaśaguṇo hyeṣa kālo brahmamahaḥ smṛtam /
+tatpramāṇāṃ hi tāṃrātriṃ tadante sṛjate punaḥ // ViP_1,3.25 //
+evaṃ tu brahmaṇo varṣamevaṃ varṣaśataṃ ca yat /
+śataṃ hiṃ tasya varṣāṇāṃ paramāyurmahātmanaḥ // ViP_1,3.26 //
+tasyāntebhūnmahākalpaḥ pādma ityabhiviśrutaḥ // ViP_1,3.27 //
+brahmanārāyaṇākhyo 'sai kalpādau bhagavānyathā /
+prajāḥ sasarja bhagavānbrahmā nārāyaṇātmakaḥ /
+atītakalpāvasāne niśāsuptotthitaḥ prabhuḥ /
+nārāyaṇaḥ paro 'cintyaḥ pareṣāmapi sa prabhuḥ /
+imaṃ codāharantyatra ślokaṃ nārāyaṇaṃ prati /
+āpo nārā iti proktā āpo vai narasūnavaḥ /
+ayanaṃ tasya tāḥ pūrvaṃ tena nārāyaṇaḥ smṛtaḥ // ViP_1,4.6 //
+anumānāttaduddhāraṃ kartukāmaḥ prajāpatiḥ // ViP_1,4.7 //
+akarotsvatanūmanyāṃ kalpādiṣu yathā purā /
+satsyakūrmādikāṃ tadvadvārāhaṃ varurāsthitaḥ // ViP_1,4.8 //
+vedayajñamayaṃ rūpamaśeṣajagataḥ sthitau /
+nirīkṣya taṃ tadā devī pātālātalamāgatam /
+tuṣṭāva praṇatā bhūtvā bhaktinamrā vasundharā // ViP_1,4.11 //
+tvayāhamuddhṛtā pūrvaṃ tvanmayāhaṃ janārdana /
+tathānyāni ca bhūtāni gaganādinyaśeṣataḥ // ViP_1,4.13 //
+pradhānavyaktabhūtāya kālabhūtāya te namaḥ // ViP_1,4.14 //
+tvaṃ kartā sarvabhūtānāṃ tvaṃ pātā tvaṃ vināśakṛt /
+sargādiṣu prabho brahmaviṣṇurudrātmarūpadhṛk // ViP_1,4.15 //
+sambhakṣayitvā sakalaṃ jagatyekārṇavīkṛte /
+uttiṣṭhatastasya jalārdrakukṣermahāvarāhasya mahīṃ vigṛhya /
+jayeśvarāṇāṃ parameśa keśava prabho gadāśaṅkhadharāsicakradhṛk /
+sūktānyaśeṣāṇi saṭākalāpo ghrāṇaṃ samastāni havīṃṣi deva // ViP_1,4.33 //
+muktuṇḍasāmasvaradhīranādaprāgvaṃśakāyā khilasatrasandhe /
+padakramākrāntabhuvaṃ bhavantamādisthitaṃ cākṣaraviśvamūrte /
+daṃṣṭrāgravinyastamaśeṣametadbhumaṇḍalaṃ nātha vibhāvyate te /
+yadetaddṛśyate mūrtametajjñānātmanastava /
+jñānātmakaṃ prapaśyanti tvadrūpaṃ parameśvara // ViP_1,4.41 //
+evaṃ saṃstūyamānastu paramātmā mahīdharaḥ /
+ujjahāra kṣitiṃ kṣipraṃ nyastavāṃś ca mahāmbhasi // ViP_1,4.45 //
+tataḥ kṣitiṃ samāṃ kṛtvā pṛthivyāṃ socinodgirīn /
+yathāvibhāgaṃ bhagavānanādiḥ parameśvaraḥ // ViP_1,4.47 //
+bhūvibhāgaṃ tataḥ kṛtvā saptadvīpānyathātatham /
+bhūrādyāṃścaturo lokānpūrvavatsamakalpayat // ViP_1,4.49 //
+cakāra sṛṣṭiṃ bhagavāṃścaturvakradharo hariḥ // ViP_1,4.50 //
+nimittamātramevāsau sṛjyānāṃ sargakarmaṇi /
+pradhānakāraṇībhūtā yato vai sṛjyaśaktayaḥ // ViP_1,4.51 //
+nīyate tapatāṃ śreṣṭa svaśaktyā vastu vastutām // ViP_1,4.52 //
+manuṣyatiryagvṛkṣādīnbhūvyomasalilaukasaḥ // ViP_1,5.1 //
+sargādau sṛṣṭavānbrahmā tanmamācakṣva kṛtstraśaḥ // ViP_1,5.2 //
+maitreya kathayāmyetacchṛṣuṣva susamāhitaḥ /
+sṛṣṭiṃ cintaya tastasya kalpādiṣu yathā purā /
+avidya pañcaparvaiṣā prāgurbhūtā mahātmanaḥ // ViP_1,5.5 //
+bahiranto 'prakāśaś ca saṃvṛtātmā nagātmakaḥ // ViP_1,5.6 //
+taṃ dṛṣvāsādhakaṃ sargamamanyadaparaṃ punaḥ // ViP_1,5.8 //
+paśvādayaste vikhyātā stamaḥprāyā hyavedinaḥ /
+utpathagrāhiṇaścaiva te 'jñāne jñānamāninaḥ // ViP_1,5.10 //
+ahaṅkṛtā ahaṃmānā aṣṭāviṃśadvadhātmakāḥ /
+ataḥ prakāśāste sarve āvṛtāś ca parasparam // ViP_1,5.11 //
+te sukhaprītibahulā bahirantaś ca nāvṛtāḥ /
+prakāśā bahirantaś ca ūrdhvastrotodbhavāḥ smṛtāḥ // ViP_1,5.13 //
+tuṣṭātmānastṛtīyastu devasargastu sa smṛtaḥ /
+prādurbabhūva cāvyaktādarvāstretāstu sādhakaḥ // ViP_1,5.16 //
+tasmātte duḥkhabahulā bhūyobhūyaś ca kāriṇaḥ /
+prakāśā bahirantaś ca manuṣyāḥ sādhakāstu te // ViP_1,5.18 //
+ityete kathitāḥ sargāḥ ṣaḍatra munisattama /
+tanmātrāṇāṃ dvitīyaś ca bhūtasargo hi sa smṛtaḥ /
+ityeṣa prākṛtaḥ sargaḥ sambhūto buddhipūrvakaḥ /
+mukhyasargaścaturthastu mukhyā vai sthāvarāḥ smṛtāḥ // ViP_1,5.21 //
+tadūrdhvastrotasāṃ ṣaṣṭho devasargastu saṃsmṛtaḥ // ViP_1,5.22 //
+tator'vākstrotasāṃ sargaḥ saptamaḥ sa tu mānuṣaḥ // ViP_1,5.23 //
+aṣṭamo 'nugrahaḥ sargaḥ sāttvikastāmasaś ca saḥ /
+pañcaite vaikṛtāḥ sargāḥ prākṛtāstu trayaḥ smṛtāḥ // ViP_1,5.24 //
+prākṛto vaikṛtaścaiva kaumāro navamaḥ smṛtaḥ /
+ityete vai samākhyātā nava sargāḥ prajāpateḥ // ViP_1,5.25 //
+prākṛtā vaikṛtāścaiva jagato mūlahetavaḥ /
+saṃkṣepātkathitaḥ sarge devādīnāṃ mune tvayā /
+khyātyā tayā hyanirmuktāḥ saṃhāre hyupasaṃhṛtāḥ // ViP_1,5.28 //
+tato devāsurapitṝnmanuṣyāṃś ca catuṣṭayam /
+sisṛkṣurambhāṃsyetāni svamātmānamayūyujat // ViP_1,5.30 //
+yuktātmanastamomātrā hy udriktābhūtprajāpateḥ /
+sisṛkṣorjaghanātpūrvamasurā jajñire tataḥ // ViP_1,5.31 //
+utsasarja tatastāṃ tu tamomātrātmikāṃ tanum /
+sisṛkṣuranyadehasthaḥ prītimāpa tataḥ surāḥ /
+sattvamātrātmikāmeva tatonyāṃ jagṛhe tanum /
+utsasarja tatastāṃ tu pitṝnsṛṣṭvāpi sa prabhuḥ /
+sā cotsṛṣṭābhavatsaṃdhyā dina naktāntarasthitā // ViP_1,5.36 //
+rajomātrātmikāmanyāṃ jagṛhe sa tanuṃ tataḥ /
+rajomātrotkaṭā jātā manuṣyā dvijasattama // ViP_1,5.37 //
+tāmapyāśu sa tatyāja tanuṃ sadyaḥ prajāpatiḥ /
+jyotsnā rātryahani saṃdhyā catvāryatāni vai prabhoḥ /
+brahmaṇastu śarīrāṇi triguṇopāśrayāṇi tu // ViP_1,5.40 //
+rajomātrātmikāmeva tatonyāṃ jagṛhe tanum /
+maivaṃ bho rakṣyatāmeṣa yair uktaṃ rākṣasāstu te /
+ūcuḥ khādāma ityanye ye te yakṣāstu jakṣaṇāt // ViP_1,5.43 //
+apriyeṇa tu tāndṛṣṭvā keśāḥ śīryantavedhasaḥ /
+hīnāś ca śiraso bhūyaḥ samārohanta tacchiraḥ // ViP_1,5.44 //
+sarpaṇātte 'bhavan sarpā hīnatvādahayaḥ smṛtāḥ /
+varṇena kapiśenograbhūtāste piśitāśanāḥ // ViP_1,5.45 //
+dhyāyatoṅgātsamutpannā gandharvāstasya tatkṣaṇāt /
+etāni sṛṣṭvā bhagavānbrahma tacchakticoditaḥ /
+padbhyāṃ cāśvānsamātaṅgānrāsabhāngavayānmṛgān /
+uṣṭrānaśvatarāṃścaiva nyaṅkūnanyāś ca jātayaḥ // ViP_1,5.49 //
+gaurajaḥ puruṣo meṣaścāśvāśvataragardabhāḥ /
+etāngrāmyānpaśūnāhurāraṇyāṃś ca nibodha me // ViP_1,5.51 //
+śvāpadā dvikhurā hastī vānarāḥ pakṣipañcamāḥ /
+audakāḥ paśavaḥ ṣaṣṭhā saptamāstu sarīsṛpāḥ // ViP_1,5.52 //
+agniṣṭomaṃ ca yajñānāṃ nirmame prathamānmukhāt // ViP_1,5.53 //
+yajūṃṣi traiṣṭubhaṃ chandaḥ stomaṃ pañcadaśaṃ tathā /
+bṛhatsāma tathokthaṃ ca dakṣiṇādasṛjanmu khāt // ViP_1,5.54 //
+sāmāni jagatīchandaḥ stomaṃ saptadaśaṃ tathā /
+vairūpamatirātraṃ ca paścimādasṛjanmukhāt // ViP_1,5.55 //
+ekaviṃśamatharvāṇamāptoryāmāṇameva ca /
+anuṣṭubhaṃ ca vairājamuttarādasṛjanmukhāt // ViP_1,5.56 //
+uccāvacāni bhūtāni gātrebhyastasya jajñire /
+yakṣān piśācāngandharvān tathaivāpsarasāṃ gaṇān // ViP_1,5.58 //
+narakinnararakṣāṃsi vayaḥ paśumṛgoragān /
+teṣāṃ ye yāni karmāṇi praksṛṣṭyāṃ pratipedire /
+tānyeva te prapadyante sṛjyamānāḥ punaḥpunaḥ // ViP_1,5.60 //
+histrāhiṃstre mṛdukrūre dharmadharmāvṛtānṛte /
+indriyārtheṣu bhūteṣu śarīreṣu ca sa prabhuḥ /
+nānātvaṃ viniyogaṃ ca dhātaivaṃ vyasṛjatsvayam // ViP_1,5.62 //
+nāma rūpaṃ ca bhūtānāṃ kṛtyānāṃ ca prapañcanam /
+vedaśabdebhya evādau devādīnāṃ cakāra saḥ // ViP_1,5.63 //
+yathartuṣvṛtuliṅgāni nānārūpāṇi parya ye /
+dṛsyante tāni tānyeva tathā bhāvā yugādiṣu // ViP_1,5.65 //
+arvākstrotāstu kathito bhavatā yastu mānuṣaḥ /
+yathā ca varṇānasṛjadyadguṇāṃ ś ca prajāpatiḥ /
+yacca teṣāṃ smṛtaṃ karma viprādīnāṃ taducyatām // ViP_1,6.2 //
+ajāyanta dvijaśreṣṭha sattvodriktā mukhātprajāḥ // ViP_1,6.3 //
+tamaḥpradhānāstāḥ sarvaścāturvarṇyamidaṃ tataḥ // ViP_1,6.5 //
+brahmaṇāḥ kṣatriyā veśyāḥ śūdrāś ca dvijasattama /
+cāturvarṇyaṃ mahābhāga yajñasādhanamuttamam // ViP_1,6.7 //
+yajñair āpyāyitā devā vṛṣṭyutsargeṇa vai prajāḥ /
+āpyāyayante dharmajña yajñāḥ kalyāṇahetavaḥ // ViP_1,6.8 //
+viśuddhācaraṇaipetaiḥ sadbhiḥ sanmārgagāmibhiḥ // ViP_1,6.9 //
+vrīhayaś ca yavāścaiva godhūmāścaṇavastilāḥ /
+priyaṅgavo hyudā rāś ca koradūṣāḥ satīnakāḥ // ViP_1,6.21 //
+māṣā mudgā masūrāś ca niṣpāvāḥ sakulātthakāḥ /
+āḍhakyaścaṇakāścaiva śaṇāḥ saptadaśa smṛtāḥ // ViP_1,6.22 //
+ityetā oṣadhīnāṃ tu grāmyānāṃ jātayo mune /
+oṣadhyo yajñiyāścaiva grāmyāraṇyāścaturdaśa // ViP_1,6.23 //
+vrīhayaḥsayavā māṣā godhūmāścāṇava stilāḥ /
+priyaṅgusaptamā hyete aṣṭamāstu kulatthakāḥ // ViP_1,6.24 //
+śyāmākāstvatha nīvārā jartilāḥ sagavedhukāḥ /
+tathā veṇuyavāḥ proktas tathā markaṭakā mune // ViP_1,6.25 //
+grāmyāraṇyāḥ smṛtā hyetā oṣadhyastu caturdaśa /
+yajñaniṣpattaye yajñastathāsāṃ heturuttamaḥ // ViP_1,6.26 //
+etāś ca saha yajñena prajānāṃ kāraṇaṃ param /
+parāvaravidaḥ prājñāstato yajñānvitanveta // ViP_1,6.27 //
+ahanyahanyanuṣṭhānaṃ yajñānāṃ munisattama /
+upakārakaraṃ puṃsāṃ kriyamāṇā ghaśāntidam // ViP_1,6.28 //
+yeṣāṃ tu kālasṛṣo 'sau pāpabandurmahāmune /
+vedavādāṃs tathā vedānyajña karmādikaṃ ca yat /
+tatsarvaṃ nindayāmāsuryajñavyāsedhakāriṇaḥ // ViP_1,6.30 //
+durātmāno durācārā babhūvuḥ kuṭilāśayāḥ // ViP_1,6.31 //
+saṃsiddhāyāṃ tu vārtāyāṃ prajāḥ sṛṣṭvā prajāpatiḥ /
+saryādāṃ sthāpayāmāsa yathāsthānaṃ yathāguṇam // ViP_1,6.32 //
+varṇā nāmāśramāṇāṃ ca dharmadharmabhṛtāṃ vara /
+lokāṃś ca sarvavarṇānāṃ samyagdharmānupālinām // ViP_1,6.33 //
+prajāpatyaṃ brahmaṇānāṃ smṛtaṃ sthānaṃ kriyāvatām /
+sthānamaindraṃ kṣatriyāṇāṃ saṃgrameṣvanivartatām // ViP_1,6.34 //
+vaiśyānāṃ mārutaṃ sthānaṃ svadharmamanuvartinām /
+gāndharvaṃ śūdrajātīnāṃ.paricaryānuvartinām // ViP_1,6.35 //
+aṣṭāśītisahasrāṇi munīnāmūrdhvaretasām /
+smṛtaṃ teṣāṃ tu yatsthānaṃ tadeva guruvāsinām // ViP_1,6.36 //
+saptarṣiṇāṃ tu yatsthānaṃ smṛtaṃ tadvai vanaukasām /
+prājāpatyaṃ gṛhasthānāṃ nyāsināṃ brahmasaṃjñitam // ViP_1,6.37 //
+teṣāṃ tu paramaṃ sthānaṃ yattatpaśyanti sūrayaḥ // ViP_1,6.39 //
+vinindakānāṃ vedasya yajñavyāghātakāriṇām /
+tatobhidhyāyatastasya jajñire mānasāḥ prajāḥ /
+kṣetrajñāḥ samavartanta gātrebhyasya syaḥ dhīmataḥ // ViP_1,7.1 //
+te sarve samāvartanta ye mayā prāgudāhatāḥ /
+devādyāḥ sthāvarāntāś ca traiguṇyaviṣaye sthitāḥ // ViP_1,7.2 //
+evaṃbhūtāni sṛṣṭāni carāṇi sthāvarāṇi ca // ViP_1,7.3 //
+yadāsya tāḥ prajāḥ sarvā na vyavardhanta dhīmataḥ /
+athānyānmānasānputrānsadṛśānātmano 'sṛjat // ViP_1,7.4 //
+bhṛguṃ pulastyaṃ pulahaṃ kratumaṅgirasaṃ tathā /
+marīciṃ dabhamatriṃ ca vasiṣṭhaṃ caiva mānasān // ViP_1,7.5 //
+nava brahmāṇa ityete purāṇe niścayaṃ gatāḥ // ViP_1,7.6 //
+sanandanādayo ye ca pūrvasṛṣṭāstu vedhasā /
+sarve te 'bhyā gatajñānā vītarāgā vimatsarāḥ /
+teṣvevaṃ nirapekṣeṣu lokasṛṣṭau mahātmanāḥ // ViP_1,7.10 //
+tasya krodhātsa mudbhūtajvālāmālātidīpitam /
+bhrakuṭīkuṭilāttasya lalāṭāt krodhadīpitāt /
+ardhanārīnaravapuḥ pracaṇḍo 'tiśarīravān /
+saumyāsaumyostadāśāntāśāntaiḥ strītvaṃ ca sa prabhuḥ /
+tato brahmātmasaṃbhūtaṃ pūrvaṃ svāyaṃbhuvaṃ prabhu /
+ātmānameva kṛta vānprajāpālye manuṃ dvija // ViP_1,7.16 //
+śatarūpāṃ ca tāṃ nārīṃ taponirdhūtakalpaṣām /
+tasmāttu puruṣāddevī śatarūpā vyajāyata /
+priyavratottānapādau prasūtyākūtisaṃjñitam // ViP_1,7.18 //
+kanyādvayaṃ ca dharmajña rūpaudāryaguṇānvitam /
+dadau prasūtiṃ dakṣāya ākūtiṃ rucaye purā // ViP_1,7.19 //
+prajāpatiḥ sa jagrāha tayorjajñe sadakṣiṇaḥ /
+yajñasya dakṣiṇāyāṃ tu putrā dvādaśa jajñire /
+yāmā iti samākhyātā devāḥ svāyaṃbhuve manau // ViP_1,7.21 //
+prasūtyāṃ ca tathā dakṣaścatastro viṃśatis tathā /
+sasarja kanyāstāsāṃ ca samyaṅnāmāni me śṛṇu // ViP_1,7.22 //
+śraddhā lakṣmīrdhṛtistuṣṭirmedhā puṣṭis tathā kriyā /
+buddhirlajjā vapuḥ śāntiḥ siddhiḥ kīrtistrayodaśī // ViP_1,7.23 //
+patnyarthaṃ pratijagrāha dharmo dākṣāyaṇīḥ prabhuḥ /
+tābhyaḥ śiṣṭayavīyasya ekādaśa sulocanāḥ // ViP_1,7.24 //
+khyātiḥ satyatha saṃbhūtiḥ smṛtiḥ pītiḥ kṣamā tathā /
+santatiścānasūyā ca ūrjā svāhā svadhā tathā // ViP_1,7.25 //
+bhṛturbhavo marīciś ca tathā caivāṅgirā muniḥ /
+śraddhā kāmaṃ calā darpaṃ niyamaṃ dhṛtirātmajam /
+santoṣaṃ ca tathā tuṣṭirlobhaṃ puṣṭirasūyata // ViP_1,7.28 //
+vyavasāyaṃ prajajñe vai kṣemaṃ śāntirasūyatā // ViP_1,7.30 //
+kāmādratiḥ sutaṃ harṣaṃ dharmapautramasūyata // ViP_1,7.31 //
+hiṃsā bhāryā tvadharmasya tato jajñe tathānṛtam /
+tayorjajñetha vai māyā mṛtyuṃ bhūtāpahāriṇam // ViP_1,7.33 //
+vedanā svasūtaṃ cāpi duḥkhaṃ jajñe 'tha rauravāt /
+mṛtyorvyādhijarāśokatṛṣṇakrodhāś ca jajñire // ViP_1,7.34 //
+duḥkhottarāḥ smṛtā hyete sarve cādharmalakṣaṇāḥ /
+raudrāṇyetānirūpāṇi viṣṇormunivarātmaja /
+rudrasargaṃ pravakṣyāmi tanme nigadataḥ śṛṇu // ViP_1,8.1 //
+kalpādāvātmanastulyaṃ sutaṃ pradhyāyatastataḥ /
+prādurāsītprabhoraṅke kumāro nīlalohitaḥ // ViP_1,8.2 //
+sthānāni caiṣāmaṣṭānāṃ patnīḥ putrāṃś ca sa prabhuḥ // ViP_1,8.5 //
+bhavaṃ śarvamatheśānaṃ tathā paśupatiṃ dvija /
+bhīmamugraṃ mahādevamuvāca sa pitāmahaḥ // ViP_1,8.6 //
+cakre nāmānyathaitāni sthānānyeṣāṃ cakāra saḥ /
+sūryo jalaṃ mahī vāyurvahnirākāśameva ca /
+dīkṣito brahmaṇaḥ soma ityetāstanavaḥ kramāt // ViP_1,8.7 //
+suvarcalā tathaivoṣā vikeśī cāparā śivā /
+svāhā diśas tathā dīkṣā rohiṇī ca yathākramam // ViP_1,8.8 //
+sūryādīnāṃ dvijaśreṣṭha rudrādyair nāmabhiḥ saha /
+patnyaḥ smṛtā mahābhāga tadapatyāni me śṛṇu // ViP_1,8.9 //
+eṣāṃ sūtiprasūtibhyāmidamāpūritaṃ jagat // ViP_1,8.10 //
+śanaiścaras tathā śukro lohitāṅgo manojavaḥ /
+skandaḥ sargo 'tha santāno budhaścānukramātsutāḥ // ViP_1,8.11 //
+evaṃprakāro rudro 'sau satīṃ bhāryāmaninditām /
+upayeme punaścomāmananyāṃ bhagavānharaḥ // ViP_1,8.14 //
+devau dhātṛvidhātārau bhṛgoḥ khyātirasūyata /
+śriyaṃ ca devadevasya patnī nārāyaṇasya yā // ViP_1,8.15 //
+paśyanti praṇave cintyaṃ tadviṣṇoḥ paramaṃ padam // ViP_1,9.54 //
+divyamālyāmbaradharāstrātā bhūṣaṇabhūṣitā /
+kathitaṃ me tvāyā sarvaṃ yatpṛṣṭosi mayā mune /
+bhṛgusargātprabhṛtyeṣa sargo me kathyatāṃ punaḥ // ViP_1,10.1 //
+bhṛgoḥ khyātyāṃ samutpannā lakṣmīrviṣṇuparigrahaḥ /
+tathā dhātṛvidhātārau khyātyāṃ jātau sutau bhṛgoḥ // ViP_1,10.2 //
+prāṇasya dyutimānputro rājavāṃś ca tato 'bhavat /
+tato vaṃśo mahābhāga vistaraṃ bhārgavo gataḥ // ViP_1,10.5 //
+patnī marīceḥ saṃbhūtiḥ paurṇamāsamasūyatā /
+vaṃśasaṃkīrtane putrānvadiṣyehaṃ tato dvija /
+sinīvālī kuhūścaiva rākā cānumatī tathā // ViP_1,10.7 //
+anasūyā tathaivātrerjajñe niṣkalmaṣānsutān /
+prītyāṃ pulastyabhāryāyāṃ dattolistatsuto 'bhavat /
+kardamaścārvarīvāṃś ca sahiṣṇuś ca sutāstrayaḥ /
+kṣamā tu suṣave bhāryā pulahasya prajāpateḥ // ViP_1,10.10 //
+kratoś ca saṃtatirbhāryā vālakhilyānasūyata /
+ṣaṣṭiputrasahasrāṇi munīnāmūrdhvaretasām /
+aṅguṣṭhaparvamātrāṇāṃ jvaladbhāskaratejasām // ViP_1,10.11 //
+ūrjāyāṃ tu vasiṣṭhasya saptājāyanta vai sutāḥ // ViP_1,10.12 //
+tasmātsvāhā sutāṃllebhe trīnudāraujaso dvija // ViP_1,10.14 //
+pāvakaṃ pavamānaṃ tu śuciṃ cāpi jalāśinam // ViP_1,10.15 //
+teṣāṃ tu santatāvanye catvāriṃśacca pañca ca /
+evamekonapañcaśadvahnayaḥ parikīrtitāḥ // ViP_1,10.17 //
+pitaro brahmaṇā sṛṣṭā vyākhyātā ye mayā dvija /
+āgniṣvātta barhiṣado 'nagnayaḥ sāgnayaś ca ye // ViP_1,10.18 //
+tebhyaḥ svadhā sute jajñe menāṃ vai dhārīṇīṃ tathā /
+ityeṣā dakṣakanyānāṃ kathitā satyasaṃtatiḥ /
+sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt /
+prabhūtabhūtabhūtāya tubhyaṃ bhūtātmane namaḥ // ViP_1,12.69 //
+tasyābhimānamṛddhiṃ ca mahimānaṃ nirikṣya hi /
+devāsurāṇāmācāryaḥ ślokamatrośanā jagau // ViP_1,12.98 //
+yadenaṃ purataḥ kṛtvā dhruvaṃ saptarṣayaḥ sthitāḥ // ViP_1,12.99 //
+śiṣṭorādhatta succhāyā pañcaputrānakalmaṣān // ViP_1,13.1 //
+ripuṃ ripuñjayaṃ vipraṃ vṛkalaṃ vṛkatejasam /
+prajāpaterātmajāyāṃ vīraṇasya mahātmanaḥ // ViP_1,13.3 //
+manorajāyanta daśa naḍvalāyāṃ mahaujasaḥ /
+kanyāyāṃ tapatāṃ śreṣṭha vairājasya prajāpateḥ // ViP_1,13.4 //
+kuruḥ puruḥ śata dyumnastapasvī satyavāñchuciḥ /
+abhimanyuś ca daśamo naḍvalāyāṃ mahaujasaḥ // ViP_1,13.5 //
+kurorajanayatputrān ṣaḍāgnoyī mahāprabhān /
+aṅgaṃ sumanasaṃ khyātiṃ kratumaṅgirasaṃ śibim // ViP_1,13.6 //
+aṅgātsunīthāpatyaṃ vai venamekamajāyata /
+sa mātāmahadoṣeṇa tena mṛtyoḥ sutātmajaḥ /
+mathyamāne ca tatrābhūtpṛthurvainyaḥ pratāpavān /
+dīpyamānaḥ svavapuṣā sākṣādagniriva jvalan // ViP_1,13.39 //
+śarāś ca divyā nabhasaḥ kavacaṃ ca papāta ha // ViP_1,13.40 //
+tasmin jāte tu bhūtāni saṃprahṛṣṭāni sarvaśaḥ // ViP_1,13.41 //
+taṃ samudrāś ca nadyaś ca ratnānyādāya sarvaśaḥ /
+toyāni cābhiṣekārthaṃ sarvāṇyevopatasthire // ViP_1,13.43 //
+pitāmahaś ca bhagavāndevair āṅgirasaiḥ saha /
+sthāvarāṇi ca bhūtāni jaṅgamāni ca sarvaśaḥ /
+mahatā rājarājyena pṛthurvainyaḥ pratāpavān /
+pitrā parājitāstasya prajāstenānurañcitāḥ /
+akṛṣṭapacyā pṛthivī siddhantyannāni cintayā /
+sarvakāmadughā gāvaḥ puṭake puṭake madhu // ViP_1,13.50 //
+sūtaḥ sūtyāṃ samutpannaḥ sautye 'hani mahāmatiḥ // ViP_1,13.51 //
+tasminneva mahāyajñejajñe prājñe 'tha māgadhaḥ /
+stūyatāmeṣa nṛpatiḥ pṛthurvainyaḥ pratāpavān /
+karmaitadanurūpaṃ vāṃ pātraṃ stotrasya cāparam // ViP_1,13.53 //
+satyavāgdānaśīloyaṃ satyasandho nareśvaraḥ /
+hrīmānmaitraḥ kṣamāśīlo vikrānto duṣṭaśānaḥ // ViP_1,13.61 //
+dharmajñaś ca kṛtajñaś ca dayāvān priyabhāṣakaḥ /
+mānyānmānayitā yajvā brahmaṇyaḥ sādhusaṃmataḥ // ViP_1,13.62 //
+ekasmin yatra nidhanaṃ prāpite duṣṭakāriṇi /
+bahūnāṃ bhavati kṣemaṃ tasya puṇyaprado vadhaḥ // ViP_1,13.74 //
+tvāṃ hatvā vasudhe bāṇair macchāsanaparāṅmukhīm /
+upāyataḥ samārabdhāḥ sarve siddhyantyupakramāḥ /
+tasmātprajāhitārthāya mama dharmabhṛtāṃ vara /
+taṃ tu vatsaṃ kuruṣva tvaṃ kṣareyaṃ yena vatsalā // ViP_1,13.80 //
+tata utsārayāmāsa śailān śatasahasraśaḥ /
+dhanuṣkoṭyā padā vainyastena śaulā vivardhitāḥ // ViP_1,13.82 //
+pravībhāgaḥ purāṇāṃ vā grāmāṇāṃ vā purābhavāt // ViP_1,13.83 //
+na sasyāni na gorakṣyaṃ na kṛṣirna vaṇikpathaḥ /
+śikhaṇḍinī havirdhānamantardhānāvdyajāyata // ViP_1,14.1 //
+havirdhānāt ṣaḍāgnoyī dhiṣaṇājayatsutānā /
+prācīnabarhiṣaṃ śukraṃ gayaṃ kṛṣṇaṃ vṛjājinau // ViP_1,14.2 //
+pracīnabarhirbhagavānmahānāsītprajāpatiḥ /
+havirdhānānmahābhāga yena saṃvardhitāḥ prajāḥ // ViP_1,14.3 //
+prācīnāgrāḥ kuśāstasya pṛthivyāṃ viśrutā mune /
+samudratanayāyāṃ tu kṛtadāro mahīpatiḥ /
+mahatastamasaḥ pāre savarṇāyāṃ mahāmate // ViP_1,14.5 //
+savarṇādhatta sāmudrī daśa prācīnabarhiṣaḥ /
+daśavarṣasahasrāṇi samudrasalileśayaḥ // ViP_1,14.7 //
+ārādhanīyo bhagavānanādipuruṣottamaḥ // ViP_1,14.16 //
+pitṝṇāṃ ca namastasmai viṣṇave pāvakātmane // ViP_1,14.30 //
+tapaścaratsu pṛthivīṃ pracetaḥsu mahīruhāḥ /
+arakṣyamāṇāmāvavrurbabhūvātha prajākṣayaḥ // ViP_1,15.1 //
+nāśakanmaruto vātuṃ vṛtaṃ khamabhavaddrumaiḥ /
+daśavarṣasahasrāṇi na śakuśceṣṭituṃ prajāḥ // ViP_1,15.2 //
+unmūlānatha tānvṛkṣānkṛtvā vāyuraśoṣayat /
+drumakṣayam atho dṛṣṭvā kiñcicchiṣṭeṣu śākhiṣu /
+upagamyābravīdetānrājā somaḥ prajāpatīn // ViP_1,15.5 //
+tejasāgnisamo bhūyaḥ prajāḥ saṃvardhayiṣyati // ViP_1,15.10 //
+saṃhṛtya kopaṃ vṛkṣebhyaḥ patnīdharmoṇa mārīṣām // ViP_1,15.73 //
+daśabhyastu pracetobhyo mārīṣāyāṃ prajāpatiḥ /
+avarāṃś ca varāṃścaiva dvipadotha catuṣpadān /
+sa sṛṣṭvā manasā dakṣaḥ paścādasṛjata striyaḥ /
+gandharvāpsarasaścaiva dānavādyāś ca jajñire // ViP_1,15.78 //
+saṃkalpāddarśanātsparśātpūrveṣāmabhavan prajāḥ /
+aṅguṣṭhāddakṣiṇāddakṣaḥ pūrvaṃ jāto mayā śrutaḥ /
+yaddaihitraś ca somasya punaḥ śvaśuratāṃ gataḥ // ViP_1,15.81 //
+kāniṣṭhyaṃ jyaiṣṭhyamapyeṣāṃ pūrvaṃ nābhūdddvijottama /
+devānāṃ dānavānāṃ ca gandharvoragarakṣasām /
+prajāḥ sṛjeti vyādiṣṭaḥ pūrvaṃ dakṣaḥ svayaṃbhuvā /
+yathā sasarja bhūtāni tathā śṛṇu mahāmune // ViP_1,15.86 //
+mānasānyeva bhūtāni pūrvaṃ dakṣo 'sṛjattadā /
+devānṛṣīnsagandharvānasurānpannagāṃs tathā // ViP_1,15.87 //
+yadāsya sṛjamānasya na vyavardhanta tāḥ prajāḥ /
+maithunenaiva dharmeṇa sisṛkṣurvividhāḥ prajāḥ /
+asaknīmāvahatkanyāṃ vīraṇasya prajāpateḥ /
+sutāṃ sutapasā yuktāṃ mahatīṃ lokadhāriṇīm // ViP_1,15.89 //
+atha putrasahasrāṇai vairuṇyāṃ pañca vīryavān /
+asiknyāṃ janayāmāsa sargahetoḥ prajāpatiḥ // ViP_1,15.90 //
+bāliśa bata yūyaṃ vai nāsyā jānīta vai bhuvaḥ /
+te tu tadvacanaṃ śrutvā prayātāḥ sarvato diśam /
+harya śveṣvatha naṣṭoṣu dakṣaḥ prācetasaḥ punaḥ /
+vairuṇyāmatha putrāṇāṃ sahasramasṛjatprabhuḥ // ViP_1,15.96 //
+vivardhayiṣavaste tu śabalāśvāḥ prajāḥ punaḥ /
+bhratṝṇāṃ padavī caiva gantavyā nātra saṃśayaḥ // ViP_1,15.98 //
+jñātvā pramāṇaṃ pṛthvyāś ca prajāḥsṛjyāmahe tataḥ // ViP_1,15.99 //
+tataḥ prabhṛti vai bhrātā bhrāturanveṣaṇe dvija /
+prayāto naśyati tathā tanna kāryaṃ vijānatā // ViP_1,15.100 //
+tāṃ ścāpi naṣṭān vijñāya putrān dakṣaḥ prajāpatiḥ /
+ṣaṣṭiṃ takṣo 'sṛjatkanyā vairuṇyāmiti naḥ śrutam // ViP_1,15.102 //
+dvekṛśāśvāya viduṣe tāsāṃ nāmāni me śṛṇu // ViP_1,15.104 //
+arundhatī vasurjāmirlaṅghā bhānumarutvatī /
+saṃkalpā ca muhūrtā ca sādhyā viśvā ca tādṛśī /
+dharmapatnyo daśatvetāstāsvapatyāni me śṛṇu /
+viśvedevāstu viśvāyāḥ sādhyā sādhyānajāyata /
+bhānostu bhānavaḥ putrā muhūrtāyāṃ muhūrtajāḥ // ViP_1,15.106 //
+laṅghāyāścaiva ghoṣotha nāgavīthī tu jāmitā // ViP_1,15.107 //
+pṛthivīviṣayaṃ sarvamarundhatyāma jāyata /
+saṃkalpāyāstu sarvātmā jajñe saṃkalpa eva hi // ViP_1,15.108 //
+ye tvanekavasuprāṇadevā jyotiḥ purogamāḥ /
+vasavoṣṭau samākhyātāsteṣāṃ vakṣyāmi vistaram // ViP_1,15.109 //
+āpo dhruvaś ca somaś ca dharmaścaivānilo 'nalaḥ /
+pratyūṣaś ca prabhāsaś ca vasavo nāmabhiḥ smṛtāḥ // ViP_1,15.110 //
+āpasya putro vaitaṇḍaḥ śramaḥ śānto 'dhvanis tathā /
+manoharāyāṃ śiśiraḥ prāṇotha ravaṇas tathā // ViP_1,15.113 //
+anilasya śivā bhāryā tasyāḥ putro manojavaḥ /
+tasya śākho viśākhaś ca naigameyaś ca pṛṣṭhajāḥ // ViP_1,15.115 //
+apatyaṃ kṛttikānāṃ tu kārttikeya iti smṛtaḥ // ViP_1,15.116 //
+pratyūṣasya viduḥ putraṃ ṛṣi nāmnātha devalam /
+bṛhaspatestu bhaginī varastrī brahmacāriṇī /
+prabhāsasya tu sā bhāryā vasūnāmaṣṭamasya tu // ViP_1,15.118 //
+viśvakarmā mahābhāgastasyāṃ jajñe prajāpatiḥ /
+kartā śilpasahasrāṇāṃ tridaśānāṃ ca vārdhakiḥ // ViP_1,15.119 //
+bhūṣaṇānāṃ ca sarveṣāṃ kartāśilpavatāṃ varaḥ /
+yaḥ sarvaiṣāṃ vimānāni devatānāṃ cakāra ha /
+manuṣyāścopajīvanti yasya śilpaṃ mahātmanaḥ // ViP_1,15.120 //
+ajaikapād ahirbudhnyas tvaṣṭā rudraś ca vīryavān /
+tvaṣṭuścāpyātmajaḥ putro viśvarūpo mahātapāḥ // ViP_1,15.121 //
+haraś ca bahurūpaś ca tryambakaścāparājitaḥ /
+vṛṣākapiś ca śambhuś ca kapardīraivataḥ smṛtaḥ // ViP_1,15.122 //
+mṛgavyādhaś ca śarvaś ca kapālī ca mahāmune /
+ekādaśaite kathitā rudrāstribhuvaneśvarāḥ // ViP_1,15.123 //
+śataṃ tvekaṃ samākhyātaṃ rudrāṇāmamitaujasām /
+aditirditirdanuścaivāriṣṭā ca surasā khasā // ViP_1,15.124 //
+surabhir vinatā caiva tāmrā krodhavaśā irā /
+pūrvamanvantare śreṣṭhā dvādaśāsansurottamāḥ /
+upasthite 'tiyaśasaścākṣuṣasyāntare manoḥ /
+āgacchata drutaṃ devā aditiṃ saṃpraviśya vai /
+evamuktvā tu te sarve cākṣuṣasyāntare manoḥ /
+mārīcātkaśyapājjātā adityā dakṣakanyayā // ViP_1,15.129 //
+tatra viṣṇuś ca śakraś ca jajñāte punar eva hi /
+aryamā caiva dhātā ca tvaṣṭā pūṣā tathaiva ca // ViP_1,15.130 //
+aṃśurbhagaścātitejā ādityā dvādaśa smṛtāḥ // ViP_1,15.131 //
+cākṣuṣasyāntare pūrvamāsanye tuṣitāḥ surāḥ /
+vaivasvate 'ntare te vai ādityā dvādaśa smṛtāḥ // ViP_1,15.132 //
+saptaviṃśati yāḥ proktāḥ somapatnyotha suvratāḥ /
+ariṣṭanemipatnīnāmapatyānīha ṣoḍaśa // ViP_1,15.134 //
+pratyaṅgirasajāḥ śreṣṭhā ṛco brahmarṣisatkṛtāḥ // ViP_1,15.136 //
+kṛśāśvasya tu devarṣerdevapraharaṇāḥ smṛtāḥ // ViP_1,15.137 //
+sarve devagaṇāstāta trayastriṃśattu chandajāḥ /
+dityā putradvayaṃ jajñe kaśyapāditi naḥ śrutam /
+hiraṇyakaśipuścaiva hiraṇyākṣaś ca durjayaḥ // ViP_1,15.140 //
+hiraṇyakaśipoḥ putrāścātvāraḥ prathitaujasaḥ /
+anuhlādaś ca hlādaś ca prahlādaścaiva buddhimān /
+diteḥ putro mahāvīryo hiraṇyakaśipuḥ purā /
+prahlādaputra āyuṣmāñchibirbāṣkala eva ca /
+baleḥ putraśataṃ tvasīdbāṇajyeṣṭhaṃ mahāmune /
+hiraṇyākṣasutāścāsansarva eva mahā balā // ViP_1,21.2 //
+ekacakro mahābāhustārakaś ca mahābalaḥ /
+svarbhānostu prabhā kanyā śarmiṣṭhā vārṣaparvaṇī /
+vaiśvānarasute cobhe pulomā kālakā tathā /
+tābhyā putrasahasrāṇi ṣaṣṭirdānavasattamāḥ /
+paulomāḥ kālake yāś ca mārīcatanayāḥ smṛtāḥ // ViP_1,21.9 //
+tato 'pare mahāvīryā dāruṇā stvatinirghṛṇā /
+tryaṃśaḥ śalyaś ca balavān nabhaścaiva mahābalaḥ /
+vātāpī namuciścaiva ilvalaḥ khasṛmas tathā // ViP_1,21.11 //
+ete vai dānavāḥ śreṣṭhā danuvaṃśavivardhanāḥ /
+eteṣāṃ putrapautraś ca śataśo 'tha sahasraśaḥ // ViP_1,21.13 //
+samutpannāḥ sumahatā tapasā bhāvitātmanaḥ // ViP_1,21.14 //
+ṣaṭ sutāḥ sumahāsattvāstāmrāyāḥ parikīrtitāḥ /
+śukī śyenī ca bhāsī ca sugrīvī śucigṛddhrakā // ViP_1,21.15 //
+śukī śukānajanayadulūkapratyulūkikān /
+śyenī śyenāṃs tathā bhāsī bhāsāngṛrdhyāṃś ca gṛddhryapi // ViP_1,21.16 //
+śucyau dakānpakṣigaṇānsugrīvī tu vyajāyata /
+aśvānuṣṭrāngardabhāṃ ś ca tāmrāvaṃśaḥ prakīrtitaḥ // ViP_1,21.17 //
+suparṇaḥ patatāṃ śreṣṭho dāruṇaḥ pannagāśanaḥ // ViP_1,21.18 //
+surasāyāṃ sahasraṃ tu sarpāṇāmamitaujasām /
+anekaśirasāṃ brahman khecarāmāṃ mahātmanām // ViP_1,21.19 //
+suparṇavaśāgā brahman jajñire naikamastakāḥ // ViP_1,21.20 //
+teṣāṃ pradhānabhūtāstu śeṣavāsukitakṣakāḥ /
+śaṅkhaśveto mahāpadmaḥ kambalāśvatarau tathā // ViP_1,21.21 //
+elāputras tathā nāgaḥ karkoṭakadhanañjayau /
+gaṇaṃ krodhavaśaṃ viddhi tasyāḥ sarve ca daṃṣṭriṇaḥ /
+sthalajāḥ pakṣiṇobjāś ca dāruṇāḥ piśitāśanāḥ // ViP_1,21.23 //
+gāstu vai janayāmāsa surābhīrmahiṣīs tathā /
+irāvṛkṣalatāvallīstṛmajatīś ca sarvaśaḥ // ViP_1,21.24 //
+svasā tu yakṣarakṣāṃsi munirapsarasas tathā /
+ārīṣṭā tu mahāsattvān gandharvānsamajījanat // ViP_1,21.25 //
+ete kaśyapadāyādāḥ kīrtitāḥ sthāṇujaṅgamāḥ /
+teṣāṃ putrāś ca pautrāś ca śataśo 'tha sahasraśaḥ // ViP_1,21.26 //
+ditirvinaṣṭaputrā vai toṣayāmāsa kāśyapam /
+tasyā ścaivāntaraprepsuratiṣṭhatpākaśāsanaḥ /
+ūne varṣaśate cāsyā dadarśāntaramātmanā // ViP_1,21.36 //
+akṛtvā pādayoḥ śaucaṃ ditiḥ śayanamāviśat /
+nidrāṃ cāhārayāmāsa tasyāḥ kukṣiṃ praviśya saḥ // ViP_1,21.37 //
+mā rodīriti taṃ śakraḥ punaḥpunarabhāṣata /
+ekaikaṃ saptadhā cakre vajreṇārividāriṇā /
+devā ekonapachcāśatsahāyā vajrapāṇinaḥ // ViP_1,21.41 //
+ādityānāṃ patiṃ viṣṇuṃ vasūnāmatha pāvakam // ViP_1,22.3 //
+prajāpatīnāṃ dakṣaṃ tu vāsavaṃ marutāmapi /
+daityānāṃ dānavānāṃ ca prahlādamadhipaṃ dadau // ViP_1,22.4 //
+uccaiḥśravasamaśvānāṃ vṛṣabhaṃ tu gavāmapi // ViP_1,22.6 //
+vanaspatīnāṃ rājāneḥ plakṣamaivābyaṣecayat /
+pūrvasyāṃ diśi rājānaṃ vairājasya prajāpateḥ /
+diśāpālaṃ sudhanvānaṃ sutaṃ vai so 'bhyaṣecayat // ViP_1,22.11 //
+dakṣiṇasyāṃ diśi tathā kardamasya prajāpateḥ /
+putraṃ śaṅkhapadaṃ nāma rājānaṃ so 'bhyaṣecayat // ViP_1,22.12 //
+paścimasyāṃ diśi tathā rajasaḥ putramacyutam /
+ketumantaṃ mahātmānaṃ rājānaṃ so 'bhyaṣaicayat // ViP_1,22.13 //
+tathā hiraṇyaromāṇaṃ parjanyasya prajāpateḥ /
+udīcyāṃ diśi durdharṣaṃ rājānamabhyaṣecayat // ViP_1,22.14 //
+tair iyaṃ pṛthivī sarvā saptadvīpā sapattanā /
+atītā vartamānāś ca ye bhaviṣyanti cāpare /

@@ -1,0 +1,1352 @@
+śrutvā pādaṃ tṛtīyaṃ tu krāntaṃ sūtena dhīmatā  /
+tataścaturthaṃ papracchuḥ pādaṃ vai ṛṣisattamāḥ  // 3,1.1 //
+pādaḥ krāntastṛtīyo 'yamanuṣaṅgeṇa nastvayā  /
+caturthaṃ vistarātpādaṃ saṃhāraṃ pārikīrttaya  // 3,1.2 //
+manvantarāṇi sarvāṇi pūrvāṇyevāparaiḥ saha  /
+saptarṣīṇāmathaiteṣāṃ sāṃpratasyāntare manoḥ  // 3,1.3 //
+vistareṇānupūrvyā ca sarvameva bravīhi naḥ  // 3,1.4 //
+pādaṃ tvimaṃ sasaṃhāraṃ caturthaṃ munisattamāḥ  // 3,1.5 //
+vistareṇānupūrvyā ca nisargaṃ śṛṇuta dvijāḥ  // 3,1.6 //
+manvantarāṇāṃ saṃkṣepaṃ bhaviṣyaiḥ saha saptabhiḥ  /
+manvantarāṇi saṃkṣepācchṛṇutā nāgatāni me  // 3,1.8 //
+anāgatāśca saptaiva smṛtāstviha maharṣayaḥ  /
+kauśiko gālavaścaiva jāmadagnyaśca bhārgavaḥ  // 3,1.10 //
+dvaipāyano vaśiṣṭaśca kṛpaḥ śāradvatastathā  /
+ātreyo dīptimāṃścaiva ṛṣayaśṛṅgastu kāśyapaḥ  // 3,1.11 //
+bharadvājastathā drauṇiraśvatthāmā mahāyaśāḥ  /
+ete sapta mahātmāno bhaviṣyāḥ paramarṣayaḥ  /
+sutapāścāmitābhāśca sukhāścaiva gaṇāstrayaḥ  // 3,1.12 //
+teṣāṃ gaṇastu devānāmekaiko viṃśakaḥ smṛtaḥ  /
+nāmatastu pravakṣyāmi nibodhadhvaṃ samāhitāḥ  // 3,1.13 //
+ṛtustapaśca śukraśca kṛtirnemiḥ prabhākaraḥ  /
+prabhāso māsakṛddharmastejoraśmiḥ kraturvirāṭ  // 3,1.14 //
+arciṣmān dyotano bhānuryaśaḥ kīrttirbudho dhṛtiḥ  // 3,1.15 //
+viṃśatiḥ sutapā hyete nāmabhiḥ parikīrttitāḥ  /
+prabhurvibhurvibhāsaśca jetā hantā rihā ṛtuḥ  // 3,1.16 //
+sumatiḥ pramatirdīptiḥ samākhyāto maho mahān  /
+dehī munirinaḥ poṣṭā samaḥ satyaśca viśrutaḥ  // 3,1.17 //
+ityetehyamitābhāstu viṃśatiḥ parikīrttitāḥ  /
+homo havyaṃ hutaṃ dānaṃ deyaṃ dātā tapaḥ śamaḥ  /
+dhruvaṃ sthānaṃ vidhānaṃ ca niyamaśceti viṃśatiḥ  // 3,1.19 //
+sukhā hyete samākhyātāḥ sāvarṇye pratharmetare  /
+mārīcasyaiva te putrāḥ kaśyapasya mahātmanaḥ  // 3,1.20 //
+sāṃpratasya bhaviṣyanti ṣaṣṭirdevāstadantare  /
+virajāścārvarīvāṃśca nirmokādyāstathā pare  /
+nava cānyeṣu vakṣyāmi sāvarṇeṣvantareṣu vai  // 3,1.22 //
+sāvarṇamanavaścānye bhaviṣyā brahmaṇaḥ sutāḥ  /
+merusāvarṇitaste vai catvāro divyadṛṣṭayaḥ  // 3,1.23 //
+dakṣasya te hi vauhitrāḥ kriyāyā duhituḥ sutāḥ  /
+mahatā tapasā yuktā merupṛṣṭhe mahau jasaḥ  // 3,1.24 //
+brahmādibhistejanitā dakṣeṇaiva ca dhīmatā  /
+maharlokaṃ gatā vṛttā bhaviṣyā merumāśritāḥ  // 3,1.25 //
+mahānubhāvāste pūrvaṃ jajñire cākṣuṣentare  /
+sāvarṇā nāmataḥ pañca catvāraḥ paramarṣijāḥ  // 3,1.27 //
+jyeṣṭhaḥ saṃjñāsuto nāma murvaivasvataḥ prabhuḥ  // 3,1.28 //
+caturdaśaite manavaḥ kīrtitā kīrtivarddhanāḥ  // 3,1.29 //
+vede smṛtau purāṇe ca sarve te prabhaviṣṇavaḥ  /
+prajānāṃ patayaḥ sarve bhūtānāṃ patayaḥ sthitāḥ  // 3,1.30 //
+tairiyaṃ pṛthivī sarvā saptadvīpā sapattanā  /
+pūrṇaṃ yugasahasraṃ vai paripālyā nareśvaraiḥ  // 3,1.31 //
+caturddaśaite vijñeyāḥ sargāḥ svāyaṃbhuvādayaḥ  // 3,1.32 //
+vinivṛttādhikārāste mahārlokaṃ samāśritāḥ  // 3,1.33 //
+samatītāstu ye teṣāmaṣṭau ṣaṭ ca tathāpare  /
+pūrveṣu sāṃprataścāyaṃ śāsti vaivasvataḥ prabhuḥ  // 3,1.34 //
+ye śiṣṭāstānpravakṣyāmi saha devarṣidānavaiḥ  /
+saha prajā nisargeṇa sarvāṃste 'nāgatāndvijaḥ  // 3,1.35 //
+vaivasvata nisargeṇa teṣāṃ jñeyastu vistaraḥ  /
+anūnā nātiriktāste yasmātmarve vivasvataḥ  // 3,1.36 //
+kulekule nisargāstu tasmājjñeyā vibhāgaśaḥ  /
+dakṣasya kanyā dharmiṣṭhā suvratā nāma viśrutā  /
+sarvakanyāvariṣṭhā tu jyeṣṭhā yā vīriṇīsutā  // 3,1.39 //
+gṛhītvā tāṃ pitā kanyāṃ jagāma brahmaṇo 'tike  /
+bhavadharmasamīpasthaṃ dakṣaṃ brahmābhyabhāṣata  /
+caturo vai manūnputrāṃścāturvarṇyakarāñchubhān  /
+tāṃ kanyāṃ manasā jagmustrayaste brahmaṇā saha  /
+satyābhidhyāyināṃ teṣāṃ sadyaḥ kanyā vyajāyata  // 3,1.43 //
+sadṛśānūpatasteṣāṃ caturo vai kumārakān  /
+saṃsiddhāḥ kāryakaraṇe saṃbhūtāste śriyānvitāḥ  // 3,1.44 //
+upabhogāsamarthaiśca sadyojātaiḥ śarīrakaiḥ  /
+te dṛṣṭvā tānsvayaṃbhūtānbrahmavyāhāriṇastadā  // 3,1.45 //
+yasya yaḥ sadṛśaścāpi rūpe vīrye ca mānataḥ  // 3,1.47 //
+taṃ gṛhṇātu sa bhadraṃ vo varṇato yasya yaḥ samaḥ  /
+tasmādātmasamaḥ putraḥ piturmātuśca vīryataḥ  /
+evaṃ te samayaṃ kṛtvā sarveṣāṃ jagṛhaḥ sutān  // 3,1.49 //
+cākṣuṣasyāntare 'tīte prāpte vaivasvatasya ha  /
+jñeyaḥ saṃjñāsuto vidvānmanurvaivasvataḥ prabhuḥ  // 3,1.52 //
+savarṇāyāḥ sutaścānyaḥ smṛto vaivasvato manuḥ  /
+sāvarṇama navo ye ca catvārastu maharṣijāḥ  // 3,1.53 //
+tapasā saṃbhṛtātmānaḥ sveṣu manvantareṣu vai  /
+bhaviṣyeṣu bhaviṣyanti sarvakāryārthasādhakāḥ  // 3,1.54 //
+parāmarīcigarbhāśca sudharmāṇaśca te trayaḥ  /
+saṃbhūtāśca mahātmānaḥ sarve vaivasvatentare  // 3,1.55 //
+bhaviṣyanti bhaviṣyāstu ekaiko dvādaśo gaṇaḥ  // 3,1.56 //
+pārā dvādaśa vijñeyā uttarāṃstu nibodhata  // 3,1.57 //
+dadhikrāvā vipakvaśca praṇīto vijayo madhuḥ  // 3,1.58 //
+sudharmāṇastu vakṣyāmi nāmatastānnibodhata  // 3,1.59 //
+sunemirdyutayaścaiva sudharmāṇaḥ prakīrtitāḥ  /
+teṣāmindrastadā bhāvyo hyadbhuto nāma nāmataḥ  // 3,1.61 //
+medhātithiśca paulastyo vasuḥ kāśyapa evaṃ ca  // 3,1.62 //
+jyotiṣmānbhārgavāścaiva dyutimānaṅgirāstathā  /
+vasinaścaiva vāsiṣṭha ātreyo havyavāhanaḥ  // 3,1.63 //
+dhṛtiketurdīptiketuḥ śāpahastanirāmayāḥ  // 3,1.64 //
+pṛthuśravāstathānīko bhūridyumno bṛhadyaśaḥ  /
+prathamasya tu sāvarṇernava putrāḥ prakīrtitāḥ  // 3,1.65 //
+dvītīyasya tu sāvarṇerbhāvyasyaivāntare manoḥ  // 3,1.66 //
+sudhāmāno viruddhāśca dvāveva tu gaṇau smṛtau  /
+dīptimantaśca te sarve śatasaṃkhyāśca te samāḥ  // 3,1.67 //
+prāṇānāṃ yacchataṃ proktaṃ ṛṣibhiḥ puraṣeti vai  /
+teṣāmindrastathā vidvānbhaviṣyaḥ śāntirucyate  /
+haviṣmānpaulahaḥ śrīmānsukīrtiścātha bhārgavaḥ  // 3,1.69 //
+āpomūrtistathātreyo vasiṣṭhaścāpavaḥ smṛtaḥ  /
+paulastyo 'pratimaścāpi nābhāgaścaiva kāśyapaḥ  // 3,1.70 //
+abhimanyuścāṅgirasaḥ saptaite paramarṣayaḥ  /
+sukṣetraścottamaujāśca bhūrisenaśca vīryavān  // 3,1.71 //
+śatānīko nirāmitro vṛṣaseno jayadrathaḥ  /
+bhūridyumnaḥ suvarcāśca daśaitemānavāḥ smṛtāḥ  // 3,1.72 //
+ekādaśe tu paryāye sāvarṇe vai tṛtīyake  /
+nirvāṇaratayo devāḥ kāmagā vai manojavāḥ  // 3,1.73 //
+gaṇāstvete trayaḥ khyātā devātānāṃ mahātmanām  /
+ekaikastriṃśatasteṣāṃ gaṇastu tridivaukasām  // 3,1.74 //
+māsasyāhāni triṃśattu yāni vai kavayo viduḥ  /
+nirvāṇaratayo devā rātrayastu vihaṅgamāḥ  // 3,1.75 //
+gaṇastṛtīyo yaḥ prokte devatānāṃ bhaviṣyati  /
+manojavā mūrūrttāstu iti devāḥ prakīrtitāḥ  // 3,1.76 //
+ete hi brahmaṇaḥ putrā bhaviṣyā mānavāḥ smṛtāḥ  /
+teṣāmidro vṛṣā nāma bhaviṣyaḥ surarāṭ tataḥ  // 3,1.77 //
+teṣāṃ saptaṛṣīṃścāpi kīrtyamānānnivaudhata  /
+haviṣmānkāśyapaścāpi vapuṣmāṃścaiva bhārgavaḥ  // 3,1.78 //
+āruṇiśca tathātreyo vasiṣṭho naga eva ca  /
+puṣṭirāṅgiraso jñeyaḥ paulastyo niścarastathā  // 3,1.79 //
+sarvavegaḥ sudharmā ca devānīkaḥ purovahaḥ  // 3,1.80 //
+kṣemadharmā graheṣuśca ādarśaḥ paiṇḍrako maruḥ  /
+sāvarṇasya tu te putrāḥ prājāpatyasya vai nava  // 3,1.81 //
+caturtho rudrasāvarṇo devāṃstasyāntare śṛṇu  // 3,1.82 //
+pañcaiva tugaṇāḥ proktā devatānāmanāgatāḥ  /
+haritā rohitāścaiva devāḥ sumanasastathā  // 3,1.83 //
+ūrjā svāhā svadhā tārā daśete haritāḥ smṛtāḥ  /
+tapo jñānī mṛtiścaiva varcā bandhuśca yaḥ smṛtaḥ  // 3,1.85 //
+puṣṭirvidhiśca vai devā daśaite rohitāḥ smṛtāḥ  // 3,1.86 //
+tuṣtādyāstu ye devāstraya striṃśatprakīrtitāḥ  /
+suparvā vṛṣabhaḥ pṛṣṭā kapidyumnavipaścitaḥ  /
+ete devāḥ sukarmāṇaḥ sutarāṃśca nibodhata  /
+varṣo divyastathāñjiṣṭho varcasvī dyutimānkaviḥ  // 3,1.89 //
+śubho haviḥ kṛtaprāptirvyāpṛto daśamastathā  /
+sutārā nāmatastvete devā vai saṃprakīrtitāḥ  // 3,1.90 //
+teṣāmindrastu vijñeyo ṛtadhāmā mahāyaśāḥ  /
+tapomūrtistvāṅgirasastapasvī kāśyapastathā  /
+bhārgavaḥ saptamasteṣāṃ vijñeyastu tapodhṛtiḥ  /
+devavānupadevaśca devaśreṣṭho vidūrathaḥ  /
+mitrabāhuḥ suvarcāśca dvādaśasya manoḥ sutāḥ  /
+traya eva gaṇāḥ proktā devānāṃ tu svayaṃbhuvā  /
+brahmaṇo mānasāḥ putrāste hi sarve mahātmanaḥ  // 3,1.96 //
+sutrāmāṇaḥ sudharmāṇaḥ sukarmāṇaśca te trayaḥ  /
+tridaśānāṃ gaṇāḥ proktā bhaviṣyāḥ somapāyinām  // 3,1.97 //
+trayastriśaddevatā yāḥ pṛthagijyāstu yājñikaiḥ  /
+ājyena pṛṣadājyena grahaśreṣṭena caiva ha  // 3,1.98 //
+sutrāmāṇaḥ prayājyāstu ājyāśā ye tu sāṃpratam  // 3,1.99 //
+sukarmāṇo 'nuyājyākhyāḥ pṛṣadājyāśinastu ye  /
+upayājyāḥ sudharmāṇa iti devāḥ prakīrttitāḥ  // 3,1.100 //
+pulahātmajaputrāste vijñeyāstu ruceḥ sutāḥ  // 3,1.101 //
+niṣprakaṃpyastathātreyo nirmohaḥ kāśyapastathā  /
+sutapāścaiva vāsiṣṭhaḥ saptaite tu trayodaśa  // 3,1.103 //
+devatānāṃ gaṇāḥ pañca proktā ye tu bhaviṣyati  /
+cākṣuṣāśca pavitrāśca kaniṣṭhā bhrājitāstathā  // 3,1.106 //
+vācāvṛddhāśca ityete pañca devagaṇāḥ smṛtāḥ  /
+niṣādādyāḥ svarāḥ sapta sapta tānviddhi cākṣuṣān  // 3,1.107 //
+bṛhadādyāni sāmāni kaniṣṭhānsapta tānviduḥ  /
+sapta lokāḥ pavitrāste bhrājitāḥ saptasiṃdhavaḥ  // 3,1.108 //
+vācāvṛddhānṛṣīnviddhi manoḥ svāyabhuvasya ye  /
+sarve manvantaredrāśca vijñeyāstulyalakṣaṇāḥ  // 3,1.109 //
+tejasā tapasā vuddhyā balaśrutaparākramaiḥ  /
+bhūtāpavādino hṛṣṭā madhyasthā bhūtavādinaḥ  // 3,1.111 //
+bhūtābhavādinaḥ śaktāstrayo vedāḥ pravādinām  /
+agnīdhraḥ kāśyapaścaiva paulastyo māgadhaśca yaḥ  // 3,1.112 //
+bhārgavo hyagnivāhuśca śucirāṅgirasastathā  /
+sāvarṇā manavo hyete catvāro brahmaṇaḥ sutāḥ  // 3,1.115 //
+niḥśeṣeṣu tu sarveṣu tadā manvantareṣviha  // 3,1.117 //
+tataḥ sthānā ni śubhrāṇi sthānināṃ tāni vai tadā  // 3,1.120 //
+prabhraśayante vimuktāni tārā ṛkṣagrahaistathā  /
+saśarīrāśca śrūyante janaloke sahānugāḥ  // 3,1.123 //
+evaṃ deveṣvatīteṣu maharlokājjanaṃ prati  /
+bhūtādiṣvavaśiṣṭeṣu sthāvarāṃ teṣu teṣu vai  // 3,1.124 //
+śūnyeṣu lokasthāneṣu mahānteṣu bhuvādiṣu  /
+deveṣu ca gateṣvūrddhvaṃ sāyujyaṃ kalpavāsinām  // 3,1.125 //
+saṃhṛtya tāstato brahmā devarṣipitṛdānavān  /
+saṃsthāpayati vai sargamahardṛṣṭvā yugakṣaye  // 3,1.126 //
+rātriṃ yugasahasrāntāṃ te 'horātravido janāḥ  // 3,1.127 //
+trividhiḥ sarvabhūtānāmityeṣa pratisaṃcaraḥ  // 3,1.128 //
+pratisarge tu bhūtānāṃ prākṛtaḥ karaṇakṣayaḥ  // 3,1.129 //
+jñānāccātyantikaḥ proktaḥ kāraṇānāmasaṃbhavaḥ  /
+tataḥ saṃhṛtya tānbrahmā devāṃstrailokyavāsinaḥ  // 3,1.130 //
+suṣupsurbhagavānbrahmā prajāḥ saṃharate tadā  // 3,1.131 //
+tatrātmasthāḥ prajāḥ kartuṃ prapede sa prajāpatiḥ  // 3,1.132 //
+tadā bhavatyanāvṛṣṭiḥ saṃtatā śatavārṣikī  /
+tayā yānyalpasārāṇi sattvāni vṛthivītale  // 3,1.133 //
+saptaraśmiratho bhūtvā udattiṣṭhadvibhāvasuḥ  // 3,1.134 //
+harītāraśmayastasyadīpyamānāstu saptatiḥ  // 3,1.135 //
+bhaumaṃ kāṣṭhendhanaṃ tejo bhṛśamadbhistu dīpyate  // 3,1.136 //
+nāvṛṣṭyā tapate sūryyo nāvṛṣṭyā pariṣicyate  // 3,1.137 //
+nāvṛṣṭyā pariviśyeta vāriṇā dīpyate raviḥ  /
+tenāhāreṇa saṃdīptāḥ sūryāḥ sapta bhavantyuta  // 3,1.139 //
+tataste raśmayaḥ sapta sūryabhūtāścaturddiśam  /
+prāpnuvanti ca tābhistu hyūrddhvaṃ cādhaśca raśmibhiḥ  /
+dīpyante bhāskarāḥ sapta yugāntāgnipratāpinaḥ  // 3,1.141 //
+te vāriṇā pradīptāśca bahusāhasraraśmayaḥ  /
+svaṃ samāvṛtya tiṣṭhanti nirdahanto vasuṃdharām  // 3,1.142 //
+tatasteṣāṃ pratāpena dahyamānā vasuṃdharā  /
+sādrinadyarṇavā pṛthvī nisnehā samapadyata  // 3,1.143 //
+dīptābhiḥ saṃtatābhiśca citrābhiśca samantataḥ  /
+sūryāgnīnāṃ pravṛddhānāṃ saṃsṛṣṭānāṃ parasparam  /
+sarvalokapraṇāśaśca so 'gnirbhūtvānumaṇḍalī  /
+nirvṛkṣā nistṛṇā bhūmiḥ kūrmapṛṣṭhasamā bhavet  // 3,1.147 //
+aṃbarīṣamivābhāti sarvamapyakhilaṃ jagat  /
+dvīpāśca parvatāścaiva varṣāṇyatha mahodadhiḥ  /
+samudrebhyo nadībhyaśca pātālebhyaśca sarvaśaḥ  /
+tataḥ saṃvarddhitaḥ śailānati kramya grahāṃstathā  /
+tataḥ sa pṛthivīṃ bhittvā rasātalamaśoṣyat  /
+nirdahyānte tu pātālaṃ vāyulokamathādahat  // 3,1.153 //
+adhastātpṛthivīṃ dagdhvā tūrddhvaṃ sa dahato divam  /
+yojanānāṃ sahasrāṇi prayutānyarbudāni ca  // 3,1.154 //
+gandharvāṃśca piśācāṃśca samahoragarākṣasān  // 3,1.155 //
+vyāpteṣu teṣu lokeṣu tiryagūrddhvamathāgninā  // 3,1.157 //
+tattejaḥ samanuprāpya kṛtsnaṃ jagadidaṃ śanaiḥ  /
+ayoguḍanibhaṃ sarvaṃ tadā hyevaṃ prakāśate  // 3,1.158 //
+tato gajakulākārāstaḍidbhiḥ samalaṅkṛtāḥ  /
+uttiṣṭhanti tadā ghorā vyomni saṃvartakā ghanāḥ  // 3,1.159 //
+kecinnīlotpalaśyāmāḥ kecitkumudasannibhāḥ  /
+kecidvaiḍūryasaṃkāśā indranīlanibhāḥ pare  // 3,1.160 //
+śaṅkhakundanibhāścānye jātyañjananibhāstathā  /
+dhūmravarṇā ghanāḥ kecitkecitpītāḥpayodharāḥ  // 3,1.161 //
+kecidrāsabhavarṇābhā lākṣārasanibhāstathā  /
+manaśilābhāstvapare kapotābhāstathāṃbudāḥ  // 3,1.162 //
+cāṣapatranibhāḥ keciduttiṣṭhanti ghanā divi  // 3,1.163 //
+kecitpuravarākārāḥ kecidgajakulopamāḥ  /
+kecitparvatasaṃkāśāḥ kecitsthalanibhā ghanāḥ  // 3,1.164 //
+krīḍāgāranibhāḥ kecitkecinmīnakulopamāḥ  /
+bahurūpā ghorarūpā ghorasvaraninādinaḥ  // 3,1.165 //
+tataste jaladā ghorarāviṇo bhāskarātmakāḥ  // 3,1.166 //
+saptadhā saṃvṛtātmānastamagniṃ śamayantyuta  /
+sughoramaśivaṃ sarvaṃ nāśayanti ca pāvakam  /
+pravṛṣṭaiśca tathātyarthaṃ vāriṇā pūryate jagat  // 3,1.168 //
+naṣṭe cāgnau varṣagate payodāḥ pāvakodbhavāḥ  // 3,1.169 //
+dhārābhiḥ pūrayantīmaṃ codyamānāḥ svayaṃbhuvā  // 3,1.170 //
+sādridvīpāntaraṃ pītaṃ jalamanneṣu tiṣṭhati  // 3,1.171 //
+saṃveṣṭayati ghorātmā divi vāyuḥ samatataḥ  // 3,1.172 //
+tasminnekārmave ghore naṣṭe sthāvārajaṅgame  /
+athāṃbhasa''vṛte loke prāhurekārmavaṃ budhāḥ  /
+atha bhūmirjalaṃ khaṃ ca vāyuścaikārmave tadā  // 3,1.174 //
+naṣṭe 'nale 'ndhabhūte tu prājñāyata na kiñcana  /
+pārthivāstvatha sāmudrā āpo daivyāśca sarvaśaḥ  // 3,1.175 //
+ābhāti yasmāttadbhābhirbhāśabdo vyāptidīptiṣu  // 3,1.177 //
+ekārmave tadā hyo vai na śīghrastena tā narāḥ  /
+tāvantaṃ kālamevaṃ tu bhavatyekārmavaṃ jagat  /
+tadā tu sarve vyāpārā nivarttante prajāpateḥ  // 3,1.180 //
+ekamekārṇave tasminnaṣṭe sthāvarajaṅgame  /
+tadā sa bhavati brahmā sahasrākṣaḥ sahasrapāt  // 3,1.181 //
+sahasraśīrṣā sumanāḥ sahasrapātsahasracakṣurvadanaḥ sahasravāk  /
+ādityavarmā bhuvanasya goptā apūrva ekaḥ prathamasturāṣāṭ  /
+suṣupsuraprakāśepsuḥ sa rātriṃ kurute prabhuḥ  // 3,1.184 //
+caturvidhā yadā śete prajāḥ sarvā layaṃ gatāḥ  /
+paśyanti taṃ mahātmānaṃ kālaṃ sapta maharṣayaḥ  // 3,1.185 //
+bhṛgvādayo mahātmānaḥ pūrve vyākhyātalakṣaṇāḥ  // 3,1.186 //
+satyādīnsaptalokānvai te hi paśyanti cakṣuṣā  /
+brahmāṇaṃ te tu paśyanti sadā brāhmīṣu rātriṣu  // 3,1.187 //
+saptarṣayaḥ prapaśyanti svapnaṃ kālaṃ svarātriṣu  /
+kalpānāṃ parameṣṭi tvāttasmādādyaḥ sa paṭhyate  // 3,1.188 //
+sa sraṣṭā sarvabhūtānāṃ kalpādiṣu punaḥ punaḥ  /
+evameśāyitvā tu hyātmanyeva prajāpatiḥ  // 3,1.189 //
+athātmani mahātejāḥ sarvamādāya sarvakṛt  /
+manaḥ sisṛkṣayā yuktaḥ sargāya nidadhe punaḥ  // 3,1.191 //
+dehairviyogaḥ sattvānāṃ tasminvai kṛtsnaśaḥ smṛtaḥ  /
+tato dhagdheṣu bhūteṣu sarveṣvādityaraśimabhiḥ  // 3,1.193 //
+gandharvādīni sattvāni piśāyāntāni sarvaśaḥ  // 3,1.194 //
+tadā tānyāpi dagdhāni dhūtapāpāni sarvaśaḥ  /
+vyuṣṭāyāṃ ca racanyāṃ tu brahmaṇo 'vyaktayonitaḥ  /
+jāyante hi punastāni sarvabhūtāni kṛtasnaśaḥ  // 3,1.197 //
+ṛṣayo manavo devāḥ prajāḥ sarvāścaturvidhāḥ  /
+tathā janmanirodhaśca bhūtānāmiha dṛśyate  // 3,1.199 //
+ābhūtasaṃplavāttasmādbhavaḥ saṃsāra ucyate  /
+yathā sarvāṇi bhūtānāṃ jāyante varṣaṇeṣviha  // 3,1.200 //
+sthāvarādīni niyamātkalpe kalpe tathā prajāḥ  /
+yathārttāvṛtuliṅgāni nānārūpāṇi paryaye  // 3,1.201 //
+dṛśyante tāni tānyeva tathā brahmadyurātriṣu  /
+niṣkramante viśante ca prajāḥ kāle prajāpatim  /
+brahmāṇaṃ sarvabhūtāni mahāyogaṃ maheśvaram  // 3,1.203 //
+sa sraṣṭā sarvabhūtānāṃ kalpādiṣu punaḥ punaḥ  /
+yenaiva sṛṣṭāḥ prathamaṃ prayātā āpo hi mārgeṇa mahītale 'smin  /
+ye cāpi devā manavaḥ prajeśā anye 'pi ye svargagatāśca siddhāḥ  /
+tadbhāvitāḥ khyātivaśāśca dharmyāḥ punarvisargeṇa bhavanti sattvāḥ  // 3,1.207 //
+ata ūrdhvaṃ pravakṣyāmi kālamābhūtasaṃplavam  /
+manvantarāṇi yāni syurvyākhyātāni mayā dvijāḥ  // 3,1.208 //
+sā yugākhyā sahasraṃ tu sarvāṇyevāntarāṇi vai  // 3,1.209 //
+asyāḥ sahasre dva pūrṇa viśeṣaḥ kalpa ucyate  /
+nimeṣatulyamātrā hi kṛtā labdakṣaṇena tu  /
+mānuṣākṣinimeṣāstu kāṣṭhā pañcadaśa smṛtāḥ  // 3,1.211 //
+nava kṣaṇastu pañjaiva viṃśatkāṣṭhā tu te trayaḥ  /
+prasthā sapto dakāścaiva sādhikāktu lavaḥ smṛtaḥ  // 3,1.212 //
+lavāstriṃśatkalā jñeyā muhūrttastriṃśataḥ kalāḥ  /
+ahorātraṃ kalānāṃ tu adhikāni śatāni ṣaṭ  /
+tāścaiva saṃkhyāyā jñeyāścandrādityagatiryathā  // 3,1.214 //
+nimeṣā daśapañcaivaṃ kāṣṭhā stāstriṃśataḥ kalā  /
+triṃśatkalā muhūrttaṃ tu daśabhāgaṃ kalā smṛtam  // 3,1.215 //
+catvāriṃśatkalāḥ pañca muhūrtta iti saṃjñitaḥ  /
+muhūrttāśca lavāścāpi pramāṇajñaiḥ prakalpitāḥ  // 3,1.216 //
+tathānenāṃbhasaścāpiṃ palānyatha trayodaśa  /
+ete vārāplutaprasthāścatvāro nālikoccayaḥ  /
+hemamāṣaiḥ kṛtacchidraścaturbhiścaturaṅgulaiḥ  // 3,1.218 //
+ravergativiśeṣeṇa sarveṣveteṣu nityaśaḥ  // 3,1.219 //
+tadaharmānuṣaṃ jñeyaṃ nākṣatraṃ tu daśādhikam  // 3,1.220 //
+sāvanena tu mānena abdo 'yaṃ mānuṣaḥ smṛtaḥ  /
+ahlānena tu yā saṃkhyā māsartvayanavārṣikī  /
+tadā baddhamidaṃ jñānaṃ saṃjñayā hyupalakṣitam  // 3,1.222 //
+kalānāṃ tu parimāṇaṃ kalā ityabhidhīyate  /
+yadaho brahmaṇaḥ proktaṃ divyā koṭī tu sā smṛtā  // 3,1.223 //
+śatānāṃ ca sahasrāṇi daśadviguṇitāni ca  /
+navatiṃ ca sahasrāṇi tathaivānyāni yāni tu  // 3,1.224 //
+saṃkhyāsaṃbhajanaṃ jñānamapṛcchansutarāṃ tadā  // 3,1.225 //
+saṃprakālana mānaṃ tu mānuṣeṇaiva sammatam  /
+mānena śrotumicchāmaḥ saṃkṣepārthapādākṣaram  // 3,1.226 //
+teṣāṃ śrutvā sa devastu vāyurlokahite rataḥ  /
+saṃkṣepāddivyacakṣuṣṭvā tprovāca vacanaṃ prabhuḥ  // 3,1.227 //
+tāsāṃ saṃkhyātha varṣāgraṃ brāhme vakṣyāmyahaḥkṣaye  // 3,1.228 //
+koḍīśatāni catvāri varṣāṇi mānuṣāṇi tu  /
+dvātriṃśacca tathā koṭyaḥ saṃkhyātāḥ saṃkhyayā dvijaiḥ  // 3,1.229 //
+tathā śatasahasrāṇi ekonanavatiḥ punaḥ  /
+aśītiśca sahasrāṇi eṣa kālaḥ plavasya tu  // 3,1.230 //
+mānuṣākhyena saṃkhyātaḥ kālo hyābhūtasaṃ plavaḥ  /
+mahābhūtaṣu līyanta prajāḥ sarvāścaturvidhāḥ  // 3,1.231 //
+vinivṛtte ca saṃhāre upaśānte prajāpatau  /
+īśvarādhiṣṭhite tvasmiṃ stadā hyekārmave kila  /
+tāvadekārmave jñeyaṃ yāvadāsīdahaḥ prabhoḥ  // 3,1.234 //
+rātristu salilāvasthā nivṛttau vāpyahaḥ smṛtam  /
+ābhūtasaṃplavo hyeṣa ahorātraḥ smṛtaḥ prabhoḥ  /
+ābhūtebhyaḥ pralīyante tasmādābhūtasaṃplavaḥ  /
+atītā vartamānāśca tathaivānāgatāḥ prajāḥ  // 3,1.237 //
+divyasaṃkhyā prasaṃkhyātā aparārdhaguṇīkṛtāḥ  /
+parārddhaṃ dviguṇaṃ cāpi paramāyuḥ prakīrttatam  // 3,1.238 //
+sthityantaṃ pratisargaśca brahmaṇaḥ parameṣṭhinaḥ  // 3,1.239 //
+tathā svapratisaṃsṛṣṭe mahadādau maheśvare  /
+ityeṣa vaḥ samākhyāto mayā hyābhūtasaṃplavaḥ  /
+samāsena samākhyāto bhūyaḥ kiṃ varmayāmi vaḥ  // 3,1.242 //
+ya idaṃ dhārayennityaṃ śṛṇuyādvāpyabhīkṣṇaśaḥ  /
+kīrttayedvarṇayedvāpi mahatīṃ siddhimāpnuyāt  // 3,1.243 //
+asādhāraṇavṛttaistu hutaśeṣādibhirjanaiḥ  /
+dharmā vaiśeṣikāścaiva ācīrṇāḥ sūkṣmadarśibhiḥ  // 3,2.1 //
+caturdaśaite manavaḥ kīrtitāḥ kīrtivarddhanāḥ  // 3,2.2 //
+atītā varttamānāśca tathaivānāgatāśca ye  /
+devāśca ṛṣayaścaiva manavaḥ pitarastathā  // 3,2.3 //
+sarve hyuktā mayātīta maharlokaṃ samāśritāḥ  /
+brāhmaṇaiḥ kṣatriyairvaiśyairdhārmikaiḥ sahitaiḥ saraiḥ  // 3,2.4 //
+varṇāśramāṇāndharmeṣu śrautasmārtteṣu saṃsthitaiḥ  /
+vinivṛttādhikārāste yāvanmanvantarakṣayaḥ  // 3,2.5 //
+catardaśaiva sthānāni nirmitāni maharṣibhiḥ  /
+lokākhyāni tu yāni syuryeṣāṃ tiṣṭhanti mānavāḥ  // 3,2.8 //
+sapta teṣu kṛtānyāhurakṛtāni tu sapta vai  /
+bhūrādayastu satyāntāḥ sapta lokāḥ kṛtāstviha  // 3,2.9 //
+akṛtāni tu saptaiva prākṛtāni tu yāni vai  /
+sthānāni sthānibhiḥ sārddhaṃ kṛtāni tu nibandhanam  // 3,2.10 //
+pṛthivī cāntarīkṣaṃ ca divyaṃ yacca mahaḥ smṛtam  /
+sthānānyetāni catvāri smṛtānyāvarṇakāni ca  // 3,2.11 //
+kṣayātiśayayuktāni tathāyuktāni cakṣate  /
+yāni naimittikāni syustiṣṭhantyābhūtasaṃplavāt  // 3,2.12 //
+janastapaśca satyaṃ ca sthānānyetāni trīṇi tu  /
+ekāntikāni tāni syustiṣṭhantīhāprasaṃyamāt  // 3,2.13 //
+bhūrlokaḥ prathamasteṣāṃ dvitīyastu bhuvaḥ smṛtaḥ  // 3,2.14 //
+svastṛtīyastu vijñeyaścaturtho vai mahaḥ smṛtaḥ  /
+janastu pañcamo lokastapaḥ ṣaṣṭho vibhāvyate  // 3,2.15 //
+bhūriti vyāhṛteḥ pūrva bhūrlokaśca tato 'bhavat  // 3,2.16 //
+tṛtīyaṃ svaritītyukto divaṃ prādurbabhūva ha  // 3,2.17 //
+tato bhūḥ pārthivo loko hyantarikṣaṃ bhūvaḥ smṛtam  // 3,2.18 //
+svarlokaṃ vai divaṃ hyeṣa purāṇe niścayo gataḥ  /
+bhūtasyādhipatiścāgnistato bhūtapatiḥ smṛtaḥ  // 3,2.19 //
+vinivṛttādhikāraṇāṃ devānāṃ tatra vai kṣayaḥ  // 3,2.21 //
+tāsāṃ svāyaṃbhuvādyānāṃ prajānāṃ jananājjanaḥ  // 3,2.22 //
+ye te svāyaṃbhuvādyā hi purastātparikīrttitāḥ  /
+ṛbhuḥ sanatkumārādyā yatrāsannūrddhvaretasaḥ  /
+tapasā bhāvitātmānastatra saṃtīti vā tapaḥ  // 3,2.24 //
+satyeti brahmaṇaḥ śabdaḥ sattāmātrastu sa smṛtaḥ  /
+gandharvāpsaraso yakṣā guhyakāstu sarākṣasāḥ  /
+sarvabhūtapiśācāśca nāgāśca saha mānuṣaiḥ  // 3,2.26 //
+maruto mātariśvāno rudrā devāstathāśvinau  // 3,2.27 //
+ādityā ṛbhavo viśve sādhyāśca pitarastathā  // 3,2.28 //
+ṛṣayoṅgira saścaiva bhuvarlokaṃ samāśritāḥ  /
+ete vaimānikā devāstārāgrahanivāsinaḥ  // 3,2.29 //
+āraṃbhante tu tanmātraiḥ śuddhāsteṣāṃ parasparam  /
+śukrādyāścakṣuṣāntāśca ye vyatītā bhuvaṃ śritāḥ  // 3,2.30 //
+ityete kramaśaḥ proktā brahmavyāhārasaṃbhavāḥ  // 3,2.31 //
+bhūrlokaprathamā lokā maharantāśca te smṛtāḥ  /
+mārīciḥ kaśyapo dakṣastathā svāyaṃbhuvoṅgirāḥ  /
+ṛbhuḥ sanatkumārādyā vairājāste tapodhanāḥ  /
+manvantarāṇāṃ sarveṣāṃ sāvarṇānāṃ tataḥ smṛtāḥ  // 3,2.35 //
+caturdaśānāṃ sarveṣāṃ punarāvṛttihetavaḥ  /
+yogaṃ tapaśca sattvaṃ ca samādhāya tadātmani  // 3,2.36 //
+brahmalokaḥ samākhyāto hyapratīghātalakṣaṇaḥ  /
+paryāsaparimāṇena bhūrlokaḥ samabhismṛtaḥ  // 3,2.38 //
+bhūmyantaraṃ yadādityādantarikṣaṃ bhuvaḥ smṛtam  /
+vyākhyātāḥ saptalokāstu teṣāṃ vakṣyāmi siddhayaḥ  // 3,2.40 //
+bhūrlokavāsinaḥ sarve unnādāstu rasātmakāḥ  /
+vijñeyā mānasī teṣāṃ siddhirvai pañcalakṣaṇā  // 3,2.42 //
+atītā varttamānāśca tathā ye cāpyanāgatāḥ  /
+prathamānantaroddiṣṭā antarāḥ sāṃprataiḥ punaḥ  // 3,2.44 //
+vinivṛttādhikārāṇāṃ siddhasteṣāṃ tu mānasī  // 3,2.45 //
+taṣāṃ tu mānasī jñeyā śuddhā siddhiḥ parasparāt  /
+samāsena mayā viprā bhūyastaṃ varttayāmi vaḥ  // 3,2.46 //
+marīciḥ kaśyapo dakṣo vasiṣṭhaścāṅgirā bhṛguḥ  // 3,2.47 //
+pūrvaṃ te saṃprasūyante brahmaṇo mānasā iha  // 3,2.48 //
+tataḥ prajāḥ pratiṣṭhāpya janamevāśrayanti te  /
+kalpadāheṣu tu sadā tathā kāleṣu teṣu vai  // 3,2.49 //
+bhūrādiṣu mahānteṣu bhṛśaṃ vyāpte yathāgninā  /
+śikhāḥ saṃvarttakāgneryāḥ prāpnuvanti savāsanāḥ  // 3,2.50 //
+yāmādayo gaṇāḥ sarve maharlokanivāsinaḥ  /
+teṣāṃ te tulyasāmarthyā stulyamūrttidharāstathā  // 3,2.52 //
+vyuṣṭāyāṃ tu rajanyāṃ vai brahmaṇo 'vyaktayonitaḥ  // 3,2.53 //
+svāyaṃbhuvādayaḥ sarve marīcyantāstu sādhakāḥ  // 3,2.54 //
+devāste vai punasteṣāṃ jāyante nidhaneṣviha  /
+yāmādayaḥ krameṇaiva kaniṣṭhādyāḥ prajāpateḥ  // 3,2.55 //
+pūrvaṃ pūrve prasūyante paścime paścimāstathā  /
+devānvaye devatā hi sapta saṃbhūta yaḥ smṛtāḥ  // 3,2.56 //
+vyatītāḥ kalpajāsteṣāṃ tisraḥ śiṣṭāstathāpare  /
+āvarttamānā devāste krameṇaitena sarvaśaḥ  // 3,2.57 //
+gatvā java javībhāvaṃ daśakṛtvāḥ punaḥ punaḥ  /
+tataste vai gaṇāḥ sarve dṛṣṭvā bhāveṣvanityatām  // 3,2.58 //
+evaṃ devagaṇāḥ sarve daśakṛtvo nivartyavai  // 3,2.62 //
+vairājeṣūpapannāste daśa tiṣṭhantyupaplavān  /
+pūrṇopūrṇo tataḥ kalpesthitvā vairājake punaḥ  // 3,2.63 //
+evaṃ devayugānīha vyatītāni sahasraśaḥ  // 3,2.66 //
+nidhanaṃ brahmaloke tu gatānāmṛṣibhiḥ saha  /
+na śakyamānupūrvyeṇa teṣāṃ vaktuṃ pravistaram  // 3,2.67 //
+anāditvācca kālasya hyasaṃkhyānācca sarvaśaḥ  /
+tadupaśrutya vākyārthamṛṣayaḥ saṃśayānvitāḥ  /
+sūtamāhuḥ purāṇajñaṃ vyāsaśiṣyaṃ mahāmatim  // 3,2.69 //
+vairājāste yadāhārā yatsattvāśca yadāśrayāḥ  /
+taduktamṛṣibhirvākyaṃ śrutvā lokārthatattvavit  /
+sūtaḥ paurāṇiko vākyaṃ vinayenedama bravīt  // 3,2.71 //
+ābhūtasaṃplavāstatra daśa tiṣṭhanti te 'jvarāḥ  // 3,2.72 //
+sarve sūkṣmaśarīrāste vidvāṃso ghanamūrtayaḥ  /
+ūcuḥ sanatkumārādyāḥ siddhāste yogadharmiṇaḥ  /
+evameva mahābhāgāḥ praṇavaṃ saṃpraviśya ha  // 3,2.74 //
+tatraiva saṃpralīyante śāntā dīparciṣo yathā  // 3,2.76 //
+ānandaṃ brahmaṇaḥ prāpya amṛtatvāya te gatāḥ  /
+ānandaṃ brahmaṇaḥ prāpya hyamṛtatvaṃ bhajantyuta  /
+ādhipatyaṃ vinā tulyā brahmaṇaste mahaujasaḥ  /
+tapasoṃ'te kriyātmāno buddhāvasthā manīṣiṇaḥ  /
+avyakte saṃpralīyante sarve te kṣaṇadarśinaḥ  // 3,2.83 //
+apunarmārakādīnāṃ teṣāṃ caivoddhvaretasām  /
+karmābhyāsakṛtāṃ śraddhāṃ vedānteṣūpalakṣyate  // 3,2.85 //
+tatra te 'bhyāsino yuktāḥ parāṃ kāṣṭhāmupāsate  /
+hitvā śarīraṃ pāpmānamamṛtatvāya te gātāḥ  // 3,2.86 //
+vītarāgā jitakrodhā nirmohāḥ satyavādinaḥ  /
+śāntāḥ praṇihitātmāno dayāvanto jitendriyāḥ  // 3,2.87 //
+niḥsaṃgāḥ śucayaścaiva brahmasāyujyagāḥ smṛtāḥ  /
+teṣāṃmabhraṃśino lokā aprameyasukhāḥ smṛtāḥ  /
+kasmādeṣu parārddhaṃśca kaścaiva para ucyate  /
+śṛṇudhvaṃ me parārddhasya parisaṃkhyāṃ parasyaca  // 3,2.91 //
+ekaṃ daśaśataṃ caiva sahasraṃ caiva saṃkhyāyā  /
+vijñeyamāsahasraṃ tu sahasrāṇi daśāyutam  // 3,2.92 //
+tathā śatasahasrāṇāṃ daśaprayutamucyate  // 3,2.93 //
+tathā daśasahasrāṇāmayutaṃ koṭirucyate  /
+arbudaṃ daśakoṭyastu hyabjaṃ koṭiśataṃ viduḥ  // 3,2.94 //
+sahasramāpi koṭīnāṃ kharvamāhurmanīṣiṇaḥ  /
+daśakoṭisahasrāṇi nikharvamiti taṃ viduḥ  // 3,2.95 //
+śataṃ koṭi sahasrāṇāṃ śaṅkurityabhidhīyate  /
+sahasrāṇi sahasrāṇāṃ koṭīnāṃ daśadhā punaḥ  /
+guṇitāni samudraṃ vai prāhuḥ saṃkhyāvido janāḥ  // 3,2.97 //
+parārddhaṃ dviguṇaṃ cāpi paramāhurmanīṣiṇaḥ  // 3,2.99 //
+śatamāhuḥ parivṛḍhaṃ sahasraṃ paripadmakam  /
+vijñeyamayutaṃ tasmānniyutaṃ prayutaṃ tataḥ  // 3,2.100 //
+evamaṣṭādaśaitāni sthānāni gaṇanāvidhau  // 3,2.102 //
+śatādīni vijānīyātsaṃjñitāni maharṣibhiḥ  /
+tāvaccheṣo 'pi kālo 'sya tasyānte pratitiṣṭhate  /
+para eva parārddhaś ca saṃkhyātaḥ saṃkhyāyā mayā  // 3,2.104 //
+yasmād asya paraṃ viryaṃ paramāyuḥ paraṃ tapaḥ  /
+parā śaktiḥ paro dharmaḥ parā vidyā parā dhṛtiḥ  // 3,2.105 //
+saṃkhyeyaṃ cāpyasaṃkhyeyaṃ satataṃ cāpi tāntrikam  /
+saṃkhyeyaṃ saṃkhyayā dṛṣṭamaparārddhādvibhāṣyate  // 3,2.108 //
+rāśau dṛṣṭe na saṃkhyāsti tadasaṃkhyāstu lakṣṇam  /
+ānantyaṃ sikatā dyeṣu hṛṣṭaṃ cānyaṃ tvalakṣaṇam  // 3,2.109 //
+īśvaraistatprasaṃkhyānaṃ śuddhatvāddivyadṛṣṭibhiḥ  /
+evaṃ jñānapratiṣṭhatvātsarvaṃ brahmānupaśyati  // 3,2.110 //
+bāṣpaparyākulākṣāstu praharṣādgadgadasvarāḥ  // 3,2.111 //
+yojanāgreṇa saṃkhyātaḥ sādhanaṃ yojanasya tu  /
+krośasya ca parīmāṇaṃ śrotumīcchāma tattvataḥ  // 3,2.113 //
+teṣāṃ tadvacanaṃ śrutvā mātariśvā vinītavat  /
+uvāca madhuraṃ vākyaṃ yathādṛṣṭaṃ yathākramam  // 3,2.114 //
+etadvo 'haṃ pravakṣyāmi śruṇudhvaṃ me vivakṣitam  /
+daśaiva mahato bhāgā bhūtādiḥ sthūla ucyate  /
+daśabhāgādhikaṃ cāpi bhūtādiparimāṇakam  // 3,2.116 //
+paramāṇuḥ susūkṣmastu bhāvagrāhyo na cakṣuṣā  /
+jālāntaragate bhānaiṃ yatsūkṣmaṃ dṛśyate rajaḥ  /
+prathamaṃ tatpramāṇānāṃ paramāṇuṃ pracakṣate  // 3,2.118 //
+aṣṭānāṃ paramāṇūnāṃ samāvāyo yadā bhavet  /
+te 'pyaṣṭau samavāyasthā bālāgraṃ tatsmṛtaṃ budhaiḥ  // 3,2.120 //
+bālāgrāṇyaṣṭalikṣā syādyūkālikṣāṣṭakaṃ bhavet  /
+yūkāṣṭakaṃ yavaprāhuraṅgulaṃ tu yavāṣṭakam  // 3,2.121 //
+dvādaśāṅgulaparvāṇi vitastisthānamucyate  /
+ratniścāguliparvāṇi vijñeyo hyekaviṃśatiḥ  // 3,2.122 //
+catvāro viṃśatiścaiva hastaḥ syādaṅgulāni tu  /
+kiṣkurdviratnirvijñeyo dvicatvāriṃśadaṅgulaḥ  // 3,2.123 //
+ṣaṇṇavatyaṅgulaṃ caiva dhanurāhurmanīṣiṇaḥ  /
+etadgavyūtisaṃkhyāyāmādānaṃ dhanuṣaḥ smṛtam  // 3,2.124 //
+dhanurdaṇḍayugaṃ nālī tulyānyastaistathāṅgulaiḥ  /
+dhanuṣāṃ triśataṃ nalvamāhuḥ saṃkhyāvido janāḥ  // 3,2.125 //
+aṣṭau dhanuḥ sahasrāṇi yojanaṃ tu vidhīyate  // 3,2.126 //
+etatsahasraṃ vijñeyaṃ śakrakośāntaraṃ tathā  // 3,2.127 //
+yojanānāṃ ca saṃkhyātaṃ saṃkhyājñānaviśāradaiḥ  /
+etena yojanāgreṇa śṛṇudhvaṃ brahmaṇoṃ'tare  // 3,2.128 //
+mahītalātsahasrāṇāṃ rātādūrdhvaṃ divākaraḥ  /
+divākarātsahasre tu śate caurddhvaṃ niśākaraḥ  // 3,2.129 //
+pūrṇaṃ śatasahasraṃ tu yojanānāṃ niśākarāt  /
+nakṣatramaṇḍalaṃ kṛtsnamupariṣṭātprakāśata  // 3,2.130 //
+śataṃ sahasraṃ saṃkhyātametaddviguṇitaṃ punaḥ  /
+grahāntaramathaikaikamūrddhvaṃ nakṣatramaṇḍarāt  // 3,2.131 //
+tārāgrahāṇāṃ sarveṣāmadhyastāccarate budhaḥ  /
+tato bṛhaspatiścorddhvaṃ tasmādūrddhvaṃ śanaiścaraḥ  /
+urddhvaṃ śatasahasraṃ tu yojanānāṃ śanaiścarāt  // 3,2.133 //
+saptarṣimaṇḍalaṃ kṛtsnamupariṣṭātprakāśate  /
+ṛṣibhyastu sahasrāṇāṃ śatādūrddhvaṃ vibhāṣyate  // 3,2.134 //
+sarvāsāṃ devayonīnāṃ sthitihetuḥ sa vai smṛtaḥ  // 3,2.137 //
+ekāyojanakoṭīśā ityevaṃ niścayogataḥ  /
+yatra te brahmaṇaḥ putrā dakṣādyāḥ sādhakāḥ smṛtāḥ  // 3,2.140 //
+vai rājā yatra te devā bhūtadāhavivarjitāḥ  /
+ṣaḍguṇaṃ tu tapolokātsatyalokāntaraṃ smṛtam  // 3,2.141 //
+ekakoṭiryojanānāṃ pañcāśanniyutāni tu  /
+ūrddhvabhāgastatoṃ'ḍasya brahmalokātparaḥ smṛtaḥ  // 3,2.143 //
+caturdaśaiva koṭyastu niyutāni ca pañca ṣaṭ  /
+dhruvāgrametadvyākhyātaṃ yojanagrādyathāśrutam  /
+adhogatīnāṃ vakṣyāmi bhūtānāṃ sthānakalpanām  // 3,2.145 //
+kṛmī ca kṛmibhakṣaśca lālābhakṣo viśaṃsanaḥ  // 3,2.147 //
+adhaḥśirāḥ pūyavaho rudhirāndhustathaivaca  /
+tathā vaitaraṇī kṛṣṇamasipatravanaṃ tathā  /
+agnijvālo mahāghoraḥ saṃdaṃśo 'thāśvabhojanaḥ  // 3,2.149 //
+tamaścakṛṣṇasūtraśca lohaścāpyabhijastathā  /
+apratiṣṭho 'tha vīciśca narakā hyevamādayaḥ  // 3,2.150 //
+tāmasā narakāḥ sarve yamasya viṣaye sthitāḥ  /
+yeṣu duṣkṛtakarmāṇaḥ patantīha vṛthakpṛthak  // 3,2.151 //
+bhūmeradhastātte sarve rauravādyaḥ prakīrttitāḥ  /
+raurave kūṭasākṣe tumithyā yaścābhiśasati  // 3,2.152 //
+krūragraha pakṣavādī hyasaktaḥ patate naraḥ  /
+rādho godhro bhrūṇahā ca hyagnidātā purasya ca  // 3,2.153 //
+tāle patetkṣatriyahā hatvā vaiśyaṃ ca majjati  // 3,2.154 //
+saptakumbheṣvasau gāmī tathā rājabhaṭaśca yaḥ  // 3,2.155 //
+saṃtāpyate vāśvaṇiktathāca dhanarakṣitā  /
+mahājvāle duhitaraṃ snuṣāṃ gacchati yastu vai  /
+guruṃścaivāvamanyante vākśaraistāḍayanti ca  /
+duriṣṭaṃ kurute yastu kīḍalohaṃ prapadyate  // 3,2.159 //
+devabrāhmaṇavidveṣṭā gurūṇāṃ vāpyapūjakaḥ  /
+paryaśnāti ya eko 'nnaṃ brāhmaṇānsuhṛdo vinā  /
+kāṇḍakarttā kulālaśca niṣkahartā cikitsakaḥ  /
+ārāme 'pyagnidātā yaḥ patate sa viśaṃsani  // 3,2.162 //
+asatpratigrahī yaśca tathaivāyājyayājakaḥ  /
+yaḥ kukkuṭānnibadnāti mārjārānsūkarāṃstathā  /
+pakṣiṇaśca mṛgāñchāgānso 'pyenaṃ narakaṃ vrajet  // 3,2.165 //
+ajāviko māhiṣikastathā cakradhvajī ca yaḥ  /
+raṅgopajīvako vipraḥ śākanirgrāmayājakaḥ  // 3,2.166 //
+agāradāhī garadaḥ kuṇḍāśī somavikrayī  /
+surāpo māsabhakṣaśca tathā ca paśughātakaḥ  // 3,2.167 //
+viśastā mahiṣādīnāṃ mṛgahantā tathaiva ca  /
+parvakāraśca mūcī ca yaśca syānmitraghātakaḥ  // 3,2.168 //
+upaviṣṭaṃ bhoktumatha paṅktyāṃ vai vañcayanti ye  // 3,2.169 //
+mṛṣāvādī naro yaśca tathā prākrośako 'śubhaḥ  // 3,2.170 //
+patate narake ghore mūtrākīrṇe sa pāpakṛta  /
+madhugrāhābhihantāro yānti vaitagṇīṃ narāḥ  // 3,2.171 //
+unmattāścittabhagnāścaśaucācāravivarjitāḥ  /
+krodhanā duḥkhadā ye ca kuhakāḥ kṛṣṇagāminaḥ  // 3,2.172 //
+karttanaṣu vikṛtyanta mṛgavyādhaḥ sudāruṇaiḥ  // 3,2.173 //
+bhakṣyante śyāmaśabalairayastuḍaśva vāyasaiḥ  // 3,2.174 //
+iṣṭāpūrtavratālopātsaṃdaṃśe narake patet  /
+putrairadhyāpitā ye ca putrairākṣāpitāśca ye  /
+varṇāśramaviruddhā ye krodhaharṣasamanvitāḥ  /
+upariṣṭātsthito ghora uṣṇātmā rauravo mahān  /
+sudāruṇastu śītātmā tasyādhastāttapaḥ smṛtaḥ  // 3,2.178 //
+bhūmeradhastātsaptaiva narakāḥ parikīrttitāḥ  // 3,2.179 //
+asyādhaḥ punarapyanyaḥ śītastapa iti smṛtaḥ  /
+tṛtīyaḥ kālasūtraḥ syānmahāhirvividhaḥ smṛtaḥ  // 3,2.181 //
+apratiṣṭhaścaturthaḥ syāda vīciḥ pañcamaḥ smṛtaḥ  /
+lohaḥ ṣaṣṭhaḥ smṛtasteṣāmavidheyastu saptamaḥ  // 3,2.182 //
+ghorātvādrauravaḥ proktaḥ soṣṇako dahanaḥ smṛtaḥ  /
+sudāruṇastu śītātmā tsyādhastāttapo 'dhamaḥ  // 3,2.183 //
+savāṃ nikṛntanaḥ prokto kālasūtro 'tidāruṇaḥ  /
+avīcirdāruṇaḥ prokto yantrasaṃpīḍanācca saḥ  /
+tasmātsudāruṇo lohaḥ karmaṇāṃ śrayaṇācca saḥ  // 3,2.185 //
+tathābhūtaśarītvādavidheyastu sa smṛtaḥ  /
+pīḍābandhavadhāsaṃgādapratīkāralakṣaṇaḥ  // 3,2.186 //
+ūrddhvādhaḥ saṃgatāste tu nirālokāśca te smṛtāḥ  /
+kūṭāgārapra māṇaiśca śarīraistatra nārakāḥ  // 3,2.187 //
+duḥkhaprakarṣaścograstu teṣu sarveṣu vai smṛtaḥ  // 3,2.188 //
+duḥkhaprakarṣaścograstu teṣu sarveṣu vai smṛtaḥ  // 3,2.189 //
+yātanāścāpyasaṃkhyeyā nārakāṇāṃ tathā smṛtāḥ  /
+devāṃśca tārakāścaiva hyūrddhvaṃ cādhaśca saṃsthitāḥ  // 3,2.191 //
+nārakāṃśca tathā devānsarvānpaśyaṃ tyadhemukhān  // 3,2.193 //
+anayostulyatā yasmāddhāramāśca svabhāvataḥ  /
+eṣā svābhāvikī saṃjñā lokāloke pravarttate  /
+athābruvanpunarvāyuṃbrāhmaṇāḥ satriṇastadā  // 3,2.195 //
+sarveṣāmeva bhūtānāṃ lokālokanivāsinām  /
+saṃsāre saṃsarantīha yāvantaḥ prāṇinaśca te  // 3,2.196 //
+saṃkhyāyā parisaṃkhyāya tānnaḥ prabrūhi kṛtsnaśaḥ  /
+ṛṣīṇāṃ tadvacaḥ śrutvā maruto vākyamabravīt  // 3,2.197 //
+na śakyaṃ divyayā dṛṣṭyā jñātuṃ jñānena vā punaḥ  /
+cakṣuṣā vai prasaṃkhyātumato hyante na ca dvijāḥ  // 3,2.198 //
+anādhyānādameyatvānnaiva praśno vidhīyate  /
+brahmaṇā saṃjñitaṃ yattu saṃkhyayā tannibodhata  // 3,2.199 //
+yaḥ sahasratamo bhāgaḥ sthāvarāṇāṃ bhavediha  /
+pārthivāḥ kṛmayastāvatsaṃsekādyeṣu saṃbhavaḥ  // 3,2.200 //
+saṃsekajānāṃ bhāgena sahasreṇaiva saṃmitāḥ  /
+sahasreṇaiva bhāgena sattvānāṃ salilaukasām  /
+vihaṅgamāstu vijñeyā laukikāste ca sarvaśaḥ  // 3,2.202 //
+yaḥ sahasratamo bhāgasteṣāṃ vai pakṣimāṃ bhavet  /
+paśavastatsamā jñeyā laukikāstu catuṣpadāḥ  // 3,2.203 //
+catuṣpadānāṃ sarveṣāṃ sahasreṇaiva saṃmitāḥ  /
+yaḥ sahasratamo bhāgo dhārmikāṇāṃ bhaveddivi  // 3,2.205 //
+saṃmitāstena bhāgena mokṣiṇastāvadeva hi  /
+svargopapādakaistulyā yātanāsthānavāsinaḥ  // 3,2.206 //
+raurave tamasi hyete śītoṣṇaṃ prāpnuvanti te  // 3,2.207 //
+vedanāḥ kaṭukāḥ stabdhā yātanāsthānamāgatāḥ  /
+tatoṃ'dhanāmakaścāpi śītānmā satataṃ tapaḥ  /
+evaṃ sudurlabhāḥ saṃtaḥ svarge vā dhārmikā narāḥ  // 3,2.209 //
+eṣā saṃjñīkṛtā saṃkhyā ceśvareṇa svayaṃbhuvā  /
+gaṇānā dinivṛttaiṣā saṃkhyā brāhmī tvamānuṣī  // 3,2.210 //
+uktā hyete tvayā lākā lākānāmantaraṇa ca  // 3,2.211 //
+teṣāṃ tadvacana śrutvā ṛṣīṇāmūrddhvaretasām  /
+sa vāyurdṛṣṭatattvārtha idaṃ tattvamuvāca ha  // 3,2.212 //
+vyaktaṃ tarkeṇa paśyanti yogātpratyakṣadarśinaḥ  // 3,2.213 //
+pratyāhāreṇa dhyānena tapasā kṣayamātmanaḥ  /
+ṛbhuḥ sanatkumārādyāḥ saṃbuddhāḥ śuddhabuddhayaḥ  // 3,2.214 //
+vyapetakośā virajāḥ saṃto brahmaiva sattamāḥ  /
+akṣayāḥ prītisaṃyuktā brāhme tiṣṭhanti yoginaḥ  // 3,2.215 //
+ṛṣīṇāṃ bālaśilyānāṃ tairyathākṛtamīśvaraiḥ  /
+yathātraiva sayā dṛṣṭaṃ sāṃnidhyaṃ tatra kurvatā  // 3,2.216 //
+agrāhyamakṛtārthānāmālayaṃ ceśvarasya yat  /
+īśvaraḥ paramāṇutvādbhāvagrāhyo manīṣiṇām  // 3,2.217 //
+jñānaṃ vairāgyamaiśvaryaṃ tapaḥ satyaṃ kṣamā dhṛtiḥ  /
+draṣṭṛtvamātmasaṃbandhamadhiṣṭātṛtvameva ca  // 3,2.218 //
+avyayāni daśaitāni tasmistiṃṣṭhanti śaṅkare  /
+sa lokavigraho bhūtvā sāhāyyamupatiṣṭhate  /
+tasyeśvarasya cinmātraṃ sthānaṃ māyāmayaṃ param  /
+māyayā kṛtamācaṣṭe māyī devo maheśvaraḥ  // 3,2.221 //
+devānāmupasaṃhārastatpramāṇaṃ hi kīrtyate  /
+ekā yojanakoṭī tu pañcāśanniyutāni ca  /
+ūrddhva bhāgavato 'ḍaṃ tu brahmalokātparaṃ smṛtam  // 3,2.224 //
+eṣorddhvagaḥ pracārastu gatyantaśca tataḥ smṛtaḥ  /
+nityā hyaparisaṃkṣātāḥ parasparaguṇāśrayāt  // 3,2.225 //
+sūkṣmāḥ prasavadharmiṇyastataḥ prakṛtayaḥ smṛtāḥ  /
+yebhyo 'dhikarttā saṃjajñe kṣetrajño brahmasaṃjñitaḥ  // 3,2.226 //
+tāsu prakṛtimatsūkṣmamadhiṣṭhātṛtvamavyayam  /
+anutpādyaṃ paraṃ dhāma paramāṇu pareśayam  // 3,2.227 //
+akṣayaścāpyanūhyaśca tvamūrttirmūrttimānasau  /
+prādurbhāvastirobhāvaḥ sthitiścaivāpyanugrahaḥ  // 3,2.228 //
+satejā eṣa tamaso yaḥ purastātprakāśakaḥ  // 3,2.229 //
+bṛhattu sarvato vṛttamīśvarāttadvyajāyate  // 3,2.230 //
+īśvarādbījanirbhedaḥ kṣetrajño bījamiṣyate  /
+yoniṃ prakṛti mācaṣṭe sā ca nārāyaṇātmikā  // 3,2.231 //
+purastādbrahmalokasya hyaṇḍādarvāk ca brahmaṇaḥ  /
+śivaṃ nāma puraṃ tatra śaraṇaṃ janmabhīruṇām  // 3,2.234 //
+sahasrāṇāṃ śataṃ pūrvaṃ yojanānāṃ dvijottamāḥ  /
+abhyantaraṃ tu vistīrṇaṃ mahīmaṇḍalasaṃsthitam  // 3,2.235 //
+śāta kaiṃbhena mahatā prākāreṇārkavarcasā  // 3,2.236 //
+dvāraiścaturbhiḥ sauvarṇairmuktādāmavibhūṣitaiḥ  /
+tapanīyanibhaiḥ śubhrairgāḍhaṃ sukṛtaveṣṭanam  // 3,2.237 //
+taccākāśe puraṃ ramyaṃ divyaṃ ghaṇṭādināditam  /
+ramye puravaraśreṣṭhe tasminvaihāyabhūmiṣu  // 3,2.238 //
+nānāratnavicitreṣu patākābahuleṣu ca  /
+rājateṣu gṛhānteṣu śātakaiṃbhamayeṣu ca  /
+saṃdhyābhrasannikāśeṣu kailāsapratimeṣu ca  // 3,2.240 //
+hṛṣṭaiḥ śabdādibhirbhogairye bhaviṣyānusāriṇaḥ  /
+prāsādavarapṛṣṭheṣu teṣu modanti suvratāḥ  // 3,2.241 //
+brahmaghoṣairaviratāḥ kathāśca vividhāḥ śubhāḥ  /
+gītavāditraghoṣāśca saṃsravāśca samantataḥ  // 3,2.242 //
+saṃhatāścaivamatulā janāśrayakṛtastathā  /
+evamādīni vartante teṣāṃ prāsādamūrddhani  // 3,2.243 //
+sahasrapādaḥ prāsādastapanīyamayaḥ śubhaḥ  /
+sphāṭikaiścandrasaṃkāśairvaiḍūryamaṇisaprabhaiḥ  /
+bālasuryamayaiścāpi sauvarṇaiścāgnisaprabhaiḥ  // 3,2.245 //
+cukruśurmunayaḥ śrutvā naimiṣeyāstapasvinaḥ  /
+āpannasaṃśayāścemaṃ vākyamūcuḥ samīraṇam  // 3,2.246 //
+ke tu tatra mahātmāno ye bhavasyānusāriṇaḥ  /
+ṛṣīṇāṃ vacanaṃ śrutvā vāyurvākyamudairayat  /
+hrīmantasphūrjitā dāntāḥ śauryayuktā hyalolupāḥ  /
+karmaṇā manasā vācā viśuddhenāntarātmanā  // 3,2.249 //
+tairlabdhaṃ rudrasālokyaṃ śāśvataṃ padamavyayam  // 3,2.250 //
+bhavasya rūpasādṛśyaṃ gatāścaiva hyanuttamam  /
+vaiśvānāramukhāḥ sarve viśvarūpāḥ kapardinaḥ  // 3,2.251 //
+nīlakaṇṭhāḥ śitagrīvāstīkṣṇadaṃṣṭāstrilocanāḥ  /
+arddhacandrakṛtoṣṇīṣā jaṭāmukuṭa dhāriṇaḥ  // 3,2.252 //
+sarve daśabhujā vīrāḥ padmāntarasugandhinaḥ  /
+taruṇādityasaṃkāśāḥ sarve te pītavāsasaḥ  // 3,2.253 //
+pinākapāṇayaḥ sarveśveta govṛṣavāhanāḥ  /
+śriyānvitāḥ kuṇḍalino muktāhāravibhūṣitāḥ  // 3,2.254 //
+tejasābhyadhikairdahaiḥ sarvajñāḥ sarvadarśinaḥ  /
+vibhajya bahudhātmānaṃ jarāmṛtyuvivarjitāḥ  // 3,2.255 //
+ekādaśānāṃ rudrāṇāṃ koṭyo naikā mahātmanām  /
+bhaktānukaṃpī bhagavānmodate pārvatīpriyaḥ  /
+nāhaṃ teṣāṃ tu rudrāṇāṃ bhavasya ca mahātmanaḥ  // 3,2.258 //
+nānātvamanupaśyāmi satyametadbravīmi vaḥ  /
+mātāriśvābravītpuṇyamityetāmīśvarācchrutām  // 3,2.259 //
+atha te ṛṣayaḥ sarve divākarasamaprabhāḥ  /
+śrutvemāṃ paramāṃ puṇyāṃ kathāṃ traiyaṃbakīntataḥ  // 3,2.260 //
+bhṛśaṃ cānugrahaṃ prāpya harṣaṃ caivāpyanuttamam  /
+saṃbhājayitvā cāpyenaṃ vāyumūcurmahābalam  // 3,2.261 //
+samīraṇa mahābhāga tvasmākaṃ ca tvayā vibho  /
+tasya sthānaṃ pramāṇaṃ ca cathāvatparikīrtitam  /
+mahādevasya māhātmyaṃ durvijñeyaṃ surairapi  /
+brāhmī lakṣmyā svayaṃ juṣṭā yā sāpratimaśālinī  // 3,2.265 //
+mahādevasya tulyānāṃ rudrāṇāṃ tu mahātmanām  /
+nāsti kiñcidavijñeya manyaccaivānugāminaḥ  /
+ādityāḥ paripārśve ye siṃhā vai krodhavikramāḥ  /
+vaiśvānarā bhūtagaṇa vyāghrāscaivānugāminaḥ  // 3,2.270 //
+ābhutasaṃplave ghore sarvaprāṇibhṛtāṃ kṣaye  /
+vijñāyeśvarasadbhāvamavyaktaṃ prabhavaṃ tathā  /
+yatra pūrvaṃ gatāste tu kumārā brahmaṇaḥ sutāḥ  // 3,2.272 //
+sanandanaśca sanakastṛtīyaśca sanātanaḥ  /
+voḍhuśca kapilasteṣāmāsuriśca mahāyaśāḥ  // 3,2.273 //
+muniḥ pañjaśikhaścaiva ye cānye 'pyevamādayaḥ  /
+tataḥ kāle vyatikrānte kalpānāṃ paryaye gate  // 3,2.274 //
+śabdādīnviṣayānbhogānsaṃtyajyāṣṭavidhāśrayāt  /
+praviśya sarvabhūtāni jñānayuktena tejasā  // 3,2.276 //
+vihāya padamavyagraṃ bhūtānāma nukaṃpayā  /
+tatra yānti mahātmānaḥ paramāṇuṃ maheśvaram  // 3,2.277 //
+taranti sumahāvarttāṃ janmamṛtyūdakāṃ nadīm  /
+tataḥ paśyantyaparvāṇaṃ paraṃ brahmāṇāmeva ca  // 3,2.278 //
+devyā vai sahitāḥ sapta yā devyaḥ parikīrttitāḥ  /
+yattatsahasraṃ siṃhānāmādityānāṃ tathaiva ca  // 3,2.279 //
+vaiśvānarā bhūtagaṇā vyāghrāścaivānugāminaḥ  /
+āveśyātmani tānsarvān saṃkhyāyogyabhavāṃstathā  // 3,2.280 //
+lokānsapta imānbhūyo mahābhūtāni pañca ca  /
+sa eṣa otaḥ protaśca bahirantaśca niścayāt  // 3,2.282 //
+eko hi bhagavānnāthaḥ prabhavaścāntakṛddvijāḥ  /
+tataste ṛṣayaḥ sarve divākarasamaprabhāḥ  // 3,2.283 //
+susatyaṃ śravasaḥ samyagāropyāgniṃ tathātmani  /
+karmaṇā manasā vācā viśuddhenāntarātmanā  // 3,2.284 //
+vratopavāsaniratāḥ sarvabhūtadayāparāḥ  // 3,2.285 //
+yogaṃ tvanuyamaṃ divyaṃ prāptantaiśchinnasaṃśayaiḥ  /
+tairlabdhaṃ rudrasālokyaṃ śāśvataṃ padamavyayam  /
+yaḥ paṭhettapasā yukto vāyuproktāmimāṃ śrutim  // 3,2.287 //
+brāhmaṇaḥ kṣatriyo vāpivaiśyo vā svakriyāparaḥ  /
+tadātyantaparokṣatvādadṛṣṭatvācca kasyacit  // 3,2.289 //
+anākhyānādabodhyatvādajñānājjñānināmapi  /
+anirdeśye pravṛttirvai svātmikākāraṇena tu  /
+yenedamāvṛtaṃ sarvamaṇḍamapsu pralīyate  // 3,2.293 //
+udakāvaraṇaṃ yacca jyotiṣyālīyate tu yat  // 3,2.294 //
+yadvāyavyaṃ cāvaraṇamākāśagrasate tu tat  // 3,2.295 //
+ākāśāvaraṇaṃ yacca bhūtādirgrasate tu tat  /
+bhūtādiṃ grasate cāpi mahānvai buddhilakṣamaḥ  // 3,2.296 //
+mahāntaṃ grasate 'vyaktaṃ guṇasāmyaṃ tataḥ param  /
+saṃsiddhakāryakaraṇāḥ saṃsiddhā jñāninastu ye  // 3,2.298 //
+gatvā javaṃ javībhāve sthāne sveṣu prasaṃyamāt  /
+pratyāhāre 'dhiyujyante kṣetrajñāḥ karaṇaiḥ punaḥ  // 3,2.299 //
+sādharmyavaidharmyakṛtaḥ saṃyogo nādimāstayoḥ  // 3,2.300 //
+evaṃ sargeṣu vijñeyaḥ kṣetrajñeṣviha brāhmaṇāḥ  /
+brahmaviccaiva vijñeyaḥ kṣetrajñānātpṛthak  // 3,2.301 //
+viṣayāviṣayatvaṃ ca kṣetrakṣetrajñayoḥ smṛtam  /
+brahmā tvaviṣayo jñeyo viṣayaḥ kṣetramucyate  // 3,2.302 //
+kṣetrajñādhiṣṭhitaṃ kṣetraṃ kṣetrajñārthaṃ pracakṣate  /
+bahutvācca śarīrāṇāṃ śarīrī bahudhā smṛtaḥ  // 3,2.303 //
+tasmātpuruṣanānātvaṃ vijñeyaṃ tu vijānatā  /
+yadā pravarttate caiṣāṃ bhedānāṃ caiva saṃyamaḥ  // 3,2.305 //
+svabhāvakāritāḥ sarve kālena mahatā tadā  /
+vinivṛttestadā teṣāṃ sthiterātmanivāsinām  // 3,2.307 //
+tatkālavāsināṃ teṣāṃ tatra vai doṣadarśinām  /
+utpadyate 'tha vairāgyamātmavāda praṇāśanam  // 3,2.308 //
+bhojyabhoktṛtvanānātvaisteṣāṃ tadbhāvadarśinām  /
+pṛthagjñānena kṣetrajñāstataste brahmalaukikāḥ  // 3,2.309 //
+prakṛtau kāraṇātītāḥ sarve nānāpradarśinaḥ  /
+svātmanyevāvatiṣṭhante praśāntādarśanātmakāḥ  // 3,2.310 //
+śuddhā nirañjanāḥ sarve cetanācetanāstathā  /
+tatraiva parinirvāṇāḥ smṛtānāgāminastu te  // 3,2.311 //
+nirguṇatvāgnirātmānaḥ prakṛtyante vyatikramāt  /
+ityevaṃ prākṛtaḥ proktaḥ pratisargaḥ svayaṃbhuvā  // 3,2.312 //
+varṇāśramācārayutaḥ pratisargaṃ śṛṇoti yaḥ  /
+ābhūtasaṃplavasthāyī apratīghātalakṣaṇaḥ  // 3,2.314 //
+gāṇapatyaṃ sa labhate sthānaṃ vā sārvakālikam  /
+sevyamāno mahīpṛṣṭhe martyānāṃ varado bhavaḥ  /
+pratyāhāraṃ pravakṣyāmi parasyānte svayaṃbhuvaḥ  /
+brahmaṇaḥ sthitikāle tu kṣīṇe tasmiṃstadā prabhoḥ  // 3,3.1 //
+yathedaṃ kurute vyaktaṃ susūkṣmaṃ viśvamīśvaraḥ  /
+avyaktaṃ grasate vyaktaṃ pratyāhāre ca kṛtsnaśaḥ  // 3,3.2 //
+purāntadvyaṇukādyānāṃ saṃpūrṇe kalpasaṃkṣaye  /
+pratyāhāre tadā tasminbhūtatanmātrasaṃkṣaye  // 3,3.5 //
+mahadādivikārasya viśeṣāntasya saṃkṣaye  /
+āpo grasaṃti vai pūrvaṃ bhūmergandhātmakaṃ gumam  /
+āpastadā praviṣṭāstu vegavatyo mahāsvanāḥ  // 3,3.8 //
+apāmapi gaṇo yastu jyotiḥṣvālīyate rasaḥ  // 3,3.9 //
+naśyantyāpastadā tatra rasatanmātrasaṃkṣayāt  /
+tīvratejohṛtarasājyotiṣṭvaṃ prāpnuvantyuta  // 3,3.10 //
+athāgniḥ sarvato vyāpta ādatte tajjalaṃ tadā  // 3,3.11 //
+jyotiṣo 'pi guṇaṃ rūpaṃ vāyuratti prakāśakam  /
+pranaṣṭe rūpatanmātre hṛtarūpo vibhāvasuḥ  /
+upaśāmyati tejo hivāyurādhūyate mahān  // 3,3.14 //
+tatastu mūlamāsādya vāyuḥ saṃbandhamātmanaḥ  // 3,3.15 //
+ūrdhvañcādhaśca tiryakca dodhavīti diśo daśa  /
+vāyorapi guṇaṃ sparśamākāśaṃ grasate ca tat  // 3,3.16 //
+praśāmyati tadā vāyuḥ khantu tiṣṭhatyanāvṛtam  /
+śabdamātraṃ tadākāśaṃ sarvamāvṛtya tiṣṭhati  /
+abhimānātmako hyeṣa bhūtādistāmasaḥ smṛtaḥ  // 3,3.20 //
+bhūtādirgrasate cāpi mahānvai buddhilakṣaṇaḥ  /
+mahānātmā tu vijñeyaḥ saṃkalpo vyavasāyakaḥ  // 3,3.21 //
+paryāyavācakaiḥ śabdaistamāhustattva cintakāḥ  // 3,3.22 //
+saṃpralīneṣu bhūteṣu guṇasāmye tato mahān  /
+līyante guṇasāmyaṃ tu svātmanyevāvatiṣṭhate  // 3,3.23 //
+līyante sarvabhūtānāṃ kāraṇāni prasaṃgame  /
+ityeṣa saṃyamaścaiva tattvānāṃ kāraṇaiḥ saha  // 3,3.24 //
+dharmādharmauṃ tapo jñānaṃ śubhaṃ satyānṛte tathā  // 3,3.25 //
+nirindriyāṇāṃ ca tadā jñānināṃ yacchubhāśubham  /
+prakṛtyāṃ caiva tatsarvaṃ puṇyaṃ pāpaṃ pratiṣṭhati  // 3,3.27 //
+jantūnāṃ pāpapuṇyaṃ tu prakṛtau yatpratiṣṭhitam  // 3,3.28 //
+avasthāsthāni tānyeva puṇyapāpāni jantavaḥ  /
+dharmādharmauṃ tu jantūnāṃ guṇamātrātmakāvubhau  /
+sacetanāḥ pralīyante kṣetrajñādhiṣṭhitā guṇāḥ  /
+rājasī tāmasī caiva sāttvikī caiva vṛttayaḥ  // 3,3.32 //
+guṇamātrāḥ pravartante puruṣādhiṣṭhatā stridhā  /
+urddhvadeśātmakaṃ sattvamadhobhāgātmakaṃ tamaḥ  // 3,3.33 //
+lokeṣu sarvabhūtānāṃ tanna kāryaṃ vijānatā  /
+avidyāpratyayāraṃbhā ārabhyante hi mānavaiḥ  // 3,3.35 //
+etāstu gatayastisraḥ śubhātpāpātmikāḥ smṛtāḥ  /
+ityete vai trayaḥ proktā bandhā hyajñānahetukāḥ  // 3,3.38 //
+asve svamiti ca jñānamaśucau śuciniścayaḥ  // 3,3.39 //
+yeṣāmete manodoṣā jñānadoṣā viparyayāt  /
+rāgadveṣanivṛttiśca tajjñānaṃ samudāhṛtam  // 3,3.40 //
+ajñānaṃ tamaso mūraṃ karmadvayaphalaṃ rajaḥ  /
+śrotrajā netrajā caiva tvagjihvāghrāṇajā tathā  /
+punarbhavakarī duḥkhātkarmaṇā jāyate tṛṣā  // 3,3.42 //
+satṛṣṇo 'bhihito bālaḥ svakṛtaiḥ karmaṇaḥ phalaiḥ  /
+tasmānmūlamanarthānāmajñāna mupadiśyate  /
+taṃ śatrumavadhāryaikaṃ jñāne yatnaṃ samācaret  // 3,3.44 //
+ata ūrddhvaṃ pravakṣyāmi rāgaṃ bhūtāpahāriṇam  /
+abhiṣvaṅgāya yogaḥ syādviṣayeṣvavaśātmanaḥ  // 3,3.46 //
+aniṣṭamiṣṭamaprītiprītitāpaviṣādanam  /
+duḥkhalābhe na tāpaśca sukhānusmaraṇaṃ tathā  // 3,3.47 //
+ityeṣa vaiṣayo rāgaḥ saṃbhūtyāḥ kāraṇaṃ smṛtaḥ  /
+ajñānapūrvakaṃ tasmādajñānaṃ tu vivarjayet  /
+yasya cārṣe na pramāṇaṃ śiṣṭācāraṃ tathaiva ca  // 3,3.49 //
+varṇāśramaviruddho yaḥ śiṣṭaśāstravirodhakaḥ  /
+kāraṇe viṣaye caiva pratighātastu sarvaśaḥ  /
+ityeṣā tāmasī vṛttirbhūtādīnāṃ caturvidhā  /
+tattvānāṃ ca yathātattvaṃ dṛṣṭvā vai tattvadarśanāt  /
+sattvakṣetrajñanānātvametannānārthadarśanam  // 3,3.54 //
+nānātvadarśanaṃ jñānaṃ jñānādvai yoga ucyate  /
+ityetallakṣaṇaṃ proktaṃ samāsājjñāna mokṣayoḥ  // 3,3.57 //
+pūrvaṃ viyogo jñānena dvitīye rāgasaṃkṣayāt  // 3,3.58 //
+tṛṣṇākṣa yāttṛtīyastu vyākhyātaṃ mokṣakāraṇam  /
+liṅgābhāvāttu kaivalyaṃ kaivalyāttu nirañjanam  // 3,3.59 //
+ata ūrddhvaṃ pravakṣyāmi vairāgyaṃ doṣadarśanāt  // 3,3.60 //
+divye ca mānuṣe caiva viṣaye pañcalakṣaṇe  /
+apradveṣo 'nabhiṣvaṅgaḥ karttavyo doṣadarśanāt  // 3,3.61 //
+tapaprītiviṣādānāṃ kāryaṃ tu parivarjanam  /
+evaṃ vairāgyamāsthāya śarīrī nirmamo bhavet  // 3,3.62 //
+viśuddhaṃ kāryakaraṇaṃ sattvasyātiniṣaivayā  // 3,3.63 //
+paripakvakaṣāyo hi kṛtsnāndoṣānprapaśyati  /
+ūṣmā prakupitaḥ kāye tīvravāyusamīritaḥ  /
+sa śarīramupāśritya kṛtsnāndoṣānruṇaddhi vai  // 3,3.65 //
+prāṇakthānāni bhindanhi chindanmarmāṇyatītya ca  /
+sa cāyaṃ sarvabhūtānāṃ prāṇasthāneṣvavasthitaḥ  /
+samāsātsaṃvṛte jñāne saṃcṛtteṣu ca karmasu  // 3,3.67 //
+sa jīvo nābhyadhiṣṭhānaḥ karmabhiḥ svaiḥ purākṛtaiḥ  /
+aṣṭāṅgapraṇavṛttiṃ vai sa vicyāvayate punaḥ  // 3,3.68 //
+evaṃ prāṇaiḥ parityakto mṛta ityabhidhīyate  // 3,3.69 //
+nṛṣṇākṣayastṛtīyastu vyākhyātaṃ mokṣalakṣaṇam  /
+śabdādye viṣaye doṣadṛṣṭirvai pañcalakṣaṇe  // 3,3.71 //
+apradveṣo 'nabhiṣvaṅgaḥ prītitāpavivarjanam  /
+vairāgyakāraṇaṃ hyete prakṛtīnāṃ layasya ca  // 3,3.72 //
+aṣṭau prakṛtayo jñeyāḥ pūrvoktā vai yathākramam  /
+avyaktādyāstu vijñeyā bhūtāntāḥ prakṛterbhavāḥ  // 3,3.73 //
+varṇāśramācārayuktaḥ śiṣṭaḥ śāstrāvirodhanaḥ  /
+varṇāśramāṇāṃ dharmo 'yaṃ devasthāneṣu kāraṇam  // 3,3.74 //
+brahmādīni piśācāntānyaṣṭau sthānāni devatā  /
+aiśvaryamāṇimādyaṃ hi kāraṇaṃ hyaṣṭalakṣaṇam  // 3,3.75 //
+nimittamapratīghāte dṛṣṭe śabdādilakṣaṇe  /
+aṣṭāvetāni rūpāṇi prākṛtāni yathākramam  // 3,3.76 //
+kṣetrajñeṣvanusajjante guṇamātratmakāni tu  /
+prāvṛṭkāle pṛthagmeghaṃ paśyantīva sacakṣuṣaḥ  // 3,3.77 //
+paśyantyevaṃ vidhāḥ siddhā jīvaṃ divyena cakṣuṣā  /
+khādataścānnapānāni yonīḥ praviśatastathā  // 3,3.78 //
+jīvaḥ prāṇastathā liṅgaṃ karaṇaṃ ca catuṣṭayam  // 3,3.79 //
+paryāyavācakaiḥ śabdairekārthaiḥ so 'bhilaṣyate  /
+vyaktāvyaktapramāṇo 'yaṃ sa vai bhuṅkte tu kṛtsnaśaḥ  // 3,3.80 //
+avyaktānugrahāntaṃ ca kṣetrajñādhiṣṭhitaṃ ca yat  /
+evaṃ jñātvā śucirbhūtvā jñānādvai vipramucyate  // 3,3.81 //
+naṣṭaṃ caiva yathā tattvaṃ tattvānāṃ tattvadarśane  /
+mukto guṇaśarīreṇa praṇādyena tu sarvaśaḥ  // 3,3.83 //
+nānyaccharīramādatte dagdhe vīje yathāṅkuraḥ  /
+jñānī ca sarvasaṃsārāvijñaśārīramānasaḥ  // 3,3.84 //
+jñānāccaturddaśābuddhaḥ prakṛtistho nivartate  /
+asadbhāvo 'nṛtaṃ jñeyaṃ sadbhāvaḥ satya mucyate  /
+anāmarūpaṃ kṣetrajñanāmarūpaṃ pracakṣate  // 3,3.86 //
+yasmātkṣetraṃ vijānāti tatmātkṣetrajña ucyate  /
+kṣetrajñaḥ smaryate tasmātkṣetraṃ tajjñairvibhāṣyate  /
+kṣetraṃ tvatpratyayaṃ dṛṣṭaṃ kṣetrajñaḥ pratyayaḥ sadā  // 3,3.88 //
+kṣapaṇātkāraṇāccaiva kṣatatrāṇāttathaiva ca  /
+mahadādyaṃ viśeṣāntaṃ sarvairūpyaṃ vilakṣaṇam  /
+vikāralakṣaṇaṃ tadvai so 'kṣaraḥ kṣarameti ca  // 3,3.90 //
+tasmācca kāraṇāccaiva jñaramityabhidhīyate  // 3,3.91 //
+duḥkhatrāṇātpunaścāpi kṣetramityabhidhīyate  // 3,3.92 //
+akṣaraṃ tena vāpyuktama kṣīṇatvāttathaiva ca  // 3,3.94 //
+śuddho nirañjanābhāso jñātā jñānavivarjitaḥ  // 3,3.96 //
+śuddhatvānna tu dṛśyo vai draṣṭṛtvātsamadarśanaḥ  /
+ātmapratyayakāritvādanyūnaṃ vāpyahetukam  // 3,3.98 //
+yadā paśyati jñātāraṃ śāntārthaṃ darśanātmakam  // 3,3.99 //
+dṛśyādṛśyeṣu nirdeśyaṃ tadā taddurddharaṃ varam  /
+vijñātā na ca dṛśyeta vṛthaktveneha sarvaśaḥ  // 3,3.100 //
+svenātmanā tathātmānaṃ kāraṇātmā niyacchati  /
+prakṛtau kāraṇe tatra svātmanyevopatiṣṭhati  // 3,3.101 //
+astināstīti so 'nyo vā ihāmutreti vā punaḥ  /
+ekatvaṃ vā pṛthakvaṃ vā kṣetrajñaḥ puruṣo 'pi vā  // 3,3.102 //
+ātmā vā sa nirātmā vā cetano 'cetano 'pi vā  /
+avācyaṃ tadanākhyānādagrāhyaṃ vādahetubhiḥ  // 3,3.104 //
+kṣetrajñe nirguṇe śuddhe śānte kṣīṇe nirañjane  /
+kṣetrajñādhiṣṭhitaṃ sarvaṃ punaḥ sarge pravarttate  // 3,3.108 //
+anādimāṃśca saṃyogo mahāpuruṣajaḥ smṛtaḥ  // 3,3.109 //
+eṣā nisargapratisargapūrvā prādhānikī ceśvarakāritā vā  /
+ityeṣa prākṛtaḥ sargastṛtīyo hetulakṣaṇaḥ  /
+vistareṇānupūrvyāca bhūyaḥ kiṃ varttayāmyaham  // 3,3.113 //
+śrutaṃ sumahadākhyānaṃ bhavatā parikīrttitam  /
+prajānāṃ manubhiḥ sārddhaṃ devānāmṛṣibhiḥ saha  // 3,4.1 //
+pitṛgandharvabhūtānāṃ piśācoragarakṣasām  /
+daityānāṃ dānavānāṃ ca yakṣāṇāmeva pakṣiṇām  // 3,4.2 //
+atyadbhutāni karmāṇi vividhā dharmaniścayāḥ  /
+tatkathyamānamasmākaṃ bhavatā ślakṣṇayā girā  /
+manaḥ karṇasukhaṃ saute prīṇātyamṛtasannibham  // 3,4.4 //
+evamārādhya te sūtaṃ satkṛtya ca maharṣayaḥ  /
+bandheṣu saṃpralīneṣu guṇasāmye tamomaye  // 3,4.6 //
+vikāreṣvavisṛṣṭeṣu hyavyakte cātmani sthite  /
+evamuktastataḥ sūtastadāsau lomaharṣaṇaḥ  // 3,4.8 //
+dṛṣṭenaivānumeyaṃ ca tarkaṃ vakṣyāmi yuktitaḥ  // 3,4.10 //
+vikāraiḥ pratisaṃsṛṣṭo guṇaḥ sāmyena varttate  /
+pradhānaṃ puruṣāṇāṃ ca sādharmyeṇaiva tiṣṭhati  // 3,4.12 //
+dharmādharmauṃ pralīyete hyavyakte prāṇināṃ sadā  /
+buddhipūrvaṃ kṣetrajña adhiṣṭhāsyati tānguṇān  // 3,4.15 //
+tasmādakṣaramavyaktaṃ sāmye sthitvā guṇātmakam  // 3,4.17 //
+kṣetrajñādhiṣṭhitaṃ tatra vaipamyaṃ bhajate tu tat  /
+kṣetrajñādhiṣṭhitaṃ sattvaṃ vikāraṃ janayiṣyati  /
+mahadādyaṃ viśeṣāntaṃ caturviṃśaguṇātmakam  // 3,4.19 //
+ādidevaḥ pradhānasyānugrahāya prajakṣate  // 3,4.20 //
+pravṛttikāle rajasābhipanno mahattvabhūtādiviśeṣatāṃ ca  /
+viśeṣatāṃ cendriyatāṃ ca yāti guṇāvasānauṣadhibhirmanuṣyaḥ  // 3,4.24 //
+ādyantaṃ vai pravatsyante kṣetramajñāmvu sarvaśaḥ  /
+prāksṛtau ye tvasuvahāḥ sādhakāścāpyasādhakāḥ  // 3,4.27 //
+ārapsaṃte hi cānyonyaṃ vareṇānugraheṇa vā  // 3,4.29 //
+śarvastulyaprasṛṣṭyartha sargādau yāti vikriyām  /
+guṇāste yāni karmāṇi prāksṛṣṭyāṃ pratipedire  /
+tānyeva pratipadyante sṛjyamānāḥ punaḥ punaḥ  // 3,4.31 //
+hiṃsrāhiṃsre mṛdukūre dharmādharmāvṛtānṛte  /
+mahābhūteṣu nānātvamindriyārtheṣu mūrttiṣu  /
+viprayogaśca bhūtānāṃ guṇebhyaḥ saṃpravarttate  // 3,4.33 //
+ityeṣa vo mayā khyātaḥ punaḥ sargaḥ samāsataḥ  /
+avyaktātkāraṇāttasmānnityātsadasadātmakāt  /
+pradhānapuruṣābhyāṃ tu jāyate ca maheśvaraḥ  // 3,4.35 //
+sa punaḥ saṃbhāvayitā jāyate brahmasaṃjñitaḥ  /
+sṛjate sa punarlokānabhimāna guṇātmakān  // 3,4.36 //
+ahaṅkārastu mahatastasmādbhūtāni cātmanaḥ  /
+vistarāvayavasteṣāṃ yathāprajñaṃ yathāśrutam  /
+kīrttyato vo yathāpūrvaṃ tathaivāpyupadhāryatām  // 3,4.38 //
+etacchrutvā naimiṣeyā stadānīṃ lokotpattiṃ susthitiṃ cāpyayaṃ ca  /
+tasminsatre 'vabhṛthaṃ prāpya śuddhāḥ puṇyaṃ lokamṛṣayaḥ prāpnuvanti  // 3,4.39 //
+yathā yūyaṃ vidhinā devātādīniṣṭvā caivāvabhṛthaṃ prāpya śuddhāḥ  /
+tyaktvā dehānāyuṣoṃ'te kṛtārthāḥ puṇyaṃ lokaṃ prāpya modadhvamevam  // 3,4.40 //
+ete te naimiṣeyā vai dṛṣṭvā spṛṣṭvā ca vai tadā  /
+jagmuścāvabhṛthasnātāḥ svargaṃ sarve tu satriṇaḥ  // 3,4.41 //
+viprāstathā yūyamapi iṣṭā bahuvidhairmakhaiḥ  /
+āyuṣoṃ'te tataḥ svargaṃ gantāraḥ stha dvijottamāḥ  // 3,4.42 //
+prakriyā prathamaḥ pādaḥ kathāyāstu parigrahaḥ  /
+anuṣaṅga upoddhāta upasaṃhāra eva ca  // 3,4.43 //
+evameva catuḥpādaṃ purāṇaṃ lokasammatam  /
+uvāca bhāgavānsakṣādvāyulokahite rataḥ  // 3,4.44 //
+prādhānikīmimāṃ sṛṣṭiṃ tathaiveśvarakāritām  /
+idaṃ yo brāhmaṇo vidvānitihāsaṃ purātanam  /
+śṛṇuyācchrāvayedvāpi tathādhyāpayate 'pi ca  // 3,4.47 //
+sthāneṣu sa mahendrasya modate śāśvatīḥ samāḥ  /
+teṣāṃ kīrtimatāṃ kīrtiṃ prajeśānāṃ mahātmanām  /
+prathayanpṛthivīśānāṃ brahmabhūyāya gacchati  // 3,4.49 //
+dhanyaṃ yaśasyamāyuṣyaṃ puṇyaṃ vedaiśca saṃmitam  /
+kṛṣṇadvaipāyanenoktaṃ purāṇa brahmavādinā  // 3,4.50 //
+manvantareśvarāṇāṃ ca yaḥ kīrtiṃ prathayedimām  /
+devatānāmṛṣīṇāṃ ca bhūridravimatejasām  // 3,4.51 //
+yaścedaṃ śrāvayedvidvānsadā parvaṇi parvaṇi  // 3,4.52 //
+yaścedaṃ śrāvayecchrāddhe brāhmaṇān pādamantataḥ  // 3,4.53 //
+akṣeyaṃ sarvakāmīyaṃ pitṝṃstacchopatiṣṭhate  /
+yasmātpurā hyaṇantīdaṃ purāṇaṃ tena cocyate  // 3,4.54 //
+tathaiva triṣu varṇeṣu ye manuṣyā adhīyate  // 3,4.55 //
+yāvantyasya śarīreṣu romakūpāni sarvaśaḥ  // 3,4.56 //
+tāvatkoṭisahasrāṇi varṣāṇi divi modate  /
+sarvapāpaharaṃ puṇyaṃ pavitraṃ ca yaśasvi ca  /
+brahmā dadau śāstramidaṃ purāṇaṃ mātariśvane  // 3,4.58 //
+tasmāccośanasā prāptaṃ tasmāccāpi bṛhaspatiḥ  /
+savitā mṛtyave prāha mṛtyuścendrāya vai punaḥ  /
+indraścāpi vasiṣṭhāya so 'pi sārasvatāya ca  // 3,4.60 //
+śaradvāṃstu triviṣṭāya soṃ'tarikṣāya dattavān  // 3,4.61 //
+carṣiṇe cāntarikṣo vai so 'pi trayyāruṇāya ca  /
+trayyāruṇāddhanañjayaḥ sa vai prādātkṛtañjaye  // 3,4.62 //
+kṛtañjayāttṛṇañjayo bharadvājāya so 'pyatha  /
+sa dadau somaśuṣmāya sa cādāttṛṇabindave  // 3,4.64 //
+tṛṇabindustu dakṣāya dakṣaḥ provāca śaktaye  /
+śakteḥ parāśaraścāpi garbhasthaḥ śrutavānidam  // 3,4.65 //
+parāśarājjātukarṇyastasmāddvaipāyanaḥ prabhuḥ  /
+dvaipāyanā tpunaścāpi mayā prāptaṃ dvijottama  // 3,4.66 //
+ityeva vākyaṃ brahmādiguruṇāṃ samudātdṛtam  // 3,4.67 //
+dhanyaṃ yaśasyamāyuṣyaṃ puṇyaṃ sarvārthasādhakam  // 3,4.68 //
+pāpaghnaṃ niyamenedaṃ śrotavyaṃ brāhmaṇaiḥ sadā  /
+nāśucau nāpi pāpāya nāpyasaṃvatsaroṣite  // 3,4.69 //
+nāśraddadhāne 'viduṣe nāputrāya kathañcana  /
+vahnirvaktraṃ candrasūryauṃ ca netrediśaḥ śrotre ghrāṇamāhuśca vāyum  // 3,4.71 //
+vāco vedā antarikṣaṃ śarīraṃ kṣitiḥ pādāstārakā romakūpāḥ  /
+taṃ devadevaṃ jananaṃ janānāṃ yajñātmakaṃ satyalokapratiṣṭham  /
+varaṃ varāṇāṃ varadaṃ maheśvaraṃ brahmāṇamādiṃ prayato namasye  // 3,4.73 //
+agastyo nāma devarṣirvedavedāṅgapāragaḥ  /
+cacārādbhutahetūni tīrthānyāyatanāni ca  /
+taṃ dṛṣṭvānandabharitaḥ praṇamya ca muhurmuhuḥ  /
+vinayāvanato bhūtvā santuṣṭāva jagatpatim  // 3,5.11 //
+iti pṛṣṭo bhagavatā provāca munisattamaḥ  /
+iti pṛṣṭo dvijenātha devadevo janārdanaḥ  // 3,5.14 //
+ahamādirhi bhūtānāmādikartā svayaṃ prabhuḥ  /
+dvidhākṛtamabhūdrūpaṃ pradhāna puruṣātmakam  /
+yadrūpadhyānamātreṇa duṣkṛtaṃ sukṛtāyate  // 3,5.28 //
+na te saṃsāriṇo nūnaṃ muktā eva na saṃśayaḥ  // 3,5.29 //
+iti tasya vacaḥ śrutvā hayagrīvasya śārṅgiṇaḥ  /
+tatastu vismayāviṣṭo hṛṣṭaromā tapodhanaḥ  /
+trailokyaṃ pālayāmāsa sadevāsuramānuṣam  // 3,6.11 //
+kailāsaśikharākāraṃ gajendramadhiruhya saḥ  /
+etasminnantare kāle kācidvidyādharāṅganā  /
+praṇamya sā mahātmānamuvāca vinayānvitā  /
+divyasraganulepāṃśca divyānyābharaṇāni ca  /
+tvayā yacchāsito lokaḥ sadevāsuramānuṣaḥ  /
+bṛhaspatiṃ samāhūya vākyametaduvāca ha  // 3,6.32 //
+nātmārthe pācayedanna nātmārthe pācayetpaśūn  /
+devārthe brāhmaṇārthe vā pacamāno na lipyate  // 3,6.52 //
+teṣāṃ saṃrakṣaṇārthāya paśūnapi caturdaśa  /
+iṣṭāni ye pradāsyanti puṣṭāste yajñabhāvitāḥ  // 3,6.55 //
+evaṃ pravartitaṃ cakraṃ nānuvartayatīha yaḥ  /
+prāñjaliḥ praṇatastutvā prasīdeti punaḥ punaḥ  // 3,6.62 //
+etadgṛhāśramasthānāṃ kriyāphalamabhīpsatām  /
+bhagavansarvamākhyātaṃ hiṃsādyasya tu lakṣaṇam  /
+pāpānāmadhikaṃ pāpaṃ hananaṃ jīvajātinām  /
+brahmahatyādhikaṃ pāpaṃ tasmānnāstyasya niṣkṛtiḥ  // 3,7.3 //
+tato devadvijātīnāṃ hemaratnāpahārakam  /
+rahasyātirahasyaṃ ca sarvapāpapraṇāśanam  // 3,7.9 //
+iti tasyā vacaḥ śrutvā prītaḥ prāha tapodhanaḥ  /
+yamastu tānsamāhūya vākyaṃ caitaduvāca ha  // 3,7.54 //
+iti tasya vacaḥ śrutvā procurvajrādikāstataḥ  /
+brāhmaṇastu vinā tena yajedvedāṅgapāragaḥ  // 3,7.73 //
+kṛtasyākhilapāpasya jñānato 'jñānato 'pi vā  /
+prāyaścittamidaṃ proktaṃ parāśakteḥ padasmṛtiḥ  // 3,7.75 //
+upoṣitastrirātraṃ tu prāṇāyāmaśataṃ caret  /
+vṛṣalaḥ sa tu vijñeyaḥ sarvakarmabahiṣkṛtaḥ  // 3,8.19 //
+sarveṣāmeva pāpānāṃ yaugapadyena nāśanam  // 3,8.35 //
+aṣṭottarasahasraṃ tu japetpañcadaśākṣarīm  // 3,8.36 //
+ārādhya ca parāṃ śaktiṃ mucyate sarvakilbiṣaiḥ  /
+brahmakṣatraviśāṃ caiva saśūdrāṇāṃ yathaudanam  /
+upoṣya rajanīmekāṃ tataḥ pāpādviśudhyati  // 3,8.52 //
+upoṣya rajanīmekāṃ tataḥ śuddho bhaviṣyati  // 3,8.54 //
+prāyaścittaṃ tathā teṣāṃ kimanyacchrotumicchasi  // 3,8.61 //
+nārāyaṇaparo nityaṃ vedavedāṅgapāragaḥ  // 3,9.4 //
+bhavānadhikṛto rājye devānāmiva vāsavaḥ  // 3,9.5 //
+rājyaśriyaṃ ca saṃprāptaḥ prasādātparameṣṭhinaḥ  // 3,9.27 //
+bhagavāṃstadvacaḥ śrutvā muneramitatejasaḥ  /
+na yajñāḥ saṃpravarttante na dānāni ca vāsava  /
+tuṣṭuvurvāgvariṣṭhābhiḥ sarvalokamaheśvaram  // 3,9.47 //
+manthānaṃ mandaraṃ kṛtvā kṛtvā yoktraṃ ca vāsukim  /
+tatpānādbalino yūyamamartyāśca bhaviṣyatha  // 3,9.53 //
+manthānaṃ mandaraṃ kṛtvā kṛtvā yoktraṃ tu vāsukim  /
+pucchadeśe tu karṣanto muhurāpyāyitāḥ surāḥ  /
+āvirbabhūva purataḥ surabhiḥ surapūjitā  /
+kimetaditi siddhānāṃ divi cintayatāṃ tadā  // 3,9.66 //
+tataḥ śītāṃśurudabhūttaṃ jagrāha maheśvaraḥ  /
+tataḥ prahṛṣṭamanaso devā daityāśca sarvataḥ  /
+viśvājīpramukhāḥ sarve nanṛtuścāpsarogaṇāḥ  /
+gaṅgādyāḥ puṇyanadyaśca snānārthamupatasthire  // 3,9.78 //
+bhūṣaṇāni ca divyāni viśvakarmā samarpayat  /
+divyamālyāṃ baradharā divyabhūṣaṇabhūṣitā  /
+tulasī tu dhṛtā tena viṣṇunā prabhaviṣṇunā  /
+atha devā mahendrādyā viṣṇunā prabhaviṣmunā  /
+surāṇāmasurāṇāṃ ca raṇaṃ vīkṣya sudāruṇam  /
+bhagavānapi yogīndraḥ samārādhya maheśvarīm  /
+sarvaśṛṅgāraveṣāḍhyā sarvābharaṇabhūṣitā  // 3,10.8 //
+surāṇāmasurāṇāṃ ca nivārya raṇamulvaṇam  /
+iti tasyā vacaḥ śrutvā daityāstadvākyamohitāḥ  /
+riktapātraṃ tu taṃ dṛṣṭvā sarve daiteyadānavāḥ  /
+indrādayaḥ surāḥ sarve sudhāpānādbalottarāḥ  /
+trailokyaṃ pālayāmāsa pūrvavatpūrvadevajit  // 3,10.25 //
+surāṇāmasurāṇāṃ vā vijayaḥ samajāyata  /
+iti pṛṣṭo maheśena nārado munisattamaḥ  /
+uvāca vismayāviṣṭaḥ prasannavadanekṣaṇaḥ  // 3,10.32 //
+sarvaśṛṅgāraveṣāḍhyā sarvābharaṇamaṇḍitā  // 3,10.70 //
+brahmaviṣṇumaheśāśca taṃ dṛṣṭvā dīptatejasam  /
+brahmāṇaṃ padmanābhaṃ ca rudraṃ vajriṇameva ca  /
+sāpi śaṅkaramā rādhya cirakālaṃ manasvinī  // 3,11.4 //
+etasminnantare devāstārakeṇa hi pīḍitāḥ  /
+sargādau bhagavānbrahma sṛjamāno 'khilāḥ prajāḥ  /
+tapaścacāra suciraṃ manovākkāyakarmabhiḥ  // 3,11.8 //
+amoghaṃ balavīryaṃ te na te moghaḥ parākramaḥ  // 3,11.15 //
+adṛśyaḥ sarvabhūtānānnātidūre 'sya saṃsthitaḥ  /
+nanāma śataśo rudraṃ śatarudriyamājapan  // 3,11.33 //
+tataḥ prasanno bhagavānmahādevo vṛṣadhvajaḥ  /
+vareṇa cchandayāmāsa varaṃ vavre sa bālakaḥ  // 3,11.34 //
+ṣaṣṭivarṣasahasrāṇi rājyamasmai dadau punaḥ  // 3,11.36 //
+śuśabhe parayā lakṣmyā tejasā ca samanvitaḥ  // 3,12.6 //
+tataḥ siṃhāsanāsīnaḥ sarvābharaṇabhūṣitaḥ  /
+tamasevanta kālajñā devāḥ sarve savāsavāḥ  /
+syandanāsturagā nāgāḥ pādātāśca sahasraśaḥ  // 3,12.14 //
+ṣaṣṭivarṣasahasrāṇi vyatītāni kṣaṇārdhavat  // 3,12.19 //
+vicarasva yathākāmaṃ tvāṃ na jñāsyati kaścana  // 3,12.22 //
+mohiteṣvatha daityeṣu sarve devāḥ savāsavāḥ  /
+praṇamya muniśārdūlaṃ jvalantamiva pāvakam  /
+kṛtāñjalipuṭo bhūtvā deveśo vākyamabravīt  // 3,12.36 //
+taṃ muniṃ pūjayāmāsa sarvadevaiḥ samanvitaḥ  /
+daśavarṣasahasrāṇi daśāhāni ca saṃyayuḥ  // 3,12.46 //
+ṣaṣṭivarṣasahasrāṇāṃ rājyaṃ tava śivārpitam  // 3,12.53 //
+jagadujjīvanakarīṃ brahmaviṣṇuśivātmikām  /
+saundaryasārasīmāṃ tāmānandarasasāgarām  // 3,12.71 //
+sarvābharaṇasaṃyuktāṃ śṛṅgāraikarasālayām  // 3,12.72 //
+tāṃ vilokya mahādevīṃ devāḥ sarve savāsavāḥ  /
+tuṣṭuvuśca mahādevīmaṃbikāmakhilārthadām  // 3,12.75 //
+yamāśca niyamāścaiva karapādaruhāstathā  // 3,13.13 //
+iti statvā mahādevīṃ devāḥ sarve savāsavāḥ  /
+ye stoṣyanti ca māṃ bhaktyā stavenānena mānavāḥ  // 3,13.33 //
+viśvāvasuprabhṛtayo gandharvāścaiva yakṣakāḥ  /
+tatrātha nagarīṃ ramyāṃ sāṭṭaprākāratoraṇām  /
+koṭikandarpalāvaṇyayukto divya śarīravān  /
+kirīṭahārakeyūrakuṇḍalādyairalaṅkṛtaḥ  /
+taṃ kumāramathāliṅgya brahmā lokapitāmahaḥ  /
+astuvaṃste parāṃ śaktiṃ brahmaviṣṇumaheśvarāḥ  /
+athovāca mahādevīṃ brahmā lokaikanāyikām  /
+ime devāśca ṛṣayo gandharvāpsarasāṃ gaṇāḥ  /
+sapriyāmāsanagatāṃ draṣṭumicchāmahe vayam  // 3,14.29 //
+svatantrāhaṃ sadā devāḥ svecchācāravihāriṇī  /
+uvāca ca mahādevīṃ dharmārthasahitaṃ vacaḥ  // 3,15.3 //
+vavṛṣuḥ puṣpavarṣāṇi mandavāteritā ghanāḥ  // 3,15.13 //
+taddṛṣṭvā caritaṃ devyā brahmā loka pitāmahaḥ  /
+mahārhāṇi ca vastūni divyānyābharaṇāni ca  // 3,15.36 //
+gandharvāpsaraso yakṣā yāścānyā devajātayaḥ  /
+daśavarṣasahasrāṇi yayuḥ kṣaṇa ivāparaḥ  // 3,15.45 //
+tataḥ kadā cidāgatya nārado bhagavānṛṣiḥ  /
+praṇamya paramāṃ śaktiṃ provāca vinayānvitaḥ  // 3,15.46 //
+etadākhyānamāyuṣyaṃ sarvamaṅgalakāraṇam  /
+trisaṃdhyaṃ yo japennityaṃ dhyātvā siṃhāsaneśvarīm  // 3,15.58 //
+atha sā jagatāṃ mātā lalitā parameśvarī  /
+caturbhirvāhubhiḥ pāśamaṅkuśaṃ vetrameva ca  /
+daṃṣṭrākaṭakaṭatkārabadhirīkṛtadiktaṭam  // 3,17.10 //
+yadākarṇanamātreṇa prasannā sā bhaviṣyati  /
+teṣāmanugrahārthāya pracacālaca sā punaḥ  // 3,17.21 //
+aṇimā mahimācaiva laghimā garimā tathā  /
+brāhmī māheśvarī caiva kaumārī vaiṣmavī tathā  /
+vārāhī caiva māṃhendrī cāmuṇḍā caiva saptamī  // 3,19.7 //
+anaṅgamadanānaṅgamadanāturayā saha  /
+sarvamṛtyupraśaminī sarvavighnanivāriṇī  /
+sarvāṅgasundarī devī sarvasaubhāgyadāyinī  // 3,19.40 //
+sarvādhārasvarūpā ca sarvapāpaharā tathā  // 3,19.43 //
+vaśinī caiva kāmeśī bhoginī vimalā tathā  /
+drāviṇī śoṣiṇī caiva bandhinī mohinī tathā  // 3,19.65 //
+asitāṅgo ruruścaṇḍaḥ krodha unmattabhairavaḥ  // 3,19.78 //
+kapālī bhīṣaṇaścaiva saṃhāraścāṣṭa bhairavāḥ  /
+vajre śaktiṃ kāladaṇḍamakiṃ pāśaṃ dhvajaṃ tathā  // 3,19.84 //
+sarveṣāṃ caiva devānāṃ mantriṇī dvārataḥ kṛtā  // 3,19.87 //
+yakṣiṇī śaṅkhinī caiva lākinī hākinī tathā  // 3,20.15 //
+tvacaṃ raktaṃ tathā māṃsaṃ medo 'sthi ca virodhinām  // 3,20.17 //
+niṣṭhuraiḥ siṃhanādaiśca pūrayantyo diśo daśa  // 3,20.18 //
+daṃṣṭrākaṭakaṭātkāra badhirīkṛtadiṅmukhaḥ  /
+tathā citrarathaścaiva rathakāraka kārakāḥ  /
+devadundubhayo nedurnipetuḥ puṣpavṛṣṭayaḥ  // 3,20.100 //
+śatayojanavistīrṇaṃ tatsarvaṃ puramāsuram  /
+kātaratvaṃ samāpannāḥ śakrādyāstridivaukasaḥ  /
+bhūtena sarvabhūtānāṃ hiraṇyakaśipurhataḥ  // 3,21.56 //
+ityevamādayaḥ śūrā hiraṇyakaśipoḥ samāḥ  /
+hiraṇyākṣa samāścaiva mama putrā mahābalāḥ  // 3,21.90 //
+tadvṛttāntamathākarṇya saṃkruddho dānaveśvaraḥ  // 3,22.67 //
+hatāvaśiṣṭāste daityāḥ prapalāyanta vai drutam  // 3,22.107 //
+śatamakṣauhiṇīnāṃ ca prasthāpaya raṇāṅgaṇe  // 3,23.4 //
+iti bhaṇḍavacaḥ śrutvā bhṛśaṃ catvarayānvitaḥ  /
+dhvajā bahuvidhākārā mīnavyālādicitritāḥ  /
+śatamakṣauhiṇīnāṃ ca nipapātaikahelayā  /
+gāruḍāstramatikrūraṃ samādhatta śilīmukhe  // 3,23.65 //
+paṭṭiśairmusalaiścaiva bhindipālaiḥ sahasraśaḥ  /
+parituṣṭo 'smi bhadraṃ vo bhavanto vṛṇatāṃ varam  // 3,24.60 //
+atha te vāsaraṃ prāpya nānāpraharaṇodyatāḥ  /
+varadānāstraroṣāndhaṃ mahābalaparākramam  /
+āgamiṣyanti senānyo damanādyā mahābalāḥ  // 3,25.30 //
+ājñāṃ dehi mahārājñi mardanārthaṃ durātmanām  // 3,25.82 //
+puklasaṃ śivadūtī ca prāhiṇodyamasādanam  // 3,25.96 //
+ayaṃ kuśaladhīmārgonītireṣā sanātanī  // 3,26.26 //
+triṃśatsaṃkhyāśca tatputrā mahākāyā mahābalāḥ  /
+teṣāṃ nāmāni vakṣyāmi samākarṇaya kumbhaja  // 3,26.46 //
+āścaryaṃ bruvato vyomni paśyatāṃ tridivaukasām  /
+iti tasya vacaḥ śrutvā viśukro roṣarūṣitaḥ  /
+māyārathaṃ samārūḍho gūḍhaśarvarasaṃvṛtaḥ  /
+punaḥ pracaṇḍaphūtkārabadhirīkṛtaviṣṭapāḥ  // 3,27.84 //
+dārayantī kṣititalaṃ daityānāṃ hṛdayaiḥ saha  /
+tataḥ pravavṛte yuddhaṃ tumulaṃ romaharṣaṇam  /
+punaḥ pravavṛte yuddhaṃ śaktīnāṃ dānavaiḥ saha  // 3,28.92 //
+tathā babhūva tumulaṃ yuddhaṃ śaktisuradviṣām  /
+idaṃ śṛṇu mahāprājña sarvapāpanikṛntanam  /
+bhrātaro mama putrāśca senānāthāḥ sahasraśaḥ  // 3,29.12 //
+devadundubhayo neduḥ patitāḥ puṣpavṛṣṭayaḥ  /
+tataḥ sahasraśo jātā mahākāyā mahābalāḥ  // 3,29.74 //
+śumbhaścaiva niśumbhaśca kālakeyā mahābalāḥ  // 3,29.76 //
+tānvināśayituṃsarvānvāsudevaḥ sanātanaḥ  /
+daśāvatāranāthāste kṛtvedaṃ karma duṣkaram  // 3,29.135 //
+aśvānana mahāprājña śrutamākhyānamuttamam  /
+sarve 'pi sevituṃ prāptā brahmaviṣṇupurogamāḥ  // 3,30.7 //
+brahmā viṣṇuśca rudraśca śakrādyāstridaśāstathā  /
+ādityā vasavo rudrā marutaḥ sādhyadevatāḥ  // 3,30.8 //
+etaddṛṣṭvā mahendrādyā ṛṣayaśca tapodhanāḥ  /
+taponiṣṭhaṃ candracūḍaṃ tāḍayāmāsa sāyakaiḥ  /
+bhadre tvaṃ tapasā devaṃ toṣayitvā maheśvaram  /
+kumārā lalitādevyā brahmaviṣṇumaheśvarāḥ  /
+iti kāraṇakṛtyendrairbrahmaviṣṇumaheśvaraiḥ  /
+pāṭalāśca phalinyaśca jaṭilyo jaghanephalāḥ  /
+tāmraśālasyāntarāle nāgaśālaḥ prakīrtitāḥ  // 3,31.70 //
+yato mannāmavikhyātā bhaviṣyasi na saṃśayaḥ  /
+ityuktaṃ vacanaṃ śrutvā mātaṅgasya mahāmuneḥ  /
+rākā cānumatiścaiva tathaivāmāvasyikā punaḥ  // 3,32.12 //
+kalā kāṣṭhā nimeṣāśca kṣaṇāścaiva lavāstruṭiḥ  /
+tithirvārāṃśca nakṣatraṃ yogāśca karaṇāni ca  /
+kaliḥ kalpā ca kalanā kālī ceti catuṣṭayam  /
+puṣpasiṃhāsanāsīnaḥ puṣpamādhvīmadāruṇāḥ  /
+śukra śrīśca śuciśrīśca tasya bhārye ubhe smṛte  /
+nabhaḥśrīśca nabhasyaśrīḥ svarasvārasvamālinī  // 3,32.28 //
+ambā dulā niraliścābhrayantī meghayantrikā  /
+varṣayantī cibuṇikā vāridhārā ca śaktayaḥ  // 3,32.29 //
+varṣantyo dvādaśa proktā madāruṇavilocanāḥ  /
+tapaḥśrīśca tapasyaśrīstasya dve yoṣiduttame  /
+urvaśī menakā caiva rambhā cālaṃbuṣā tathā  // 3,33.18 //
+kṛtasthalā ca viśvācī puñjikasthalayā saha  // 3,33.19 //
+takṣakaḥ śaṅkhacūḍaśca mahādanto mahāphaṇaḥ  // 3,33.36 //
+iḍā ca piṅgalā caiva suṣumṇā tasya śaktayaḥ  /
+pūjayanbhāvayannāste sarvābharaṇabhūṣitaḥ  // 3,33.74 //
+diviye 'pi ca vartante sahasrāṇāṃ sahasraśaḥ  /
+hiraṇya bāhuḥ senānīrdiśāṃpatirathāparaḥ  // 3,34.6 //
+dvādaśāvaraṇasthāste mahākāyā mahābalāḥ  // 3,34.35 //
+caturghā daśadhā caiva tathā dvādaśadhā punaḥ  /
+tatra kakṣāntare devaḥ śaṅkhacakragadādharaḥ  /
+paścānnārāyaṇaḥ śaṅkhī nīlajīmūtasaṃnibhaḥ  // 3,34.76 //
+āgneyyāmaravindābho musalī madhusūdanaḥ  // 3,34.78 //
+vāyavyāṃ vāmano vajrī taruṇāditya dīptimān  // 3,34.79 //
+īśānyāṃ puṇḍarīkābhaḥ śrīdharaḥ paṭṭiśāyudhaḥ  /
+sarvāyudhaḥ sarvaśaktiḥ sarvajñaḥ sarvatomukhaḥ  /
+indragopakasaṃkāśaḥ pāśahasto 'parājitaḥ  // 3,34.82 //
+īśānaḥ sarvavidyānāmadhipaścandraśekharaḥ  /
+eṣāṃ śravaṇamātreṇa jāyate śrīmahodayaḥ  // 3,35.1 //
+vīṇāveṇumṛdaṅgādi vādayantyo muhurmuhuḥ  // 3,35.14 //
+dhūmrārciruṣṇā jvalinī jvālinī visphuliṅginī  /
+suśrīḥsurūpā kapilā havyakavyavahetica  /
+tapinī tāpinī dhūmrā marīcirjvalinī ruciḥ  /
+suṣumṇā bhogadā viśvā bodhinī dhāriṇī kṣamā  // 3,35.87 //
+śaśinī candrikā kāntirjyotsnā śrīḥ prītiraṅgadā  // 3,35.92 //
+nivṛttiśca pratiṣṭhā ca tridyā śāntistathaiva ca  /
+akārādikṣakārāntavarṇamūrtestu mandiram  /
+brahmaviṣṇumaheśānāmardhyasthānamya pūrvataḥ  // 3,36.30 //
+aṇimā mahimā caiva laghimā garimā tathā  // 3,36.50 //
+navalāvaṇyasaṃpūrṇāḥ smayamānamukhāṃbujāḥ  /
+brāhmī māheśvarī caiva kaumārī vaiṣṇavī tathā  /
+vārāhī caiva māhendrī cāmuṇḍāpyatha saptamī  /
+sarvamṛtyupraśaminī sarvavighnanivāriṇī  // 3,36.88 //
+sarvāṅgasundarī devī sarvasaubhāgyadāyinī  /
+etā devyo japaratā muktābharaṇamaṇḍitāḥ  // 3,37.7 //
+nityaklinnā api tathā bheruṇḍā vahnivāsinī  // 3,37.33 //
+mahāvajreśvarī dūtī tvaritā kulasundarī  /
+etā devīsvarūpāḥ syurmahābalaparākramāḥ  // 3,37.35 //
+brahmaviṣṇumaheśāneśvararūpatvamāgatāḥ  /
+ete sarve sāyudhāśca sarvālaṅkārabhūṣitāḥ  /
+bhūmirāpo 'nalo vāyurākāśo gandha eva ca  /
+hārakeyūramukuṭakaṭakādyairalaṅkṛtaḥ  // 3,37.66 //
+sarvaśṛṅgāraveṣāḍhyā sarvābharaṇabhūṣitā  // 3,37.82 //
+vadanti śrīpurakathāṃ te yānti paramāṃ gatim  // 3,37.100 //
+saṃpādayanti ye bhaktāste yānti paramāṃ gatim  // 3,37.102 //
+idānīṃ śrotumicchāmi tasyā matrasya sādhanam  /
+udaṅmukhaḥ prāṅkho vā japetsiṃhāsaneśvarīm  /
+taddaśāṃśastu homaḥ syāttaddaśāṃśaṃ ca tarpaṇam  /
+lakṣaikādaśajāpyena brahmaviṣṇumaheśvarān  /
+sarvāsāṃ devatānāṃ ca tāstāḥ siddhaya ujjvalāḥ  /
+raktasaṃdhyakarociḥ syādvaśīkaraṇakarmaṇi  // 3,38.67 //
+śrutametanmahāpuṇyaṃ lalitākhyānamuttamam  // 3,39.2 //
+sarvābharaṇasaṃyuktā daśahastadhṛtāmbujā  /
+sarvaśṛṅgāraveṣāḍhyā sarvābharaṇabhūṣitā  /
+brahmā viṣṇuśca rudraśca īśvaraśca sadāśivaḥ  /
+sarvātmanāmantarātmā paramāndarūpiṇī  /
+iti stutvā mahādevīṃ dhātā lokapitāmahaḥ  /
+bhūyobhūyo namaskṛtya sahasā śaraṇaṃ gataḥ  // 3,39.43 //
+śrīdevīsodaraṃ natvā puṇḍarīkākṣamacyutam  /
+īśānaḥsarvavidyā nāmīśvaraḥ sarvadehinām  /
+devadundubhayo neduḥ puṣpavṛṣṭiḥ papāta ha  // 3,39.60 //
+tadā pradakṣiṇīkṛtya tatparau dampatī tu tau  /
+tisraḥ koṭyor'dhakoṭī ca yā yāstīr thādhidevatāḥ  // 3,39.69 //
+paśyatāṃ sarvadevānāṃ vidhāturmukhamāviśat  // 3,39.74 //
+jāhnavīsaridāvartaśobhinābhīvibhūṣitaḥ  // 3,39.82 //
+pāṭīrapaṅkakarpūrakuṅkumālaṅkṛtastanaḥ  /
+māṇikyaśakalābaddhamudrikābhiralaṅkṛtaḥ  // 3,39.84 //
+dāḍimīphalabījābhadantapaṅktivirājitaḥ  // 3,39.88 //
+mattālimālāvilasadalakāḍhyamukhāṃbujaḥ  // 3,39.92 //
+athākāśagirā devī brahmāṇamidamabravīt  // 3,39.103 //
+ya idaṃ śṛṇuyānnityaṃ yaścāpi prayataḥ paṭhet  /
+ādirnārāyaṇaḥ śrīmānbhagavānbhaktavatsalaḥ  // 3,39.113 //
+tapasā toṣitaḥ pūrvaṃ mayā ca cirakālataḥ  /
+bhūya eva pravakṣyāmi sāvadhānamanāḥ śṛṇu  // 3,39.121 //
+iti śrībrahmāṇḍe mahāpurāṇe uttarabhāge hayagrīvāgastyasaṃvāde lalitopākhyāne ekonacatvāriṃśo 'dhyāyaḥ
+śrīkāmākṣīti sā devī mahātripurasuṃdarī  /
+etasyāścaritaṃ divyaṃ vada me vadatāṃ vara  // 3,40.2 //
+taddṛṣṭvā bhagavānrudraḥ pārvatīmidamabravīt  /
+ārādhayaitāṃ nityāṃ tvaṃ sarvapāpaharīṃ śivām  // 3,40.16 //
+bālārkāyutasaṃkāśāṃ sarvābharaṇabhūṣitām  // 3,40.20 //
+kirīṭahārakeyūrakaṭakādyairalaṅkṛtām  /
+pulakācitasarvāṅgī harṣeṇotphullalocanā  // 3,40.24 //
+praṇipatya ca sāṣṭāṅgaṃ kṛtvā caiva pradakṣiṇām  // 3,40.25 //
+ādāya vṛṣamāruhya kailāsaśikharaṃ yayau  // 3,40.45 //
+ayodhyādhipatiḥ śrīmānnāmnā daśaratho nṛpaḥ  /
+ayodhyā mathurā māyā kāśī kāñcī hyavantikā  /
+brahmaviṣṇumaheśādyāḥ sastrīkāḥ sarvadā sadā  /
+arcayāmāsa rājendro bhaktyā paramayā yutaḥ  // 3,40.97 //
+sarvaśṛṅgāraveṣāḍhyā sarvābharaṇabhūṣitā  /
+saundaryasārasīmā sā sarvābharaṇabhūṣitā  // 3,40.106 //
+tasyai tadrātrivṛttāntaṃ kathayāmāsa sādaram  /
+pradakṣiṇatrayaṃ kṛtvā vinayena samanvitaḥ  // 3,40.117 //
+praṇamya daṇḍavadbhūmau kṛtvā cāsyāḥ stutiṃ punaḥ  /
+dattvā cāsyai mahārhāṇi vāsāṃsi vividhāni ca  // 3,40.131 //
+amulyāni mahārhāṇi bhūṣaṇāni mahānti ca  /
+tataḥ pradakṣiṇīkṛtya nirgatya saha bhāryayā  // 3,40.132 //
+iti śrībrahmāṇḍe mahāpurāṇe uttarabhāge hayagrīvāgastyasaṃvāde lalitopākhyāne catvāriṃśo 'dhyāyaḥ
+itthaṃ rahasyamākhyātaṃ gopanīyaṃ prayatnataḥ  // 3,41.17 //
+śatamaṣṭottaraṃ japtvā tilakaṃ kārayed budhaḥ  // 3,41.37 //
+cakramadhyagatāṃ pṛthvīṃ saśailavanakānanām  /
+ajarāmaratāṃ mantrī labhate nātra saṃśayaḥ  // 3,41.63 //
+amānitvamadaṃbhitvamahiṃsā kṣāntirārjavam  /
+ācāryopāsanaṃ śaucaṃ sthairyamātmavinigrahaḥ  // 3,41.78 //
+janmamṛtyujarāvyādhiduḥkhadoṣānudarśanam  /
+asaktiranabhiṣvaṅgaḥ putradāragṛhādiṣu  // 3,41.79 //
+nityaṃ ca samacittatvamiṣṭāniṣṭopapattiṣu  /
+adhyātmajñānanityatvaṃ tattvajñānārthadarśanam  /
+nirvairaḥ sarvabhūteṣu yaḥ sa yāti parāṃ śriyam  // 3,41.82 //
+iti śrībrahmāṇḍamahāpurāṇe uttarabhāge hayagrīvāgastyasaṃvāde lalitopākhyāne ekacatvāriṃśo 'dhyāyaḥ
+gurorālokamātreṇa bhāṣaṇātsparśanādapi  /
+āvāhanā sane pādyamardhyamācamanaṃ tathā  // 3,43.12 //
+snānaṃ vastraṃ ca bhūṣā ca gandhaḥ puṣpaṃ tathaiva ca  /
+dhūpadīpau ca naivedyaṃ tāmbūlaṃ ca pradakṣiṇā  // 3,43.13 //
+ādadīta tato jñānaṃ pūrvaṃ tamabhivādayet  // 3,43.39 //
+japācchrāntaḥ punardhyāyeddhyānācchrāntaḥ punarjapet  /
+ubhayoḥ kāmyakarmā syāditi śāstrasya niścayaḥ  // 3,43.56 //
+guruṃ huṅkṛtya tuṅkṛtya vipraṃ vādairvijitya ca  /
+manuṣyacarmaṇā baddhaḥ sākṣātparaśivaḥ svayam  /
+yadeva nityaṃ dhyāyanti brahmaviṣṇuśivādayaḥ  /
+striyo vaiśyāśca śūdrāśca te yānti paramāṃ gatim  /
+iti śrībrahmāṇḍamahāpurāṇe uttarabhāge lalitopākhyāne tricatvāriṃśo 'dhyāyaḥ
+brahmā viṣṇuśca rudraśca dhaneśendrayamāḥ kramāt  // 3,44.29 //
+śrīkaṇṭhānantasūkṣmau ca trimūrtiramareśvaraḥ  /
+urvīśobhārabhūtiścātithīśaḥ sthāṇuko haraḥ  // 3,44.49 //
+caṇḍīśo bhautikaḥ sadyojātaścānugraheśvaraḥ  /
+akrūraśca mahāsenaḥ syurete varamūrttayaḥ  // 3,44.50 //
+tataḥ krodhīśacaṇḍīśau pañcāntakaśivottamau  /
+ajeśaḥ śarvasomeśau haro lāgalidārukau  /
+ardhanārīśvaraścomākāntaścāpāḍhyadaṇḍinau  // 3,44.52 //
+atrirmīnaśca meṣaśca lohitaśca śikhī tathā  /
+khaḍgadaṇḍadvidaṇḍau ca sumahākālavyā linau  // 3,44.53 //
+bhujaṅgeśaḥ pinākī ca khaḍgeśaśca bakastathā  /
+tīvrā ca jvālinī nandā suyaśāḥ kāmarūpiṇī  // 3,44.72 //
+grahanyāsaṃ tataḥ kuryāddhyānapūrvaṃ samāhitaḥ  // 3,44.76 //
+tārā nyasettato dhyāyansarvābharaṇabhūṣitāḥ  // 3,44.80 //
+uḍīrāṃ ca prayāgaṃ ca ṣaṣṭimāyāpuraṃ tathā  /
+gaṇeśaṃ kṣetrapālaṃ ca yoginīṃ baṭukaṃ tathā  /
+aṇimā caiva laghimā tṛtīyā mahimā tathā  /
+brāhmī māheśvarī caiva kaumārī vaiṣṇavī tathā  /
+vārāhī ca tathendrāṇī cāmuṇḍā caiva saptamī  // 3,44.11 //
+anaṅgakusumā paścāddvitīyānaṅga mekhalā  /
+anaṅgamadanā paścādanaṅgamadanāturā  // 3,44.24 //
+sarva mṛtyupraśaminī sarvavighnavināśinī  /
+sarvāṅgasundarī caiva sarvasaubhāgyadāyinī  // 3,44.35 //
+sarvajñā sarvaśaktiśca sarvajñānapradā tathā  /
+sarvādhārasvarūpā ca sarvapāpaharā tathā  /
+samāptamidaṃ brahmāṇḍamahāpurāṇam  /
