@@ -351,7 +351,7 @@ ax.annotate('', xy=(0.97, 0.104), xytext=(0.03, 0.104),
             annotation_clip=False,
             arrowprops=dict(arrowstyle='-|>', color='#555555', lw=2.2))
 
-feat_desc = ('80 most frequent words' if W1
+feat_desc = (f'{MFW} most frequent words' if W1
              else f'{MFW} most frequent character 3-grams')
 corpus_desc = ('unsandhied' if W1 else 'sandhied') + ' text'
 if 'noreuse' in CORPUS.name:
