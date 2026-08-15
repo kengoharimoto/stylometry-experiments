@@ -68,8 +68,8 @@ tables with `analyze_c3.py` / `analyze_w1.py` there.
 
 - Below 80 is too thin and archaism-vulnerable: at MFW 30–50 the Bhāgavata
   strata sit far left among the epics (mean x −0.33 / −0.19 @30) — with only
-  the top particles as evidence, an archaic particle repertoire (imitated or
-  inherited — open question) is indistinguishable from epic usage —
+  the top particles as evidence, an archaic particle repertoire is
+  indistinguishable from epic usage —
   and the śāstra/Śivadharma outgroups have not yet separated. Words ranked
   ~50–80 carry real signal (the 50→80 step, ρ 0.81, is the one discontinuity
   in the low range).

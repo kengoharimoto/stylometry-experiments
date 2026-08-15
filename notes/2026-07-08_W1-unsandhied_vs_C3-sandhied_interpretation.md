@@ -73,11 +73,8 @@ in the texts, not in the preprocessing.
   archaic-leaning, Vedicizing style is *sui generis* — consistent with
   the single-author/single-milieu hypothesis, and the internal cohesion (even
   prose-heavy skandha 5 stays inside) supports compositional unity over
-  accretion. The model separates it cleanly from the old core either way —
-  whether its archaic cast is imitation or inheritance is an open question.
-  **[Reworded 2026-08-15: original asserted "deliberately archaizing" /
-  "archaizing imitation" as fact; per the standing correction (see annotation
-  in 2026-08-14_three_debates note §2), imitation vs. inheritance is open.]**
+  accretion. The model separates it cleanly from the old core.
+  **[Reworded 2026-08-15: original asserted deliberate archaizing as fact.]**
 
 ## 3. W1 / C3 disagreements — diagnostic, not noise
 
