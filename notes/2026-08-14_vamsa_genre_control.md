@@ -68,6 +68,8 @@ The genre objection is now bounded and survives only as a discount factor,
 not an alternative explanation: subtract ~20 points of genre pull from the
 PPL layer's ~21–41 placement and it still sits well clear of where any
 late-text genealogy lands. The stratigraphic reading (old PPL stratum inside
-late compositions) stands. BhP 9's modest position (36, archaizing text,
-+8 vs its genre-mixed remainder) is consistent with the known Bhāgavata
-archaism story rather than with a generic genre artifact.
+late compositions) stands. BhP 9's modest position (36,
++8 vs its genre-mixed remainder) is consistent with the Bhāgavata's
+distinctive archaic-leaning profile — imitation or inheritance, an open
+question (see 2026-08-14_three_debates §2 annotation) — rather than with a
+generic genre artifact.

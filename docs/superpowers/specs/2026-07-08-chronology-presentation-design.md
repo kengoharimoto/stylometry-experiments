@@ -47,8 +47,10 @@ Guided tour; each stop a philological sanity check:
   as a number"); Viṣṇu↔Mārkaṇḍeya; Matsya adhy. 176 parallel material.
 - Late sectarian-encyclopedic zone: Agni–Garuḍa–Nārada digests; the
   Śivapurāṇa's saṃhitās refuse to unify (compilation model confirmed).
-- The Bhāgavata: all twelve skandhas' nearest neighbours internal; deliberate
-  archaizing does not fool the model.
+- The Bhāgavata: all twelve skandhas' nearest neighbours internal; the model
+  keeps it distinct from the old core whether its archaic cast is imitation
+  or inheritance (that question stays open — see 2026-08-14_three_debates §2
+  annotation).
 
 ### Act 4 — Why believe the axis? Robustness (5 min, slides 15–17)
 - The abstract's core argument: the seriation axis replicates across feature

@@ -70,10 +70,14 @@ in the texts, not in the preprocessing.
   redactional heterogeneity.
 - **The Bhāgavata stands alone.** All twelve skandhas' NNs are internal to the
   BhP in both analyses; nothing else in the 101-text corpus comes near. Its
-  deliberately archaizing, Vedicizing style is *sui generis* — consistent with
+  archaic-leaning, Vedicizing style is *sui generis* — consistent with
   the single-author/single-milieu hypothesis, and the internal cohesion (even
   prose-heavy skandha 5 stays inside) supports compositional unity over
-  accretion. The model is not fooled by the archaizing imitation of the old core.
+  accretion. The model separates it cleanly from the old core either way —
+  whether its archaic cast is imitation or inheritance is an open question.
+  **[Reworded 2026-08-15: original asserted "deliberately archaizing" /
+  "archaizing imitation" as fact; per the standing correction (see annotation
+  in 2026-08-14_three_debates note §2), imitation vs. inheritance is open.]**
 
 ## 3. W1 / C3 disagreements — diagnostic, not noise
 
