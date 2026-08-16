@@ -152,7 +152,6 @@ kalpe kalpe ca bhūtānāṃ mahatāmapi saṃkṣayaḥ
 prasaṃkhyāya ca duḥkhāni brahmaṇaścāpyanityatā
 tatastāpatrayātīto nīrūpākhyo nirañjanaḥ
 kīrttyate ṛṣivaṃśaśca sarvapāpapraṇāśanaḥ
-iti kṛtyasamuddeśaḥ purāṇasyopavarṇitaḥ
 pravṛttayaśca bhūtānāṃ nivṛttīnāṃ phalāni ca
 parāśarasya cotpattiradṛśyatvaṃ yathā vibhoḥ
 jajñe pitṝṇāṃ kanyāyāṃ vyāsaścāpi yathā muniḥ
@@ -1045,7 +1044,6 @@ prajāvāneti sāyujyamīśvarasya naro hi saḥ
 ityetadvo mayākhyātaṃ guhyaṃ bhīmasya tadyaśaḥ
 etat proktaṃ nidānaṃ vastanūnāṃ nāmabhiḥ saha
 mahādevasya devasya bhṛgostu śrṛṇuta prajāḥ
-iti śrīmahāpurāṇe vāyuprokte mahādevatanuvarṇanaṃ nāma saptaviśo'dhyāyaḥ
 bhṛgoḥ khyātirvijajñe'tha īśvarau sukhaduḥkhayoḥ
 śubhāśubhapradātārau sarvaprāṇabhṛtāmiha
 devau dhātāvidhātārau manvantaravicāriṇau
@@ -3647,7 +3645,6 @@ jagāma vai gṛhaṃ svasthaḥ śiṣyaiḥ parivṛto vaśī
 cakāra saṃhitāḥ pañcabuddhimān padavittamaḥ
 provāca saṃhitāstisraḥ śākapūrṇarathītaraḥ
 tasya śiṣyāstu catvāraḥ ketavo dālakistathā
-iti śrīmahāpurāṇe vāyuprokte mahāsthānatīrthavarṇanaṃ nāma ṣaṣṭitamo'dyāyaḥ
 dhīmān śatabalākaśca naigamaśca dvijottamaḥ
 bāṣkaliśca bharadvājastisraḥ provāca saṃhitāḥ
 trayastasyābhavañchiṣyā mahātmāno guṇānvitāḥ
@@ -3924,7 +3921,6 @@ udāravaṃśābhijanadyutīnāṃ prakṛṣṭamedhābhisamedhitānām
 kīrtidyutikhyātibhiranvitānāṃ puṇyaṃ hi vikhyāpanamīśvarāṇām
 prajeśadevarṣimanupradhānāṃ puṇyaprasūtiṃ prathitāmajasya
 vistareṇānupūrvyā ca bhūyaḥ kiṃ varṇayāmyaham
-iti mahāpurāṇe vāyuprokte prajāpativaṃśānukīrttanaṃ nāmaikaṣaṣṭitamo'dhyāyaḥ
 sūta uvāca manvantarāṇāṃ yāni syuratītānāgatāni ha
 svāyambhuvo manuḥ pūrvaṃ manuḥ svārociṣastathā
 ṣaḍete manavo'tītā vakṣyāmyaṣṭāvanāgatān
@@ -4537,7 +4533,6 @@ nāradaṃ nāśamehīti garbhavāsaṃ vaseti ca
 tathā teṣvapi naṣṭeṣu mahātmasu purā kila
 imā visṛṣṭiṃ dakṣasya kṛtsnāṃ yo veda tattvataḥ
 āyuṣmān kīrttimān dhanyaḥ prajānāṃśca bhavatyuta
-iti śrīmahāpurāṇe vāyuprokte prajāpativaṃśānukīrttanaṃ nāma caturtho 'dhyāyaḥ
 devānāṃ dānavānāñca daityānāñcaiva sarvaśaḥ
 arundhatī vasuryāmī lambā bhānurmarutvatī
 saṅkalpā ca muhūrtā ca sādhyā viśvā tathaiva ca
@@ -6084,7 +6079,6 @@ anāhārātkṣayaṃ yāti vidyādanaśanaṃ tapaḥ
 kṣīṇeṣu sarvvapāpeṣu kṣīṇeṣvevendriyeṣu ca
 kāraṇebhyo guṇebhyo'tha vyaktāvyaktasya kṛtsnaśaḥ
 tasya nāsti gatisthānaṃ vyaktāvyaktaṃ na saṃśayaḥ
-iti śrīmahāpurāṇe vāyuprokte śrāddhakalpe tīrthayātrā nāma pañcadaśo'dhyāyaḥ
 ataḥ paraṃ pravakṣyāmi dānāni ca phalāni ca
 śrāddhakarmmāṇi medhyāni varjanīyāni yāni ca
 kurvāṇastūddharetpāpānmagnānnauriva sāgare
@@ -6299,7 +6293,6 @@ antarjānvaviśeṣeṇa tadvadācamanaṃ bhavet
 muṇḍāñjaṭilakāṣāyān śrāddhakāle'pi varjjayet
 devabhaktā mahātmānaḥ punīyurdarśanādapi
 sarvvajñānāni dṛṣṭāni mokṣādīni mahātmanām
-iti śrīmahāpurāṇe vāyuprokte śrāddhakalpe brāhmaṇaparīkṣā nāma saptadaśo'dhyāyaḥ
 ataḥ paraṃ pravakṣyāmi dānāni ca phalāni ca
 tāraṇaṃ sarvvabhūtānāṃ svargamārgaṃ sukhāvaham
 loke śreṣṭhatamaṃ svargyamātman ścāpi yat priyam
@@ -6670,7 +6663,6 @@ umāvanaṃ praviṣṭastu sa rājā mṛgayāṃ gataḥ
 saha piśācairbhūtaistu rudraiḥ strībhāvamāsthitaḥ
 tasmāt sa rājā sudyumnaḥ strībhāvaṃ labdhavān punaḥ
 mahādevaprasādācca gāṇapatya mavāpnuyāt
-iti śrīmahāpurāṇe vāyuprokte vaivasvatamanoḥ sṛṣṭikathanaṃ nāma trayoviṃśo'dhyāyaḥ
 nisargaṃ manu putrāṇāṃ vistareṇa nibodhata
 śāpācchūdratvamāpannaścyavanasya mahātmanaḥ
 karūṣasya tu kārūṣaḥ kṣatriyo yuddhadurmadaḥ

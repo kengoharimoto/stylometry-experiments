@@ -78,11 +78,48 @@ def is_skip_line_constituted(line: str) -> bool:
     return not s or s.startswith("#")
 
 
+# ── Colophon filtering (2026-08-16) ──────────────────────────────────────────
+# Chapter colophons ("iti śrī...mahāpurāṇe...adhyāyaḥ", bare chapter-number
+# lines, samāpta-enders) are transmission paratext, not composition language,
+# and were shown to bias the drift maps (notes/2026-08-16_c3_colophon_
+# stripped_check.md). They are dropped at the source-filter level so BOTH
+# derived corpora (sandhied and unsandhied) exclude them identically.
+# Detection runs on a normalized copy (lowercased; digits, daṇḍas and other
+# non-letter furniture removed) because source lines carry verse numbers and
+# punctuation around the formulas.
+
+_COLO_STRICT = re.compile(
+    r'^\s*iti\b.*(purāṇ|adhyāy|dhyāyaḥ|sarga|parva|kāṇḍ|saṃhitā|khaṇḍ|'
+    r'māhātmy|śāstre|samāpt|prakaraṇ|paṭal)', re.I)
+_COLO_FUSED = re.compile(r'^\s*itiśrī', re.I)
+# NB: bare "sargaḥ$" is NOT an ender pattern — genuine verse lines end in
+# visargaḥ/ādisargaḥ/bhūtasargaḥ (BhP 3/7/9/10, LiP, NaP, Vāyu). Rām-style
+# sarga colophons are iti-initial and caught by _COLO_STRICT.
+_COLO_LOOSE = re.compile(r"(adhyāyaḥ|'dhyāyaḥ|\bdhyāyaḥ)\s*$")
+_COLO_ENDER = re.compile(r'(paṭalaḥ|samāptaḥ|samāptam|prakaraṇam)\s*$')
+_COLO_NORM = re.compile(r"[^a-zāīūṛṝḷḹṃḥśṣṇṭḍṅñ' ]+")
+
+
+# mid-line "iti/ity śrī...purāṇe" (colophons glued to trailing ref-tag
+# residue, or sharing a line with a verse end — a handful of lines corpus-wide)
+_COLO_MID = re.compile(r"\bit[iy] śrī(?:\S*\s+){0,2}\S*purāṇ[ae]\b")
+
+
+def is_colophon_line(line: str) -> bool:
+    s = _COLO_NORM.sub(' ', line.lower().replace('’', "'").replace('‘', "'"))
+    s = ' '.join(s.split())
+    if not s:
+        return False
+    return bool(_COLO_STRICT.search(s) or _COLO_FUSED.search(s)
+                or _COLO_LOOSE.search(s) or _COLO_ENDER.search(s)
+                or _COLO_MID.search(s))
+
+
 def skip_test_for(basename: str):
     """Return the line-skip predicate appropriate for this input file."""
     if basename.startswith(CONSTITUTED_PREFIXES):
         return is_skip_line_constituted
-    return is_skip_line
+    return lambda l: is_skip_line(l) or is_colophon_line(l)
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).parent

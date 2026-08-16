@@ -114,7 +114,6 @@ brahmarūpaṃ samāsthāya jagatsṛṣṭau pravartate
 sṛṣṭaṃ ca pāty anuyugaṃ yāvat kalpavikalpanā
 narasiṃhādirūpeṇa rudrarūpeṇa saṃharet
 rāmādirūpaṃ sa tu gṛhya pāti bhūtvātha rudraḥ prakaroti nāśam
-iti śrīnarasiṃhapurāṇe sarganirūpaṇaṃ nāma prathamo 'dhyāyaḥ
 sūta uvāca
 brahmā bhūtvā jagatsṛṣṭau narasiṃhaḥ pravartate
 nārāyaṇākhyo bhagavān brahmā lokapitāmahaḥ
@@ -158,7 +157,6 @@ tadvad varāhakalpaś ca tṛtīyaḥ parikalpitaḥ
 yatra viṣṇuḥ svayaṃ prītyā vārāhaṃ vapur āśritaḥ
 uddhartuṃ vasudhāṃ devīṃ stūyamāno maharṣibhiḥ
 sṛṣṭvā jagad vyomacarāprameyaḥ prajāś ca sṛṣṭvā sakalās tatheśaḥ
-iti śrinarasiṃhapurāṇe sargaracanāyāṃ dvitīyo 'dhyāyaḥ
 sūta uvāca
 tasmin padme mahābhāga vedavedāṅgapāragaḥ
 evam uktvā tirobhāvaṃ gato nārāyaṇaḥ prabhuḥ
@@ -197,7 +195,6 @@ prākṛtā vaikṛtāś caiva jagato mūlahetavaḥ
 sṛjato brahmaṇaḥ sṛṣṭim utpannā ye mayeritā
 taṃ taṃ vikāraṃ ca paraṃ pareśo māyām adhiṣṭhāya sṛjaty anantaḥ
 avyaktarūpī paramātmasaṃjñaḥ saṃpreryamāṇo nikhilātmavedyaḥ
-iti śrīnarasiṃhapurāṇe sṛṣṭiracanāprakāro nāma tṛtīyo 'dhyāyaḥ
 navadhā sṛṣṭir utpannā brahmaṇo 'vyaktajanmanaḥ
 sūta uvāca
 prathamaṃ brahmaṇā sṛṣṭā marīcyādaya eva ca
@@ -213,7 +210,6 @@ anusargasya kartāro marīcyādyā maharṣayaḥ
 vasiṣṭhāntā mahābhāga brahmaṇo mānasodbhavāḥ
 sarge tu bhutāni dhiyaś ca khāni khyātāni sarvaṃ sṛjate mahātmā
 sa eva paścāc caturāsyarūpī munisvarūpī ca sṛjaty anantaḥ
-iti śrīnarasiṃhapurāṇe caturtho 'dhyāyaḥ
 punaḥ sarve marīcyādyāḥ sasṛjus te kathaṃ punaḥ
 rudrasṛṣṭiṃ pravakṣyāmi tatsargāś caiva sattama
 pratisargaṃ munīnāṃ tu vistarād vadataḥ śṛṇu
@@ -322,7 +318,6 @@ kathitā dakṣakanyānāṃ mayā te 'patyasaṃtatiḥ
 śraddhāvān saṃsmared etāṃ sa susaṃtānavān bhavet
 sargānusargau kathitau mayā te samāsataḥ sṛṣṭivivṛddhihetoḥ
 paṭhanti ye viṣṇuparāḥ sadā narā idaṃ dvijās te vimalā bhavanti
-iti śrīnarasiṃhapurāṇe sṛṣṭikathane pañcamo 'dhyāyaḥ
 sūta uvāca
 sṛṣṭis te kathitā viṣṇor mayāsya jagato dvija
 devadānavayakṣādyā yathotpannā mahātmanaḥ
@@ -383,7 +378,6 @@ acirād eva putrāṃs te labhante nātra saṃśayaḥ
 devāś ca pitaras tasya tṛptā yānti paraṃ sukham
 yaś caitac chṛṇuyān nityaṃ prātar utthāya mānavaḥ
 paṭhiṣyate yas tu śṛṇoti sarvadā sa yāti śuddho harilokam añjasā
-iti śrinarasiṃhapurāṇe puṃsavanākhyānaṃ nāma ṣaṣṭho 'dhyāyaḥ
 śrībharadvāja uvāca
 mārkaṇḍeyena muninā kathaṃ mṛtyuḥ parājitaḥ
 etad ākhyāhi me sūta tvayaitat sūcitaṃ purā
@@ -521,7 +515,6 @@ ya idaṃ paṭhete bhaktyā trikālaṃ niyataḥ śuciḥ
 nākāle tasya mṛtyuḥ syān narasyācyutacetasaḥ
 hṛtpadmamadhye puruṣaṃ purāṇaṃ nārāyaṇaṃ śāśvatam ādidevam
 saṃcintya sūryād api rājamānaṃ mṛtyuṃ sa yogī jitavāṃs tadaiva
-iti śrīnarasiṃhapurāṇe mārkaṇḍeyamṛtyuṃjayo nāma saptamo 'dhyāyaḥ
 śrīvyāsa uvāca
 mṛtyuś ca kiṃkarāś caiva viṣṇudūtaiḥ prapīḍitāḥ
 svarājñas te 'nu nirveśaṃ gatvā te cukruśur bhṛśam
@@ -598,14 +591,12 @@ yannāmakīrtanād yātā nārakāḥ keśavālayam
 taṃ namāmi sadā devaṃ narasiṃham ahaṃ gurum
 dṛṣṭvā praśāntaṃ narakāgnim ugraṃ yantrādi sarvaṃ viparītam atra
 punaḥ sa śikṣārtham athātmadūtān yamo hi vaktuṃ kṛtavān manaḥ svayam
-iti śrīnarasiṃhapurāṇe yamagītā nāmāṣṭamo 'dhyāyaḥ
 śrīvyāsa uvāca
 svapuruṣam abhivīkṣya pāśahastaṃ vadati yamaḥ kila tasya karṇamūle
 parihara madhusūdanaprapannān prabhur aham anyanṛṇāṃ na vaiṣṇavānām
 varṣaśatam apīha pacyamānaṃ vrajati na kāñcanatām ayaḥ kadācit
 yamāṣṭakam idaṃ puṇyaṃ paṭhate yaḥ śṛṇoti vā
 punaḥ pravakṣyāmi purātanīṃ kathāṃ bhṛgos tu pautreṇa ca yā purā kṛtā
-iti śrīnarasiṃhapurāṇe navamo 'dhyāyaḥ
 śrivyāsa uvāca
 jitvaivam ātmano mṛtyuṃ tapasā śaṃsitavrataḥ
 sa jagāma pitur gehaṃ mārkaṇḍeyo mahāmatiḥ
@@ -681,7 +672,6 @@ itihāsāni puṇyāni pitṛtattvaṃ ca sattamaḥ
 tataḥ kadācit puruṣottamoktaṃ vacaḥ smaran śāstravidāṃ variṣṭhaḥ
 bhraman samudraṃ sa jagāma draṣṭuṃ hariṃ sureśaṃ munir ugratejāḥ
 kṣīrābdhim āsādya hariṃ sureśaṃ nāgendrabhoge kṛtanidram aikṣata
-iti śrīnarasiṃhapurāṇe mārkaṇḍeyacaritre daśamo 'dhyāya
 vyāsa uvāca
 mārkaṇḍeyo 'bhituṣṭāva bhogaparyaṅkaśāyinam
 mārkaṇḍeya uvāca
@@ -758,7 +748,6 @@ vyāsa uvāca
 ity uktvā taṃ muniśreṣṭhaṃ mārkaṇḍeyaṃ sa mādhavaḥ
 virarāma sa sarvatra paśyan viṣṇuṃ yatas tataḥ
 ye viṣṇubhaktyā caritaṃ purāṇaṃ bhṛgos tu pautrasya paṭhanti nityam
-iti śrīnarasiṃhapurāṇe mārkaṇḍeyacaritaṃ nāma ekādaśo 'dhyāya
 sūta uvāca
 śrutvemām amṛtāṃ puṇyāṃ sarvapāpapraṇāśinīm
 avitṛptaḥ sa dharmātmā śuko vyāsam abhāṣata
@@ -820,7 +809,6 @@ yaś caitat paṭhate nityaṃ havyakavyeṣu brāhmaṇaḥ
 saṃtṛptāḥ pitaras tasya na viśanti yamālayam
 yaś caitat paṭhate nityaṃ pitṝṇām anṛṇo bhavet
 purātanaṃ pāpaharaṃ sadā nṛṇāṃ kim anyad adyaiva vadāmi śaṃsa me
-iti śrīnarasiṃhapurāṇe yamīyamasaṃvādo nāma dvādaśo 'dhyāya
 śrīśuka uvāca
 anyāḥ puṇyāś ca me brūhi kathāḥ pāpapraṇāśinīḥ
 pativratāyāḥ saṃvādaṃ kasyacid brahmacāriṇaḥ
@@ -917,7 +905,6 @@ mṛtabhāryaś ca saṃnyasya samaloṣṭāśmakāñcanaḥ
 narasiṃhaprasādena parāṃ siddhim avāptavān
 pativratāśaktir iyaṃ taveritā dharmaś ca mātuḥ parirakṣaṇaṃ param
 saṃsāravṛkṣaṃ ca nihatya bandhanaṃ chitvā ca viṣṇoḥ padam eti mānavaḥ
-iti śrīnarasiṃhapurāṇe brahmacārisaṃvādo nāma trayodaśo 'dhyāya
 vyāsa uvāca
 śṛṇu vatsa mahābuddhe śiṣyāś caitāṃ parāṃ kathām
 mayocyamānāṃ śṛṇvantu sarvapāpapraṇāśinīm
@@ -944,7 +931,6 @@ bāhyaṃ samastaṃ guṇam indriyāṇāṃ vilīya bhedaṃ bhagavaty anante
 vijñeyam ānandam ajaṃ viśālaṃ satyātmakaṃ kṣemapadaṃ vareṇyam
 imāṃ kathāṃ muktiparāṃ yathoktāṃ paṭhanti ye nārasiṃhaṃ smarantaḥ
 saṃsāravṛkṣasya vināśanaṃ paraṃ punaḥ kam icchasy abhivāñchitaṃ vada
-iti śrīnarasiṃhapurāṇe caturdaśo 'dhyāya
 śrīśuka uvāca
 śrotum icchāmy ahaṃ tāta sāṃprataṃ munibhiḥ saha
 saṃsāravṛkṣaṃ sakalaṃ yenedaṃ parivartate
@@ -969,7 +955,6 @@ jñānam eva paraṃ puṃsāṃ śreyasām abhivāñchitam
 toṣaṇaṃ narasiṃhasya jñānahīnaḥ paśuḥ pumān
 āhāranidrābhayamaithunāni samānam etat paśubhir narāṇām
 jñānaṃ narāṇām adhikaṃ hi loke jñānena hīnāḥ paśubhiḥ samānāḥ
-iti śrīnarasiṃhapurāṇe pañcadaśo 'dhyāya
 śrīśuka uvāca
 saṃsāravṛkṣam āruhya dvaṃdvapāśaśatair dṛḍhaiḥ
 yaḥ kāmakrodhalobhais tu viṣayaiḥ paripīḍitaḥ
@@ -1028,7 +1013,6 @@ yaś cainaṃ paṭhate caiva nṛsiṃhakṛtamānasaḥ
 viṣṇoḥ stavam idaṃ puṇyaṃ mahādevena kīrtitam
 prātaḥ snātvā paṭhen nityam amṛtatvaṃ sa gacchati
 upāsakānāṃ prabhum īśvaraṃ paraṃ te yānti siddhiṃ paramāṃ tu vaiṣṇavīm
-iti śrīnarasiṃhapurāṇe viṣṇoḥ stavarājanirūpaṇe ṣoḍaśo 'dhyāya
 śrīśuka uvāca
 kiṃ japan mucyate tāta satataṃ viṣṇutatparaḥ
 saṃsāraduḥkhāt sarveṣāṃ hitāya vada me pitaḥ
@@ -1088,7 +1072,6 @@ kathāś ca vividhāḥ proktā mayā bhaja janārdanam
 aṣṭākṣaram imaṃ mantraṃ sarvaduḥkhavināśanam
 idaṃ stavaṃ vyāsamukhāt tu nissṛtaṃ saṃdhyātraye ye puruṣāḥ paṭhanti
 te dhautapāṇḍurapaṭā iva rājahaṃsāḥ saṃsārasāgaram apetabhayās taranti
-iti śrīnarasiṃhapurāṇe aṣṭākṣaramantramāhātmyaṃ nāma saptadaśo 'dhyāya
 sūta uvāca
 iti śrutvā kathāḥ puṇyāḥ sarvapāpapraṇāśinīḥ
 nānāvidhā muniśreṣṭhāḥ kṛṣṇadvaipāyanāt punaḥ
@@ -1131,7 +1114,6 @@ saṃkṣepāt tava vakṣyāmi sṛṣṭim etāṃ śṛṇuṣva me
 evaṃ vaḥ kathitā viprā aśvinautpattir uttamā
 puṇyā pavitrā pāpaghnī bharadvāja mahāmate
 ādityaputrau bhiṣajau surāṇāṃ divyena rūpeṇa virājamānau
-iti śrīnarasiṃhapurāṇe aśvinor utpattir nāma aṣṭādaśo 'dhyāya
 yaiḥ stuto nāmabhis tena savitā viśvakarmaṇā
 tāny ahaṃ śrotum icchāmi vada sūta vivasvataḥ
 sūta uvāca
@@ -1169,7 +1151,6 @@ tvayā yasmāt stuto 'haṃ vai nāmnām aṣṭaśatena ca
 varaṃ vṛṇīṣva tasmāt tvaṃ varado 'haṃ tavānagha
 etais tu nāmabhis yas tvāṃ naraḥ stoṣyati nityaśaḥ
 saṃjñāṃ viśaṅkāṃ ravimaṇḍalasthitāṃ kṛtvā jagāmātha raviṃ prasādya
-iti śrīnarasiṃhapurāṇe ekonaviṃśo 'dhyāya
 sāṃprataṃ mārutotpattiṃ vakṣyāmi dvijasattama
 ḥputrāḥ parābhūtā ditiś ca vinaṣṭaputrā mahendradarpaharaṃ putram icchantī kaśyapam ṛṣiṃ svapatim ārādhayāmasa
 ḥsa ca tapasā saṃtuṣṭo garbhādhānaṃ cakāra tasyām
@@ -1181,7 +1162,6 @@ sāṃprataṃ mārutotpattiṃ vakṣyāmi dvijasattama
 ḥmahendrasya sahāyā amī maruto nāma devā babhūvuḥ
 evaṃ mune sṛṣṭir iyaṃ taveritā devāsurāṇāṃ naranāgarakṣasām
 viyanmukhānām api yaḥ paṭhed idaṃ śṛṇvaṃś ca bhaktyā harilokam eti saḥ
-iti śrīnarasiṃhapurāṇe viṃśatitamo 'dhyāya
 vaṃśamanvantare brūhi vaṃśānucaritaṃ ca me
 sūta uvāca
 rājñāṃ vaṃśaḥ purāṇeṣu vistareṇa prakīrtitaḥ
@@ -1213,7 +1193,6 @@ sūryavaṃśabhavās te prādhānyena prakīrtitāḥ
 yair iyaṃ pṛthivī bhuktā dharmataḥ kṣatriyaiḥ purā
 sūryasya vaṃśaḥ kathito mayā mune samudgatā yatra nareśvarāḥ purā
 mayocyamānāñ chaśinaḥ samāhitaḥ śṛṇuṣva vaṃśe 'tha nṛpān anuttamān
-iti śrīnarasiṃhapurāṇe sūryavaṃśakathanaṃ nāmaikaviṃśo 'dhyāya
 sūta uvāca
 somavaṃśaṃ śṛṇuṣvātha bharadvāja mahāmune
 purāṇe vistareṇoktaṃ saṃkṣepāt kathaye 'dhunā
@@ -1255,7 +1234,6 @@ yaś cedaṃ paṭhate nityaṃ śrāddhe vā śrāvayet pitṝn
 vaṃśānukīrtanaṃ puṇyaṃ pitṝṇāṃ dattam akṣayam
 rājñāṃ hi somasya mayā taveritā vaṃśānukīrtir dvija pāpanāśanī
 śṛṇuṣva viprendra mayocyamānaṃ manvantaraṃ cāpi caturdaśākhyam
-iti śrīnarasiṃhapurāṇe somavaṃśānukīrtanaṃ nāma dvāviṃśo 'dhyāyaḥ
 sūta uvāca
 ḥprathamaṃ tāvat svāyaṃbhuvaṃ manvantaraṃ tatsvarūpaṃ kathitam
 ḥsargādau svārociṣo nāma dvitīyo manuḥ
@@ -1324,7 +1302,6 @@ brahmarūpadharaḥ śete sarvātmā nṛhariḥ svayam
 svamāyām āsthito vipra sarvarūpī janārdanaḥ
 yugavyavasthāṃ kurute sṛṣṭiṃ ca puruṣottamaḥ
 ete tavoktā manavo 'marāś ca putrāś ca bhūpā munayaś ca sarve
-iti śrīnarasiṃhapurāṇe trayoviṃśo 'dhyāya
 śrīsūta uvāca
 ataḥ paraṃ pravakṣyāmi vaṃśānucaritaṃ śubham
 śṛṇvatām api pāpaghnaṃ sūryasomanṛpātmakam
@@ -1389,7 +1366,6 @@ bāhyendriyaṃ hṛdi sthāpya manaḥ sūkṣme parātmani
 nṛpa saṃjapa tan mantraṃ draṣṭavyo madhusūdanaḥ
 pṛcchataḥ sāṃprataṃ bhūyo yadīcchasi kuruṣva tat
 stutvā gaṇeśaṃ sumanobhir arcya gataḥ purāt svāt tapase dhṛtātmā
-iti śrīnarasiṃhapurāṇe ikṣvākucaritraṃ caturviṃśo 'dhyāyaḥ
 kathaṃ stuto gaṇādhyakṣas tena rājñā mahātmanā
 sūta uvāca
 caturthīdivase rājā snātvā triṣavaṇaṃ dvija
@@ -1493,7 +1469,6 @@ yajan yajñaṃ mahīṃ rakṣan sa kurvan keśavārcanam
 dhyāyan vai kevalaṃ brahma prāptavān vaiṣṇavaṃ padam
 ajaṃ viśokaṃ vimalaṃ viśuddhaṃ śāntaṃ sadānandacidātmakaṃ tataḥ
 vihāya saṃsāram anantaduḥkhaṃ jagāma tad viṣṇupadaṃ hi rājā
-iti śrīnarasiṃhapurāṇe ikṣvākucarite pañcaviṃśo 'dhyāyaḥ
 śrīsūta uvāca
 ḥikṣvākor vikukṣināmaputraḥ
 ḥsubāhor bhrājamānād udyoto 'bhigīyate
@@ -1523,7 +1498,6 @@ sarvaṃ tad yauvanāśvasya māndhātuḥ kṣetram ucyate
 ḥastrapāṇeḥ śuddhodanaḥ śuddhodanād buddhaḥ
 ḥbuddhād vaṃśo nivartate
 ete mahīpā ravivaṃśajās tava prādhānyatas te kathitā mahābalāḥ
-iti śrīnarasiṃhapurāṇe sūryavaṃśānucaritaṃ nāma ṣaḍviṃśo 'dhyāyaḥ
 sūta uvāca
 ḥatha somavaṃśodbhavānāṃ bhūbhujāṃ saṃkṣepeṇa caritam ucyate
 ḥādau tāvat samastaṃ trailokyaṃ kukṣau kṛtvā ekārṇave mahāmbhasi nāgabhogaśayane
@@ -1557,7 +1531,6 @@ sūta uvāca
 ḥnirvāṇam api labdhavān
 ḥpratyañcasya bahurūpāyāṃ śāṃtanuḥ
 ḥtasya devadattasyandanārohaṇam aśakyaṃ babhūva purataḥ śakyaṃ ca
-iti śrīnarasiṃhapurāṇe somavaṃśavarṇanaṃ nāma saptaviṃśo 'dhyāyaḥ
 syandanārohaṇe pūrvam aśaktiḥ śāṃtanoḥ katham
 paścāc chaktiḥ kathaṃ cāsīt tasya vai tad vadasva naḥ
 sūta uvāca
@@ -1613,7 +1586,6 @@ kṛtavān dvādaśābdaṃ tu āruroha rathaṃ ca tam
 evaṃ purvam aśaktiḥ syād rathārohe mahīkṣitaḥ
 puṇyaṃ tathā dvijānāṃ tu proktam ucchiṣṭamārjane
 bhaktyā dvijocchiṣṭam ihāpamārjayec chucir naro yaḥ susamāhitātmā
-iti śrīnarasiṃhapurāṇe śāṃtanucaritaṃ nāmāṣṭaviṃśo 'dhyāyaḥ
 śrīsūta uvācaḥ
 ḥśaṃtanayor yojanagandhāyāṃ vicitravīryaḥ
 ḥsa tu hastināpure sthitvā prajāḥ svadharmeṇa pālayan devāṃś ca yāgaiḥ pitṛṃś ca śrāddhaiḥ saṃtarpya saṃjātaputro divam āruroha
@@ -1639,7 +1611,6 @@ iti śrīnarasiṃhapurāṇe śāṃtanucaritaṃ nāmāṣṭaviṃśo 'dhyāy
 ḥsa ca rājyasthaḥ prajāḥ paripālya mlecchābhibhūte jagati jñānabalāt kalāpagrāmam āśritaḥ
 yaḥ śraddadhānaḥ paṭhate śṛṇoti vā harau ca bhaktiṃ caritaṃ mahībhṛtām
 sa saṃtatiṃ prāpya viśuddhakarmakṛd divaṃ samāsādya vasec ciraṃ sukhī
-iti śrīnarasiṃhapurāṇe śaṃtanusaṃtativarṇanaṃ nāma ekonatriṃśo 'dhyāyaḥ
 śrīsūta uvāca
 ataḥ paraṃ pravakṣyāmi bhūgolaṃ dvijasattamāḥ
 saṃkṣepāt parvatākīrṇaṃ nadībhiś ca samantataḥ
@@ -1734,7 +1705,6 @@ madhyāhne tv amarāvatyāṃ yadā bhavati bhāskaraḥ
 tadā saṃyamane yāmye tatrodyaṃs tu pradṛśyate
 meruṃ pradakṣiṇaṃ kurvan bhāty eva savitā sadā
 dhruvādhāras tathottiṣṭhan vālikhilyādibhiḥ stutaḥ
-iti śrīnarasiṃhapurāṇe bhūgolakathane triṃśo 'dhyāyaḥ
 vicintya kathayāśu tvaṃ sūta jīva samāḥ śatam
 sūta uvāca
 manoḥ svāyaṃbhuvasyāsīd uttānacaraṇaḥ sutaḥ
@@ -1927,7 +1897,6 @@ tataḥ paraṃ dvijaśreṣṭha sthitaḥ paramapuruṣaḥ
 brahmāṇḍāt paramaḥ sākṣān nirlepaḥ puruṣaḥ sthitaḥ
 paśupāśair vimucyeta tapojñānasamanvitaḥ
 yuge yuge viṣṇur anādimūrtimān āsthāya viśvaṃ paripāti duṣṭahā
-iti śrīnarasiṃhapurāṇe ekatriṃśo 'dhyāyaḥ
 sahasrānīkasya harer avatārāṃś ca śārṅgiṇaḥ
 sāṃprataṃ śrotum icchāmi tan me vada mahāmate
 sūta uvāca
@@ -1955,7 +1924,6 @@ te te viṣṇuṃ samārādhya svargalokam ito gatāḥ
 sa svargamokṣabhāgī syān nātra kāryā vicāraṇā
 tasmād ekamanā bhūtvā yāvajjīvaṃ pratijñayā
 saṃsthāpya bhaktyā vidhivac ca pūjayet payāti sākṣāt parameśvaraṃ harim
-iti śrīnarasiṃhapurāṇe sahasrānīkacarite dvātriṃśo 'dhyāyaḥ
 rājovāca
 harer arcāvidhiṃ puṇyāṃ śrotum icchāmi sattvataḥ
 tvatprasādād viśeṣeṇa bhagavan prabravīhi me
@@ -2075,7 +2043,6 @@ sahasrānīkabhūpālo haripūjārato 'bhavat
 tasmāc chṛṇuta viprendrā devo nārāyaṇo 'vyayaḥ
 jñānato 'jñānato vāpi pūjakānāṃ vimuktidaḥ
 te vandyās te prapūjyāś ca namasyāś ca viśeṣataḥ
-iti śrīnarasimhapurāṇe sahasrānīkacarite mārkaṇḍeyenopadiṣṭasaṃmārjanopalepaphalaṃ nāma trayastriṃśo 'dhyāyaḥ
 śrīsaharsānīka uvāca
 punar eva dvijaśreṣṭha mārkaṇḍeya mahāmate
 nirmālyāpanayād viṣṇor yat puṇyaṃ tad vadasva me
@@ -2151,7 +2118,6 @@ santy araṇye hy amūlyāni patrapuṣpāṇi śākhinām
 toyaṃ nadītaḍāgeṣu devaḥ sādhāraṇaḥ sthitaḥ
 mārkaṇḍeya uvāca
 dine dine tvaṃ kuru viṣṇupūjāṃ vadasva cānyat kathayāmi kiṃ te
-iti śrīnarasiṃhapurāṇe sahasrānīkacarite śrīviṣṇoḥ pūjāvidhir nāma catustriṃśo 'dhyāyaḥ
 rājovāca
 aho mahat tvayā proktaṃ viṣṇvārādhanajaṃ phalam
 suptās te muniśārdūla ye viṣṇuṃ nārcayanti vai
@@ -2193,7 +2159,6 @@ mārkaṇḍeya uvāca
 lakṣahomādikavidhiṃ kāryaṃ rāṣṭre suśāntidam
 grāme gṛhe vā purabāhyadeśe dvijair ayaṃ yatnakṛtaḥ purovidhiḥ
 tatrāpi śāntir bhavitā narāṇāṃ gavāṃ ca bhṛtyaiḥ saha bhūpateś ca
-iti śrīnarasiṃhapurāṇe lakṣahomavidhir nāma pañcatriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 avatārān ahaṃ vakṣye devadevasya cakriṇaḥ
 tān śṛṇuṣva mahīpāla pavitrān pāpanāśanān
@@ -2213,7 +2178,6 @@ kalau prāpte yathā buddho bhaven nārāyaṇaḥ prabhuḥ
 kalkirūpaṃ samāsthāya yathā mlecchā nipātitāḥ
 harer anantasya parākramaṃ yaḥ śṛṇoti bhūpāla samāhitātmā
 mayocyamānaṃ ca vimucya pāpaṃ prayāti viṣṇoḥ padam atyudāram
-iti śrīnarasiṃhapurāṇe hareḥ prādurbhāvānukramaṇe ṣaṭtriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 nānātvād avatārāṇām acyutasya mahātmanaḥ
 na śakyaṃ vistarād vaktuṃ tān bravīmi samāsataḥ
@@ -2271,7 +2235,6 @@ prajāḥ sasarja bhūpāla vedadṛṣṭena karmaṇā
 ya idaṃ śṛṇuyān nityaṃ prādurbhāvaṃ harer nṛpa
 mātsyaṃ vapus tan mahad adritulyaṃ vidyāmayaṃ lokahitāya viṣṇuḥ
 āsthāya bhīmaṃ janalokasaṃsthaiḥ stuto 'tha yas taṃ smara bhūmipāla
-iti śrīnarasiṃhapūrāṇe matsyaprādurbhāvo nāma saptatriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 purā devāsure yuddhe devā daityaiḥ parājitāḥ
 sarve te śaraṇaṃ jagmuḥ kṣīrābdhitanayāpatim
@@ -2350,7 +2313,6 @@ jitvā raṇe 'surān devāḥ svāni rājyāni cakrire
 kūrmākhyaḥ puṇyado nṝṇāṃ śṛṇvatāṃ paṭhatām api
 āviskṛtaṃ kaurmam anantavarcasaṃ nārāyaṇenādbhutakarmakāriṇā
 divaukasānāṃ tu hitāya kevalaṃ rūpaṃ paraṃ pāvanam eva kīrtitam
-iti śrīnarasiṃhapurāṇe kūrmaprādurbhāvo nāmāṣṭatriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 ataḥparaṃ hareḥ puṇyaṃ prādurbhāvaṃ narādhipa
 vārāhaṃ te pravakṣyāmi samāhitamanāḥ śṛṇu
@@ -2359,7 +2321,6 @@ rātriṃ yugasahasrāntāṃ brahmarūpī jagatpatiḥ
 diteḥ putro mahān āsīt kaśyapād iti naḥ śrutam
 hiraṇyākṣa iti khyāto mahābalaparākramaḥ
 tena teṣāṃ balaṃ vīryaṃ tejaś cāpi bhaviṣyati
-iti matvā hiraṇyākṣaḥ kṛtasargaṃ tu brahmaṇā
 bhūmer yā dhāraṇāśaktis tāṃ nītvā sa mahāsuraḥ
 vinā śaktyā ca jagatī praviveśa rasātalam
 nidrāvasāne sarvātmā kva sthitā medinīti vai
@@ -2383,7 +2344,6 @@ viṣṇuḥ pāti jagat sarvam evaṃbhūto yuge yuge
 hanti cānte jagat sarvaṃ rudrarūpī janārdanaḥ
 vedāntavedyaḥ puruṣo vṛṣākapeḥ kathām imāṃ yaś ca śṛṇoti mānavaḥ
 dṛḍhāṃ matiṃ yajñatanau viveśya vai vihāya pāpaṃ ca naro hariṃ vrajet
-iti śrīnarasiṃhapurāṇe vārāhaprādurbhāvo nāma ekonacatvāriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 vārāhaḥ kathito hy evaṃ prādurbhāvo hares tava
 sāṃprataṃ nārasiṃhaṃ tu pravakṣyāmi nibodha me
@@ -2470,7 +2430,6 @@ gacchadhvam adhunā devāḥ kālaṃ kaṃcit pratīkṣatām
 yadāsya tanayo dhīmān prahlādo nāma vaiṣṇavaḥ
 tasya drohaṃ yadā daityaḥ kariṣyati surāṃs tadā
 ity uktvā viṣṇunā devā natvā viṣṇuṃ yayur nṛpa
-iti śrīnarasiṃhapurāṇe viṣṇor nāmastotraṃ nāma catvāriṃśo 'dhyāyaḥ
 sahasrānīka uvāca
 mārkaṇḍeya mahāprājña sarvaśāstraviśārada
 dhanyā vayaṃ mahāyogiṃs tvatprasādān mahāmune
@@ -2561,7 +2520,6 @@ ity uktvā tanayaṃ bhūpa jātakrodho bhayānakaḥ
 jihmaṃ nirīkṣya ca prāha tadguruṃ kampayan ruṣā
 yāhi yāhi dvijapaśo sādhu śādhi sutaṃ mama
 viṣṇuṃ visṛjyānvasarac ca daityaṃ kiṃ vā na kuryur bharaṇāya lubdhāḥ
-iti śrīnarasiṃhapurāṇe nṛsiṃhaprādurbhāve ekacatvāriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 aśeṣavidyānivahena sākaṃ kālena kaumāram avāpa yogī
 prāyeṇa kaumāram avāpya lokaḥ puṣṇāti nāstikyam asadgatiṃ ca
@@ -2620,7 +2578,6 @@ trailokyaṃ kampate deva bhṛśaṃ tvayy abhikāṅkṣiṇi
 prahlādas tvāṃ na jānāti kruddhaṃ svalpo mahābalam
 tad alaṃ deva roṣeṇa dayāṃ kartuṃ tvam arhasi
 ādāya tadanujñātaṃ prahlādaṃ dhīdhanaṃ yayuḥ
-iti śrīnarasiṃhapurāṇe narasiṃhaprādurbhāve dvicatvāriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 śṛṇuta sumanasaḥ surāriputrā yad aham ananyaratir vadāmi pṛṣṭaḥ
 kārāgṛhe dasyur ivāsmi baddho jarāyuṇā viṭkṛmimūtragehe
@@ -2733,7 +2690,6 @@ atuṣṭasyaiva tasyeśo māyayāntar dadhe hariḥ
 tato haṭhād adṛṣṭvā taṃ sarvato bhaktavatsalam
 utthāyābdhitaṭād dhīmān prahlādaḥ svapuraṃ yayau
 atha ditijasutaś ciraṃ prahṛṣṭaḥ smṛtibalataḥ paritas tam eva paśyan
-iti śrīnarasiṃhapurāṇe narasiṃhaprādurbhāve tricatvāriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 athāgataṃ te prahlādaṃ dṛṣṭvā daityāḥ suvismitāḥ
 śaśaṃsur daityapataye yaiḥ kṣiptaḥ sa mahārṇave
@@ -2794,7 +2750,6 @@ vaidhavyād duḥkhaśokāc ca duṣṭasaṅgāt pramucyate
 duśśīlo 'pi durācāro duṣprajo doṣakarmakṛt
 adharmiṣṭho 'nabhogī ca śṛṇvan śuddho bhaven naraḥ
 kṛtvā virūpaṃ ca purātmamāyayā hiraṇyakaṃ duḥkhakaraṃ nakhaiś chinat
-iti śrīnarasiṃhapurāṇe narasiṃhaprādurbhāvo nāma catuścatvāriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 śṛṇu rājan samāsena vāmanasya parākramam
 baliyāge hatā yena purā daityāḥ sahasraśaḥ
@@ -2847,7 +2802,6 @@ tāvac chukraḥ kalaśago jaladhārāṃ rorodha ha
 anekān dānavān hatvā hṛtvā tribhuvanaṃ baleḥ
 tasmāt te sāṃprataṃ dattaṃ pātālatalam uttamam
 tatra gatvā mahābhāga bhuṅkṣva tvaṃ matprasādataḥ
-iti śrīnarasiṃhapurāṇe vāmanaprādurbhāve pañcacatvāriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 ataḥ paraṃ pravakṣyāmi prādurbhāvaṃ hareḥ śubham
 jāmadagnyaṃ purā yena kṣatram utsāditaṃ śṛṇu
@@ -2916,7 +2870,6 @@ bhūmiś ca sakalā dattā kaśyapāya mahātmane
 ity eṣa jāmadagnyākhyaḥ prādurbhāvo mayoditaḥ
 yaś ca tac chṛṇuyād bhaktyā sarvapāpaiḥ pramucyate
 avatīrya bhūmau harir eṣa sākṣāt triḥsaptakṛtvaḥ kṣitipān nihatya sa
-iti śrīnarasiṃhapurāṇe paraśurāmaprādurbhāvo nāma ṣaṭcatvāriṃśo 'dhyāyaḥ
 śrīmārkaṇḍeya uvāca
 śṛṇu rājan pravakṣyāmi prādurbhāvaṃ hareḥ śubham
 nihato rāvaṇo yena sagaṇo devakaṇṭakaḥ
@@ -3184,7 +3137,6 @@ tau dṛṣṭvā sa muniḥ prāptau rāmaṃ lakṣmaṇam antike
 daśarathāya tatpitre mātṛbhyaś ca viśeṣataḥ
 tau samarpya muniśreṣṭhas tena rājñā ca pūjitaḥ
 punaḥ punaḥ śrāvya hasan mahāmatir jagāma siddhāśramam evam ātmanaḥ
-iti śrīnarasiṃhapurāṇe rāmaprādurbhāve saptacatvāriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 kṛtadāro mahātejā rāmaḥ kamalalocanaḥ
 pitre sumahatīṃ prītiṃ janānām upapādayan
@@ -3442,7 +3394,6 @@ sa kurvan bhrātur ādeśaṃ nandigrāme sthito vaśī
 tapasvī niyatāhāraḥ śākamūlaphalāśanaḥ
 jaṭākalāpaṃ śirasā ca bibhrat tvacaś ca vārkṣīḥ kila vanyabhojī
 rāmasya vākyādarato hṛdi sthitaṃ babhāra bhūbhāram aninditātmā
-iti śrīnarasiṃhapurāṇe śrīrāmaprādurbhāve aṣṭacatvāriṃśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 lakṣmaṇena saha bhrātrā bhāryayā sītayā saha
 śākamūlaphalāhāro vicacāra mahāvane
@@ -3673,7 +3624,6 @@ sāpy enaṃ pūjayitvā tu svām avasthāṃ nivedya vai
 sītāṃ tvaṃ prāpsyasīty uktvā praviśyāgniṃ divaṃgatā
 divaṃ prasthāpya tāṃ cāpi jagāmānyatra rāghavaḥ
 priyāviyogena suduḥkhitātmā jagāma yāmyāṃ sa tu rāmadevaḥ
-iti śrīnarasiṃhapurāṇe rāmaprādurbhāve ekonapañcāśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 vālinā kṛtavairo 'tha durgavartī harīśvaraḥ
 sugrīvo dṛṣṭavān dūrād dṛṣṭvāha pavanātmajam
@@ -3953,7 +3903,6 @@ tatas te prārthayāmasur vānarāḥ pavanātmajam
 hanūmantaṃ mahāprājñaṃ dakṣaṃ kāryeṣu cādhikam
 gaccha tvaṃ rāmabhṛtyas tvaṃ rāvaṇasya bhayāya ca
 ityuktas tāṃs tathety āha vānarān pavanātmajaḥ
-iti śrīnarasiṃhapurāṇe rāmaprādurbhāve pañcāśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 sa tu rāvaṇanītāyāḥ sītāyāḥ parimārgaṇam
 iyeṣa padam anveṣṭuṃ cāraṇācarite pathi
@@ -4058,7 +4007,6 @@ brahmāstraṃ tu tadotsṛṣṭaṃ rāvaṇaṃ kiṃ na jeṣyasi
 ity evamādi bahuśaḥ proktvā sītā ruroda ha
 evaṃ tu duḥkhitā sītā tāṃ moktuṃ yatnam ācara
 śrutvā ca dṛṣṭvā ca ruroda rāmaḥ kapiṃ samāliṅgya śanaiḥ pratasthe
-iti śrīnarasiṃhapurāṇe rāmaprādurbhāve ekapañcāso 'dhyāyaḥ
 mārkaṇḍeya uvāca
 iti śrutvā priyāvārtāṃ vāyuputreṇa kīrtitām
 rāmo gatvā samudrāntaṃ vānaraiḥ saha vistṛtaiḥ
@@ -4250,7 +4198,6 @@ akarod dharmato rājyaṃ ciraṃ rāmaḥ pratāpavān
 yajñādikaṃ karma nijaṃ ca kṛtvā paurais tu rāmo divam āruroha
 rājan mayā te kathitaṃ samāsato rāmasya bhūmyāṃ caritaṃ mahātmanaḥ
 idaṃ subhaktyā paṭhatāṃ ca śṛṇvatāṃ dadāti rāmaḥ svapadaṃ jagatpatiḥ
-iti śrīnarasiṃhapurāṇe rāmaprādurbhāve dvipañcāśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 ataḥ paraṃ pravakṣyāmi prādurbhāvadvayaṃ śubham
 tṛtīyasya tu rāmasya kṛṣṇasya tu samāsataḥ
@@ -4361,7 +4308,6 @@ evaṃ tau rāmakṛṣṇau tu kṛtvā duṣṭavadhaṃ nṛpa
 saṃkṣepād rāmakṛṣṇasya kālkyaṃ śṛṇu mamādhunā
 itthaṃ hi śaktī sitakṛṣṇarūpe harer anantasya mahābalāḍhye
 kṛtvā tu bhūmer nṛpa bhārahāniṃ punaś ca viṣṇuṃ pratijagmatus te
-iti śrīnarasiṃhapurāṇe kṛṣṇaprādurbhāve nāma tripañcāśo 'dhyāyaḥ
 mārkaṇḍeya uvāca
 ataḥparaṃ pravakṣyāmi śṛṇu rājan samāhitaḥ
 prādurbhāvaṃ hareḥ puṇyaṃ kalkyākhyaṃ pāpanāśanam
@@ -4455,7 +4401,6 @@ harismaraṇam evātra saṃpūrṇaphaladāyakam
 te sabhāgyā mahātmānas tatsaṃgatiratā api
 haripūjāratā ye ca te kṛtārthā na saṃśayaḥ
 ity etad vaḥ samākhyātaṃ sarvaduḥkhanivāraṇam
-ity śrīnarasiṃhapurāṇe kalilakṣaṇakīrtanaṃ catuḥpañcāśo 'dhyāyaḥ
 rājovāca
 mārkaṇḍeya kathaṃ śukraḥ purā balimakhe guruḥ
 mārkaṇḍeya uvāca
@@ -4494,7 +4439,6 @@ evaṃ dattvā muneś cakṣuḥ pūjitas tena mādhavaḥ
 jagāmādarśanaṃ sadyaḥ śukro 'pi svāśramaṃ yayau
 ity etad uktaṃ muninā mahātmanā prāptaṃ purā devavaraprasādāt
 śukreṇa kiṃ te kathayāmi rājan punaś ca māṃ pṛccha manorathāntaḥ
-ity śrīnarasiṃhapurāṇe śukravarapradāno nāma pañcapañcāśo 'dhyāyaḥ
 rājovāca
 sāṃprataṃ devadevasya narasiṃh asya śārṅgiṇaḥ
 śrotum icchāmi sakalaṃ pratiṣṭhāyāḥ paraṃ vidhim
@@ -4573,7 +4517,6 @@ tatraiva jñānam āsādya vaiṣṇavaṃ padam āpnuyāt
 pratiṣṭhāvidhir ayaṃ viṣṇor mayaivaṃ te prakīrtitaḥ
 paṭhatāṃ śṛṇvatāṃ caiva sarvapāpapraṇāśanaḥ
 yadā nṛsiṃhaṃ naranātha bhūmau saṃsthāpya viṣṇuṃ vidhinā hy anena
-iti śrīnarasiṃhapurāṇe pratiṣṭhāvidhir nāma ṣaṭpañcāśo 'dhyāyaḥ
 rājovāca
 bhaktānāṃ lakṣaṇaṃ brūhi narasiṃh asya me dvija
 yeṣāṃ saṃgatimātreṇa viṣṇuloko na dūrataḥ
@@ -4620,7 +4563,6 @@ atithiṃ cāgataṃ bhaktyā pūjayec chaktito gṛhī
 anyān athāgatān dṛṣṭvā pūjayed avirodhataḥ
 priyāṃ hitāṃ vaded vācaṃ paralokāvirodhinīm
 evaṃ dharmaḥ samuddiṣṭo brāhmaṇasya samāsataḥ
-iti śrīnarasiṃhapurāṇe brāhmaṇadharmakathanaṃ nāma saptapañcāśo 'dhyāyaḥ
 hārīta uvāca
 kṣatrādīnāṃ pravakṣyāmi yathāvad anupūrvaśaḥ
 rājyasthaḥ kṣatriyaś caiva prajā dharmeṇa pālayet
@@ -4785,7 +4727,6 @@ maṅgalācārayuktaś ca śuciḥ śraddhāparo gṛhī
 jātāv utkarṣam āyāti narasiṃhaprasādataḥ
 sa tasmān muktim āpnoti brahmaṇā saha sattamāḥ
 evaṃ hi viprāḥ kathito mayā vaḥ samāsataḥ śāśvatadharmarāśiḥ
-iti śrīnarasiṃhapurāṇe gṛhasthadharmo nāmāṣṭapañcāśo 'dhyāyaḥ
 hārīta uvāca
 ataḥ paraṃ pravakṣyāmi vānaprasthasya lakṣaṇam
 dharmam agryaṃ mahābhāgāḥ kathyamānaṃ nibodhata
@@ -4800,7 +4741,6 @@ catuḥkāle 'pi cāśnīyāt kāle 'py uta tathāṣṭame
 agniṃ cātmani vai kṛtvā vrajed vāthottarāṃ diśam
 ādehapātād vanago maunam āsthāya tāpasaḥ
 vimuktapāpo hi manaḥpraśāntaḥ prayāti viṣṇoḥ sadanaṃ dvijendraḥ
-iti śrīnarasiṃhapurāṇe vānaprasthadharmo nāma ekonaṣaṣṭitamo 'dhyāyaḥ
 hārīta uvāca
 evaṃ vanāśrame tiṣṭhaṃs tapasā dagdhakilbiṣaḥ
 divyaṃ ṛṣibhyo devebhyaḥ svapitṛbhyaś ca yatnataḥ
@@ -4827,7 +4767,6 @@ kāṃsyabhojī yatiḥ sarvaṃ prāpnuyāt kilbiṣaṃ punaḥ
 na duṣyet tasya tat pātraṃ yajñeṣu camasā iva
 kṛtasaṃdhyas tato rātriṃ nayed devagṛhādiṣu
 hṛtpuṇḍarīkanilaye dhyāyan nārāyaṇaṃ harim
-iti śrīnarasiṃhapurāṇe yatidharmo nāma ṣaṣṭitamo 'dhyāyaḥ
 hārīta uvāca
 varṇānām āśramāṇāṃ ca kathitaṃ dharmalakṣaṇam
 yogaśāstrasya vakṣyāmi saṃkṣepāt sāram uttamam
@@ -4858,7 +4797,6 @@ caturvarṇāś ca rājendra catvāraś cāpi cāśramāḥ
 svadharmeṇa yathā nṛṇāṃ narasiṃhaḥ pratuṣyati
 varṇadharmānusāreṇa narasiṃhaṃ tathārcayet
 satyātmakaṃ citsukharūpam ādyaṃ vihāya dehaṃ padam eti viṣṇoḥ
-iti śrīnarasiṃhapurāṇe yogādhyāyo nāmaikaṣaṣṭitamo 'dhyāyaḥ
 śrīmārkaṇḍeya uvāca
 varṇānām āśramāṇāṃ ca kathitaṃ lakṣaṇaṃ tava
 bhūyaḥ kathaya rājendra śuśrūṣā tatra kā nṛpa
@@ -4888,7 +4826,6 @@ dhyeyaḥ sadā savitṛmaṇḍalamadhyavartī nārāyaṇaḥ sarasijāsanasa�
 keyūravān makarakuṇḍalavān kirīṭī hārī hiraṇmayavapur dhṛtaśaṅkhacakraḥ
 sa sarvapāpaṃ pravihāya vaiṣṇavaṃ padaṃ prayāty acyutatuṣṭikṛn naraḥ
 anena nityaṃ kuru viṣṇupūjāṃ prāptuṃ tadiṣṭaṃ yadi vaiṣṇavaṃ padam
-iti śrīnarasiṃhapurāṇe viṣṇor arcāvidhir nāma dviṣaṣṭitamo 'dhyāyaḥ
 sahasrānīka uvāca
 viṣṇor devātidevasya pūjanaṃ prati me 'dhunā
 śrīmārkaṇḍeya uvāca
@@ -5081,14 +5018,12 @@ lakṣadvaye kṛte jāpye strībhāvān mucyase hare
 iti śrutvā tathākārṣīd brahmoktaṃ vacanaṃ hariḥ
 strībhāvāc ca vinirmuktas tadā viṣṇoḥ prasādataḥ
 mārkaṇḍeya uvāca
-iti te kathitaṃ sarvaṃ viṣṇumāhātmyam uttamam
 śṛṇvanti ye viṣṇukathām akalmaṣā vīryaṃ hi viṣṇo 'khilakāraṇasya
 te muktapāpāḥ paradāragāmino viśanti viṣṇoḥ paramaṃ padaṃ dhruvam
 sūta uvāca
 narasiṃhaṃ samārādhya prāptavān vaiṣṇavaṃ padam
 kathām imāṃ yas tu śṛṇoti mānavaḥ purātanīṃ sarvavimuktidāṃ ca
 saṃprāpya sa jñānam atīva nirmalaṃ tenaiva viṣṇuṃ pratipadyate janaḥ
-iti śrīnarasiṃhapurāṇe sahasrānīkacarite 'ṣṭākṣaramantrakathanaṃ nāma triṣaṣṭitamo 'dhyāyaḥ
 śrībharadvāja uvāca
 satyaṃ kecit praśaṃsanti tapaḥ śaucaṃ tathāpare
 jñānaṃ kecit praśaṃsanti samaloṣṭāśmakāñcanāḥ
@@ -5280,7 +5215,6 @@ yenopāyena viprendra viṣṇuḥ sarveśvareśvaraḥ
 nāpnuvanti gatiṃ puṇyāṃ nārāyaṇaparāṅmukhāḥ
 ajaram amaram ekaṃ dhyeyam ādyantaśūnyaṃ saguṇaviguṇam ādyaṃ sthūlam atyantasūkṣmam
 nirupamam upameyaṃ yogināṃ jñānagamyaṃ tribhuvanagurum īśaṃ tvāṃ prapanno 'smi viṣṇo
-iti śrīnarasiṃhapurāṇe puṇḍarīkanāradasaṃvāde catuḥṣaṣṭitamo 'dhyāyaḥ
 bhāradvāja uvāca
 nāmāni ca suguhyāni vada pāpaharāṇi ca
 sūta uvāca
@@ -5331,7 +5265,6 @@ draṣṭavyāni yathāśaktyā kṣetrāṇy etāni mānavaiḥ
 vaiṣṇavais tu viśeṣeṇa teṣām muktiṃ dadāmy aham
 sūta uvāca
 imaṃ stavaṃ yaḥ paṭhate sa mānavaḥ prāpnoti viṣṇor amṛtātmakaṃ padam
-iti śrīnarasiṃhapurāṇe ādye dharmārthamokṣadāyini viṣṇuvallabhe pañcaṣaṣṭitamo 'dhyāyaḥ
 sūta uvāca
 gaṅgā tu prathamaṃ puṇyā yamunā gomatī punaḥ
 sarayūḥ sarasvatī ca candrabhāgā carmaṇvatī
@@ -5391,7 +5324,6 @@ sarvaśāstramayī gītā sarvadharmo dayāparaḥ
 śrīsahyāmalakagrāme tīrthe snātvā phalāni ca
 tīrthānām api yat tīrthaṃ tat tīrthaṃ dvijasattama
 gaṅgāprayāgagamanaimiṣapuṣkarāṇi puṇyāyutāni kurujāṅgalayāmunāni
-iti śrīnarasiṃhapuraṇe tīrthapraśaṃsāyāṃ ṣaṭsaṣṭitamo 'dhyāyaḥ
 sūta uvāca
 mānasāni hi tīrthāni phaladāni viśeṣataḥ
 manonirmalatā tīrthaṃ rāgādibhir anākulā
@@ -5429,7 +5361,6 @@ sarvatīrthaphalaṃ prāpya viṣṇuloke mahīyate
 sarvapāpaharaṃ puṇyaṃ purāṇaṃ nṛsiṃhātmakam
 paṭhatāṃ śṛṇvatāṃ nṛṇāṃ narasiṃho prasīdati
 prakṣīṇapāpabandhās te muktiṃ yānti narā iti
-iti śrīnarasiṃhapurāṇe mānasatīrthavrataṃ nāma saptaṣaṣṭitamo 'dhyāyaḥ
 sūta uvāca
 ity etat sarvam ākhyātaṃ purāṇaṃ nārasiṃhakam
 sarvapāpaharaṃ puṇyaṃ sarvaduḥkhanivāraṇam
@@ -5446,4 +5377,3 @@ vadatāṃ śṛṇvatāṃ sadyaḥ sarvapāpapraṇāśanam
 bahunātra kim uktena bhūyo bhūyo munīśvarāḥ
 bhāradvājamukhāḥ sarve kṛtakṛtyā dvijottamāḥ
 sūtaṃ hṛṣṭāḥ prapūjyātha sarve svasvāśramaṃ yayuḥ
-iti śrīnarasiṃhapurāṇe sūtabharadvājādisaṃvāde sarvaduḥkhopaharaṃ śrīnarasiṃhapurāṇasya māhātmyaṃ samāptam
