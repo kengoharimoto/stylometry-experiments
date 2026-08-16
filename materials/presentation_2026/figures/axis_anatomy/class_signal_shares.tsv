@@ -1,0 +1,7 @@
+class	w1_signal_share	w1_rate_share	c3_signal_share	c3_token_share
+particle	0.1057	0.3651	0.0397	0.0518
+pronoun	0.1324	0.1784	0.0193	0.0196
+verb_narrative	0.0450	0.0336	0.0167	0.0142
+verb_prescriptive	0.0164	0.0063	0.0097	0.0068
+numeral_list	0.0804	0.0283	0.0388	0.0284
+content	0.6201	0.3883	0.8758	0.8792
