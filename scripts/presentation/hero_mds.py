@@ -75,6 +75,13 @@ ap.add_argument('--corpus-dir', metavar='DIR',
                      'corpus/epic_puranas_unsandhied for words, ..._sandhied '
                      'for char 3-grams); the wordlist validation looks for the '
                      'matching results_<dirname>_... stylo run')
+ap.add_argument('--strip-spaces', action='store_true',
+                help='char 3-grams only: delete ALL whitespace (word spaces '
+                     'and line breaks) before counting, so trigrams run over '
+                     'the continuous sandhied stream (scriptio continua). '
+                     'Word division in romanized text is editorial; this '
+                     'tests whether the map depends on it. Skips the stylo '
+                     'wordlist validation (no matching stylo run exists).')
 ap.add_argument('--files-from', metavar='MANIFEST',
                 help='corpus manifest (one unit basename per line, as in '
                      'manifests/); the manifest name is appended to the output '
@@ -109,6 +116,8 @@ OUT = FIGDIR / (f'hero_W1_delta_MDS' if (W1 and args.metric == 'delta')
                 else f'companion_{tag}_MDS')
 if MANIFEST is not None:
     OUT = OUT.with_name(f'{OUT.name}_{MANIFEST_LABEL}')
+if args.strip_spaces:
+    OUT = OUT.with_name(f'{OUT.name}_nospace')
 HIGHLIGHT_STRATA = {'epic': {1, 2}, 'oldcore': {3}, 'oldsp': {4}, 'late': {5},
                     'sip': {6}, 'bhp': {7, 8}, 'skmp': {10}}
 hl = HIGHLIGHT_STRATA.get(args.highlight)
@@ -142,7 +151,9 @@ def word_counts(path):
     return Counter(path.read_text(encoding='utf-8').lower().split())
 
 def trigram_counts(path):
-    txt = re.sub(r'\s+', ' ', path.read_text(encoding='utf-8').lower()).strip()
+    txt = path.read_text(encoding='utf-8').lower()
+    txt = (re.sub(r'\s+', '', txt) if args.strip_spaces
+           else re.sub(r'\s+', ' ', txt).strip())
     return Counter(txt[i:i + 3] for i in range(len(txt) - 2))
 
 count_fn = word_counts if W1 else trigram_counts
@@ -173,11 +184,14 @@ def stylo_wordlist():
         return [l.strip() for l in lines][:MFW]
     return [l[0::2] for l in lines][:MFW]     # chars joined by spaces
 
-wl = stylo_wordlist()
-overlap = len(set(feats) & set(wl))
-print(f'feature overlap with stylo wordlist ({RESULTS.name}): {overlap}/{MFW}')
-if overlap / MFW < 0.98:
-    sys.exit('feature sets diverge from stylo — investigate before plotting')
+if args.strip_spaces:
+    print('strip-spaces: stylo wordlist validation skipped (no counterpart run)')
+else:
+    wl = stylo_wordlist()
+    overlap = len(set(feats) & set(wl))
+    print(f'feature overlap with stylo wordlist ({RESULTS.name}): {overlap}/{MFW}')
+    if overlap / MFW < 0.98:
+        sys.exit('feature sets diverge from stylo — investigate before plotting')
 
 # ── Distances ─────────────────────────────────────────────────────────────────
 def distance_matrix(metric):
@@ -354,6 +368,8 @@ ax.annotate('', xy=(0.97, 0.104), xytext=(0.03, 0.104),
 feat_desc = (f'{MFW} most frequent words' if W1
              else f'{MFW} most frequent character 3-grams')
 corpus_desc = ('unsandhied' if W1 else 'sandhied') + ' text'
+if args.strip_spaces and not W1:
+    corpus_desc += ', all spaces removed'
 if 'noreuse' in CORPUS.name:
     corpus_desc += ', shared passages removed'
 METRIC_NAMES = {'delta': 'Burrows’s Delta', 'wurzburg': 'Cosine Delta',
