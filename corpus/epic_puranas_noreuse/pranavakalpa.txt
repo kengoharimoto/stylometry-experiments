@@ -1,4 +1,3 @@
-atha prathamo’dhyāyaḥ|
 gurugaṇapatiśambhuśrīśavāṇīśadurgā- raviśaśiśucimukhyānsarvagīrvāṇanāthān|
 praṇavamapi ca vedān vyāsapūrvāṃśca natvā praṇavahṛdayakalpaṃ vyācikīrṣe śivoktam ||
 
@@ -257,7 +256,6 @@ idaṃ vyāptaṃ yatastena brahmarūpeṇa sarvaśaḥ || 1.1.39||
 mantrāntare kuto na ramantāntatrāha-idamiti idaṃ śabdārthātmakaṃ sarvañjagat, yataḥ śabdārthabrahmarūpeṇa tena praṇavena śaṅkunā parṇamiva rajvā sarpa iva ca vyāptam, ataḥ sarvamantratadarthatatphalānāṃ praṇavatadarthayorantarbhāvādityarthaḥ || 39||
 
 ityavocamahaṃ viprā ! aṅgastutimanuttamam|
-iti śabdaḥ aṅgastutisamāptidyotanārthaḥ || ityaṅgastutiḥ ||
 
 aṅgastutyā sampāditā aṅgānāṃ praṇavaikapravaṇatā pūrvakṛtaiḥ pāpairmā vighāti me’ṅgāni surakṣitāni tiṣṭhantvityaṅgastutyanantaraṃ kavacaṃ vaktuṃ pratijānīte
 
@@ -384,11 +382,9 @@ japitveti kavacena yutaḥ puruṣo rājeva durāsadān śatrūnapi taratīti vi
 tasmātpaṭhantu satataṃ triṣu kāleṣu yoginaḥ|
 auṃkārakavacaṃ gauryā ityevaṃ śambhurabravīt || 1.2.17||
 
-iti praṇavakavacaṃ samāptam|
 tasmāditi || yoginaḥ yatayaḥ|
 ityevaṃ anenābhiprāyeṇa, śambhuḥ gauryai oṅkārakavacamabravīdityanvayaḥ || 17||
 
-iti praṇavakavacavyākhyā samāptā ||
 
 hṛdayaṃ sarvavedānāṃ sārabhūtaṃ bhavāpaham || 1.3.1||
 
@@ -598,13 +594,11 @@ tasya maṇerbhāsā tātparyārthaprakāśalakṣaṇaprabhayā hṛdayasthamaj
 paṭhantu śṛṇvantu ca vācayantu likhantu gāyantu ca bodhayantu|
 auṃkārakalpaṃ munivṛndasevyaṃ sūtoktamīśoktamaninditaṃ ca || 1.4.9||
 
-iti śrī skandapurāṇe vaiṣṇavasaṃhitāyāṃ mantraprastāve praṇavakalpe prathamo’dhyāyaḥ || 1||
 
 ādau īśoktaṃ tathā sūtoktam, na vidyate ninditaṃ janmamaraṇādiduḥkhaṃ|
 yasmāttadaninditam || 9||
 
 
-atha dvitīyo’dhyāyaḥ|
 sarvātmakatvādanantanāmakasya praṇavasya sārabhūtānyaṣṭottaraśatanāmānyācikhyāsuḥ sūtastadanurūpamaṅgalācaraṇarūpāṃ tadbhūmikāṃ racayati--
 
 praṇavaḥ paramaṃ brahma praṇavaḥ paramaḥ śivaḥ|
@@ -881,7 +875,6 @@ caturthīnamaauṃkārapūrvairiti caturthyaṃtairnama auṃkārapūrvairityart
 caturthīnamo’ntairoṅkārapūrvairiti vā śākapārthivāditvakalpanayā madhyamapadalopī samāsaḥ|
 upasaṃharati nāmānyetānīti || 29||
 
-iti praṇavāṣṭottaraśatanāma samāptam ||
 
 sūta uvāca -- atharvarahasyapraṇavaṣoḍaśānāmāni vaktuṃ pratijānīte --
 
@@ -912,20 +905,17 @@ apavargaṃ śubhaṃ praiti jantustenā’bhivīkṣitaḥ || 2.3.5||
 
 māhātmyamatharvaśiraādyuktaṃ jñātvā yaḥ paṭhetsaḥ jantuḥ jantuprāyaḥ alpajñānatapasko’pi tena praṇavātmanā maheśvareṇa abhivīkṣitaḥ san apavargaphalopahitaṃ śubhaṃ tattvajñānam praiti || 5||
 
-iti praṇavaṣoḍaśanāma samāptam ||
 
 īdṛśaṃ nāmādirahasyagarbhaṃ kalpameva paṭhanādinā pariśīlanīyaṃ paramapuruṣārthibhiriti prarocayannupasaṃharati -
 
 paṭhantu śṛṇvantu ca vācayantu likhantu gāyantu ca bodhayantu|
 oṅkārakalpaṃ yativṛndasevyaṃ sūtoktamīśoktamaninditaṃ ca || 2.3.6||
 
-iti śrī skandapurāṇe vaiṣṇavasaṃhitāyāṃ mantraprastāve praṇavakalpe dvitīyo’dhyāyaḥ || 2||
 
 paṭhantviti || ante sūtoktaṃ ādau īśoktamiti śuddhasāmpradāyikatvaṃ darśitam|
 aninditamiti pramāṇāntarāviruddhatvaṃ darśitam || 6||
 
 
-atha tṛtīyo’dhyāyaḥ|
 praṇavaḥ paramaṃ brahma praṇavaḥ paramaḥ śivaḥ|
 praṇavaḥ paramo viṣṇuḥ praṇavaḥ sarvadevatāḥ || 3.1.1||
 
@@ -1297,12 +1287,10 @@ munīn sambodhyāha --
 tasmātpaṭhantu sarve’pi mokṣavāñchā’sti vo yadi|
 stavarājaṃ mahādevyai ityevaṃ śambhurabravīt || 3.5.23||
 
-iti praṇavakalpe praṇavastavarājaḥ samāptaḥ ||
 
 tasmāditi|
 ityevamityupasaṃhāraḥ || 23||
 
-iti praṇavastavarājavyākhyā samāptā|
 idānīṃ prāguktapraṇavanavāṃśānāṃ pratyekaṃ guṇamāhātmyādiprakāśakamakṣaramālikāstotramāha
 
 sūta uvāca-- oṅkārākṣaramālikāmanumimaṃ vakṣyāmi he bhūsurāḥ ! mokṣaprāptikaraṃ viśeṣasukhadaṃ nityotsavaṃ śāśvatam|
@@ -1460,7 +1448,6 @@ paṭhate iti padavyatyayacchāndasaḥ|
 indraḥ parameśvarastatsambandhi aindraṃ, sarasvatyāḥ sambandhi pāṇḍityaṃ sārasvataṃ sārvajñamiti yāvat|
 śāśvataṃ padaṃ mokṣaṃ tatvajñānadvārā aśnute prāpnotītyarthaḥ || 12||
 
-iti praṇavākṣaramālikāvyākhyā samāptā ||
 
 sūta uvāca-- athātaḥ sampravakṣyāmi praṇavabrahmaṇo dvijāḥ|
 anusmṛtiṃ mokṣadātrīṃ smṛtvā yāntyapunarjanim || 3.7.1||
@@ -1569,7 +1556,6 @@ anusmṛtiṃ mahādevyai ityevaṃ śambhurabravīt || 3.7.17||
 iti praṇavānusmṛtiḥ ||
 
 ityevaṃrūpāmanusmṛtiṃ śambhurmahādevyai abravīditi sāmpradāyikamapyanusmarttavyamityāśayaḥ || 17|||
-iti anusmṛtivyākhyā samāptā ||
 
 auṃkārajañjapūkānāṃ japyānyaṅgāni sarvaśaḥ|
 sūtena samyaguktāni īśvareṇaiva pārvatīm || 3.8.1||
@@ -1607,10 +1593,8 @@ auṃkārakalpaṃ yativṛndasevyaṃ sūtoktamīśoktamaninditaṃ ca || 3.8.6
 
 paṭhantu śṛṇvanviti prāgvyākhyātam || 6||
 
-iti śrīskandapurāṇe vaiṣṇavasaṃhitāyāṃ mantraprastāve praṇavakalpe tṛtīyo’dhyāyaḥ || 3||
 
 
-atha caturtho’dhyāyaḥ|
 praṇavaḥ paramaṃ brahma praṇavaḥ paramaḥ śivaḥ|
 praṇavo paramo viṣṇuḥ praṇavaḥ sarvadevatāḥ || 4.1||
 
@@ -1879,7 +1863,6 @@ paṭhantviti|
 prāgvyākhyātam || 43||
 
 
-atha pañcamo’dhyāyaḥ|
 praṇavaḥ paramaṃ brahma praṇavaḥ paramaḥ śivaḥ|
 praṇavaḥ paramo viṣṇuḥ praṇavaḥ sarvadevatāḥ || 5.1||
 
@@ -2498,7 +2481,6 @@ labdhaye sarvatapasāṃ vedānāṃ paryavāptaye || 5.107||
 
 auṃ namo brahmarūpāya śāntāya samatvena sadoditāya pūrṇāya cidvilāsāya auṃkārāya namaḥ ||
 
-iti śrīpraṇavakalpaprakāśe pañcamo’dhyāyaḥ samāptaḥ || 5||
 
 evaṃ sarvatapasāṃ dehamanaḥśuddhyarthānāṃ ca phalato labdhaye vedānāmṛgādīnāṃ paritaḥ sāṅgatayā’kṣaraśaḥ prayojanavadarthāvabodhataścāvāptaye iti prāguktaphalasyaiva vayutyā’nuvādaḥ || tasmātsarvapuruṣārthadaḥ śivoktaparamarahasyabhūto’yaṃ saparikaraḥ praṇavakalpo bhogamokṣārthibhiḥ sadaiva śabdato’rthataśca pariśīlanīya iti siddham || 107||
 

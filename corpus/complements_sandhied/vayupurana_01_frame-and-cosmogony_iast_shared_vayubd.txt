@@ -145,7 +145,6 @@ prasaṃkhyāya ca duḥkhāni brahmaṇaścāpyanityatā
 daurātmyaṃ caiva bhogānāṃ pariṇāmavinirṇaṃyaḥ
 tatastāpatrayātīto nīrūpākhyo nirañjanaḥ
 kīrttyate ṛṣivaṃśaśca sarvapāpapraṇāśanaḥ
-iti kṛtyasamuddeśaḥ purāṇasyopavarṇitaḥ
 pravṛttayaśca bhūtānāṃ nivṛttīnāṃ phalāni ca
 parāśarasya cotpattiradṛśyatvaṃ yathā vibhoḥ
 jajñe pitṝṇāṃ kanyāyāṃ vyāsaścāpi yathā muniḥ
@@ -183,7 +182,6 @@ abhyasannimamadhyāyaṃ sākṣāt proktaṃ svayambhuvā
 āpadaṃ prāpya mucyeta yatheṣṭāṃ prāpnuyādghatim
 yasmāt purā hyanatīdaṃ purāṇaṃ tena tat smṛtam
 ataśca saṃkṣepamimaṃ śrṛṇudhvaṃ maheśvaraḥ sarvamidaṃ purāṇam
-iti śrīmahāpurāṇe vāyuprokte anukramaṇikā nāma prathamo'dhyāyaḥ
 pratyabruvan punaḥ sūtamṛṣayaste tapodhanāḥ
 ācacakṣa purāṇaṃ ca kathaṃ tebhyaḥ prabhañcanaḥ
 ācakṣva vistareṇedaṃ paraṃ kautūhalaṃ hi naḥ
@@ -237,7 +235,6 @@ prāṇādyā vṛttayaḥ pañca karaṇānāṃ ca vṛttibhiḥ
 vātāraṇiḥ samākhyātaḥ śabdaśāstraviśāradaḥ
 bhāratyā ślakṣṇayā sarvān munīn prahlādayanniva
 purāṇajñaḥ sumanasaḥ purāṇāśrayayuktayā
-iti śrīmahāpurāṇe vāyuprokte sṛṣṭiprakaraṇaṃ nāma tṛtīyo'dhyāyaḥ
 pratyūcuste tataḥ sarve sūtaṃ paryākulekṣaṇāḥ
 tasmāttvaṃ bhavanaṃ kṛtsnaṃ lokasyāmuṣya varṇaya
 yasya yasyānvayā ye ye tāṃstānicchāma veditum
@@ -245,12 +242,9 @@ teṣāṃ pūrvarṣisṛṣṭiṃ ca vicitrāṃ tāṃ prajāpateḥ
 asakṛtparipṛṣṭastairmahātmā lomaharṣaṇaḥ
 vistareṇānupūrvyā ca kathayāmāsa sattamaḥ
 taccāsya satataṃ bhāvastasmādātmā nirucyate
-iti śrīmahāpurāṇe vāyuprokte sṛṣṭiprakaraṇaṃ nāma pañcamo'ghyāyaḥ
 ābhūtasaṃplavāvasthānnāmatastānnibodhata
 svargaṃ divaḥ samudrāṃśca nadān śailān vanaspatīn
 sthānābhimāninaḥ sarve sthānākhyāścaiva te smṛtāḥ
-iti śrīmahāpurāṇe vāyuprokte sṛṣṭiprakaraṇaṃ nāma ṣaṣṭo'dhyāyaḥ
-iti śrīmahāpurāṇe vāyuprokte pratisandhikīrttanaṃ nāma saptamo'dhyāyaḥ
 cakārānyāṃ tanuñ caiva pūrvakalpādiṣu smṛtām
 sa tu rūpaṃ varāhasya kṛtvāpaḥ prāviśat prabhuḥ
 adbhiḥ sañchāditām urvīṃ samīkṣyātha prajāpatiḥ
@@ -298,8 +292,6 @@ maryādāḥ sthāpayāmāsa yathārabdhāḥ parasparam
 ye vai parigṛhītārastāsāmāsanvidhātmakāḥ
 teṣāṃ karmāṇi dharmāśca brahmā tu vyadadhāt prabhuḥ
 devāsurapitṛtvaiśca paśupakṣisarīsṛpaiḥ
-iti śrīmahāpurāṇe vāyuprokte caturāśramavibhāgo nāmāṣṭamo'dhyāyaḥ
-iti śrīmahāpuraṇe vāyuprokte devādisṛṣṭivarṇanaṃ nāma navamo'dhyāyaḥ
 evaṃbhūteṣu lokeṣu brahmaṇā lokakartṛṇā
 satīṃ bhavāya prāyacchat khyātiñca bhṛgave tathā
 marīcaye ca sambhūtiṃ smṛtimāṅgirase dadau
@@ -315,4 +307,3 @@ tataḥprabhṛti deveśo na prāsūyata vai prajāḥ
 yasmāccoktaṃ sthito'smīti tataḥ sthāṇuriti smṛtaḥ
 yogaṃ tapaśca satyañca dharmañcāpi mahāmune
 ityetat trividhaṃ proktaṃ prāṇāyāmasya lakṣaṇam
-iti śrīma hāpurāṇe vāyuprokte manvantarādivarṇanaṃ nāma daśamo'dhyāḥ

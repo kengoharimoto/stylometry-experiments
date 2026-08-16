@@ -127,7 +127,6 @@ etadeva paraṃ guhyaṃ sāṃkhyānāṃ tattvaviniścaye|
 prakṛterantaraṃ jñātvā puruṣasya ca mucyate|| 64||
 $\vskip 1ex$
 \Colo iti skandapurāṇe pāśupatasyogavarṇanaṃ nāma dhyānavidhau
-\Colo prathamo 'ayaṃ catuḥsaptatyuttaraśatatamo 'adhyāyaḥ|| 174||
 
 Adhyāya 175 (Yogavidhi 2)
 \speaker sanatkumāra uvāca|
@@ -224,7 +223,6 @@ bhavajanmāpahaṃ yogaṃ viṣayendriyavarjitam|
 mataṃ paśupateḥ kṛtsnam amṛtāspadalambhanam|| 45||
 $\vskip 1ex$
 \Colo iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
-\Colo dvitīyo 'ayaṃ pañcasaptatyuttaraśatatamo 'adhyāyaḥ|| 175||
 
 Adhyāya 176 (Yogavidhi 3)
 \speaker sanatkumāra uvāca|
@@ -311,7 +309,6 @@ yo 'abhyupāyaḥ parastasya vijñānād īśvarasya tu|
 yogābhyāsaṃ paraṃ taṃ te pravakṣyāmi dvijottama|| 43||
 $\vskip 1ex$
 \Colo iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
-\Colo tṛtīyaḥ ṣaṭsaptatyuttaraśatatamo 'adhyāyaḥ|| 176||
 
 Adhyāya 177 (Yogavidhi 4)
 \speaker sanatkumāra uvāca|
@@ -407,7 +404,6 @@ sarvān dhyānavidhāṃstvetānucyamānānimān mayā|
 śṛṇu vyāsa mahābuddhe yogaiśvaryaphalapradān|| 45||
 $\vskip 1ex$
 \Colo iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
-\Colo caturthaḥ saptasaptatyuttaraśatatamo 'adhyāyaḥ|| 177||
 
 Adhyāya 178 (Yogavidhi 5)
 \speaker sanatkumāra uvāca|
@@ -468,7 +464,6 @@ tam ātmānaṃ paraṃ jñātvā yogaśaktyā mahāmuniḥ|
 paramaiśvaryasaṃyukta amṛtaṃ padam āpnuyāt|| 29||
 $\vskip 1ex$
 \Colo iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
-\Colo pañcamaḥ aṣṭasaptatyuttaraśatatamo 'adhyāyaḥ|| 178||
 
 Adhyāya 179 (Yogavidhi 6)
 \speaker sanatkumāra uvāca|
@@ -576,7 +571,6 @@ sūkṣmaṃ tat paramaṃ jñānaṃ pravakṣyāmi tavānagha|
 yasya samyakparijñānādvijñeyaṃ nāparaṃ bhavet|| 51||
 $\vskip 1ex$
 \Colo iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
-\Colo ṣaṣṭha ūnāśītyuttaraśatatamo 'adhyāyaḥ|| 179||
 
 Adhyāya 180 (Yogavidhi 7)
 \speaker sanatkumāra uvāca|
@@ -640,7 +634,6 @@ tasmāt prakṛtirutpannā tasminneva praṇaśyati|
 prakṛtistaṃ na badhnāti mucyate ca bhavārṇavāt|| 54||
 $\vskip 1ex$
 \Colo iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
-\Colo saptamo 'aśītyuttaraśatatamo 'adhyāyaḥ|| 180||
 
 Adhyāya 181 (Yogavidhi 8)
 \speaker sanatkumāra uvāca|
@@ -707,7 +700,6 @@ saṃdeho yatra te vipra praṣṭavyaṃ yacca manyase|
 tadbrahman paripṛcchāśu nāvaktavyaṃ tavāsti me|| 56||
 $\vskip 1ex$
 \Colo iti skandapurāṇe pāśupatayogavarṇane
-\Colo yogavidhāvaṣṭama ekāśītyuttaraśatatamo 'adhyāyaḥ|| 181||
 
 Adhyāya 182 (Yogavidhi 9)
 \speaker vyāsa uvāca|
@@ -773,7 +765,6 @@ sakalasyāspadaṃ divyaṃ brahmalokāt pare sthitam|
 mahādevasya vakṣyāmi tadbhaktā yatra yānti te|| 54||
 $\vskip 1ex$
 \Colo iti skandapurāṇe pāśupatayogavarṇane
-\Colo yogavidhau navamo dvyaśītyuttaraśatatamo 'adhyāyaḥ|| 182||
 
 Adhyāya 183 (Yogavidhi 10)
 \speaker sanatkumāra uvāca|
@@ -862,5 +853,3 @@ devasyānucarā babhurgaṇavarā -- -- -- -- -- -- --|| 73|
 -- -- -- -- -- -- -- -- devadevasya bhaktāḥ|
 puram ajaram anantaṃ prāpsyatheśādhivāsam|| 74||
 $\vskip 1ex$
-\Colo iti skandapurāṇe tryaśītyadhikaśatatamo 'adhyāyaḥ||
-\Colo ārṣaṃ skandapurāṇaṃ sayogavidhi samāptam|

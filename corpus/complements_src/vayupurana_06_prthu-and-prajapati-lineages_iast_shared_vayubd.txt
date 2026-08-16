@@ -136,7 +136,6 @@ rakṣaḥ sumālī balavānkṣīraṃ rudhirameva ca ।
 kapālapātre nirdugdhā antarddhānañca rākṣasaiḥ ।  
 tena kṣīreṇa rakṣāṃsi varttayantīha sarvaśaḥ ॥183॥  
 sarvakāmadughā dogdhrī pṛthivī bhūtabhāvinī ॥189॥  
-iti śrīmahāpurāṇe vāyuprokte pṛthivīdohanaṃ nāma prathamo'dhyāyaḥ ॥2.1
 cāturvarṇyasamākīrṇā rakṣitā tena dhīmatā ।। 2.4 ।।  
 ādikarttā narāṇāṃ vai namasyaḥ pṛthureva hi ।। 2.8 ।।  
 pātrāṇi ca mayoktāni sarvāṇyeva yathākramam ।। 2.11 ।।  
@@ -160,7 +159,6 @@ māriṣā nāma nāmnaiṣā vṛkṣaireva vinirmitā।
 asṛjanmānasānādau prajā dakṣo'tha maithunāt ।। 2.39 ।।  
 devānāṃ dānavānāñca devarṣīṇāñca te śubhaḥ।  
 prāṇātprajāpaterjanma dakṣasya kathitaṃ tvayā।  
-itiśrīmahāpurāṇe vāyuprokte pṛthuvaṃśānukīrttanaṃ nāma dvitīyo'dhyāyaḥ ।। 2 ।
 mārīcātkaśyapāddevā jajñire paramarṣayaḥ ।। 3.1 ।।  
 ādityā vasavo rudrāḥ sādhyā viśve marudgaṇāḥ।  
 bhṛgavo'ṅgirasaścaiva hyaṣṭau devagaṇāḥ smṛtāḥ ।। 3.2 ।।  
@@ -199,7 +197,6 @@ bṛhaspatisutaścāpi bhāradvājo mahātapāḥ।
 vatsāraḥ kāśyapaścaiva saptaite sādhusammatāḥ।  
 ityeṣa vai mayā pādo dvitīyaḥ kathito dvijāḥ।  
 vistareṇānupūrvyā ca bhūyaḥ kiṃ varṇayāmyaham ।। 3.31 ।।  
-iti śrīmahāpurāṇe vāyuprokte vaivasvatasargavarṇanaṃ nāma tṛtīyo'dhyāyaḥ ।। 3 ।। ityupodvātapādaḥ ।।*।
 śrutvā pādaṃ dvitīyantu krāntaṃ sūtena dhīmatā।  
 pāda krānto dvitīyo'yamanu ṣaṅgeṇa yastvayā।  
 tṛtīyaṃ vistarātpādaṃ sopodvātaṃ prakīrttaya।  
@@ -379,11 +376,9 @@ pūrvamuktaṃ vacastatra śrāvitā nāradena ha ।। 4.152 ।।
 te'pi tenaiva mārgeṇa prayātāḥ sarvatodiśam।  
 tathā teṣvapi naṣṭeṣu mahātmasu purā kila।  
 ṣaṣṭikanyā'sṛjaddakṣo vairiṇyāmeva viśrutāḥ ।। 4.157 ।।  
-iti śrīmahāpurāṇe vāyuprokte prajāpativaṃśānukīrttanaṃ nāma caturtho 'dhyāyaḥ ।। 4 ।। 
 aṅgārakaṃ tathā sarpaṃ niṛtiṃ sadasaspatim।  
 sṛjate cānugṛhṇāti prajāḥ saṃharate tathā ।। 5.104 ।।  
 tasmāt pṛthaktvamekatvasaṅkhyā saṅkhyāgatāgatam।  
-iti śrīmahāpurāṇe vāyuprokte kaśyapīyaprajāsargo nāma pañcamo'dhyāyaḥ ।। 5 ।। 
 vijñātiścaiva vijñāto mānavo ye ca dvādaśa ।। 6.6 ।।  
 satyasyeha tu karmāṇi vāṅmanaḥ karmajāni tu ।। 6.9 ।।  
 ya evāpyavatiṣṭhante doṣaṃ dṛṣṭvā tu karmasu।  
@@ -406,8 +401,6 @@ graheṣu pañcamaścaiva ṣaṣṭhaḥ saptarṣimaṇḍale।
 vātaskandhānimān bhūtvā carantu mama putrakāḥ ।। 6.113 ।।  
 tatasteṣāntu nāmāni mātāputrau pracakratuḥ।  
 gaṇa eṣa dvitīyastu tṛtīyaṃ me nibodhata ।। 6.125 ।।  
-iti śrīmahāpurāṇe vāyuprokte kaśyapīyaprajāsargo nāma ṣaṣṭo'dhyāyaḥ ।। 6 ।
-iti śrīmahāpurāṇe vāyuprokte kaśyapīyaprajāsargo nāma saptamo'dhyāyaḥ ।। 7 ।। 
 gandharvāpsarasaḥ puṇyā mauneyāḥ parikīrttitāḥ।  
 dhṛtarāṣṭraḥ pulomā ca sūryavarccāstathaiva ca।  
 trayodaśo bhramiśirāḥ parjanyaśca caturdaśaḥ।  
@@ -839,7 +832,6 @@ paśūnāṃ brāhṇānāñca śrīmatāṃ puṇyalakṣaṇam ।। 8.345 �
 śrotavyaścaiva satataṃ grāhyaścaivānusūyatā ।। 8.346 ।।  
 imantu vaṃśaṃ niyamena yaḥ paṭenmahātmanāṃ brāhṇavaidyasaṃsadi ।  
 apatyalābhaṃ hi labetsupuṣkalaṃ śriyaṃ dhanaṃ pretya ca śobhanāṃ gatim ।। 8.347 ।।  
-iti śrīmahāpurāṇe vāyuprokte kaśyapīyaprajāsargo nāmāṣṭamo'dhyāyaḥ ।। 8 ।। 
 abhiṣicyādhipatyeṣu teṣāṃ mukhyaḥ prajāpatiḥ।  
 daityānāmatha rājānaṃ prahlādaṃ ditinandanam।  
 sarveṣāṃ daṃṣṭriṇāṃ śeṣaṃ nāgānāmatha vāsukim ।। 9.12 ।।  
@@ -953,4 +945,3 @@ ekārṣeyāstathaivānye vasiṣṭā nāma viśrutāḥ।
 ete pakṣā vasiṣṭānāṃ smṛtā ekādaśeva tu ।। 9.90 ।।  
 bhrātaraḥ sumahābhāgā teṣāṃ vaṃśāḥ pratiṣṭitāḥ ।। 9.91 ।।  
 trīṃllokāndhārayantīmāndevarṣigaṇasaṅkulān ।  
-iti śrīmahāpurāṇe vāyuprokte ṛṣivaṃśānukīrttanaṃ nāma navamo'dhyāyaḥ ।। 9 ।। 

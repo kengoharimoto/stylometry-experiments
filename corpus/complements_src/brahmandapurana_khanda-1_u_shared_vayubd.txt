@@ -167,7 +167,6 @@ gandharvarakṣitaṃ dṛṣṭvā kalāpagrāmaketanam  /
 tadā vai naimiṣeyānāṃ satre dvādaśavārṣike  // 1,1.165 //
 tathā vivadamānaiśca yaduḥ saṃsthāpitaśca taiḥ  /
 samāpayitvā tatsatraṃ vāyuṃ te paryupāsata  /
-iti kṛtyasamuddeśaḥ purāṇāṃśopavarṇitaḥ  // 1,1.167 //
 anenānukrameṇaiva purāṇaṃ saṃprakāśate  /
 tenādhītaṃ purāṇaṃ syātsarvaṃ nāstyatrasaṃśayaḥ  /
 yo vidyāccaturo vedān sāṃgopaniṣadān dvijāḥ  // 1,1.170 //
@@ -229,7 +228,6 @@ devatānāmṛṣīṇāṃ ca sarvapāpapramocanam  // 1,2.47 //
 bhūtādirmahatā caiva pradhānenāvṛto mahān  /
 ādhārādheyabhāvena vikārāste vikāriṣu  // 1,3.36 //
 yatsvasthāḥ satataṃ bhāvastasmādātmā nirūcyate  /
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte pūrvabhāge prathame prakriyāpade lokakalpanaṃ nāma caturtho 'dhyāyaḥ
 sthāne srotaḥsvabhīmānāḥ sthānākhyāścaiva te smṛtāḥ  // 1,5.68 //
 brahmaṇastu prajāsargaṃ devārṣipitṛmānavam  // 1,5.89 //
 punaḥ sṛjati bhūtāni carāṇi sthāvarāṇi ca  /
@@ -276,7 +274,6 @@ puṣṭipratyakṣadṛṣṭena darśanena vicārya saḥ  /
 grastāḥ pṛthivyā tvoṣadhyo jñātvā pratyarūhatpunaḥ  // 1,7.141 //
 maryādāṃ sthāpayāmāsa yayārakṣatparasparam  // 1,7.153 //
 teṣāṃ karmāṇi dharmāṃśca brahmā tu vyadadhātprabhuḥ  // 1,7.158 //
-iti śrībrahmāṃḍe mahāpurāṇe vāyuprokte pūrvabhāge dvitīye 'nuṣaṃgapāde lokajñāna varṇanaṃ nāma saptamo 'dhyāyaḥ
 adharmācaraṇā ttasya hiṃsā śoko vyajāyata  // 1,9.12 //
 satīṃ bhavāya prāyacchatkhyātiṃ ca bhṛgave tathā  // 1,9.54 //
 marīcaye tu saṃbhūtiṃ smṛtimaṅgirase dadau  /
@@ -562,7 +559,6 @@ evaṃ svāyaṃ bhuvaḥ sargo yenedaṃ pūritaṃ jagat  // 1,14.74 //
 ṛṣibhirdaivataiścāpi pirtṛgandhavarākṣasaiḥ  /
 yakṣabhūtapiśācaiśca manuṣyamṛgapakṣibhiḥ  /
 teṣāṃ sṛṣṭiriyaṃ proktā yugaiḥ saha vivarttate  // 1,14.75 //
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte pūrvabhāge dvitīye 'nuṣaṅgapāde priyavratavaṃśānukīrttanaṃ nāma catudaśo 'dhyāyaḥ
 evaṃ prajāsanniveśaṃ śrutvā vai śāṃśapāyaniḥ  /
 kati dvīpā samudrā vā pavatā vā kati smṛtāḥ  /
 kiyanti caiva varṣāṇi teṣu nadyaśca kāḥ smṛtāḥ  // 1,15.2 //

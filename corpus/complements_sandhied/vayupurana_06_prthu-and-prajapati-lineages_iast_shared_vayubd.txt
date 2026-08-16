@@ -136,7 +136,6 @@ rakṣaḥ sumālī balavānkṣīraṃ rudhirameva ca
 kapālapātre nirdugdhā antarddhānañca rākṣasaiḥ
 tena kṣīreṇa rakṣāṃsi varttayantīha sarvaśaḥ
 sarvakāmadughā dogdhrī pṛthivī bhūtabhāvinī
-iti śrīmahāpurāṇe vāyuprokte pṛthivīdohanaṃ nāma prathamo'dhyāyaḥ
 cāturvarṇyasamākīrṇā rakṣitā tena dhīmatā
 ādikarttā narāṇāṃ vai namasyaḥ pṛthureva hi
 pātrāṇi ca mayoktāni sarvāṇyeva yathākramam
@@ -160,7 +159,6 @@ māriṣā nāma nāmnaiṣā vṛkṣaireva vinirmitā
 asṛjanmānasānādau prajā dakṣo'tha maithunāt
 devānāṃ dānavānāñca devarṣīṇāñca te śubhaḥ
 prāṇātprajāpaterjanma dakṣasya kathitaṃ tvayā
-itiśrīmahāpurāṇe vāyuprokte pṛthuvaṃśānukīrttanaṃ nāma dvitīyo'dhyāyaḥ
 mārīcātkaśyapāddevā jajñire paramarṣayaḥ
 ādityā vasavo rudrāḥ sādhyā viśve marudgaṇāḥ
 bhṛgavo'ṅgirasaścaiva hyaṣṭau devagaṇāḥ smṛtāḥ
@@ -199,7 +197,6 @@ bṛhaspatisutaścāpi bhāradvājo mahātapāḥ
 vatsāraḥ kāśyapaścaiva saptaite sādhusammatāḥ
 ityeṣa vai mayā pādo dvitīyaḥ kathito dvijāḥ
 vistareṇānupūrvyā ca bhūyaḥ kiṃ varṇayāmyaham
-iti śrīmahāpurāṇe vāyuprokte vaivasvatasargavarṇanaṃ nāma tṛtīyo'dhyāyaḥ ityupodvātapādaḥ
 śrutvā pādaṃ dvitīyantu krāntaṃ sūtena dhīmatā
 pāda krānto dvitīyo'yamanu ṣaṅgeṇa yastvayā
 tṛtīyaṃ vistarātpādaṃ sopodvātaṃ prakīrttaya
@@ -379,11 +376,9 @@ pūrvamuktaṃ vacastatra śrāvitā nāradena ha
 te'pi tenaiva mārgeṇa prayātāḥ sarvatodiśam
 tathā teṣvapi naṣṭeṣu mahātmasu purā kila
 ṣaṣṭikanyā'sṛjaddakṣo vairiṇyāmeva viśrutāḥ
-iti śrīmahāpurāṇe vāyuprokte prajāpativaṃśānukīrttanaṃ nāma caturtho 'dhyāyaḥ
 aṅgārakaṃ tathā sarpaṃ niṛtiṃ sadasaspatim
 sṛjate cānugṛhṇāti prajāḥ saṃharate tathā
 tasmāt pṛthaktvamekatvasaṅkhyā saṅkhyāgatāgatam
-iti śrīmahāpurāṇe vāyuprokte kaśyapīyaprajāsargo nāma pañcamo'dhyāyaḥ
 vijñātiścaiva vijñāto mānavo ye ca dvādaśa
 satyasyeha tu karmāṇi vāṅmanaḥ karmajāni tu
 ya evāpyavatiṣṭhante doṣaṃ dṛṣṭvā tu karmasu
@@ -406,8 +401,6 @@ graheṣu pañcamaścaiva ṣaṣṭhaḥ saptarṣimaṇḍale
 vātaskandhānimān bhūtvā carantu mama putrakāḥ
 tatasteṣāntu nāmāni mātāputrau pracakratuḥ
 gaṇa eṣa dvitīyastu tṛtīyaṃ me nibodhata
-iti śrīmahāpurāṇe vāyuprokte kaśyapīyaprajāsargo nāma ṣaṣṭo'dhyāyaḥ
-iti śrīmahāpurāṇe vāyuprokte kaśyapīyaprajāsargo nāma saptamo'dhyāyaḥ
 gandharvāpsarasaḥ puṇyā mauneyāḥ parikīrttitāḥ
 dhṛtarāṣṭraḥ pulomā ca sūryavarccāstathaiva ca
 trayodaśo bhramiśirāḥ parjanyaśca caturdaśaḥ
@@ -839,7 +832,6 @@ paśūnāṃ brāhṇānāñca śrīmatāṃ puṇyalakṣaṇam
 śrotavyaścaiva satataṃ grāhyaścaivānusūyatā
 imantu vaṃśaṃ niyamena yaḥ paṭenmahātmanāṃ brāhṇavaidyasaṃsadi
 apatyalābhaṃ hi labetsupuṣkalaṃ śriyaṃ dhanaṃ pretya ca śobhanāṃ gatim
-iti śrīmahāpurāṇe vāyuprokte kaśyapīyaprajāsargo nāmāṣṭamo'dhyāyaḥ
 abhiṣicyādhipatyeṣu teṣāṃ mukhyaḥ prajāpatiḥ
 daityānāmatha rājānaṃ prahlādaṃ ditinandanam
 sarveṣāṃ daṃṣṭriṇāṃ śeṣaṃ nāgānāmatha vāsukim
@@ -953,4 +945,3 @@ ekārṣeyāstathaivānye vasiṣṭā nāma viśrutāḥ
 ete pakṣā vasiṣṭānāṃ smṛtā ekādaśeva tu
 bhrātaraḥ sumahābhāgā teṣāṃ vaṃśāḥ pratiṣṭitāḥ
 trīṃllokāndhārayantīmāndevarṣigaṇasaṅkulān
-iti śrīmahāpurāṇe vāyuprokte ṛṣivaṃśānukīrttanaṃ nāma navamo'dhyāyaḥ

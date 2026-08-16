@@ -30,8 +30,6 @@ sarvavidyāmayīmīśāṃ sākṣādvighnavināyakam ||
 vaktumārabhate sūtaḥ sarvavedārthamuttamam || 18 ||
 namāmi saṃsāramahāviṣauṣadham || 19 ||
 namāmi nānāvidhalokavaibhavām || 20 ||
-sarvavedārthapraśno nāma prathamo'dhyāyaḥ || 1 ||
-sarvavedārthapraśno nāma prathamo'dhyāyaḥ || 1 ||
 śraddhayā rahitaṃ sarve phalāya na kadācana || 1 ||
 parāparavibhāgena vedārtho dvividhaḥ smṛtaḥ ||
 vedārthaḥ paramaḥ sākṣātparātparataraṃ param || 2 ||
@@ -197,9 +195,6 @@ itaḥ pūrva mayā'nyeṣāṃ nāyamartho'bhibhāṣitaḥ ||
 vyāso mama guruḥ pūrva rahasyaṃ me'bhyabhāṣata || 85 ||
 sārātsārataraḥ sākṣādayamarthaḥ prabhāṣitaḥ ||
 gopanīyastvayaṃ nityaṃ bhavadbhiḥ paramāstikaiḥ || 86 ||
-iti śrīskandapurāṇe sutasaṃhitāyāṃ caturthe yajñavaibhava-
-dvitīyo'dhyāyaḥ || 2 ||
-nāma dvitīyo'dhyāyaḥ || 2 ||
 athātaḥ saṃpravakṣyāmi karmayajñasya vaibhavam ||
 karmayajñavidhā prokto munibhiḥ sūkṣmadarśibhiḥ || 1 ||
 ekaḥ kāmyo'paro nityastathā naimittiko'paraḥ ||
@@ -250,8 +245,6 @@ svabuddhyā vedaśāstrokke tantrokte'pi dvijottamāḥ ||
 phaleṣu tāratamyaṃ tu vidyate sūkṣmadarśane || 25 ||
 kāyikaḥ karmayajñastu kathitaḥ saṃgraheṇa tu ||
 bhavanto'pi mahāyajñaṃ kāyikaṃ kuruta dvijāḥ || 26 ||
-karmayajñavaibhavanirūpaṇaṃ nāma tṛtīyo'dhyāyaḥ || 3 ||
-karmayajñavaibhavanirūpaṇaṃ nāma tṛtīyo'dhyāyaḥ || 3 ||
 athāhaṃ vācikaṃ yajñaṃ vakṣyāmi śraddhayā saha |
 parātparatarāttasmācchivāccaitanyalakṣaṇāva || 1 ||
 svaśaktisahitādeva dvijā jyotirmayaḥ paraḥ ||
@@ -325,10 +318,6 @@ cinmayaḥ paracidrūpaḥ śivāsaṃbhinna eva hi || 34 ||
 buddhvā mantrajapaṃ kuryādevaṃ mantrasya vaibhavam ||
 ācāryamukhataḥ prāṃjñāḥ sidhyatyevācireṇa tu ||
 ācāryarahito mantraḥ puṃso'narthasya kāraṇam || 35 ||
-iti śrīskandapurāṇe sutasaṃhitāyāṃ caturthe yajñavaibhava-
-caturtho'dhyāyaḥ || 4 ||
-nāma caturtho'dhyāyaḥ || 4 ||
-atha pañcamo'dhyāyaḥ
 parāparavibhāgena praṇavastu dvidhā mataḥ || 1 ||
 prakarṣeṇa navaṃ yasmātparaṃ brahma svabhāvataḥ || 2 ||
 aparaḥ praṇavaḥ sākṣācchabdarūpaḥ sunirmalaḥ ||
@@ -399,8 +388,6 @@ tataḥ sidhyati mantro'yaṃ satyameva na saṃśayaḥ ||
 ṣaṭkarmāṇi prasidhyanti tathaivāṣṭa vibhūtayaḥ || 40 ||
 apavargaḥ svataḥsiddhaḥ pāpaiḥ sarvaiḥ pramucyate ||
 sarvavidyālayo bhūtvā yatheṣṭaṃ phalamāpnuyāt || 41 ||
-vicāro nāma pañcamo'dhyāyaḥ || 5 ||
-nāma pañcamo'dhyāyaḥ || 5 ||
 sāvitrīmatha vakṣyāmi vyāhṛtyā śirasā saha ||
 atrirbhṛguśva kutsaśca vasiṣṭho gautamastathā ||
 kaśyapaśvāṅgirāśveti krameṇa munipuṅgavāḥ || 2 ||
@@ -504,9 +491,6 @@ vahunoktena kiṃ viprā japenāsyāśva homataḥ ||
 abhīṣṭaṃ sarvamāproti nātra saṃdehakāraṇam || 59 ||
 jñānecchāṃ tatprasādena labhate ca dvijottamāḥ ||
 sāvitrījapayajñena jñānayajñamavāpnuyāt || 60 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ caturthe yajñavaibhava-
-khaṇḍe gāyatrīvivaraṇaṃ nāma ṣaṣṭho'dhyāyaḥ || 6 ||
-nāma ṣaṣṭho'dhyāyaḥ || 6 ||
 ātmamantraṃ pravakṣyāmi samāsena na vistarāva ||
 śāntāntaṃ śaktirasyoktā tadantaṃ bījamucyate || 1 ||
 vidyā śaktirbhavedvījaṃ śiva eva na cānyathā ||
@@ -583,9 +567,6 @@ na guruṃ saṃtyajennityaṃ jānannasya kṛtaṃ naraḥ || 41 ||
 - gurubhaktiṃ sadā kuryācchreyase bhūyase naraḥ ||
 gurureva śivastasya nānya ityabravīcchrutiḥ || 42 ||
 no cedanarthāya na ca pramāṇam || 43 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ caturthe yajñavaibhava-
-khaṇḍe haṃsavidyāvivaraṇaṃ nāma saptamo'dhyāyaḥ||7||
-nāma saptamo'dhyāyaḥ || 7 ||
 paḍakṣaraṃ pravakṣyāmi samāsena suśobhanam ||
 yena saṃsāravicchittirbrahmendrādivibhūtayaḥ || 1 ||
 devatā'sya śivaḥ sākṣātsatyajñānasukhādayaḥ || 2 ||
@@ -669,9 +650,6 @@ mālyamālepanaṃ dadyānnamaskṛtya visarjayeva ||
 hṛtpadmakarṇikāmadhyātkuryādāvāhanaṃ budhaḥ || 47 ||
 sarvamuktaṃ samāsena narāṇāṃ bhuktimuktaye || 48 ||
 tasmātsarvaṃ parityajya paḍakṣaraparo bhavet ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ caturthe yajñavaibhava-
-khaṇḍe paḍakṣaravivaraṇaṃ nāmāṣṭamo'dhyāyaḥ || 8||
-varaṇaṃ nāmāṣṭamo'dhyāyaḥ || 8 ||
 parātparataraṃ tattvaṃ dhyeyaṃ mūtryātmanaiva tu ||
 na svarūpeṇa sākṣitvādātmatvādviṣayitvataḥ || 2 ||
 bhedābhāvācca bhedasya bhramatvādeva vastutaḥ ||
@@ -902,8 +880,6 @@ na mayā śakyate vaktuṃ jñānayajñasya vaibhavam ||
 munibhiśva tathā devaistathā'nyairapi jantubhiḥ || 72 ||
 śrutyā śivena vā viprā jñānayajñasya vaibhavam ||
 kathaṃcicchakyate vaktuṃ satyameva na saṃśayaḥ || 73 ||
-jñānayajñavivaraṇaṃ nāma daśamo'dhyāyaḥ || 10 ||
-jñānayajñavivaraṇaṃ nāma daśamo'dhyāyaḥ || 10 ||
 dharmādharmāstitābuddhiryepāmasti munīśvarāḥ ||
 te'pi vijñānasaṃpannā iti me niścitā matiḥ || 2 ||
 dharmādharmaphalāstitvajñānaṃ yeṣāṃ hṛdi sthitam ||
@@ -974,8 +950,6 @@ te'pi vijñānasaṃpannā iti me niścitā matiḥ || 35 ||
 uktalakṣaṇamātmānamuktalakṣaṇamīśvaram ||
 ekaṃ paśyanti ye viprāstarkataśca pramāṇataḥ || 36 ||
 na paṭhitavyamasajjanasaṃsadi || 38 ||
-jñānayajñaviśeṣo nāmaikādaśo'dhyāyaḥ || 11 ||
-vakhaṇḍa ekādaśo'dhyāyaḥ || 11 ||
 bhūyo'pi jñānayajñaṃ tu pravakṣyāmi samāsataḥ ||
 munayaḥ parayā bhaktyā śṛṇutātīva śobhanam || 1 ||
 brahma satyaparānandaprakāśānantalakṣaṇam ||
@@ -1031,10 +1005,7 @@ te'pi śaṃbhorna bhedena santi samyanirūpaṇe || 27 ||
 yadyadastitayā yadyannāsti vastu munīśvarāḥ ||
 tattacchaṃbhorna bhedena vidyate sūkṣmadarśane || 28 ||
 na devadevātpṛthagasti kiṃcit || 29 ||
-iti śrīskandapurāṇe satasaṃhitāyāṃ caturthe yajñavaibhava-
-khaṇḍe paḍakṣaravivaraṇaṃ nāma dvādaśo'dhyāyaḥ ||12||
 svasminnāśritā māyā svaśaktiḥ || 29 ||
-jñānayajñaviśeṣo nāma dvādaśo'dhyāyaḥ || 12 ||
 bhūyo'pi jñānayajñaṃ tu pravakṣyāmi samāsataḥ ||
 guhyādguhyatamaṃ sūkṣmaṃ śṛṇuta śradvayā dvijāḥ || 1 ||
 cinmātrāśrayamāyāyāḥ śaktyākāre dvijottamāḥ ||
@@ -1141,8 +1112,6 @@ vyavahāraḥ svataḥ sarvaḥ svātmanā bhāti kevalam || 54 ||
 ātmavijñānasaṃjñasya mahāyajñasya vaibhavam ||
 bhavanto'pi mahābhāgyānmahādevaprasādataḥ ||
 matto labdhaparijñānāḥ kṛtārthāśva na saṃśayaḥ || 56 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ caturthe yajñavaibhava-
-śo'dhyāyaḥ || 13 ||
 bhūyo'pi jñānayajñaṃ tu pravakṣyāmi samāsataḥ ||
 itaḥ pūrvaṃ mayā noktamapi kasyacidāstikāḥ || 1 ||
 eka eva śivaḥ sākṣātsatyajñānādilakṣaṇaḥ ||
@@ -1255,7 +1224,6 @@ upāsitavyo mantavyaḥ śrotavyaśca mumukṣubhiḥ ||58||
 śivaprasādena vinā na muktayaḥ || 59 ||
 pradugdhapāpasya tamovināśakṛt || 60 ||
 taranti saṃsāramahodadhiṃ te || 61 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ jñānayajñaviśeṣo
 bhūyo'pi jñānayajñaṃ tu pravakṣyāmi samāsataḥ ||
 śṛṇuta śreyase viprāḥ śraddhayā parayā saha || 1 ||
 ghaṭakubyakusūlādipadārtheṣu munīśvarāḥ ||
@@ -1305,9 +1273,6 @@ napi prapaśyatyamalaprabodham || 28 ||
 na baddhamukto na ca baddha eva tu || 29 ||
 kasyacicca na vandhanamocane || 30 ||
 patanti te mohaphaṇīndradaṣṭāḥ || 31 ||
-iti śrīskandapurāṇe sutasaṃhitāyāṃ caturthe yajñavebhavakhaṇḍe
-jñānaviśepayogo nāma pañcadaśo'dhyāyaḥ || 15 ||
-vaibhavakhaṇḍe jñānaviśeṣayogo nāma pañcadaśo'dhyāyaḥ || 15 ||
 vinā yena śivajñānaṃ na jāyeta kathaṃcana || 1 ||
 mumukṣuratisaṃtuṣṭaḥ sidhyatyeva gatirmama ||
 iti niśvayabudvistu pratibandhanivṛttaye ||
@@ -1397,7 +1362,6 @@ mahādeve mahānande mahākāruṇikottame ||
 prasanne sati kīṭo vā pataṅgo vā vimucyate || 49 ||
 gurūpadiṣṭo vedārthaḥ saṃgraheṇa mayoditaḥ ||
 maduktārthe tu viśvāsaṃ kurudhvaṃ yatnato dvijāḥ || 50 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ jñānotpattikāraṇa-
 yena sākṣācchivajñānaṃ jāyate mokṣasādhanam || 1 ||
 pratyagbrahmakatājñānādvaita vastu samudratam ||
 dvaitavastuni viprendrāḥ pūrvavāsanayā tathā || 2 ||
@@ -1539,9 +1503,7 @@ jñānaṃ nāma mahādevajñānaṃ vedāntavākyajam ||
 viraktasya hi saṃsārājjñānaṃ nānyasya kasyacit ||72||
 tadā maryo'mṛto bhavatyatra brahma samaśrute || 73 ||
 ridaṃ viśiṣṭaṃ kathitaṃ kṛpābalāt || 74 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ vairāgyavicāro
 na ca bandhanacchideti | chidā chedaḥ | bhidāditvādaṅ || 74 ||
-vaibhavakhaṇḍe vairāgyavicāro nāma saptadaśo'dhyāyaḥ || 17 ||
 athānityaṃ pravakṣyāmi samāsena na vistarāva ||
 yajjñānenaiva saṃsārādvairāgyaṃ jāyate hṛdi || 1 ||
 anātmā jaḍarūpo yaḥ sa evānityamucyate ||
@@ -1721,7 +1683,6 @@ vināśaṃ pralaye yāti kiṃ nityaṃ gamyate'naghāḥ || 81 ||
 ataḥ sākṣātsvayaṃjyotiḥsvabhāvaḥ parameśvaraḥ ||
 eka eva dijā nityastato'nyatsakalaṃ mṛṣā || 82 ||
 prayāti satyaṃ paribhāṣitaṃ mayā || 83 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāmanityavastuvi
 paramārthaḥ | brahmaviṣṇvādikaḥ sarvo'pi sopādhikatvānmṛpaivetparthaḥ || 80 ||
 yajjñānena śivajñānaṃ jāyate sudṛḍhaṃ dvijāḥ || 1 ||
 sa eva nityaścinmātraḥ sākṣī sarvasya sarvadā || 2 ||
@@ -1777,8 +1738,6 @@ smṛtayaśca purāṇāni bhāratādīni cā''stikāḥ||26||
 nityatvaṃ śuddhabuddhatvamātmanaḥ pravadanti hi || 27 ||
 tasmādātmaiva viprendrā nityaṃ vastu na cāparam ||
 jihvāyāṃ paraśuṃ taptaṃ dhārayāmi na saṃśayaḥ || 28 ||
-nityavastuvicāro nāmaikonaviṃśo'dhyāyaḥ || 19 ||
-vaibhavakhaṇḍe nityavastuvicāro nāmaikonaviṃśo'dhyāyaḥ || 19 ||
 śṛṇutātyantakalyāṇaṃ munayaḥ parayāṃ mudā || 1 ||
 purā vedavidāṃ mukhyāḥ kāvaṣeyā maharṣayaḥ ||
 satrāvasāne saṃbhūya śraddhayā parayā saha || 2 ||
@@ -1864,9 +1823,6 @@ praṇamya devamīśānaṃ sāmvaṃ saṃsārabhepajam || 47 ||
 prasādayitvā deveśaṃ kṛtārthā ātmavedanāva ||
 niḥspṛhāḥ svātmano'nyatra yayurhimavato gṛham ||48||
 dṛthā na lābhāya viśudvacetasām || 49 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ viśiṣṭadharmavicāro
-nāma viṃśo'dhyāyaḥ || 20 ||
-cāro nāma viṃśo'dhyāyaḥ || 20 ||
 śṛṇuta śraddhayā sārdhaṃ sākṣāddedāntadarśitam || 1 ||
 ta ete bhasmadigdhāṅgāstripuṇḍrāṅkitamastakāḥ ||
 tapaśverurmahātīvraṃ parayā śraddhayā saha ||
@@ -1933,8 +1889,6 @@ atha kiṃ bahunoktena munīndrā vedavittamāḥ ||
 muktisādhanavijñānaṃ vedādeva na cānyataḥ || 40 ||
 vedamārgajanitaṃ tu vedanaṃ dopahīnamatiśobhanaṃ sadā ||
 anyamārgajanitaṃ vicārato vedamārgarucikāraṇaṃ kramāt || 41 ||
-muktisādhanavicāro nāmaikaviṃśo'dhyāyaḥ || 21 ||
-yajñavaibhava khaṇḍe muktisādhanavicāro nāmaikaviṃśo'dhyāyaḥ || 21 ||
 śraddhayā sahitā yūyaṃ śṛṇudhvaṃ munipuṅgavāḥ || 1 ||
 vedāṅgānyupavedāṃśva kāmikādyāgamānapi || 2 ||
 tathā pāśupataṃ somaṃ bhairavapramukhāgamān ||
@@ -1987,8 +1941,6 @@ mahākāruṇiko devaḥ sarvajño nirmalaḥ khalu ||
 tathā'pi vedo mārgāṇāmuttamaḥ sarvasādhakaḥ || 28 ||
 sarvamuktaṃ samāsena mārgaprāmāṇyanirṇayam ||
 evaṃ buddhvā śrutau śraddhāṃ kurudhvaṃ yatnato dvijāḥ ||29||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ caturthe yajñave -
-dvāviṃśo'dhyāyaḥ || 22 ||
 yasya vijñānamātreṇa prasādaḥ śāṃkaro bhavet || 1 ||
 brahmāṇaṃ brahmasaṃpannamapṛcchadidamādarāt || 2 ||
 so'pi sarvajagaddhātā saha tena munīśvarāḥ ||
@@ -2075,8 +2027,6 @@ prasādalābhāya hi sarvamīritam || 46 ||
 śivaprasādena hi sarvamāstikāḥ || 47 ||
 śivaprasādena viśuddhatā''tmanaḥ || 48 ||
 na vidyate karma tathaiva kiṃcana || 49 ||
-iti śrīskandapurāṇe sutasaṃhitāyāṃ caturthe yajñavaibhava-
-trayoviṃśo'dhyāyaḥ || 23 ||
 athātaḥ saṃpravakṣyāmi prasādasya tu vaibhavam ||
 atyantaśraddhayopetāḥ śṛṇutātīva śobhanam || 1 ||
 purā kaścinmahāpāpī durghaṭo nāma nāmataḥ ||
@@ -2296,9 +2246,6 @@ satyameva satataṃ prakāśate || 39 ||
 satyasukhabodhaparamaṃ vapuranantam ||
 svasya munayaḥ paramakāruṇika īśaḥ
 śaktisahita trinayanaḥ khalu dadāti || 40 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ caturthe yajñavaibhava-
-paḍiśo'dhyāyaḥ || 26 ||
-ktivicāro nāma paḍiśo'dhyāyaḥ || 26 ||
 yatsattāyogataḥ sarvaṃ satyavadbhavati dvijāḥ || 1 ||
 yasyaiva citprakāśena sarva cetayate jagat ||
 yaspā''nandābhisaṃvandhātsarva premāspadaṃ bhavet || 2 ||
@@ -2367,8 +2314,6 @@ paratattvaṃ tu sarveṣāṃ svarūpamapi sarvadā ||
 tasya mūrtiprasādena vinā naiva prakāśate || 41 ||
 tasmānmūrtirhi sarveṣāṃ bhogamokṣaphalapradā ||
 ato mūrti mahābhaktyā bhajadhvaṃ munipuṅgavāḥ || 42 ||
-parapadasvarūpavicāro nāma saptaviṃśo'dhyāyaḥ ||27||
-parapadasvarūpa vicāro nāma saptaviṃśo'dhyāyaḥ || 27 ||
 yasya vijñānamātreṇa vimukto mānavo bhavet || 1 ||
 śiva eva svayaṃ liṅgaṃ liṅgaṃ gamakameva hi ||
 śivena gamyate sarve śivo nānyena gamyate || 2 ||
@@ -2449,9 +2394,6 @@ puppatoyaphalapramukhāḥ kṛśāḥ || 47 ||
 nālaṃ sadā mūlavimūlanāya || 48 ||
 bodha eva paramaṃ padamāstikāḥ || 49 ||
 pūjayadhvamasatyanivṛttaye || 50 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ śivaliṅgasvarūpakathanaṃ
-nāmāṣṭāviṃśo'dhyāyaḥ || 28 ||
-nāmāṣṭāviṃśo'dhyāyaḥ || 28 ||
 yatra saṃcintya deveśaṃ kaivalyaṃ labhate naraḥ || 1 ||
 purā nārāyaṇaḥ śrīmānkirīṭī garuḍadhvajaḥ ||
 śrīmatkailāsaparyante tatāpa paramaṃ tapaḥ || 2||
@@ -2633,8 +2575,6 @@ satyajñānaparānandastatraivāntaradhīyata || 103 ||
 bhavadbhiśva mahābhāgyācchivasthānāni suvratāḥ ||
 śrutāni tāni mokṣārthaṃ bhajadhvaṃ śraddhayā saha || 105 ||
 priyeṇa caikaṃ parameśvarasya || 106 ||
-iti śrīskandapurāṇe sutasaṃhitāyāṃ caturthe yajñavaibhava-
-triṃśo'dhyāyaḥ || 29||
 yasya vijñānamātreṇa naro mucyeta bandhanāt || 1 ||
 bhasma nānāvidhaṃ proktaṃ dhārmikaistattvacintakaiḥ ||
 ekaṃ viprā mahābhasma svalpamanyatprakīrtitam || 2 ||
@@ -2713,8 +2653,6 @@ guruṇā cāpi me viprāḥ kalpakoṭiśatairāpe || 60 ||
 aho mohasya māhātmyaṃ munīndrā brahmavādinaḥ ||
 ye narā bhasma saṃtyajya kurvantyanyatsamīhitam || 62 ||
 saphalameva hi janma na saṃśayaḥ || 63 ||
-bhasmadhāraṇavaibhavaṃ nāma triṃśo'dhyāyaḥ || 30 ||
-bhasmadhāraṇavaibhavaṃ nāma triṃśo'dhyāyaḥ || 30 ||
 śradvayā saha viprendrāḥ śṛṇutātīva śobhanam || 1 ||
 jīvabrahmekyavijñānaṃ viśuddhaṃ vedasaṃbhavam ||
 devadevasya viprendrā mahāprītikaraṃ sadā || 2 ||
@@ -2854,8 +2792,6 @@ yuṣmākaṃ vaṃśajātānāṃ yuṣmākaṃ ca tathaiva ca ||
 svabhāvajo hyeṣa muneḥ prabhāvaḥ || 45 ||
 dvaṃ nityaṃ pūjayecchradvayaiva || 46 ||
 bhavedaśeṣaṃ kathitaṃ mayā'naghāḥ || 47 ||
-iti śrīskandapurāṇe sutasaṃhitāyāṃ caturthe yajñavai
-dvātriṃśo'dhyāyaḥ || 32 ||
 atha nāmāni vakṣyāmi paratattvasya suvratāḥ ||
 yāni saṃkīrtayanmartyo vimuktiphalabhāgbhavet || 1 ||
 śivo rudro mahādevaḥ śaṃkaro brahma satparam ||
@@ -2913,7 +2849,6 @@ nṛtyati sma parameśayā saha || 30 ||
 koṭapūrvajanireva tasya hi || 31 ||
 bhavanti nāmāni parasya cā''jñayā || 32 ||
 japedaśeṣāśubhanāśanāya || 33 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ yajñavebhavakhaṇḍe para-
 mahādevaprasādasya kāraṇaṃ jhaṭiti dvijāḥ || 1 ||
 satyāsteyadayāpūrvaiḥ sarvadharmaiḥ samanvitaḥ ||
 kāmakrodhamahālobhapaiśunyādivivarjitaḥ || 2 ||
@@ -2971,8 +2906,6 @@ prasādakāmī viprendrāḥ prasanno gurubhaktimān ||
 dine dine guroḥ pūjāṃ kuryādarthādibhirnaraḥ || 28 ||
 saṃpradāya samanvayamuttamaṃ guhyametadidaṃ kathitaṃ mayā ||
 śaṃkareṇa purā kathitaṃ guroḥ śaṃkaraḥ khalu sarvahite rataḥ || 29 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ caturthe yajñavaibha-
-catustriṃśo'dhyāyaḥ || 34 ||
 yajjñānena dvijaśreṣṭho gururbhavati suvratāḥ || 1 ||
 yaḥ śivaḥ sarvabhūtānāmīśvaraḥ svata eva tu ||
 īśānaḥ sarvavidyānāṃ sa evā''digururbudhāḥ || 2 ||
@@ -3022,8 +2955,6 @@ bhraṣṭaśca satyaṃ paribhāṣitaṃ mayā || 28 ||
 sakaladuritarāśi saṃtyamuktaṃ viśanti ||
 paramapadasamākhyaṃ brahmarūpaṃ na yānti
 sphuraṇasukhamanantaṃ saṃtatijñānahīnāḥ ||29||
-paraṃparāvicāro nāma pañcatriṃśo'dhyāyaḥ || 35 ||
-paraṃparā vicārī nāma pañcatriṃśo'dhyāyaḥ || 35 ||
 athātaḥ saṃpravakṣyāmi sadyomuktikaraṃ param ||
 āmnāyāntaikasaṃsiddhaṃ sukaraṃ sarvadehinām || 1 ||
 purā bhagavatī devī bhogamokṣaphalapradā ||
@@ -3113,8 +3044,6 @@ mayoktaṃ paramaprītyā yuṣmākaṃ brahmavādinām || 47 ||
 bhavanto'pi parityajya samastaṃ parayā mudā ||
 sadyomuktikaraṃ sthānaṃ bhajadhvamidamuttamam || 48 ||
 etadanyanmanuṣyāṇāṃ kālakṣepasya kāraṇam || 49 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ caturthe yajñavaibhava-
-ṣaṭ triṃśo'dhyāyaḥ || 36 ||
 muktyupāyamayatnena mayā notamitaḥ purā || 1 ||
 purā jaiminiratyanta śradvayā saha suvratāḥ ||
 svaguruṃ vedavedāntaviśāradamanuttamam || 2 ||
@@ -3170,7 +3099,6 @@ atra dattaṃ mahādānaṃ bhavetsthāne mama priye ||
 hutamiṣṭaṃ tapaścālpamapyatra sumahadbhavet || 28 ||
 muktisiddhirayatnena bhavatyeva na saṃśayaḥ ||
 aśakyaṃ kartumatyarthaṃ tasmāduktaṃ samācaret || 31 ||
-saptatriṃśo'dhyāyaḥ || 37 ||
 athātaḥ saṃpravakṣyāmi sarvasādhanamuttamam ||
 śṛṇutātipriyeṇaiva dvijāḥ sāratarottamam || 1 ||
 purā satyavatīsūnuḥ sarvavijñānasāgaraḥ ||
@@ -3370,8 +3298,6 @@ sarvamuktaṃ samāsena sādhanaṃ munisattama ||
 gopanīyamidaṃ tasmādāstikasya sadā'dbhutam ||106 ||
 pranṛtya saṃnidhau tasya tatraivāntarhito'bhavat || 107 ||
 moha eva hi samastamito'nyathā || 108 ||
-muktisādhanavicāro nāmāṣṭātriṃśo'dhyāyaḥ || 38 ||
-sādhanavicāro nāmāṣṭātriṃśo'dhyāyaḥ || 38 ||
 avirodhaṃ tu vedānāmaśeṣāṇāṃ munīśvarāḥ || 1 ||
 dvividho vedarāśistu munayaḥ saṃśitavratāḥ ||
 satyādvaitaparaḥ kaśvidvedabhāgaḥ samāsataḥ || 2 ||
@@ -3556,7 +3482,6 @@ aho mohasya māhātmyaṃ sarvavedārthavarjitāḥ ||
 paribhramanti vedārthādanyatraiva viceṣṭitāḥ || 93 ||
 vedānaśepānavadhārya maryo maduktavedāntavicāramārgam ||
 upaiti puṇyena ca śaṃbhubhaktyā śivaprasādena na cetareṇa ||94||
-iti śrī skandapurāṇe sūtasaṃhitāyāṃ caturthe yajñavaibhava khaṇḍe vedā-
 mayā noktamitaḥ pūrvamatiguhyamanuttamam || 1 ||
 kāyikaṃ vācikaṃ caiva mānasaṃ ca tathaiva ca ||
 trividhaṃ karma kartavyaṃ sarvasiddhyarthamāstikaiḥ || 2 ||
@@ -3599,7 +3524,6 @@ tathaivaibhiḥ samā dharmā na vidyante śrutā smṛtau || 23 ||
 śivasthānasamaṃ sthānaṃ yathā loke na vidyate ||
 tathaivaibhiḥ samā dharmā na vidyante śrutau smṛtau || 24 ||
 kevalaṃ kṛpayaiva mayoditam || 25 ||
-catvāriṃśo'dhyāyaḥ || 40 ||
 śṛṇuta śraddhayā sārdhaṃ parihārāya suvratāḥ || 1 ||
 tāratamyakrameṇaiva teṣāmastyeva lāghavam || 2 ||
 prathamaṃ pātakaṃ proktaṃ mahāpātakasaṃjñitam ||
@@ -4053,7 +3977,6 @@ nirmame sarvajantūnāṃ kevalaṃ karuṇāvalāt || 106 ||
 anekakoṭibhiḥ kalpairarjitaiḥ puṇyarāśibhiḥ || .
 sthānametanmanuṣyāṇāṃ sidhyatyatyantaśobhanam ||107||
 sevanīyamakhilaistu jantubhiḥ || 108 ||
-iti śrīskandapurāṇe sūtasaṃhitāyāṃ caturthe yajñavaibhava khaṇḍe
 śraddhayā saha viprendrāḥ śṛṇutā''tmaviśuddhaye || 1 ||
 ātmānātmeti viprendrā dvidhā dravyaṃ vyavasthitam ||
 sattāmātre na doṣo'sti svataḥ śuddhaṃ yataḥ sadā ||
@@ -4413,7 +4336,6 @@ prakāśate hi vidyābhiḥ saṃvṛtā karuṇāvalāt || 64 ||
 sarvavidyālayā devī yatrātīva prakāśate ||
 khalu tatra parā muktirataḥ śreṣṭhamidaṃ puram || 65 ||
 śivaprasādena hi tatra mucyate || 66 ||
-mṛtyusūcakavivaraṇaṃ nāma paṭcatvāriṃśo'dhyāyaḥ || 46 ||
 bhogāvaśiṣṭapāpānāṃ lakṣaṇaṃ munisattamāḥ || 1 ||
 parivādarataḥ paṅgaranthaśva vadhirastathā ||
 anukīrtanakṛnmayaḥ kharasvāmī bhavetsadā || 3 ||

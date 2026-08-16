@@ -134,7 +134,6 @@ krodhā tu janayāmāsa piśācāṃśca mahābalān // 1,6.62 //
 gāstu vai janayāmāsa surabhirmahiṣāṃstathā /
 irā vṛkṣalatāballīstṛṇajātīśca sarvaśaḥ // 1,6.63 //
 sūryādi parivāreṇa manvādyā ījire harim // 1,6.73 //
-iti śrīgāruḍe mahāpurāṇe pūrvakhaṇḍe prathamāṃśākhye ācārakāṇḍe uttānapādavaṃśādivarṇanaṃ nāma ṣaṣṭho 'dhyāyaḥ
 śrīgaruḍamahāpurāṇam- 7
 śrīgaruḍamahāpurāṇam- 8
 śrīgaruḍamahāpurāṇam- 9
@@ -232,7 +231,6 @@ indradyumnaśca tatputraḥ parameṣṭhī tataḥ smṛtaḥ /
 pratīhāraścatatputraḥ pratihartā tadātmajaḥ // 1,54.15 //
 tato dhīmānmahātejā bhauvanastasya cātmajaḥ // 1,54.17 //
 tvaṣṭā tvaṣṭuśca virajā rajastasyāpyabhūtsutaḥ /
-iti śrāgāruḍe mahāpurāṇe pūrvakhaṇḍe prathamāṃśākhye ācārakāṇḍe bhuvanakośavarṇanopayogipriyavratavaṃśanirūpaṇaṃ nāma catuḥ pañcaśattamo 'dhyāyaḥ
 śrīgaruḍamahāpurāṇam- 55
 himācalālayā mlecchā udīcīṃ diśamāśritāḥ // 1,55.19 //
 trigartanīlakolāta (bha) brahmaputrāḥ saṭaṅkaṇāḥ /
@@ -394,7 +392,6 @@ devavānu padevaśca devaśreṣṭho vidūrathaḥ // 1,87.49 //
 mitravāhaḥ pravāhaśca dakṣaputramanoḥ sutāḥ // 1,87.50 //
 tapodhṛtirdyutiścānyaḥ saptamaśca tapodhanāḥ // 1,87.51 //
 dhanurvedaśca gāndharvo vidyā hyaṣṭādaśaiva tāḥ // 1,87.64 //
-iti śrāgāruḍe mahāpurāṇe pūrvakhaṇḍe prathamāṃśākhye ācārakāṇḍe manutadvaṃśanirūpaṇaṃ nāma spatāśītitamo 'dhyāyaḥ
 śrīgaruḍamahāpurāṇam- 88
 sūta uvāca /
 pitara ūcuḥ /
@@ -576,7 +573,6 @@ pracetāśca vasiṣṭhaśca bhṛgurnārada eva ca // 1,135.5 //
 śrīgaruḍamahāpurāṇam- 136
 śrīgaruḍamahāpurāṇam- 137
 śrīgaruḍamahāpurāṇam- 138
-(iti vratāni samāptāni) /
 rājñāṃ vaṃśānpravakṣyāmi vaṃśānucaritāni ca /
 viṣṇunābhyabjato brahmā dakṣo 'ṅguṣṭhācca tasya vai // 1,138.1 //
 tato 'pitarvivasvāṃśca tataḥ sūnurvivasvataḥ manurikṣvākuśaryātī nṛgo dhṛṣṭaḥ praṣadhrakaḥ // 1,138.2 //
@@ -631,7 +627,6 @@ suvarcasaḥ supārśvastu suśrutaśca supārśvataḥ // 1,138.57 //
 vijayasya ṛtaḥ putraḥ ṛtasya sunayaḥ sutaḥ // 1,138.58 //
 sunayādvītahavyastu vītahavyāddhatiḥ smṛtaḥ /
 bahulāśvo dhṛteḥ putro bahulāśvātkṛtiḥ smṛtaḥ // 1,138.59 //
-iti śrīgāruḍe mahāpurāṇe pūrvakhaṇḍe prathamāṃśākhye ācārakāṇḍe sūryavaṃśavarṇanaṃ nāmāṣṭatriṃśaduttaraśatatamo 'dhyāyaḥ
 śrīgaruḍamahāpurāṇam- 139
 sūryasya kathito vaṃśaḥ somavaṃśaṃ śṛṇuṣva me /
 nārāyaṇasuto brahmā brahmaṇo 'treḥ samudbhavaḥ // 1,139.1 //
@@ -700,7 +695,6 @@ andhaḥ paiṇḍraśca bāleyā hyanapānastathāṅgataḥ // 1,139.72 //
 pṛthulākṣastasya putraścampo 'bhūtpṛthulākṣataḥ /
 dhṛterdhṛvrataḥ putraḥ satyadharmā dhṛtavratāt // 1,139.76 //
 vṛrṣasenastu karṇasya puruvaṃśyāñchaṇuṣva me // 1,139.78 //
-iti śrīgāruḍe mahupārāṇe pūrvakhaṇḍe prathamāṃśākhye ācārakāṇḍe candravaṃśavarṇanaṃ nāmaikonacatvāriṃśaduttaraśatatamo 'dhyāyaḥ
 śrīgaruḍamahāpurāṇam- 140
 tasya putraścābhayadaḥ sudyuścābhayadādabhūt // 1,140.1 //
 vatsajātiśca sañjāteḥ raudrāśvaśca tadātmajaḥ // 1,140.2 //
@@ -741,13 +735,11 @@ vyāsa utpādayāmāsa gāndhāgī dhṛtarāṣṭrataḥ /
 śataputraṃ duryodhanādyaṃ pāṇḍoḥ pañca prajajñire // 1,140.37 //
 pratibindhyaḥ śrutasomaḥ śrutakīrtistathārjunāt /
 janamejayo 'sya tato bhaviṣyāṃśca nṛpāñchṛṇu // 1,140.41 //
-iti śrīgāruḍe mahāpurāṇe pūrvakhaṇḍe prathamāṃśākhye ācārakāṇḍe candravaṃśavarṇanaṃ nāma catvāriṃśaduttaraśatatamo 'dhyāyaḥ
 śrīgaruḍamahāpurāṇam- 141
 kṣemakaśca tataḥ śūdraḥ pitā pūrvastataḥ sutaḥ // 1,141.4 //
 bṛhadbalāstu kathayante nṛpoścaikṣvākuvaṃśajāḥ /
 bṛhadbalādurukṣayo vatsavyūhastataḥ paraḥ // 1,141.5 //
 dharmaṃ kuryātsthiraṃ yena pāpaṃ hitvā hariṃ vrajet // 1,141.16 //
-iti śrīgāruḍe mahāpurāṇe pūrvakhaṇḍe prathamāṃśākhye ācārakāṇḍe bhaviṣya rājavaṃśa dṛ nāmaikacatvāriṃśaduttaraśatatamo 'dhyāyaḥ
 śrīgaruḍamahāpurāṇam- 142
 tato rāmo bhaviṣṇuśca caturdhā duṣṭarmadanaḥ /
 putro daśarathājjajñe rāmaśca bharato 'nujaḥ // 1,142.10 //
@@ -774,7 +766,6 @@ bāṇabāhusahasrañca cchinnaṃ bāhudvayaṃ hyabhūt // 1,144.9 //
 balaśca śisupālaśca hataśca dvividaḥ kapiḥ // 1,144.10 //
 sandīpaniṃ guruñcakre saputrañca cakāra saḥ /
 mathurāyāṃ cograsenaṃ pālanaṃ ca divaukasām // 1,144.11 //
-iti śrīgāruḍe mahāpurāṇe pūrvakhaṇḍe prathamāṃśākhye ācārakāṇḍe harivaṃśavarṇanaṃ nāma catuścātvāriṃśaduttaraśatatamo 'dhyāyaḥ
 śrīgaruḍamahāpurāṇam- 145
 somastato budhastasmādilāyāṃ ca purūravāḥ // 1,145.2 //
 tasyāyustatra vaṃśe 'bhūdyayātirbharataḥ kuruḥ /

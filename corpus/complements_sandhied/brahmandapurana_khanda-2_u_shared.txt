@@ -209,7 +209,6 @@ tāstadā pratijagrāha patnyarthaṃ kaśyapaḥ sutāḥ
 dharmaḥ somaśca bhagavāṃstathā cānye maharṣayaḥ
 imāṃ visṛṣṭiṃ dakṣasya kṛtsnāṃ yo veda tattvataḥ
 āyuṣmānkīrttimāndhanyaḥ prajāvāśca bhavatyuta
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte madhyabhāge tṛtīya upoddhātapāde prajāpativaṃśānukīrttanaṃ nāma dvitīyo 'dhyāyaḥ
 devānāṃ dānavānāṃ ca daityānāṃ caiva sarvaśaḥ
 arundhatīvasurjāmālaṃbā bhānurmarutvatī
 saṃkalpā ca muhūrttā ca sādhyā viśvā tathaiva ca
@@ -1123,7 +1122,6 @@ paśūnāṃ brāhmaṇānāṃ ca śrīmatāṃ puṇyalakṣaṇaḥ
 āyuṣyaścaiva dhanyaśca śrīmān hitasukhāvahaḥ
 śrotavyaścaiva satataṃ grāhyaścaivānasūyataḥ
 imaṃ tu vaṃśaṃ niyamena yaḥ paṭhenmahātmanāṃ brāhmaṇavandyasaṃsadi
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte madhyabhāge tṛtīya upoddhātapāde kāśyapeyavarṇanaṃ nāma saptamo 'dhyāyaḥ
 evaṃ prajāsu sṛṣṭāsu kaśyapena mahātmanā
 pratiṣṭhitāsu sarvāsu carāsu sthāvarāsu ca
 abhiṣicyādhipatyeṣu teṣāṃ mukhyānprajāpatiḥ
@@ -2158,7 +2156,6 @@ devabhaktā mahātmānaḥ punīyurdarśanādapi
 satyāsatyaṃ ca yaddṛṣṭaṃ sada sacca mahātmabhiḥ
 sarvajñānāni sṛṣṭāni mokṣādīnimahātmabhiḥ
 tasmātteṣāṃ sadā bhaktaḥ phalaṃ prāpnoti vottamam
-iti śrī brahmāṇḍe mahāpurāṇe vāyuprokte madhyabhāge tṛtīya upoddhātapāde śrāddhakalpe brāhmaṇaparīkṣā nāma pañcadaśo 'dhyāyaḥ
 ataḥ paraṃ pravakṣyāmi dānāni ca phalāni ca
 tāraṇaṃ sarvabhūtānāṃ svargamārgasukhāvaham
 sarvaṃ pitṝṇāṃ dātavyaṃ teṣāmevājñayārthinā
@@ -2219,7 +2216,6 @@ devāstaṃ saṃpratīcchanti divyātithyaiḥ sahasraśaḥ
 sarvāṇyetāni yo dadyātpṛthivyāmekarāḍbhavet
 dānāni paramo dharmaḥ sadbhiḥ satkṛtya pūjitaḥ
 kṣīṇāyurlabhate cāyuḥ pitṛbhaktaḥ sadā naraḥ
-śrāddhakalpe dānapraśaṃsā nāma ṣoḍaśo 'dhyāyaḥ
 ata ūrddhvaṃ pravakṣyāmi śrāddhakarmaṇi pūjitam
 kāmyaṃ naimittikājasraṃ śrāddhakarmaṇi nityaśaḥ
 putradāranimittāḥ syuraṣṭakāstisna eva tu
@@ -2396,7 +2392,6 @@ tatraiva dattamannāgraṃ pitṝṇāmakṣayarthinām
 lokānāṃ ca hitārthāya brahmaṇā parameṣṭhinā
 evaṃ bṛhaspatiḥ pūrvaṃ pṛṣṭaḥ putreṇa dhīmatā
 provāca pitṛsargaṃ tu yaścaiva samudāhṛta
-śrāddhakalpo nāma viṃśatitamo 'dhyāyaḥ
 rāmo 'pi nṛpaśārdūla sarvadharmabhṛtāṃ varaḥ
 vedavedāṅgatattvajñaḥ sarvaśāstraviśāradaḥ
 uvāca prāñjalirbhūtavā sapraśrayamidaṃ vacaḥ
@@ -2496,7 +2491,6 @@ kulaṃ samūlaṃ dahati brahmasvāraṇipāvakaḥ
 ākṣipya mantrī rājānamidaṃ bhūyo hyabhāṣata
 gatvā tvameva taṃ vipraṃ prasādya ca viśeṣataḥ
 praṇamya muniśārdūlamidaṃ vacanamabravīt
-upoddhātapāde 'ṣṭāviṃśatitamo 'dhyāyaḥ
 brahmasvaṃ nāpaharttavyaṃ puruṣeṇa vijānatā
 dānaṃ vināpaharaṇaṃ brāhmaṇānāṃ tapasvinām
 nipapāta mahātejā dharaṇyāṃ gatacetanaḥ
@@ -2635,7 +2629,6 @@ tasya sarvāṇi kāryāṇi siddhyantyeva na saṃśayaḥ
 ityuktaṃ tu samākarṇya kṛṣṇena sumahātmanā
 tadā rādhābravīddevīṃ śivarūpā sanātanī
 prakṛtiḥ puruṣaścobhāvanyonyāśrayavigrahau
-upoddhātapāde bhārgavacarite dvicatvāriṃśattamo 'dhyāyaḥ
 tuṣṭāva prayato bhūtvā nirviśeṣa viśeṣavat
 athovāca prasannātmā kṛṣṇaḥ kamalalocanaḥ
 atha svagṛhamāsādya pitroḥ śuśrūṣaṇaṃ kuru
@@ -2648,7 +2641,6 @@ tallabdhvā taṃ namaskṛtya puṣkaraṃ samupāgataḥ
 tataḥ praṇamya deveśau pārvatīparameśvarau
 jamadagniruvācedaṃ rāmaṃ śatrunibarhaṇam
 ityuktaḥ praṇipatyainaṃ mātaraṃ ca bhṛgūdvahaḥ
-sagaropākhyāne bhārgavacarite catuścatvāriṃśattamo 'dhyāyaḥ
 jagmustṛṣārttā madhyāhne saritaṃ narmadāmanu
 tatra snātvā ca pītvā ca vāri nadyā gataśramāḥ
 vasatyasminsuto yasya rāmaḥ śastrabhṛtāṃ varaḥ
@@ -2940,7 +2932,6 @@ umāvanaṃ praviṣṭastu sa rājā mṛgayāṃ gataḥ
 piśācaiḥ saha bhūtaistu rudre strībhāvamāsthite
 tasmātsarājā sudyumnaḥ strībhāvaṃ labdhavānpunaḥ
 mahādevaprasādācca mānavatvamavāptavān
-iti śrībrahmāṇḍe mahāpurāṇe madhyamabhāge vāyuprokte vaivasvatamanoḥ sṛṣṭirnāma ṣaṣṭitamo 'dhyāyaḥ
 visargaṃ manuputrāṇāṃ vistareṇa nibodhata
 pṛṣadhro hiṃsayitvā tu gurorgāṃ niśi tatkṣaye
 śāpācchūdratvamāpannaścyavanasya mahātmanaḥ
@@ -5193,5 +5184,4 @@ kīrttitāśca vyatītā ye ye lokāndhārayantyuta
 dhāraṇācchravaṇāccaiva pañcavaṃśasya dhīmataḥ
 ityeṣa vo mayā pādastṛtīyaḥ kathito dvijāḥ
 vistareṇānupūrvyā ca kiṃ bhūyo varṇayāmyaham
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte madhyamabhāge tṛtīya upoddhātapāde vaṃśānuvarṇanaṃ nāma catuḥsaptatitamo 'dhyāyaḥ
 samāptaścāyaṃ tṛtīyaḥ pādaḥ

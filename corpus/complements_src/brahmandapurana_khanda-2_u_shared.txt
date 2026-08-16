@@ -209,7 +209,6 @@ tāstadā pratijagrāha patnyarthaṃ kaśyapaḥ sutāḥ /
 dharmaḥ somaśca bhagavāṃstathā cānye maharṣayaḥ // 2,2.31 //
 imāṃ visṛṣṭiṃ dakṣasya kṛtsnāṃ yo veda tattvataḥ /
 āyuṣmānkīrttimāndhanyaḥ prajāvāśca bhavatyuta // 2,2.32 //
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte madhyabhāge tṛtīya upoddhātapāde prajāpativaṃśānukīrttanaṃ nāma dvitīyo 'dhyāyaḥ
 devānāṃ dānavānāṃ ca daityānāṃ caiva sarvaśaḥ /
 arundhatīvasurjāmālaṃbā bhānurmarutvatī // 2,3.2 //
 saṃkalpā ca muhūrttā ca sādhyā viśvā tathaiva ca /
@@ -1123,7 +1122,6 @@ paśūnāṃ brāhmaṇānāṃ ca śrīmatāṃ puṇyalakṣaṇaḥ /
 āyuṣyaścaiva dhanyaśca śrīmān hitasukhāvahaḥ /
 śrotavyaścaiva satataṃ grāhyaścaivānasūyataḥ // 2,7.478 //
 imaṃ tu vaṃśaṃ niyamena yaḥ paṭhenmahātmanāṃ brāhmaṇavandyasaṃsadi /
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte madhyabhāge tṛtīya upoddhātapāde kāśyapeyavarṇanaṃ nāma saptamo 'dhyāyaḥ
 evaṃ prajāsu sṛṣṭāsu kaśyapena mahātmanā /
 pratiṣṭhitāsu sarvāsu carāsu sthāvarāsu ca // 2,8.1 //
 abhiṣicyādhipatyeṣu teṣāṃ mukhyānprajāpatiḥ /
@@ -2158,7 +2156,6 @@ devabhaktā mahātmānaḥ punīyurdarśanādapi // 2,15.63 //
 satyāsatyaṃ ca yaddṛṣṭaṃ sada sacca mahātmabhiḥ /
 sarvajñānāni sṛṣṭāni mokṣādīnimahātmabhiḥ // 2,15.66 //
 tasmātteṣāṃ sadā bhaktaḥ phalaṃ prāpnoti vottamam // 2,15.67 //
-iti śrī brahmāṇḍe mahāpurāṇe vāyuprokte madhyabhāge tṛtīya upoddhātapāde śrāddhakalpe brāhmaṇaparīkṣā nāma pañcadaśo 'dhyāyaḥ // 15//
 ataḥ paraṃ pravakṣyāmi dānāni ca phalāni ca /
 tāraṇaṃ sarvabhūtānāṃ svargamārgasukhāvaham // 2,16.1 //
 sarvaṃ pitṝṇāṃ dātavyaṃ teṣāmevājñayārthinā // 2,16.2 //
@@ -2219,7 +2216,6 @@ devāstaṃ saṃpratīcchanti divyātithyaiḥ sahasraśaḥ /
 sarvāṇyetāni yo dadyātpṛthivyāmekarāḍbhavet // 2,16.57 //
 dānāni paramo dharmaḥ sadbhiḥ satkṛtya pūjitaḥ // 2,16.58 //
 kṣīṇāyurlabhate cāyuḥ pitṛbhaktaḥ sadā naraḥ // 2,16.59 //
-śrāddhakalpe dānapraśaṃsā nāma ṣoḍaśo 'dhyāyaḥ // 16//
 ata ūrddhvaṃ pravakṣyāmi śrāddhakarmaṇi pūjitam /
 kāmyaṃ naimittikājasraṃ śrāddhakarmaṇi nityaśaḥ // 2,17.1 //
 putradāranimittāḥ syuraṣṭakāstisna eva tu /
@@ -2396,7 +2392,6 @@ tatraiva dattamannāgraṃ pitṝṇāmakṣayarthinām /
 lokānāṃ ca hitārthāya brahmaṇā parameṣṭhinā // 2,20.22 //
 evaṃ bṛhaspatiḥ pūrvaṃ pṛṣṭaḥ putreṇa dhīmatā /
 provāca pitṛsargaṃ tu yaścaiva samudāhṛta // 2,20.23 //
-śrāddhakalpo nāma viṃśatitamo 'dhyāyaḥ // 20//
 rāmo 'pi nṛpaśārdūla sarvadharmabhṛtāṃ varaḥ /
 vedavedāṅgatattvajñaḥ sarvaśāstraviśāradaḥ // 2,21.2 //
 uvāca prāñjalirbhūtavā sapraśrayamidaṃ vacaḥ // 2,21.6 //
@@ -2496,7 +2491,6 @@ kulaṃ samūlaṃ dahati brahmasvāraṇipāvakaḥ // 2,28.41 //
 ākṣipya mantrī rājānamidaṃ bhūyo hyabhāṣata // 2,28.51 //
 gatvā tvameva taṃ vipraṃ prasādya ca viśeṣataḥ /
 praṇamya muniśārdūlamidaṃ vacanamabravīt // 2,28.65 //
-upoddhātapāde 'ṣṭāviṃśatitamo 'dhyāyaḥ // 28//
 brahmasvaṃ nāpaharttavyaṃ puruṣeṇa vijānatā // 2,29.1 //
 dānaṃ vināpaharaṇaṃ brāhmaṇānāṃ tapasvinām /
 nipapāta mahātejā dharaṇyāṃ gatacetanaḥ // 2,29.14 //
@@ -2635,7 +2629,6 @@ tasya sarvāṇi kāryāṇi siddhyantyeva na saṃśayaḥ // 2,42.44 //
 ityuktaṃ tu samākarṇya kṛṣṇena sumahātmanā /
 tadā rādhābravīddevīṃ śivarūpā sanātanī // 2,42.46 //
 prakṛtiḥ puruṣaścobhāvanyonyāśrayavigrahau /
-upoddhātapāde bhārgavacarite dvicatvāriṃśattamo 'dhyāyaḥ // 42//
 tuṣṭāva prayato bhūtvā nirviśeṣa viśeṣavat /
 athovāca prasannātmā kṛṣṇaḥ kamalalocanaḥ /
 atha svagṛhamāsādya pitroḥ śuśrūṣaṇaṃ kuru /
@@ -2648,7 +2641,6 @@ tallabdhvā taṃ namaskṛtya puṣkaraṃ samupāgataḥ /
 tataḥ praṇamya deveśau pārvatīparameśvarau /
 jamadagniruvācedaṃ rāmaṃ śatrunibarhaṇam // 2,44.31 //
 ityuktaḥ praṇipatyainaṃ mātaraṃ ca bhṛgūdvahaḥ /
-sagaropākhyāne bhārgavacarite catuścatvāriṃśattamo 'dhyāyaḥ // 44//
 jagmustṛṣārttā madhyāhne saritaṃ narmadāmanu // 2,45.2 //
 tatra snātvā ca pītvā ca vāri nadyā gataśramāḥ /
 vasatyasminsuto yasya rāmaḥ śastrabhṛtāṃ varaḥ // 2,45.5 //
@@ -2940,7 +2932,6 @@ umāvanaṃ praviṣṭastu sa rājā mṛgayāṃ gataḥ // 2,60.27 //
 piśācaiḥ saha bhūtaistu rudre strībhāvamāsthite /
 tasmātsarājā sudyumnaḥ strībhāvaṃ labdhavānpunaḥ /
 mahādevaprasādācca mānavatvamavāptavān // 2,60.28 //
-iti śrībrahmāṇḍe mahāpurāṇe madhyamabhāge vāyuprokte vaivasvatamanoḥ sṛṣṭirnāma ṣaṣṭitamo 'dhyāyaḥ // 60//
 visargaṃ manuputrāṇāṃ vistareṇa nibodhata /
 pṛṣadhro hiṃsayitvā tu gurorgāṃ niśi tatkṣaye // 2,61.1 //
 śāpācchūdratvamāpannaścyavanasya mahātmanaḥ /
@@ -5193,5 +5184,4 @@ kīrttitāśca vyatītā ye ye lokāndhārayantyuta /
 dhāraṇācchravaṇāccaiva pañcavaṃśasya dhīmataḥ // 2,74.277 //
 ityeṣa vo mayā pādastṛtīyaḥ kathito dvijāḥ /
 vistareṇānupūrvyā ca kiṃ bhūyo varṇayāmyaham // 2,74.278 //
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte madhyamabhāge tṛtīya upoddhātapāde vaṃśānuvarṇanaṃ nāma catuḥsaptatitamo 'dhyāyaḥ // 74//
 samāptaścāyaṃ tṛtīyaḥ pādaḥ

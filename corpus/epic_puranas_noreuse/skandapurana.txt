@@ -1,4 +1,3 @@
-prathamo .adhyāyaḥ|
 namaḥ paramadevāya traiguṇyāvijitātmane|
 sarvato yogarūpāya saṃsārābhāvahetave|| 1.1||
 sthitisaṃrodhasargāṇāṃ hetave .antaḥprasāriṇe|
@@ -49,9 +48,7 @@ bhūtasaṃmohanaṃ hyetat kathayasva yathātatham|| 1.26||
 sūta uvāca|
 evaṃ sa pṛṣṭastejasvī brahmaṇaḥ putrasattamaḥ|
 uvāca sarvaṃ sarvajño vyāsāyākliṣṭakāriṇe|
-iti skandapurāṇe prathamo .adhyāyaḥ|| 1.1||
 
-dvitīyo .adhyāyaḥ
 sanatkumāra uvāca|
 śaktirapratighā yasya aiśvaryaṃ caiva sarvaśaḥ|
 svāmitvaṃ ca vibhutvaṃ ca svakṛtāni pracakṣate|| 2.2||
@@ -106,7 +103,6 @@ mahābhāgyaṃ brāhmaṇānāṃ vistareṇa prakīrtyate|| 2.28||
 etajjñātvā yathāvaddhi kumārānucaro bhavet|
 balavān matisampannaḥ putraṃ cāpnoti saṃmatam|| 2.29||
 
-tṛtīyo .adhyāyaḥ|
 sanatkumāra uvāca|
 na nāstikāśraddadhāne śaṭhe cāpi kathaṃcana|
 imāṃ kathām anubrūyāt tathā cāsūyake nare|| 3.2||
@@ -162,7 +158,6 @@ yaḥ kṛtvā bahuvidhamārgayogayuktaṃ tattvākhyaṃ jagadidam ādarādyuyo
 sarveṣāṃ manasi sadāvatiṣṭhamāno jānānaḥ śubham aśubhaṃ ca bhūtanāthaḥ|
 taṃ devaṃ pramathapatiṃ praṇamya bhaktyā nityaṃ vai śaraṇam upaimi sūkṣmasūkṣmam|| 3.30||
 
-caturtho .adhyāyaḥ|
 sanatkumāra uvāca|
 prajāstāḥ sṛjyamānāśca na vivardhanti tasya ha|| 4.1||
 sa kurvāṇastathā sṛṣṭiṃ śaktihīnaḥ pitāmahaḥ|
@@ -235,9 +230,7 @@ tat pūjitaṃ devamanuṣyasiddhai rakṣobhirugrairuragaiśca divyaiḥ|
 yakṣaiḥ sagandharvapiśācasaṃghaiḥ sarvāpsarobhiśca diteḥ sutaiśca|| 4.40||
 vipraiśca dāntaiḥ śamayogayuktaistīrthaiśca sarvairapi cāvanīdhraiḥ|
 gandharvavidyādharacāraṇaiśca sādhyaiśca viśvaiḥ pitṛbhiḥ stutaṃ ca|| 4.41||
-iti skandapurāṇe caturtho .adhyāyaḥ|| 4.4||
 
-pañcamo .adhyāyaḥ|
 sanatkumāra uvāca|
 tannaimiśaṃ samāsādya ṛṣayo dīptatejasaḥ|
 divyaṃ sattraṃ samāsanta mahadvarṣasahasrikam|| 5.1||
@@ -371,7 +364,6 @@ nāputraśiṣyayogibhya idam ākhyānam aiśvaram|
 idaṃ mahaddivyam adharmaśāsanaṃ paṭhet sadā brāhmaṇavaidyasaṃsadi|
 kṛtāvakāśo bhavatīha mānavaḥ śarīrabhede praviśet pitāmaham|| 5.69||
 
-ṣaṣṭho .adhyāyaḥ|
 sanatkumāra uvāca|
 ājñayā parameśasya jagrāha brahmaṇaḥ śiraḥ|| 6.1||
 tadgṛhītvā śiro dīptaṃ rūpaṃ vikṛtam āsthitaḥ|
@@ -401,7 +393,6 @@ vāyuruvāca|
 taṃ tadāśvāsya nikṣipya naraṃ viṣṇoḥ svayaṃ prabhuḥ|
 agamadbrahmasadanaṃ tau cāviviśaturgṛham|| 6.13||
 
-saptamo .adhyāyaḥ|
 vāyuruvāca|
 brahmalokaṃ samāsādya bhagavān sarvalokapaḥ|
 bhaikṣyaṃ bhaikṣyam iti procya dvāre samavatiṣṭhata|| 7.1||
@@ -479,10 +470,7 @@ idaṃ śubhaṃ divyam adharmanāśanaṃ mahāphalaṃ sendrasurāsurārcitam|
 mahākapālaṃ prakṛtopadarśanaṃ sureśalokādivigāhane hitam|| 7.37||
 tapodhanaiḥ siddhagaṇaiśca saṃstutaṃ diviṣṭhatulyadvijarājamaṇḍale|
 paṭhennaro yaḥ śṛṇuyācca sarvadā tripiṣṭapaṃ gacchati so 'abhinanditaḥ|| 7.38||
-iti skandapurāṇe
-saptamo .adhyāyaḥ|| 7.7||
 
-aṣṭamo .adhyāyaḥ|
 vāyuruvāca|
 evam eṣā bhagavatī brahmalokānusāriṇī|
 yuṣmākaṃ dharmasiddhyarthaṃ vedīmadhyādvyavartata|| 8.1||
@@ -552,10 +540,7 @@ tapasā viniyogayoginaḥ praṇamanto bhavam indunirmalam|
 viyatīśvaradattacakṣuṣaḥ saha devairmunayo mudānvitāḥ|| 8.36||
 prasamīkṣya mahāsureśakālaṃ manasā cāpi vicārya durvisahyam|
 praṇamanti gatātmabhāvacintāḥ saha devairjagadudbhavaṃ stuvantaḥ|| 8.37||
-iti skandapurāṇe
-aṣṭamo .adhyāyaḥ|| 8.8||
 
-navamo .adhyāyaḥ|
 sanatkumāra uvāca|
 te dṛṣṭvā devadeveśaṃ sarve sabrahmakāḥ surāḥ|
 pitāmaha uvāca|
@@ -629,10 +614,7 @@ jayati jaladavāhaḥ sarvabhūtāntakālaḥ śamadamaniyatānāṃ kleśahart�
 jananamaraṇahartā ceṣṭatāṃ dhārmikāṇāṃ vividhakaraṇayuktaḥ khecaraḥ pādacārī|| 9.32||
 madanapuravidārī netradantāvapātī vigatabhayaviṣādaḥ sarvabhūtapracetāḥ|
 satatam abhidadhānaścekitānātmacittaḥ karacaraṇalalāmaḥ sarvadṛgdevadevaḥ|| 9.33||
-iti skandapurāṇe
-navamo .adhyāyaḥ|| 9.9||
 
-daśamo .adhyāyaḥ|
 sanatkumāra uvāca|
 sā devī tryambakaproktā tatāpa suciraṃ tapaḥ|
 nirāhārā kadācicca ekaparṇāśanā punaḥ|
@@ -712,10 +694,7 @@ govṛṣavāhamameyaguṇaughaṃ satatam ihenduvahaṃ praṇatāḥ smaḥ|| 
 ya imaṃ dakṣaśāpāṅkaṃ devyāścaivāśarīratām|
 śṛṇuyādvātha viprān vā śrāvayīta yatavrataḥ|
 sarvapāpavinirmukto rudralokam avāpnuyāt|| 10.40||
-iti skandapurāṇe
-daśamo 'adhyāyaḥ|| 10.10||
 
-ekādaśo .adhyāyaḥ|
 sanatkumāra uvāca|
 apṛcchaddhimavān praśnaṃ loke khyātikaraṃ nu kim|| 11.1||
 tathaiva cārcanīyatvaṃ satsu taṃ kathayasva me|| 11.2||
@@ -761,10 +740,7 @@ sa devadevaḥ parameśvareśvaraḥ svayaṃ tavāyāsyati lokapo 'antikam|
 udārarūpo vikṛtābhirūpavān samānarūpo na hi yasya kasyacit|| 11.41||
 maheśvaraḥ parvatalokavāsī carācareśaḥ prathamo 'aprameyaḥ|
 vinendunā indusamānavaktro vibhīṣaṇaṃ rūpam ihāsthito 'agram|| 11.42||
-iti skandapurāṇe
-ekādaśo .adhyāyaḥ|| 11.11||
 
-dvādaśamo .adhyāyaḥ|
 sanatkumāra uvāca|
 tataḥ sa bhagavān devo brahmā tām āha susvaram|
 devi yenaiva sṛṣṭāsi manasā yastvayā vṛtaḥ|
@@ -844,7 +820,6 @@ idaṃ paṭhedyo hi naraḥ sadaiva bālānubhāvācaraṇaṃ hi śambhoḥ|
 sa dehabhedaṃ samavāpya pūto bhavedgaṇastasya kumāratulyaḥ|| 12.63||
 EOF
 
-trayodaśo .adhyāyaḥ|
 sanatkumāra uvāca|
 atha parvatarājo 'asau himavān dhyānakovidaḥ|
 duhiturdevadevena jñātvā tadabhimantritam|| 13.2||
@@ -1002,9 +977,7 @@ jvalanaṃ ca svayaṃ kṛtvā kṛtāñjalim upasthitaṃ |
 yathoktavidhinā hutvā sarpistadamṛtaṃ ca hi|
 muktvā hastasamāyogaṃ sahitaḥ sarvadevataiḥ|
 yogenaiva tayorvyāsa tadomāparameśayoḥ|
-iti skandapurāṇe
 
-caturdaśamo .adhyāyaḥ|
 sanatkumāra uvāca|
 atha vṛtte vivāhe tu bhavasyāmitatejasaḥ|
 namo bhairavarūpāya virūpanayanāya ca|| 14.4||
@@ -1034,9 +1007,7 @@ so 'apratirūpagaṇeśasamāno dehaviparyayam etya sukhī syāt|| 14.29||
 sanatkumāra uvāca|
 pārāśarya stavaṃ hīdaṃ śṛṇuyādyaḥ paṭheta vā|
 sa svargalokago devaiḥ pūjyate 'amararāḍiva|| 14.30||
-iti skandapurāṇe caturdaśamo 'adhyāyaḥ|| 14.14||
 
-pañcadaśamo .adhyāyaḥ|
 sanatkumāra uvāca|
 sa bahirmanmathaḥ krūro devaṃ veddhumanābhavat|| 15.1||
 cakrāhvayasya rūpeṇa ratyā saha tam āgatam|| 15.3||
@@ -1088,7 +1059,6 @@ tasmāt te 'anugrahaṃ kartā bhūyaḥ putrastavāvyayaḥ|| 15.37||
 sanatkumāra uvāca|
 evam uktvā tato devaḥ kapardī nīlalohitaḥ|
 
-ṣoḍaśo .adhyāyaḥ|
 vyāsa uvāca|
 kaṃ putraṃ janayāmāsa ātmanaḥ sadṛśadyutim|| 16.1||
 sanatkumāra uvāca|
@@ -1122,7 +1092,6 @@ adṛśyantyāṃ mahāprajña ādadhe garbham uttamam|| 16.14||
 tasyām āpannasattvāyāṃ rājā kalmāṣapādṛṣim|
 bhakṣayāmāsa saṃrabdho rakṣasā hṛtacetanaḥ|| 16.15||
 
-saptadaśo .adhyāyaḥ|
 vyāsa uvāca|
 kasmāt sa rājā tam ṛṣiṃ cakhāda tapasānvitam|
 rakṣasā sa kim arthaṃ ca hṛtacetābhavannṛpaḥ|| 17.1||
@@ -1190,10 +1159,7 @@ tatastvāṃ bhakṣayiṣyāmi bhrātṛbhiḥ sahitaṃ dvija|| 17.26||
 bhakṣayitvā viśuddhyarthaṃ muktaśāpastataḥ param|
 cariṣyāmi tapaḥ śuddhaṃ saṃyamyendriyasaṃhatim|
 pitrā tavābhyanujñātaḥ svarge vatsye yathepsitam|| 17.27||
-iti skandapurāṇe
-saptadaśamo 'adhyāyaḥ|| 17.17||
 
-aṣṭādaśo .adhyāyaḥ|
 sanatkumāra uvāca|
 tataḥ sa rājā svaṃ rājyam utsṛjya saha bhāryayā|
 vanaṃ viveśa tatrābhūt puruṣādo mahābalaḥ|| 18.1||
@@ -1280,7 +1246,6 @@ sanatkumāra uvāca|
 parāśarasyedam adīnasambhavaṃ viśuddhavākkarmavidhānasambhavam|
 niśāmya vipraḥ kulasiddhisambhavaṃ na rākṣasaṃ gacchati yonisambhavam|| 18.41||
 
-ūnaviṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 evaṃ tava pitā vyāsa rakṣaḥsattraṃ samāharat|
 samāpayitvā ca punastapastepe ca bhāsvaram|| 19.1||
@@ -1382,7 +1347,6 @@ tataḥprabhṛti sarvaṃ vai jagat sthāvarajaṅgamam|
 sasukhaṃ prītiyuktaṃ ca mumude vigatajvaram|| 19.42||
 sanatkumāra uvāca|
 
-viṃśo .adhyāyaḥ|
 vyāsa uvāca|
 umāharau tu deveśau cakraturyacca saṃgatau|
 tanme sarvam aśeṣeṇa kathayasva mahāmune|| 20.1||
@@ -1467,10 +1431,7 @@ japataścāpi yuktasya rudrabhāvārpitasya ca|
 sanatkumāra uvāca|
 abhivādya ṛṣīn sarvān sa didṛkṣurudāradhīḥ|
 muniḥ sa devam agamat praṇatārtiharaṃ haram|| 20.69||
-iti skandapurāṇe
-viṃśatitamo .adhyāyaḥ|| 20.20||
 
-ekaviṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 nirgato 'atha tato nandī jagāma saritāṃ varām|
 sa jajāpa tadā rudrān mṛtyorbhītaḥ samāhitaḥ|| 21.2||
@@ -1550,7 +1511,6 @@ yatra tatra mṛto vyāsa na durgatim avāpnuyāt|| 21.57||
 yo 'adhītya nityaṃ stavam etam agryaṃ devaṃ sadābhyarcayate yatātmā|
 kiṃ tasya yajñairvividhaiśca dānaistīrthaiḥ sutaptaiśca tathā tapobhiḥ|| 21.58||
 
-dvāviṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 tatastu devadeveśo bhaktyā paramayā yutam|
 utthāpya nayane somaḥ aśrupūrṇe mamārja ha|| 22.2||
@@ -1584,7 +1544,6 @@ niyamenānyathā vāpi sa me gaṇapatirbhavet|| 22.32||
 mama pārśvādanapagaḥ priyaḥ saṃmata eva ca|| 22.33||
 japyeśvaraṃ pañcanadaṃ ca tadvai yo mānavo 'abhyetya jahāti deham|
 
-trayoviṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 bhagavān devadeveśaḥ sarvabhūtapatirharaḥ|
 devyuvāca|
@@ -1666,12 +1625,10 @@ vāditrairvividhaiścaiva paṭahairekapuṣkaraiḥ|| 23.66||
 maḍḍukairveṇuvīṇābhirvivṛṣaistuṇavairapi|| 23.67||
 darduraistālaghātaiśca kacchapaiḥ paṇavairapi|
 sahasranetrapratimātibhāsvarāḥ praṇemuruccairapi cābhineduḥ|| 23.69||
-iti skandapurāṇe
 puṣpakena vimānena tathā mattadvipena ca|| 23.70||
 channaṃ kṛtvā tathākāśaṃ kiṃnaroragacāraṇāḥ|
 nānāvimānam ārūḍhāḥ koṭiśastatra cāpare|}
 
-caturviṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 praṇamya devaṃ devīṃ ca idaṃ vacanam abruvan|| 24.1||
 bhagavan devatārighna devadevāmbikāpate|
@@ -1759,7 +1716,6 @@ yatrāyaṃ sthāpyate nityaṃ stavaḥ paramapūjitaḥ|
 na bhayaṃ tatra bhavati grahebhyo vyāsa sarvadā|| 24.64||
 nandīśvaraṃ ye praṇamanti martyā nityaṃ prasannendriyaśuddhasattvāḥ|
 
-pañcaviṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 tatastatrāgatān devān devatādhipatirbhavaḥ|
 marutaḥ prāha sampūjya kanyārthaṃ sadasatpatiḥ|| 25.1||
@@ -1863,9 +1819,7 @@ sṛṣṭvā nandīśvaragṛhaṃ pradāya ca mahāmanāḥ|
 ya imaṃ nandino janma varadānaṃ tathaiva ca|
 yo niyatastu paṭhet prayatātmā sarvam imaṃ praṇato bhavabhaktyā|
 so 'api gataḥ paralokavicārī nandisamo 'anucaro hi mama syāt|| 25.59||
-iti skandapurāṇe
 
-ṣaḍ{}viṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 evaṃ nandīśvaro vyāsa utpanno 'anucaraśca ha|
 abhavaddevadevasya senāpatye 'abhiṣecitaḥ|| 26.1||
@@ -1992,9 +1946,7 @@ etāvacchakyate vaktum anaupamyaguṇaṃ hi tat|| 26.66||
 tebhyaḥ śreṣṭhatamaṃ śrīmadudyānam asṛjat prabhuḥ|| 26.67||
 tasmin vimāne girirājaputrī sarvarddhiyukte vacasām agamye|
 reme navendīvaraphullanetrā devī na sasmāra vacaśca mātuḥ|| 26.68||
-iti skandapurāṇe
 
-saptaviṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 atha tasmin sukhāsīnau śailajāvṛṣabhadhvajau|
 āsane kāñcane divye nānāratnopaśobhite|| 27.1||
@@ -2081,7 +2033,6 @@ yo 'abhyarcayati māṃ nityaṃ sa mamātmasamo bhavet|| 27.45||
 yo 'apyasajjanarato viyonijaḥ pātakairapi samanvitaḥ sadā|
 so 'api madgatamanā madarpaṇo yāti devi gatim apratarkitām|| 27.47||
 
-aṣṭāviṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 tato vyāsa punardevī patiṃ vratapatiṃ śubhā|
 apṛcchadvratasambaddhaṃ phalaṃ phalaśatārcitā|| 28.1||
@@ -2228,7 +2179,6 @@ sanatkumāra uvāca|
 śrāvayedbhaktimān puṇyaṃ nāpetāya kadācana|| 28.72||
 śrotavyaṃ na ca sarveṇa tathā deyaṃ na kasyacit|| 28.73||
 
-ūnatriṃśo .adhyāyaḥ|
 vyāsa uvāca|
 jagataḥ pitarau devau cakratuḥ kim ataḥ param|| 29.1||
 sanatkumāra uvāca|
@@ -2329,7 +2279,6 @@ nātaḥ śubhataraṃ kiṃcinnātaḥ priyataraṃ mama|| 29.94||
 kṣetraṃ mamedaṃ surasiddhajuṣṭaṃ samprāpya martyaḥ sukṛtaprabhāvāt|
 khyāto bhavet sarvasurāsurāṇāṃ mṛtaśca yāyāt paramaṃ padaṃ tam|| 29.95||
 
-triṃśo .adhyāyaḥ|
 vyāsa uvāca|
 etadicchāmi kathitaṃ śrotuṃ brahmasuta tvayā|| 30.2||
 sanatkumāra uvāca|
@@ -2409,7 +2358,6 @@ etadeva paraṃ brahma etadeva paraṃ padam|| 30.73||
 vārāṇasīti bhuvanatrayasārabhūtā
 etat smṛtaṃ priyatamaṃ mama devi nityaṃ
 
-triṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 udyānāni tato devaḥ sthānāni ca tathātmanaḥ|
 ākhyāya himavatputryā vicacāra tadā punaḥ|| 30a.1||
@@ -2713,11 +2661,8 @@ tataḥ sa sahito devyā sanandī parameśvaraḥ|
 gaṇaiḥ sarvaiśca sahito gṛhān svān āviśat prabhuḥ|| 30a.144||
 bhaganayananipātī daityadarpāpahārī surakamalahimaughaḥ kāmayajñāgnihantā|
 jaladavṛṣabhayāyī sarvaduḥkhāntakārī samaravṛṣabhaketuścandramaulirjagāma|| 30a.145||
-iti skandapurāṇe vārāṇasyavalokane
 jaigīṣavyadhanadapañcadūḍānāṃ varapradānanāmā
-triṃśo .adhyāyaḥ||
 
-triṃśoo .adhyāyaḥ|
 vyāsa uvāca|
 etadicchāmi kathitaṃ śrotuṃ brahmasuta tvayā|| 30b.2||
 sanatkumāra uvāca|
@@ -2848,7 +2793,6 @@ kṣetraṃ vicitratarugulmanikāmapuṣpam|
 asmin mṛtāstanubhṛtaḥ padam āpnuvanti
 mokṣākhyam evaśivatāpi (?) na saṃśayo 'atra|| 30b.84||
 
-dvātriṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 ayajat so 'aśvamedhena rājā prācetasātmajaḥ|| 32.1||
 tatra devanikāyānāṃ bhāgadheyāni sarvaśaḥ|
@@ -3315,7 +3259,6 @@ bhadreśvarapratiṣṭhāṃ ca dakṣānugraham eva ca|| 32.231||
 sa sarvapāpavirmuktaḥ svargaloke mahīyate|| 32.232||
 bhaganayananipātaṃ dakṣayajñe davāgniṃ madanapurahutāśaṃ candralekhojjvalāṅgam|
 suragurumakhakālaṃ saptalokādhipālaṃ śaraṇam upagato 'ahaṃ śaṃkaraṃ śarmahetoḥ|| 32.233||
-iti skandapurāṇe
 
 sanatkumāra uvāca|
 yathā tu vṛṣabho devam avahanmunipuṅgava|
@@ -3599,9 +3542,7 @@ na nāstikāya duṣṭāya tathā vā pāpakarmaṇe|| 33.134||
 deyaṃ śrāvyaṃ ca śucaye guhyam etat sanātanam|| 33.135||
 yo lokavedaprabhavena tena sarvārthasiddhena mahābalena|
 yātyambudāmbhonidhirgarjitena sa vo 'astu nityaṃ sumanā maheśaḥ|| 33.136||
-iti skandapurāṇe
 
-catustriṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 evaṃ sa bhagavān vyāsa megham utsṛjya devapaḥ|
 vṛṣavāhaḥ samabhavadyathā te kathitaṃ mayā|| 34.1||
@@ -3621,7 +3562,6 @@ hāsyaṃ prakṛtam etanme kṛṣṇeti samudāhṛtam|| 34.6||
 adya prabhṛti nānena vacasāhaṃ śubhānane|
 vakṣyāmi tvāṃ tyaja krodhaṃ tām uvāca pinākadhṛk| 7||
 
-pañcatriṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 cakāra brāhmaṇaṃ vyāsa tapaḥsatyaparāyaṇam|| 35.1||
 vyāsa uvāca|
@@ -3720,9 +3660,7 @@ tvatto 'ahaṃ śrotum icchāmi hitaṃ sarvasukhāvaham|| 35.43||
 sūta uvāca|
 sa evam uktaḥ surasṛksutaḥ prabhurvimānakartā vigataprayojanaḥ|
 jagāda vākyaṃ suralokavardhanaḥ purā kṛtaṃ suṣkṛtasarvanāśanam|| 35.44|| (?)
-pañcatriṃśo 'adhyāyaḥ|| 35.35||
 
-ṣaṭtriṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 trikūṭaśikhare tasmin nagare devanirmite|
 āsīnaḥ kāñcane divye vimāne strīsamākule|| 36.1||
@@ -3860,10 +3798,7 @@ muktaścottiṣṭhate kena kathaṃ saṃsarate punaḥ|| 36.62||
 etat sarvam aśeṣena vistareṇa yathātatham|
 tam upendrapitāmaheśvareśapravareśaṃ viditārthatattvakośam|
 duritāṅkita-- -- muktayogaṃ pratiyogaṃ tvidam āhuragrayogam|| 36.64||
-iti skandapurāṇe sukeśamahābhāgyaṃ nāma
-ṣaṭtriṃśo 'adhyāyaḥ|| 36.35||
 
-saptatriṃśo .adhyāyaḥ|
 sanatkumāra uvāca|
 tataste pitarastasya pratiṣṭhāṃ svasutaṃ prati|
 suśarmāṇam iti khyātaṃ kathayāmāsuravyayāḥ|| 37.1||
@@ -3989,9 +3924,7 @@ evaṃ sa yātyamāno vai bahūnabdān suduḥkhitaḥ|
 dvāraṃ labdhvā viniryāta ucchrāyeṣu nipātyate|| 37.63||
 yamalācalam etam ugravegaṃ bahudhāpāpasametakarmayogam|
 śṛṇuyādyo 'abhīkṣṇaśo 'ativegaṃ sa na yātyeva tam ugrapāpayogam|| 37.64||
-iti skandapurāṇe narakavarṇane
 
-aṣṭatriṃśo .adhyāyaḥ|
 suśarmovāca|
 yātyante tatra puruṣāḥ subhṛśaṃ pāpakarmiṇaḥ|| 38.1||
 uccāḥ sarvāśca tā ghorā bahuyojanavistṛtāḥ|| 38.2||
@@ -4033,7 +3966,6 @@ pātyante narake tasmin yāvat kṣīṇaṃ tadenasam|
 eṣaiva vidhiranyeṣāṃ narakāṇāṃ mune smṛtaḥ|| 38.21||
 ya imaṃ bṛśaduḥkhitopalambhaṃ sukṛtīnām atidurgamācalam|
 śṛṇuyāt prayataḥ kutūhalātmā na sa gacchennirayaṃ hi śālmalam|| 38.22||
-iti skandapurāṇe narakavarṇane
 
 suśarmovāca|
 samantānmahatoccena prākāreṇa susaṃvṛtam|| 39.1||
@@ -4060,9 +3992,7 @@ viśrāmya sa tadā jantuḥ pātyate narake punaḥ|
 yāvadasya kṛtaṃ pāpaṃ kṣīṇaṃ sarvam aśeṣataḥ|| 39.11||
 ya imaṃ bahupāpakartṛsūtraṃ śṛṇuyādduṣkaralokakarmasūtram|
 na sa yāti tadugraduḥkhasūtraṃ narakaṃ tadyamalokakālasūtram|| 39.12||
-iti skandapurāṇe narakavarṇane kālasūtraṃ nāma
 
-catvāriṃśo .adhyāyaḥ|
 suśarmovāca|
 śrotR̥ṇām api tatkālaṃ bhayadaṃ hyakṛtātmanām|| 40.1||
 āyasyastatra bahvyaśca añjanācalasannibhāḥ|
@@ -4082,8 +4012,6 @@ evaṃ te yātitāstatra viśrāmaṃ punarucchraye|
 samprāpya narake bhūyo nipatanti kṣayāntikam|| 40.9||
 ya imaṃ bahuduṣkṛtāntapākaṃ śṛṇuyādvā manujo hi karmapākam|
 na sa gacchati taṃ durātmapākaṃ narakaṃ sādhanaduḥkhakumbhapākam|| 40.10||
-iti skandapurāṇe narakavarṇane kumbhīpāko nāma
-catvāriṃśo 'adhyāyaḥ|| 40.40||
 
 suśarmovāca|
 narakaṃ pāpakṛdduḥkhaṃ sarvasatvabhayaṃkaram|| 41.1||
@@ -4122,7 +4050,6 @@ sarve te taṃ prapadyante socchrayaṃ narakaṃ mahat|
 uttīrṇāśca tato bhūyaḥ saṃsāraṃ yānti te śubhāḥ|| 41.19||
 ya imaṃ śṛṇuyādatandritātmā narakaṃ pāpakṛtām aśarmabhūtam|
 na a taṃ samupaiti puṇyakarmā viditātmā hyasipatranāmadheyam|| 41.20||
-iti skandapurāṇe narakavarṇane
 
 suśarmovāca|
 śṛṇuṣvāvahitaḥ putra pāpakarmabhayāvahām|| 42.1||
@@ -4186,7 +4113,6 @@ kīlayedyaśca devārcāstīrthāni ca durātmavān|
 vidyāḥ śāstrāṇi divyāni teṣāṃ sā gatirucyate|| 43.11||
 ya imaṃ bahupāpayogakāraṇaṃ śṛṇuyānnityam asaukhyasarvadāraṇam|
 prayataḥ sa na yāti taṃ bhayānakaṃ narakaṃ durgamayodhanāvatānakam|| 43.12||
-iti skandapurāṇe narakavarṇane ayodhanaṃ nāma
 
 suśarmovāca|
 ataḥ paraṃ padmam ahaṃ pravakṣyāmi sudurgamam|
@@ -4213,7 +4139,6 @@ parāṅmukhaṃ ca saṃsaktam anyena saha vādinam|
 ete sarve narāstatra gacchantyakṛtabuddhayaḥ|| 44.11||
 ya idaṃ śṛṇuyāt kṛtāntasadma prayato nityam anekaduḥkhasadma|
 sa na yāti tam ugraśokapadmaṃ narakaṃ mṛtyum ivātikālasadma|| 44.12||
-iti skandapurāṇe narakavarṇane padmo nāma
 
 suśarmovāca|
 mahāpadmastataścānyo nirayo romaharṣaṇaḥ|
@@ -4249,7 +4174,6 @@ evaṃ te yātitāstatra svakarmaphalabandhanāḥ|
 tataḥ śeṣeṇa sambaddhā jāyante kīṭayoniṣu|| 45.15||
 śṛṇuyādya imaṃ vicintya dhīmān matimān nityam alobhamohaśokaḥ|
 sa tu daivavidhipracoditātmā divam evaiti na yāti taṃ kadācit|| 45.16||
-iti skandapurāṇe narakavarṇane mahāpadmo nāma
 
 yatra te vivaśā baddhāḥ karmaṇā svena jantavaḥ|| 46.1||
 yātyante duḥkhaśokārttā mahānirayagāminaḥ|
@@ -4275,7 +4199,6 @@ punarbhūsutasaṃyogī yasyā copapatirgṛhe|
 ete sarve 'abhigacchanti narakaṃ rauravaṃ narāḥ|| 46.11||
 ya imaṃ śṛṇuyācca rauravaṃ narakaṃ pāpakṛtāṃ surauravam|
 niyataṃ prayato 'atirauravaṃ na sa gacchenmanasāpi rauravam|| 46.12||
-iti skandapurāṇe narakavarṇane rauravaṃ nāma
 
 suśarmovāca|
 mahārauravam anyacca śṛṇu me duṣṭayātanam|
@@ -4313,7 +4236,6 @@ deśavidra${\rm (}A{\rm )}$vaṇaṃ caiva yaḥ kuryāḍḍāmarāṇi vā|
 sarve te narakaṃ yānti mahārauravasaṃjñakam|| 47.17||
 ya imaṃ śṛṇuyādabhīkṣṇaśo niyataṃ dharmamatiśca tiṣṭhati|
 na sa gacchati taṃ bhayāvahaṃ narakaṃ rauravam ugrarauravam|| 47.18||
-iti skandapurāṇe narakavarṇane mahārauravaṃ nāma
 
 suśarmovāca|
 tamo nāmāparo ghoro narako 'atibhayaṃkaraḥ|
@@ -4340,7 +4262,6 @@ brāhmaṇākrośakaścaiva vedadharmārthadūṣakaḥ|
 nāstikāśca surātmāna ityete taṃ prayānti vai|| 48.11||
 ya imaṃ śṛṇuyāt tamomayaṃ tamasā nityam atandritendriyaḥ|
 na sa yāti tamomayaṃ sadā narakaṃ dāruṇajantuśokadam|| 48.12||
-iti skandapurāṇe narakavarṇane
 
 suśarmovāca|
 tamastamataraṃ ghoraṃ narakaṃ śṛṇvataḥ param|
@@ -4400,9 +4321,7 @@ narakān samprapadyante baddhāḥ pāpena karmaṇā|| 49.29||
 ete sarve mayā proktā mahānirayagāminaḥ|
 ucchrayāneva gacchanti ye 'anye pāpakṛto narāḥ|| 49.30||
 adharmaśca nivarteta sa gacchedbrahmaṇaḥ padam|| 49.31||
-iti skandapurāṇe narakavarṇane tamo 'atitamaṃ nāma
 
-pañcāśo .adhyāyaḥ|
 yathā vai narakāt tīrṇaḥ saṃsaranti samāsataḥ|| 50.1||
 prathame narake proktā ye mayā āpakarmiṇaḥ|
 śeṣeṇa karmaṇā te tu jāyante kṛmiyoniṣu|| 50.2||
@@ -4492,9 +4411,7 @@ sanatkumāra uvāca|
 śrāvayedvā dvijān samyak sarvapāpaiḥ pramucyate|| 50.45||
 idaṃ tu sarvārthasukhāvahaṃ dhruvaṃ mahānubhāvaṃ sugatipradaṃ śubham|
 sadaiva vipreṇa samāhitātmanā adhītya dhāryaṃ śrutisaṃmitaṃ dhruvam|| 50.47||
-pañcāśo 'adhyāyaḥ|| 50.50||
 
-ekapañcāśo .adhyāyaḥ|
 sanatkumāra uvāca|
 sukeśastu tato vyāsa pituḥ śrutvā sudīnavat|
 duḥkhitaścintayāmāsa jantūnāṃ tāṃ gatiṃ tadā|| 51.1||
@@ -4589,7 +4506,6 @@ sa duḥkhaṃ samanuprāpya nāvasīdati karhicit|| 51.44||
 etadyogavidhānasarvasamayaṃ śrutvā naro nityaśaḥ pāpātmāpi sunirghṛṇaṃ pratibhayaṃ nābhyeti pāpāśrayam|
 kiṃ tvetadya ihābhyupetya satataṃ śaucānvitaḥ śrāvayeddevabrahmaṇavaidyasaṃsadi dṛḍhaṃ bhaktaḥ sadā śaṅkaram|| 51.45||
 
-dvipañcāśo .adhyāyaḥ|
 vyāsa uvāca|
 ke punastaṃ na gacchanti narakaṃ śubhakarmiṇaḥ|
 pāpeṣvapi ratā brahmannetadicchāmi veditum|| 52.1||
@@ -4875,7 +4791,6 @@ tāvaddeva idaṃ sarvaṃ cakāra kathitaṃ hi yat|| 52.134||
 dehabhedaṃ samāsādya rudralokaṃ sa gacchati|| 52.136||
 ya imaṃ bahupāpanāśanaṃ paramaṃ rudrasamīpayojanam|
 paṭhate ca gaṇaprasādhanaṃ sa mṛto yāti na dīnasaṃbhavam|| 52.137||
-dvipañcāśo 'adhyāyaḥ|| 52.52||
 
 vyāsa uvāca|
 devī bhagavatī sā hi himavattanayāvyayā|
@@ -4968,7 +4883,6 @@ evaṃ teṣu vimānaṃ tat samārūḍheṣu sarvaśaḥ|
 sukhāsīneṣu sarveṣu brahmā samanucodayat|| 53.48||
 taccoditaṃ yogavidagragāminā mahāvimānottamasarvagāminā|
 yayau prabhāveṇa manonugāminā yathā manaḥ sarvasṛjeva hetunā|| 53.49||
-iti skandapurāṇe devīvarapradāne brahmaṇaḥ prayāṇaṃ nāma
 
 sanatkumāra uvāca|
 tatastena vimānena sarvasṛk caturānanaḥ|
@@ -5054,7 +4968,6 @@ avatīrya vimānāt tu tataḥ śīghraṃ pitāmahaḥ|
 nililye śikhare tasmin nānādhāruvicitrite|| 54.39||
 atha sopaladhātunirjharo girirājo 'atimahāśiloccayaḥ|
 vinisṛṣṭadivākarāmalo didive divya ivodayācalaḥ|| 54.40||
-iti skandapurāṇe devyā varapradāne brahmāgamanaṃ nāma
 
 sanatkumāra uvāca|
 atha taṃ sahasāyātam apaśyat sācalātmajā|
@@ -5146,7 +5059,6 @@ sthitākāśaṃ samāsthāya jayantena śacī yathā|
 tathā sā bhāti rudrāṇī somanandipuraḥsarā|| 55.38||
 ya imaṃ paṭhate sadā vipaścit puruṣaḥ prātaratandrito hi kaścit|
 kurute na bhayaṃ hi somanandirvaradastasya haraśca somanandī|| 55.39||
-iti skandapurāṇe somanandidevyorvarapradānaṃ nāma
 
 vyāsovāca|
 bhagavan yat tvayākhyātaṃ pūrvaṃ narakavarṇane|
@@ -5372,8 +5284,6 @@ sanatkumāra uvāca|
 khagatvaṃ samparityajya yonim anyāṃ prapedire|| 56.112||
 sarve tataste munikopadagdhā vyādhā mṛgāścakrasamāhvayāśca|
 jātāḥ puno mānuṣavigraheṣu yogeśvarāste traya eva rājye|| 56.113||
-iti skandapurāṇe saptavyādhopakhyāne
-kauśikaśāpe ṣaṭpañcāśo 'adhyāyaḥ|| 56.56||
 
 sanatkumāra uvāca|
 catvāraste tu śāstāraḥ khagāḥ svacchandataḥ punaḥ|
@@ -5601,7 +5511,6 @@ yogeśvaratvaṃ kāṅkṣadbhiretadadhyeyam antaśaḥ|
 janmāntaraṃ samāsādya prāpnuvanti na saṃśayaḥ|| 57.112||
 śṛṇuyādya imaṃ satataṃ prayataḥ śucirekamanā manujaḥ|
 priyavatsa hi śakrasamānavapuḥ sukṛtena kṛtena pumān|| 57.113||
-iti skandapurāṇe
 
 vyāsa uvāca|
 varān gṛhītvā rudrāṇī tasmiñchikharisattame|
@@ -5659,7 +5568,6 @@ nānādrumalatāpuṣpasurabhīkṛtamārutam|| 58.29||
 tuhinanikaraśītairnirjharāmbupravāhairnicitapṛthunitambottuṅgaparyantasānum|
 girivaraśikharaṃ tat sādhyuvāsātha devī kusumitataruśākhāśliṣṭamattadvirepham|| 58.30||
 kauśikyāḥ sambhavaṃ samyak sa yāti paramāṃ gatim|| 58.31||
-iti skandapurāṇe kauśikīsambhavo nāma
 
 sanatkumāra uvāca|
 tatastāṃ kauśikīṃ tatra prasthāpya himavatsutā|
@@ -5687,9 +5595,7 @@ viyati jaladavṛndān vikṣipantī svadhāmnā
 himajalakaṇsaśītairvījyamānā marudbhiḥ|
 girivaratanayā sā patyureva smarantī
 madanadahanamūrterāśu pārśvaṃ jagāma|| 59.12||
-iti skandapurāṇe
 
-ṣaṣṭitamo .adhyāyaḥ|
 athāsau brahmaṇaḥ putraṃ vyāsaḥ prāha kṛtāñjaliḥ|
 kimarthaṃ kauśikī vindhyaṃ devyā sampreṣitā tadā|| 60.1||
 evam uktastadā dhīmān vyāsena brahmaṇaḥ sutaḥ|
@@ -6267,7 +6173,6 @@ turagakhurapuṭāntakṣuṇṇareṇvandhakāre dviradarathaninādatrastapād�
 vigatabhayaviṣādaḥ saṃyuge śuṃbhasiṃho jayati suravijetā vārivāhorunādaḥ|| 62.119||
 tadanu jayati dīrghapīnathubāhuḥ pṛthurucironnatasaṃhatoruvakṣāḥ|
 mṛgapatigamano 'ambuvāhanādaḥ samaravare vijayī niśuṃbhasiṃhaḥ|| 62.120||
-iti skandapurāṇe devāsurasaṃgrāme
 śuṃbhaniśuṃbhavijayso nāma
 
 atha nirjitya samare devān devadviṣastadā|
@@ -6389,7 +6294,6 @@ tato 'anumenire sarve daityadānavasattamāḥ|
 vacanaṃ daityarājasya kālenābhipracoditāḥ|| 63.65||
 atha sadasi samastān daityasiṃhāṃstadānīṃ tridaśapativijetā vākyam etadvihṛtya|
 udapatadavalambisvacchaśubhroruhāro navajalabharanamraḥ prāvṛṣīvāmbuvāhaḥ|| 63.66||
-iti skandapurāṇe (mahadara?)saṃvāde
 
 sanatkumāra uvāca|
 āhatya bherīḥ sannahya ditijā dānavāśca te|
@@ -6486,7 +6390,6 @@ tato jagāma saṃyacchaddaityendrābhimukhaṃ tadā|
 javena devatānīkaṃ saṃkṣipyeva diśo daśa|| 64.49||
 atha dadṛśuranīkam āgataṃ suraripavo vividhocchritadhvajam|
 pratibhayajananaṃ mahāsvanaṃ pralaya ivāmbudavṛndam unnatam|| 64.50||
-iti skandapurāṇe śumbhaniśumbhayuddhe
 sainyavarṇanaṃ nāma
 
 sanatkumāra uvāca|
@@ -6653,7 +6556,6 @@ taṃ marmagairmarmasu bāṇamukhyaiḥ saṃtāḍayaddānavam āśu devī|
 bhinnaḥ sa tairmarmagamaiḥ supuṃkhairantardadhe dānavayodhamukhyaḥ|| 65.81||
 atha samaram apāsya yodhamukhyairvihataparākramapauruṣairapetaiḥ|
 surapatiripavo vinadya nādān dviradavarānadhitasthurāttaśastrāḥ|| 65.82||
-iti skandapurāṇe śumbhaniśumbhasaṃgrāme
 devīyuddhāṃ nāma
 
 sanatkumāra uvāca|
@@ -6727,7 +6629,6 @@ atha nabhasi vimeghe dhautanistriṃśanīle drutataram abhisṛtya grīvayoḥ 
 dititanayapatī tau niṣpipeṣāśu devī vigatabhayaviṣādaiḥ stūyamānā munīndraiḥ|| 66.34||
 asṛgatha vadanābhyām udvamantau saphenaṃ sapadi vihatavīryau piṣṭasarvāṅgasandhī|
 asubhirapagataistau raktaparyantanetrau kṣititalam abhitastau petaturdaityasiṃhau|| 66.35||
-iti skandapurāṇe śumbhaniśumbhanipātanaṃ nāma
 
 sanatkumāra uvāca|
 ājagmuḥ kauśikīṃ draṣṭum atha vindhyaṃ divaukasaḥ|
@@ -6861,7 +6762,6 @@ vicarasva samastāṃśca lokān siddhagaṇārcitā|| 67.68||
 iti vacanam athoktvā kauśikīṃ devarājastridaśagaṇasametaḥ śubhraloloruhāraḥ|
 udapatadatha vindhyādvikṣipan vyomni nīlān salilabharavinmrānambuvāhān samantān|| 67.69||
 iha loke sukhaṃ prāpya sa yāti paramāṃ gatim|| 67.70||
-iti skandapurāṇe kauśikyabhiṣeko nāma
 
 sanatkumāra uvāca|
 atha tā devatā devī kauśikī dehasaṃbhavāḥ|
@@ -6909,9 +6809,7 @@ udgṛhya sā bāladhim indraśatroḥ kṛtvā ca pādaṃ śirasi prasahya|
 triśūlam ādāya bibheda pṛṣṭhe vyayojayaccāsubhirāśu daityam|| 68.23||
 kuliśakaṭhinaśṛṅgaṃ nīlajīmūtakalpaṃ mahiṣam atha nihatya prauḍhadarpaṃ tadānīm|
 vividhakusumavṛṣṭyā sarvataḥ kīryamāṇā dharaṇidharam agacchat kauśikī sannivāsam|| 68.24||
-iti skandapurāṇe
 
-ūnasaptatitamo .adhyāyaḥ|
 vyāsa uvāca|
 bhagavan sarvalokajña pitāmahasamudyate|
 tapaḥ kṛtvā tadā devī puṣkalaṃ himavatsutā|| 69.1||
@@ -7080,11 +6978,8 @@ vatsyāmi caiva satataṃ tvayā sārdham iha priye|| 69.84||
 āvayorgaṇapo bhūtvā jagat sarvaṃ cariṣyati|| 69.85||
 evaṃ nagendraṃ sa tadānugṛhya munīndra sārdhaṃ girirājaputryā|
 devaiḥ sasiddhairanugamyamānaḥ śarvaḥ punarmandaram ājagām|| 69.86||
-iti skandapurāṇe devīsamāgame
 kośīśilāstanakuṇḍājinagaurīśikharavarapradānaṃ nāma
-ūnasaptatitamo 'adhyāyaḥ|| 69.69||
 
-saptatitamo .adhyāyaḥ|
 vyāsa uvāca|
 sa gatvā mandaraṃ bhūyo giriputryā saha prabhuḥ|
 yaccakāra mahādevastanme brūhi mahāmune|| 70.1||
@@ -7202,11 +7097,8 @@ ihāgatya ca ye śailaṃ kariṣyanti pradakṣiṇam|
 śarvāyatanasaṃyuktaṃ bhaviṣyanti ca te gaṇāḥ|| 70.58||
 atiśayaramaṇīye siddhasaṃghairupete surabhikusumacitre śrīgirau ye pumāṃsaḥ|
 vyapagatamaladoṣā māṃ prapaśyanti śuddhā viyati vihagayuktaiste vimānaiḥ prayānti|| 70.59||
-iti skandapurāṇe
 śrīgirivarapradānaṃ nāma
-saptatitamo 'adhyāyaḥ|| 70.70||
 
-ekasaptatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 śāsatastasya daityasya hiraṇyakaśipostadā|
 darpeṇa mahatāviṣṭaḥ śrīmadodvṛttacetanaḥ|
@@ -7333,11 +7225,8 @@ viṣṇave 'atha varaṃ dattvā daityaghnaṃ sa vṛṣadhvajaḥ|
 prakṛtistho bhavetyuktvā tatraivāntaradhīyata|| 71.72||
 dattvā tasmai varam anupamaṃ viṣṇave lokadhātā daityaghnatvaṃ surapuravadhūlocanaiḥ pīyamānaḥ|
 nīlāmbhodadyutinibham uraḥ prodvahacchūlapāṇirdhāma svīyaṃ paramamunibhirvandyamāno jagāma|| 71.73||
-iti skandapurāṇe hiraṇyakaśipūpakhyāne
 śarabhakṛtanarasiṃhoddhārākhyānaṃ nāma
-ekasaptatitamo 'adhyāyaḥ|| 71.71||
 
-dvisaptatitamo .adhyāyaḥ|
 vyāsa uvāca|
 bhagavan sarvayogajña śrutam ākhyānam uttamam|
 parataḥ śrotum icchāmi yadvṛttaṃ munisattama|| 72.1||
@@ -7642,11 +7531,8 @@ gatvā pinākine hṛṣṭāḥ sarvam āvedya suvrata|
 preṣitāḥ sthāṇunā jagmuḥ svā/llokān hṛṣitānanāḥ|| 72.155||
 śrutvā devairabhihitam idaṃ prītiyuktairvaco 'agryaṃ prītā devī hṛdayamahitā putrajanmapravṛttim|
 jñātvā tasthau vibudhavaradā yogamātā vidhātrī tuṣṭiṃ cāgāddhṛdi suraśiraḥspṛṣṭapādāravindā|| 72.156||
-iti skandapurāṇe
 skandajanmapravṛttirnāma
-dvisaptatitamo 'adhyāyaḥ|| 72.72||
 
-trisaptatitamo .adhyāyaḥ|
 vyāsa uvāca|
 andhakaḥ kasya putro 'asau kiṃvīryaḥ kiṃparākramaḥ|
 kathaṃ ca nihataḥ saṃkhye sarvam etadvadasva me|| 73.1||
@@ -7849,11 +7735,8 @@ sa evaṃ pariniścintya bahudhāndhaḥ subuddhimān|| 73.104||
 āmantrya sahitaṃ mātrā pitaraṃ taṃ praṇamya ca|
 pitrā śokapariplutekṣaṇamukhenāyāsakhinnātmanā
 tattīvrādhṛtikhedadṛṣṭivirahaprakṣveḍito 'andhaḥ śvasan
-iti skandapurāṇe 'andhakopākhyāne
 tapaḥprayāṇaṃ nāma
-trisaptatitamo 'adhyāyaḥ|| 73.73||
 
-catuḥsaptatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 atha gatvā sa viprendra hiraṇyākṣasutastadā|
 gaṅgādvāraṃ śubhadvāraṃ tapovanam anuttamam|| 74.1||
@@ -7916,10 +7799,7 @@ agniṃ hutvā tato dhīmānanumānya tapovanam|
 sahāyaiḥ saha daityendro jagāma piturantikam|| 74.26||
 sa hṛṣṭacetāstapasā mahābalo vivṛddhakāmaḥ suraśatrutoṣaṇaḥ|
 pituḥ sakāśaṃ punareva dīptimānagacchaddhūtabalāhakopamaḥ|| 74.27||
-iti skandapurāṇe 'andhakavaralābho nāma
-catuḥsaptatitamo 'adhyāyaḥ|| 74.74||
 
-pañcasaptatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 so 'aṣṭābhirdānavaiḥ sārdhaṃ gatvā tatpuram antike|
 nivedayāmāsa pituḥ kṛtārtho 'andhaka āgataḥ|| 75.1||
@@ -8014,9 +7894,7 @@ pūjayethāḥ sadaivainaṃ bhaktitaḥ parameśvaram|| 75.46||
 sanatkumāra uvāca|
 sa evam uktvā praṇipatya śaṃkaraṃ mahāsuraḥ so 'asuradānaveśvaraḥ|
 jagāma dhīmān punareva nirvṛto niveśanaṃ devapatiryathā svakam|| 75.47||
-iti skandapurāṇe
 kaumudīmahotasvo nāma
-pañcasaptatitamo 'adhyāyaḥ|| 75.75||
 
 sanatkumāra uvāca|
 atha tasyāṃ saha strībhiḥ kaumudyāṃ daityadānavāḥ|
@@ -8119,7 +7997,6 @@ hāravaryāṅkitoraskaḥ sabalāka ivāmbudaḥ|
 saputraḥ prayayau vyāsa himavāniva mūrtimān|| 76.50||
 sa tāṃ tadā dānavarājasattamo vicitraratnāṃśuparītakuṇḍalaḥ|
 sabhāṃ viveśāsuradaityapuṅgavaiḥ samāvṛtāṃ dyām uditairgrahairiva|| 76.51||
-iti skandapurāṇe
 hiraṇyākṣasya sabhāpraveśo nāma
 
 sanatkumāra uvāca|
@@ -8259,9 +8136,7 @@ hayahreṣitaśabdaṃ ca mattadviradabṛṃhitam|
 valgitāsphoṭitotkruṣṭaṃ siṃhanādoddhataṃ yayau|| 77.72||
 taddhi tūryaravasiṃhanāditairaśvaheṣitagajograbṛṃhitaiḥ|
 bāhuśabdakucitāvanāditairyāti dānavabalaṃ bhayāvaham|| 77.73||
-iti skandapurāṇe
 hiraṇyākṣaniryāṇaṃ nāma
-saptasaptatitamo 'adhyāyaḥ|| 77.77||
 
 kṛṣṇadvaipāyana uvāca|
 bhagavan ditiputreṣu prayāteṣvamarāvatīm|
@@ -8406,7 +8281,6 @@ tena śabdena yodhānāṃ yuddhaharṣo mahānabhūt|
 siṃhanādānakurvaṃste vāditāsphoṭitāni ca||| 78.75||
 devāstataḥ śaṅkhamṛdaṅgavādyairamoghasarvāyudhadīptahastāḥ|
 nirjagmurindrādisurapradhānā jayaiṣiṇaḥ śatruvadhepsavaśca|| 78.76||
-iti skandapurāṇe
 vyyuharacano nāma
 
 sanatkumāra uvāca|
@@ -8481,9 +8355,7 @@ tat pravāditagāndharvaṃ chinnabhinnavidāritam|
 yuddhagāndharvam abhavadbhīrūṇāṃ bhayavarddhanam|| 79.37||
 anyonyaghātakṣatasarvadehāḥ surāsurā vairam anusmarantaḥ|
 jaghnustadā rākṣasatulyarūpāḥ svārājyahetorjayam īpsamānāḥ|| 79.38||
-iti skandapurāṇe
 
-aśītitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 tasmin mahati yuddhe tu vartamāne mahābhaye|
 mṛtyuḥ kālo yamaścaiva kṛtāntaḥ kalahastathā|
@@ -8584,9 +8456,7 @@ taṃ bāṇairvivṛtaṃ dṛṣṭvā devāḥ sarve savāsavāḥ|
 rakṣantaḥ samapadyanta bhīmodyatakarāyudhāḥ|| 80.51||
 atha kikharamṛdaṅgaveṇuvīṇāpaṇavasughoṣakaḍiṇḍimānakānām|
 asurasurabale mahāṃstadānīṃ samabhavadugrataraḥ sa tūryanādaḥ|| 80.52||
-iti skandapurāṇe
 
-ekāśītitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 hiraṇyākṣastadāyāntaṃ dṛṣṭvā devendram agrataḥ|
 uvāca rathayantāram indraṃ prati nayasva mām|| 81.1||
@@ -8663,7 +8533,6 @@ na vikarṣan dhanuścaiva lakṣyate daityadānavaiḥ|| 81.40||
 āditya iva madhyāhne dṛśyate sa tadā yudhi|| 81.41||
 sa divyacāpo laghuhastavān balī sadā mahāmaṇḍalabhūtakārmukaḥ|
 dadāha śatrūn pavanerito raṇe vibhāvasuḥ śuṣkam ivendhanaṃ mahat|| 81.42||
-iti skandapurāṇe
 
 sanatkumāra uvāca|
 tāṃstathāṃśena daityendrān kālyamānānitastataḥ|
@@ -8760,7 +8629,6 @@ ta evam uktā viprendra gajāstottrārditā iva| gajāstotrā° Bh
 vinivṛttāḥ punaḥ sarve lajjayātisamāvṛtāḥ|| 82.46||
 te chatrasaṃchāditavaktrapadmā lajjāsamāviṣṭavirāgavaktrāḥ|
 na tasya rājño mukhato 'avatasthustimerivārttāḥ salile 'alpamīnāḥ|| 82.47||
-iti skandapurāṇe
 
 sanatkumāra uvāca|
 atha te dānavā vyāsa nivṛttā raṇamūrdhani|
@@ -8831,7 +8699,6 @@ mekhalāvalayonmiśraṃ tāsāṃ tat kalabhāṣitam|| 83.33||
 valgitāsphoṭitaiścaiva diśaḥ sarvā vyanādayan|| 83.34||
 tat pravāditagajopabṛṃhitavalgitākupitasiṃhanāditam|
 devadānavabhayapravarttanaṃ jīvitāntakaram ābabhau raṇam|| 83.35||
-iti skandapurāṇe
 
 sanatkumāra uvāca|
 sa yuddhayajñastatrāgryo rājyārtham abhavat tadā|
@@ -8906,8 +8773,6 @@ asinābhyāhataścāpi devarājo mahābalaḥ|
 nārtimānabhavat saṃkhye na -- -- -- -- -- -- --|| 84.37||
 sa dānavendraprahatena dantinā mahābalaḥ prasrutadānagandhinā|
 amṛṣyamāṇaḥ prayayau pramāthinā hiraṇyanetreṇa yudhi pramāthitaḥ|| 84.38||
-iti skandapurāṇe
-yuddhe caturaśītitamo 'adhyāyaḥ|| 84.84||
 
 sanatkumāra uvāca|
 vipracittirmahāmāyo vāyuṃ bahubhirāśugaiḥ|
@@ -8976,7 +8841,6 @@ sa cāpyavaplutya mahāsurendro dṛṣṭvā tam ādityasamānabhāsam|
 matvāviṣahyaṃ svarathaṃ vihāya viyat samāviśya tato 'avatasthe|| 85.35||
 tat tasya sūtaṃ hayopapannaṃ mahārathaṃ sarvagam astravaryam|
 kṛtvāśu bhasmeva yathā hutāśo jagāma khaṃ divyam adṛśyarūpam|| 85.36||
-iti skandapurāṇe
 
 sanatkumāra uvāca|
 tato dagdharathaḥ khastho dānavaḥ sa virocanaḥ|
@@ -9097,7 +8961,6 @@ sa taiḥ śarairgadābhiśca parighairdīrghavedhanaiḥ|
 anyaiśca bahubhiścitrairāyudhaiḥ prahato bhṛśam|| 86.62||
 sa hanyamānastaṃ devo jayantaḥ śakranandanaḥ|
 hiraṇyākṣapathe kṣiptvā prādravadyena devatāḥ|| 86.63||
-iti skandapurāṇe
 
 sanatkumāra uvāca|
 mayaścandramasaṃ devam ārdayat krodhamūrcchitaḥ|
@@ -9194,7 +9057,6 @@ asighātaparītātmā sa rudraḥ śatrusaṃsadam|
 tyaktvānyato yayau tūrṇaṃ padātirmunisattama|| 87.49||
 so 'asighātaviparītacetano raktacandanavilepanaprabhaḥ|
 taṃ vihāya ripum agryavikramaṃ dudruve surabalaṃ yatastataḥ|| 87.50||
-iti skandapurāṇe
 
 sanatkumāra uvāca|
 aryamā bahubhirbāṇaiḥ prahlādaṃ daityapuṅgavam|
@@ -9257,9 +9119,7 @@ varṣamāṇā iva ghanāḥ siṃḥā iva ca nardinaḥ|
 dānavānāṃ balaṃ sarve vegenaivābhyavārayan|| 88.32||
 taddevavegaprahatābhivegaṃ balaṃ sayatnaṃ danudānavānām|
 bhavatyanādhāram atiprasaktaṃ tṛṇaṃ yathā vahnimukhāvasaktam|| 88.33||
-iti skandapurāṇe
 
-ekonanavatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 teṣāṃ tadveganunnānāṃ bhagnānāṃ kliśyatāṃ punaḥ|
 trāṇārtham atidīptākṣo hiraṇyākṣo 'agrahīt padam|| 89.1||
@@ -9384,10 +9244,7 @@ bhayārditā diśaḥ sarvāḥ palāyante sma sarvaśaḥ|| 89.65||
 siṃhanādāṃśca saṃcakrurdaityadānavasaṃmatāḥ (?)|| 89.66||
 tacchinnabhinnapravidāritāntaraṃ gajena daityaiśca punarviloḍitam|
 balaṃ mahaddaivatapālitaṃ babhau yathārṇavo mandaramanthavikṣataḥ|| 89.67||
-iti skandapurāṇe
-yuddha ekonanavatitamo 'adhyāyaḥ|| 89.89||
 
-navatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 taddevasainyaṃ saṃdṛśya daityadānavayūthapaiḥ|
 vadhyamānaṃ bhṛśaṃ vyāsa vyādhairiva mṛgān vane|| 90.1||
@@ -9451,10 +9308,7 @@ yathā sa bhagavān devaścandramā dānavārdanaḥ|
 tathaiva bhagavān vahnirārdayaddānavān yudhi|| 90.36||
 tadrathāśvagajayodhasaṃyuktaṃ prakṣaradrudhirabinduvihvalam|
 sīdate gajakulopamaṃ balaṃ paṅkalagnam iva sarvam ulvaṇam|| 90.37||
-iti skandapurāṇe
-yuddhe navatitamo 'adhyāyaḥ|| 90.90||
 
-ekanavatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 tasmin bale tathā tena somenāpratimaujasā|
 hanyamāne mahāmāyaḥ samāśvasya tadāsuraḥ|| 91.1||
@@ -9511,10 +9365,7 @@ samāśvasya punaścakruryuddhaṃ suragaṇaiḥ saha|
 te 'ambudāśanisannādāḥ samudrasamanāditāḥ|| 91.29||
 daityadānavamahārathāḥ pravarasādina āśvasantaḥ|
 -- -- taneva yuddhakāṃkṣiṇo daṃṣṭriṇa iva mahāgajā vanasamāśritāḥ|| 91.30||
-iti skandapurāṇe
-yuddha ekanavatitamo 'adhyāyaḥ|| 91.91||
 
-dvinavatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 vidrutaṃ dānavabhayāt padātiryoddhum udyataḥ|| 92.1||
 sa śarairdānavarathaṃ sasūtaṃ sahavājinam|
@@ -9556,10 +9407,7 @@ evaṃbhūtam abhūdyuddhaṃ varṣāṇāṃ tu sahasrakam|
 mahadbhayaṃ vai daityānām andhakāre suraiḥ saha|| 92.21||
 tadandhakāre sumahābhayaṃkaraṃ tadābhavadyuddham atīva dāruṇam|
 jagadvināśāya jagaddhitaiṣiṇāṃ surāsurāṇāṃ rudhiraughanisravam|| 92.22||
-iti skandapurāṇe
-yuddha dvinavatitamo 'adhyāyaḥ|| 92.92||
 
-triṇavatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 athāsau tena kālena keturagneḥ samutthitaḥ|
 vāyunābhihitaścaiva agacchadvilayaṃ bhṛśam|| 93.1||
@@ -9632,9 +9480,7 @@ tān samāśvāsya daityendro hyadhyasya ca varāsanam|
 kāryāṇi kṛtvā sarveṣām agacchadvaruṇālayam|| 93.37||
 te siṃhanādairvividhaiśca vādyaiḥ pravalganāsphoṭitakūjitaiśca|
 mahāsurā dānavarājasiṃhaṃ jagmuḥ samantāt parivārya sarve|| 93.38||
-|| iti skandapurāṇe varuṇālayagamane triṇavatitamo 'adhyāyaḥ||
 
-caturṇavatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 tam āpatantaṃ vegena garutmantam ivāhave|
 dṛṣṭvā varuṇaputrāste pitrā saha vidudruvuḥ|| 94.1||
@@ -9689,10 +9535,7 @@ pitṛrājānam anagha vipracittiṃ mahābalam|
 tato 'avaghuṣya sa jayaṃ pūjayitvā tu tān dvijān|
 te tāṃ dhaneśasya purīṃ mahābalā vinādayanto 'andhakapālitāstadā|
 hiraṇyanetraṃ parivārya dānavāstadābhijagmurjaladā ivācalam|| 94.28||
-|| iti skandapurāṇe hiraṇyākṣadigvijaye yamalokābhigamano nāma
-caturṇavatitamo 'adhyāyaḥ|| 94 ||
 
-pañcanavatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 tathā laṅkāṃ samāsādya dhaneśasya purīṃ śubhām|
 adūre tasthuruddhūtāḥ sannaddhakavacāyudhāḥ|| 95.1||
@@ -9757,8 +9600,6 @@ hṛṣṭapuṣṭam abhūt sarvaṃ vyādhiduḥkhavivarjitam|
 varṇāśramaparityaktaṃ sarvalokasamaṃ jagat|| 95.32||
 tannṛtyagītotsavanityayuktaṃ sukhaprasuptaṃ ratikāryayuktam|
 jagadbabhau rājani daityadeve hiraṇyanetre ditinandaneti|| 95.33||
-|| iti skandapurāṇe hiraṇyākṣarājyavarṇano nāma
-pañcanavatitamo 'adhyāyaḥ|| 95 ||
 
 vyāsa uvāca|
 tathā rājani daityendre trailokyādhipatau śubhe|
@@ -9832,9 +9673,7 @@ tannaṣṭavṛkṣakṣupavallipallavaṃ tṛṇauṣadhīprasravaṇodakāś
 sarittaḍāgāvaṭaśuṣkapallavaṃ jagadbabhau kacchapapṛṣṭhasannibham|| 96.34|
 praṇaṣṭavarṇāśramadharmasaṃyamaṃ vinaṣṭaghoṣavrajapakṣimānuṣam|
 dvipāśvapattyādigaṇairvināditaṃ yugāntakālāgnim udagravajjagat|| 96.35||
-|| iti skandapurāṇe brahmaṇo vākyaṃ nāma
 
-saptanavatitamo .adhyāyaḥ|
 sanatkumāra uvāca|
 tathābhūtaṃ jagaddṛṣṭvā devāste duḥkhapīḍitāḥ|
 vairājaṃ lokam āsādya bhūyo 'apaśyan pitāmaham|| 97.1||
@@ -9916,7 +9755,6 @@ harṣotphullekṣaṇāḥ sarve nirīkṣantaḥ parasparam|
 menire hata ityeva daityendraṃ sumahābalam|| 97.44||
 teṣāṃ tadutphullakuśeśayaprabhaṃ vakrekṣaṇaṃ cārutarāvabhāsakam|
 hataḥ sa daityo narasiṃharūpiṇā yathā purā tasya gururmahābalaḥ|| 97.45||
-saptanavatitamo 'adhyāyaḥ|| 97.97||
 
 sanatkumāra uvāca|
 atha te suraśārdūlāstasya rūpaṃ pracakrire|
@@ -10026,9 +9864,7 @@ tataḥ siddhiriti procya kṛtvā rudrāya vai namaḥ|
 japañjayāvahaṃ rudraṃ sa yayau varuṇālayam|| 98.53||
 sa sevyamāno munibhistapodhanaistathā śakuntairbahubhirjayāvahaiḥ|
 mṛgaiśca divyairbahubhiḥ pradakṣiṇairjayāya devaḥ prayayau mahārṇavam|| 98.54||
-|| iti skandapurāṇe varāhasya
 
-ekonaśatamo .adhyāyaḥ|
 sanatkumāra uvāca|
 sa samprayāto dharmātmā nardamāno yathā ghanaḥ|
 sarvalokamayo vedo varāho nandivardhanaḥ|| 99.1||
@@ -10084,7 +9920,6 @@ tejasā cāpi viṣṭabdho durātmā tasya so 'asuraḥ|| 99.26||
 cakre vegaṃ pratipuraṃ varāhasya tadāgrataḥ|| 99.27||
 sa yātukāmo ditijādhirājaṃ varāharūpaṃ tam anantam antakam|
 jagāma daityāya sa jīvitāntaṃ yathānilaḥ pradyutadānamālyavān|| 99.28||
-|| iti skandapurāṇe varāhasya
 
 skandapurana100
 sanatkumāra uvāca|
@@ -10294,7 +10129,6 @@ karābhyāṃ caraṇābhyāṃ ca daṃṣṭrābhiśca vyadārayat|
 tanmuktairāyudhaiścaiva cicchedānyān rarāsa sa|| 101.29||
 te sarve karacaṇairvimuktaśastrairdaṃṣṭrābhirmukhadāritāstathaiva|
 saṃkṣīṇā bahubhirivopabhujyamānā dravyāṇām iva nicayāḥ sadā mahāntaḥ|| 101.30||
-iti skandapurāṇe kiṃkarayuddhe ekottaraśatatamo .adhyāyaḥ|| 101.101||
 
 skandapurana102
 sanatkumāra uvāca|
@@ -10376,7 +10210,6 @@ te 'api taṃ bhagnam ityeva vijānanto 'asurāstadā|
 pṛṣṭhato 'anuyayurvyāsa takṣayanto varāyudhaiḥ|| 102.38||
 sa takṣyamāṇaḥ śaravṛṣṭitomarairmahāgadābhirmuśalairayomukhaiḥ|
 tadābhiniḥsṛtya diteḥ sutānasāvayodhayaddevagaṇairadhiṣṭhitaḥ|| 102.39||
-iti skandapurāṇe asurasaṃdeśanaṃ nāma dvyuttaraśatatamo .adhyāyaḥ|| 102.102||
 
 skandapurana103
 sanatkumāra uvāca|
@@ -10482,7 +10315,6 @@ te 'api vidrāvitāḥ sarva lajjāṃ paramikāṃ gatāḥ|
 daityadānavaśārdūlā vinivṛttā yathābalāḥ|| 103.49||
 ekena sarve vijitāsurendrāḥ parasparaṃ vīkṣya mukhāni śūrāḥ|
 vrīḍānvitāste punareva devaṃ varāha ---- -- -- -- -- -- ti|| 103.50||
-iti skandapurāṇe varāhayuddhe tryuttaraśatatamo .adhyāyaḥ|| 103.103||
 
 skandapurana104
 sanatkumāra uvāca|
@@ -10604,7 +10436,6 @@ sūtaṃ tataḥ samāviśya rathaṃ sajjam acīkarat|
 samāśvāsayituṃ patnīḥ sa viveśa punargṛhān|| 104.59||
 sa tatra tābhiḥ kṛtamaṅgalastadā diteḥ sutāṃstāṃśca nirīkṣya sarvaśaḥ|
 gṛhāṇa sarvaṃ raṇayogyam ujjvalaṃ mahābalaḥ śatrunivāraṇakṣamam|| 104.60||
-iti skandapurāṇe vipracittipātane caturuttaraśatatamo .adhyāyaḥ|| 104.104||
 
 skandapurana105
 sanatkumāra uvāca|
@@ -10843,7 +10674,6 @@ rathāṅguniṣpītavapurvirāgaṃ na bhāti tadvaktram atīva dīnam|
 niśāprahāṇe vinivṛttaraśmi bimbaṃ yathā candramaso viśobham|| 107.43||
 taddantapaṅkticchadamādaśānaṃ muhuśca dantānapi saṃdaśānam|
 papāta daityasya śiro nikṛttaṃ yathā gireḥ śṛṅgam atipravṛddham|| 107.44||
-iti skandapurāṇe hiraṇyākṣavadhe saptottaraśatatamo .adhyāyaḥ|| 107.107||
 
 skandapurana108
 sanatkumāra uvāca|
@@ -11015,7 +10845,6 @@ taṃ prasthitam abhiprekṣya nimittāni ca suvrata|
 pūjāṃ sajjām akurvante delavoke divaukasaḥ|| 109.49||
 sa siddhasaṃghairanugamyamāno yakṣaiśca gandharvamahoragaiśca|
 rakṣogaṇaiścāraṇakiṃnaraiśca jagāma gaurīśikharaṃ mahātmā|| 109.50||
-iti skandapurāṇe vṛkabandho nāma navottaraśato .adhyāyaḥ|| 109.109||
 
 skandapurana110
 sanatkumāra uvāca|
@@ -11080,7 +10909,6 @@ vrataṃ pāśupataṃ divyaṃ yena kāmānavāpsyatha|| 110.29||
 yayau divam athāmantrya devīṃ girivarātmajām|| 110.30||
 atha himagiritulyacārumūrti vṛṣabhavaraṃ bhagavāṃstadādhirūḍhaḥ|
 suragaṇasahitaḥ prabhuḥ sumeruṃ vratam upadeṣṭumanā jagāma śarvaḥ|| 110.31||
-iti skandapurāṇe hiraṇyākṣavadhe
 varāharūpasaṃhāre devadevasya devalokagamanaṃ nāma
 
 skandapurana111
@@ -11488,7 +11316,6 @@ kathayadhvaṃ ca tat sarvaṃ yadyanugrāhyatā hi naḥ|| 112.170||
 tvam ācakṣva kṛtānteti vākyam ūcurmahābalāḥ|| 112.171||
 tataḥ sa teṣāṃ bahucitrakāraṇaṃ yathā bhaviṣyaṃ kathayāṃ cakāra|
 surāsurāṇāṃ jagataśca kāraṇaṃ purā vidhātrā vihitaṃ yathārthavat|| 112.172||
-iti skandapurāṇe mandarārohaṇo nāma dvādaśottaraśatatamo .adhyāyaḥ|| 112.112||
 
 skandapurana113
 vyāsa uvāca|
@@ -11785,8 +11612,6 @@ striyaḥ śūdrāśca te 'apīha rudralokaṃ vrajantyuta|
 vedavedāṅgatattvajño vimale jāyate kule|
 devabhaktaśca bhavati dharmaṃ ca kurute tadā|| 114.150||
 ūktaṃ mayātra tuṣṭhena svayam evāmbujekṣaṇe|| 114.151||
-iti skandapurāṇe amṛtamathane nīlakaṇṭhopākhyāne brahmadevakṛtaṃ
-mahādevastotraṃ nāma caturdaśottaraśatatamo .adhyāyaḥ|| 114.114||
 
 skandapurana115
 vyāsa uvāca|
@@ -11884,7 +11709,6 @@ prahlādo 'api raṇaṃ tyaktvā tānevānujagāma ha|
 teṣu bhagneṣvathendrasya jayaśabdaṃ supūjitam|| 115.50||
 samaṃ cakrustadā devāḥ sanārāyaṇalokāpāḥ|
 siṃhanādāṃśca vividhān vāditrāṇi nyavādayan|| 115.51||
-iti skandapurāṇe amṛtamathane yuddhe pañcadaśottaraśatatamo .adhyāyaḥ||
 
 skandapurana116
 sanatkumāra uvāca|
@@ -12231,8 +12055,6 @@ tatastadantaraṃ labdhvā pāpmā sā hi āsurī mune|
 prahṛṣṭā saṃprahṛṣyainam āviveśa janārdanam|| 117.30||
 sa tayā pāpmayā vyāsa āviṣṭo viṣṇuravyayaḥ|
 na babhau dīptimāṃstatra santaḥ prāpyeva dāruṇam|| 117.31||
-iti skandapurāṇe vāmane trailokyakramaṇe saptadaśottaraśatatamo
-.adhyāyaḥ|| 117.117||
 
 skandapurana118
 sanatkumāra uvāca|
@@ -12367,8 +12189,6 @@ sadbhāvaṃ tasya taṃ jñātvā sarvaṃ ca surasattamaḥ|
 cakāra sa yathāpūrvaṃ vṛkṣaṃ sarvaguṇānvitam|| 118.58||
 śukaśca karmaṇā tena dṛḍhabhaktitayāpi ca|
 dīneṣvabhyupapattyā ca brahmalokaṃ jagāma ha|| 118.59||
-iti skandapurāṇe vāmantīrthayātrāyāmaṣṭādaśottaraśatatamo
-.adhyāyaḥ|| 118.118||
 
 skandapurana119
 sanatkumāra uvāca|
@@ -12626,7 +12446,6 @@ aho vata tvayedaṃ me kathitaṃ brahmaṇaḥ suta|
 yātudhānyā upākhyānaṃ paraṃ guhyaṃ sudurvidam|| 119.108||
 idaṃ hi guhyaṃ paramaṃ mahārthavat sadā yaśasyaṃ paramaṃ ca pāvanam|
 tvayā mahāyoga yathāvadīritaṃ purāmṛtaṃ pūrṇaśaśiprabhaṃ yathā|| 119.109||
-iti skandapurāṇe vāmanatīrthayātrāyāṃ
 
 skandapurana120
 vyāsa uvāca|
@@ -12799,7 +12618,6 @@ devā api susaṃyattāstārakaṃ yuddhadurmadam|
 avākiranta vegena mayena sahitaṃ tadā|| 121.63||
 te daityavegapratiruddhavegā mahābalāḥ sindhusamānavegāḥ|
 jaghnurbhṛśaṃ daityagaṇān nipatya siṃhā yathāraṇyacarā mataṅgān|| 121.64||
-iti skandapurāṇe jāmadagnyavarapradāno nāma
 
 skandapurana122
 sanatkumāra uvāca|
@@ -13032,7 +12850,6 @@ hariścandram imaṃ yastu puriścandraṃ tu dharmavit|
 paṭheta śṛṇuyādvāpi pāpmānaṃ viśasyati|| 122.108||
 idaṃ tu yaḥ śuciranasūyavān sadā naraḥ paṭheddvijagaṇadevasaṃsadi|
 sa nirmalo raviriva tejasā jvalaṃstriviṣṭape vasati yathāmaro varaḥ|| 122.109||
-iti skandapurāṇe hariścandragirivarṇano nāma
 
 skandapurana123
 sanatkumāra uvāca|
@@ -13217,7 +13034,6 @@ pṛthivyāgamanaṃ caiva punarbhāvaṃ tathaiva ca|| 124.16||
 sa labhetākṣayā/llokān pṛthivīphalam eva ca|| 124.17||
 tāṃ sarvalokaprabhavām anekaśo mune praṇamyeha sadā narottamaḥ|
 prakīrtayedyo vasudhāṃ vasupradāṃ sa lokam āpnoti ṛṣerathākṣayam|| 124.18||
-iti skandapurāṇe kaśyapasya pṛthivībhāvo nāma
 
 skandapurana125
 sanatkumāra uvāca|
@@ -13260,7 +13076,6 @@ sadhvajaṃ dānaveśānam akarodyamagocaram|| 125.19||
 dhvaje lakṣyaṃ samāviśya devendreṇa mahātmanā|
 te tena śabdena mahānubhāvā hatāḥ samālakṣya surendrakalpāḥ|
 dhvaje niveśyaindrasamānacihnā vajreṇa devendrabalena sarve|| 125.20||
-iti skandapurāṇe dhvajayuddhe pañcaviṃśottaraśatatamo .adhyāyaḥ|| 125.125||
 
 skandapurana126
 vyāsa uvāca|
@@ -13355,7 +13170,6 @@ krodhaṃ na kurute 'asmāsu tvayi naḥ saṃtatirdhruvā|| 126.43||
 sanatkumāra uvāca|
 sa evam ukto ratham āsthito nṛpo mahānubhāvaḥ surasiddhapūjitaḥ|
 jagāma vegena surendravikramaḥ sa yatra yogī sagārantako babhau|| 126.44||
-iti skandapurāṇe sagarotpātirnāma ṣaḍviṃśottaraśatatamo .adhyāyaḥ||
 
 skandapurana127
 sanatkumāra uvāca|
@@ -13561,7 +13375,6 @@ namo bhastreśvarāyeti yaśca kṛtvā sadā śuciḥ|
 uttiṣṭhedvā svapedvāpi śakraloke sa modate|| 127.95||
 idaṃ mahaddivyam anantalābhaṃ paṭhet sadā yo dvijadevasaṃsadi|
 mahānubhāvo gaṇapo mahājavo bhavet sa divyastava deva saṃśrayāt|| 127.96||
-iti skandapurāṇe gaṅgāvatāre saptaviṃśottaraśatatamo .adhyāyaḥ|| 127.127||
 
 skandapurana128
 sanatkumāra uvāca|
@@ -13669,7 +13482,6 @@ sthānaṃ bhastrāpadaṃ nāma mayā yat parikīrtitam|| 128.54||
 sa devalokaṃ samprāpya devaiḥ saha cariṣyati|| 128.55||
 idaṃ mahat pāpavimocanaṃ śubhaṃ vimānayānāpsarasāṃ vilambhanam|
 śṛṇoti yo nityam adīnamānasaḥ sa yāti lokān viditān divaukasām|| 128.56||
-iti skandapurāṇe gaṅgāvataraṇe aṣṭāviṃśottaraśatatamo .adhyāyaḥ|| 128.128||
 
 skandapurana129
 sanatkumāra uvāca|
@@ -13762,7 +13574,6 @@ hataśiṣṭāstu ye tatra dānavāḥ śāntapauruṣāḥ|
 vibudhairugratejobhiste 'api sarve raṇe hatāḥ|| 129.45||
 ya idaṃ paṭhate viśuddhabuddhirnidhanaṃ saṃsadi dānaveśvarāṇām|
 manujo yuvatīrihaiva loke sa labhedapsarasāṃ samānarūpāḥ|| 129.46||
-iti skandapurāṇe andhakārayuddhe ūnatriṃśottaraśatatamo .adhyāyaḥ|| 129.129||
 
 skandapurana130
 vyāsa uvāca|
@@ -13921,7 +13732,6 @@ karigiritarutoraṇaprabhāstaruṇadivākaratulyatejasaḥ|
 gaṇapatipatayastava hyamī ripubalam īśvara jetum udyatāḥ|| 130.83||
 acaracarapate tato 'andhakaḥ pratisamatāṃ labhate raṇe sthitaḥ|
 gaṇapatiśatayūthasaṃvṛtto visṛja vibho 'avanatān gaṇeśvarān|| 130.84||
-iti skandapurāṇe andhakayuddhopakrame triṃśaduttaraśatatamo .adhyāyaḥ|| 130.130||
 
 skandapurana131
 sanatkumāra uvāca|
@@ -14027,7 +13837,6 @@ kṣipanti śubhrābhranibhāḥ śilāḥ kvacit tarūn samutpāṭya nadanti m
 nivāryamāṇāḥ pramathān samārdayan vaneṣu siṃhā mṛgayūthapāniva|| 131.48||
 tatastu tadgajarathavājidānavaiḥ samāvṛtaṃ kṣubhitamahodadhiprabham|
 virājate ditisutabāhupālitaṃ vanaṃ yathā mṛgapatibāhupālitam|| 131.49||
-iti skandapurāṇe andhakayuddhopakrame mandaravarṇanaṃ nāma
 
 skandapurana132
 sanatkumāra uvāca|
@@ -14151,7 +13960,6 @@ vajravyūho girivyūhaṃ bhettukāma ivābhavat|| 132.59||
 sādhu sādhviti vai nedurvismayotphullalocanāḥ|| 132.60||
 atha gaṇapabaleṣu siṃhanādāḥ paṇavamṛdaṅgamaśaṅkhanādamiśrāḥ|
 dititanayabhayapradāḥ pravṛttāḥ kṣubhitasamudrapayodanādakalpāḥ|| 132.61||
-iti skandapurāṇe andhakamathane vyūharacanā nāma
 
 skandapurana133
 sanatkumāra uvāca|
@@ -14182,7 +13990,6 @@ devāsurāḥ karasthaistu āyudhaiste sahasraśaḥ|
 viśeṣayanti yuddhe sma parasparajighāṃsavaḥ|| 133.14||
 tacchūlavajropalavṛkṣabāṇadṛḍhaprahārātiśayātiharṣam|
 vivardhate pāriṣadāsurāṇāṃ yuddhaṃ yugaṃ tiṣyam ivātighoram|| 133.15||
-iti skandapurāṇe gaṇayuddhe trayastriṃśaduttaraśatatamo .adhyāyaḥ|| 133.133||
 
 skandapurana134
 sanatkumāra uvāca|
@@ -14225,7 +14032,6 @@ bhayadā bhiruyodhānāṃ śūrāṇāṃ harṣavardhinī|
 pravṛttā rudhirāmbhobhiḥ svargalokavahā nadī|| 134.19||
 saṃrabdhadaityendravivṛddhadhūmaṃ nandīśvarāgnijvalitāntarālam|
 babhau balaṃ sāgaratulyanādaṃ vināśi yadvajjagadantakāle|| 134.20||
-iti skandapurāṇe gaṇayuddhe catustriṃśaduttaraśatatamo .adhyāyaḥ|| 134.134||
 
 skandapurana135
 sanatkumāra uvāca|
@@ -14281,7 +14087,6 @@ gajaiśca nīlācalasaṃnikāśai rathaiśca gandharvavimānakalpaiḥ|
 hayaiśca vāyupratimānavegaiścaranti daityāḥ samare hyabhītāḥ|| 135.27||
 te śūlaśaktyṛṣtibhuśuṇḍibāṇaiḥ śailopalaiścakrasaśūlavajraiḥ|
 anyonyam utsādayituṃ pravṛttā gaṇeśvarā dānavapuṃgavāśca|| 135.28||
-iti skandapurāṇe gaṇayuddhe pañcatriṃśottaraśatatamo .adhyāyaḥ|| 135.135||
 
 sanatkumāra uvāca|
 virocanastu daityendro virocana ivoditaḥ|
@@ -14383,7 +14188,6 @@ ubhau raṇasthau gajayūthapālau vyādhūtamālau bhṛśajātakopau|| 136.49|
 sasarjatustau śaravṛṣṭim ugrāṃ yathāmbuvṛṣṭiṃ jaladau sanādau|
 tataḥ punaścāyudhasarjagāni payodavisphūrjitagarjitāni|
 balāni tāni āsurapārṣadānāṃ saṃsaktabhāvaṃ paramaṃ gatāni|| 136.50||
-iti skandapurāṇe gaṇayuddhe
 
 skandapurana137
 sanatkumāra uvāca|
@@ -14425,7 +14229,6 @@ divyānāṃ suvicitrāṇām amṛtopamagandhinām|
 varṣaṃ papāta puṣpāṇāṃ yudhyante yatra te raṇe|| 137.20||
 tathā tu te gajaghananādagarjanāḥ śarāsiśaktyṛṣṭigadāvisarjanāḥ|
 parasparaṃ yuyudhuratīva saṃhatā diteḥ sutāḥ pramathagaṇāśca darpitāḥ|| 137.21||
-iti skandapurāṇe gaṇayuddhe saptatriṃśottaraśatatamo .adhyāyaḥ|| 137.137||
 
 sanatkumāra uvāca|
 tāmyamāneṣu daityeṣu daityayūthapayūthapāḥ|
@@ -14517,7 +14320,6 @@ sa vajraghātādavacūrṇitāsthiḥ saṃśīrṇadantekṣaṇabhagnajānuḥ
 kubjaḥ kujambho nipapāta bhūmau śakreṇa vajrābhihato yathādriḥ|| 138.47||
 tasmin hate devagaṇā vineduḥ sarve surāṇām arayaśca daityān|
 bhūtādhipaṃ bhūtapatiśca devaṃ prapūjayāmāsa śaśāṅkacihnam|| 138.48||
-iti skandapurāṇe gaṇayuddhe jambhavadhe
 
 sanatkumāra uvāca|
 kujambhaṃ nihataṃ dṛṣṭvā nandinā devanandinā|
@@ -14556,7 +14358,6 @@ atha gaganatale babhūva śabdaḥ kṣubhitasamudrapayodanādakalpaḥ|
 danutanayagaṇādhipeśayuddhaṃ tadupaniśamya divaukasāṃ tadānīm|| 139.17||
 pramathagaṇavarāḥ sanāgarudrā hyasuravarāśca sahāndhakā raṇasthāḥ|
 vyuparatakalahāstadāvatasthurgaṇapatidānavayuddham īkṣamāṇāḥ|| 139.18||
-iti skandapurāṇe gaṇayuddhe
 
 sanatkumāra uvāca|
 śaṅkukarṇaṃ tu dhāvantaṃ jambhaṃ prati mahābalaḥ|
@@ -14616,7 +14417,6 @@ vṛtramuktastu gaṇapaḥ śaṅkukarṇo mahābalaḥ|
 yoddhukāmaḥ punarvṛtraṃ nivṛtto hastirāḍiva|| 140.29||
 tataḥ punaḥ siṃharavāḥ samantāt tasmin bale dundubhinisvanāśca|
 he śaṅkukarṇeti ca sādhuvādo manoharastasya raṇe babhūva|| 140.30||
-iti skandapurāṇe gaṇayuddhe
 
 sanatkumāra uvāca|
 śaṅkukarṇaṃ bhrāmayitvā vṛtrastyaktvā ca bhūtale|
@@ -14665,7 +14465,6 @@ kamaladalanikāśalocanaiḥ kamaladivākaracandrasannibhaiḥ|
 danutanayavarānanairmahī prativibabhau kamalairivāvṛtā|| 141.22||
 vimathitagaṇadānaveśvaraṃ rudhiravapāmadasekarūṣitam|
 samaram atisuraudradāruṇaṃ garuḍapiśācabalāvalokitam|| 141.23||
-iti skandapurāṇe gaṇayuddhe
 
 sanatkumāra uvāca|
 tasmin vartati saṃgrāme pramathāsurasainyayoḥ|
@@ -14743,7 +14542,6 @@ atha daivatairmunivaraiśca kṛtaḥ pramathaiśca bhīmaninadairninadaḥ|
 tadarermukhaṃ hṛtam udīkṣya tadā vaḍavāmukhāgnidamanena raṇe|| 142.38||
 sa tu viṭpatiḥ pramathasainyapatistvabhisṛtya bhūtapatinā suciram|
 abhipūjitaḥ samarakarmapaṭustridaśārisiṃhadamano damanaḥ|| 142.39|
-iti skandapurāṇe gaṇayuddhe
 
 sanatkumāra uvāca|
 kārtasvanam ariṃ hatvā kārtasvaramaheṣuṇā|
@@ -14803,7 +14601,6 @@ teṣāṃ ca teṣāṃ ca tato babhūva saṃsaktayuddhaṃ samaroddhatānām|
 madoddhatānāṃ sahavāsitānāṃ mahāgajānām iva kānaneṣu|| 143.29||
 taṃ dānavānāṃ sagaṇeśvarāṇāṃ mukhyāhavaṃ vīkṣya divaukasāste|
 cerurnabho divyavimānayānaiḥ sahiṃsanādāḥ satalābhighātāḥ|| 143.30||
-iti skandapurāṇe gaṇayuddhe
 
 sanatkumāra uvāca|
 te 'atisaṃrambhasaṃyuktā darpitāḥ pramathāsurāḥ|
@@ -14851,7 +14648,6 @@ indranīlaṃ maṇiṃ prāpya rekhā cāmīkarī yathā|| 144.22||
 sa huṇḍaśaktiṃ karapuṣkareṇa nikṛṣya devo raviraśmikalpām|
 tayaiva huṇḍaṃ sahasā jaghāna tasyānujaḥ krauñcam ivāvanīdhram|| 144.23||
 pramāpitau vīkṣya tuhuṇḍahuṇḍau vināyakenārivināyakena|
-iti skandapurāṇe gaṇayuddhe
 
 sanatkumāra uvāca|
 vināyakena huṇḍe ca tuhuṇḍe ca pramāpite|
@@ -14879,7 +14675,6 @@ tato 'andhako dānavalokasārathiḥ svasārathiṃ prāha vivṛttalocanaḥ|
 śukraṃ prati prāpāya sārathe māṃ sa naḥ sadā suḥkhaharo guruśca|| 145.13||
 sa taṃ rathaṃ dānavayūthapāsthitaṃ tatheti ca procya sadaśvasaṃyutam|
 samprāpayāmāsa payodanisvanaṃ sa yatra śukro grahasattamo dvija|| 145.14||
-iti skandapurāṇe gaṇayuddhe
 
 sanatkumāra uvāca|
 apasṛtya tato yuddhādandhako 'asurasattamaḥ|
@@ -14918,7 +14713,6 @@ tānutthitān vīkṣya sahasraśo 'anye kuṭhāravajrāśaniśūlahastāḥ|
 pradudruvuḥ śaṃkarakiṃkarāṇāṃ balaṃ samuddhūtamahārṇavābham|| 146.26||
 samāgamastatra punarbabhūva gaṇāsurāṇām atibhīmanādaḥ|
 yugātyate mārutavejitānāṃ yathā samudyoga ivārṇavānām|| 146.27||
-iti skandapurāṇe gaṇayuddhe daityojjīvane
 
 sanatkumāra uvāca|
 utthāpiteṣu daityeṣu bhārgaveṇograkarmaṇā|
@@ -14991,7 +14785,6 @@ tenāntareṇaitya bhavasya pārśvaṃ nandīśvaraḥ krodhavivarṇanetraḥ|
 jagrāha śukraṃ sa ca devadevo yathopahāraṃ śucinā pradattam|
 vaktrasthitaṃ śukram ariṃ jagāra na kiṃciduktvā sa hi bhūtagoptā|| 147.42||
 tataḥ punardānavadaityasainyaṃ gaṇeśvarāstasya tadā vijaghnuḥ|| 147.43||
-iti skandapurāṇe gaṇayuddhe bhārgavaharaṇe
 
 sanatkumāra uvāca|
 śukre 'atha śukrapatinā gīrṇe 'anneva bhujaṅginā|
@@ -15082,7 +14875,6 @@ tato gaṇeśā hyapi vīkṣya dānavairvināyakaṃ śastraśataiḥ parikṣa
 gṛhītaśastrā gajasiṃhavikramā vimuktarāvāḥ śataśo 'abhidudruvuḥ|| 148.48||
 tataḥ punaḥ śastrasahasravejitaṃ śarāsiśaktyṛṣṭinipātaduḥsaham|
 gaṇāsurāṇām asunāśanaṃ mahadbabhūva yuddhaṃ hatavājikuñjaram|| 148.49||
-iti skandapurāṇe gaṇayuddhe
 
 sanatkumāra uvāca|
 nigīrṇo brāhmaṇaḥ so 'atha candrāvayavadhāriṇā|
@@ -15136,7 +14928,6 @@ te danostanayaiḥ sārdhaṃ danoḥ putrānvayāśca ye|
 cakruḥ kṛtāntasadṛśāḥ kalahaṃ kalahapraiyāḥ|| 149.25||
 tasmiṃstathā vartati samprahāre viśīrṇahārābharaṇasragastraiḥ|
 vyāviddhavastrā vikasatsunetrā neduḥ surāḥ siddhagaṇāśca khasthāḥ|| 149.26||
-iti skandapurāṇe gaṇayuddhe
 
 vyāsa uvāca|
 māyāvīryaṃ ca vīryaṃ ca andhakasyāmaradviṣaḥ|
@@ -15250,7 +15041,6 @@ vivṛścitāścandanavadgaṇeśvarā bhujodare vakṣasi mūrdhni cāsakṛt|
 nirudyamāstasthuramitranandanā yathā gajāḥ pañjarabandhabandhanāḥ|| 150.58||
 tato 'asuraiḥ siṃharavāstadā kṛtāḥ saśaṅkhabherīśatadundubhotkaṭāḥ|
 punaśca yuddhaṃ prababhau bhayānakaṃ gaṇeśvarāṇāṃ saha dānaveśvaraiḥ|| 150.59||
-|| iti skandapurāṇe gaṇayuddhe 'asuraśāpe
 
 sanatkumāra uvāca|
 vartamāne 'andhake yuddhe vidravatsu gaṇeṣu ca|
@@ -15355,8 +15145,6 @@ sa taṃ rathaṃ dānavendra āruroha tadāndhakaḥ|
 yathodayaṃ tu bhagavān dinakṛt pūrṇamaṇḍalaḥ|| 151.52||
 tataḥ punaryujyata devadānavaiḥ prakartukāmaiḥ kalahaṃ sudāruṇam|
 triśūlavajrāśanisāyakai raṇe pradhūpito 'agnirjvalitastarāṃ babhau|| 151.53||
-|| iti skandapurāṇe
-andhakanandiyuddha ekapañcāśaduttaraśatatamo 'adhyāyaḥ|| 151.151||
 
 sanatkumāra uvāca|
 jambho 'ambuda ivārāvaṃ kṛtvā dudrāva dānavaḥ|| 152.1||
@@ -15461,8 +15249,6 @@ tā me-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --|| 152.51||
 abjaṃ mahaddhūmalatāvṛtaṃ ca khadyotatulyaṃ ca mahāgnicūrṇam|| 152.52||
 so 'apyāyitodvṛttasamudranādo nabhogato daivatasaṃghavairī|
 muhuḥ sṛjatyeva mahāmbuvarṣaṃ yathāntakāle 'ambumugugravarṣam|| 152.53||
-|| iti skandapurāṇe
-andhakayuddha dvipañcāśaduttaraśatatamo 'adhyāyaḥ|| 152.152||
 
 sanatkumāra uvāca|
 tato 'andhako viyatsthito mahāmbudaughasannibhaḥ|
@@ -15504,7 +15290,6 @@ piśācayakṣarākṣasāḥ pipāsayātikarṣitāḥ|| 153.18||
 surā yathā varāmṛtaṃ papustathaiva śoṇitam|
 tataḥ punaḥ samākulaṃ babhūva yuddham adbhutam|
 tadāndhake śarāhate maheṣuṇātha nandine|| 153.19||
-|| iti skandapurāṇe
 
 sanatkumāra uvāca|
 hanyamāne bale tasmin devaiḥ sapramatheśvaraiḥ|
@@ -15595,7 +15380,6 @@ tasmin surabale devaṃ vimucyaikaṃ gaṇādhipam|| 154.47||
 mahāmaṇiśiromauliṃ na ka kaścidavatasthitavān|
 tato 'asurabale ghoraḥ sarvaprāṇikṛto mahān|
 siṃhanādaravo jajñe savāditraravo 'adbhutaḥ|| 154.48||
-|| iti skandapurāṇe 'andhakavijaye
 
 sanatkumāra uvāca|
 etasminnantare devāḥ sarve śakrapurogamāḥ|
@@ -15826,7 +15610,6 @@ sa tvevam uktaḥ pārvatyā andhako 'arcitamānitaḥ|
 anujñātaśca pārvatyā mumude harapārśvagaḥ|| 157.38||
 ityevam andhakaṃ devastamorikṛtamūṣaṇaḥ|
 anugṛhya girau tasmin vijahāra yathāsukham|| 157.39||
-|| iti skandapurāṇe andhakavarapradānaṃ nāma
 
 vyāsa uvāca|
 anndhakaṃ gaṇapaṃ kṛtvā devyā saha maheśvaraḥ|
@@ -16010,7 +15793,6 @@ ityevaṃ giritanayā girīśam uktvā giryagre giritarupuṣpapuñjacitre|
 tenāgryā saha vicacāra cārurūpā bhānorbhā iva saha bhānunā bhavānī|| 158.88||
 iti tau surapūjitāvaparasparapūjitau|
 sahitau praviceratuḥ pravareśvaravanditau|| 158.89||
-|| iti skandapurāṇe bhūmijaputravarṇane
 
 sanatkumāra uvāca|
 pārvatyā niścayaṃ jñātvā bhagavāṃstryambakastadā|
@@ -16127,7 +15909,6 @@ mānayanto bhavaṃ sarve sāmbam ambāpatiṃ drutam|
 śvo gacchata taponityā mandaraṃ dharaṇīdharam|| 159.57||
 tatra śarvam amarādhipaprabhuṃ tārakādhipavibhūṣaṇaṃ śivam|
 drakṣyatheśam asurapramardanaṃ devatārtinikhilaṃ haran haram|| 159.58||
-|| iti skandapurāṇe taruputrakagrahaṇe
 brāhmaṇāmantraṇe
 
 sanatkumāra uvāca|
@@ -16218,7 +15999,6 @@ tvayi yāte suraśreṣṭha aśokatarukotsave|
 prītiṃ yāsyati deveśaḥ parāṃ suranarārttihā|| 160.42||
 śitaśūladharaṃ pinākinaṃ girirājendrasutāpatiṃ prabhum|
 praṇipatya maheśam ūrjitaṃ punarevaiṣyasi nākasaṃsadam|| 160.43||
-|| iti skandapurāṇe viprāmantraṇe
 
 sanatkumāra uvāca|
 śakreṇa tu kṛtānujño nandī pramathanāyakaḥ|
@@ -16278,7 +16058,6 @@ atha bhuvanapatiṃ patiṃ surāṇāṃ giritanayāmukhapaṅkajadvirepham|
 dhanadavaradam etya bhūtanāthaṃ gaṇapatinātha idaṃ tadāvabhāṣe|| 161.28||
 divi ca bhuvi ca ye caranti viprāḥ śamadamasaṃyamaśaucasattvayuktāḥ|
 tripuradamana kālanāśa sarve tava vacanādvinimantritā mayā te|| 161.29||
-|| iti skandapurāṇe taruputragrahaṇe viprāmantraṇaṃ nāma
 
 sanatkumāra uvāca|
 āmantriteṣu vipreṣu nārāyaṇapadatraye|
@@ -16553,7 +16332,6 @@ sāpāṅgacakṣurvikṣepaṃ kṛtvomā patinā saha|
 viveśa sadanaṃ devī prabhevādityamaṇḍalam|| 162.138||
 iti paśupatinā sahaiva devī sutam upagṛhya taruṃ hyaśokapotam|
 pramuditagaṇamadhyagā viveśa svabhavanam eva tadā prahṛṣṭacittā|| 162.139||
-|| iti skandapurāṇe aśokataruputragrahaṇe
 
 vyāsa uvāca|
 śārvaṃ tejaḥ samādāya vahniḥ kiṃ kṛtavāṃstadā|
@@ -16696,7 +16474,6 @@ jetum icchanti daityendraṃ prasādāt tava śaṃkara|| 163.73||
 dadāvanujñāṃ skandāya senāpatyābhiṣecane|| 163.74||
 atha vibudhasamūhairvandito vandanīyo madanatanuvihantā bālacandrārdhamauliḥ|
 tanayam abhisamīkṣya snehasamphullanetraḥ śaśikiraṇasitādrerāśu so 'antarbabhūva|| 163.75||
-|| iti skandapurāṇe skandābhiṣekānujñāne
 
 sanatkumāra uvāca|
 atha te skandam ādāya surā brahmapuraḥsarāḥ|
@@ -16984,7 +16761,6 @@ tejasāṃ nidhaye tasmai dadau daṇḍaṃ bṛhaspatiḥ|
 skandāya paramaprītaścārucāmīkarasrajam|| 164.185||
 senāpatiṃ tam abhiṣicya hutāśaputraṃ samyak prahṛṣṭamanaso vibudhāḥ sametāḥ|
 daityeśvarasya nidhanāya mahāprabhāvā yātrāṃ surārijayinīsahitāḥ pracakruḥ|| 164.186||
-|| iti skandapurāṇe senāpatyābhiṣeke
 
 sanatkumāra uvāca|
 skandaṃ purodhāya surāḥ samastāḥ sannāhayāmāsuranīkam āśu|
@@ -17078,7 +16854,6 @@ dititanayasamūhaiḥ sārdham āvipratāpaiḥ (?)
 samaraśirasi hatvā tārakaṃ daityarājam|
 tridaśasamitimukhyaiḥ stūyamānaḥ prahṛṣṭaiḥ
 pratigamadamitaujāḥ śūlapāṇeḥ samīpam|| 165.44||
-|| iti skandapurāṇe tārakavadhe
 
 vyāsa uvāca|
 bhagavan sarvadharmajña mahāyogabalānvita|
@@ -17318,7 +17093,6 @@ pragṛhya sauriṃ pitṛrājam āśu śveto 'api tasthau maraṇādvihīnaḥ|
 nandī yathā nirvṛtaduḥkhabhāvastathaiva vipraḥ parameśabhaktaḥ|| 166.120||
 iti kathitam idaṃ te śvetamṛtyupraṇāśaṃ himagiritanayāyā bharturīśasya śambhoḥ|
 phalam avitathabhakti prāptisampadviśeṣaṃ jagati śaraṇam ekaṃ taṃ śaraṇyaṃ namasye|| 166.121||
-iti skandapurāṇe śvetavarapradāne
 
 vyāsa uvāca|
 yat proktaṃ bhavatā guhyaṃ māhātmyam idam uttamam|
@@ -17708,7 +17482,6 @@ iti girivaraputrīviṣṇugaṅgādharasya
 jagati vasatireṣā sarvakāmapradā te|
 munivarasutaśiṣṭā pāpasaṃśuddhakartrī
 vada kim aparam anyadvyāsa tubhyaṃ vadāni|| 167.208||
-|| iti skandapurāṇe śivāyatanavarṇane
 
 sūta uvāca|
 śrutvā kathām āyatanānubaddhāṃ candrārdhabimbāsthitamaulinastu|
@@ -17781,9 +17554,7 @@ gītāya sāṃkhye puruṣāya nityaṃ namo 'astu yogopaniṣatsthitāya|| 168
 mahāpurāṇāya parāt parāya sthūlāya sūkṣmāya namaḥ sadaiva|
 tuṣṭo 'asmi devā vṛṇutādya śīghraṃ samīhitaṃ vo yadi kiṃcidasti|
 dātāsmi sarvaṃ tadaśeṣato 'adya kiṃcinna yuṣmabhyam adeyam asti|| 168.53||
-|| iti skandapurāṇe tripuravadhopakrame devatāvarapradānaṃ nāma
 
-ūnasaptatyuttaraśatatamo .adhyāyaḥ|
 devā ūcuḥ|
 brahmadattavarairdeva mayādyairdānavaistribhiḥ|
 durgaṃ tat tripuraṃ kṛtvā bādhyamāno baladarpitaiḥ|| 169.1||
@@ -17879,10 +17650,7 @@ saratho 'ayam ihāyāti asāvanyaḥ pradṛśyate|
 katham āhata ityevaṃ vacāṃsi ūcuḥ parasparam|| 169.97||
 vigatabhayaviṣādāstraipurā daityasaṃghāḥ
 paśava iva mukhāgneravagacchan samīpam|| 169.98||
-|| iti skandapurāṇe tripuravadhe 'asuravarṇane
-ūnasaptatyuttaraśatatamo 'adhyāyaḥ|| 169.169||
 
-saptatyuttaraśatatamo .adhyāyaḥ|
 sanatkumāra uvāca|
 athābhyagāt paścimasāgarasya mūrdhni sthitaṃ tat tripuraṃ ratho 'asau|
 nānāpatākojjvalacitramaulirhemopalo merurivādrirājaḥ|| 170.1||
@@ -17938,10 +17706,7 @@ kṛtaṃ tvayedaṃ bhagavannaśakyaṃ śubhaṃ mahadraudrataraṃ ca karma||
 nityaṃ naviñātagamakriyāya namo namaḥ sarvagatāya tubhyam|| 170.63||
 iti kathitam asahyaṃ devadevasya karma tripuradahanasaṃjñaṃ vyāsa tubhyaṃ mayaitat|
 manuja idam adhīte yaḥ śuciḥ śarvabhaktaḥ sa bhavati gatapāpaḥ svargabhāgdevajanmā|| 170.67||
-|| iti skandapurāṇe tripuravadhe
-saptatyuttaraśatatamo 'adhyāyaḥ|| 170.170||
 
-ekasaptatyuttaraśatatamo .adhyāyaḥ|
 vyāsa uvāca|
 śrutaṃ mayaitadbhagavan dahanaṃ tripurasya tu|
 vicitrārthaṃ yathāvṛttaṃ ka evam abhidhāsyati|| 171.1||
@@ -18207,10 +17972,7 @@ koṭīvarṣe vasanti sma sarvalokābhayapradāḥ|
 abhavacchaṃkaro vyāsa yanmāṃ tvaṃ pṛṣṭavānasi|| 171.136||
 utpattim etāṃ jagatīśvarīṇāṃ brahmendraśakrānilavanditānām|
 paṭhenmanuṣyaḥ śṛṇuyācca nityaṃ yaḥ svargalokaṃ sa mṛto labheta|| 171.137||
-|| iti skandapurāṇe
-ekasaptatyuttaraśatatamo 'adhyāyaḥ|| 171.171||
 
-dvisaptatyuttaraśatatamo .adhyāyaḥ|
 sanatkumāra uvāca|
 śakreṇa girayaḥ pūrvaṃ chinnapakṣā yathā kṛtāḥ|
 purā siṃhavapuḥ kṛtvā viṣṇunā paramaujasā|
@@ -18342,10 +18104,7 @@ kṣetrajñaboddhā guṇaviprayukto duḥkhairvihīno bhavapāśabandhaiḥ|
 tāmisramohapratibandhamukto yogīśvaro 'asau ditijādhipo 'abhūt|| 172.64||
 evaṃ tāṃśchinnapakṣāṃstu girīn sarvān purandaraḥ|
 pracakāra muniśreṣṭha prāk pṛṣṭo yadahaṃ tvayā|| 172.65||
-|| iti skandapurāṇe prahrādacarite parvatapakṣacchedo nāmā
-dvisaptatyuttaraśatatamo 'adhyāyaḥ|| 172.172||
 
-trisaptatyuttaraśatatamo .adhyāyaḥ|
 vyāsa uvāca|
 nagendre jīvite krauñce toṣite ca surairguhe|
 kim anyadakaroddevaḥ kiṃ cainaṃ prāha pārvatī|
@@ -18448,10 +18207,7 @@ māhātmyam etat kathitaṃ yathāvanmahāmahīdhrendrasute dvijānām|
 sanatkumāra uvāca|
 -- -- -- -- -- -- -- -- pārāśarya tapodhana|
 śrotavyaṃ manyase mattastat pṛcchasva samāhitaḥ|| 173.72||
-|| iti skandapurāṇe dvijamāhātmyavarṇanaṃ nāmā
-trisaptatyuttaraśatatamo 'adhyāyaḥ|| 173.173||
 
-catuḥsaptatyuttaraśatatamo .adhyāyaḥ|
 vyāsa uvāca|
 bhagavan yat tvayā proktaṃ dakṣayajñavadhe tadā|
 lebhire paramaṃ tattvaṃ jñānena hi mahāmune|
@@ -18577,10 +18333,7 @@ pare māheśvare yoge nityam abhyāsam ācaret|
 puruṣaḥ pañcaviṃśaśca sāṃkhyasiddhāntagocaraḥ|
 etadeva paraṃ guhyaṃ sāṃkhyānāṃ tattvaviniścaye|
 prakṛterantaraṃ jñātvā puruṣasya ca mucyate|| 174.64||
-iti skandapurāṇe pāśupatasyogavarṇanaṃ nāma dhyānavidhau
-prathamo 'ayaṃ catuḥsaptatyuttaraśatatamo 'adhyāyaḥ|| 174.174||
 
-pañcasaptatyuttaraśatatamo .adhyāyaḥ|
 sanatkumāra uvāca|
 yogaṃ sāṃkhyaṃ ca sarvatra dvividhaṃ jñānam ucyate|
 aṣṭau prakṛtayo hyetāstanmātraiḥ pañcabhiḥ saha|| 175.2||
@@ -18671,8 +18424,6 @@ siddhinirdvandvasaṃyogam aśubhodayanāśanam|
 paropalabdhivijñānaṃ tattvārthapadaniścayam|| 175.44||
 bhavajanmāpahaṃ yogaṃ viṣayendriyavarjitam|
 mataṃ paśupateḥ kṛtsnam amṛtāspadalambhanam|| 175.45||
-iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
-dvitīyo 'ayaṃ pañcasaptatyuttaraśatatamo 'adhyāyaḥ|| 175.175||
 
 sanatkumāra uvāca|
 utpadyate yathā janturvairāgyaṃ vrajate yathā|
@@ -18756,9 +18507,7 @@ sarvaprāṇigataṃ sūkṣmam ātmadehe ca saṃsthitam|
 yaṃ prapaśyanti saṃsiddhā yogino gatabandhanāḥ|| 176.42||
 yo 'abhyupāyaḥ parastasya vijñānād īśvarasya tu|
 yogābhyāsaṃ paraṃ taṃ te pravakṣyāmi dvijottama|| 176.43||
-iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
 
-saptasaptatyuttaraśatatamo .adhyāyaḥ|
 sanatkumāra uvāca|
 antarātmā ca cetovān manaḥ saṃkalpajaṃ smṛtam|
 mahābhūtapracārācca kṣobhāgnirjīva ucyate|| 177.1||
@@ -18850,10 +18599,7 @@ samyagetān munirjñātvā nirmamo 'anyatamaṃ śritaḥ|
 tadāpnoti paraṃ dhyānaṃ yena vindati tat param|| 177.44||
 sarvān dhyānavidhāṃstvetānucyamānānimān mayā|
 śṛṇu vyāsa mahābuddhe yogaiśvaryaphalapradān|| 177.45||
-iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
-caturthaḥ saptasaptatyuttaraśatatamo 'adhyāyaḥ|| 177.177||
 
-saptasaptatyuttaraśatatamo .adhyāyaḥ|
 sanatkumāra uvāca|
 dvividhaṃ brahma nirdiṣṭaṃ kṣaram akṣaram eva ca|
 viditvobhayam etaddhi mucyate sarvabandhanaiḥ|| 178.1||
@@ -18910,7 +18656,6 @@ yuñjan pratidinaṃ vyāsa ṣaṅmāsādyogam āpnute|| 178.28||
 paśyate ca paraṃ brahma yena mucyeta bandhanāt|
 tam ātmānaṃ paraṃ jñātvā yogaśaktyā mahāmuniḥ|
 paramaiśvaryasaṃyukta amṛtaṃ padam āpnuyāt|| 178.29||
-iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
 
 sanatkumāra uvāca|
 antaḥkaraṇasaṃsiddho yo mahān kathito mayā|
@@ -19015,7 +18760,6 @@ yogaṃ pāśupataṃ tubhyam ādyaṃ mokṣagatipradam|| 179.50||
 sarvaprasaṅgarahitaṃ haravaktraviniḥsṛtam|
 sūkṣmaṃ tat paramaṃ jñānaṃ pravakṣyāmi tavānagha|
 yasya samyakparijñānādvijñeyaṃ nāparaṃ bhavet|| 179.51||
-iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
 
 sanatkumāra uvāca|
 yadā bhasma praviṣṭāste tejaḥ śāṃkaram uttamam|| 180.2||
@@ -19076,8 +18820,6 @@ mahāmohau tamoniṣṭhau viṣayāsaṅgasaṃyutau|
 sattvapūrvau rajomadhyau sukhaduḥkhānvitau sadā|| 180.52||
 tasmāt prakṛtirutpannā tasminneva praṇaśyati|
 prakṛtistaṃ na badhnāti mucyate ca bhavārṇavāt|| 180.54||
-iti skandapurāṇe pāśupatayogavarṇane dhyānavidhau
-saptamo 'aśītyuttaraśatatamo 'adhyāyaḥ|| 180.180||
 
 sanatkumāra uvāca|
 vibhaktāḥ kramaśo dehe vibhāgena yathāśrayam|
@@ -19141,8 +18883,6 @@ nirañjanaṃ nirvikalpaṃ prabhuṃ taṃ na vikalpayet|| 181.53||
 samyagīśvarasaṃdhānaṃ yadanyatra na vidyate|| 181.55||
 saṃdeho yatra te vipra praṣṭavyaṃ yacca manyase|
 tadbrahman paripṛcchāśu nāvaktavyaṃ tavāsti me|| 181.56||
-iti skandapurāṇe pāśupatayogavarṇane
-yogavidhāvaṣṭama ekāśītyuttaraśatatamo 'adhyāyaḥ|| 181.181||
 
 vyāsa uvāca|
 bhagavan sarvayogīśa sarvāmaranamaskṛta|
@@ -19205,8 +18945,6 @@ evaṃ pāśupatā viprā niṣkalaṃ taṃ maheśvaram|
 yogādāviśya mucyante punarjanmavivarjitāḥ|| 182.53||
 sakalasyāspadaṃ divyaṃ brahmalokāt pare sthitam|
 mahādevasya vakṣyāmi tadbhaktā yatra yānti te|| 182.54||
-iti skandapurāṇe pāśupatayogavarṇane
-yogavidhau navamo dvyaśītyuttaraśatatamo 'adhyāyaḥ|| 182.181||
 
 sanatkumāra uvāca|
 satyasya mahataścaiva janasya tapasastathā|
@@ -19288,10 +19026,8 @@ nāgendrairasurendrayakṣavibudhaiḥ siddhairdvijendrairapi
 sarve te jvaladarkavahnivapuṣastryakṣāḥ śaśāṅkatviṣaḥ
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 puram ajaram anantaṃ prāpsyatheśādhivāsam|| 183.74||
-ārṣaṃ skandapurāṇaṃ sayogavidhi samāptam|
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --|
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --||
-ālaṣka (saṃ 234) caitraśukladvādaśyāṃ samāptam|
 sarvasattvakaivalyārthena skandapurāṇaśāstraṃ likhitam iti|| 183.1||
 || śubham||
 (2043 mārgaḥ )
@@ -19357,4 +19093,3 @@ varṣamāṇā iva ghanāḥ siṃḥā iva ca nardinaḥ|
 dānavānāṃ balaṃ sarve vegenaivābhyavārayan|| 188.32||
 taddevavegaprahatābhivegaṃ balaṃ sayatnaṃ danudānavānām|
 bhavatyanādhāram atiprasaktaṃ tṛṇaṃ yathā vahnimukhāvasaktam|| 188.33||
-iti skandapurāṇe

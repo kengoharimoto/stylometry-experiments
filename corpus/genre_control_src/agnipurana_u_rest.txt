@@ -6230,7 +6230,6 @@ kroṃ kṣūṃ śrīṃ netramityuktaṃ kṣauṃ astraṃ vai tataś ca pha�
 huṃ śiraś caiva madhye syāt pūrvādau khe sadāśive /AP_147.008ab/
 va īśaḥ che manonmānī makṣe tārkṣo hrīṃ ca mādhavaḥ //AP_147.008cd/
 kṣeṃ brahmā huṃ tathādityo dāruṇaṃ phaṭ smṛtāḥ sadā //9//AP_147.009ab/
-e: ity āgneye mahāpurāṇe yuddhajayārṇave tvaritāpūjādirnāma saptacatvāriṃśadadhikaśatatamo 'dhyāyaḥ ||
 saṅgramavijayapūjā
 īśvara uvāca / oṃ ḍe kha khyāṃ sūryāya saṅgrāmavijayāya namaḥ / hrāṃ hroṃ hrūṃ hreṃ hrauṃ hraḥ
 ṣaḍaṅgāni tu sūryasya saṅgrāme jayadasya hi /AP_148.001ab/
@@ -9955,7 +9954,6 @@ draṣṭāro vyavahārāṇāṃ sākṣiṇaś ca ta eva hi /AP_256.052ab/
 rājñā sacihnā nirvāsyāḥ kūṭākṣopadhidevinaḥ //AP_256.052cd/
 dyūtamekamukhaṃ kāryaṃ taskarajñānakāraṇāt /AP_256.053ab/
 eṣa eva vidhirjñeyaḥ prāṇidyūte samāhvaye //AP_256.053cd/
-vākpāruṣyādiprakaraṇam
 satyāsatyānyathā stotrair nyūnāṅgendriyarogiṇāṃ /AP_257.001ab/
 kṣepaṃ karoti ceddaṇḍyaḥ paṇānardhatrayodaśa //AP_257.001cd/
 śapantaṃ dāpayedrājā pañcaviṃśatikaṃ damaṃ //AP_257.002cd/
@@ -10608,7 +10606,6 @@ vidyārthināñca vidyādamarthināṃ śrīdhanapradam /AP_270.019ab/
 guṇakīrtipradannṝṇāṃ jayadañjayakāminām //AP_270.021cd/
 sarvepsūnāṃ sarvadantu muktidaṃ muktikāmināṃ /AP_270.022ab/
 pāpaghnaṃ pāpakartṝṇāmāgneyaṃ hi purāṇakam //AP_270.022cd/
-ityāgneye mahāpurāṇe vedaśākhādikīrtinaṃ nāma saptatyadhikadviśatatamo 'dhyāyaḥ
 dānādimāhatmyaṃ
 brahmaṇābhihitaṃ pūrvaṃ yāvanmātraṃ marīcaye /AP_271.001ab/
 vaiśākhyāmpaurṇamāsyāñca svargārthī jaladhenumat /AP_271.002ab/
@@ -13889,7 +13886,6 @@ sakṛtsahaikavāre syādārāddūrasamīpayoḥ /AP_360.004ab/
 pratīcyāṃ carame paścādutāpyarthavikalpayoḥ //AP_360.004cd/
 punaḥsadārthayoḥ śaśvat sākṣāt pratyakṣatulyayoḥ /AP_360.005ab/
 hanta harṣe 'nukampāyāṃ vākyārambhaviṣādayoḥ /AP_360.006ab/
-iti hetau prakaraṇe prakāśādisamāptiṣu /AP_360.007ab/
 vṛthā nirarthakāvidhyornānānekobhayārthayoḥ /AP_360.009ab/
 nu pṛcchāyāṃ vikalpe ca paścātsādṛśyayoranu //AP_360.009cd/
 praśnāvadhāraṇānujñānunayāmantraṇe nanu /AP_360.010ab/

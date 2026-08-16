@@ -157,7 +157,6 @@ kathaṃ vai nāśitāḥ pūrvaṃ nāradena surarṣiṇā /
 pūrvamuktaṃ vacastadvai śrāvitā nāradena ha // 2,2.24 //
 te 'pi tenaiva mārgeṇa prayātāḥ sarvato diśam /
 tadā teṣvapi naṣṭeṣu mahātmā sa prabhuḥ kila /
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte madhyabhāge tṛtīya upoddhātapāde prajāpativaṃśānukīrttanaṃ nāma dvitīyo 'dhyāyaḥ
 aṅgārakaṃ tathā sarpaṃ nirṛtiṃ sadasatpatim // 2,3.70 //
 sṛjatyathānugṛhṇāti tathā saṃharati prajāḥ /
 tasmātpṛthaktvamekatvaṃ saṃkhyā saṃkhye gatāgatam /
@@ -582,7 +581,6 @@ paśūnāṃ brāhmaṇānāṃ ca śrīmatāṃ puṇyalakṣaṇaḥ /
 āyuṣyaścaiva dhanyaśca śrīmān hitasukhāvahaḥ /
 śrotavyaścaiva satataṃ grāhyaścaivānasūyataḥ // 2,7.478 //
 imaṃ tu vaṃśaṃ niyamena yaḥ paṭhenmahātmanāṃ brāhmaṇavandyasaṃsadi /
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte madhyabhāge tṛtīya upoddhātapāde kāśyapeyavarṇanaṃ nāma saptamo 'dhyāyaḥ
 abhiṣicyādhipatyeṣu teṣāṃ mukhyānprajāpatiḥ /
 daityānāmatha rājānaṃ prahrādaṃ ditinandanam /
 sarveṣāṃ daṃṣṭriṇāṃ śeṣaṃ nāgānāmatha vāsukim /
@@ -1525,7 +1523,6 @@ devabhaktā mahātmānaḥ punīyurdarśanādapi // 2,15.63 //
 satyāsatyaṃ ca yaddṛṣṭaṃ sada sacca mahātmabhiḥ /
 sarvajñānāni sṛṣṭāni mokṣādīnimahātmabhiḥ // 2,15.66 //
 tasmātteṣāṃ sadā bhaktaḥ phalaṃ prāpnoti vottamam // 2,15.67 //
-iti śrī brahmāṇḍe mahāpurāṇe vāyuprokte madhyabhāge tṛtīya upoddhātapāde śrāddhakalpe brāhmaṇaparīkṣā nāma pañcadaśo 'dhyāyaḥ // 15//
 ataḥ paraṃ pravakṣyāmi dānāni ca phalāni ca /
 tāraṇaṃ sarvabhūtānāṃ svargamārgasukhāvaham // 2,16.1 //
 sarvaṃ pitṝṇāṃ dātavyaṃ teṣāmevājñayārthinā // 2,16.2 //
@@ -1846,7 +1843,6 @@ tathā tu bruvatīṃ sādhvīmiḍāmāśritya tāvubhau // 2,60.11 //
 devau ca mitrāvaruṇāvidaṃ vacanamūcatuḥ /
 sā tu devī varaṃ labdhvā nivṛttā pitaraṃ prati // 2,60.15 //
 ikṣvākureva dāyādo bhāgaṃ daśamamāptavān // 2,60.20 //
-iti śrībrahmāṇḍe mahāpurāṇe madhyamabhāge vāyuprokte vaivasvatamanoḥ sṛṣṭirnāma ṣaṣṭitamo 'dhyāyaḥ // 60//
 tāṃ kathāṃ revataḥ śrutvā yathātattvamarindamaḥ /
 gāndharvaṃ prati yaccāpi pṛṣṭastu munisattamāḥ /
 sapta svarāstrayo grāmā mūrchanāstvekaviṃśatiḥ /
@@ -2412,4 +2408,3 @@ yugākhyānāva śiṣṭāstu tato vaivasvatakṣayaḥ /
 āyuḥ kīrttiṃ dhanaṃ putrānsvargaṃ cānantyamaśnute /
 ityeṣa vo mayā pādastṛtīyaḥ kathito dvijāḥ /
 vistareṇānupūrvyā ca kiṃ bhūyo varṇayāmyaham // 2,74.278 //
-iti śrībrahmāṇḍe mahāpurāṇe vāyuprokte madhyamabhāge tṛtīya upoddhātapāde vaṃśānuvarṇanaṃ nāma catuḥsaptatitamo 'dhyāyaḥ // 74//

@@ -1,4 +1,3 @@
-iti śriviṣṇumahāpurāṇe prathame 'ṃśe dvāviṃśo 'dhyāyaḥ
 āgnīdhraścāgnibāhuś ca vapuṣmāndyutimāṃs tathā /
 jyotiṣmāndaśamasteṣāṃ satyanāmā suto 'bhavat /
 medhāgnibāhuputrāstu trayo yogaparāyaṇāḥ /
@@ -17,7 +16,6 @@ abhiṣicya sutaṃ vīraṃ bharataṃ pṛthivīpatiḥ /
 tapasā karṣitotyarthaṃ kṛśo dhamanisantataḥ /
 tasya putro mahāvīryo dhīmāṃstasmādajāyata /
 tpaṣṭā tvaṣṭuś ca virajo rajastasyāpyabhūtsutaḥ /
-iti śrīviṣṇupurāṇe dvitīye 'ṃśe prathamo 'dhyāyaḥ 
 śrotumicchāmyahaṃ tvattaḥ sakalaṃ maṇḍalaṃ bhuvaḥ // ViP_2,2.1 //
 yāvantaḥ sāgara dvīpās tathā varṣāṇi parvatāḥ /
 vanāni satitaḥ puryo devādīnāṃ tathā mune // ViP_2,2.2 //
@@ -86,7 +84,6 @@ daśa dvādaśavarṣāṇāṃ sahasrāṇi sthirāyuṣaḥ // ViP_2,2.54 //
 kṛtatretādikaṃ naiva teṣu sthāneṣu kalpanā // ViP_2,2.55 //
 sarveṣveteṣu varṣeṣu saptasaptakulācalāḥ /
 nadyaś ca śataśastebhyaḥ prasūtā yā dvijottama // ViP_2,2.56 //
-iti śriviṣṇumahāpurāṇe dvitīye 'ṃśe dvitīyo 'dhyāyaḥ 
 vindhyaś ca pārīyātraś ca saptātra kulaparvatāḥ // ViP_2,3.3 //
 tiryaktvaṃ narakaṃ cāpi yāntyataḥ puruṣā mune // ViP_2,3.4 //
 śatadrūcandrabhāgādyā himayatpādanirgatāḥ /
@@ -115,7 +112,6 @@ gāyanti devāḥ kila gītakāni dhanyāstu te bhārata bhūmibhāge /
 svargāpavargāspadamārgabhūte bhavanti bhūyaḥ puruṣāḥ suratvāt // ViP_2,3.24 //
 jambūdvīpaṃ samāvṛtya lakṣayojanavistaraḥ /
 maitreya valayākāraḥ sthitaḥ kṣārodadhirbahiḥ // ViP_2,3.28 //
-iti śriviṣṇumahāpurāṇe dvitīye 'ṃśe tṛtīyodhyāyaḥ 
 kṣārodena yathā dvīpo jambūsaṃjño 'bhiveṣṭitaḥ /
 saṃveṣṭya kṣāramudadhiṃ plakṣadvīpas tathā sthitaḥ // ViP_2,4.1 //
 sa evaṃ dviguṇo brahman plakṣadvīpa udāhṛtaḥ // ViP_2,4.2 //
@@ -208,7 +204,6 @@ tamaścāṇḍakaṭāhena samantātpariveṣṭitam // ViP_2,4.95 //
 pañcaśatkoṭivistārā seyamurva mahāmune /
 sahaivāṇḍakaṭāhena sadvīpābdhimahīdharā // ViP_2,4.96 //
 seyaṃ dhātrī vidhātrī ca sarvabhūtaguṇādhikā /
-iti śrīviṣṇumahāpurāṇe dvitīye 'ṃśe caturtho 'dhyāyaḥ 
 vistāra eṣa kathitaḥ pṛthivyā bhavato mayā /
 daśasāhasramekaikaṃ pātālaṃ munisattama /
 mahākhyaṃ sutalaṃ cāgryaṃ pātālaṃ cāpi saptamam // ViP_2,5.2 //
@@ -303,7 +298,6 @@ evametanmayākhyātaṃ bhavato maṇḍalaṃ bhuvaḥ /
 pātālāni ca sarvāṇi tathāva narakā dvija // ViP_2,6.52 //
 samudrāḥ parvatāścaiva dvīpā varṣāṇi nimnagāḥ /
 saṃkṣepātsarvamākhyātaṃ kiṃ bhūyaḥ śrotumicchasi // ViP_2,6.53 //
-iti śrīviṣṇumahāpurāṇe dvitīye 'ṃśe ṣaṣṭho 'dhyāyaḥ 
 bhuvarlokādikāṃl lokāñ chrotumicchāmyahaṃ mune // ViP_2,7.1 //
 tathaiva grahasaṃsthānaṃ pramāṇāni yathā tathā /
 sasamudrasaricchailā tāvatī pṛthivī smṛtā // ViP_2,7.3 //
@@ -342,7 +336,6 @@ kāṇḍakoṣastu puṣpaṃ ca kṣīraṃ tadvacca taṇjulāḥ // ViP_2,7.
 tuṣāḥ kaṇāś ca santo vai yāntyāvirbhāvamātmanaḥ /
 tathā karmasvanekeṣu devādyāḥ samavasthitāḥ /
 viṣṇuśaktiṃ samāsādya prarohamupayānti vai // ViP_2,7.39 //
-iti śrīviṣṇumahāpurāṇe dvitīye 'ṃśe saptamo 'dhyāyaḥ 
 tataḥ pramāṇasaṃsthāne sūryādīnāṃ śṛṇuṣva mai // ViP_2,8.1 //
 īṣādaṇḍastathaivāsya dviguṇo munisattama // ViP_2,8.2 //
 yojanānāṃ tu tasyākṣastatra cakraṃ pratiṣṭhitam // ViP_2,8.3 //
@@ -375,7 +368,6 @@ strātasya salile yasyāḥ sadyaḥ pāpaṃ praṇaśyati /
 dattāḥ pitṛbhyo yatrāpastanayaiḥ śraddhayānvitaiḥ /
 śrutābhilaṣitā dṛṣṭā spṛṣṭā pītāvagāhitā /
 gagāgaṅgeti yair nāmayojanānā śataṣvapi /
-iti śrīviṣṇumahāpurāṇe dvitīye 'ṃśe 'ṣṭamo 'dhyāyaḥ 
 tārāmayaṃ bhagavataḥ śiśumārākṛti prabhoḥ /
 śiśumārākṛti proktaṃ yadrūpaṃ jyotiṣāṃ divi /
 nārāyaṇo 'yanaṃ dhāmnāṃ tasyādhāraḥ svayaṃ hṛdi // ViP_2,9.4 //
@@ -406,7 +398,6 @@ sarve devanikāyāś ca sarve bhūtagaṇāś ca ye // ViP_2,9.21 //
 sāpi niṣpādyate vṛṣṭiḥ savitrā munisattama // ViP_2,9.22 //
 dhruvasya śiśupāro 'sau so 'pi nārāyaṇātmakaḥ // ViP_2,9.23 //
 hṛdi nārāyaṇastasya śiśumārasyaṃ saṃsthitaḥ /
-iti śrīviṣṇumahāpurāṇe dvitīye 'ṃśe navamo 'dhyāyaḥ 
 aryamā pulahaścaiva rathaujāḥ puñcikasthalā /
 varuṇo vasiṣṭho rambhā ca sahajanyā huhūrathaḥ /
 rathacitras tathā śukre vasantyāṣāḍhasaṃjñake // ViP_2,10.8 //
@@ -422,12 +413,10 @@ viṣṇuraśvataro rambhā sūryavarcāś ca satyajit /
 saviturmaṇḍale brahmanviṣṇusaktyupabṛṃhitāḥ // ViP_2,10.19 //
 nṛtyantyapsaraso yānti sūryasyānuniśācarāḥ // ViP_2,10.20 //
 vahanti pannagā yakṣaiḥ kriyate 'bhīṣusaṃgrahaḥ // ViP_2,10.21 //
-iti kṣiviṣṇumahāpurāṇe dvitīye 'ṃśe daśamo 'dhyāyaḥ 
 ṛcastuvantiḥ pūrvāhne madhyāhnetha yajūṃṣi vai /
 sargādau ṛṅmayo brahmā sthitau viṣṇuryajurmayaḥ /
 nṛtyantyo 'psaraso yānti tasya cānu niśācarāḥ // ViP_2,11.16 //
 vahanti pannagā yakṣaiḥ kriyate 'bhīṣusaṃgrahaḥ /
-iti śrīviṣṇumahāpurāṇe dvitīyeṃśa ekādaśo 'dhyāyaḥ 
 kṣīṇaṃ pītaṃ suraiḥ somamāpyāyayati dīptimān /
 trayāstriṃśatsahasrāṇi trayastriṃśacchatāni ca /
 trayastriṃśattathā devāḥ pibanti kṣaṇadākaram // ViP_2,12.7 //
@@ -442,7 +431,6 @@ svarbhānosturagā hyaṣṭau bhṛṅgābhā dhūsaraṃ ratham /
 ete mayā grahāṇāṃ vai tavākhyātā rathā nava /
 graharkṣatārādhiṣṇyāni dhruve baddhānyaśeṣataḥ /
 padmākārā samudbhūtā parvatābdhyādisaṃyutā // ViP_2,12.37 //
-iti śrīviṣṇumahāpurāṇe dvitīye 'ṃśe dvādaśo 'dhyāyaḥ 
 bhagavansamyagākhyātaṃ yatpṛṣṭosi mayā kila /
 yajñeśācyuta govinda mādhavānanta keśava /
 athājagāma tattīraṃ jalaṃ pātuṃ pipāsitā /
@@ -535,7 +523,6 @@ yattu kālāntereṇāpi nānyāṃ saṃjñāmupaiti vai /
 pariṇāmādisaṃbhūtāṃ tadvastu nṛpa tacca kim // ViP_2,13.100 //
 patnyāḥ patiḥ pitā sūnoḥ kiṃ tvaṃ bhūpavadāmyaham // ViP_2,13.101 //
 pṛthakkaraṇaniṣpādyaṃ śakyate nṛpate katham // ViP_2,13.104 //
-iti śrīviṣṇumahāpurāṇe dvitīyeṃse trayodaśo 'dhyāyaḥ 
 etadvivekavijñānaṃ yadaśeṣeṣu jantuṣu /
 nāhaṃ vahāmi śibikāṃ śivikā na mayi sthitā /
 śarīramanyadasmattau yoneyaṃ śibikā dhṛtā // ViP_2,14.4 //
@@ -563,7 +550,6 @@ paramārthastu bhūpāla saṃkṣepācchrūyatāṃ mama // ViP_2,14.28 //
 eko vyāpī samaḥ śuddho nirguṇaḥ prakṛteḥ paraḥ /
 veṇurandhraprabhedena bhedaḥ ṣaṅjādisaṃjñitaḥ /
 ekasvarūpabhedaś ca brāhmakarmāvṛtiprajaḥ /
-iti śrīviṣṇumahāpurāṇe dvitīye 'ṃśe caturdaśo 'dhyāyaḥ 
 tasya śiṣyo nidāghobhūtpulastyatanayaḥ purā /
 prādādaśeṣavijñānaṃ sa tasmai parayā mudā // ViP_2,15.4 //
 apāptajñānatantrasya na tasyādvaitavāsanā /
@@ -596,7 +582,6 @@ prasīda maddhitārthāya kathyatāṃ yattvamāgataḥ /
 naṣṭo mohastavākarṇya vacāṃsyetāni me dvīja // ViP_2,15.33 //
 ṛmurasmi tavācāryaḥ prajñādānāya te dvija /
 ihāga tohaṃ yāsyāmi paramārthastavoditaḥ // ViP_2,15.34 //
-iti śrīviṣṇumahāpurāṇe dvitīye 'ṃśe pañcadaśo 'dhyāyaḥ 
 nidāghajñānadānāya tadeva nagaraṃ yayau // ViP_2,16.1 //
 nagarasya bahiḥ sotha nidāghaṃ dadṛśe muniḥ /
 mahībalaparīvāre puraṃ viśati pārthive // ViP_2,16.2 //
