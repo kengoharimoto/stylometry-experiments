@@ -80,9 +80,12 @@ objection-answers are in the 2026-08-14 notes.
    texts it features.
 4. Full-strength E1 (Belvalkar print apparatus, needs OCR) and per-parvan
    didactic-overlay proxy — old strengthening items, optional.
-5. Housekeeping: `corpus/epic_puranas_unsandhied_precolophon_bak/`
-   (untracked safety copy) can be deleted when comfortable; B1 jackknife
-   numbers in the anatomy note are pre-clean (conclusions insensitive).
+5. Housekeeping: `corpus/epic_puranas_unsandhied_precolophon_bak/` is
+   in fact TRACKED (committed in 0b666a9) and is the only exact record of
+   the pre-clean unsandhied corpus (the ≤ d9532dd tracked copies are stale
+   — all 74 differ). Keep it in git; the working-tree copy may be git-rm'd
+   without loss. B1 jackknife numbers in the anatomy note are pre-clean
+   (conclusions insensitive).
 
 ## Key claims inventory (all CI-backed, post-clean, both lenses)
 

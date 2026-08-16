@@ -66,8 +66,14 @@ too (adhyāyaḥ ρ_x +0.46 at 0.94‰, śrī +0.45, mahāpurāṇe +0.39).
 ## Bookkeeping
 
 - Pre-clean safety copy of the replaced unsandhied base files:
-  `corpus/epic_puranas_unsandhied_precolophon_bak/` (untracked; delete
-  when comfortable — git history has everything anyway).
+  `corpus/epic_puranas_unsandhied_precolophon_bak/`. **[Corrected
+  2026-08-16 (Mac session): this directory is NOT untracked — it was
+  committed in 0b666a9, and that commit is the ONLY exact record of the
+  pre-clean unsandhied corpus: all 74 files differ (slightly) from the
+  stale copies tracked at ≤ d9532dd, i.e. the versions that produced the
+  pre-clean W1 numbers and the frozen deck figures were never otherwise
+  committed. Keep the directory in git. The working-tree copy may be
+  removed (git rm) without loss if disk space matters.]**
 - Pre-clean instrument numbers: git history (≤ commit d9532dd); the
   2026-08-16 adoption note's tables are pre-clean values.
 - B1 jackknife numbers in the axis-anatomy note are pre-clean; the corpus
