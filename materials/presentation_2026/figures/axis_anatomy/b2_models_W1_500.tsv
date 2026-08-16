@@ -1,0 +1,5 @@
+model	axis1_share	axis1_share_sd	ratio12	ratio12_sd	rho_order	rho_order_sd
+real	0.1344	0.0000	1.6774	0.0000	nan	nan
+exchangeable	0.1308	0.0038	2.3952	0.2568	nan	nan
+heterogeneity	0.0325	0.0013	1.4630	0.0969	nan	nan
+drift	0.4336	0.0274	2.9235	0.3801	0.9861	0.0059
