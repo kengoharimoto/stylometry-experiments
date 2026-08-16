@@ -82,6 +82,13 @@ ap.add_argument('--strip-spaces', action='store_true',
                      'Word division in romanized text is editorial; this '
                      'tests whether the map depends on it. Skips the stylo '
                      'wordlist validation (no matching stylo run exists).')
+ap.add_argument('--phonemes', action='store_true',
+                help='char 3-grams only: map IAST digraph phonemes (the ten '
+                     'aspirates kh gh ch jh ṭh ḍh th dh ph bh and the '
+                     'diphthongs ai au) to single symbols before counting, '
+                     'so a 3-gram spans exactly three phonemes. Tests '
+                     'whether the two-letter romanization of single '
+                     'phonemes affects the map.')
 ap.add_argument('--files-from', metavar='MANIFEST',
                 help='corpus manifest (one unit basename per line, as in '
                      'manifests/); the manifest name is appended to the output '
@@ -118,6 +125,8 @@ if MANIFEST is not None:
     OUT = OUT.with_name(f'{OUT.name}_{MANIFEST_LABEL}')
 if args.strip_spaces:
     OUT = OUT.with_name(f'{OUT.name}_nospace')
+if args.phonemes:
+    OUT = OUT.with_name(f'{OUT.name}_phon')
 HIGHLIGHT_STRATA = {'epic': {1, 2}, 'oldcore': {3}, 'oldsp': {4}, 'late': {5},
                     'sip': {6}, 'bhp': {7, 8}, 'skmp': {10}}
 hl = HIGHLIGHT_STRATA.get(args.highlight)
@@ -150,10 +159,19 @@ GROUP_ORDER = list(PALETTE)
 def word_counts(path):
     return Counter(path.read_text(encoding='utf-8').lower().split())
 
+# SLP1-style single symbols for IAST digraph phonemes (applied lowercased,
+# longest-match first; uppercase targets cannot collide with lowercased text)
+PHONEME_MAP = [('kh', 'K'), ('gh', 'G'), ('ch', 'C'), ('jh', 'J'),
+               ('ṭh', 'W'), ('ḍh', 'Q'), ('th', 'T'), ('dh', 'D'),
+               ('ph', 'P'), ('bh', 'B'), ('ai', 'E'), ('au', 'O')]
+
 def trigram_counts(path):
     txt = path.read_text(encoding='utf-8').lower()
     txt = (re.sub(r'\s+', '', txt) if args.strip_spaces
            else re.sub(r'\s+', ' ', txt).strip())
+    if args.phonemes:
+        for dig, sym in PHONEME_MAP:
+            txt = txt.replace(dig, sym)
     return Counter(txt[i:i + 3] for i in range(len(txt) - 2))
 
 count_fn = word_counts if W1 else trigram_counts
@@ -184,8 +202,9 @@ def stylo_wordlist():
         return [l.strip() for l in lines][:MFW]
     return [l[0::2] for l in lines][:MFW]     # chars joined by spaces
 
-if args.strip_spaces:
-    print('strip-spaces: stylo wordlist validation skipped (no counterpart run)')
+if args.strip_spaces or args.phonemes:
+    print('strip-spaces/phonemes: stylo wordlist validation skipped '
+          '(no counterpart run)')
 else:
     wl = stylo_wordlist()
     overlap = len(set(feats) & set(wl))
@@ -370,6 +389,8 @@ feat_desc = (f'{MFW} most frequent words' if W1
 corpus_desc = ('unsandhied' if W1 else 'sandhied') + ' text'
 if args.strip_spaces and not W1:
     corpus_desc += ', all spaces removed'
+if args.phonemes and not W1:
+    corpus_desc += ', digraph phonemes as single symbols'
 if 'noreuse' in CORPUS.name:
     corpus_desc += ', shared passages removed'
 METRIC_NAMES = {'delta': 'Burrows’s Delta', 'wurzburg': 'Cosine Delta',
