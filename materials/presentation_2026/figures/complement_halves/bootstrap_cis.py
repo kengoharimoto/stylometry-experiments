@@ -29,7 +29,7 @@ RESID_CORPUS = ROOT / ('corpus/epic_puranas_unsandhied_noreuse' if W1 else 'corp
 SHARED_CORPUS = ROOT / ('corpus/complements_unsandhied' if W1 else 'corpus/complements_sandhied')
 MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
 REF_COORDS = ROOT / ('materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
-                     if W1 else 'materials/presentation_2026/figures/mfw_sweep/coords_mfw500.tsv')
+                     if W1 else 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv')
 
 UNITS = ([f'vayupurana_{s}_iast' for s in
           ['01_frame-and-cosmogony', '02_pashupata-yoga', '03_kalpas-and-shiva-lineages',
@@ -48,7 +48,9 @@ def word_counts_text(txt):
     return Counter(txt.lower().split())
 
 def trigram_counts_text(txt):
-    txt = re.sub(r'\s+', ' ', txt.lower()).strip()
+    # article C3 convention (2026-08-16): scriptio continua — all whitespace
+    # removed; word division is editorial (see c3_nospace note)
+    txt = re.sub(r'\s+', '', txt.lower())
     return Counter(txt[i:i + 3] for i in range(len(txt) - 2))
 
 count_text = word_counts_text if W1 else trigram_counts_text
@@ -113,15 +115,15 @@ def pctile(x):
 def line_matrix(lines):
     """Per-line feature-count matrix and per-line total token counts.
 
-    For C3, each line is counted padded as ' '+line+' ' so the space-adjacent
-    trigrams that whole-text counting sees at line junctions are represented.
-    The exact whole-text estimate is computed separately; the replicate
-    distribution is pivot-shifted onto it (junction trigrams proper are
+    Under the no-space C3 convention lines are counted as bare character
+    streams (no padding — there are no space trigrams). The exact whole-text
+    estimate is computed separately; the replicate distribution is
+    pivot-shifted onto it (junction trigrams across line boundaries are
     neighbor-dependent and cannot be attributed to single lines)."""
     F = np.zeros((len(lines), MFW))
     T = np.zeros(len(lines))
     for i, l in enumerate(lines):
-        c = count_text(l if W1 else f' {l} ')
+        c = count_text(l)
         T[i] = sum(c.values())
         for k, v in c.items():
             j = fidx.get(k)

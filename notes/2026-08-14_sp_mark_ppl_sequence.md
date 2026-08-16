@@ -59,3 +59,13 @@ whole-Mārk unit. Mārk 1–80 is in fact the *latest* Mārkaṇḍeya layer.
    persists alongside it in the vidyāsthāna register into Amara. The
    theory should say the singular usage is the *older stratum of usage*,
    not that plurality was unknown until late.
+
+---
+
+**2026-08-16 instrument update:** the article adopted the no-space
+(scriptio-continua) C3 convention and this instrument's C3 side was
+re-run against the no-space base map. C3 percentiles quoted above are
+the standard-C3 values; see `2026-08-16_nospace_c3_adoption_rerun.md`
+for the conversion of the headline rows (conclusions hold; layer
+separations sharpen; the C3 genre-floor margin narrows). W1 numbers
+are unchanged.

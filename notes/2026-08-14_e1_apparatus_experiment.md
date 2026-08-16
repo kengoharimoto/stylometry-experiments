@@ -101,3 +101,13 @@ stylometry speaks to the age of their language, and the two are compatible
 without the thinness gloss. Standing caveats: language age ≠ book age
 (transmission can preserve or level), and individual sub-3k positions
 remain uncertain regions per D1.
+
+---
+
+**2026-08-16 instrument update:** the article adopted the no-space
+(scriptio-continua) C3 convention and this instrument's C3 side was
+re-run against the no-space base map. C3 percentiles quoted above are
+the standard-C3 values; see `2026-08-16_nospace_c3_adoption_rerun.md`
+for the conversion of the headline rows (conclusions hold; layer
+separations sharpen; the C3 genre-floor margin narrows). W1 numbers
+are unchanged.

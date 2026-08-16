@@ -1,168 +1,168 @@
 unit	kind	x	y	pct	words
-agnipurana_u	base	0.283299	-0.229884	83.3	
-bhagavatapurana_skandha-01_u	base	-0.179691	-0.194499	27.0	
-bhagavatapurana_skandha-02_u	base	0.012010	-0.253036	46.8	
-bhagavatapurana_skandha-03_u	base	-0.148618	-0.171488	28.6	
-bhagavatapurana_skandha-04_u	base	-0.144508	-0.172694	29.4	
-bhagavatapurana_skandha-05_u	base	-0.039848	-0.160953	40.5	
-bhagavatapurana_skandha-06_u	base	-0.025305	-0.121248	43.7	
-bhagavatapurana_skandha-07_u	base	0.013916	-0.216155	47.6	
-bhagavatapurana_skandha-08_u	base	-0.030796	-0.197352	41.3	
-bhagavatapurana_skandha-09_u	base	-0.100689	-0.058517	32.5	
-bhagavatapurana_skandha-10_adhyaya-29-33_w_commentary	base	-0.110978	-0.263676	31.7	
-bhagavatapurana_skandha-10_u	base	-0.256633	-0.221603	23.0	
-bhagavatapurana_skandha-11_u	base	-0.072273	-0.176507	36.5	
-bhagavatapurana_skandha-12_u	base	-0.046402	-0.014423	39.7	
-bhavisyapurana	base	0.198190	-0.202788	68.3	
-brahmandapurana	base	0.198393	0.211804	69.0	
-brahmandapurana_khanda-1_u	base	0.290211	0.503414	84.9	
-brahmandapurana_khanda-2_u	base	0.074379	0.158325	55.6	
-brahmandapurana_khanda-3_u	base	0.284911	0.027521	84.1	
-brahmapurana_pu	base	-0.093463	-0.032296	34.1	
-devibhagavatapurana	base	0.091185	-0.224817	56.3	
-devibhagavatapurana_devigita_adhyaya-31-40	base	0.373874	-0.139649	93.7	
-devipurana	base	0.271340	-0.158338	82.5	
-garudapurana_khanda-1_u	base	0.312515	-0.209617	86.5	
-garudapurana_khanda-2_u	base	0.250919	-0.172041	80.2	
-garudapurana_khanda-3_u	base	0.232651	-0.079181	77.0	
-harivamsa	base	-0.286266	0.080400	19.0	
-harivamsa_appendix-29-30_mathura	base	-0.278436	-0.039261	21.4	
-harivamsa_appendix-31	base	-0.282629	-0.151765	20.6	
-harivamsa_appendix-41	base	-0.091707	0.241894	34.9	
-harivamsa_appendix-42_pradurbhava	base	-0.203123	0.140303	25.4	
-kalikapurana	base	0.172682	-0.151345	66.7	
-karatoyamahatmya_pu	base	0.248377	-0.303540	79.4	
-kirfel_ppl_textgruppe_IIA_col1	base	0.119324	0.546786	59.5	
-kirfel_ppl_textgruppe_IIB_col1	base	0.145445	0.668726	64.3	
-kirfel_ppl_textgruppe_III_col1	base	-0.015833	0.593198	44.4	
-kirfel_ppl_textgruppe_II_col1	base	-0.176226	0.258766	27.8	
-kirfel_ppl_textgruppe_I_col1	base	-0.239771	0.466927	23.8	
-kirfel_ppl_textgruppe_Ia_col1	base	-0.075517	0.741454	35.7	
-kirfel_ppl_ungrouped_col1	base	-0.269695	0.389227	22.2	
-kurmapurana_khanda-1_u	base	0.227704	0.037386	75.4	
-kurmapurana_khanda-2_u	base	0.332123	-0.217330	88.9	
-lingapurana_khanda-1_u	base	0.208901	0.098076	70.6	
-lingapurana_khanda-2_u	base	0.319382	-0.138237	88.1	
-mahabharata_01-adiparvan	base	-0.392634	0.047520	11.1	
-mahabharata_02-appendix-21_sisupala	base	-0.307199	0.101387	17.5	
-mahabharata_02-sabhaparvan	base	-0.494191	0.027282	4.8	
-mahabharata_03-aranyakaparvan	base	-0.382085	0.000481	12.7	
-mahabharata_04-virataparvan	base	-0.526793	0.038780	1.6	
-mahabharata_05-udyogaparvan	base	-0.425343	0.004626	8.7	
-mahabharata_06-bhismaparvan	base	-0.467254	0.056923	7.1	
-mahabharata_07-appendix-08_sodasarajika	base	-0.283815	0.163995	19.8	
-mahabharata_07-dronaparvan	base	-0.500008	-0.037306	4.0	
-mahabharata_08-karnaparvan	base	-0.515673	-0.037512	2.4	
-mahabharata_09-salyaparvan	base	-0.512913	0.064147	3.2	
-mahabharata_10-sauptikaparvan	base	-0.422079	-0.011845	9.5	
-mahabharata_11-striparvan	base	-0.455382	-0.035480	7.9	
-mahabharata_12-appendix-29_moksadharma	base	-0.061485	-0.032820	38.1	
-mahabharata_12-santiparvan	base	-0.191367	0.017788	26.2	
-mahabharata_13-anusasanaparvan	base	-0.218126	0.073498	24.6	
-mahabharata_13-appendix-15_umamahesvara	base	0.066909	-0.027245	54.0	
-mahabharata_14-appendix-04_vaisnavadharma	base	-0.030091	-0.038468	42.1	
-mahabharata_14-asvamedhikaparvan	base	-0.306433	0.064565	18.3	
-mahabharata_15-asramavasikaparvan	base	-0.527512	0.093383	0.8	
-mahabharata_16-mausalaparvan	base	-0.481150	0.010571	5.6	
-mahabharata_17-mahaprasthanikaparvan	base	-0.781586	-0.044914	0.0	
-mahabharata_18-svargarohanaparvan	base	-0.469378	0.081457	6.3	
-markandeyapurana	base	0.040897	0.008382	52.4	
-markandeyapurana_adhyaya-1-80_u	base	0.100222	0.015343	58.7	
-markandeyapurana_adhyaya-81-93_devimahatmya_u	base	0.016469	-0.005488	48.4	
-markandeyapurana_adhyaya-94-141_u	base	-0.125896	0.001086	30.2	
-matsyapurana_pu	base	0.126097	0.023779	61.1	
-naradapurana_khanda-1_u	base	0.332789	-0.206831	89.7	
-naradapurana_khanda-2_u	base	0.124858	-0.282400	60.3	
-nilamatapurana_au	base	0.036409	-0.167838	51.6	
-nrsimhapurana_pu	base	-0.117552	-0.166135	31.0	
-padmapurana_a	base	0.270178	-0.458477	81.7	
-pranavakalpa	base	0.523775	-0.227810	100.0	
-ramayana_01-balakanda	base	-0.382675	0.031168	11.9	
-ramayana_02-ayodhyakanda_a	base	-0.378244	-0.068092	14.3	
-ramayana_03-aranyakanda_a	base	-0.376853	-0.155353	15.1	
-ramayana_04-kiskindhakanda	base	-0.361180	-0.043834	15.9	
-ramayana_05-sundarakanda	base	-0.380328	-0.145717	13.5	
-ramayana_06-yuddhakanda	base	-0.401656	-0.107192	10.3	
-ramayana_07-uttarakanda	base	-0.341109	-0.031438	16.7	
-saurapurana	base	0.209853	-0.130378	71.4	
-sivadharmasastra	base	0.422174	-0.277137	96.0	
-sivadharmottara	base	0.298315	-0.208166	85.7	
-sivapurana_dharmasamhita	base	0.386533	-0.228441	95.2	
-sivapurana_karvanamahatmya_au	base	0.134152	-0.196303	62.7	
-sivapurana_rudrasamhita	base	0.093544	-0.231097	57.1	
-sivapurana_sanatkumarasamhita	base	0.518960	-0.143927	99.2	
-sivapurana_satarudrasamhita_au	base	0.017471	-0.218218	49.2	
-sivapurana_umasamhita	base	0.157528	0.016074	65.1	
-sivapurana_vayaviyasamhita_au	base	0.359878	-0.118557	91.3	
-sivapurana_vidyesvarasamhita_au	base	0.496890	-0.265972	98.4	
-skandamahapurana_himavatkhanda	base	0.034128	-0.087015	50.0	
-skandamahapurana_kasikhanda	base	0.209859	-0.276414	72.2	
-skandamahapurana_revakhanda	base	0.034925	-0.114270	50.8	
-skandamahapurana_sutasamhita_khanda-4	base	0.471525	-0.116018	97.6	
-skandapurana	base	-0.055962	-0.009058	38.9	
-skandapurana_adhyaya-1-31_pu	base	0.059393	0.036256	53.2	
-skandapurana_pasupata_adhyaya174-183_u	base	0.360117	0.161325	92.1	
-vamanapurana_saromahatmya_u	base	0.132807	-0.092529	61.9	
-vamanapurana_u	base	-0.013202	-0.202477	46.0	
-vayu_ba	base	0.223526	0.465770	73.0	
-vayupurana	base	0.225650	0.364745	74.6	
-vayupurana_01_frame-and-cosmogony_iast	base	0.380922	0.548626	94.4	
-vayupurana_02_pashupata-yoga_iast	base	0.459833	0.153423	96.8	
-vayupurana_03_kalpas-and-shiva-lineages_iast	base	0.178231	0.396986	67.5	
-vayupurana_04_bhuvana-vinyasa_iast	base	0.258199	0.327937	81.0	
-vayupurana_05_jyotis-and-purvardha-close_iast	base	0.318540	0.424873	87.3	
-vayupurana_06_prthu-and-prajapati-lineages_iast	base	0.200092	0.612373	69.8	
-vayupurana_07_shraddha-kalpa_iast	base	0.344732	0.208222	90.5	
-vayupurana_08_manu-candra-vishnu-vamsha_iast	base	-0.014253	0.350115	45.2	
-vayupurana_09_upasamhara_iast	base	0.366791	0.441932	92.9	
-vayupurana_10_gaya-mahatmya_iast	base	0.231807	-0.215904	76.2	
-vayupurana_revakhanda	base	0.161295	-0.233418	65.9	
-visnudharma_pu	base	-0.029184	-0.120334	42.9	
-visnudharmottarapurana_khanda-3_adhyaya-343-353_pu	base	-0.069037	-0.199405	37.3	
-visnupurana_amsa-1_u	base	0.140344	0.169612	63.5	
-visnupurana_amsa-2_u	base	0.242912	0.154194	77.8	
-visnupurana_amsa-3_u	base	0.224015	0.032004	73.8	
-visnupurana_amsa-4_u	base	0.070839	0.027538	54.8	
-visnupurana_amsa-5_u	base	-0.098377	-0.232370	33.3	
-visnupurana_amsa-6_u	base	0.243127	-0.065747	78.6	
-visnupurana_u	base	0.097177	0.005210	57.9	
-vayupurana_01_frame-and-cosmogony_iast	resid	0.300110	0.313174	86.5	633
-vayupurana_01_frame-and-cosmogony_iast	shared	0.389397	0.569761	96.0	5715
-vayupurana_02_pashupata-yoga_iast	resid	0.370659	0.165358	93.7	851
-vayupurana_02_pashupata-yoga_iast	shared	0.499140	0.136126	99.2	1411
-vayupurana_03_kalpas-and-shiva-lineages_iast	resid	0.132153	0.304475	61.9	2355
-vayupurana_03_kalpas-and-shiva-lineages_iast	shared	0.191260	0.427908	68.3	6601
-vayupurana_04_bhuvana-vinyasa_iast	resid	0.244761	0.151142	79.4	2952
-vayupurana_04_bhuvana-vinyasa_iast	shared	0.272569	0.451058	83.3	3832
-vayupurana_05_jyotis-and-purvardha-close_iast	resid	0.244714	0.311356	79.4	460
-vayupurana_05_jyotis-and-purvardha-close_iast	shared	0.329004	0.428188	88.9	8581
-vayupurana_06_prthu-and-prajapati-lineages_iast	resid	0.148847	0.579629	65.1	970
-vayupurana_06_prthu-and-prajapati-lineages_iast	shared	0.207049	0.618735	70.6	8134
-vayupurana_07_shraddha-kalpa_iast	resid	0.266097	0.058555	81.7	626
-vayupurana_07_shraddha-kalpa_iast	shared	0.347245	0.218137	91.3	6131
-vayupurana_08_manu-candra-vishnu-vamsha_iast	resid	-0.067359	0.334984	38.1	818
-vayupurana_08_manu-candra-vishnu-vamsha_iast	shared	-0.003434	0.354844	46.8	13460
-vayupurana_09_upasamhara_iast	resid	0.205695	-0.015251	70.6	970
-vayupurana_09_upasamhara_iast	shared	0.406073	0.535472	96.0	4711
-vayupurana_10_gaya-mahatmya_iast	resid	0.218552	-0.218970	73.0	3164
-vayupurana_10_gaya-mahatmya_iast	shared	0.250270	-0.234770	80.2	1165
-vayupurana_revakhanda	resid	0.124226	-0.238831	60.3	34011
-vayupurana_revakhanda	shared	0.222430	-0.192452	73.0	20454
-brahmandapurana_khanda-1_u	resid	0.348098	0.429182	91.3	3062
-brahmandapurana_khanda-1_u	shared	0.274726	0.513421	83.3	22895
-brahmandapurana_khanda-2_u	resid	0.046048	-0.118165	53.2	14912
-brahmandapurana_khanda-2_u	shared	0.099984	0.328644	58.7	24048
-brahmandapurana_khanda-3_u	resid	0.269456	-0.084129	81.7	19976
-brahmandapurana_khanda-3_u	shared	0.367044	0.436593	93.7	5907
-visnupurana_amsa-1_u	resid	0.079691	0.026295	56.3	4187
-visnupurana_amsa-1_u	shared	0.193806	0.316154	68.3	4447
-visnupurana_amsa-2_u	resid	0.165453	0.046411	66.7	1075
-visnupurana_amsa-2_u	shared	0.269170	0.203754	81.7	3641
-visnupurana_amsa-3_u	resid	0.162133	-0.072121	66.7	2902
-visnupurana_amsa-3_u	shared	0.278982	0.162761	83.3	1970
-visnupurana_amsa-4_u	resid	0.039381	0.018528	52.4	4611
-visnupurana_amsa-4_u	shared	0.164111	0.274998	66.7	474
-visnupurana_amsa-5_u	resid	-0.054495	-0.172955	39.7	1745
-visnupurana_amsa-5_u	shared	-0.088462	-0.221718	35.7	7410
-visnupurana_amsa-6_u	resid	0.072031	-0.088764	55.6	584
-visnupurana_amsa-6_u	shared	0.301221	-0.035834	86.5	2218
+agnipurana_u	base	0.281007	-0.183214	88.9	
+bhagavatapurana_skandha-01_u	base	-0.180932	-0.074631	23.0	
+bhagavatapurana_skandha-02_u	base	0.009822	-0.180345	44.4	
+bhagavatapurana_skandha-03_u	base	-0.015128	-0.120933	42.1	
+bhagavatapurana_skandha-04_u	base	-0.078880	-0.104766	34.1	
+bhagavatapurana_skandha-05_u	base	-0.019820	-0.009297	39.7	
+bhagavatapurana_skandha-06_u	base	-0.050610	-0.063792	36.5	
+bhagavatapurana_skandha-07_u	base	-0.018519	-0.136782	40.5	
+bhagavatapurana_skandha-08_u	base	-0.095165	-0.080644	31.0	
+bhagavatapurana_skandha-09_u	base	-0.165981	0.022035	24.6	
+bhagavatapurana_skandha-10_adhyaya-29-33_w_commentary	base	0.056613	-0.219894	51.6	
+bhagavatapurana_skandha-10_u	base	-0.178429	-0.160032	23.8	
+bhagavatapurana_skandha-11_u	base	0.042541	-0.147802	46.8	
+bhagavatapurana_skandha-12_u	base	0.055235	0.023519	50.8	
+bhavisyapurana	base	0.155016	-0.229709	70.6	
+brahmandapurana	base	0.107807	0.234614	61.1	
+brahmandapurana_khanda-1_u	base	0.218869	0.512720	79.4	
+brahmandapurana_khanda-2_u	base	-0.023565	0.179913	38.1	
+brahmandapurana_khanda-3_u	base	0.181191	0.051214	76.2	
+brahmapurana_pu	base	0.002971	-0.078553	43.7	
+devibhagavatapurana	base	0.062020	-0.293866	54.0	
+devibhagavatapurana_devigita_adhyaya-31-40	base	0.364788	-0.155823	95.2	
+devipurana	base	0.262785	-0.172077	84.1	
+garudapurana_khanda-1_u	base	0.272811	-0.169600	84.9	
+garudapurana_khanda-2_u	base	0.234424	-0.201566	81.7	
+garudapurana_khanda-3_u	base	0.294853	-0.156730	92.1	
+harivamsa	base	-0.246327	0.080898	19.0	
+harivamsa_appendix-29-30_mathura	base	-0.231628	-0.070275	19.8	
+harivamsa_appendix-31	base	-0.197760	-0.205932	22.2	
+harivamsa_appendix-41	base	-0.016258	0.251955	41.3	
+harivamsa_appendix-42_pradurbhava	base	-0.230989	0.228723	20.6	
+kalikapurana	base	0.138693	-0.131986	66.7	
+karatoyamahatmya_pu	base	0.389522	-0.478233	96.8	
+kirfel_ppl_textgruppe_IIA_col1	base	0.323368	0.506532	92.9	
+kirfel_ppl_textgruppe_IIB_col1	base	0.277242	0.601415	87.3	
+kirfel_ppl_textgruppe_III_col1	base	0.162899	0.650277	73.0	
+kirfel_ppl_textgruppe_II_col1	base	-0.107929	0.290971	28.6	
+kirfel_ppl_textgruppe_I_col1	base	-0.149969	0.446047	27.0	
+kirfel_ppl_textgruppe_Ia_col1	base	0.096880	0.732795	60.3	
+kirfel_ppl_ungrouped_col1	base	-0.155111	0.349545	25.4	
+kurmapurana_khanda-1_u	base	0.136230	-0.014751	64.3	
+kurmapurana_khanda-2_u	base	0.284647	-0.297776	89.7	
+lingapurana_khanda-1_u	base	0.174233	0.062139	75.4	
+lingapurana_khanda-2_u	base	0.289851	-0.191620	90.5	
+mahabharata_01-adiparvan	base	-0.316876	0.023552	16.7	
+mahabharata_02-appendix-21_sisupala	base	-0.256667	0.123073	17.5	
+mahabharata_02-sabhaparvan	base	-0.451723	0.029403	6.3	
+mahabharata_03-aranyakaparvan	base	-0.342270	-0.029071	14.3	
+mahabharata_04-virataparvan	base	-0.475408	0.002994	2.4	
+mahabharata_05-udyogaparvan	base	-0.370634	-0.009574	13.5	
+mahabharata_06-bhismaparvan	base	-0.451892	0.083994	5.6	
+mahabharata_07-appendix-08_sodasarajika	base	-0.246732	0.216936	18.3	
+mahabharata_07-dronaparvan	base	-0.497945	-0.007607	1.6	
+mahabharata_08-karnaparvan	base	-0.501545	0.001652	0.8	
+mahabharata_09-salyaparvan	base	-0.474207	0.059560	3.2	
+mahabharata_10-sauptikaparvan	base	-0.402864	0.044260	7.9	
+mahabharata_11-striparvan	base	-0.436613	-0.016198	7.1	
+mahabharata_12-appendix-29_moksadharma	base	0.065216	-0.030734	54.8	
+mahabharata_12-santiparvan	base	-0.081415	-0.029135	32.5	
+mahabharata_13-anusasanaparvan	base	-0.107148	0.036519	29.4	
+mahabharata_13-appendix-15_umamahesvara	base	0.153257	-0.129318	69.8	
+mahabharata_14-appendix-04_vaisnavadharma	base	0.133601	-0.123358	63.5	
+mahabharata_14-asvamedhikaparvan	base	-0.226243	-0.011948	21.4	
+mahabharata_15-asramavasikaparvan	base	-0.464171	0.069096	4.0	
+mahabharata_16-mausalaparvan	base	-0.458267	-0.052111	4.8	
+mahabharata_17-mahaprasthanikaparvan	base	-0.696610	-0.039041	0.0	
+mahabharata_18-svargarohanaparvan	base	-0.387473	0.035003	10.3	
+markandeyapurana	base	-0.004183	0.039374	42.9	
+markandeyapurana_adhyaya-1-80_u	base	0.036807	0.042609	46.0	
+markandeyapurana_adhyaya-81-93_devimahatmya_u	base	-0.023249	-0.005687	38.9	
+markandeyapurana_adhyaya-94-141_u	base	-0.130432	0.024095	27.8	
+matsyapurana_pu	base	0.054471	0.047433	50.0	
+naradapurana_khanda-1_u	base	0.273073	-0.210295	85.7	
+naradapurana_khanda-2_u	base	0.082977	-0.334925	59.5	
+nilamatapurana_au	base	0.077516	-0.171020	57.9	
+nrsimhapurana_pu	base	-0.034468	-0.232108	37.3	
+padmapurana_a	base	0.060849	-0.248665	53.2	
+pranavakalpa	base	0.407971	-0.178773	97.6	
+ramayana_01-balakanda	base	-0.389425	0.014302	9.5	
+ramayana_02-ayodhyakanda_a	base	-0.370640	-0.121544	12.7	
+ramayana_03-aranyakanda_a	base	-0.371383	-0.184884	11.9	
+ramayana_04-kiskindhakanda	base	-0.333930	-0.057989	15.1	
+ramayana_05-sundarakanda	base	-0.381671	-0.128549	11.1	
+ramayana_06-yuddhakanda	base	-0.399217	-0.117241	8.7	
+ramayana_07-uttarakanda	base	-0.317793	-0.064605	15.9	
+saurapurana	base	0.160951	-0.175797	72.2	
+sivadharmasastra	base	0.347279	-0.239822	94.4	
+sivadharmottara	base	0.275181	-0.095691	86.5	
+sivapurana_dharmasamhita	base	0.052360	-0.118173	49.2	
+sivapurana_karvanamahatmya_au	base	0.226924	-0.341690	80.2	
+sivapurana_rudrasamhita	base	0.078317	-0.292162	58.7	
+sivapurana_sanatkumarasamhita	base	0.195526	-0.130853	78.6	
+sivapurana_satarudrasamhita_au	base	0.057534	-0.231523	52.4	
+sivapurana_umasamhita	base	0.112665	0.002789	61.9	
+sivapurana_vayaviyasamhita_au	base	0.278151	-0.135740	88.1	
+sivapurana_vidyesvarasamhita_au	base	0.387107	-0.370859	96.0	
+skandamahapurana_himavatkhanda	base	0.051728	-0.103932	48.4	
+skandamahapurana_kasikhanda	base	0.194890	-0.261136	77.8	
+skandamahapurana_revakhanda	base	0.119216	-0.149139	62.7	
+skandamahapurana_sutasamhita_khanda-4	base	0.429936	-0.222386	99.2	
+skandapurana	base	-0.096744	-0.010063	30.2	
+skandapurana_adhyaya-1-31_pu	base	-0.052428	0.005117	35.7	
+skandapurana_pasupata_adhyaya174-183_u	base	0.413543	-0.000393	98.4	
+vamanapurana_saromahatmya_u	base	0.072772	-0.156096	56.3	
+vamanapurana_u	base	-0.079105	-0.207747	33.3	
+vayu_ba	base	0.138412	0.496484	65.9	
+vayupurana	base	0.156577	0.390363	71.4	
+vayupurana_01_frame-and-cosmogony_iast	base	0.326222	0.547499	93.7	
+vayupurana_02_pashupata-yoga_iast	base	0.463577	0.022154	100.0	
+vayupurana_03_kalpas-and-shiva-lineages_iast	base	0.143529	0.397690	67.5	
+vayupurana_04_bhuvana-vinyasa_iast	base	0.145117	0.466242	68.3	
+vayupurana_05_jyotis-and-purvardha-close_iast	base	0.230426	0.472761	81.0	
+vayupurana_06_prthu-and-prajapati-lineages_iast	base	0.146729	0.681875	69.0	
+vayupurana_07_shraddha-kalpa_iast	base	0.244804	0.178789	82.5	
+vayupurana_08_manu-candra-vishnu-vamsha_iast	base	-0.084639	0.379642	31.7	
+vayupurana_09_upasamhara_iast	base	0.290229	0.434565	91.3	
+vayupurana_10_gaya-mahatmya_iast	base	0.256489	-0.269716	83.3	
+vayupurana_revakhanda	base	0.137522	-0.291100	65.1	
+visnudharma_pu	base	0.042811	-0.167890	47.6	
+visnudharmottarapurana_khanda-3_adhyaya-343-353_pu	base	0.075038	-0.219695	57.1	
+visnupurana_amsa-1_u	base	0.070406	0.184792	55.6	
+visnupurana_amsa-2_u	base	0.194342	0.172403	77.0	
+visnupurana_amsa-3_u	base	0.173186	0.103246	74.6	
+visnupurana_amsa-4_u	base	-0.068390	0.191587	34.9	
+visnupurana_amsa-5_u	base	-0.154897	-0.197699	26.2	
+visnupurana_amsa-6_u	base	0.168836	-0.055826	73.8	
+visnupurana_u	base	0.021904	0.062969	45.2	
+vayupurana_01_frame-and-cosmogony_iast	resid	0.287291	0.360516	90.5	633
+vayupurana_01_frame-and-cosmogony_iast	shared	0.334193	0.568426	94.4	5715
+vayupurana_02_pashupata-yoga_iast	resid	0.419498	0.017007	99.2	851
+vayupurana_02_pashupata-yoga_iast	shared	0.469422	0.004674	100.8	1411
+vayupurana_03_kalpas-and-shiva-lineages_iast	resid	0.177870	0.264721	76.2	2355
+vayupurana_03_kalpas-and-shiva-lineages_iast	shared	0.136051	0.440074	64.3	6601
+vayupurana_04_bhuvana-vinyasa_iast	resid	0.097200	0.306294	61.1	2952
+vayupurana_04_bhuvana-vinyasa_iast	shared	0.190036	0.566678	77.0	3832
+vayupurana_05_jyotis-and-purvardha-close_iast	resid	0.183908	0.346121	77.0	460
+vayupurana_05_jyotis-and-purvardha-close_iast	shared	0.232950	0.478333	81.7	8581
+vayupurana_06_prthu-and-prajapati-lineages_iast	resid	0.142315	0.657973	67.5	970
+vayupurana_06_prthu-and-prajapati-lineages_iast	shared	0.144829	0.691638	68.3	8134
+vayupurana_07_shraddha-kalpa_iast	resid	0.200184	0.010216	79.4	626
+vayupurana_07_shraddha-kalpa_iast	shared	0.245188	0.192512	83.3	6131
+vayupurana_08_manu-candra-vishnu-vamsha_iast	resid	-0.056949	0.338990	35.7	818
+vayupurana_08_manu-candra-vishnu-vamsha_iast	shared	-0.081344	0.381588	33.3	13460
+vayupurana_09_upasamhara_iast	resid	0.184514	0.038296	77.0	970
+vayupurana_09_upasamhara_iast	shared	0.313502	0.516660	92.9	4711
+vayupurana_10_gaya-mahatmya_iast	resid	0.276996	-0.268806	87.3	3164
+vayupurana_10_gaya-mahatmya_iast	shared	0.177774	-0.221256	76.2	1165
+vayupurana_revakhanda	resid	0.128186	-0.295819	63.5	34011
+vayupurana_revakhanda	shared	0.170790	-0.265138	74.6	20454
+brahmandapurana_khanda-1_u	resid	0.312236	0.411925	92.9	3062
+brahmandapurana_khanda-1_u	shared	0.196294	0.530632	79.4	22895
+brahmandapurana_khanda-2_u	resid	-0.081431	-0.090687	32.5	14912
+brahmandapurana_khanda-2_u	shared	0.017533	0.356043	45.2	24048
+brahmandapurana_khanda-3_u	resid	0.157836	-0.048456	72.2	19976
+brahmandapurana_khanda-3_u	shared	0.269820	0.402699	84.9	5907
+visnupurana_amsa-1_u	resid	0.027085	0.019980	46.0	4187
+visnupurana_amsa-1_u	shared	0.125837	0.346299	63.5	4447
+visnupurana_amsa-2_u	resid	0.105220	-0.034100	61.1	1075
+visnupurana_amsa-2_u	shared	0.228271	0.244493	81.0	3641
+visnupurana_amsa-3_u	resid	0.118030	-0.027710	62.7	2902
+visnupurana_amsa-3_u	shared	0.245124	0.250366	83.3	1970
+visnupurana_amsa-4_u	resid	-0.123166	0.183039	28.6	4611
+visnupurana_amsa-4_u	shared	0.214149	0.323953	79.4	474
+visnupurana_amsa-5_u	resid	-0.101534	-0.100693	30.2	1745
+visnupurana_amsa-5_u	shared	-0.143812	-0.195890	27.8	7410
+visnupurana_amsa-6_u	resid	0.025618	-0.044716	46.0	584
+visnupurana_amsa-6_u	shared	0.231797	-0.036509	81.7	2218
