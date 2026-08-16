@@ -18,6 +18,10 @@ objection-answers are in the 2026-08-14 notes.
   the shared source filter; base + derived corpora regenerated, ByT5
   re-run). Never quote pre-clean numbers (git ≤ d9532dd).
 - W1×C3 sweet-spot convergence: **0.953**.
+- No-space C3 is stylo-cross-validated EXACTLY (500/500 features, delta
+  Pearson/Spearman 1.0000, map ρ 1.0000) — see
+  `2026-08-16_stylo_nospace_crossvalidation.md`; the "Python pipeline
+  alone" caveat is closed.
 - Layer/subset questions: fixed-map Gower projection + line-bootstrap CIs
   (B=500, seed 20260814); never recompute the map on gutted corpora.
 

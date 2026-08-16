@@ -86,8 +86,8 @@ article should lean on those two, not on the C3 floor.
   their conclusions are about axis robustness (ρ across settings) and are
   unaffected by the convention switch — the no-space mini-sweep in
   `c3_nospace/` already shows ρ(no-space, std) = 0.90–0.94 across MFW.
-- Still standard-C3: the stylo cross-validation runs (R stylo has no
-  no-space mode wired up) — the hero_mds wordlist validation is skipped
-  under `--strip-spaces`, so the no-space C3 rests on the Python pipeline
-  alone. If a stylo counterpart is ever wanted, feed it a pre-stripped
-  corpus build.
+- ~~Still standard-C3: the stylo cross-validation runs~~ **[CLOSED
+  2026-08-16 evening, Mac session]**: R stylo fed a pre-stripped corpus
+  reproduces the no-space C3 exactly — 500/500 features, delta matrices
+  Pearson/Spearman 1.0000, map ρ 1.0000. See
+  `2026-08-16_stylo_nospace_crossvalidation.md`.
