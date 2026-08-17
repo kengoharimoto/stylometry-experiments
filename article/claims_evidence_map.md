@@ -189,11 +189,22 @@ filler density (refuted: corr 0.27, lowest-density texts at the *late*
 pole), names/sectarian vocabulary (struck at ρ 0.99), reuse (removed),
 MFW and metric sweeps. → assembled per B4.
 
-**4.5 A4 external diachrony — NOT RUN (Kengo-led).** Top ~30 drifters vs
-documented diachronic tendencies (Oberlies' epic grammar, Meenakshi's epic
-syntax). The non-circular external link that closes Q2(b). Session
-assembles the candidate table; Kengo reads. Agreements are evidence;
-disagreements are honest anomalies to print.
+**4.5 A4 external diachrony — DROPPED (2026-08-17, Kengo's call).**
+Kengo's review of the candidate table found the design category-mismatched:
+Oberlies/Meenakshi document *marked deviations and functions* from the
+classical standard, not the frequencies of unmarked vocabulary — and the
+axis is made entirely of the latter. Any "expected direction" column would
+be our own inference dressed as external documentation (soft circularity);
+the one literature-licensed subset (obsolete forms must decline) is
+sparse, scribally leveled, and un-diagnostic on failure. The external
+burden of Q2(b) rests on 4.2/4.3 (known relative order — stronger than any
+grammar comparison) and 4.6 (dated anchors). **Promoted to a methods
+point instead:** the axis lives in the unmarked frequency band that
+grammars of deviation are structurally blind to — which is also the band
+conscious imitation cannot easily target; state this where Q1 is
+summarized, and use it to answer the "did you check Oberlies?" referee
+head-on. Fallback if a referee insists: the bounded obsolete-form
+depletion check, with its transmission-leveling caveat stated.
 
 **4.6 Anchors with external dates.** Old SP's 9th-c. Nepalese transmission;
 Śivadharma's external dating; epics' relative-antiquity consensus. BhP is
@@ -321,7 +332,7 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 
 | Item | What | Who | Blocking what |
 |---|---|---|---|
-| A4 | top-30 drifters vs Oberlies/Meenakshi table | session assembles, Kengo reads | Q2(b) section's external link |
+| ~~A4~~ | DROPPED 2026-08-17 — see §4.5; nothing blocks on it now | — | — |
 | A5 | per-feature anatomy of featured texts | session | worked-example boxes |
 | A3 | minimal sufficient set | decision: run cheap or drop | optional Q1 exhibit |
 | E1-full | Belvalkar print apparatus (OCR) | optional | strengthens 4.2 magnitudes |

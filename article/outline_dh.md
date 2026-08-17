@@ -88,7 +88,7 @@ authorless corpora. Limits and transfer conditions.
 **What this variant cuts:** the external-attestation philology (purāṇa
 witnesses, Rām sweep, BhP quotation channels) → one summarizing paragraph
 + citations; most per-text argumentation; appendix-level CI tables.
-**Dependencies:** none blocking — A4/A5 optional here (a strength: this
-variant can be drafted first). **Risks:** a referee asking for ground-truth
+**Dependencies:** none blocking — A5 optional here, A4 dropped
+2026-08-17 (a strength: this variant can be drafted first). **Risks:** a referee asking for ground-truth
 dates — answered by the known-relative-order validation framing; corpus
 availability questions — answered by repo + derived-frequency release.

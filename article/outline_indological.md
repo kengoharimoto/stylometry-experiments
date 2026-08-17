@@ -45,10 +45,13 @@ robustness summary table; length-control panel.*
 ## 4. What the axis counts (≈2,000 w)
 A1 poles in words a philologist can verify (tam/sa/abravīt/iva vs
 ādi/-ika/-yet); A2's answer — pervasive, redundant usage change, no class
-necessary, nearly every class sufficient. **A4 table here**: top drifters
-against Oberlies/Meenakshi documented diachrony — the non-circular link;
-anomalies printed. *Figures: two-pole loading table; A2 decomposition
-tables; A4 table.* [BLOCKED on A4]
+necessary, nearly every class sufficient. **The marked/unmarked point**
+(Kengo, 2026-08-17): the drifters are ordinary words at shifting rates —
+precisely the material a grammar of deviations (Oberlies) is structurally
+blind to, and the band conscious archaizing cannot easily target; hence
+external validation comes from known relative order and dated anchors
+(§3, §7), not from grammar-checking the feature list. *Figures: two-pole
+loading table; A2 decomposition tables.*
 
 ## 5. The retention clock (≈1,200 w)
 B2b for a humanist: glottochronology's retention idea applied to style
@@ -97,7 +100,10 @@ Data/code availability statement (repo + TSVs).
 **What this variant cuts:** most of B2's simulation detail (one figure +
 appendix); Q3 covariate machinery; the DH-facing methodological novelty
 framing (no-space trigrams etc. are *explained* but not *sold*).
-**Dependencies:** A4 (blocking §4), A5 (worked-example boxes in §6–8).
+**Dependencies:** A5 (worked-example boxes in §6–8); A4 dropped
+2026-08-17 (see claims map §4.5) — no longer blocking.
 **Risks:** length; a referee hostile to quantification — mitigated by §3's
-stack and by every claim carrying a philological handle; the SP-before-Mārk
-claim will draw fire — the CI table and confound-bounding must be airtight.
+stack and by every claim carrying a philological handle; a referee
+demanding an Oberlies comparison — answered head-on by §4's
+marked/unmarked argument; the SP-before-Mārk claim will draw fire — the
+CI table and confound-bounding must be airtight.

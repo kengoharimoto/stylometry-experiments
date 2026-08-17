@@ -31,5 +31,6 @@ manuscript cannot be under review at two journals. Endgames:
 
 ## Open dependencies (from the map §8)
 
-A4 (drifters vs documented diachrony; blocks Indological §4), A5
+A4 DROPPED 2026-08-17 (category mismatch — the literature documents
+marked deviations, not frequencies; see map §4.5), A5
 (per-text anatomy boxes), A3 decision, optional E1-full and B1 re-run.

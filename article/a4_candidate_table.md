@@ -1,10 +1,21 @@
-# A4 candidate table — top drifters vs documented diachrony
+# Top drifters table (ex-A4) — what the axis is made of
 
-**Date:** 2026-08-17. **Status:** assembled for Kengo's review — the
-"documented diachrony" column is to be verified/filled against Oberlies
-(*A Grammar of Epic Sanskrit*), Meenakshi (*Epic Syntax*), and whatever
-else applies; the "candidate link" glosses are session suggestions, NOT
-citations. Source: `materials/presentation_2026/figures/axis_anatomy/loadings_{W1,C3}_500.tsv`
+**Date:** 2026-08-17. **Status: A4 DROPPED same day after Kengo's
+review.** His finding: virtually none of these features is discussed in
+Oberlies/Meenakshi, *and that is structurally necessary* — the drifters
+are ordinary Sanskrit words at shifting frequencies, while the grammars
+document marked deviations and functions, not rates. The empty
+"documented diachrony" column is therefore itself the result: the axis
+lives in the unmarked frequency band that grammars of deviation cannot
+see (and that conscious archaizing cannot easily target). External
+validation of time-likeness rests on known relative order + dated anchors
+instead (claims map §4.2–4.6, §4.5 for the drop rationale).
+
+**New role of this file:** the Q1 exhibit — "here is what the axis is
+actually made of", with the marked/unmarked point as its caption. The
+literature columns below are retained empty as documentation of the
+finding; do not fill them.
+Source: `materials/presentation_2026/figures/axis_anatomy/loadings_{W1,C3}_500.tsv`
 (post-clean, article conventions), top ~30 by |ρ_x| per lens.
 
 Direction: **E** = early-pole feature (recedes along the axis),
@@ -62,8 +73,8 @@ territory — verify against that TSV before printing any of them.
 |---|---|---|---|---|
 | rāj, āja | E | −0.81…−0.79 | rājan-family — matches W1 #12/22/28/30 | cross-lens agreement point |
 | tāṃ, atā, avā, ayā, ava, ama, ata | E | −0.78…−0.53 | a-stem/fem. acc. + narrative preterite vowel texture | diffuse; treat as texture, not morpheme |
-| yet, yāt | L | +0.71, +0.66 | optative 3sg endings — prescriptive injunction register | matches Q3 optative covariate; strong A4 row |
-| ikā, ika | L | +0.77, +0.56 | -ika/-ikā taddhita derivatives — classical derivational growth | strong A4 row |
+| yet, yāt | L | +0.71, +0.66 | optative 3sg endings — prescriptive injunction register | matches Q3 optative covariate |
+| ikā, ika | L | +0.77, +0.56 | -ika/-ikā taddhita derivatives — classical derivational growth | |
 | ādi | L | +0.69 | -ādi itemizing — matches W1 #1 | cross-lens agreement point |
 | hat, bal, hāb, arṣ, hār | E | −0.69…−0.56 | hata-/bala-/mahābāhu-/battle lexis | genre-tinged, flag |
 | abravīt cluster: vān, āha | E | −0.63, −0.56 | speech verbs / -vant participles — inspect sources | |
@@ -79,7 +90,5 @@ territory — verify against that TSV before printing any of them.
   (they sit lower in the table — worth one sentence on why: pāda-filler
   particles are stable furniture, cf. A2 bridge result that particles are
   NOT the axis).
-- raṇe/balam/vīra rows are battle-lexis and partly genre; keep them in the
-  table but flagged — their agreement with "epic = early" is the weakest
-  kind of evidence and should not be counted as independent diachrony.
-- Verdict column values: agrees / disagrees / not documented / genre-only.
+- raṇe/balam/vīra rows are battle-lexis and partly genre; keep them
+  flagged in any printed version.

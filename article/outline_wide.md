@@ -77,8 +77,8 @@ attestation, BhP quotation channels); hygiene episodes; per-figure data.
 
 **What this variant cuts:** all philological argumentation beyond one
 paragraph per finding; the Rām/MBh citation-asymmetry material; Q3 to two
-sentences + SI. **Dependencies:** none strictly blocking (A4 strengthens
-2.4/2.5 but the validation stack stands without it).
+sentences + SI. **Dependencies:** none blocking (A4 dropped 2026-08-17;
+the validation stack rests on known relative order + dated anchors).
 **Risks:** (a) a Sanskritist referee finding the compression cavalier —
 mitigated by SI depth and exact wording of the guardrails; (b) the
 "religion's scriptures dated by algorithm" press angle — the BhP neutrality
