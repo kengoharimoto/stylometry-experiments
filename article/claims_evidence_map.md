@@ -35,7 +35,10 @@ and **no-space C3**; the provenance gates in §0 list the traps.
     pre-clean (conclusions insensitive; re-run if a referee needs it).
   - No pre-2026-07-10 R-pipeline number is citable (stylo tokenization bug).
   - July BhP fuzzy-sweep numbers only with the `--normalise-cand-length`
-    caveat (see `2026-08-17_bhp_fuzzy_sweep_normcut.md`).
+    caveat; the normcut run's original delta numbers (105,795 rows /
+    27,433 units / 152 works) are exclusion-bug pool artifacts — use only
+    the ADDENDUM values in `2026-08-17_bhp_fuzzy_sweep_normcut.md`
+    (7,500 → 7,970 units, 138 new works; BhP 9 × PPL stats unaffected).
 
 ---
 

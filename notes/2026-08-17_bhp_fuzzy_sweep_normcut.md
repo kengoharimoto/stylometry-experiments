@@ -26,6 +26,13 @@ units matched), delta vs July in `normcut/delta.md`
 (`compare_scan_runs.py`): 7,500 → 27,433 units matched, 152 works newly
 visible, 1 lost.
 
+**SUPERSEDED (same day, see the addendum at the end): the run above was
+launched with the script's DEFAULT exclude list, which is backwards for a
+BhP target — it dropped the Bhaviṣyapurāṇa and admitted the BhP
+self-copies. The 105,795 / 27,433 / 152 numbers are pool artifacts; the
+corrected run's numbers are in the addendum. The pre-1000 verdict and all
+witness readings below are unaffected (verified on the corrected run).**
+
 ## Verdict on the question: the pre-1000 negative HOLDS under fuzz
 
 Every fresh solid (≥ 0.85) row in a pre-1000 author resolves to mediated
@@ -89,3 +96,55 @@ before: Utpala Vaiṣṇava's Spandapradīpikā not in the library; al-Bīrūnī
 out of scope; plus the July semantic scan (`bhp_semantic_hits.tsv`,
 labse-mitra) exists for paraphrase-level echoes if we ever want a third
 channel.
+
+---
+
+## ADDENDUM 2026-08-17 (later the same day): exclusion bug, corrected re-run
+
+**The bug.** The normcut launch above did not pass `--exclude-substr`, so
+`bhavisya_scan.py` fell back to its built-in default
+`["bhavisya", "bhumidana_in_bhavisyapurana"]` (lines 411–412) — backwards
+for a BhP target. Two effects, both silent: (i) `unknown_bhavisyapurana`
+was dropped from the candidate pool (July: 229 rows → normcut: 0);
+(ii) the BhP self-copy files (`unknown-bhagavatapurana-1-12`, `_all`,
+per-skandha) were admitted — 81,030 of 105,794 rows (77%). The July
+baseline had in fact *excluded* the self-copies (its pool has
+Devībhāgavata 369 / Laghubhāgavatāmṛta 243 / Devīgītā 10 rows but zero
+`unknown_bhagavatapurana*`), so the old delta.md mixed a pool change into
+the normalisation comparison. Diagnosis relayed by the Mac-side session;
+confirmed here from the script defaults, the July-vs-normcut row counts,
+and delta.md's self-copy "0 → 27,344"-type rows. (Note: a bare
+`--exclude-substr bhagavata` fix would have been wrong too — it also
+matches Devībhāgavata, Devīgītā, and Laghubhāgavatāmṛta.)
+
+**The fix.** Re-run with the July-matching pool, everything else
+identical: `--exclude-substr unknown_bhagavatapurana --exclude-substr
+unknown-bhagavatapurana` (96 workers, 6,370 files). Flawed outputs
+archived at `normcut_selfcopy_baddefaults_20260817/`; the 99.1%
+self-copy positive-control figure remains citable from that archive with
+its provenance stated.
+
+**Corrected numbers** (`normcut/bhph_pairs.tsv`, delta regenerated):
+
+- Target units matched ≥ 0.70: **7,500 → 7,970** (502 newly matched,
+  32 lost to candidate re-segmentation — delta.md's works-losing table
+  reviewed, losses are 1–6 per work, boundary effects).
+- Source works: 1,180 → **1,313** (138 newly visible).
+- Bhaviṣya restored: **238 rows** (July 229; +9 are genuine
+  normalisation gains). Still nothing that changes the BhP witness
+  picture — the Bhaviṣya rows are the same vaṃśa/commonplace classes.
+- The genuinely-new works are exactly the pāda-per-line sources the
+  normalisation was built for: **Kirfel PPL Textgruppen** (I 62 solid
+  units, II 27, ungrouped 26, IIB 21, IIA 18, III 12, Ia 11),
+  **Matsya `_pu` 129**, **Manu `_f` 34**.
+- Headline witnesses unchanged on the corrected run: Māṭhara 5 rows,
+  Hitopadeśa 9, Saduktikarṇāmṛta 2, Vidyākara SRK 14, Sūtasaṃhitā 39.
+- **BhP 9 × PPL Textgruppe I reproduces exactly: 185 rows, median 0.75,
+  35 hemistichs ≥ 0.85** — this claim was pool-independent and stands
+  as printed above.
+
+**What changes for citation:** never quote 105,795 rows / 27,433 units /
+152 works — those are self-copy-inflated pool artifacts. The honest
+normalisation delta is 7,500 → 7,970 units and 138 newly visible works.
+The pre-1000 negative verdict, the Māṭhara crux, the editorial-artifact
+kills, and the BhP 9 inheritance finding are all unaffected.
