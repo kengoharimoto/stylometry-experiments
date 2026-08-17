@@ -1,13 +1,14 @@
 # Losses are the clock: recovering relative chronology from stylometric drift in the Sanskrit epics and purāṇas
 
-**Status: DRAFT 2026-08-17 — complete first draft, all 9 sections.
-Drafted from `claims_evidence_map.md`; numbers cross-checked against the
-map, but a final verification pass against the source notes/TSVs is
-required before submission (known soft spots: §4's variance shares mix
-B1/B2 runs that differ in the second decimal; §7's late-Textgruppen
-range and pāśupata percentile are pre-colophon-clean values). Citations
-are author-year placeholders; bibliography to be assembled and
-verified.**
+**Status: DRAFT 2026-08-17 — complete first draft, all 9 sections,
+revised same day after the Mac session's cold-read review. Load-bearing
+numbers (§4 null-model shares, §6 retention correlations, §7 E1 /
+stratigraphy / genre values) verified against the post-colophon-clean
+TSVs (`axis_anatomy/b2_models_*`, `b2b_loss_gain_*`,
+`complement_halves/bootstrap_C3_500.tsv`, `subsets_*`,
+`e1_apparatus_W1_500.tsv`, `genre_control_W1_500.tsv`, and the W1-500
+reference frame). Citations are author-year placeholders; bibliography
+to be assembled and verified.**
 
 **Target:** DSH / Journal of Cultural Analytics (per `outline_dh.md`).
 
@@ -26,7 +27,7 @@ feature systems with almost no linguistic material in common — word
 frequencies computed on algorithmically de-sandhied text, and character
 trigrams computed on the undivided sandhied stream — independently
 recover the same one-dimensional ordering of these texts (Spearman ρ =
-0.95), and that this ordering survives removal of shared text, proper
+0.953), and that this ordering survives removal of shared text, proper
 names, and sectarian vocabulary, is invariant across feature-set sizes
 and distance measures, and is reproduced exactly by an independent
 implementation. Null models show that a dominant, ordering-shaped,
@@ -34,7 +35,7 @@ length-independent first axis of the kind we observe is the signature of
 autocorrelated change — many small habits shifting together — and not of
 mere heterogeneity. A split-half decomposition explains the mechanism:
 depletion of an early-characteristic feature inventory alone reproduces
-the ordering (ρ = 0.94), while feature gains order the late texts only
+the ordering (ρ = 0.939), while feature gains order the late texts only
 loosely. Losses are the clock; gains are the community structure. The
 instrument validates on layers of independently known relative order and
 yields philologically consequential results, including a resolution of
@@ -167,10 +168,15 @@ that coordinates are comparable across runs. For questions about layers
 and subsets of texts we never recompute the map on a mutilated corpus;
 we project the subset into the fixed map as supplementary points (Gower
 projection) and attach confidence intervals by bootstrap over lines
-(B = 500). The corpus comprises 127 units — epic books (parvans,
-kāṇḍas), whole purāṇas or their major divisions, and a small śāstra
-outgroup — totalling 4,490,750 de-sandhied words (unit sizes 1.0k–462k,
-median 17.3k; the length floor this range imposes is treated in §3.4).
+(B = 500). The corpus comprises 127 units totalling 4,490,750
+de-sandhied words (unit sizes 1.0k–462k, median 17.3k; the length floor
+this range imposes is treated in §3.4): the books of the two epics
+(Mahābhārata parvans, Rāmāyaṇa kāṇḍas) plus selected Critical-Edition
+appendix blocks as separate units, whole purāṇas or their major
+divisions, a small śāstra/ritual outgroup, and the seven text-group
+units of Kirfel's constituted *Purāṇapañcalakṣaṇa* reconstruction
+[Kirfel 1927], included as first-class units because §7's validation
+turns on them.
 
 ### 2.3 Why two lenses constitute two witnesses
 
@@ -287,13 +293,18 @@ the first objection to any similarity result: whole genealogical
 chapters circulate across purāṇas nearly verbatim. We rebuilt the corpus
 with cross-text verbatim reuse removed (shingle matching with fuzzy
 extension; both directions; the removal itself validated by
-byte-reconstruction) and re-ran the full sweep. At the recommended
-settings the ordering is unchanged: cross-build agreement ρ = 0.98–0.99
-(C3-500/1000), 0.98 (W1-80/200). The collapsed high-MFW W1 regime, by
-contrast, *anti-correlates* across builds (−0.86 at 5000 MFW) — direct
-confirmation that beyond the cliff W1 measures the shared material
-itself, while below it the axis is indifferent to whether the shared
-material is present at all.
+byte-reconstruction) and re-ran the full sweep. The ordering is
+unchanged: cross-build agreement is ρ = 0.98–0.99 on C3 (at 500 and
+1000 features) and ρ = 0.98 on W1 at 80–200 MFW, easing to 0.91 at
+W1-500 — the adopted setting sits at the edge of the reuse-stripped
+build's plateau, which narrows for a mechanical reason (removing
+parallels shrinks token counts, so the shared word inventory is
+exhausted at lower ranks), and on that build the sweep recommends
+W1 200–500; the ordering itself is the same across the plateau. The
+collapsed high-MFW W1 regime, by contrast, *anti-correlates* across
+builds (−0.86 at 5000 MFW) — direct confirmation that beyond the cliff
+W1 measures the shared material itself, while below it the axis is
+indifferent to whether the shared material is present at all.
 
 **Names and sectarian vocabulary.** Striking all 36 theonyms and
 divine-name stems from the W1-500 list (refilling to 500 from the
@@ -320,7 +331,8 @@ small set of texts carries the axis.
 ### 3.3 What the ordering is made of
 
 The axis is not a few-feature artifact: only 4 of 500 W1 features and 8
-of 500 C3 features correlate with it at |ρ| ≥ 0.7 (median |ρ| ≈ 0.25).
+of 500 C3 features correlate with it at |ρ| ≥ 0.7 (median |ρ| = 0.28
+and 0.23 respectively).
 A class decomposition — computing the axis from each linguistic class
 alone, and with each class removed and refilled — shows that *no class
 is necessary and nearly every class suffices*: particles alone
@@ -417,7 +429,7 @@ embedding finds the drift gradient in its top-2 plane (PCA: ρ = 0.997
 W1, 0.995 C3 after alignment; isomap 0.92/0.85; Fiedler 0.95/0.82). On
 C3 the *raw* first dimensions disagree across methods, and the reason is
 itself a result: C3's top two eigenvalues are nearly degenerate (ratio
-1.13, vs 1.68 on W1), because the register dimension (§8) is almost as
+1.07, vs 1.68 on W1), because the register dimension (§8) is almost as
 strong as the drift dimension — so which one surfaces first is
 method-dependent while the plane containing both is not. The TSP
 seriation fails on both lenses (ρ ≈ 0.24–0.29), and its failure is
@@ -440,11 +452,10 @@ machinery of exposition: itemizing *-ādi* (+0.79, the strongest single
 loading in either lens), *jñāna/jñānam*, *brahma*, sentence-connective
 *tad* (+0.60), and — in C3 — the optative endings of prescription
 (*-yet* +0.71, *-yāt* +0.66) and the taddhita derivative suffixes of
-technical vocabulary (*-ika/-ikā* +0.77/+0.56). Both lenses, read
+technical vocabulary (*-ikā/-ika* +0.77/+0.56). Both lenses, read
 blind, describe the same drift: from narrated encounter toward
-enumerated doctrine — a register gradient in the unconscious band of
-usage. Whether that gradient is *temporal* is not settled by naming it;
-that burden falls on §6 and §7.
+enumerated doctrine. Whether that gradient is *temporal* is not settled
+by naming it; that burden falls on §6 and §7.
 
 Three structural facts sharpen the picture. First, the signal is
 radically distributed (§3.3): the poles just quoted are the readable tip
@@ -528,10 +539,10 @@ text, and projected all of them as supplementary points with bootstrap
 confidence intervals. In every case, on both lenses, the apparatus
 material styles later than its constituted text, and every augmented
 text sits lateward of its constituted counterpart. For the epilogue
-books the effect is dramatic — Book 18's apparatus projects at the 62nd
-percentile [46, 76] of the drift axis against its constituted text's
+books the effect is dramatic — Book 18's apparatus projects at the 65th
+percentile [48, 81] of the drift axis against its constituted text's
 5th; for the control (Book 13, a book *known* to be didactically
-swollen) the apparatus sits at 55 [53, 59] against 33. The e-text
+swollen) the apparatus sits at 57 [56, 61] against 36. The e-text
 apparatus we used is a subset of the full print apparatus, so these
 separations are lower bounds. What this validates is precise and
 limited: the axis correctly orders *layers of known relative date within
@@ -549,14 +560,35 @@ text): e.g., 28 [25, 31] versus 57 [42, 66], and 31 [29, 36] versus 79
 [75, 83], on units where both layers are substantial (CIs by line
 bootstrap; both lenses concur). Kirfel's own internal grouping is
 likewise recovered: his early Textgruppen project in a tight early band
-(25–32) and his late Textgruppen far later (≈ 60–93) — a
-seventy-year-old stratigraphy, built from entirely different evidence,
-sorted correctly by feature statistics. A genre control bounds the
-obvious objection (genealogical lists might just *style* early): the
-measured genre pull is real but capped at ~15–25 percentiles for
-mid-and-late texts and cannot reach the early band — and the layer
-comparison above is genre-matched by construction, genealogy against
-genealogy.
+(percentiles 23–37 across both lenses, with Textgruppe I and the
+ungrouped core at 23–29) and his late Textgruppen far later (48–79 on
+the word lens, 66–95 on the trigram lens) — a century-old stratigraphy,
+built from entirely different evidence, sorted correctly by feature
+statistics.
+
+The obvious objection is genre: genealogical list-verse might simply
+*style* early, wherever and whenever it was composed. We bounded this
+with two controls. An observational one compares dedicated genealogy
+books against their sibling divisions within the same text (no marker
+words involved); a systematic one splits thirteen texts spanning the
+whole axis into genealogy-marked and remaining halves (stem-based
+markers with one-line smoothing, source mapping verified lossless) and
+projects both halves with bootstrap intervals. The measured pull is
+real — genealogy halves of mid-and-late texts project up to ~25
+percentiles earlier than their complements — and the marker-split
+version of that number is an *upper bound*, since the marker words are
+themselves frequent features. But even the upper bound does not deliver
+the early band: on the word lens, the genealogy halves of late texts
+outside the PPL transmission bottom out around the 40th percentile
+(Padma's at 40 [37, 45]), far from the constituted-PPL band at 23–24.
+The decisive form of the control, however, is genre-immune by
+construction: *within the Vāyu itself*, the PPL layer projects earlier
+than the Vāyu–Brahmāṇḍa common layer — genealogy against genealogy,
+same text, same transmission (the separation quoted above). On the
+trigram lens alone the floor argument is no longer clean of overlap
+after the no-space correction, so we rest it on the word lens and the
+within-text comparison; stating which lens carries which argument is
+part of the method.
 
 **What the corpus says back.** Findings that clear the validation bar,
 stated at the instrument's resolution: (i) The Mahābhārata's four
