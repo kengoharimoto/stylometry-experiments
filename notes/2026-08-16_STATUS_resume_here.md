@@ -104,7 +104,12 @@ objection-answers are in the 2026-08-14 notes.
   purāṇa-reference philology in `three_debates` + `purana_witnesses`
   notes.
 - BhP: scale-dependence U-shape + over-performance; symmetric wording
-  ONLY (never "archaizer" as premise); never an anchor.
+  ONLY (never "archaizer" as premise); never an anchor. NEW 2026-08-18:
+  inbound channel — the BhP quotes/presupposes the Brahmasūtra (1.1.1
+  verbatim unit; frame 1.5.4; corpus-unique parābhidhyāna in skandhas
+  3+5; samanvaya cluster; 12.13 colophon); converges with the outbound
+  pre-1000 silence on the same window; a milieu argument, still not an
+  absolute anchor — see `2026-08-18_bhp_brahmasutra_dependence.md`.
 - Rām: trails MBh on C3 only (medians 7 vs 12); W1 no.
 - Genre: vaṃśa pull bounded; W1 floor argument decisive; C3 floor
   narrowed post-nospace — lean on W1 + the genre-immune layer argument.
