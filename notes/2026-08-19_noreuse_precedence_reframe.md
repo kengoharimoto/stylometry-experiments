@@ -277,14 +277,23 @@ That unavailability is itself a result worth one sentence in the article
 shared inheritance**, which is Kirfel's thesis restated as a measurement,
 not a defect of the instrument.
 
-**Consequence for the article (needs Kengo's call):** on the composition
-chronology the "PPL is the oldest purāṇic stratum" claim can no longer
-lean on the genre control alone. Its remaining supports are (a) the five
-texts whose genre-pulled floors stay clearly later, (b) the dated
-external witnesses (§6.7 of the claims map), (c) the layer-projection
-sequence. Recommended wording shift: from "genre is excluded" to "genre
-is bounded and cannot account for the full separation, though the most
-genealogy-saturated halves of middle texts do reach the PPL band."
+**DECISION (Kengo, 2026-08-19, same day): genre control DROPPED as
+circular.** Kirfel's thesis means the vaṃśa genre IS the shared
+inheritance, so any content-split control conflates register with the
+age of borrowed (or sub-threshold-paraphrased) text — on every build. A
+dharma-pulls-late variant is circular identically. The TSVs above stay
+as documentation; do not cite them as a control.
+
+**Replacement defense (strip-first), agreed same day:** the
+genealogy-therefore-early objection is, in its strong form, a reuse
+objection — and the no-reuse build answers it by construction: the PPL
+keeps its early band on a map from which every copy of its text has been
+removed. The register version of the objection fails on the face of the
+map: the early pole is epic battle/dialogue narrative (vaṃśa-thin), the
+PPL's carriers' residues read late (Vāyu 80.8), E1 provides the
+same-genre known-later validation, and register variation occupies its
+own orthogonal axis (Q3, arch R² ≤ 0.02). Claims map §6.4 rewritten
+accordingly; guardrail 8 updated.
 
 **Conventions used (do not drift):** C3 no-space scriptio continua; seed
 20260814, B=500; percentiles on the map's own 126 units; orientation from

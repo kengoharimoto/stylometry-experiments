@@ -283,26 +283,35 @@ late). Transmission-conservatism confound flagged and bounded.
 → `2026-08-14_sp_mark_ppl_sequence.md` + post-clean conversions. Fig: forest
 plot of PPL/SP/Mārk layers.
 
-**6.4 Genre control (vaṃśa).** Real but bounded: pull ≈ 15–25 points for
-mid/late texts, ~0 at the epic end; marker-split Δ is an upper bound.
-Post-nospace the C3 floor argument is **no longer CI-clean** — lean on W1
-(floor ~46 vs PPL 21–24) and on the genre-immune layer argument (V8's PPL
-layer earlier than V8's own vaṃśa common layer, same genre both sides).
-→ `2026-08-14_vamsa_genre_control.md` + rerun note flag.
+**6.4 Genre control (vaṃśa) — DROPPED as circular (2026-08-19, Kengo's
+call), replaced by the strip-first defense.** The vaṃśa marker split
+never measured register in this corpus: per Kirfel, the genealogical
+genre IS the shared ancient inheritance, so the gen-half Δ conflates
+"list-register reads early" with "these lines are genuinely old borrowed
+text" — inseparable even on the residue build (sub-threshold paraphrase
+survives the strip; Vāyu-08's residue keeps 178 vaṃśa words). A
+dharma-pulls-late variant is circular the same way (the movers table
+shows borrowed mass drags toward its *sources'* position — an age effect
+wearing genre clothes, both directions). Do not run or resurrect
+content-split genre controls; the 2026-08-14 and 2026-08-19 TSVs
+(`genre_control/genre_control_*_500.tsv`) are retained as documentation.
 
-> **On the no-reuse build (R3, 2026-08-19) this claim weakens — read
-> before writing the reframed §6.4.** Re-derived on residues both sides
-> (`genre_control_C3_noreuse_500.tsv`): pull confirmed, one-directional,
-> CI-separated in six texts (Bhaviṣya −30.4, Agni −24.0, Matsya −17.6,
-> Mārk −12.8, Brahma −12.8, Padma −11.2). But the floor clears PPL-I
-> [23.2, 29.6] for only five panel texts (Padma, Matsya, Kūrma, Agni,
-> Garuḍa); Brahma/Bhaviṣya gen-halves reach 27.2 and Mārkaṇḍeya's sits on
-> the band. **The genre-immune V8 argument is unavailable on residues**
-> (Vāyu-08 keeps 178 vaṃśa words, Vāyu-06 241) — itself reportable as
-> Kirfel's thesis measured: the old-core carriers' genealogy *is* the
-> shared inheritance. Required wording shift: "genre is bounded and
-> cannot account for the full separation" — NOT "genre is excluded".
-> → `2026-08-19_noreuse_precedence_reframe.md` §R3.
+**The genealogy-therefore-early objection is answered instead by:**
+1. **The strip itself (primary).** In its strongest form the objection
+   is a reuse objection — "the PPL sits at the center of gravity of its
+   own descendants." Answer by construction: on the no-reuse map every
+   copy of PPL text is removed from the purāṇas and the PPL keeps its
+   band (I 24.8 [23.2, 29.6], ungrouped 24.8 [23.6, 27.2]).
+2. **The early pole is not genealogical.** The earliest units on every
+   build are epic battle/dialogue parvans and Rām kāṇḍas, thin on vaṃśa
+   material; and the PPL's own carriers read late once the shared
+   genealogy is gone (Vāyu residue 80.8 C3-noreuse). List-register per
+   se does not read early.
+3. **E1** — same genre both sides, known-later measures later (§4.2;
+   noreuse values in the reframe note).
+4. **Axis-2 orthogonality** — register variation has its own dimension
+   (§5; arch check R² ≤ 0.02).
+→ `2026-08-19_noreuse_precedence_reframe.md` §R3 + this decision.
 
 **6.5 Rāmāyaṇa.** Feature-system split: C3-only trail vs MBh (medians 7 vs
 12 post-nospace); W1 as archaic as MBh. Kāṇḍas internally compressed, no
@@ -352,8 +361,10 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 6. PPL: a corpus reconstruction, not a transmitted title; "earliest layer"
    claims stay layer-specific (V1 cosmogony is the printed counter-case).
 7. y is never a second chronology.
-8. Genre discount is applied, not just mentioned; C3 genre floor no longer
-   CI-clean — use W1 + layer argument.
+8. Genre: no content-split genre control is cited (dropped as circular,
+   §6.4) — the genealogy objection is answered strip-first (PPL early on
+   a PPL-free corpus), then epic-narrative early pole, E1, axis-2
+   orthogonality.
 9. Mārk 1–80 is the *latest* Mārk layer (the misattributed early claim is
    corrected in `sp_mark` — do not resurrect it).
 10. Report axis-1 share only together with the length diagnostic.
@@ -367,7 +378,7 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | ~~A4~~ | DROPPED 2026-08-17 — see §4.5; nothing blocks on it now | — | — |
 | ~~R1~~ | DONE 2026-08-19 — verdict: no-reuse chronology is C3-led, W1-noreuse partly length artifact (see §0 gate) | — | — |
 | ~~R2~~ | DONE 2026-08-19 — `noreuse_reframe/movers_C3.tsv` is the citable consequences table (16 CI-separated moves) | — | — |
-| ~~R3~~ | DONE 2026-08-19 (Kengo: re-derive). PPL bands + E1 carry over; **genre control weakens the PPL claim** — see §6.4 box | — | one open call: §6.4 wording |
+| ~~R3~~ | DONE 2026-08-19. PPL bands + E1 carry over; genre control then DROPPED as circular (Kengo) — §6.4 now carries the strip-first replacement defense | — | — |
 | ~~R4~~ | RESOLVED 2026-08-19 (Kengo): borrowed mass drags toward the sources' position; Śivadharma-incorporators late-ward | — | — |
 | A6 | axis-3 = BhP dimension, instrument-grade | session | reframed 3-D section |
 | A5 | per-feature anatomy of featured texts | session | worked-example boxes |
