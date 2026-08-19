@@ -297,16 +297,22 @@ content-split genre controls; the 2026-08-14 and 2026-08-19 TSVs
 (`genre_control/genre_control_*_500.tsv`) are retained as documentation.
 
 **The genealogy-therefore-early objection is answered instead by:**
-1. **The strip itself (primary).** In its strongest form the objection
-   is a reuse objection — "the PPL sits at the center of gravity of its
-   own descendants." Answer by construction: on the no-reuse map every
-   copy of PPL text is removed from the purāṇas and the PPL keeps its
-   band (I 24.8 [23.2, 29.6], ungrouped 24.8 [23.6, 27.2]).
+1. **The strip itself (primary; both directions).** The one-directional
+   strip (kirfel = source) removes every near-verbatim PPL line from the
+   containers while the PPL keeps everything. Container side: the
+   carriers no longer contain the PPL, so **the PPL cannot affect its
+   containers' positions** — their late residues (Vāyu 80.8 C3-noreuse)
+   are the compilers' own voice, not cargo. PPL side: the PPL keeps its
+   band (I 24.8 [23.2, 29.6], ungrouped 24.8 [23.6, 27.2]) against a
+   corpus none of whose texts carry its copies — no center-of-gravity
+   echo. The stratigraphic separation is therefore between textually
+   disjoint bodies; what remains is style. (Qualifier: "no PPL text"
+   means above the ratio-70 match threshold; sub-threshold paraphrase
+   can survive — which is why the content-split control stayed circular
+   while this construction-level argument does not depend on it.)
 2. **The early pole is not genealogical.** The earliest units on every
    build are epic battle/dialogue parvans and Rām kāṇḍas, thin on vaṃśa
-   material; and the PPL's own carriers read late once the shared
-   genealogy is gone (Vāyu residue 80.8 C3-noreuse). List-register per
-   se does not read early.
+   material. List-register per se does not read early.
 3. **E1** — same genre both sides, known-later measures later (§4.2;
    noreuse values in the reframe note).
 4. **Axis-2 orthogonality** — register variation has its own dimension
