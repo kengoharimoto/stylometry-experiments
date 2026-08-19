@@ -1,0 +1,110 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Article standard W1-500, with shared text (n127)</title>
+<style>
+  body { margin:0; background:#ffffff; color:#222; font:14px/1.45 -apple-system, 'Segoe UI', sans-serif; }
+  #wrap { max-width: 1100px; margin: 0 auto; padding: 12px 16px; }
+  h1 { font-size: 18px; margin: 4px 0 2px; }
+  .sub { color:#666; font-size: 12.5px; margin-bottom: 8px; }
+  canvas { display:block; width:100%; border:1px solid #ddd; border-radius:8px; cursor:grab; touch-action:none; background:#fdfdfc; }
+  #bar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:8px 0; font-size:12.5px; }
+  button { font:inherit; padding:3px 10px; border:1px solid #bbb; border-radius:6px; background:#f6f6f6; cursor:pointer; }
+  button:hover { background:#ececec; }
+  label { user-select:none; }
+  #legend { display:flex; flex-wrap:wrap; gap:4px 14px; font-size:12px; color:#444; margin-top:6px; }
+  .sw { display:inline-block; width:10px; height:10px; border-radius:5px; margin-right:4px; vertical-align:-1px; }
+  #readout, #note { color:#666; font-size:12.5px; min-height:1.2em; }
+</style>
+<div id="wrap">
+<h1>Article standard W1-500, with shared text (n127)</h1>
+<div class="sub">Axis shares: 13.4% · 8.0% · 7.3%. Drag to rotate; the Front button is the published 2-D plane.</div>
+<div id="bar">
+  <button id="vfront">Front = published plane (1&times;2)</button>
+  <button id="vside">Side (1&times;3)</button>
+  <button id="vtop">Top (2&times;3)</button>
+  <label><input type="checkbox" id="spin"> auto-rotate</label>
+  <label><input type="checkbox" id="labels" checked> labels</label>
+  <span style="color:#999">drag = rotate &middot; wheel = zoom</span>
+</div>
+<canvas id="c" width="1100" height="700"></canvas>
+<div id="readout"></div>
+<div id="note">Burrows's Delta, 500 MFW words, unsandhied corpus, manifest dicsep2026_n127_ppl (PPL included). Front = the article's 2-D plane.</div>
+<div id="legend"></div>
+</div>
+<script>
+const PTS = [{"name": "agnipurana_u", "code": "A", "color": "#e08a1e", "x": 0.3404, "y": -0.0589, "z": 0.0058}, {"name": "bhagavatapurana_skandha-01_u", "code": "Bh1", "color": "#e0bf1e", "x": -0.0125, "y": -0.2193, "z": -0.3136}, {"name": "bhagavatapurana_skandha-02_u", "code": "Bh2", "color": "#e0bf1e", "x": 0.1965, "y": -0.0981, "z": -0.5393}, {"name": "bhagavatapurana_skandha-03_u", "code": "Bh3", "color": "#e0bf1e", "x": 0.0933, "y": -0.1056, "z": -0.313}, {"name": "bhagavatapurana_skandha-04_u", "code": "Bh4", "color": "#e0bf1e", "x": 0.0105, "y": -0.1795, "z": -0.2375}, {"name": "bhagavatapurana_skandha-05_u", "code": "Bh5", "color": "#e0bf1e", "x": 0.1396, "y": -0.0399, "z": -0.3285}, {"name": "bhagavatapurana_skandha-06_u", "code": "Bh6", "color": "#e0bf1e", "x": 0.0045, "y": -0.1564, "z": -0.2712}, {"name": "bhagavatapurana_skandha-07_u", "code": "Bh7", "color": "#e0bf1e", "x": 0.0586, "y": -0.1978, "z": -0.3336}, {"name": "bhagavatapurana_skandha-08_u", "code": "Bh8", "color": "#e0bf1e", "x": -0.017, "y": -0.1276, "z": -0.1781}, {"name": "bhagavatapurana_skandha-09_u", "code": "Bh9", "color": "#e0bf1e", "x": -0.1078, "y": -0.101, "z": -0.1458}, {"name": "bhagavatapurana_skandha-10_adhyaya-29-33_w_commentary", "code": "Bh10c", "color": "#7f7f7f", "x": 0.0818, "y": -0.175, "z": -0.5072}, {"name": "bhagavatapurana_skandha-10_u", "code": "Bh10", "color": "#e0bf1e", "x": -0.0788, "y": -0.2263, "z": -0.1763}, {"name": "bhagavatapurana_skandha-11_u", "code": "Bh11", "color": "#e0bf1e", "x": 0.1801, "y": -0.2289, "z": -0.3514}, {"name": "bhagavatapurana_skandha-12_u", "code": "Bh12", "color": "#e0bf1e", "x": 0.1687, "y": -0.0308, "z": -0.3078}, {"name": "bhavisyapurana", "code": "Bhv", "color": "#e08a1e", "x": 0.165, "y": -0.1382, "z": 0.2744}, {"name": "brahmandapurana", "code": "Bḍ", "color": "#1a7a3a", "x": 0.0506, "y": 0.2084, "z": 0.1267}, {"name": "brahmandapurana_khanda-1_u", "code": "Bḍ1", "color": "#1a7a3a", "x": 0.1277, "y": 0.4605, "z": 0.0292}, {"name": "brahmandapurana_khanda-2_u", "code": "Bḍ2", "color": "#1a7a3a", "x": -0.0724, "y": 0.1334, "z": 0.1956}, {"name": "brahmandapurana_khanda-3_u", "code": "Bḍ3", "color": "#1a7a3a", "x": 0.1204, "y": 0.0783, "z": 0.026}, {"name": "brahmapurana_pu", "code": "Br", "color": "#e08a1e", "x": 0.0082, "y": -0.1136, "z": 0.249}, {"name": "devibhagavatapurana", "code": "DB", "color": "#e08a1e", "x": -0.0184, "y": -0.2798, "z": 0.231}, {"name": "devibhagavatapurana_devigita_adhyaya-31-40", "code": "DG", "color": "#e08a1e", "x": 0.3321, "y": -0.1047, "z": -0.2534}, {"name": "devipurana", "code": "Dv", "color": "#e08a1e", "x": 0.2623, "y": -0.0859, "z": 0.13}, {"name": "garudapurana_khanda-1_u", "code": "G1", "color": "#e08a1e", "x": 0.325, "y": -0.054, "z": 0.0082}, {"name": "garudapurana_khanda-2_u", "code": "G2", "color": "#e08a1e", "x": 0.267, "y": -0.1742, "z": 0.0683}, {"name": "garudapurana_khanda-3_u", "code": "G3", "color": "#e08a1e", "x": 0.335, "y": -0.0742, "z": 0.0441}, {"name": "harivamsa", "code": "HV", "color": "#0f8bb0", "x": -0.2855, "y": 0.0763, "z": 0.1069}, {"name": "harivamsa_appendix-29-30_mathura", "code": "HA29", "color": "#d4589e", "x": -0.2096, "y": -0.0694, "z": 0.1148}, {"name": "harivamsa_appendix-31", "code": "HA31", "color": "#d4589e", "x": -0.2562, "y": -0.1327, "z": 0.0009}, {"name": "harivamsa_appendix-41", "code": "HA41", "color": "#d4589e", "x": 0.0015, "y": 0.2344, "z": -0.0425}, {"name": "harivamsa_appendix-42_pradurbhava", "code": "HA42", "color": "#d4589e", "x": -0.1765, "y": 0.2027, "z": 0.0454}, {"name": "kalikapurana", "code": "Kā", "color": "#e08a1e", "x": 0.1124, "y": -0.0949, "z": 0.1792}, {"name": "karatoyamahatmya_pu", "code": "Kt", "color": "#e08a1e", "x": 0.4075, "y": -0.0444, "z": -0.4373}, {"name": "kirfel_ppl_textgruppe_IIA_col1", "code": "Pl2A", "color": "#2b2b2b", "x": 0.1947, "y": 0.3711, "z": -0.1281}, {"name": "kirfel_ppl_textgruppe_IIB_col1", "code": "Pl2B", "color": "#2b2b2b", "x": 0.1736, "y": 0.5719, "z": -0.0873}, {"name": "kirfel_ppl_textgruppe_III_col1", "code": "Pl3", "color": "#2b2b2b", "x": 0.1862, "y": 0.4093, "z": -0.1045}, {"name": "kirfel_ppl_textgruppe_II_col1", "code": "Pl2", "color": "#2b2b2b", "x": -0.0395, "y": 0.2311, "z": 0.1691}, {"name": "kirfel_ppl_textgruppe_I_col1", "code": "Pl1", "color": "#2b2b2b", "x": -0.1984, "y": 0.3407, "z": 0.163}, {"name": "kirfel_ppl_textgruppe_Ia_col1", "code": "Pl1a", "color": "#2b2b2b", "x": 0.0277, "y": 0.5655, "z": 0.0346}, {"name": "kirfel_ppl_ungrouped_col1", "code": "PlU", "color": "#2b2b2b", "x": -0.1924, "y": 0.3047, "z": 0.129}, {"name": "kurmapurana_khanda-1_u", "code": "K1", "color": "#e08a1e", "x": 0.1609, "y": 0.0586, "z": 0.155}, {"name": "kurmapurana_khanda-2_u", "code": "K2", "color": "#e08a1e", "x": 0.3488, "y": -0.0908, "z": 0.0563}, {"name": "lingapurana_khanda-1_u", "code": "L1", "color": "#e08a1e", "x": 0.2002, "y": 0.0654, "z": 0.1761}, {"name": "lingapurana_khanda-2_u", "code": "L2", "color": "#e08a1e", "x": 0.3297, "y": -0.0724, "z": 0.1234}, {"name": "mahabharata_01-adiparvan", "code": "MBh1", "color": "#1f5fa8", "x": -0.3858, "y": -0.0279, "z": 0.0645}, {"name": "mahabharata_02-appendix-21_sisupala", "code": "MA2", "color": "#d4589e", "x": -0.3184, "y": 0.1936, "z": 0.131}, {"name": "mahabharata_02-sabhaparvan", "code": "MBh2", "color": "#1f5fa8", "x": -0.3495, "y": -0.0737, "z": -0.0752}, {"name": "mahabharata_03-aranyakaparvan", "code": "MBh3", "color": "#1f5fa8", "x": -0.3578, "y": -0.0821, "z": 0.0817}, {"name": "mahabharata_04-virataparvan", "code": "MBh4", "color": "#1f5fa8", "x": -0.4025, "y": -0.0579, "z": -0.1055}, {"name": "mahabharata_05-udyogaparvan", "code": "MBh5", "color": "#1f5fa8", "x": -0.3224, "y": -0.1026, "z": -0.0619}, {"name": "mahabharata_06-bhismaparvan", "code": "MBh6", "color": "#1f5fa8", "x": -0.3489, "y": 0.0004, "z": -0.1126}, {"name": "mahabharata_07-appendix-08_sodasarajika", "code": "MA7", "color": "#d4589e", "x": -0.2744, "y": 0.1252, "z": 0.0055}, {"name": "mahabharata_07-dronaparvan", "code": "MBh7", "color": "#1f5fa8", "x": -0.4017, "y": -0.007, "z": -0.1364}, {"name": "mahabharata_08-karnaparvan", "code": "MBh8", "color": "#1f5fa8", "x": -0.4152, "y": -0.0351, "z": -0.1279}, {"name": "mahabharata_09-salyaparvan", "code": "MBh9", "color": "#1f5fa8", "x": -0.4515, "y": 0.0173, "z": -0.019}, {"name": "mahabharata_10-sauptikaparvan", "code": "MBh10", "color": "#1f5fa8", "x": -0.4014, "y": -0.0416, "z": -0.0984}, {"name": "mahabharata_11-striparvan", "code": "MBh11", "color": "#1f5fa8", "x": -0.3833, "y": -0.0673, "z": -0.2034}, {"name": "mahabharata_12-appendix-29_moksadharma", "code": "MA12", "color": "#d4589e", "x": -0.0299, "y": 0.0074, "z": -0.275}, {"name": "mahabharata_12-santiparvan", "code": "MBh12", "color": "#1f5fa8", "x": -0.1045, "y": -0.0843, "z": -0.0538}, {"name": "mahabharata_13-anusasanaparvan", "code": "MBh13", "color": "#1f5fa8", "x": -0.0601, "y": -0.0612, "z": 0.1281}, {"name": "mahabharata_13-appendix-15_umamahesvara", "code": "MA13", "color": "#d4589e", "x": 0.2098, "y": -0.071, "z": -0.0022}, {"name": "mahabharata_14-appendix-04_vaisnavadharma", "code": "MA14", "color": "#d4589e", "x": 0.2744, "y": -0.0505, "z": 0.0976}, {"name": "mahabharata_14-asvamedhikaparvan", "code": "MBh14", "color": "#1f5fa8", "x": -0.3074, "y": -0.0627, "z": -0.039}, {"name": "mahabharata_15-asramavasikaparvan", "code": "MBh15", "color": "#1f5fa8", "x": -0.475, "y": -0.0573, "z": -0.0894}, {"name": "mahabharata_16-mausalaparvan", "code": "MBh16", "color": "#1f5fa8", "x": -0.4657, "y": 0.0527, "z": -0.1971}, {"name": "mahabharata_17-mahaprasthanikaparvan", "code": "MBh17", "color": "#1f5fa8", "x": -0.6128, "y": 0.0781, "z": -0.5491}, {"name": "mahabharata_18-svargarohanaparvan", "code": "MBh18", "color": "#1f5fa8", "x": -0.4347, "y": 0.1023, "z": -0.2345}, {"name": "markandeyapurana", "code": "Mā", "color": "#1a7a3a", "x": -0.0616, "y": -0.1102, "z": 0.121}, {"name": "markandeyapurana_adhyaya-1-80_u", "code": "Mā1", "color": "#1a7a3a", "x": -0.0097, "y": -0.0957, "z": 0.0674}, {"name": "markandeyapurana_adhyaya-81-93_devimahatmya_u", "code": "MāD", "color": "#1a7a3a", "x": -0.1243, "y": -0.0626, "z": -0.0295}, {"name": "markandeyapurana_adhyaya-94-141_u", "code": "Mā9", "color": "#1a7a3a", "x": -0.1921, "y": -0.1104, "z": 0.1646}, {"name": "matsyapurana_pu", "code": "Mt", "color": "#1a7a3a", "x": 0.0999, "y": 0.0573, "z": 0.1775}, {"name": "naradapurana_khanda-1_u", "code": "N1", "color": "#e08a1e", "x": 0.3602, "y": -0.1461, "z": 0.0266}, {"name": "naradapurana_khanda-2_u", "code": "N2", "color": "#e08a1e", "x": 0.069, "y": -0.3234, "z": 0.1744}, {"name": "nilamatapurana_au", "code": "Nī", "color": "#e08a1e", "x": 0.1073, "y": -0.0754, "z": 0.1991}, {"name": "nrsimhapurana_pu", "code": "Nṛ", "color": "#e08a1e", "x": -0.0724, "y": -0.2283, "z": 0.2373}, {"name": "padmapurana_a", "code": "Pd", "color": "#e08a1e", "x": 0.0633, "y": -0.2581, "z": 0.2362}, {"name": "pranavakalpa", "code": "Pk", "color": "#3bbfbf", "x": 0.371, "y": -0.0763, "z": -0.3068}, {"name": "ramayana_01-balakanda", "code": "R1", "color": "#7ba7d4", "x": -0.4827, "y": 0.0272, "z": 0.1929}, {"name": "ramayana_02-ayodhyakanda_a", "code": "R2", "color": "#7ba7d4", "x": -0.4289, "y": -0.1854, "z": 0.028}, {"name": "ramayana_03-aranyakanda_a", "code": "R3", "color": "#7ba7d4", "x": -0.3744, "y": -0.0952, "z": 0.011}, {"name": "ramayana_04-kiskindhakanda", "code": "R4", "color": "#7ba7d4", "x": -0.3809, "y": -0.087, "z": -0.0371}, {"name": "ramayana_05-sundarakanda", "code": "R5", "color": "#7ba7d4", "x": -0.3285, "y": -0.0989, "z": -0.0523}, {"name": "ramayana_06-yuddhakanda", "code": "R6", "color": "#7ba7d4", "x": -0.4053, "y": -0.0173, "z": -0.0543}, {"name": "ramayana_07-uttarakanda", "code": "R7", "color": "#7ba7d4", "x": -0.4405, "y": -0.0122, "z": 0.1563}, {"name": "saurapurana", "code": "Sau", "color": "#e08a1e", "x": 0.1715, "y": -0.1615, "z": 0.217}, {"name": "sivadharmasastra", "code": "ŚDh", "color": "#87104a", "x": 0.4524, "y": -0.1679, "z": 0.0938}, {"name": "sivadharmottara", "code": "ŚDhU", "color": "#87104a", "x": 0.4293, "y": -0.1854, "z": -0.0281}, {"name": "sivapurana_dharmasamhita", "code": "Dh", "color": "#c23b3b", "x": 0.0977, "y": -0.0914, "z": 0.1446}, {"name": "sivapurana_karvanamahatmya_au", "code": "Kv", "color": "#c23b3b", "x": 0.2232, "y": -0.0973, "z": 0.022}, {"name": "sivapurana_rudrasamhita", "code": "Ru", "color": "#c23b3b", "x": -0.0769, "y": -0.2302, "z": 0.242}, {"name": "sivapurana_sanatkumarasamhita", "code": "Sn", "color": "#c23b3b", "x": 0.1925, "y": -0.013, "z": 0.1438}, {"name": "sivapurana_satarudrasamhita_au", "code": "Śt", "color": "#c23b3b", "x": -0.0353, "y": -0.184, "z": 0.1906}, {"name": "sivapurana_umasamhita", "code": "U", "color": "#c23b3b", "x": 0.1453, "y": -0.0156, "z": 0.131}, {"name": "sivapurana_vayaviyasamhita_au", "code": "Vā", "color": "#c23b3b", "x": 0.2761, "y": -0.0556, "z": 0.0052}, {"name": "sivapurana_vidyesvarasamhita_au", "code": "Vy", "color": "#c23b3b", "x": 0.5356, "y": -0.1127, "z": 0.0525}, {"name": "skandamahapurana_himavatkhanda", "code": "Hm", "color": "#6b4423", "x": 0.0407, "y": -0.103, "z": 0.2306}, {"name": "skandamahapurana_kasikhanda", "code": "Kś", "color": "#6b4423", "x": 0.1768, "y": -0.2276, "z": 0.0166}, {"name": "skandamahapurana_revakhanda", "code": "Rv", "color": "#6b4423", "x": 0.0647, "y": -0.1433, "z": 0.3381}, {"name": "skandamahapurana_sutasamhita_khanda-4", "code": "Sū", "color": "#6b4423", "x": 0.4427, "y": -0.1989, "z": -0.1219}, {"name": "skandapurana", "code": "SP", "color": "#7a4ba8", "x": -0.1813, "y": -0.0217, "z": 0.2156}, {"name": "skandapurana_adhyaya-1-31_pu", "code": "SP1", "color": "#7a4ba8", "x": -0.0923, "y": -0.0068, "z": 0.2187}, {"name": "skandapurana_pasupata_adhyaya174-183_u", "code": "SP2", "color": "#7a4ba8", "x": 0.3693, "y": 0.0886, "z": -0.27}, {"name": "vamanapurana_saromahatmya_u", "code": "Sr", "color": "#e08a1e", "x": 0.0368, "y": -0.0773, "z": 0.2901}, {"name": "vamanapurana_u", "code": "Vm", "color": "#e08a1e", "x": -0.0964, "y": -0.1402, "z": 0.213}, {"name": "vayu_ba", "code": "V×B", "color": "#1a7a3a", "x": 0.0578, "y": 0.4199, "z": 0.124}, {"name": "vayupurana", "code": "V", "color": "#1a7a3a", "x": 0.0908, "y": 0.3398, "z": 0.1546}, {"name": "vayupurana_01_frame-and-cosmogony_iast", "code": "V1", "color": "#1a7a3a", "x": 0.1898, "y": 0.4996, "z": -0.0796}, {"name": "vayupurana_02_pashupata-yoga_iast", "code": "V2", "color": "#1a7a3a", "x": 0.3409, "y": 0.2366, "z": -0.3329}, {"name": "vayupurana_03_kalpas-and-shiva-lineages_iast", "code": "V3", "color": "#1a7a3a", "x": 0.0419, "y": 0.375, "z": 0.1068}, {"name": "vayupurana_04_bhuvana-vinyasa_iast", "code": "V4", "color": "#1a7a3a", "x": 0.164, "y": 0.3966, "z": -0.0984}, {"name": "vayupurana_05_jyotis-and-purvardha-close_iast", "code": "V5", "color": "#1a7a3a", "x": 0.1701, "y": 0.4304, "z": -0.0039}, {"name": "vayupurana_06_prthu-and-prajapati-lineages_iast", "code": "V6", "color": "#1a7a3a", "x": 0.0175, "y": 0.4791, "z": 0.0622}, {"name": "vayupurana_07_shraddha-kalpa_iast", "code": "V7", "color": "#1a7a3a", "x": 0.2074, "y": 0.2155, "z": 0.1221}, {"name": "vayupurana_08_manu-candra-vishnu-vamsha_iast", "code": "V8", "color": "#1a7a3a", "x": -0.1988, "y": 0.3457, "z": 0.1656}, {"name": "vayupurana_09_upasamhara_iast", "code": "V9", "color": "#1a7a3a", "x": 0.1956, "y": 0.4519, "z": -0.0701}, {"name": "vayupurana_10_gaya-mahatmya_iast", "code": "V10", "color": "#1a7a3a", "x": 0.2072, "y": -0.0929, "z": 0.28}, {"name": "vayupurana_revakhanda", "code": "RvV", "color": "#e08a1e", "x": 0.1109, "y": -0.1999, "z": 0.3372}, {"name": "visnudharma_pu", "code": "Vd", "color": "#e08a1e", "x": 0.1803, "y": -0.2442, "z": 0.0666}, {"name": "visnudharmottarapurana_khanda-3_adhyaya-343-353_pu", "code": "Vt", "color": "#e08a1e", "x": -0.0562, "y": -0.0824, "z": 0.0648}, {"name": "visnupurana_amsa-1_u", "code": "Vi1", "color": "#1a7a3a", "x": 0.0254, "y": 0.0556, "z": -0.0059}, {"name": "visnupurana_amsa-2_u", "code": "Vi2", "color": "#1a7a3a", "x": 0.1588, "y": 0.0914, "z": -0.1063}, {"name": "visnupurana_amsa-3_u", "code": "Vi3", "color": "#1a7a3a", "x": 0.2272, "y": 0.0131, "z": -0.0415}, {"name": "visnupurana_amsa-4_u", "code": "Vi4", "color": "#1a7a3a", "x": -0.0318, "y": 0.0978, "z": -0.061}, {"name": "visnupurana_amsa-5_u", "code": "Vi5", "color": "#1a7a3a", "x": -0.173, "y": -0.1553, "z": -0.034}, {"name": "visnupurana_amsa-6_u", "code": "Vi6", "color": "#1a7a3a", "x": 0.1779, "y": -0.1274, "z": -0.2408}, {"name": "visnupurana_u", "code": "Vi", "color": "#1a7a3a", "x": 0.0278, "y": -0.0357, "z": 0.0199}];
+const HL = {"sivapurana_sanatkumarasamhita": "#b8860b", "visnupurana_amsa-3_u": "#c2185b"};
+const TETHER = ["sivapurana_sanatkumarasamhita", "visnupurana_amsa-3_u"];
+const TETHER_INFO = "Sn–Vi3: 3-D distance 0.190 (2-D plane alone: 0.043; full Delta: 0.917)";
+const GROUPS = [["#1f5fa8", "Mah\u0101bh\u0101rata"], ["#7ba7d4", "R\u0101m\u0101ya\u1e47a"], ["#1a7a3a", "old pur\u0101\u1e47ic core"], ["#7a4ba8", "old Skandapur\u0101\u1e47a"], ["#e08a1e", "sectarian & encyclopedic"], ["#c23b3b", "\u015aivapur\u0101\u1e47a"], ["#e0bf1e", "Bh\u0101gavata"], ["#7f7f7f", "BhP + commentary"], ["#3bbfbf", "\u015b\u0101stra"], ["#6b4423", "Sk\u0101ndamah\u0101pur\u0101\u1e47a"], ["#d4589e", "epic Appendix I"], ["#0f8bb0", "Hariva\u1e43\u015ba"], ["#87104a", "\u015aivadharma"], ["#2b2b2b", "Pur\u0101\u1e47apa\u00f1calak\u1e63a\u1e47a"]];
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const readout = document.getElementById('readout');
+const present = new Set(PTS.map(p => p.color));
+document.getElementById('legend').innerHTML =
+  GROUPS.filter(([c]) => present.has(c))
+        .map(([c,n]) => `<span><span class="sw" style="background:${c}"></span>${n}</span>`).join('') +
+  Object.entries(HL).map(([n,c]) => {
+    const code = PTS.find(p=>p.name===n).code;
+    return `<span><span class="sw" style="background:#fff;border:2px solid ${c}"></span>${code} ring</span>`; }).join('');
+
+const mx = PTS.reduce((s,p)=>s+p.x,0)/PTS.length, my = PTS.reduce((s,p)=>s+p.y,0)/PTS.length, mz = PTS.reduce((s,p)=>s+p.z,0)/PTS.length;
+let ext = 0; PTS.forEach(p => { ext = Math.max(ext, Math.hypot(p.x-mx, p.y-my, p.z-mz)); });
+let yaw = 0, pitch = 0, zoom = 1, showLabels = true, spinning = false;
+
+function draw() {
+  const W = cv.width, H = cv.height, S = 0.42 * Math.min(W,H) / ext * zoom;
+  ctx.clearRect(0,0,W,H);
+  const cy = Math.cos(yaw), sy = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+  function proj(x,y,z) {              // yaw about vertical, pitch about horizontal; screen y up = +axis2
+    x-=mx; y-=my; z-=mz;
+    const x1 =  x*cy + z*sy, z1 = -x*sy + z*cy;
+    const y2 =  y*cp - z1*sp, z2 = y*sp + z1*cp;
+    return [W/2 + x1*S, H/2 - y2*S, z2];
+  }
+  const axes = [[[-1,0,0],[1,0,0],'axis 1 (chronology)'],[[0,-1,0],[0,1,0],'axis 2'],[[0,0,-1],[0,0,1],'axis 3']];
+  ctx.lineWidth = 1; ctx.strokeStyle = '#ccc'; ctx.fillStyle = '#999'; ctx.font = '11px sans-serif';
+  for (const [A0,B0,lab] of axes) {
+    const A = proj(mx+A0[0]*ext*0.95, my+A0[1]*ext*0.95, mz+A0[2]*ext*0.95);
+    const B = proj(mx+B0[0]*ext*0.95, my+B0[1]*ext*0.95, mz+B0[2]*ext*0.95);
+    ctx.beginPath(); ctx.moveTo(A[0],A[1]); ctx.lineTo(B[0],B[1]); ctx.stroke();
+    ctx.fillText(lab, B[0]+4, B[1]);
+  }
+  if (TETHER.length === 2) {
+    const a = PTS.find(p=>p.name===TETHER[0]), b = PTS.find(p=>p.name===TETHER[1]);
+    const P1 = proj(a.x,a.y,a.z), P2 = proj(b.x,b.y,b.z);
+    ctx.strokeStyle = 'rgba(160,60,120,0.55)'; ctx.setLineDash([4,3]); ctx.lineWidth = 1.4;
+    ctx.beginPath(); ctx.moveTo(P1[0],P1[1]); ctx.lineTo(P2[0],P2[1]); ctx.stroke(); ctx.setLineDash([]);
+    readout.textContent = `${TETHER_INFO} — apparent (screen) separation now: ${(Math.hypot(P1[0]-P2[0],P1[1]-P2[1])/S).toFixed(3)}`;
+  }
+  const drawn = PTS.map(p => ({p, s: proj(p.x,p.y,p.z)})).sort((a,b) => a.s[2]-b.s[2]);
+  for (const {p,s} of drawn) {
+    const depth = (s[2]/ext + 1) / 2;               // 0 far … 1 near
+    const r = 3.2 + 2.2*depth;
+    ctx.globalAlpha = 0.55 + 0.45*depth;
+    ctx.beginPath(); ctx.arc(s[0], s[1], r, 0, 7);
+    ctx.fillStyle = p.color; ctx.fill();
+    if (HL[p.name]) { ctx.lineWidth = 2.5; ctx.strokeStyle = HL[p.name]; ctx.beginPath(); ctx.arc(s[0],s[1],r+3,0,7); ctx.stroke(); }
+    if (showLabels || HL[p.name]) {
+      ctx.font = HL[p.name] ? 'bold 12px sans-serif' : '9.5px sans-serif';
+      ctx.fillStyle = HL[p.name] || '#555';
+      ctx.fillText(p.code, s[0]+r+2, s[1]+3);
+    }
+  }
+  ctx.globalAlpha = 1;
+}
+function setView(y,p){ yaw=y; pitch=p; draw(); }
+document.getElementById('vfront').onclick = () => setView(0,0);
+document.getElementById('vside').onclick  = () => setView(Math.PI/2,0);
+document.getElementById('vtop').onclick   = () => setView(0,Math.PI/2);
+document.getElementById('labels').onchange = e => { showLabels = e.target.checked; draw(); };
+document.getElementById('spin').onchange = e => { spinning = e.target.checked; if (spinning) tick(); };
+function tick(){ if(!spinning) return; yaw += 0.006; draw(); requestAnimationFrame(tick); }
+let drag = null;
+cv.addEventListener('pointerdown', e => { drag = [e.clientX, e.clientY]; cv.setPointerCapture(e.pointerId); });
+cv.addEventListener('pointermove', e => { if(!drag) return;
+  yaw += (e.clientX-drag[0])*0.008; pitch += (e.clientY-drag[1])*0.008;
+  pitch = Math.max(-1.55, Math.min(1.55, pitch)); drag = [e.clientX, e.clientY]; draw(); });
+cv.addEventListener('pointerup', () => drag = null);
+cv.addEventListener('wheel', e => { e.preventDefault(); zoom *= e.deltaY < 0 ? 1.1 : 0.9; zoom = Math.max(0.4, Math.min(4, zoom)); draw(); }, {passive:false});
+setView(-0.5, 0.35);   // start slightly rotated so depth is visible immediately
+</script>

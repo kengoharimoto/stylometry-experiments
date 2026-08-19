@@ -67,6 +67,11 @@ ap.add_argument('--dump-coords', metavar='PATH',
                 help='write the MDS coordinates as TSV (text, x, y) and exit '
                      'without plotting — for overlay figures that must sit on '
                      'the identical layout')
+ap.add_argument('--dump-dist', metavar='PATH',
+                help='write the full distance matrix in stylo table format '
+                     '(quoted-name header, one row per unit) — input for the '
+                     '3-D viewer (mds3d_viewer.py); exits unless --dump-coords '
+                     'is also given')
 ap.add_argument('--compare-metrics', action='store_true',
                 help='report each metric\'s distance-matrix correlation with '
                      'the W1-delta hero matrix, then exit')
@@ -262,6 +267,15 @@ if args.compare_metrics:
     sys.exit(0)
 
 D = distance_matrix(args.metric)
+
+if args.dump_dist:
+    with open(args.dump_dist, 'w', encoding='utf-8') as f:
+        f.write(' '.join(f'"{n}"' for n in names) + '\n')
+        for n, row in zip(names, D):
+            f.write(f'"{n}" ' + ' '.join(f'{v:.6f}' for v in row) + '\n')
+    print('wrote', args.dump_dist)
+    if not args.dump_coords:
+        sys.exit(0)
 
 # ── Classical MDS ─────────────────────────────────────────────────────────────
 N = len(names)
