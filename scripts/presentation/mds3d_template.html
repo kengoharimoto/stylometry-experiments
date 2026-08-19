@@ -1,0 +1,110 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>__TITLE__</title>
+<style>
+  body { margin:0; background:#ffffff; color:#222; font:14px/1.45 -apple-system, 'Segoe UI', sans-serif; }
+  #wrap { max-width: 1100px; margin: 0 auto; padding: 12px 16px; }
+  h1 { font-size: 18px; margin: 4px 0 2px; }
+  .sub { color:#666; font-size: 12.5px; margin-bottom: 8px; }
+  canvas { display:block; width:100%; border:1px solid #ddd; border-radius:8px; cursor:grab; touch-action:none; background:#fdfdfc; }
+  #bar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:8px 0; font-size:12.5px; }
+  button { font:inherit; padding:3px 10px; border:1px solid #bbb; border-radius:6px; background:#f6f6f6; cursor:pointer; }
+  button:hover { background:#ececec; }
+  label { user-select:none; }
+  #legend { display:flex; flex-wrap:wrap; gap:4px 14px; font-size:12px; color:#444; margin-top:6px; }
+  .sw { display:inline-block; width:10px; height:10px; border-radius:5px; margin-right:4px; vertical-align:-1px; }
+  #readout, #note { color:#666; font-size:12.5px; min-height:1.2em; }
+</style>
+<div id="wrap">
+<h1>__TITLE__</h1>
+<div class="sub">__SUBTITLE__</div>
+<div id="bar">
+  <button id="vfront">Front = published plane (1&times;2)</button>
+  <button id="vside">Side (1&times;3)</button>
+  <button id="vtop">Top (2&times;3)</button>
+  <label><input type="checkbox" id="spin"> auto-rotate</label>
+  <label><input type="checkbox" id="labels" checked> labels</label>
+  <span style="color:#999">drag = rotate &middot; wheel = zoom</span>
+</div>
+<canvas id="c" width="1100" height="700"></canvas>
+<div id="readout"></div>
+<div id="note">__NOTE__</div>
+<div id="legend"></div>
+</div>
+<script>
+const PTS = __DATA__;
+const HL = __HL__;
+const TETHER = __TETHER__;
+const TETHER_INFO = "__TETHERINFO__";
+const GROUPS = __LEGEND__;
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const readout = document.getElementById('readout');
+const present = new Set(PTS.map(p => p.color));
+document.getElementById('legend').innerHTML =
+  GROUPS.filter(([c]) => present.has(c))
+        .map(([c,n]) => `<span><span class="sw" style="background:${c}"></span>${n}</span>`).join('') +
+  Object.entries(HL).map(([n,c]) => {
+    const code = PTS.find(p=>p.name===n).code;
+    return `<span><span class="sw" style="background:#fff;border:2px solid ${c}"></span>${code} ring</span>`; }).join('');
+
+const mx = PTS.reduce((s,p)=>s+p.x,0)/PTS.length, my = PTS.reduce((s,p)=>s+p.y,0)/PTS.length, mz = PTS.reduce((s,p)=>s+p.z,0)/PTS.length;
+let ext = 0; PTS.forEach(p => { ext = Math.max(ext, Math.hypot(p.x-mx, p.y-my, p.z-mz)); });
+let yaw = 0, pitch = 0, zoom = 1, showLabels = true, spinning = false;
+
+function draw() {
+  const W = cv.width, H = cv.height, S = 0.42 * Math.min(W,H) / ext * zoom;
+  ctx.clearRect(0,0,W,H);
+  const cy = Math.cos(yaw), sy = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+  function proj(x,y,z) {              // yaw about vertical, pitch about horizontal; screen y up = +axis2
+    x-=mx; y-=my; z-=mz;
+    const x1 =  x*cy + z*sy, z1 = -x*sy + z*cy;
+    const y2 =  y*cp - z1*sp, z2 = y*sp + z1*cp;
+    return [W/2 + x1*S, H/2 - y2*S, z2];
+  }
+  const axes = [[[-1,0,0],[1,0,0],'axis 1 (chronology)'],[[0,-1,0],[0,1,0],'axis 2'],[[0,0,-1],[0,0,1],'axis 3']];
+  ctx.lineWidth = 1; ctx.strokeStyle = '#ccc'; ctx.fillStyle = '#999'; ctx.font = '11px sans-serif';
+  for (const [A0,B0,lab] of axes) {
+    const A = proj(mx+A0[0]*ext*0.95, my+A0[1]*ext*0.95, mz+A0[2]*ext*0.95);
+    const B = proj(mx+B0[0]*ext*0.95, my+B0[1]*ext*0.95, mz+B0[2]*ext*0.95);
+    ctx.beginPath(); ctx.moveTo(A[0],A[1]); ctx.lineTo(B[0],B[1]); ctx.stroke();
+    ctx.fillText(lab, B[0]+4, B[1]);
+  }
+  if (TETHER.length === 2) {
+    const a = PTS.find(p=>p.name===TETHER[0]), b = PTS.find(p=>p.name===TETHER[1]);
+    const P1 = proj(a.x,a.y,a.z), P2 = proj(b.x,b.y,b.z);
+    ctx.strokeStyle = 'rgba(160,60,120,0.55)'; ctx.setLineDash([4,3]); ctx.lineWidth = 1.4;
+    ctx.beginPath(); ctx.moveTo(P1[0],P1[1]); ctx.lineTo(P2[0],P2[1]); ctx.stroke(); ctx.setLineDash([]);
+    readout.textContent = `${TETHER_INFO} — apparent (screen) separation now: ${(Math.hypot(P1[0]-P2[0],P1[1]-P2[1])/S).toFixed(3)}`;
+  }
+  const drawn = PTS.map(p => ({p, s: proj(p.x,p.y,p.z)})).sort((a,b) => a.s[2]-b.s[2]);
+  for (const {p,s} of drawn) {
+    const depth = (s[2]/ext + 1) / 2;               // 0 far … 1 near
+    const r = 3.2 + 2.2*depth;
+    ctx.globalAlpha = 0.55 + 0.45*depth;
+    ctx.beginPath(); ctx.arc(s[0], s[1], r, 0, 7);
+    ctx.fillStyle = p.color; ctx.fill();
+    if (HL[p.name]) { ctx.lineWidth = 2.5; ctx.strokeStyle = HL[p.name]; ctx.beginPath(); ctx.arc(s[0],s[1],r+3,0,7); ctx.stroke(); }
+    if (showLabels || HL[p.name]) {
+      ctx.font = HL[p.name] ? 'bold 12px sans-serif' : '9.5px sans-serif';
+      ctx.fillStyle = HL[p.name] || '#555';
+      ctx.fillText(p.code, s[0]+r+2, s[1]+3);
+    }
+  }
+  ctx.globalAlpha = 1;
+}
+function setView(y,p){ yaw=y; pitch=p; draw(); }
+document.getElementById('vfront').onclick = () => setView(0,0);
+document.getElementById('vside').onclick  = () => setView(Math.PI/2,0);
+document.getElementById('vtop').onclick   = () => setView(0,Math.PI/2);
+document.getElementById('labels').onchange = e => { showLabels = e.target.checked; draw(); };
+document.getElementById('spin').onchange = e => { spinning = e.target.checked; if (spinning) tick(); };
+function tick(){ if(!spinning) return; yaw += 0.006; draw(); requestAnimationFrame(tick); }
+let drag = null;
+cv.addEventListener('pointerdown', e => { drag = [e.clientX, e.clientY]; cv.setPointerCapture(e.pointerId); });
+cv.addEventListener('pointermove', e => { if(!drag) return;
+  yaw += (e.clientX-drag[0])*0.008; pitch += (e.clientY-drag[1])*0.008;
+  pitch = Math.max(-1.55, Math.min(1.55, pitch)); drag = [e.clientX, e.clientY]; draw(); });
+cv.addEventListener('pointerup', () => drag = null);
+cv.addEventListener('wheel', e => { e.preventDefault(); zoom *= e.deltaY < 0 ? 1.1 : 0.9; zoom = Math.max(0.4, Math.min(4, zoom)); draw(); }, {passive:false});
+setView(-0.5, 0.35);   // start slightly rotated so depth is visible immediately
+</script>
