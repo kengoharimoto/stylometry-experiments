@@ -386,7 +386,7 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | ~~R2~~ | DONE 2026-08-19 — `noreuse_reframe/movers_C3.tsv` is the citable consequences table (16 CI-separated moves) | — | — |
 | ~~R3~~ | DONE 2026-08-19. PPL bands + E1 carry over; genre control then DROPPED as circular (Kengo) — §6.4 now carries the strip-first replacement defense | — | — |
 | ~~R4~~ | RESOLVED 2026-08-19 (Kengo): borrowed mass drags toward the sources' position; Śivadharma-incorporators late-ward | — | — |
-| A6 | axis-3 = BhP dimension, instrument-grade | session | reframed 3-D section |
+| ~~A6~~ | DONE 2026-08-19: `figures/mds3d/axis3_stats.tsv` (axis3_analysis.py) — citable axis-3/BhP numbers | — | — |
 | A5 | per-feature anatomy of featured texts | session | worked-example boxes |
 | A3 | minimal sufficient set | decision: run cheap or drop | optional Q1 exhibit |
 | E1-full | Belvalkar print apparatus (OCR) | optional | strengthens 4.2 magnitudes |
