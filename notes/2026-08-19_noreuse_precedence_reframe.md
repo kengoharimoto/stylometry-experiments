@@ -192,10 +192,43 @@ drags a text toward wherever its sources sit — for the
 Śivadharma-incorporators, late-ward; Bhaviṣya −3.5 and Padma −3.6
 CI-separated early-ward on strip).
 
+## R3 (Kengo 2026-08-19: re-derive, not bridge)
+
+**PPL bands — DONE free of charge**: R2 bootstrapped every manifest
+unit, and n126 includes the seven constituted PPL units (kirfel =
+one-directional source, retained 100% in the strip). On the
+**C3-noreuse** map: I 24.8 [23.2, 29.6], ungrouped 24.8 [23.6, 27.2],
+II 32.0 [27.2, 38.4] — the genealogical core stays the early band, all
+but unchanged from with-reuse (I 28.6, ungrouped 25.4, II 32.5);
+cosmogony groups stay late (IIA 93.6, IIB 88.0), III 73.6, Ia 64.0
+[50.7, 73.6]. The proto-purāṇa claim carries over to the composition
+chronology intact. (W1-noreuse values exist in `unit_ci_W1_noreuse.tsv`
+but are magnitude-gated — signs agree.)
+
+**Still to run (handoff-ready, any model/session):**
+- **E1 on C3-noreuse**: project the MBh critical-apparatus layer files
+  (see `figures/e1_apparatus/` scripts + note 2026-08-14ff) onto the
+  fixed C3-noreuse map with the `noreuse_reframe/unit_bootstrap_cis.py`
+  machinery (same base-stats/Gower/percentile code path; apparatus files
+  are extra profiles, like the `constituted` kind in
+  `complement_halves/bootstrap_cis.py`). Expectation to test: apparatus
+  (known-later) still measures later than the constituted text on the
+  composition chronology.
+- **Genre control on C3-noreuse**: re-derive per
+  `figures/genre_control/` + `notes/2026-08-14_vamsa_genre_control.md`
+  design, projecting the genre-half splits onto the C3-noreuse fixed
+  map. (Kengo chose re-derive over bridging for this too.)
+- Conventions that must not drift: C3 = no-space scriptio continua;
+  seed 20260814, B=500; percentiles on the map's own 126 units;
+  orientation from `mds3d/coords_C3-500ns_noreuse_n126.tsv`; sub-3k
+  residues stay flagged; W1-noreuse magnitudes not citable (§R1).
+
 ## Remaining work queue
 
 1. ~~R1 null battery~~ → DONE, see above.
 2. ~~R2 fixed-map bootstrap instrument~~ → DONE, see above.
+2b. ~~R3 PPL bands~~ → DONE (above); E1 + genre control on C3-noreuse
+   still to run, spec above.
 3. Decide which validation exhibits are re-derived on no-reuse (E1
    apparatus, PPL Textgruppen bands, genre control) vs kept on
    with-reuse with an explicit bridge argument.
