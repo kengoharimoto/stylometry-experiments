@@ -13,6 +13,22 @@ heavily-reused, editorially-mediated corpus — and a mechanistic account of
 **Working title idea:** "Losses are the clock: recovering relative
 chronology from stylometric drift in the Sanskrit epics and purāṇas."
 
+> **REFRAME 2026-08-19 (Kengo): no-reuse precedence — supersedes the
+> section flow below where they conflict.** The chronology argument now
+> runs: (i) with-reuse maps = the tradition as transmitted (language
+> mixture of all layers present); (ii) reuse-stripped maps = the
+> compilers' own diction; (iii) consequences of the difference (order
+> stable at ρ 0.91 W1 / 0.98 C3; the great compilations move early-ward;
+> old-core carriers dissolve into sub-3k uncertainty; Viṣṇu–Bhāgavata
+> affinity revealed); (iv) why no-reuse is the better estimate of the
+> chronology of *original composition* (upgraded-purāṇa argument);
+> (v) 3-D structure: axis 3 = the Bhāgavata dimension; 2-D flattening
+> guardrail. "Language age ≠ book age" sharpens into *transmitted*
+> vs *composed* language. Evidence + work queue (R1–R4, A6):
+> `notes/2026-08-19_noreuse_precedence_reframe.md`, claims map §0 gate.
+> Draft surgery on `draft_dh.md` waits for R1/R2 numbers and Kengo's
+> answer on R4 (Śivadharma example direction).
+
 ---
 
 ## 1. Introduction (≈1,200 w)
