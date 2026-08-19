@@ -30,12 +30,18 @@ and **no-space C3**; the provenance gates in §0 list the traps.
   `noreuse2026_n126`); the with-reuse maps open the argument as "the
   tradition as transmitted" and the difference between the two becomes a
   findings section. Evidence, movers tables, caveats, and the work queue
-  are in `2026-08-19_noreuse_precedence_reframe.md`. **Gate:** every
-  no-reuse number in that note is exploratory-grade (raw `--dump-dist` +
-  classical MDS, no bootstrap) — instrument re-runs and the B2 null
-  battery on the no-reuse build MUST land before any of them is printed.
-  Sub-3k residues (most Vāyu sections, Viṣṇu aṃśas 1/2/5/6, MBh 17–18)
-  are uncertainty regions in every no-reuse exhibit.
+  are in `2026-08-19_noreuse_precedence_reframe.md`. **Gates (R1/R2 ran
+  2026-08-19, same note):** (a) the no-reuse chronology is **C3-led** —
+  the no-reuse W1 axis is partly a length artifact (exchangeable null:
+  18.5% share, ρ 0.96 vs logT; real ρ 0.44), so W1-noreuse per-unit
+  percentiles/shift magnitudes are NOT citable — W1 confirms signs and
+  the ordering (ρ 0.93 cross-lens) only; (b) citable no-reuse numbers
+  come from `figures/noreuse_reframe/unit_ci_*` + `movers_C3.tsv`
+  (fixed-map Gower + line-bootstrap, B=500) and
+  `axis_anatomy/b2_models_*_noreuse_500.tsv` — not from the earlier
+  exploratory tables in the note; (c) sub-3k residues (most Vāyu
+  sections, Viṣṇu aṃśas 1/2/5/6, MBh 17–18) are uncertainty regions in
+  every no-reuse exhibit.
 - **Traps when quoting notes:**
   - Never quote pre-clean numbers (git ≤ d9532dd; the pre-clean unsandhied
     corpus survives only in commit 0b666a9's safety copy).
@@ -345,10 +351,10 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | Item | What | Who | Blocking what |
 |---|---|---|---|
 | ~~A4~~ | DROPPED 2026-08-17 — see §4.5; nothing blocks on it now | — | — |
-| R1 | B2 null battery (exchangeable/heterogeneity/drift) on no-reuse build — the revived W1 length ρ +0.44 must be explained | session | the whole reframe (§0) |
-| R2 | fixed-map bootstrap instrument on no-reuse W1-500/C3-500ns | session | CI-grade movers tables |
+| ~~R1~~ | DONE 2026-08-19 — verdict: no-reuse chronology is C3-led, W1-noreuse partly length artifact (see §0 gate) | — | — |
+| ~~R2~~ | DONE 2026-08-19 — `noreuse_reframe/movers_C3.tsv` is the citable consequences table (16 CI-separated moves) | — | — |
 | R3 | decide: E1/PPL-bands/genre-control re-derived on no-reuse vs bridged from with-reuse | Kengo + session | reframed §7 |
-| R4 | Śivadharma example framing (drag direction is late-ward, not early-ward — see note) | Kengo | reframed consequences section |
+| ~~R4~~ | RESOLVED 2026-08-19 (Kengo): borrowed mass drags toward the sources' position; Śivadharma-incorporators late-ward | — | — |
 | A6 | axis-3 = BhP dimension, instrument-grade | session | reframed 3-D section |
 | A5 | per-feature anatomy of featured texts | session | worked-example boxes |
 | A3 | minimal sufficient set | decision: run cheap or drop | optional Q1 exhibit |

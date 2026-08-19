@@ -16,7 +16,14 @@ well MDS axis 1 recovers the latent order. The point: a dominant,
 ordering-shaped first axis is the signature of AUTOCORRELATED change —
 mere heterogeneity of equal magnitude does not produce it.
 
-Usage: b2_null_models.py w|c [replicates]
+Usage: b2_null_models.py w|c [replicates] [--noreuse]
+
+--noreuse (2026-08-19, reframe R1): run the identical battery on the
+no-reuse build (corpus *_noreuse, manifest noreuse2026_n126); output gets
+a _noreuse suffix. Both modes also report Spearman rho(axis1, log unit
+tokens) for the real corpus and every model — the no-reuse W1 axis shows
+rho +0.44 vs log residue length, and the battery decides whether that is
+within what the length artifact alone (exchangeable null) produces.
 """
 import re
 import sys
@@ -28,14 +35,21 @@ from scipy.stats import spearmanr
 
 ROOT = Path('/mnt/kengo/stylometry-experiments')
 HERE = Path(__file__).parent
-FEAT = sys.argv[1] if len(sys.argv) > 1 else 'w'
-REPS = int(sys.argv[2]) if len(sys.argv) > 2 else 10
+NOREUSE = '--noreuse' in sys.argv
+argv = [a for a in sys.argv if a != '--noreuse']
+FEAT = argv[1] if len(argv) > 1 else 'w'
+REPS = int(argv[2]) if len(argv) > 2 else 10
 W1 = FEAT == 'w'
 MFW = 500
 RNG = np.random.default_rng(20260816)
 
-CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
-MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+if NOREUSE:
+    CORPUS = ROOT / ('corpus/epic_puranas_unsandhied_noreuse' if W1
+                     else 'corpus/epic_puranas_sandhied_noreuse')
+    MANIFEST = ROOT / 'manifests/noreuse2026_n126.txt'
+else:
+    CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
 
 
 def counts_of(path):
@@ -92,8 +106,11 @@ def sample_counts(P):
     return X
 
 
+logT = np.log(T)
+
+
 def run_model(kind):
-    shares, ratios, rhos = [], [], []
+    shares, ratios, rhos, lrhos = [], [], [], []
     for _ in range(REPS):
         if kind == 'exchangeable':
             P = np.tile(pbar, (N, 1))
@@ -119,26 +136,30 @@ def run_model(kind):
         s, r, ax1 = spectrum(X)
         shares.append(s)
         ratios.append(r)
+        lrhos.append(abs(spearmanr(ax1, logT).statistic))
         if t is not None:
             rhos.append(abs(spearmanr(ax1, t).statistic))
     return (np.mean(shares), np.std(shares), np.mean(ratios), np.std(ratios),
-            (np.mean(rhos), np.std(rhos)) if rhos else (float('nan'), float('nan')))
+            (np.mean(rhos), np.std(rhos)) if rhos else (float('nan'), float('nan')),
+            np.mean(lrhos), np.std(lrhos))
 
 
-tag = 'W1' if W1 else 'C3'
-s_real, r_real, _ = spectrum(Xr)
-print(f'{tag}-500, {REPS} replicates per model')
-print(f'{"model":<16} {"axis-1 share":>14} {"axis1/axis2":>12} {"rho(axis1,t)":>13}')
-print(f'{"REAL corpus":<16} {100*s_real:>13.1f}% {r_real:>12.2f} {"—":>13}')
-rows = [('real', s_real, 0, r_real, 0, float('nan'), float('nan'))]
+tag = ('W1' if W1 else 'C3') + ('_noreuse' if NOREUSE else '')
+s_real, r_real, ax1_real = spectrum(Xr)
+lrho_real = abs(spearmanr(ax1_real, logT).statistic)
+print(f'{tag}-500, {REPS} replicates per model, corpus {CORPUS.name} ({N} units)')
+print(f'{"model":<16} {"axis-1 share":>14} {"axis1/axis2":>12} {"rho(axis1,t)":>13} {"rho(axis1,logT)":>16}')
+print(f'{"REAL corpus":<16} {100*s_real:>13.1f}% {r_real:>12.2f} {"—":>13} {lrho_real:>16.3f}')
+rows = [('real', s_real, 0, r_real, 0, float('nan'), float('nan'), lrho_real, 0)]
 for kind in ['exchangeable', 'heterogeneity', 'drift']:
-    s, ss, r, rs, (rho, rhos_) = run_model(kind)
-    rows.append((kind, s, ss, r, rs, rho, rhos_))
+    s, ss, r, rs, (rho, rhos_), lr, lrs = run_model(kind)
+    rows.append((kind, s, ss, r, rs, rho, rhos_, lr, lrs))
     rtxt = f'{rho:.3f}±{rhos_:.3f}' if not np.isnan(rho) else '—'
-    print(f'{kind:<16} {100*s:>10.1f}±{100*ss:.1f}% {r:>9.2f}±{rs:.2f} {rtxt:>13}')
+    print(f'{kind:<16} {100*s:>10.1f}±{100*ss:.1f}% {r:>9.2f}±{rs:.2f} {rtxt:>13} {lr:>10.3f}±{lrs:.3f}')
 
 with open(HERE / f'b2_models_{tag}_500.tsv', 'w', encoding='utf-8') as f:
-    f.write('model\taxis1_share\taxis1_share_sd\tratio12\tratio12_sd\trho_order\trho_order_sd\n')
+    f.write('model\taxis1_share\taxis1_share_sd\tratio12\tratio12_sd\t'
+            'rho_order\trho_order_sd\trho_logT\trho_logT_sd\n')
     for r_ in rows:
         f.write(r_[0] + '\t' + '\t'.join(f'{v:.4f}' for v in r_[1:]) + '\n')
 print(f'wrote b2_models_{tag}_500.tsv')

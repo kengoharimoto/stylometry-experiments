@@ -109,16 +109,93 @@ Axis shares (W1 with-reuse): 13.4/8.0/7.3%; (W1 no-reuse):
   0.917 (W1-500 with-reuse), in-plane 2-D distance 0.043, 3-D 0.190 —
   2-D proximity in the crowded middle is not affinity.
 
-## Red flags / work queue before the reframed draft can cite no-reuse numbers
+## R1 RESULTS (run 2026-08-19, `b2_null_models.py --noreuse`, 10 reps)
 
-1. **Length correlation revived in no-reuse W1**: axis1 ρ +0.44, axis2
-   +0.59 vs log residue words (with-reuse: −0.07/−0.24; C3 no-reuse
-   axis1 +0.07). Likely a retention confound (how much a text was copied
-   correlates with both residue size and age) — but the B2-style
-   exchangeable/heterogeneity/drift null battery MUST be re-run on the
-   no-reuse build before it becomes the headline map.
-2. Fixed-map Gower + line-bootstrap instrument re-run on no-reuse
-   W1-500/C3-500ns → CI-grade percentiles for the movers tables.
+TSVs: `axis_anatomy/b2_models_{W1,C3}_noreuse_500.tsv` (schema now
+carries a rho_logT column; the with-reuse TSVs keep the old schema).
+
+| | axis-1 share | ratio 1/2 | ρ(axis1, t) | ρ(axis1, logT) |
+|---|---|---|---|---|
+| **W1 noreuse REAL** | 12.8% | 1.31 | — | **0.444** |
+| W1 exchangeable | 18.5±0.4% | 4.22 | — | 0.960±0.006 |
+| W1 heterogeneity | 5.1±0.1% | 2.22 | — | 0.792±0.027 |
+| W1 drift | 39.7±1.2% | 3.09 | 0.974±0.010 | 0.087±0.052 |
+| **C3 noreuse REAL** | 8.7% | 1.21 | — | **0.064** |
+| C3 exchangeable | 6.9±0.2% | 1.14 | — | 0.164±0.120 |
+| C3 heterogeneity | 2.5±0.1% | 1.09 | — | 0.116±0.085 |
+| C3 drift | 40.9±1.5% | 2.81 | 0.996±0.002 | 0.065±0.038 |
+
+**Verdict — division of labor between the lenses inverts on residues.**
+On the stripped corpus the unit sizes span 648–345k words, and in the
+**W1** lens pure multinomial noise alone (exchangeable null) produces an
+18.5%-share axis with ρ 0.96 against log length — a stronger axis than
+the real corpus's own 12.8%. The real W1-noreuse axis-1 ρ vs log length
+is 0.44: partly length-contaminated, and W1-noreuse can NOT carry the
+headline chronology alone. In the **C3** lens the per-unit event counts
+stay in the millions even for tiny residues, so the exchangeable
+artifact is weak (6.9% share, ρ 0.16) and the real axis is length-clean
+(ρ 0.064). **The no-reuse chronology leads with C3; W1 confirms.**
+Cross-lens agreement of the two no-reuse axis-1 orderings: ρ 0.928
+(0.929 restricted to ≥3k residues) — the convergence argument carries
+over to the no-reuse build.
+
+Mitigation numbers (coords-based): restricting W1-noreuse to the 108
+units with residue ≥ 3,000 words lowers |ρ| vs log length 0.44 → 0.32
+and raises the with/without-reuse ordering agreement 0.908 → 0.945.
+Residual 0.32 is plausibly substantive (the early-ward-moving great
+compilations also have the largest residues), but the honest wording is
+"partly confounded"; C3 carries the burden.
+
+## R2 RESULTS (run 2026-08-19, `noreuse_reframe/unit_bootstrap_cis.py`, B=500, seed 20260814)
+
+Per-unit line-bootstrap CIs of axis-1 percentile on the fixed map of each
+build, same Gower instrument as `complement_halves/bootstrap_cis.py`
+(units > 2,000 lines resampled in consecutive-line blocks). TSVs:
+`noreuse_reframe/unit_ci_{W1,C3}_{withreuse,noreuse}.tsv`, joined in
+`movers_{W1,C3}.tsv`.
+
+**C3 (authoritative lens): 16 CI-separated moves of 126.** The
+consequences exhibit for the article:
+
+| unit | with-reuse | no-reuse | shift |
+|---|---|---|---|
+| Brahmāṇḍa | 62.7 [59.9, 64.3] | 44.0 [40.4, 47.2] | −18.7 |
+| Brahmāṇḍa 2 | 39.7 [36.5, 40.5] | 28.0 [25.6, 34.4] | −11.7 |
+| ŚiP Dharmasaṃhitā | 53.2 | 43.2 | −10.0 (CIs touch) |
+| MBh 13 app. (MA13) | 80.2 [77.8, 82.5] | 72.0 [68.8, 73.6] | −8.2 |
+| Mārk 1–80 / Mārk | 42.9 / 38.1 | 36.0 / 32.0 | −6.9 / −6.1 |
+| Padma | 47.6 [46.8, 48.4] | 44.0 [40.0, 46.4] | −3.6 |
+| Bhaviṣya | 64.3 [63.5, 66.7] | 60.8 [57.6, 63.2] | −3.5 |
+| Kūrma 2 | 90.5 | 87.2 | −3.3 |
+| Umāsaṃhitā | 62.7 [57.9, 65.1] | 72.0 [67.6, 76.0] | +9.3 |
+| Vāyu (whole) | 71.4 [67.5, 76.2] | 80.8 [78.4, 84.8] | +9.4 |
+| Vāyu-03 | 70.6 | 81.6 | +11.0 |
+
+Sub-3k residues (V8, Vi5, V6, Vt…) get wide C3 CIs and mostly fail
+CI-separation — the instrument marks them honestly uncertain.
+
+**W1: 70 of 126 CI-separated — but the per-unit magnitudes are
+artifact-inflated and NOT citable.** Consistent with R1's exchangeable
+verdict (length artifact axis, ρ 0.96 vs logT): on the W1-noreuse map
+essentially every sub-3k residue lands at the late pole (V5 100, V1 97,
+V7 96, Vi2 90, Vi6 93…) and the large-residue units are pushed early-ward
+en bloc (even MBh 3 "moves" 14→4). Direction agreement with C3 exists for
+the well-measured units (Pd, Bhv, K2, MA13, Mā, Dh early-ward; V, V3, U
+late-ward) — W1 confirms *signs*, C3 supplies *numbers*.
+
+**Bottom line for the reframe: it works.** The no-reuse composition
+chronology is C3-led (length-clean, ρ 0.982 to the with-reuse ordering,
+cross-lens ρ 0.93 with W1-noreuse), the with-reuse map opens the story,
+and the difference section cites the C3 movers table above with the
+upgraded-purāṇa reading (Kengo confirmed 2026-08-19: the borrowed mass
+drags a text toward wherever its sources sit — for the
+Śivadharma-incorporators, late-ward; Bhaviṣya −3.5 and Padma −3.6
+CI-separated early-ward on strip).
+
+## Remaining work queue
+
+1. ~~R1 null battery~~ → DONE, see above.
+2. ~~R2 fixed-map bootstrap instrument~~ → DONE, see above.
 3. Decide which validation exhibits are re-derived on no-reuse (E1
    apparatus, PPL Textgruppen bands, genre control) vs kept on
    with-reuse with an explicit bridge argument.
