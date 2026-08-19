@@ -586,7 +586,7 @@ length-clean (ρ = 0.064). The composed chronology is therefore
 **trigram-led**: C3 supplies the numbers, W1 corroborates the ordering
 (cross-lens ρ = 0.93 on the stripped build) and the movers' directions.
 The with-reuse hero map's division of labor is thereby inverted, which
-is itself a portable lesson: whichever lens has the larger event count
+is itself a portable lesson: whichever lens has the smaller event count
 per unit inherits the small-sample regime.
 
 ### 7.3 What moves, and what the moves mean
@@ -600,7 +600,9 @@ with CIs], and the moves sort into three legible classes.
 **The great compilations move early.** The largest moves of
 well-measured texts run toward the early pole: the Brahmāṇḍapurāṇa from
 the 63rd percentile to the 44th, its second khaṇḍa −12, the Śivapurāṇa's
-Dharmasaṃhitā −10, the Mārkaṇḍeya −6, and — smaller but CI-clean — the
+Dharmasaṃhitā −10 (the one named move whose intervals graze rather than
+separate, overlapping by 0.4 of a percentile), the Mārkaṇḍeya −6, and —
+smaller but CI-clean — the
 two giant compilations, Padma (48 → 44) and Bhaviṣya (64 → 61). Read
 with §7.1: what these texts absorbed sits, on average, *later* than what
 their compilers wrote. The Śivadharma corpus makes the mechanism
@@ -670,7 +672,7 @@ percentile [48, 81] of the drift axis against its constituted text's
 swollen) the apparatus sits at 57 [56, 61] against 36. The validation
 carries over to the composed chronology, where it matters most: on the
 stripped trigram map Book 13's apparatus projects at 48 [43, 52] against
-its constituted text's 30, Book 18's at 61 [39, 82] against 7, and all
+its constituted text's 31, Book 18's at 61 [39, 82] against 8, and all
 five books are directional. (One asymmetry must be stated: the apparatus
 files themselves are not stripped — they lie outside the strip's corpus
 — so their positions still mix the accretors' composition with whatever

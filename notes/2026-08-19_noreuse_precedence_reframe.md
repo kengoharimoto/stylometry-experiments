@@ -218,6 +218,14 @@ but are magnitude-gated — signs agree.)
 | MBh 18 Svargārohaṇa | 7 | 61 [39, 82] | 22 [19, 27] |
 | MBh 13 Anuśāsana (control) | 30 | 48 [43, 52] | 37 [37, 37] |
 
+(Citation pin, post-review: the "constituted (map)" column above is the
+raw map percentile from e1_project stdout; the DRAFT cites the
+constituted comparators from `noreuse_reframe/unit_ci_C3_noreuse.tsv`
+instead — 31.2 → "31" for MBh 13, 8.0 → "8" for MBh 18 — so both sides
+of the printed comparison are instrument-projected values from committed
+TSVs. The two differ by ≤ 1.2 points and the direction test is
+unaffected.)
+
 **The validation carries over: known-later material measures later on the
 composition chronology in all five parvans**, CI-separated for MBh 13
 (48 [43, 52] vs constituted 30), MBh 18 (61 vs 7) and MBh 16 (23 [18, 47]
