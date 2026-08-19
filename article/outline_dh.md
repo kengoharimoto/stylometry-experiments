@@ -26,8 +26,15 @@ chronology from stylometric drift in the Sanskrit epics and purāṇas."
 > guardrail. "Language age ≠ book age" sharpens into *transmitted*
 > vs *composed* language. Evidence + work queue (R1–R4, A6):
 > `notes/2026-08-19_noreuse_precedence_reframe.md`, claims map §0 gate.
-> Draft surgery on `draft_dh.md` waits for R1/R2 numbers and Kengo's
-> answer on R4 (Śivadharma example direction).
+> **Surgery applied to `draft_dh.md` 2026-08-19**: new §7 "Two
+> chronologies" (transmitted/composed, lens-role inversion, C3 movers,
+> Śivadharma mechanism, Kirfel-as-retention, Viṣṇu–BhP), §8 validation
+> updated with composed-chronology values, genre control replaced by the
+> strip-first defense (§6.4 of the claims map), new §9.2 third
+> dimension (BhP axis + flattening exhibit), conclusion now six
+> components. All new numbers audited against the committed TSVs.
+> Section budget: the draft grew by ~1,300 words — trim candidates on
+> the next pass: §3.2 metric cautions, §2.4 episode 2.
 
 ---
 

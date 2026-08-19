@@ -1,14 +1,17 @@
 # Losses are the clock: recovering relative chronology from stylometric drift in the Sanskrit epics and purāṇas
 
-**Status: DRAFT 2026-08-17 — complete first draft, all 9 sections,
-revised same day after the Mac session's cold-read review. Load-bearing
-numbers (§4 null-model shares, §6 retention correlations, §7 E1 /
-stratigraphy / genre values) verified against the post-colophon-clean
-TSVs (`axis_anatomy/b2_models_*`, `b2b_loss_gain_*`,
-`complement_halves/bootstrap_C3_500.tsv`, `subsets_*`,
-`e1_apparatus_W1_500.tsv`, `genre_control_W1_500.tsv`, and the W1-500
-reference frame). Citations are author-year placeholders; bibliography
-to be assembled and verified.**
+**Status: DRAFT 2026-08-19 — restructured for the no-reuse precedence
+reframe (new §7 "Two chronologies"; §8 validation updated with
+composed-chronology values; genre control replaced by the strip-first
+defense per claims map §6.4; new §9.2 third dimension; conclusion
+updated). Reframe numbers verified against
+`figures/noreuse_reframe/unit_ci_*` + `movers_C3.tsv`,
+`axis_anatomy/b2_models_*_noreuse_500.tsv`,
+`e1_apparatus/e1_apparatus_C3_noreuse_500.tsv`, and
+`mds3d/axis3_stats.tsv`. Earlier verification (2026-08-17): §4
+null-model shares, §6 retention correlations, §8 E1/stratigraphy values
+against the post-colophon-clean TSVs. Citations are author-year
+placeholders; bibliography to be assembled and verified.**
 
 **Target:** DSH / Journal of Cultural Analytics (per `outline_dh.md`).
 
@@ -36,7 +39,16 @@ autocorrelated change — many small habits shifting together — and not of
 mere heterogeneity. A split-half decomposition explains the mechanism:
 depletion of an early-characteristic feature inventory alone reproduces
 the ordering (ρ = 0.939), while feature gains order the late texts only
-loosely. Losses are the clock; gains have no systems. The
+loosely. Losses are the clock; gains have no systems. Because these
+texts absorb one another on a large scale, we further separate the
+chronology of the *transmitted* text from the chronology of
+*composition*: stripping shared text preserves the global ordering
+(ρ = 0.98 on trigrams) but moves individual texts in philologically
+interpretable ways — the great compilations look later with their
+borrowed skin on — and we give the stripped map precedence for dating
+composition, with the trigram lens carrying it (on stripped residues,
+the word lens develops a length artifact that our own null-model
+diagnostic catches). The
 instrument validates on layers of independently known relative order and
 yields philologically consequential results, including a resolution of
 the axis into register and chronology components. We state throughout
@@ -90,10 +102,14 @@ establishing what kind of process does and does not produce a dominant,
 ordering-shaped first axis in a distance embedding (§4); (iv) a
 **retention decomposition** that explains *why* the axis orders the
 corpus: the depletion of an early-characteristic feature inventory
-carries the chronological signal essentially alone (§6); and (v)
+carries the chronological signal essentially alone (§6); (v) a
+**transmitted-versus-composed comparison**: rebuilding the corpus with
+shared text stripped and reading the differences between the two maps as
+findings — which text is dragged where by what it absorbed — rather than
+as a robustness footnote (§7); and (vi)
 validation against independently known relative order — critical-edition
 apparatus known to be later than its constituted text, and source layers
-known to be older than their host redactions (§7). Along the way the
+known to be older than their host redactions — on both maps (§8). Along the way the
 corpus pays the method back with findings that bear on live questions in
 Sanskrit philology; we state them at the resolution the instrument
 supports and no further.
@@ -102,11 +118,13 @@ Two disclaimers frame everything that follows. First, the method orders
 *language states*, not books: a faithfully transmitted old text and an
 old text are indistinguishable from inside a corpus, and transmission
 can both preserve and level. We return to this limit repeatedly; it is
-not a footnote but a property of the measurement. Second, the first axis
+not a footnote but a property of the measurement — though §7 partially
+operationalizes it, separating the age of the language a text *carries*
+from the age of the language its compilers *wrote*. Second, the first axis
 of an embedding is not intrinsically a timeline. The work of this paper
 is precisely to close the gap between "the corpus has a dominant axis"
 and "that axis is a chronology" — by construction (§3), by null models
-(§4), by mechanism (§6), and by external validation (§7).
+(§4), by mechanism (§6), and by external validation (§8).
 
 ## 2. A hostile corpus, and the preprocessing it forces
 
@@ -175,7 +193,7 @@ this range imposes is treated in §3.4): the books of the two epics
 appendix blocks as separate units, whole purāṇas or their major
 divisions, a small śāstra/ritual outgroup, and the seven text-group
 units of Kirfel's constituted *Purāṇapañcalakṣaṇa* reconstruction
-[Kirfel 1927], included as first-class units because §7's validation
+[Kirfel 1927], included as first-class units because §8's validation
 turns on them.
 
 ### 2.3 Why two lenses constitute two witnesses
@@ -304,7 +322,10 @@ W1 200–500; the ordering itself is the same across the plateau. The
 collapsed high-MFW W1 regime, by contrast, *anti-correlates* across
 builds (−0.86 at 5000 MFW) — direct confirmation that beyond the cliff
 W1 measures the shared material itself, while below it the axis is
-indifferent to whether the shared material is present at all.
+indifferent to whether the shared material is present at all. This
+robustness result is deliberately minimal: §7 returns to the stripped
+build with the opposite question — not whether the ordering survives
+(it does) but what the differences between the two maps *mean*.
 
 **Names and sectarian vocabulary.** Striking all 36 theonyms and
 divine-name stems from the W1-500 list (refilling to 500 from the
@@ -357,7 +378,7 @@ unconscious frequency band — which is also the band a conscious
 archaizer cannot easily target. External validation of the axis's
 temporal reading therefore cannot come from grammar-checking the
 feature list; it comes from known relative order and dated anchors
-(§7).
+(§8).
 
 ### 3.4 The honest boundary: unit length
 
@@ -372,7 +393,7 @@ positions drift systematically with window size. We therefore treat
 every unit below ~3,000 words as an *uncertainty region* — its
 individual position is not evidence — and make claims about short texts
 only at the level of merged blocks large enough to clear the floor,
-with bootstrap confidence intervals. §7's validation cases inherit this
+with bootstrap confidence intervals. §7's and §8's cases inherit this
 discipline; no headline claim in this paper rests on the individual
 position of a short unit. The corpus's length imbalance (1k–462k words
 per unit) is thus not normalized away but converted into an explicit
@@ -398,7 +419,8 @@ arranges units by sampling noise magnitude). The real axis is
 length-independent (ρ = 0.065 against log length). *First-axis variance
 share is uninterpretable without a length diagnostic beside it*; we
 suggest this pairing as standard practice for any MDS/PCA-based claim
-about corpus structure.
+about corpus structure — and §7.2 applies it to catch exactly such an
+artifact arising in our own stripped build.
 
 **Null 2: heterogeneity without covariance.** Each unit receives its own
 rate vector, drawn i.i.d. around the corpus mean with the empirically
@@ -417,8 +439,8 @@ autocorrelated change*: many features shifting together along an
 underlying progression. The real corpus's 13.4% sits between the
 heterogeneity floor and the pure-drift ceiling, which is what a real
 tradition should do — its variance budget is shared among drift,
-register, genre, and idiosyncrasy; §8 locates the largest non-drift
-component.
+register, genre, and idiosyncrasy; §9 locates the two largest non-drift
+components.
 
 **The axis is a property of the distances, not of MDS.** Four methods
 with different assumptions — PCA on the z-scored features (no distance
@@ -429,13 +451,13 @@ embedding finds the drift gradient in its top-2 plane (PCA: ρ = 0.997
 W1, 0.995 C3 after alignment; isomap 0.92/0.85; Fiedler 0.95/0.82). On
 C3 the *raw* first dimensions disagree across methods, and the reason is
 itself a result: C3's top two eigenvalues are nearly degenerate (ratio
-1.07, vs 1.68 on W1), because the register dimension (§8) is almost as
+1.07, vs 1.68 on W1), because the register dimension (§9) is almost as
 strong as the drift dimension — so which one surfaces first is
 method-dependent while the plane containing both is not. The TSP
 seriation fails on both lenses (ρ ≈ 0.24–0.29), and its failure is
 independent evidence: path seriation tracks a gradient only when the
 data are effectively one-dimensional, so its snake-folding here
-confirms a genuine second dimension before §8 measures one. We do not
+confirms a genuine second dimension before §9 measures one. We do not
 use t-SNE or UMAP anywhere: they preserve local neighborhoods and
 discard exactly the global geometry a gradient reading lives in.
 
@@ -455,7 +477,7 @@ loading in either lens), *jñāna/jñānam*, *brahma*, sentence-connective
 technical vocabulary (*-ikā/-ika* +0.77/+0.56). Both lenses, read
 blind, describe the same drift: from narrated encounter toward
 enumerated doctrine. Whether that gradient is *temporal* is not settled
-by naming it; that burden falls on §6 and §7.
+by naming it; that burden falls on §6 and §8.
 
 Three structural facts sharpen the picture. First, the signal is
 radically distributed (§3.3): the poles just quoted are the readable tip
@@ -512,7 +534,7 @@ therefore not Dollo's law transplanted, but Swadesh's retention rate
 generalized from a cognate list to the frequency spectrum of style:
 **losses are the clock; gains are the community structure.** The gains
 side is not noise — late texts share their acquisitions, which is
-precisely why the gain component tracks affiliation (§8 finds the same
+precisely why the gain component tracks affiliation (§9 finds the same
 structure from another direction) — but it is the wrong hand for
 telling time.
 
@@ -524,7 +546,110 @@ tradition whose composition is continuous and whose feature inventory
 depletes faster than it recycles — legal formulae, liturgical corpora,
 scholastic commentary chains — is a candidate.
 
-## 7. Validation on known relative order, and what the corpus says back
+## 7. Two chronologies: the text transmitted and the text composed
+
+### 7.1 Why one map is not enough
+
+Section 3.2 established that the ordering survives the removal of shared
+text; this section argues that the *differences* between the two maps
+are themselves the finding. A purāṇa as transmitted is a mixture: the
+compilers' own composition plus everything the tradition deposited into
+it — inherited cores, migrating māhātmyas, wholesale incorporations of
+other works. Its position on the map of transmitted texts is the center
+of mass of that mixture, and every borrowed layer drags the position
+toward wherever the *source's* language sits. For the question "what
+language does this text carry?" that map is the right instrument. For
+the question "when was this text composed?" it is systematically
+confounded — these texts kept being upgraded, and a text's borrowed skin
+answers for its sources, not for its makers. The reuse-stripped corpus
+(shingle-matched fuzzy removal at a threshold calibrated against
+known-unrelated control pairs; symmetric drop, except that Kirfel's
+constituted *Purāṇapañcalakṣaṇa* is treated as the one known *source*:
+its lines are removed from the purāṇas, never from the reconstruction)
+approximates each text's own diction, and its map approximates the
+chronology of composition. We therefore report both chronologies, and
+give the composed one precedence for dating claims.
+
+### 7.2 The lenses swap roles on residues
+
+Before reading the stripped map we re-ran §4's null battery on it, and
+the length diagnostic earned its keep. Stripping is savagely uneven —
+residues span 648 to 345,000 words — and on samples that small the word
+lens's exchangeable null now produces a *stronger* first axis than the
+real corpus's own (18.5 ± 0.4% share, ρ = 0.96 against log length,
+versus the real axis's 12.8% at ρ = 0.44): on residues, W1's first axis
+is partly a length artifact, and we do not cite its per-unit positions.
+The trigram lens is immune for a mechanical reason — even a small
+residue supplies hundreds of thousands of trigram events, so its
+exchangeable null stays weak (6.9% share) and its real axis stays
+length-clean (ρ = 0.064). The composed chronology is therefore
+**trigram-led**: C3 supplies the numbers, W1 corroborates the ordering
+(cross-lens ρ = 0.93 on the stripped build) and the movers' directions.
+The with-reuse hero map's division of labor is thereby inverted, which
+is itself a portable lesson: whichever lens has the larger event count
+per unit inherits the small-sample regime.
+
+### 7.3 What moves, and what the moves mean
+
+Globally the two chronologies agree — Spearman ρ = 0.982 between the
+transmitted and composed orderings on C3 (0.908 on W1) — so nothing in
+§§3–6 is at stake. Locally, sixteen of 126 units move with
+non-overlapping bootstrap intervals [TABLE: movers, C3, both positions
+with CIs], and the moves sort into three legible classes.
+
+**The great compilations move early.** The largest moves of
+well-measured texts run toward the early pole: the Brahmāṇḍapurāṇa from
+the 63rd percentile to the 44th, its second khaṇḍa −12, the Śivapurāṇa's
+Dharmasaṃhitā −10, the Mārkaṇḍeya −6, and — smaller but CI-clean — the
+two giant compilations, Padma (48 → 44) and Bhaviṣya (64 → 61). Read
+with §7.1: what these texts absorbed sits, on average, *later* than what
+their compilers wrote. The Śivadharma corpus makes the mechanism
+concrete: the Śivadharmaśāstra and Śivadharmottara sit at the far late
+pole (percentiles 91–95), and the texts that absorbed them wholesale —
+the Bhaviṣya incorporates roughly a quarter of each; the Padma, the
+Dharmasaṃhitā, and the Revākhaṇḍa large shares — are precisely
+early-ward movers: their borrowed skin had been answering for their
+position. Symmetrically, a few texts move late (the Vāyu, 71 → 81; its
+third section +11; the Śivapurāṇa's Umāsaṃhitā +9): what *they* carried
+was older than their own hand.
+
+**The old-core carriers dissolve.** The sections of the Vāyu and the
+Viṣṇu aṃśas that carry the shared genealogical inheritance retain almost
+nothing under the strip — the Vāyu's manu-vaṃśa section keeps 1,064 of
+20,373 words — and drop below the §3.4 length floor: their composed-era
+positions are simply not measurable, and we grey them out rather than
+read them. That emptiness is a measurement, not a failure: for these
+texts, the transmitted text *is* mostly the shared inheritance, which is
+Kirfel's century-old thesis [Kirfel 1927] restated as a retention
+statistic.
+
+**Pseudo-neighborhoods fall away.** On the transmitted map, the
+Viṣṇupurāṇa's nearest neighbors are its own copyists — texts that
+absorbed it. On the stripped map those neighbors recede, and on its own
+diction the Viṣṇu sits as close to the Bhāgavata as to anything else.
+The two texts treat the same narrative material with almost no shared
+wording (under the symmetric strip, the Viṣṇu's Kṛṣṇa book loses 80% of
+its words to parallels elsewhere; the Bhāgavata's, treating the same
+story, loses 6%) — two independent tellings, no copying in either
+direction, and a stylistic kinship that the transmitted map had buried
+under the Viṣṇu's borrowed skin. We offer this as the reuse-strip
+design's characteristic yield: it does not merely defend a result, it
+un-hides relationships.
+
+### 7.4 What precedence means, and does not mean
+
+Giving the composed chronology precedence is a statement about *which
+question each map answers*, not a demotion of the transmitted map. Every
+claim in §8 is therefore validated on both; where the two disagree about
+an individual text, the composed reading dates the compilers and the
+transmitted reading dates the language the tradition chose to keep — and
+the gap between them measures how much a text is an anthology. The
+first disclaimer of §1 does not dissolve: even a residue is transmitted,
+and below-threshold paraphrase of inherited material survives the strip.
+The strip narrows the gap between language age and composition age; it
+does not close it.
+
+## 8. Validation on known relative order, and what the corpus says back
 
 Absolute dates cannot validate this instrument — the corpus has few to
 none. Relative order can, because philology has established some
@@ -542,7 +667,15 @@ text sits lateward of its constituted counterpart. For the epilogue
 books the effect is dramatic — Book 18's apparatus projects at the 65th
 percentile [48, 81] of the drift axis against its constituted text's
 5th; for the control (Book 13, a book *known* to be didactically
-swollen) the apparatus sits at 57 [56, 61] against 36. The e-text
+swollen) the apparatus sits at 57 [56, 61] against 36. The validation
+carries over to the composed chronology, where it matters most: on the
+stripped trigram map Book 13's apparatus projects at 48 [43, 52] against
+its constituted text's 30, Book 18's at 61 [39, 82] against 7, and all
+five books are directional. (One asymmetry must be stated: the apparatus
+files themselves are not stripped — they lie outside the strip's corpus
+— so their positions still mix the accretors' composition with whatever
+the accretors absorbed; that mixture is exactly what §7 taught us to
+read, and the direction test does not depend on resolving it.) The e-text
 apparatus we used is a subset of the full print apparatus, so these
 separations are lower bounds. What this validates is precise and
 limited: the axis correctly orders *layers of known relative date within
@@ -566,29 +699,45 @@ the word lens, 66–95 on the trigram lens) — a century-old stratigraphy,
 built from entirely different evidence, sorted correctly by feature
 statistics.
 
+The composed chronology strengthens this validation in a way the
+transmitted map cannot. Because the strip is one-directional for the
+PPL — its lines are removed from the purāṇas, never from the
+reconstruction — the stripped corpus contains the constituted PPL and
+*no near-verbatim copy of it anywhere else*: the reconstruction can no
+longer affect its carriers' positions, nor they its. On that map the PPL
+keeps its band (Textgruppe I at the 25th percentile [23, 30], the
+ungrouped core at 25 [24, 27]) while its chief carrier's residue reads
+late (the Vāyu at 81 [78, 85], against 71 transmitted). The oldest
+stratum is early on a map from which its own copies are absent, and the
+carriers are late once they stop speaking its words — a separation
+between textually disjoint bodies, which is the strongest form the
+priority claim can take.
+
 The obvious objection is genre: genealogical list-verse might simply
-*style* early, wherever and whenever it was composed. We bounded this
-with two controls. An observational one compares dedicated genealogy
-books against their sibling divisions within the same text (no marker
-words involved); a systematic one splits thirteen texts spanning the
-whole axis into genealogy-marked and remaining halves (stem-based
-markers with one-line smoothing, source mapping verified lossless) and
-projects both halves with bootstrap intervals. The measured pull is
-real — genealogy halves of mid-and-late texts project up to ~25
-percentiles earlier than their complements — and the marker-split
-version of that number is an *upper bound*, since the marker words are
-themselves frequent features. But even the upper bound does not deliver
-the early band: on the word lens, the genealogy halves of late texts
-outside the PPL transmission bottom out around the 40th percentile
-(Padma's at 40 [37, 45]), far from the constituted-PPL band at 23–24.
-The decisive form of the control, however, is genre-immune by
-construction: *within the Vāyu itself*, the PPL layer projects earlier
-than the Vāyu–Brahmāṇḍa common layer — genealogy against genealogy,
-same text, same transmission (the separation quoted above). On the
-trigram lens alone the floor argument is no longer clean of overlap
-after the no-space correction, so we rest it on the word lens and the
-within-text comparison; stating which lens carries which argument is
-part of the method.
+*style* early, wherever and whenever it was composed. We answer it
+structurally, because in this corpus a content-based genre control is
+unconstructible in principle — Kirfel's own result is that the
+genealogical genre largely *is* the shared ancient inheritance, so
+splitting texts into genealogy-like and remaining halves conflates
+register with the age of borrowed text, on every build. (We ran such
+splits; their pulls are real, one-directional, and uninterpretable for
+exactly this reason — and the strip makes the entanglement vivid: after
+shared text is removed, the Vāyu's manu-vaṃśa section contains 178 words
+of genealogy of its own.) Four structural facts answer the objection
+instead. First, the strip (§7): the composed map contains no
+near-verbatim PPL text outside the reconstruction, so the PPL's early
+band and its carriers' late residues are positions of textually disjoint
+bodies — the version of the objection with teeth, "the PPL sits at the
+center of gravity of its own descendants," is answered by construction.
+Second, the early pole is not genealogical: the earliest units on every
+build are the epics' battle and dialogue books, thin in vaṃśa material,
+while the pure-genealogy reconstruction's carriers read *late* once
+their inherited genealogy is stripped — list-register per se does not
+read early. Third, the apparatus experiment above is the genre-matched
+validation — same books, same idiom, known-later material measuring
+later. Fourth, register variation has its own axis, orthogonal to the
+chronology (§9): the instrument books register separately rather than
+folding it into the clock.
 
 **What the corpus says back.** Findings that clear the validation bar,
 stated at the instrument's resolution: (i) The Mahābhārata's four
@@ -598,12 +747,23 @@ lenses — with the apparatus experiment showing the constituted text
 itself owns that position. The stylometry is consistent with an
 early-fixed narrative kernel that was appended to the epic late *as
 books*; it cannot arbitrate between early composition and early-style
-transmission, and we say so. (ii) The old Skandapurāṇa — transmitted in
+transmission, and we say so. The claim carries to the composed
+chronology essentially unchanged — the four books share little text with
+the rest of the corpus (88–95% of their trigram mass survives the
+strip), and their residues stay at the early pole (percentiles 1–8).
+(ii) The old Skandapurāṇa — transmitted in
 Nepalese manuscripts of the ninth century — projects earlier than the
 Mārkaṇḍeyapurāṇa as a whole on both lenses with separated confidence
-intervals, against the received relative dating; at layer level the two
-interleave, and the same text's late block (its pāśupata chapters)
-projects at the far late pole under identical transmission — which is
+intervals, against the received relative dating. On the composed
+chronology the direction holds but the gap narrows (SP 29 [27, 32],
+Mārk 32 [28, 35]): the Mārkaṇḍeya is one of §7's early-ward movers, and
+what separates the two transmitted texts is partly the Mārkaṇḍeya's
+absorbed later material — the composed reading brings the two
+compilations closer in time than the transmitted one suggests. At layer
+level the two interleave, and the same text's late block (its pāśupata
+chapters) projects at the far late pole under identical transmission
+(98 [97, 99] even as a stripped residue, though at 2.9k residual words
+that value brushes the length floor) — which is
 also the strongest available answer to the transmission-conservatism
 confound. (iii) The Bhāgavatapurāṇa, whose date is a famous open
 question, is the corpus's most isolated register (every one of its
@@ -612,9 +772,12 @@ strongly scale-dependent across feature-set sizes in a way no other
 text shows. Our instrument *poses* the Bhāgavata question sharply —
 early language state faithfully carried, or late mastery of the old
 register — and does not answer it; we flag it as the natural target for
-methods beyond frequency stylometry.
+methods beyond frequency stylometry. §9.2 gives this isolation a
+geometric statement, and shows the chronology does not depend on it.
 
-## 8. The second dimension is register, not a second chronology
+## 9. Beyond the first axis: register, and one text's own dimension
+
+### 9.1 The second dimension is register, not a second chronology
 
 A one-gradient corpus embedded by classical MDS is expected to bend the
 gradient into the second axis (the Guttman "horseshoe"), so before
@@ -636,24 +799,73 @@ axis is where the "community structure" of §6's gains lives, and
 treating it as a second chronology is the misreading this section
 exists to prevent.
 
-## 9. Conclusion
+### 9.2 The third dimension is one text, and flat maps hide it
+
+Two-dimensional maps stop where the eigenvalues tell them to; ours do
+not stop cleanly. The third MDS axis carries almost as much variance as
+the second (7.3% versus 8.0% on W1; 6.7% versus 9.5% on C3, transmitted
+build), so we examined it rather than discarding it, aligning the two
+lenses' three-dimensional configurations by Procrustes rotation. The
+per-axis cross-lens agreements are 0.97 / 0.86 / 0.46 on the
+transmitted build and 0.95 / 0.74 / 0.74 on the composed one: on the
+composed chronology's build, the third dimension is as much a shared
+property of the texts as the second.
+
+And it is, to a first approximation, *one text's own dimension*. The
+thirteen Bhāgavata units monopolize one pole: on the composed build
+their mean position sits 3.8 (W1) and 4.9 (C3) standard deviations of
+the remaining corpus away from it, and axis-3 position correlates with
+Bhāgavata membership at r = 0.76/0.84. Remove the Bhāgavata and the
+third axis's cross-lens agreement drops (to 0.65 composed, 0.27
+transmitted) while the first axis's is untouched (0.97/0.95). Two
+consequences follow. First, §8's "most isolated register" claim gains a
+geometric form: the Bhāgavata's idiosyncrasy is not an extreme position
+on either shared dimension but a *direction of its own*, recovered
+jointly by two feature systems that share almost no linguistic
+material. Second — and this is the referee-proofing — the chronology is
+orthogonal to the corpus's most idiosyncratic member: classical MDS
+banks the Bhāgavata's peculiarity on its own axis, and the ordering is
+unchanged by the text's removal. (The length diagnostic again: on the
+transmitted build W1's third axis is length-tinged, ρ = 0.54, so the
+clean form of this result rests on C3 and the composed build, where
+axis 3 is length-clean at ρ ≤ 0.06.)
+
+The flattening cost of 2-D also deserves one number, because readers
+*will* measure distances on the printed maps with their eyes. The
+Śivapurāṇa's Sanatkumārasaṃhitā and Viṣṇupurāṇa book 3 — Delta 0.92,
+each roughly the fiftieth-nearest neighbor of the other — render 0.043
+apart in the transmitted W1 plane, indistinguishable from genuine
+neighbors; the third axis recovers them to 0.190. The rule we draw:
+on a crowded 2-D map, only axis-1 position is load-bearing; pairwise
+proximity in the middle is not evidence of affinity. We publish
+rotatable three-dimensional versions of all four maps as supplementary
+material so that no reader is limited to the flattening we chose.
+
+## 10. Conclusion
 
 For authorless, accreting, editorially mediated corpora, we propose a
-chronology-capable stylometric recipe with five components: two feature
+chronology-capable stylometric recipe with six components: two feature
 systems engineered to inherit different mixtures of composer, scribe,
 and editor, whose agreement is the measurement (§2); robustness sweeps
 that seek out the failure regimes and read them (§3); fixed-map
 supplementary projection with bootstrap intervals for every layer and
-subset question (§2.2, §7); null-model calibration pairing variance
-share with a length diagnostic (§4); and a split-half retention
+subset question (§2.2, §8); null-model calibration pairing variance
+share with a length diagnostic (§4); a split-half retention
 decomposition that tests whether the ordering has the mechanistic
-signature of drift (§6). On the Sanskrit epic–purāṇic corpus the recipe
+signature of drift (§6); and a transmitted-versus-composed comparison
+that turns the corpus's worst pathology — wholesale text reuse — into
+its most informative instrument, dating the compilers separately from
+the language they carried (§7). On the Sanskrit epic–purāṇic corpus the
+recipe
 yields an ordering that two near-disjoint witnesses agree on, that no
 tested confound explains, that behaves like autocorrelated loss, and
 that correctly orders every independently known relative sequence we
-could construct. Its limits are equally definite: a ~3,000-word
+could construct — on both chronologies. Its limits are equally definite:
+a ~3,000-word
 resolution floor, blindness below the level of merged blocks, and the
-standing epistemic gap between language age and book age. Within those
+standing epistemic gap between language age and book age — a gap the
+composed chronology narrows but, since even a residue is transmitted,
+never closes. Within those
 limits, a millennium of anonymous tradition turns out to keep time — not
 in its marked archaisms, which imitators can reach, but in the
 unconscious frequency band where five hundred small habits drift, and
@@ -665,5 +877,5 @@ mostly fade, together.
 Evert et al. 2017; Eder (corpus-size and non-English Delta); Swadesh
 1955; Nicholls & Gray 2008; Oberlies 2003; Kirfel 1927; plus Sanskrit
 NLP citations (ByT5 sandhi model, digital corpora) and the
-philological apparatus for §7's cases. All author-year pairs above are
+philological apparatus for §8's cases. All author-year pairs above are
 placeholders pending verification.]*
