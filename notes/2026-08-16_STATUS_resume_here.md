@@ -1,5 +1,21 @@
 # STATUS 2026-08-16 — where we are, resume here
 
+> **SUPERSEDED IN PART 2026-08-19 — read
+> `2026-08-19_noreuse_precedence_reframe.md` FIRST.** Kengo's reframe:
+> the article gives precedence to the **no-reuse** maps as the chronology
+> of original compositions (with-reuse = tradition as transmitted); the
+> no-reuse chronology is **C3-led** (W1-noreuse partly length artifact —
+> magnitudes not citable); citable numbers from
+> `figures/noreuse_reframe/` (movers_C3.tsv, unit_ci_*). E1 and PPL
+> bands carry over to the composition chronology. **The vaṃśa genre
+> control is DROPPED as circular** (the genre bullet at the bottom of
+> this file is obsolete) — the genealogy objection is answered
+> strip-first; see claims map §6.4. Axis 3 ≈ the Bhāgavata dimension
+> (3-D viewers in `figures/mds3d/`). Drafting state:
+> `article/claims_evidence_map.md` (single source of truth, §0 gates),
+> `article/draft_dh.md` (complete DH draft, Kengo's editing pass in
+> flight; reframe surgery pending).
+
 For the next session. The deliverable is the **article** on stylometric
 analyses producing chronological ordering of Sanskrit epic/purāṇic texts.
 The DICSEP deck is frozen — never touch it. The working plan is
@@ -111,5 +127,8 @@ objection-answers are in the 2026-08-14 notes.
   pre-1000 silence on the same window; a milieu argument, still not an
   absolute anchor — see `2026-08-18_bhp_brahmasutra_dependence.md`.
 - Rām: trails MBh on C3 only (medians 7 vs 12); W1 no.
-- Genre: vaṃśa pull bounded; W1 floor argument decisive; C3 floor
-  narrowed post-nospace — lean on W1 + the genre-immune layer argument.
+- Genre: ~~vaṃśa pull bounded; W1 floor argument decisive; C3 floor
+  narrowed post-nospace — lean on W1 + the genre-immune layer argument.~~
+  **OBSOLETE 2026-08-19: genre control dropped as circular (Kirfel:
+  vaṃśa genre IS the shared inheritance). Strip-first defense instead —
+  see the banner above and claims map §6.4.**
