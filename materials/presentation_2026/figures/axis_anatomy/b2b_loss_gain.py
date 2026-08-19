@@ -18,8 +18,19 @@ computed on half B only:
   gain_i      = rate mass on the late set
 Predictions: (i) loss alone reproduces the axis (rho >= ~0.9);
 (ii) gain orders the late texts only loosely.
+
+Usage: b2b_loss_gain.py [w|c] [--noreuse]
+
+2026-08-19 (reframe): 'c' runs the identical design on no-space C3 —
+the stream is whitespace-stripped and split into alternating 128-char
+blocks (~16 words), trigrams counted within blocks; --noreuse runs on
+the stripped corpus/manifest against the composed-chronology coords.
+w + --noreuse is refused (R1: the no-reuse W1 axis is partly a length
+artifact; see notes/2026-08-19_noreuse_precedence_reframe.md).
 """
 import csv
+import re
+import sys
 from collections import Counter
 from pathlib import Path
 
@@ -29,11 +40,32 @@ from scipy.stats import spearmanr
 ROOT = Path('/mnt/kengo/stylometry-experiments')
 HERE = Path(__file__).parent
 MFW = 500
-THRESH = 1.5
-CORPUS = ROOT / 'corpus/epic_puranas_unsandhied'
-MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
-COORDS = ROOT / 'materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
+NOREUSE = '--noreuse' in sys.argv
+argv = [a for a in sys.argv if a != '--noreuse']
+FEAT = argv[1] if len(argv) > 1 else 'w'
+# rate-ratio threshold for the early/late sets: 1.5 (the W1 default) is
+# degenerate on C3 — trigram rate ratios are much flatter than word rate
+# ratios (at 1.5 the late set is a single trigram) — so C3 runs must
+# report a sweep, not one tuned value
+THRESH = float(argv[2]) if len(argv) > 2 else 1.5
+W1 = FEAT == 'w'
+if W1 and NOREUSE:
+    sys.exit('w + --noreuse refused: the no-reuse W1 axis is partly a '
+             'length artifact (R1) — run c --noreuse instead')
+if W1:
+    CORPUS = ROOT / 'corpus/epic_puranas_unsandhied'
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+    COORDS = ROOT / 'materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
+elif not NOREUSE:
+    CORPUS = ROOT / 'corpus/epic_puranas_sandhied'
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+    COORDS = ROOT / 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv'
+else:
+    CORPUS = ROOT / 'corpus/epic_puranas_sandhied_noreuse'
+    MANIFEST = ROOT / 'manifests/noreuse2026_n126.txt'
+    COORDS = ROOT / 'materials/presentation_2026/figures/mds3d/coords_C3-500ns_noreuse_n126.tsv'
 STRATA = ROOT / 'materials/presentation_2026/chronology_strata.tsv'
+TAG = ('W1' if W1 else 'C3') + ('_noreuse' if NOREUSE else '') + '_500'
 
 manifest = {l.strip().removesuffix('.txt') for l in
             MANIFEST.read_text(encoding='utf-8').splitlines()
@@ -51,11 +83,21 @@ names, cA, cB = [], [], []
 for p in sorted(CORPUS.glob('*.txt')):
     if p.stem not in manifest:
         continue
-    toks = p.read_text(encoding='utf-8').lower().split()
-    blocks = [toks[i:i + 16] for i in range(0, len(toks), 16)]
     a, b = Counter(), Counter()
-    for k, blk in enumerate(blocks):
-        (a if k % 2 == 0 else b).update(blk)
+    if W1:
+        toks = p.read_text(encoding='utf-8').lower().split()
+        blocks = [toks[i:i + 16] for i in range(0, len(toks), 16)]
+        for k, blk in enumerate(blocks):
+            (a if k % 2 == 0 else b).update(blk)
+    else:
+        # article C3 convention: scriptio continua; alternating 128-char
+        # blocks (~16 words); trigrams counted within blocks (junction
+        # trigrams across block cuts are dropped, same on both halves)
+        s = re.sub(r'\s+', '', p.read_text(encoding='utf-8').lower())
+        for k in range(0, len(s), 128):
+            blk = s[k:k + 128]
+            tgt = a if (k // 128) % 2 == 0 else b
+            tgt.update(blk[i:i + 3] for i in range(len(blk) - 2))
     names.append(p.stem)
     cA.append(a)
     cB.append(b)
@@ -110,9 +152,9 @@ r_pres = spearmanr(-frac_present, x).statistic
 print(f'\npresence/absence variant (fraction of original set attested in half B):')
 print(f'  rho(axis, presence-loss) = {r_pres:.4f}')
 
-with open(HERE / 'b2b_loss_gain_W1_500.tsv', 'w', encoding='utf-8') as f:
+with open(HERE / f'b2b_loss_gain_{TAG}.tsv', 'w', encoding='utf-8') as f:
     f.write('text\tstratum\tx\tretention\tgain\tfrac_orig_present\n')
     for i, n in enumerate(names):
         f.write(f'{n}\t{strata[n]}\t{x[i]:.6f}\t{retention[i]:.6f}\t'
                 f'{gain[i]:.6f}\t{frac_present[i]:.4f}\n')
-print('wrote b2b_loss_gain_W1_500.tsv')
+print(f'wrote b2b_loss_gain_{TAG}.tsv')

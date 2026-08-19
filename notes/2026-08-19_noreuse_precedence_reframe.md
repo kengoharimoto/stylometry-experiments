@@ -308,6 +308,53 @@ accordingly; guardrail 8 updated.
 `mds3d/coords_C3-500ns_noreuse_n126.tsv`; sub-3k residues flagged;
 W1-noreuse magnitudes not citable (§R1).
 
+## B2b on C3 and on the composed chronology (run 2026-08-19, post-surgery)
+
+Kengo's question — shouldn't the analyses be re-derived on no-reuse C3 —
+triaged: notes stay dated records (banners, never rewritten numbers);
+the claims map §0 gates carry currency; and the one title-claim-critical
+gap was **B2b existing only as W1/transmitted**. `b2b_loss_gain.py` now
+takes `w|c [thresh] [--noreuse]` (w+noreuse refused per R1; C3 blocks =
+alternating 128 chars of the no-space stream, trigrams counted within
+blocks).
+
+The W1 default threshold 1.5 is **degenerate on C3** (late set = 1
+trigram, `iṣṇ`) — trigram rate ratios are flatter than word ones — so
+the C3 result is reported as a sweep:
+
+| THRESH | sets (orig/late) | loss ρ | gain ρ | non-epic loss/gain |
+|---|---|---|---|---|
+| 1.5 transmitted | 11 / 1 | .857 | (.42, degenerate) | .74 / .00 |
+| 1.3 transmitted | 34 / 9 | .867 | .631 | .76 / .34 |
+| 1.2 transmitted | 67 / 38 | .856 | .639 | .74 / .41 |
+| 1.15 transmitted | 93 / 69 | .858 | .596 | .74 / .40 |
+| 1.3 composed | 35 / 10 | .864 | .620 | .75 / .39 |
+| 1.2 composed | 66 / 41 | .856 | .692 | .73 / .51 |
+| 1.15 composed | 89 / 74 | .868 | .626 | .75 / .45 |
+
+**Loss-dominance replicates on the trigram lens and on the composed
+chronology**: loss alone 0.856–0.868 invariant across thresholds and
+builds; gains 0.60–0.69 once non-degenerate; within non-epic units loss
+0.73–0.76 vs gain 0.34–0.51. Weaker in absolute terms than W1's 0.939
+(trigram inventories are flatter; the sets are smaller), same asymmetry.
+Canonical committed TSVs (`b2b_loss_gain_C3_500.tsv`,
+`b2b_loss_gain_C3_noreuse_500.tsv`) are at THRESH 1.3, the first
+non-degenerate setting; the sweep above is the citation-grade statement.
+
+Also run: the Guttman-arch check on the composed maps — C3-noreuse
+R² = 0.006 (clean, matches transmitted 0.007); W1-noreuse R² = 0.174,
+one more symptom of its length artifact (§R1), no action needed.
+
+**Triage of the remaining transmitted-only analyses** (draft presents
+them explicitly as anatomy of the transmitted map, which stays
+legitimate — both chronologies are kept): A2 bridge / class
+decomposition / loadings (§§3.3, 5 of the draft) — no re-derivation
+needed, orderings agree at 0.98 and the anatomy claims are about the
+transmitted axis; B3 alternative embeddings — same; Q3 axis-2
+covariates — same, §9.1 is labeled transmitted; B1 jackknife — optional
+footnote-grade. Nothing else in the notes corpus is load-bearing on the
+composed chronology.
+
 ## Remaining work queue
 
 1. ~~R1 null battery~~ → DONE, see above.

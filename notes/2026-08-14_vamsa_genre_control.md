@@ -1,5 +1,15 @@
 # Vaṃśa genre control: does list/genealogy style mimic archaism?
 
+> **DROPPED AS CIRCULAR 2026-08-19 (Kengo's call) — do not cite this
+> control or resurrect content-split genre controls.** Kirfel: the vaṃśa
+> genre IS the shared ancient inheritance, so the gen-half Δ below
+> conflates register with the age of borrowed text, on every build (the
+> 2026-08-19 residue re-derivation makes it vivid: the Vāyu's manu-vaṃśa
+> section keeps 178 words of genealogy of its own). The genealogy
+> objection is answered strip-first instead — see claims map §6.4 and
+> `2026-08-19_noreuse_precedence_reframe.md`. The measurements below
+> remain valid as measurements; their genre interpretation does not.
+
 2026-08-14. The last open control from the complement-halves work: the PPL
 layer and V8 sit early on the drift axis — but vaṃśa material is a
 particle-poor, name-heavy genre, so could genre alone produce that placement?

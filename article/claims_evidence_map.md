@@ -187,6 +187,12 @@ are the clock; gains are the community structure." Frame via Swadesh-style
 retention-rate glottochronology on style-feature *frequencies*, with
 stochastic Dollo (Nicholls & Gray 2008) as the character-loss relative;
 do not overclaim the strict Dollo form. → `2026-08-16_b2_models_loss_gain.md`.
+**2026-08-19: replicated on C3 and on the composed chronology** — loss
+alone 0.856–0.868 invariant across thresholds 1.15–1.5 and both builds,
+gains 0.60–0.69 (the W1 threshold 1.5 is degenerate on C3: late set = 1
+trigram — always cite the sweep, not one setting). Committed TSVs at
+THRESH 1.3: `b2b_loss_gain_C3{,_noreuse}_500.tsv`; sweep table in the
+reframe note. W1+noreuse is refused by the script (R1 gate).
 
 **4.2 E1: known-order layers (validation as a layer-dating instrument).**
 CE-excluded apparatus is uniformly later-styled than its constituted text,

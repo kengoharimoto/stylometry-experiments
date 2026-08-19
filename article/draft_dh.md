@@ -538,6 +538,13 @@ precisely why the gain component tracks affiliation (§9 finds the same
 structure from another direction) — but it is the wrong hand for
 telling time.
 
+The decomposition replicates on the trigram lens, and on the composed
+chronology of §7: loss alone orders at 0.856–0.868 invariantly across
+feature-selection thresholds and across both corpus builds, with gains
+at 0.60–0.69 — the same asymmetry from independent features, on a map
+built from residues (the trigram feature sets are flatter, so the
+absolute correlations sit below W1's; the shape is identical).
+
 This decomposition upgrades the paper's claim from correlation to
 mechanism. The drift axis works as a chronometer *because* it is, in
 effect, a retention measure computed over five hundred features at
