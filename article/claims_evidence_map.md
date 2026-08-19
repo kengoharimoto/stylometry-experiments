@@ -42,6 +42,21 @@ and **no-space C3**; the provenance gates in §0 list the traps.
   exploratory tables in the note; (c) sub-3k residues (most Vāyu
   sections, Viṣṇu aṃśas 1/2/5/6, MBh 17–18) are uncertainty regions in
   every no-reuse exhibit.
+- **Label glossary** (the letter codes come from four dated queues):
+  **Q1/Q2/Q3** = the three research questions of
+  `2026-08-14_axis_anatomy_plan.md` (what moves a text / why drift shows
+  in MDS / what is y). **A1–A5** = Q1 experiments there (A1 loadings, A2
+  class decomposition, A3 minimal set [open], A4 documented-diachrony
+  link [DROPPED 2026-08-17], A5 per-text anatomy [open]); **A6** is a
+  2026-08-19 addition outside Q1: axis-3/BhP statistics (done).
+  **B1–B5, B2b** = Q2 experiments there (B1 variance anatomy, B2 null
+  models, B2b loss/gain retention clock, B3 convergent orderings, B4
+  time-likeness assembly, B5 arch check); **C1** = Q3 arch removal.
+  **D1–D6 / E1–E2** = the July closing-parvans length brief
+  (`CLOSING_PARVANS_length_artifact_brief.md`); D1/D4 are the length
+  diagnostics, and E1 grew into the CE-apparatus validation
+  (`2026-08-14_e1_apparatus_experiment.md`). **R1–R4** = the 2026-08-19
+  no-reuse reframe queue (all closed; see §0 reframe entry and §8).
 - **Traps when quoting notes:**
   - Never quote pre-clean numbers (git ≤ d9532dd; the pre-clean unsandhied
     corpus survives only in commit 0b666a9's safety copy).
