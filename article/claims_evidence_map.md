@@ -290,6 +290,20 @@ Post-nospace the C3 floor argument is **no longer CI-clean** — lean on W1
 layer earlier than V8's own vaṃśa common layer, same genre both sides).
 → `2026-08-14_vamsa_genre_control.md` + rerun note flag.
 
+> **On the no-reuse build (R3, 2026-08-19) this claim weakens — read
+> before writing the reframed §6.4.** Re-derived on residues both sides
+> (`genre_control_C3_noreuse_500.tsv`): pull confirmed, one-directional,
+> CI-separated in six texts (Bhaviṣya −30.4, Agni −24.0, Matsya −17.6,
+> Mārk −12.8, Brahma −12.8, Padma −11.2). But the floor clears PPL-I
+> [23.2, 29.6] for only five panel texts (Padma, Matsya, Kūrma, Agni,
+> Garuḍa); Brahma/Bhaviṣya gen-halves reach 27.2 and Mārkaṇḍeya's sits on
+> the band. **The genre-immune V8 argument is unavailable on residues**
+> (Vāyu-08 keeps 178 vaṃśa words, Vāyu-06 241) — itself reportable as
+> Kirfel's thesis measured: the old-core carriers' genealogy *is* the
+> shared inheritance. Required wording shift: "genre is bounded and
+> cannot account for the full separation" — NOT "genre is excluded".
+> → `2026-08-19_noreuse_precedence_reframe.md` §R3.
+
 **6.5 Rāmāyaṇa.** Feature-system split: C3-only trail vs MBh (medians 7 vs
 12 post-nospace); W1 as archaic as MBh. Kāṇḍas internally compressed, no
 Bāla/Uttara lateness signature — evidence of near-contemporary composition
@@ -353,7 +367,7 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | ~~A4~~ | DROPPED 2026-08-17 — see §4.5; nothing blocks on it now | — | — |
 | ~~R1~~ | DONE 2026-08-19 — verdict: no-reuse chronology is C3-led, W1-noreuse partly length artifact (see §0 gate) | — | — |
 | ~~R2~~ | DONE 2026-08-19 — `noreuse_reframe/movers_C3.tsv` is the citable consequences table (16 CI-separated moves) | — | — |
-| R3 | decide: E1/PPL-bands/genre-control re-derived on no-reuse vs bridged from with-reuse | Kengo + session | reframed §7 |
+| ~~R3~~ | DONE 2026-08-19 (Kengo: re-derive). PPL bands + E1 carry over; **genre control weakens the PPL claim** — see §6.4 box | — | one open call: §6.4 wording |
 | ~~R4~~ | RESOLVED 2026-08-19 (Kengo): borrowed mass drags toward the sources' position; Śivadharma-incorporators late-ward | — | — |
 | A6 | axis-3 = BhP dimension, instrument-grade | session | reframed 3-D section |
 | A5 | per-feature anatomy of featured texts | session | worked-example boxes |

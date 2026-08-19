@@ -205,23 +205,91 @@ cosmogony groups stay late (IIA 93.6, IIB 88.0), III 73.6, Ia 64.0
 chronology intact. (W1-noreuse values exist in `unit_ci_W1_noreuse.tsv`
 but are magnitude-gated — signs agree.)
 
-**Still to run (handoff-ready, any model/session):**
-- **E1 on C3-noreuse**: project the MBh critical-apparatus layer files
-  (see `figures/e1_apparatus/` scripts + note 2026-08-14ff) onto the
-  fixed C3-noreuse map with the `noreuse_reframe/unit_bootstrap_cis.py`
-  machinery (same base-stats/Gower/percentile code path; apparatus files
-  are extra profiles, like the `constituted` kind in
-  `complement_halves/bootstrap_cis.py`). Expectation to test: apparatus
-  (known-later) still measures later than the constituted text on the
-  composition chronology.
-- **Genre control on C3-noreuse**: re-derive per
-  `figures/genre_control/` + `notes/2026-08-14_vamsa_genre_control.md`
-  design, projecting the genre-half splits onto the C3-noreuse fixed
-  map. (Kengo chose re-derive over bridging for this too.)
-- Conventions that must not drift: C3 = no-space scriptio continua;
-  seed 20260814, B=500; percentiles on the map's own 126 units;
-  orientation from `mds3d/coords_C3-500ns_noreuse_n126.tsv`; sub-3k
-  residues stay flagged; W1-noreuse magnitudes not citable (§R1).
+**E1 apparatus on C3-noreuse — DONE 2026-08-19** (`e1_project.py c 500
+--noreuse`, B=500, seed 20260814; map check `r_x = 1.0000` against
+`mds3d/coords_C3-500ns_noreuse_n126.tsv`). TSV:
+`e1_apparatus/e1_apparatus_C3_noreuse_500.tsv`.
+
+| parvan | constituted (map) | apparatus | augmented |
+|---|---|---|---|
+| MBh 15 Āśramavāsika | 6 | 10 [2, 19] | 6 [3, 9] |
+| MBh 16 Mausala | 6 | 23 [18, 47] | 9 [6, 16] |
+| MBh 17 Mahāprasthānika | 0 | 10 [1, 49] | 1 [0, 4] |
+| MBh 18 Svargārohaṇa | 7 | 61 [39, 82] | 22 [19, 27] |
+| MBh 13 Anuśāsana (control) | 30 | 48 [43, 52] | 37 [37, 37] |
+
+**The validation carries over: known-later material measures later on the
+composition chronology in all five parvans**, CI-separated for MBh 13
+(48 [43, 52] vs constituted 30), MBh 18 (61 vs 7) and MBh 16 (23 [18, 47]
+vs 6); MBh 15/17 point the same way with apparatus CIs too wide to
+separate (small apparatus, 1–5k tokens). Direction and rough magnitudes
+match the with-reuse C3 run (`e1_apparatus_C3_500.tsv`: MBh 13 apparatus
+61.1 [57.1, 62.7] vs augmented 42.1).
+
+**Caveat to print with these numbers:** the map is reuse-stripped but the
+projected apparatus files are not — the strip was computed over the base
+corpus and the CE apparatus is external to it. The asymmetry works
+*against* the result (unstripped material carries shared skin that, per
+the movers table, reads later only if its sources are late), so the
+direction test is conservative, not inflated.
+
+**Genre control on C3-noreuse — DONE 2026-08-19**, and it is the one
+result that COSTS the reframe something. Both sides re-derived on the
+residue (`build_genre_split.py --noreuse` re-splits the stripped text by
+the same vaṃśa markers, then `genre_project.py c 500 --noreuse`; map
+check `r_x = 1.0000`). TSVs: `genre_control/genre_control_C3_noreuse_500.tsv`,
+corpus `corpus/genre_control_sandhied_noreuse/`.
+
+| unit | gen half | rest | Δ | CI-sep |
+|---|---|---|---|---|
+| Bhaviṣya | 33.6 [27.2, 37.6] | 64.0 [62.8, 67.2] | −30.4 | Y |
+| Agni | 67.2 [50.4, 80.0] | 91.2 [88.0, 92.0] | −24.0 | Y |
+| Matsya | 39.2 [36.0, 52.0] | 56.8 [53.6, 64.8] | −17.6 | Y |
+| Mārkaṇḍeya | 23.2 [19.2, 28.4] | 36.0 [33.6, 38.4] | −12.8 | Y |
+| Brahma | 36.0 [27.2, 38.4] | 48.8 [47.2, 56.0] | −12.8 | Y |
+| Padma | 36.0 [32.0, 37.6] | 47.2 [44.0, 48.8] | −11.2 | Y |
+| Kūrma 1 | 42.4 [34.4, 69.6] | 72.8 [68.8, 78.4] | −30.4 | . |
+| BhP 9 | 26.4 [21.6, 40.0] | 31.2 [28.0, 38.4] | −4.8 | . |
+| MBh 1 | 13.6 [11.6, 19.2] | 16.8 [15.6, 18.4] | −3.2 | . |
+| Garuḍa 1 | 80.0 [69.6, 85.6] | 80.0 [78.4, 80.0] | 0.0 | . |
+| Harivaṃśa | 23.2 [18.8, 32.0] | 18.4 [18.4, 19.2] | +4.8 | . |
+| Vāyu-08 * | 39.2 [23.6, 88.0] | 66.4 [36.0, 82.9] | −27.2 | . |
+| Vāyu-06 * | 96.8 [88.8, 98.4] | 87.2 [73.6, 99.2] | +9.6 | . |
+
+`*` = residue vaṃśa half of 178 / 241 words.
+
+**Good news:** the pull is real, one-directional and now CI-separated in
+six texts (with-reuse C3 gave the same signs and magnitudes), and it is
+an upper bound by construction — the marker split selects the most
+genealogy-saturated lines. **The cost:** the floor argument no longer
+clears the PPL cleanly. Against PPL-I [23.2, 29.6] / ungrouped
+[23.6, 27.2], the gen-half CI stays entirely later for only five panel
+texts (Padma 32.0 lo, Matsya 36.0, Kūrma 34.4, Agni 50.4, Garuḍa 69.6);
+Brahma and Bhaviṣya reach down to 27.2 and Mārkaṇḍeya's genealogical
+half sits *on* the band (23.2 [19.2, 28.4]).
+
+**And the genre-immune comparison is gone on this build.** The 2026-08-14
+argument (V8's PPL layer earlier than V8's own vaṃśa layer, same genre
+both sides) cannot be run on residues: after stripping, Vāyu-08 keeps 178
+words of vaṃśa material and Vāyu-06 keeps 241, with CIs 60+ points wide.
+That unavailability is itself a result worth one sentence in the article
+— **the genealogical material of the old-core carriers essentially IS the
+shared inheritance**, which is Kirfel's thesis restated as a measurement,
+not a defect of the instrument.
+
+**Consequence for the article (needs Kengo's call):** on the composition
+chronology the "PPL is the oldest purāṇic stratum" claim can no longer
+lean on the genre control alone. Its remaining supports are (a) the five
+texts whose genre-pulled floors stay clearly later, (b) the dated
+external witnesses (§6.7 of the claims map), (c) the layer-projection
+sequence. Recommended wording shift: from "genre is excluded" to "genre
+is bounded and cannot account for the full separation, though the most
+genealogy-saturated halves of middle texts do reach the PPL band."
+
+**Conventions used (do not drift):** C3 no-space scriptio continua; seed
+20260814, B=500; percentiles on the map's own 126 units; orientation from
+`mds3d/coords_C3-500ns_noreuse_n126.tsv`; sub-3k residues flagged;
+W1-noreuse magnitudes not citable (§R1).
 
 ## Remaining work queue
 

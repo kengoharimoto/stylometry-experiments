@@ -7,6 +7,12 @@ A line is genealogy-like if it or an adjacent line matches the marker stems
 manvantara, ...). The +-1 smoothing captures the contiguous list blocks that
 carry no marker on every line. Source-level lines are mapped through
 clean_line -> cstream as in the complements pipeline.
+
+--noreuse (2026-08-19, reframe R3): split the REUSE-STRIPPED residue
+instead, writing corpus/genre_control_sandhied_noreuse/. Both sides of the
+control are then residue, matching the no-reuse map they are projected
+into. Sandhied level only — the no-reuse chronology is C3-led (R1), and
+W1-noreuse magnitudes are not citable.
 """
 import re
 import sys
@@ -31,12 +37,16 @@ KEEP = set("abcdefghijklmnopqrstuvwxyzāīūṛṝḷḹṃḥśṣṇṭḍṅ�
 def cstream(s):
     return ''.join(c for c in s.lower() if c in KEEP).replace("'", '')
 
-SAN = ROOT / 'corpus/epic_puranas_sandhied'
+NOREUSE = '--noreuse' in sys.argv
+SAN = ROOT / ('corpus/epic_puranas_sandhied_noreuse' if NOREUSE
+              else 'corpus/epic_puranas_sandhied')
 SRC = ROOT / 'corpus/epic_puranas'
-OUT_SAN = ROOT / 'corpus/genre_control_sandhied'
+OUT_SAN = ROOT / ('corpus/genre_control_sandhied_noreuse' if NOREUSE
+                  else 'corpus/genre_control_sandhied')
 OUT_SRC = ROOT / 'corpus/genre_control_src'
 OUT_SAN.mkdir(exist_ok=True)
-OUT_SRC.mkdir(exist_ok=True)
+if not NOREUSE:
+    OUT_SRC.mkdir(exist_ok=True)
 
 print(f'{"unit":<48}{"gen words":>10}{"rest words":>11}')
 for u in PANEL:
@@ -52,6 +62,12 @@ for u in PANEL:
              'rest': [l for l, s in zip(lines, sm) if not s]}
     for k, ls in parts.items():
         (OUT_SAN / f'{u}_{k}.txt').write_text('\n'.join(ls) + '\n', encoding='utf-8')
+
+    if NOREUSE:                       # sandhied level only (C3-led lens)
+        print(f'{u:<48}'
+              f'{sum(len(l.split()) for l in parts["gen"]):>10}'
+              f'{sum(len(l.split()) for l in parts["rest"]):>11}')
+        continue
 
     skip = skip_test_for(f'{u}.txt')
     sparts = {'gen': [], 'rest': []}

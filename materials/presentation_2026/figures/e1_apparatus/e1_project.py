@@ -5,7 +5,16 @@ and remainder (rest) into the fixed sweet-spot map; line-bootstrap CIs.
 Delta = pct(gen) - pct(rest) estimates the genre pull for that text. Same
 projection/bootstrap machinery as complement_halves/bootstrap_cis.py.
 
-Usage: genre_project.py w|c [B]
+Usage: e1_project.py w|c [B] [--noreuse]
+
+--noreuse (2026-08-19, reframe R3): project the apparatus/augmented units
+into the fixed no-reuse map (manifest noreuse2026_n126, orientation
+mds3d/coords_C3-500ns_noreuse_n126.tsv). C3 only — see R1. NOTE the
+asymmetry: the map is reuse-stripped, the projected apparatus files are
+not (the strip was computed over the base corpus, and the CE apparatus is
+external to it). The test is directional — does known-later material still
+measure later — so the asymmetry weakens rather than manufactures the
+result; state it wherever these numbers are printed.
 """
 import csv
 import re
@@ -17,17 +26,29 @@ import numpy as np
 
 ROOT = Path('/mnt/kengo/stylometry-experiments')
 HERE = Path(__file__).parent
-FEAT = sys.argv[1] if len(sys.argv) > 1 else 'c'
-B = int(sys.argv[2]) if len(sys.argv) > 2 else 200
+NOREUSE = '--noreuse' in sys.argv
+argv = [a for a in sys.argv if a != '--noreuse']
+FEAT = argv[1] if len(argv) > 1 else 'c'
+B = int(argv[2]) if len(argv) > 2 else 200
 W1 = FEAT == 'w'
 MFW = 500
 RNG = np.random.default_rng(20260814)
 
-BASE_CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
-GEN_CORPUS = ROOT / ('corpus/e1_apparatus_unsandhied' if W1 else 'corpus/e1_apparatus_sandhied')
-MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
-REF_COORDS = ROOT / ('materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
-                     if W1 else 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv')
+if NOREUSE and W1:
+    sys.exit('--noreuse is C3-only: the no-reuse W1 axis is partly a length '
+             'artifact (see R1 in notes/2026-08-19_noreuse_precedence_reframe.md)')
+
+if NOREUSE:
+    BASE_CORPUS = ROOT / 'corpus/epic_puranas_sandhied_noreuse'
+    GEN_CORPUS = ROOT / 'corpus/e1_apparatus_sandhied'
+    MANIFEST = ROOT / 'manifests/noreuse2026_n126.txt'
+    REF_COORDS = ROOT / 'materials/presentation_2026/figures/mds3d/coords_C3-500ns_noreuse_n126.tsv'
+else:
+    BASE_CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
+    GEN_CORPUS = ROOT / ('corpus/e1_apparatus_unsandhied' if W1 else 'corpus/e1_apparatus_sandhied')
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+    REF_COORDS = ROOT / ('materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
+                         if W1 else 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv')
 
 PANEL = ['mahabharata_15-asramavasikaparvan', 'mahabharata_16-mausalaparvan',
          'mahabharata_17-mahaprasthanikaparvan',
@@ -141,7 +162,7 @@ def boot(path):
     lo, hi = np.clip(np.percentile(ps, [2.5, 97.5]) + shift, 0, 100)
     return est, lo, hi, int(T.sum())
 
-tag = 'W1' if W1 else 'C3'
+tag = ('W1' if W1 else 'C3') + ('_noreuse' if NOREUSE else '')
 out = open(HERE / f'e1_apparatus_{tag}_500.tsv', 'w', encoding='utf-8')
 out.write('unit\tkind\test\tlo\thi\ttokens\n')
 print(f'{"unit":<40}{"const":>6}{"apparatus":>18}{"augmented":>18}{"aug-const":>10}')
