@@ -22,10 +22,10 @@ of result on a harder kind of corpus. The Sanskrit epics and purāṇas —
 here 127 textual units totalling 4.5 million words — have no authors to
 attribute, grew by accretion over roughly a millennium, share large
 amounts of text verbatim, and reach us through editions whose
-orthography, word division, and paratexts are editorial. We show that two
+orthography, word division, and paratexts are editorial, often with minimal philological care. We show that two
 feature systems with almost no linguistic material in common — word
 frequencies computed on algorithmically de-sandhied text, and character
-trigrams computed on the undivided sandhied stream — independently
+trigrams computed on the undivided (not even spaces) sandhied stream — independently
 recover the same one-dimensional ordering of these texts (Spearman ρ =
 0.953), and that this ordering survives removal of shared text, proper
 names, and sectarian vocabulary, is invariant across feature-set sizes
@@ -36,7 +36,7 @@ autocorrelated change — many small habits shifting together — and not of
 mere heterogeneity. A split-half decomposition explains the mechanism:
 depletion of an early-characteristic feature inventory alone reproduces
 the ordering (ρ = 0.939), while feature gains order the late texts only
-loosely. Losses are the clock; gains are the community structure. The
+loosely. Losses are the clock; gains have no systems. The
 instrument validates on layers of independently known relative order and
 yields philologically consequential results, including a resolution of
 the axis into register and chronology components. We state throughout
