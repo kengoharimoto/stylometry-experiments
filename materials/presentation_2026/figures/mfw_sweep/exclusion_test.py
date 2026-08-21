@@ -125,6 +125,10 @@ def is_struck(feat, excl):
     return feat in excl
 
 
+tsv = open(Path(__file__).parent / f'exclusion_results_{TAG}.tsv', 'w',
+           encoding='utf-8')
+tsv.write('variant\tstruck_of_500\trho_axis1\trho_axis2\tmax_mover_pct\n')
+
 for label, excl in (('names-only', NAMES), ('names+ritual', RITUAL)):
     feats = [w for w in ranked if not is_struck(w, excl)][:MFW]
     struck = [w for w in base_feats if is_struck(w, excl)]
@@ -144,3 +148,8 @@ for label, excl in (('names-only', NAMES), ('names+ritual', RITUAL)):
         print(f'  {names[i]}: {pb[i]:.0f} -> {pv[i]:.0f}  ({dd[i]:+.0f})')
     bhp = [i for i, n in enumerate(names) if n.startswith('bhagavatapurana')]
     print(f'BhP skandhas mean pct: {pb[bhp].mean():.1f} -> {pv[bhp].mean():.1f}')
+    tsv.write(f'{label}\t{len(struck)}\t{rho1:.4f}\t{rho2:.4f}\t'
+              f'{np.abs(dd).max():.1f}\n')
+
+tsv.close()
+print(f'wrote exclusion_results_{TAG}.tsv')

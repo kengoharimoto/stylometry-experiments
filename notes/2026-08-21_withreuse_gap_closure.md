@@ -33,7 +33,10 @@ Numbers provenance: the committed script's W1 with-reuse run gives
 38/70 struck and 0.9976/0.9910 — this supersedes the draft's earlier
 36/67/0.9898 (an earlier exclusion-list version; commit cfed7cf's
 0.998/0.990 matches today's run). Draft §3.2 updated to the
-reproducible numbers.
+reproducible numbers. **Machine-readable source (added after the Mac
+review):** each run now writes
+`mfw_sweep/exclusion_results_{W1,C3,W1_noreuse,C3_noreuse}.tsv`
+(variant, struck count, ρ axis-1/axis-2, max mover) — committed.
 
 ## 2. BhP scale-dependence — retired
 

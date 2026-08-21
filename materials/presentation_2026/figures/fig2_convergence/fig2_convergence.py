@@ -76,6 +76,25 @@ with open(HERE / 'fig2_within_lens.tsv', 'w', encoding='utf-8') as f:
         r = spearmanr(np.array([c3[m][n] for n in names]), ref).statistic
         f.write(f'C3\t{m}\t{r:.4f}\n')
 
+# full C3-nospace pairwise matrix: the committed source for the draft's
+# "rho >= 0.95 between any two settings (250-8,000)" quantifier — the
+# within-lens vs-500 column alone cannot support "any two" (Mac review
+# 2026-08-21; NB the older mfw_sweep/coords_mfw*.tsv are SPACED C3 and
+# must not be used to audit this no-space claim)
+with open(HERE / 'fig2_c3_pairwise.tsv', 'w', encoding='utf-8') as f:
+    f.write('c3_feats\t' + '\t'.join(map(str, C3_MFWS)) + '\n')
+    sub_min, sub_arg = 1.0, None
+    for a in C3_MFWS:
+        va = np.array([c3[a][n] for n in names])
+        row = []
+        for b in C3_MFWS:
+            r = spearmanr(va, np.array([c3[b][n] for n in names])).statistic
+            row.append(r)
+            if a < b and a <= 8000 and b <= 8000 and r < sub_min:
+                sub_min, sub_arg = r, (a, b)
+        f.write(str(a) + '\t' + '\t'.join(f'{v:.4f}' for v in row) + '\n')
+print(f'C3-nospace pairwise min over 250-8000: {sub_min:.4f} at {sub_arg}')
+
 i0, j0 = W1_MFWS.index(ADOPTED[0]), C3_MFWS.index(ADOPTED[1])
 print(f'adopted {ADOPTED}: rho = {G[i0, j0]:.4f}; grid max = {G.max():.4f} '
       f'at W1 {W1_MFWS[int(np.argmax(G) // len(C3_MFWS))]} x '

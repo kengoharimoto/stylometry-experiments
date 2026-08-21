@@ -289,13 +289,14 @@ at moderate feature counts on both sides, peaking at 500×500; the
 adopted setting is the peak of measured cross-lens agreement, not a
 tuned free parameter.
 
-The sweep's two failure regimes are as informative as its plateau. W1 is
-stable from 80 to ~800 MFW (ρ ≥ 0.94 against the adopted ordering,
-easing to 0.93 at 1500) and then collapses — 0.51 at 3000, 0.14 at
+The sweep's two failure regimes are as informative as its plateau. W1
+holds from 80 to 1500 MFW (ρ ≥ 0.93 against the adopted ordering) and
+then collapses — 0.51 at 3000, 0.14 at
 5000 — as the feature list leaves the shared vocabulary and fills with
 text-specific content words: the axis becomes a topic model and stops
 ordering. C3, by contrast, is nearly invariant from 250 to 8,000
-features (ρ ≥ 0.95 between any two settings), easing to 0.83 at
+features (ρ ≥ 0.95 between any two settings; the weakest pair,
+500↔8,000, is 0.953), easing to 0.83 at
 12,000: sub-lexical features saturate the shared inventory early, and
 added features long add resolution, not topics — even C3's eventual
 degradation is a gentle slope where W1's is a cliff. The asymmetry
