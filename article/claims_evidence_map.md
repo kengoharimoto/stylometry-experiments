@@ -277,6 +277,23 @@ kinship, not date. BhP anchors the devotional pole as a *register* fact,
 no date directional. → `2026-08-16_q3_y_axis_covariates.md`. Fig: covariate ×
 lens table with "vs x" contrast column.
 
+**5.3 The third axis (draft §9.2) — no-reuse-only reading (Kengo,
+2026-08-21).** All §9.2 statistics come from the no-reuse build:
+variance shares 5.6/9.7% (W1 ax3/ax2) and 5.7/7.2% (C3), cross-lens
+per-axis 0.95/0.74/0.74, BhP offset +3.8/+4.9 SD, point-biserial
+0.76/0.84, BhP-excluded ax3 0.65 / ax1 0.95, length ρ ≤ 0.06 — source
+`figures/mds3d/axis3_stats.tsv` (A6). The ONE permitted with-reuse
+number is the foil 0.46 (ax3 cross-lens before the strip) — precedence
+evidence, keep it. Flattening exhibit = **Bh2~Vi3 on C3 no-reuse**
+(Delta 1.183, ranks 78/99, 2-D 0.042, 3-D 0.64; residues 3.9k/4.8k) +
+non-BhP ŚDh~V10 (Delta 1.346, ranks 105/83, 2-D 0.038); census 86
+pairs C3-no / 79 W1-no, ~1/3 BhP — source
+`figures/mds3d/flattened_pairs.tsv` (filter `sub3k`=0 before citing a
+pair). The old Sn–Vi3 exhibit was with-reuse-W1 and does NOT replicate
+on no-reuse maps — do not reintroduce it in the draft (it survives in
+`notes/2026-08-21_3d_projection.md` as the origin story). Wording:
+BhP symmetric, never archaizer/anchor.
+
 ---
 
 ## 6. Text-historical findings (the payoffs)

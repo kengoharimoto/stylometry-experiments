@@ -211,9 +211,15 @@ tether readout) is the only check of record.
 
 ## Where this feeds the article
 
-- Draft §9.2 "A third dimension: the Bhāgavata direction" — the
-  finding, the Sn–Vi3 flattening, pointer to the 3-D supplementary
-  maps.
+- Draft §9.2 — the finding, the flattening exhibit, pointer to the 3-D
+  supplementary maps. (Rewritten no-reuse-only later on 2026-08-21,
+  Kengo's call: §9.2 now quotes only no-reuse-build statistics, keeps
+  the with-reuse 0.46 cross-lens figure solely as the foil, and the
+  exhibit is **Bh2~Vi3 on C3 no-reuse** + ŚDh~V10 + the census —
+  Sn–Vi3 does not replicate as a flattening case on the no-reuse maps
+  (2-D 0.096/0.183) and survives only here, as the origin story.
+  Citable sources: `axis3_stats.tsv`, `flattened_pairs.tsv`; claims
+  map §5.3.)
 - The 3-D viewers are supplementary material (interactive HTML);
   static 2-D projections of the extra planes can be cut from the
   committed coords if the venue needs them.

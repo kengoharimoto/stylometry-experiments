@@ -10,7 +10,8 @@ updated). Reframe numbers verified against
 `figures/noreuse_reframe/unit_ci_*` + `movers_C3.tsv`,
 `axis_anatomy/b2_models_*_noreuse_500.tsv`,
 `e1_apparatus/e1_apparatus_C3_noreuse_500.tsv`, and
-`mds3d/axis3_stats.tsv`. Earlier verification (2026-08-17): §4
+`mds3d/axis3_stats.tsv` + `mds3d/flattened_pairs.tsv` (§9.2 rewritten
+no-reuse-only 2026-08-21; exhibit now Bh2~Vi3 on C3 no-reuse). Earlier verification (2026-08-17): §4
 null-model shares, §6 retention correlations, §8 E1/stratigraphy values
 against the post-colophon-clean TSVs. Citations are author-year
 placeholders; bibliography to be assembled and verified.**
@@ -813,22 +814,23 @@ exists to prevent.
 ### 9.2 The third dimension is one text, and flat maps hide it
 
 Two-dimensional maps stop where the eigenvalues tell them to; ours do
-not stop cleanly. The third MDS axis carries almost as much variance as
-the second (7.3% versus 8.0% on W1; 6.7% versus 9.5% on C3, with-reuse
-build), so we examined it rather than discarding it, aligning the two
-lenses' three-dimensional configurations by Procrustes rotation. The
-per-axis cross-lens agreements are 0.97 / 0.86 / 0.46 on the
-with-reuse build and 0.95 / 0.74 / 0.74 on the no-reuse one: on the
-no-reuse build, the third dimension is as much a shared
-property of the texts as the second.
+not stop cleanly. On the no-reuse build the third MDS axis still
+carries 5.7% of the variance against the second axis's 7.2% on the
+trigram lens (5.6% against 9.7% on W1), so we examined it rather than
+discarding it, aligning the two lenses' three-dimensional
+configurations by Procrustes rotation. The per-axis cross-lens
+agreements are 0.95 / 0.74 / 0.74 — and the third figure is itself an
+argument for the strip: with reuse left in, the two lenses agree about
+axis 3 at only 0.46. Only after shared text is removed does the third
+dimension become as much a shared property of the texts as the second.
 
 And it is, to a first approximation, *one text's own dimension*. The
 thirteen Bhāgavata units monopolize one pole: on the no-reuse build
 their mean position sits 3.8 (W1) and 4.9 (C3) standard deviations of
 the remaining corpus away from it, and axis-3 position correlates with
 Bhāgavata membership at r = 0.76/0.84. Remove the Bhāgavata and the
-third axis's cross-lens agreement drops (to 0.65 no-reuse, 0.27
-with-reuse) while the first axis's is untouched (0.97/0.95). Two
+third axis's cross-lens agreement drops to 0.65 while the first
+axis's is untouched (0.95). Two
 consequences follow. First, §8's "most isolated register" claim gains a
 geometric form: the Bhāgavata's idiosyncrasy is not an extreme position
 on either shared dimension but a *direction of its own*, recovered
@@ -837,20 +839,26 @@ material. Second — and this is the referee-proofing — the chronology is
 orthogonal to the corpus's most idiosyncratic member: classical MDS
 banks the Bhāgavata's peculiarity on its own axis, and the ordering is
 unchanged by the text's removal. (The length diagnostic again: on the
-with-reuse build W1's third axis is length-tinged, ρ = 0.54, so the
-clean form of this result rests on C3 and the no-reuse build, where
-axis 3 is length-clean at ρ ≤ 0.06.)
+no-reuse build axis 3 is length-clean on both lenses, ρ ≤ 0.06.)
 
-The flattening cost of 2-D also deserves one number, because readers
-*will* measure distances on the printed maps with their eyes. The
-Śivapurāṇa's Sanatkumārasaṃhitā and Viṣṇupurāṇa book 3 — Delta 0.92,
-each roughly the fiftieth-nearest neighbor of the other — render 0.043
-apart in the with-reuse W1 plane, indistinguishable from genuine
-neighbors; the third axis recovers them to 0.190. The rule we draw:
-on a crowded 2-D map, only axis-1 position is load-bearing; pairwise
-proximity in the middle is not evidence of affinity. We publish
-rotatable three-dimensional versions of all four maps as supplementary
-material so that no reader is limited to the flattening we chose.
+The flattening cost of 2-D also deserves numbers, because readers
+*will* measure distances on the printed maps with their eyes. On the
+no-reuse trigram map, the Bhāgavata's second book and the
+Viṣṇupurāṇa's third aṃśa — Delta 1.18, the 78th- and 99th-nearest
+neighbors of one another — render 0.042 apart in the plane, inside the
+closest two percent of all pairwise renderings; the third axis, which
+is to say the Bhāgavata dimension, recovers them to 0.64. Nor is the
+effect the Bhāgavata's alone: the Śivadharmaśāstra and the Vāyu's
+Gayāmāhātmya (Delta 1.35, mutual neighbor ranks 105 and 83) render
+0.038 apart. A census makes it systematic: 86 pairs on the trigram map
+(79 on the word map) sit in the closest two percent of in-plane
+distances while their three-dimensional separation is at least three
+times larger — and roughly a third of them involve a Bhāgavata unit,
+the skew axis 3 predicts. The rule we draw: on a crowded 2-D map, only
+axis-1 position is load-bearing; pairwise proximity in the middle is
+not evidence of affinity. We publish rotatable three-dimensional
+versions of the maps as supplementary material so that no reader is
+limited to the flattening we chose.
 
 ## 10. Conclusion
 
