@@ -28,7 +28,10 @@ axis *means*.
   distances and the tether readout are unaffected; left–right position
   within the viewer is NOT the article axis-1 — read positions from
   `coords_*.tsv` only. See `2026-08-21_withreuse_gap_closure.md`
-  addendum.
+  addendum. **RESOLVED later 2026-08-21:** `mds3d_viewer.py --ref` now
+  does a full in-plane Procrustes (not sign flips), and all four
+  article viewers were regenerated — PTS x,y now match the coords TSVs
+  to 0.0001, all distances verified unchanged.
 - Bundle: `materials/presentation_2026/figures/mds3d/` — viewers
   `article_{W1-500,C3-500ns}_{n127,noreuse_n126}.html` (plus the first
   exploratory `noreuse_W1_n119.html`), committed 3-axis coordinates

@@ -95,9 +95,11 @@ pts); `exclusion_test.py` now Procrustes-rotates its C3 baselines into
 the article frame before comparing (corrected strike numbers: C3
 with-reuse 0.9892/0.9853, C3 no-reuse 0.9836/0.9798 — the §1 table
 above is superseded by these for C3); viewer caveat recorded in
-`2026-08-21_3d_projection.md`. The viewers themselves are left as
-they are (distances and tether readouts correct); regenerating them
-with in-plane article orientation is optional polish.
+`2026-08-21_3d_projection.md`. The viewers themselves were then also
+fixed: `mds3d_viewer.py --ref` now does a full in-plane Procrustes,
+and all four article viewers were regenerated from the documented
+Delta tables — PTS x,y match the coords TSVs to 0.0001, and the
+census/exhibit distances (Bh2~Vi3, Sn~Vi3) reproduce to rounding.
 
 ## Standing consequence for practice
 

@@ -17,9 +17,11 @@ Usage:
       [--highlight TEXTNAME ...] [--note TEXT]
 
 DIST_TABLE is a stylo distance table (quoted names header + rows).
---ref: published 2-D coords TSV (text/x/y) used only to orient axes 1-2
-signs to match the printed figure; without it, axis 1 is oriented
-MBh-left and axis 2 is left as computed. --highlight (repeatable) rings
+--ref: published 2-D coords TSV (text/x/y); the Front plane is
+Procrustes-rotated in-plane onto it (2026-08-21 fix — sign flips alone
+left the C3 Front planes 22-28 deg off the article frame; z is
+untouched). Without it, axis 1 is oriented MBh-left and axis 2 is left
+as computed. --highlight (repeatable) rings
 those units; if exactly two are given, a dashed tether with a live
 distance readout connects them.
 """
@@ -70,13 +72,23 @@ def mds3(D):
 
 def orient(X, names, ref_path):
     if ref_path:
+        # full in-plane 2-D Procrustes onto the published coords, not
+        # just sign flips: on C3 the raw eigen axes sit 22-28 deg from
+        # the article frame (near-degenerate top eigenpair), so sign
+        # flipping alone left the Front plane tilted (fixed 2026-08-21;
+        # z is untouched — an in-plane rotation)
         ref = {r['text']: (float(r['x']), float(r['y']))
                for r in csv.DictReader(open(ref_path), delimiter='\t')}
         shared = [i for i, n in enumerate(names) if n in ref]
-        for ax in (0, 1):
-            r = np.corrcoef(X[shared, ax], [ref[names[i]][ax] for i in shared])[0, 1]
-            if r < 0:
-                X[:, ax] *= -1
+        R = np.array([ref[names[i]] for i in shared])
+        P = X[shared][:, :2]
+        Rm, Pm = R.mean(0), P.mean(0)
+        U, _, Vt = np.linalg.svd((P - Pm).T @ (R - Rm))
+        rot = U @ Vt
+        X[:, :2] = (X[:, :2] - Pm) @ rot + Rm
+        r = np.corrcoef(X[shared, 0], R[:, 0])[0, 1]
+        print(f'orient: Front plane Procrustes-aligned to {ref_path} '
+              f'(axis-1 corr after rotation: {r:.4f})')
     else:
         mbh = [i for i, n in enumerate(names)
                if n.startswith('mahabharata_') and 'appendix' not in n]

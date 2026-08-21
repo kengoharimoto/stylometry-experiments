@@ -10,13 +10,14 @@ Delta, the mutual neighbour ranks (rank of b among a's Delta
 neighbours and vice versa; 1 = nearest), and unit word counts from the
 build's unsandhied corpus (for the sub-3k flag).
 
-3-axis coordinates are read from the committed viewer HTMLs. CAVEAT
-(2026-08-21): on the C3 maps the viewers' in-plane frame is rotated
-~22-28 deg from the article frame of the coords_*.tsv (near-degenerate
-top eigenpair) — everything THIS script outputs is rotation-invariant
-(pairwise 2-D/3-D distances, Delta, ranks), so its results stand, but
-never read axis-1 positions from viewer PTS x; the coords TSVs are the
-frame of record.
+3-axis coordinates are read from the committed viewer HTMLs. Frame
+history (2026-08-21): the C3 viewers' in-plane frame was originally
+rotated ~22-28 deg from the article frame of the coords_*.tsv
+(near-degenerate top eigenpair); everything THIS script outputs is
+rotation-invariant (pairwise 2-D/3-D distances, Delta, ranks), so the
+committed census predates the fix and stands unchanged. The viewers
+have since been regenerated with full in-plane Procrustes and now
+match the coords TSVs (the frame of record for axis-1 positions).
 Distance tables are the same four inputs as axis3_analysis.py,
 regenerable via:
   python3 scripts/presentation/hero_mds.py --mfw 500
