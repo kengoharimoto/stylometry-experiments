@@ -89,7 +89,8 @@ article.
 > Addendum (later same day): the citable, instrument-grade version of
 > every number below is `figures/mds3d/axis3_stats.tsv`
 > (`axis3_analysis.py`, A6 in the claims map §8). Cite the TSV, not
-> this section's rounded exploratory values.
+> this section's rounded exploratory values. Standalone record of the
+> whole 3-D experiment: `2026-08-21_3d_projection.md`.
 
 Axis shares (W1 with-reuse): 13.4/8.0/7.3%; (W1 no-reuse):
 12.8/9.7/5.6%; (C3 with-reuse): 10.2/9.5/6.7%; (C3 no-reuse):
