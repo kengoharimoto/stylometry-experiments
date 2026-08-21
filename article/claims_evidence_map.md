@@ -121,7 +121,8 @@ measures. → `2026-08-14_mfw_robustness_noreuse.md`. Fig: cross-build table.
 
 **1.5 Names/sectarian vocabulary struck (all four variants
 2026-08-21).** W1 with-reuse: 38 theonyms → ρ 0.9976; 70 names+ritual
-→ 0.9910 (max mover 13 pts; these committed-script numbers supersede
+→ 0.9910 (max mover 13.5 pts, draft says 14; these committed-script
+numbers supersede
 the note addendum's 36/67/0.9898 — an earlier list version). C3
 trigram analogue (strike any trigram occurring inside a listed lexeme;
 over-broad by design, 105–160 of 500 struck): with-reuse
