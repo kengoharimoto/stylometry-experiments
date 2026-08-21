@@ -338,8 +338,8 @@ a maximum single-text movement of 13 percentiles. A trigram-level
 analogue strikes every trigram that occurs inside any listed lexeme —
 deliberately over-broad, removing 105–160 of C3's 500 features
 including generic strings that merely occur inside a name — and leaves
-0.9890 and 0.9796. On the no-reuse build the same strikes leave
-0.9778/0.9678 (trigrams) and 0.9984/0.9952 (words, as an
+0.9892 and 0.9853. On the no-reuse build the same strikes leave
+0.9836/0.9798 (trigrams) and 0.9984/0.9952 (words, as an
 ordering-level check). The ordering is not a disguised sectarian
 sorting, on either build.
 

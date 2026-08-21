@@ -99,16 +99,21 @@ def procrustes(Y, ref):
 base_feats = ranked[:MFW]
 base = build_axis(base_feats)
 
-# validate against the saved reference coordinates
+# orient the baseline into the article frame: on C3 the raw MDS axis 1
+# sits ~22-28 deg from the published drift axis (near-degenerate top
+# eigenpair), so Procrustes-rotate the base plane onto the saved
+# reference coords before any axis-1 comparison (2026-08-21 fix; the
+# W1 frames are identical, rho 1.0, so W1 results are unchanged)
 saved = {}
 for l in REFC.read_text().splitlines()[1:]:
     f = l.split('\t')
-    saved[f[0]] = float(f[1])
-sx = np.array([saved[n] for n in names])
-r0 = abs(spearmanr(base[:, 0], sx).statistic)
-if spearmanr(base[:, 0], sx).statistic < 0:      # fix sign to match saved convention
-    base = -base
-print(f'[{TAG}] baseline vs saved reference coords: |rho| = {r0:.4f}')
+    saved[f[0]] = (float(f[1]), float(f[2]))
+SX = np.array([saved[n] for n in names])
+base = procrustes(base, SX - SX.mean(0))
+r0 = spearmanr(base[:, 0], SX[:, 0]).statistic
+assert r0 > 0.9, f'baseline does not reproduce the article frame: {r0}'
+print(f'[{TAG}] baseline (article-frame) vs saved reference coords: '
+      f'rho = {r0:.4f}')
 if NOREUSE and not C3:
     print('NOTE (R1 gate): W1-noreuse — only the ordering-level rho vs '
           'baseline below is citable; per-unit percentiles are not.')

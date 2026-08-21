@@ -78,6 +78,27 @@ article's C3 coords are hero-oriented, |ρ| vs raw axis 1 = 0.86) and
 disappears on the no-reuse build. Not draft material; revisit only if
 the BhP question gets its own study.
 
+## Addendum (later 2026-08-21): the C3 viewer-frame discovery
+
+Productionizing the one-line figure exposed a frame mismatch: the
+mds3d **viewer PTS coordinates on the C3 maps are rotated ~22–28°
+in-plane from the article frame** of the coords TSVs (same plane,
+Procrustes residual 0.0001; W1 exact; cause: the near-degenerate top
+eigenpair). ρ(viewer x, TSV x) = 0.913 no-reuse / 0.862 with-reuse.
+Audit of everything built on viewer PTS: `flattened_pairs.tsv` and all
+§9.2 exhibit/census numbers are pairwise **distances — rotation
+invariant, unaffected**; `axis3_stats.tsv` computes its own MDS —
+unaffected; only axis-1 *positions* read from viewer x were wrong.
+Fixes applied: `one_line/one_line.py` reads x from the coords TSVs
+(and asserts the R2 CI percentiles match the map ranks — now max 0.8
+pts); `exclusion_test.py` now Procrustes-rotates its C3 baselines into
+the article frame before comparing (corrected strike numbers: C3
+with-reuse 0.9892/0.9853, C3 no-reuse 0.9836/0.9798 — the §1 table
+above is superseded by these for C3); viewer caveat recorded in
+`2026-08-21_3d_projection.md`. The viewers themselves are left as
+they are (distances and tether readouts correct); regenerating them
+with in-plane article orientation is optional polish.
+
 ## Standing consequence for practice
 
 The scale-check's method note generalizes: **any per-text claim read

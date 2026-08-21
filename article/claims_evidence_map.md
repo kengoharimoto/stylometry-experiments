@@ -116,8 +116,11 @@ measures. → `2026-08-14_mfw_robustness_noreuse.md`. Fig: cross-build table.
 the note addendum's 36/67/0.9898 — an earlier list version). C3
 trigram analogue (strike any trigram occurring inside a listed lexeme;
 over-broad by design, 105–160 of 500 struck): with-reuse
-0.9890/0.9796; **no-reuse 0.9778/0.9678** (citation grade). W1
-no-reuse 0.9984/0.9952 — ordering-level only (R1 gate). BhP moves
+0.9892/0.9853; **no-reuse 0.9836/0.9798** (citation grade; C3
+baselines Procrustes-rotated into the article frame per the
+2026-08-21 frame fix — raw C3 axis 1 sits 22–28° off the published
+drift axis). W1 no-reuse 0.9984/0.9952 — ordering-level only (R1
+gate). BhP moves
 slightly *later* under the strike on every variant.
 → `mfw_sweep/exclusion_test.py` (`--c3`, `--noreuse`);
 `2026-08-21_withreuse_gap_closure.md`.
@@ -480,3 +483,8 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 11. External-witness tables: purāṇa usage; Rām attestation; BhP oldest
     quotes (6.5–6.7). — Indological; SI elsewhere
 12. Closing-parvans length-control panel (1.8). — all (the honesty figure)
+13. One-line chronology strip with CI whiskers, both C3 builds
+    (`figures/one_line/one_line_C3.pdf`; true axis-1 coordinates from
+    the coords TSVs, R2 CIs mapped rank→coordinate). Candidate
+    alternative/supplement to fig 1; shows the epic shelf, crowded
+    middle, sparse late tail at true distances. — DH/wide

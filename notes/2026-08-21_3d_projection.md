@@ -21,6 +21,14 @@ axis *means*.
   palette, `--ref` Procrustes orientation so "Front" = the published
   2-D plane, `--highlight` rings, two-highlight tether with live
   distance readout, Front/Side/Top buttons).
+  **Frame caveat (found 2026-08-21):** on the C3 maps the viewers'
+  Front-plane frame is the right plane (Procrustes residual 0.0001 vs
+  the coords TSVs) but rotated in-plane ~22–28° from the article's
+  drift axis (the near-degenerate top eigenpair; W1 is exact). All
+  distances and the tether readout are unaffected; left–right position
+  within the viewer is NOT the article axis-1 — read positions from
+  `coords_*.tsv` only. See `2026-08-21_withreuse_gap_closure.md`
+  addendum.
 - Bundle: `materials/presentation_2026/figures/mds3d/` — viewers
   `article_{W1-500,C3-500ns}_{n127,noreuse_n126}.html` (plus the first
   exploratory `noreuse_W1_n119.html`), committed 3-axis coordinates
