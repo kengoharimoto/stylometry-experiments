@@ -63,7 +63,7 @@ Cross-lens Spearman ρ per axis (joint 3-axis Procrustes of C3 onto W1):
 | no-reuse | 0.952 | 0.744 | **0.743** |
 
 With reuse in, the two lenses disagree about axis 3 (0.46 — could be
-lens-specific noise). Stripped, they agree (0.74): the composed corpus
+lens-specific noise). Stripped, they agree (0.74): the stripped corpus
 has a genuine third stylistic dimension that both word- and
 character-level features see.
 

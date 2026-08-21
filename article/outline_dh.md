@@ -35,6 +35,10 @@ chronology from stylometric drift in the Sanskrit epics and purāṇas."
 > components. All new numbers audited against the committed TSVs.
 > Section budget: the draft grew by ~1,300 words — trim candidates on
 > the next pass: §3.2 metric cautions, §2.4 episode 2.
+> **Terminology 2026-08-21 (Kengo): the "transmitted/composed" pair
+> above is dropped in the draft — plain "with-reuse / no-reuse"
+> throughout** (both corpora are transmitted; "composed" overclaims).
+> §7 is now "Two chronologies: with the shared text and without".
 
 ---
 

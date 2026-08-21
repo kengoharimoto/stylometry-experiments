@@ -27,9 +27,14 @@ and **no-space C3**; the provenance gates in §0 list the traps.
 - **REFRAME 2026-08-19 (Kengo): no-reuse precedence.** The article's
   chronology-of-composition claims lead with the **no-reuse** maps
   (corpus RATIO-70 strip, kirfel one-directional, manifest
-  `noreuse2026_n126`); the with-reuse maps open the argument as "the
-  tradition as transmitted" and the difference between the two becomes a
-  findings section. Evidence, movers tables, caveats, and the work queue
+  `noreuse2026_n126`); the with-reuse maps open the argument and the
+  difference between the two becomes a findings section.
+  **Terminology (Kengo, 2026-08-21): the draft says plain
+  "with-reuse / no-reuse" — the earlier "transmitted / composed"
+  pair is dropped** (both corpora are transmitted; "composed"
+  overclaims; "transmitted" collides with text-critical transmission).
+  Notes written before 2026-08-21 keep the old wording as dated
+  records. Evidence, movers tables, caveats, and the work queue
   are in `2026-08-19_noreuse_precedence_reframe.md`. **Gates (R1/R2 ran
   2026-08-19, same note):** (a) the no-reuse chronology is **C3-led** —
   the no-reuse W1 axis is partly a length artifact (exchangeable null:
@@ -202,7 +207,7 @@ are the clock; gains are the community structure." Frame via Swadesh-style
 retention-rate glottochronology on style-feature *frequencies*, with
 stochastic Dollo (Nicholls & Gray 2008) as the character-loss relative;
 do not overclaim the strict Dollo form. → `2026-08-16_b2_models_loss_gain.md`.
-**2026-08-19: replicated on C3 and on the composed chronology** — loss
+**2026-08-19: replicated on C3 and on the no-reuse chronology** — loss
 alone 0.856–0.868 invariant across thresholds 1.15–1.5 and both builds,
 gains 0.60–0.69 (the W1 threshold 1.5 is degenerate on C3: late set = 1
 trigram — always cite the sweep, not one setting). Committed TSVs at

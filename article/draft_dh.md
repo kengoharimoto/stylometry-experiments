@@ -1,8 +1,10 @@
 # Losses are the clock: recovering relative chronology from stylometric drift in the Sanskrit epics and purāṇas
 
-**Status: DRAFT 2026-08-19 — restructured for the no-reuse precedence
+**Status: DRAFT 2026-08-19 (terminology 2026-08-21: the
+"transmitted/composed" pair is dropped for plain "with-reuse/no-reuse"
+throughout, Kengo's call) — restructured for the no-reuse precedence
 reframe (new §7 "Two chronologies"; §8 validation updated with
-composed-chronology values; genre control replaced by the strip-first
+no-reuse-chronology values; genre control replaced by the strip-first
 defense per claims map §6.4; new §9.2 third dimension; conclusion
 updated). Reframe numbers verified against
 `figures/noreuse_reframe/unit_ci_*` + `movers_C3.tsv`,
@@ -40,9 +42,9 @@ mere heterogeneity. A split-half decomposition explains the mechanism:
 depletion of an early-characteristic feature inventory alone reproduces
 the ordering (ρ = 0.939), while feature gains order the late texts only
 loosely. Losses are the clock; gains have no systems. Because these
-texts absorb one another on a large scale, we further separate the
-chronology of the *transmitted* text from the chronology of
-*composition*: stripping shared text preserves the global ordering
+texts absorb one another on a large scale, we further compute the
+chronology twice — with shared text included and with it
+stripped: stripping preserves the global ordering
 (ρ = 0.98 on trigrams) but moves individual texts in philologically
 interpretable ways — the great compilations look later with their
 borrowed skin on — and we give the stripped map precedence for dating
@@ -103,7 +105,7 @@ ordering-shaped first axis in a distance embedding (§4); (iv) a
 **retention decomposition** that explains *why* the axis orders the
 corpus: the depletion of an early-characteristic feature inventory
 carries the chronological signal essentially alone (§6); (v) a
-**transmitted-versus-composed comparison**: rebuilding the corpus with
+**with-reuse-versus-no-reuse comparison**: rebuilding the corpus with
 shared text stripped and reading the differences between the two maps as
 findings — which text is dragged where by what it absorbed — rather than
 as a robustness footnote (§7); and (vi)
@@ -538,7 +540,7 @@ precisely why the gain component tracks affiliation (§9 finds the same
 structure from another direction) — but it is the wrong hand for
 telling time.
 
-The decomposition replicates on the trigram lens, and on the composed
+The decomposition replicates on the trigram lens, and on the no-reuse
 chronology of §7: loss alone orders at 0.856–0.868 invariantly across
 feature-selection thresholds and across both corpus builds, with gains
 at 0.60–0.69 — the same asymmetry from independent features, on a map
@@ -553,7 +555,7 @@ tradition whose composition is continuous and whose feature inventory
 depletes faster than it recycles — legal formulae, liturgical corpora,
 scholastic commentary chains — is a candidate.
 
-## 7. Two chronologies: the text transmitted and the text composed
+## 7. Two chronologies: with the shared text and without
 
 ### 7.1 Why one map is not enough
 
@@ -562,7 +564,7 @@ text; this section argues that the *differences* between the two maps
 are themselves the finding. A purāṇa as transmitted is a mixture: the
 compilers' own composition plus everything the tradition deposited into
 it — inherited cores, migrating māhātmyas, wholesale incorporations of
-other works. Its position on the map of transmitted texts is the center
+other works. Its position on the with-reuse map is the center
 of mass of that mixture, and every borrowed layer drags the position
 toward wherever the *source's* language sits. For the question "what
 language does this text carry?" that map is the right instrument. For
@@ -575,7 +577,7 @@ constituted *Purāṇapañcalakṣaṇa* is treated as the one known *source*:
 its lines are removed from the purāṇas, never from the reconstruction)
 approximates each text's own diction, and its map approximates the
 chronology of composition. We therefore report both chronologies, and
-give the composed one precedence for dating claims.
+give the no-reuse one precedence for dating claims.
 
 ### 7.2 The lenses swap roles on residues
 
@@ -589,7 +591,7 @@ is partly a length artifact, and we do not cite its per-unit positions.
 The trigram lens is immune for a mechanical reason — even a small
 residue supplies hundreds of thousands of trigram events, so its
 exchangeable null stays weak (6.9% share) and its real axis stays
-length-clean (ρ = 0.064). The composed chronology is therefore
+length-clean (ρ = 0.064). The no-reuse chronology is therefore
 **trigram-led**: C3 supplies the numbers, W1 corroborates the ordering
 (cross-lens ρ = 0.93 on the stripped build) and the movers' directions.
 The with-reuse hero map's division of labor is thereby inverted, which
@@ -599,7 +601,7 @@ per unit inherits the small-sample regime.
 ### 7.3 What moves, and what the moves mean
 
 Globally the two chronologies agree — Spearman ρ = 0.982 between the
-transmitted and composed orderings on C3 (0.908 on W1) — so nothing in
+with-reuse and no-reuse orderings on C3 (0.908 on W1) — so nothing in
 §§3–6 is at stake. Locally, sixteen of 126 units move with
 non-overlapping bootstrap intervals [TABLE: movers, C3, both positions
 with CIs], and the moves sort into three legible classes.
@@ -625,14 +627,14 @@ was older than their own hand.
 **The old-core carriers dissolve.** The sections of the Vāyu and the
 Viṣṇu aṃśas that carry the shared genealogical inheritance retain almost
 nothing under the strip — the Vāyu's manu-vaṃśa section keeps 1,064 of
-20,373 words — and drop below the §3.4 length floor: their composed-era
+20,373 words — and drop below the §3.4 length floor: their no-reuse
 positions are simply not measurable, and we grey them out rather than
 read them. That emptiness is a measurement, not a failure: for these
 texts, the transmitted text *is* mostly the shared inheritance, which is
 Kirfel's century-old thesis [Kirfel 1927] restated as a retention
 statistic.
 
-**Pseudo-neighborhoods fall away.** On the transmitted map, the
+**Pseudo-neighborhoods fall away.** On the with-reuse map, the
 Viṣṇupurāṇa's nearest neighbors are its own copyists — texts that
 absorbed it. On the stripped map those neighbors recede, and on its own
 diction the Viṣṇu sits as close to the Bhāgavata as to anything else.
@@ -640,18 +642,18 @@ The two texts treat the same narrative material with almost no shared
 wording (under the symmetric strip, the Viṣṇu's Kṛṣṇa book loses 80% of
 its words to parallels elsewhere; the Bhāgavata's, treating the same
 story, loses 6%) — two independent tellings, no copying in either
-direction, and a stylistic kinship that the transmitted map had buried
+direction, and a stylistic kinship that the with-reuse map had buried
 under the Viṣṇu's borrowed skin. We offer this as the reuse-strip
 design's characteristic yield: it does not merely defend a result, it
 un-hides relationships.
 
 ### 7.4 What precedence means, and does not mean
 
-Giving the composed chronology precedence is a statement about *which
-question each map answers*, not a demotion of the transmitted map. Every
+Giving the no-reuse chronology precedence is a statement about *which
+question each map answers*, not a demotion of the with-reuse map. Every
 claim in §8 is therefore validated on both; where the two disagree about
-an individual text, the composed reading dates the compilers and the
-transmitted reading dates the language the tradition chose to keep — and
+an individual text, the no-reuse reading dates the compilers and the
+with-reuse reading dates the language the tradition chose to keep — and
 the gap between them measures how much a text is an anthology. The
 first disclaimer of §1 does not dissolve: even a residue is transmitted,
 and below-threshold paraphrase of inherited material survives the strip.
@@ -677,7 +679,7 @@ books the effect is dramatic — Book 18's apparatus projects at the 65th
 percentile [48, 81] of the drift axis against its constituted text's
 5th; for the control (Book 13, a book *known* to be didactically
 swollen) the apparatus sits at 57 [56, 61] against 36. The validation
-carries over to the composed chronology, where it matters most: on the
+carries over to the no-reuse chronology, where it matters most: on the
 stripped trigram map Book 13's apparatus projects at 48 [43, 52] against
 its constituted text's 31, Book 18's at 61 [39, 82] against 8, and all
 five books are directional. (One asymmetry must be stated: the apparatus
@@ -708,15 +710,15 @@ the word lens, 66–95 on the trigram lens) — a century-old stratigraphy,
 built from entirely different evidence, sorted correctly by feature
 statistics.
 
-The composed chronology strengthens this validation in a way the
-transmitted map cannot. Because the strip is one-directional for the
+The no-reuse chronology strengthens this validation in a way the
+with-reuse map cannot. Because the strip is one-directional for the
 PPL — its lines are removed from the purāṇas, never from the
 reconstruction — the stripped corpus contains the constituted PPL and
 *no near-verbatim copy of it anywhere else*: the reconstruction can no
 longer affect its carriers' positions, nor they its. On that map the PPL
 keeps its band (Textgruppe I at the 25th percentile [23, 30], the
 ungrouped core at 25 [24, 27]) while its chief carrier's residue reads
-late (the Vāyu at 81 [78, 85], against 71 transmitted). The oldest
+late (the Vāyu at 81 [78, 85], against 71 with reuse included). The oldest
 stratum is early on a map from which its own copies are absent, and the
 carriers are late once they stop speaking its words — a separation
 between textually disjoint bodies, which is the strongest form the
@@ -733,7 +735,7 @@ splits; their pulls are real, one-directional, and uninterpretable for
 exactly this reason — and the strip makes the entanglement vivid: after
 shared text is removed, the Vāyu's manu-vaṃśa section contains 178 words
 of genealogy of its own.) Four structural facts answer the objection
-instead. First, the strip (§7): the composed map contains no
+instead. First, the strip (§7): the no-reuse map contains no
 near-verbatim PPL text outside the reconstruction, so the PPL's early
 band and its carriers' late residues are positions of textually disjoint
 bodies — the version of the objection with teeth, "the PPL sits at the
@@ -756,19 +758,19 @@ lenses — with the apparatus experiment showing the constituted text
 itself owns that position. The stylometry is consistent with an
 early-fixed narrative kernel that was appended to the epic late *as
 books*; it cannot arbitrate between early composition and early-style
-transmission, and we say so. The claim carries to the composed
+transmission, and we say so. The claim carries to the no-reuse
 chronology essentially unchanged — the four books share little text with
 the rest of the corpus (88–95% of their trigram mass survives the
 strip), and their residues stay at the early pole (percentiles 1–8).
 (ii) The old Skandapurāṇa — transmitted in
 Nepalese manuscripts of the ninth century — projects earlier than the
 Mārkaṇḍeyapurāṇa as a whole on both lenses with separated confidence
-intervals, against the received relative dating. On the composed
+intervals, against the received relative dating. On the no-reuse
 chronology the direction holds but the gap narrows (SP 29 [27, 32],
 Mārk 32 [28, 35]): the Mārkaṇḍeya is one of §7's early-ward movers, and
-what separates the two transmitted texts is partly the Mārkaṇḍeya's
-absorbed later material — the composed reading brings the two
-compilations closer in time than the transmitted one suggests. At layer
+what separates the two texts with reuse included is partly the
+Mārkaṇḍeya's absorbed later material — the no-reuse reading brings the
+two compilations closer in time than the with-reuse one suggests. At layer
 level the two interleave, and the same text's late block (its pāśupata
 chapters) projects at the far late pole under identical transmission
 (98 [97, 99] even as a stripped residue, though at 2.9k residual words
@@ -812,21 +814,21 @@ exists to prevent.
 
 Two-dimensional maps stop where the eigenvalues tell them to; ours do
 not stop cleanly. The third MDS axis carries almost as much variance as
-the second (7.3% versus 8.0% on W1; 6.7% versus 9.5% on C3, transmitted
+the second (7.3% versus 8.0% on W1; 6.7% versus 9.5% on C3, with-reuse
 build), so we examined it rather than discarding it, aligning the two
 lenses' three-dimensional configurations by Procrustes rotation. The
 per-axis cross-lens agreements are 0.97 / 0.86 / 0.46 on the
-transmitted build and 0.95 / 0.74 / 0.74 on the composed one: on the
-composed chronology's build, the third dimension is as much a shared
+with-reuse build and 0.95 / 0.74 / 0.74 on the no-reuse one: on the
+no-reuse build, the third dimension is as much a shared
 property of the texts as the second.
 
 And it is, to a first approximation, *one text's own dimension*. The
-thirteen Bhāgavata units monopolize one pole: on the composed build
+thirteen Bhāgavata units monopolize one pole: on the no-reuse build
 their mean position sits 3.8 (W1) and 4.9 (C3) standard deviations of
 the remaining corpus away from it, and axis-3 position correlates with
 Bhāgavata membership at r = 0.76/0.84. Remove the Bhāgavata and the
-third axis's cross-lens agreement drops (to 0.65 composed, 0.27
-transmitted) while the first axis's is untouched (0.97/0.95). Two
+third axis's cross-lens agreement drops (to 0.65 no-reuse, 0.27
+with-reuse) while the first axis's is untouched (0.97/0.95). Two
 consequences follow. First, §8's "most isolated register" claim gains a
 geometric form: the Bhāgavata's idiosyncrasy is not an extreme position
 on either shared dimension but a *direction of its own*, recovered
@@ -835,15 +837,15 @@ material. Second — and this is the referee-proofing — the chronology is
 orthogonal to the corpus's most idiosyncratic member: classical MDS
 banks the Bhāgavata's peculiarity on its own axis, and the ordering is
 unchanged by the text's removal. (The length diagnostic again: on the
-transmitted build W1's third axis is length-tinged, ρ = 0.54, so the
-clean form of this result rests on C3 and the composed build, where
+with-reuse build W1's third axis is length-tinged, ρ = 0.54, so the
+clean form of this result rests on C3 and the no-reuse build, where
 axis 3 is length-clean at ρ ≤ 0.06.)
 
 The flattening cost of 2-D also deserves one number, because readers
 *will* measure distances on the printed maps with their eyes. The
 Śivapurāṇa's Sanatkumārasaṃhitā and Viṣṇupurāṇa book 3 — Delta 0.92,
 each roughly the fiftieth-nearest neighbor of the other — render 0.043
-apart in the transmitted W1 plane, indistinguishable from genuine
+apart in the with-reuse W1 plane, indistinguishable from genuine
 neighbors; the third axis recovers them to 0.190. The rule we draw:
 on a crowded 2-D map, only axis-1 position is load-bearing; pairwise
 proximity in the middle is not evidence of affinity. We publish
@@ -861,7 +863,7 @@ supplementary projection with bootstrap intervals for every layer and
 subset question (§2.2, §8); null-model calibration pairing variance
 share with a length diagnostic (§4); a split-half retention
 decomposition that tests whether the ordering has the mechanistic
-signature of drift (§6); and a transmitted-versus-composed comparison
+signature of drift (§6); and a with-reuse-versus-no-reuse comparison
 that turns the corpus's worst pathology — wholesale text reuse — into
 its most informative instrument, dating the compilers separately from
 the language they carried (§7). On the Sanskrit epic–purāṇic corpus the
@@ -873,7 +875,7 @@ could construct — on both chronologies. Its limits are equally definite:
 a ~3,000-word
 resolution floor, blindness below the level of merged blocks, and the
 standing epistemic gap between language age and book age — a gap the
-composed chronology narrows but, since even a residue is transmitted,
+no-reuse chronology narrows but, since even a residue is transmitted,
 never closes. Within those
 limits, a millennium of anonymous tradition turns out to keep time — not
 in its marked archaisms, which imitators can reach, but in the
