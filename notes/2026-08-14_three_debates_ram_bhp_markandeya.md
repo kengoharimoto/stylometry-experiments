@@ -29,6 +29,16 @@ simply a later date.
 
 ## 2. Bhāgavata: archaizing artifact or genuinely early?
 
+> **Addendum 2026-08-21: the scale-dependence measurement below is
+> RETIRED** (`mfw_sweep/bhp_scale.py`): the U-shape's @30 leg reads a
+> setting where no axis of the top-2 plane is the drift axis, and the
+> @5000 leg reads a length axis (ρ_logT +0.91) whose *axis 2* is the
+> drift axis and puts the BhP at 56, in line with 80–1500. Within
+> valid settings the BhP's cross-scale movement is ordinary on W1 and
+> on the no-reuse build. Do not cite the U-shape; see
+> `2026-08-21_withreuse_gap_closure.md`. Kengo's annotation below
+> already gated the inference; this removes the measurement under it.
+
 **[ANNOTATION 2026-08-14 (Kengo): the verdict below is a session hypothesis,
 not my position.** The three measurements stand as data — the MFW
 scale-dependence (19 @30 → 52 @80 → 26 @5000), the epic-marker

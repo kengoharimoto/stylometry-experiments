@@ -330,12 +330,18 @@ robustness result is deliberately minimal: §7 returns to the stripped
 build with the opposite question — not whether the ordering survives
 (it does) but what the differences between the two maps *mean*.
 
-**Names and sectarian vocabulary.** Striking all 36 theonyms and
-divine-name stems from the W1-500 list (refilling to 500 from the
+**Names and sectarian vocabulary.** Striking all 38 theonyms and
+divine-name stems that reach the W1-500 list (refilling to 500 from the
 frequency ranking) leaves the axis at ρ = 0.9976 against baseline;
-striking 67 names plus ritual and sectarian lexemes leaves 0.9898, with
-a maximum single-text movement of 13 percentiles. The ordering is not a
-disguised sectarian sorting.
+striking 70 names plus ritual and sectarian lexemes leaves 0.9910, with
+a maximum single-text movement of 13 percentiles. A trigram-level
+analogue strikes every trigram that occurs inside any listed lexeme —
+deliberately over-broad, removing 105–160 of C3's 500 features
+including generic strings that merely occur inside a name — and leaves
+0.9890 and 0.9796. On the no-reuse build the same strikes leave
+0.9778/0.9678 (trigrams) and 0.9984/0.9952 (words, as an
+ordering-level check). The ordering is not a disguised sectarian
+sorting, on either build.
 
 **Implementation.** The full C3 pipeline — feature list, frequency
 table, Delta distance matrix, and map — is reproduced exactly by an
@@ -779,9 +785,8 @@ that value brushes the length floor) — which is
 also the strongest available answer to the transmission-conservatism
 confound. (iii) The Bhāgavatapurāṇa, whose date is a famous open
 question, is the corpus's most isolated register (every one of its
-books' nearest neighbours is internal to it), and its position is
-strongly scale-dependent across feature-set sizes in a way no other
-text shows. Our instrument *poses* the Bhāgavata question sharply —
+books' nearest neighbours is internal to it, on both builds). Our
+instrument *poses* the Bhāgavata question sharply —
 early language state faithfully carried, or late mastery of the old
 register — and does not answer it; we flag it as the natural target for
 methods beyond frequency stylometry. §9.2 gives this isolation a

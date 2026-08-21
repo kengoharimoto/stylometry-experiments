@@ -110,9 +110,17 @@ cross-build ρ_x 0.98–0.99 at recommended settings; the collapsed high-MFW
 W1 regime anti-correlates (−0.86 at 5000), confirming what the cliff
 measures. → `2026-08-14_mfw_robustness_noreuse.md`. Fig: cross-build table.
 
-**1.5 Names/sectarian vocabulary struck.** Strike 36 theonyms → ρ 0.9976;
-strike 67 names + ritual lexemes → ρ 0.9898; BhP moves slightly *later*.
-→ `2026-08-14_mfw_robustness_W1_C3.md` addendum.
+**1.5 Names/sectarian vocabulary struck (all four variants
+2026-08-21).** W1 with-reuse: 38 theonyms → ρ 0.9976; 70 names+ritual
+→ 0.9910 (max mover 13 pts; these committed-script numbers supersede
+the note addendum's 36/67/0.9898 — an earlier list version). C3
+trigram analogue (strike any trigram occurring inside a listed lexeme;
+over-broad by design, 105–160 of 500 struck): with-reuse
+0.9890/0.9796; **no-reuse 0.9778/0.9678** (citation grade). W1
+no-reuse 0.9984/0.9952 — ordering-level only (R1 gate). BhP moves
+slightly *later* under the strike on every variant.
+→ `mfw_sweep/exclusion_test.py` (`--c3`, `--noreuse`);
+`2026-08-21_withreuse_gap_closure.md`.
 
 **1.6 Encoding controls (C3).** Word division is editorial → no-space C3
 adopted; agreement with W1 improves at every MFW; movers move toward their
@@ -385,8 +393,16 @@ fact, not a date fact. → `2026-08-14_three_debates...md`,
 `2026-08-17_ramayana_first_references_sweep.md`. Fig: kāṇḍa/parvan strip; witness table.
 
 **6.6 Bhāgavata (the open question, symmetric wording ONLY).**
-Corpus-internal: sui-generis register (all skandhas' NNs internal);
-scale-dependent U-shape (mean W1 pct 19@30 → ~50@80–500 → 26@5000);
+Corpus-internal: sui-generis register (all skandhas' NNs internal —
+verified on both builds 2026-08-21);
+~~scale-dependent U-shape (mean W1 pct 19@30 → ~50@80–500 → 26@5000)~~
+**RETIRED 2026-08-21, do not cite:** the U-shape's outer legs read
+non-drift axes (at 30 MFW no setting yields the drift axis, ρ_ref ≤
+0.70; the @5000 axis-1 is a length axis, ρ_logT +0.91 — the drift axis
+survives as axis 2 there and puts BhP at 56). Within valid settings the
+BhP's cross-scale movement is ordinary on W1 and on the no-reuse build
+(`mfw_sweep/bhp_scale_settings.tsv`, `bhp_scale_ranges.tsv`; one open
+anomaly on with-reuse C3 flagged in the note, not draft material);
 over-performance on epic-discriminative words (39% vs late block 5%);
 noreuse reveals ViP-register affinity by *subtraction* (BhP retention
 89–99%); BhP 9 verbatim-inherits the PPL vaṃśa stock (35 hemistichs ≥

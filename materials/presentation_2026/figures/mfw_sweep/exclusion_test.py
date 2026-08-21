@@ -2,7 +2,21 @@
 """W1-500 sensitivity test: strike proper names / ritual lexemes from the MFW
 list (refilling to 500 from deeper ranks) and measure how much the drift axis
 moves. Pipeline replicates hero_mds.py: relative freqs, corpus z-score,
-Burrows's Delta, classical MDS; variants Procrustes-aligned to baseline."""
+Burrows's Delta, classical MDS; variants Procrustes-aligned to baseline.
+
+2026-08-21: --noreuse runs the identical test on the no-reuse build
+(residue corpus, manifest noreuse2026_n126, reference coords from
+mds3d). --c3 runs a trigram-level analogue on the no-space sandhied
+stream: a trigram is struck if it is a substring of ANY listed
+name/ritual lexeme (lowercased, diacritics as written). That rule is
+deliberately over-broad — it also removes generic trigrams like 'iva'
+that happen to occur inside 'śiva' — so a surviving axis is a
+conservative (stronger) robustness statement. Gate note: on the
+no-reuse W1 build only the ordering-level rho vs baseline is citable
+(R1: per-unit percentiles carry a length component); the C3-noreuse
+run is the citation-grade form."""
+import re
+import sys
 import numpy as np
 from pathlib import Path
 from collections import Counter
@@ -10,15 +24,37 @@ from scipy.stats import spearmanr
 
 ROOT = Path(__file__).resolve().parents[4]
 MFW = 500
+NOREUSE = '--noreuse' in sys.argv
+C3 = '--c3' in sys.argv
+TAG = ('C3' if C3 else 'W1') + ('_noreuse' if NOREUSE else '')
+
+if NOREUSE:
+    MANIFEST = ROOT / 'manifests/noreuse2026_n126.txt'
+    CORPUS = ROOT / ('corpus/epic_puranas_sandhied_noreuse' if C3
+                     else 'corpus/epic_puranas_unsandhied_noreuse')
+    REFC = ROOT / ('materials/presentation_2026/figures/mds3d/'
+                   + ('coords_C3-500ns_noreuse_n126.tsv' if C3
+                      else 'coords_W1-500_noreuse_n126.tsv'))
+else:
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+    CORPUS = ROOT / ('corpus/epic_puranas_sandhied' if C3
+                     else 'corpus/epic_puranas_unsandhied')
+    REFC = ROOT / ('materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv'
+                   if C3 else
+                   'materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv')
 
 manifest = {l.strip()[:-4] if l.strip().endswith('.txt') else l.strip()
-            for l in (ROOT / 'manifests/dicsep2026_n127_ppl.txt').read_text().splitlines()
+            for l in MANIFEST.read_text().splitlines()
             if l.strip() and not l.startswith('#')}
 names, counts = [], []
-for p in sorted((ROOT / 'corpus/epic_puranas_unsandhied').glob('*.txt')):
+for p in sorted(CORPUS.glob('*.txt')):
     if p.stem in manifest:
         names.append(p.stem)
-        counts.append(Counter(p.read_text(encoding='utf-8').lower().split()))
+        if C3:
+            s = re.sub(r'\s+', '', p.read_text(encoding='utf-8').lower())
+            counts.append(Counter(s[i:i + 3] for i in range(len(s) - 2)))
+        else:
+            counts.append(Counter(p.read_text(encoding='utf-8').lower().split()))
 raw = Counter()
 for c in counts:
     raw.update(c)
@@ -63,21 +99,30 @@ def procrustes(Y, ref):
 base_feats = ranked[:MFW]
 base = build_axis(base_feats)
 
-# validate against the saved sweep coordinates
+# validate against the saved reference coordinates
 saved = {}
-for l in (ROOT / 'materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
-          ).read_text().splitlines()[1:]:
+for l in REFC.read_text().splitlines()[1:]:
     f = l.split('\t')
     saved[f[0]] = float(f[1])
 sx = np.array([saved[n] for n in names])
 r0 = abs(spearmanr(base[:, 0], sx).statistic)
 if spearmanr(base[:, 0], sx).statistic < 0:      # fix sign to match saved convention
     base = -base
-print(f'baseline vs saved sweep coords: |rho| = {r0:.4f}')
+print(f'[{TAG}] baseline vs saved reference coords: |rho| = {r0:.4f}')
+if NOREUSE and not C3:
+    print('NOTE (R1 gate): W1-noreuse — only the ordering-level rho vs '
+          'baseline below is citable; per-unit percentiles are not.')
+
+
+def is_struck(feat, excl):
+    if C3:
+        return any(feat in w for w in excl)
+    return feat in excl
+
 
 for label, excl in (('names-only', NAMES), ('names+ritual', RITUAL)):
-    feats = [w for w in ranked if w not in excl][:MFW]
-    struck = [w for w in base_feats if w in excl]
+    feats = [w for w in ranked if not is_struck(w, excl)][:MFW]
+    struck = [w for w in base_feats if is_struck(w, excl)]
     Y = procrustes(build_axis(feats), base)
     rho1 = spearmanr(Y[:, 0], base[:, 0]).statistic
     rho2 = spearmanr(Y[:, 1], base[:, 1]).statistic
