@@ -172,6 +172,43 @@ Article payoff: §9.2 can claim the flattening is *systematic* and
 disproportionately involves BhP units (as the axis-3 result predicts),
 with Sn–Vi3 as the worked example rather than the whole evidence.
 
+### Addendum: the BhP pairs across builds (run 2026-08-21, same day)
+
+Kengo's follow-up: how do the worst with-reuse BhP pairs look on the
+no-reuse maps? Traced from the committed viewers' PTS arrays + the same
+regenerable Delta tables (2-D pct = where the pair's in-plane distance
+ranks among all pairs on that map):
+
+| pair | map | 2-D pct | Delta | nbr ranks |
+|---|---|---|---|---|
+| Bh2 ~ V10 (Gayā-māh.) | W1 with | 0.1% | 1.343 | 122/116 |
+| | W1 no | 22.8% | 1.228 | 118/106 |
+| | C3 no | 49.5% | 1.417 | 113/99 |
+| Bh2 ~ Nīlamata | C3 with | 0.7% | 1.446 | 113/121 |
+| | C3 no | 26.6% | 1.297 | 100/112 |
+| Bh10c ~ Revākhaṇḍa | W1 with | 1.2% | 1.235 | 109/122 |
+| | **C3 no** | **0.2%** | 1.141 | 59/109 |
+
+Three findings:
+
+1. **The specific coincidences are projection accidents of one map.**
+   Bh2~V10 and Bh2~Nī dissolve on the no-reuse maps (0.1%/0.7% →
+   23–50%). Bh10c~Rv happens to *re-form* on C3 no-reuse — a different
+   accident, same mechanism.
+2. **The Delta distances barely move between builds** (ranks stay
+   ~100+): the BhP's distinctiveness is not reuse-borne — consistent
+   with axis 3 being *more* cross-lens-real after the strip (finding 2).
+3. **The census rate is build-invariant**: qualifying BhP pairs per map
+   are 29 / 34 / 25 / 32 (W1-with / C3-with / W1-no / C3-no; counts
+   from `flattened_pairs.tsv`, `bhp_pair` column), and the BhP axis-3
+   offset is large on every map (`axis3_stats.tsv`). The no-reuse
+   build does not cure the flattening; it reshuffles which bystanders
+   end up 2-D-adjacent to BhP units.
+
+Strongest form of the guardrail: **no choice of build makes 2-D
+proximity trustworthy near the BhP** — the Delta table (or the 3-D
+tether readout) is the only check of record.
+
 ## Where this feeds the article
 
 - Draft §9.2 "A third dimension: the Bhāgavata direction" — the
