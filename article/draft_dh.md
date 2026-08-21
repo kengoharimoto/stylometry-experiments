@@ -272,8 +272,19 @@ analysis systematically distributed means directionally biasing.
 
 At the adopted settings — 500 MFW for W1, 500 space-free trigrams for
 C3 — the first MDS axes of the two lenses agree across the 127 units at
-Spearman ρ = **0.953** [FIGURE 1: the two maps side by side; FIGURE 2:
-W1×C3 agreement across the joint sweep]. A full grid sweep (W1 from 30
+Spearman ρ = **0.953** (Figure 1) [FIGURE 2: W1×C3 agreement across
+the joint sweep].
+
+**Figure 1.** The two maps, side by side (with-reuse build, 127 units;
+classical MDS of Burrows's Delta; equal aspect): (a) W1-500, word
+unigrams on algorithmically de-sandhied text; (b) C3-500, character
+trigrams on the undivided sandhied stream. The horizontal axis is the
+drift axis (axis-1 agreement ρ = 0.953); colors are text groups, codes
+in the supplementary key. *(file:
+`figures/fig1_map_pair/fig1_map_pair.pdf`, regenerate via
+`fig1_map_pair.py` from the committed article-frame coords TSVs)*
+
+A full grid sweep (W1 from 30
 to 5000 MFW; C3 from 250 to 12,000 features) locates the agreement ridge
 at moderate feature counts on both sides, peaking at 500×500; the
 adopted setting is the peak of measured cross-lens agreement, not a

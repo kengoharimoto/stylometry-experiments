@@ -470,7 +470,11 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 
 ## 9. Figure/table shortlist (cross-variant core)
 
-1. Hero map pair (W1 + no-space C3), post-clean. — all variants
+1. **Hero map pair (W1 + no-space C3) — BUILT 2026-08-21**
+   (`figures/fig1_map_pair/fig1_map_pair.{py,pdf,png}`; article 500/500
+   settings from the committed article-frame coords TSVs — NOT the
+   80-MFW deck hero; greedy label placement, final label polish at
+   proofs). — all variants
 2. W1×C3 convergence heatmap + sweet-spot table (1.1–1.2). — all
 3. A2 decomposition tables (Q1 centerpiece). — all
 4. B2 null-model table with length-diagnostic column. — DH/wide lead fig
