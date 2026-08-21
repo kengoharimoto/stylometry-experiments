@@ -610,8 +610,35 @@ per unit inherits the small-sample regime.
 Globally the two chronologies agree — Spearman ρ = 0.982 between the
 with-reuse and no-reuse orderings on C3 (0.908 on W1) — so nothing in
 §§3–6 is at stake. Locally, sixteen of 126 units move with
-non-overlapping bootstrap intervals [TABLE: movers, C3, both positions
-with CIs], and the moves sort into three legible classes.
+non-overlapping bootstrap intervals (Table 1), and the moves sort into
+three legible classes.
+
+**Table 1.** Every CI-separated move between the two chronologies,
+plus the one grazing case, sorted by shift. Percentile positions on
+the C3-500 maps with 95% line-bootstrap confidence intervals (B =
+500). \* intervals graze rather than separate (overlap 0.4 of a
+percentile); † sub-3k-word residue — direction only, the no-reuse
+position is below the length floor.
+
+| text | with shared text | without | shift |
+|---|---|---|---|
+| Brahmāṇḍapurāṇa | 63 [60, 64] | 44 [40, 47] | −19 |
+| Brahmāṇḍa, khaṇḍa 2 | 40 [36, 40] | 28 [26, 34] | −12 |
+| Śivapurāṇa, Dharmasaṃhitā\* | 53 [48, 59] | 43 [40, 49] | −10 |
+| MBh 13, App. 15 (Umāmaheśvara) | 80 [78, 82] | 72 [69, 74] | −8 |
+| Mārkaṇḍeya, adhy. 1–80 | 43 [40, 48] | 36 [34, 37] | −7 |
+| Mārkaṇḍeyapurāṇa | 38 [36, 40] | 32 [28, 35] | −6 |
+| PPL, Textgruppe IIB | 94 [90, 96] | 88 [83, 90] | −6 |
+| Padmapurāṇa | 48 [47, 48] | 44 [40, 46] | −4 |
+| Bhaviṣyapurāṇa | 64 [64, 67] | 61 [58, 63] | −4 |
+| Kūrma, khaṇḍa 2 | 90 [90, 93] | 87 [82, 90] | −3 |
+| MBh 12, Śāntiparvan | 38 [37, 40] | 36 [34, 37] | −2 |
+| Rām 6, Yuddhakāṇḍa | 8 [7, 10] | 10 [10, 11] | +2 |
+| Śivapurāṇa, Umāsaṃhitā | 63 [58, 65] | 72 [68, 76] | +9 |
+| Vāyupurāṇa | 71 [68, 76] | 81 [78, 85] | +9 |
+| Vāyu, kalpas & Śiva lineages | 71 [62, 75] | 82 [78, 92] | +11 |
+| Vāyu, manu-vaṃśa section† | 30 [27, 32] | 46 [33, 72] | +16 |
+| Viṣṇupurāṇa, aṃśa 5† | 21 [18, 23] | 39 [34, 61] | +19 |
 
 **The great compilations move early.** The largest moves of
 well-measured texts run toward the early pole: the Brahmāṇḍapurāṇa from
@@ -625,9 +652,10 @@ their compilers wrote. The Śivadharma corpus makes the mechanism
 concrete: the Śivadharmaśāstra and Śivadharmottara sit at the far late
 pole (percentiles 91–95), and the texts that absorbed them wholesale —
 the Bhaviṣya incorporates roughly a quarter of each; the Padma, the
-Dharmasaṃhitā, and the Revākhaṇḍa large shares — are precisely
-early-ward movers: their borrowed skin had been answering for their
-position. Symmetrically, a few texts move late (the Vāyu, 71 → 81; its
+Dharmasaṃhitā, and the Revākhaṇḍa large shares — all move early-ward
+(the first three CI-clean or grazing in Table 1; the Revākhaṇḍa's −3
+stays within its intervals): their borrowed skin had been answering
+for their position. Symmetrically, a few texts move late (the Vāyu, 71 → 81; its
 third section +11; the Śivapurāṇa's Umāsaṃhitā +9): what *they* carried
 was older than their own hand.
 

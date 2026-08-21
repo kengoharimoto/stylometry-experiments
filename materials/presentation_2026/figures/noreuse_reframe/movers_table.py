@@ -5,7 +5,11 @@ with-reuse vs no-reuse axis-1 percentile per unit, CI-grade, per lens.
 A move counts as CI-separated when the two intervals do not overlap.
 Sub-3k residues (W1 words in the noreuse corpus) are flagged.
 
-Usage: movers_table.py w|c
+--markdown (2026-08-21): additionally emit the article's §7.3 float —
+the CI-separated movers plus the grazing Dharmasaṃhitā, article names,
+sorted by shift, with the grazing (*) and sub-3k (†) footnotes.
+
+Usage: movers_table.py w|c [--markdown]
 """
 import csv
 import sys
@@ -55,3 +59,41 @@ for r in rows:
               f'{r[5]:>6.1f} [{r[6]:>4.1f},{r[7]:>5.1f}]{r[8]:>+7.1f}'
               f'{r[9]:>9}{flag}  {"Y" if r[10] else ""}')
 print(f'wrote {out.name}   (* = sub-3k residue)')
+
+if '--markdown' in sys.argv:
+    # article §7.3 float: CI-separated movers + the grazing Dharmasaṃhitā
+    ART_NAMES = {
+        'brahmandapurana': 'Brahmāṇḍapurāṇa',
+        'brahmandapurana_khanda-2_u': 'Brahmāṇḍa, khaṇḍa 2',
+        'sivapurana_dharmasamhita': 'Śivapurāṇa, Dharmasaṃhitā',
+        'mahabharata_13-appendix-15_umamahesvara':
+            'MBh 13, App. 15 (Umāmaheśvara)',
+        'markandeyapurana_adhyaya-1-80_u': 'Mārkaṇḍeya, adhy. 1–80',
+        'markandeyapurana': 'Mārkaṇḍeyapurāṇa',
+        'kirfel_ppl_textgruppe_IIB_col1': 'PPL, Textgruppe IIB',
+        'padmapurana_a': 'Padmapurāṇa',
+        'bhavisyapurana': 'Bhaviṣyapurāṇa',
+        'kurmapurana_khanda-2_u': 'Kūrma, khaṇḍa 2',
+        'mahabharata_12-santiparvan': 'MBh 12, Śāntiparvan',
+        'ramayana_06-yuddhakanda': 'Rām 6, Yuddhakāṇḍa',
+        'sivapurana_umasamhita': 'Śivapurāṇa, Umāsaṃhitā',
+        'vayupurana': 'Vāyupurāṇa',
+        'vayupurana_03_kalpas-and-shiva-lineages_iast':
+            'Vāyu, kalpas & Śiva lineages',
+        'vayupurana_08_manu-candra-vishnu-vamsha_iast':
+            'Vāyu, manu-vaṃśa section',
+        'visnupurana_amsa-5_u': 'Viṣṇupurāṇa, aṃśa 5',
+    }
+    print('\n--- markdown float (paste into draft §7.3) ---\n')
+    print('| text | with shared text | without | shift |')
+    print('|---|---|---|---|')
+    for u, code, ea, la, ha, eb, lb, hb, sh, resw, sep in rows:
+        if not (sep or u == 'sivapurana_dharmasamhita'):
+            continue
+        marks = ('\\*' if u == 'sivapurana_dharmasamhita' else '') \
+            + ('†' if resw < 3000 else '')
+        print(f'| {ART_NAMES[u]}{marks} | {ea:.0f} [{la:.0f}, {ha:.0f}] '
+              f'| {eb:.0f} [{lb:.0f}, {hb:.0f}] | {sh:+.0f} |')
+    print(f'\nfooter: percentiles on the {tag} maps with 95% line-bootstrap '
+          'CIs (B=500); \\* = intervals graze (overlap 0.4 pt); '
+          '† = sub-3k-word residue — direction only, position not citable.')
