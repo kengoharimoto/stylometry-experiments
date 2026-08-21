@@ -357,7 +357,7 @@ build with the opposite question — not whether the ordering survives
 divine-name stems that reach the W1-500 list (refilling to 500 from the
 frequency ranking) leaves the axis at ρ = 0.9976 against baseline;
 striking 70 names plus ritual and sectarian lexemes leaves 0.9910, with
-a maximum single-text movement of 13 percentiles. A trigram-level
+a maximum single-text movement of 14 percentiles. A trigram-level
 analogue strikes every trigram that occurs inside any listed lexeme —
 deliberately over-broad, removing 105–160 of C3's 500 features
 including generic strings that merely occur inside a name — and leaves
