@@ -1,5 +1,14 @@
 # MFW robustness of the W1 and C3 delta MDS axes; W1×C3 convergence
 
+> **Superseded-in-numbers 2026-08-21 for the article:** the sweep below
+> is the pre-clean corpus with *spaced* C3, and the W1 decay column is
+> quoted vs the 80-MFW deck hero. The article's citable versions
+> (post-clean, no-space C3, vs the adopted 500 settings) are
+> `figures/fig2_convergence/fig2_convergence_grid.tsv` +
+> `fig2_within_lens.tsv` (headlines: 500×500 = 0.953 grid maximum; W1
+> cliff 0.51/0.14 @3000/5000; C3 invariant 250–8,000, 0.83 @12,000).
+> The findings' shape is unchanged; the numbers below are historical.
+
 2026-08-14. Question: is the C3 companion's horizontal axis (read as linguistic
 drift, "earlier → later") an artifact of the 5000-MFW setting — i.e. is theme
 leaking in — and where is the sweet spot for both feature systems? Follow-up:

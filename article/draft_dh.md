@@ -272,8 +272,7 @@ analysis systematically distributed means directionally biasing.
 
 At the adopted settings — 500 MFW for W1, 500 space-free trigrams for
 C3 — the first MDS axes of the two lenses agree across the 127 units at
-Spearman ρ = **0.953** (Figure 1) [FIGURE 2: W1×C3 agreement across
-the joint sweep].
+Spearman ρ = **0.953** (Figures 1 and 2).
 
 **Figure 1.** The two maps, side by side (with-reuse build, 127 units;
 classical MDS of Burrows's Delta; equal aspect): (a) W1-500, word
@@ -291,16 +290,28 @@ adopted setting is the peak of measured cross-lens agreement, not a
 tuned free parameter.
 
 The sweep's two failure regimes are as informative as its plateau. W1 is
-stable from 80 to ~800 MFW (ρ ≥ 0.91 against the plateau ordering) and
-then collapses — 0.83 at 1500, 0.39 at 3000, 0.04 at 5000 — as the
-feature list leaves the shared vocabulary and fills with text-specific
-content words: the axis becomes a topic model and stops ordering.
-C3, by contrast, is nearly invariant from 250 to 12,000 features
-(ρ ≥ 0.95 between any two settings): sub-lexical features saturate the
-shared inventory early, and additional features add resolution, not
-topics. The asymmetry matters for practice: with sub-lexical features
-the feature-count knob is forgiving; with word features it is the
-difference between measuring usage and measuring subject matter.
+stable from 80 to ~800 MFW (ρ ≥ 0.94 against the adopted ordering,
+easing to 0.93 at 1500) and then collapses — 0.51 at 3000, 0.14 at
+5000 — as the feature list leaves the shared vocabulary and fills with
+text-specific content words: the axis becomes a topic model and stops
+ordering. C3, by contrast, is nearly invariant from 250 to 8,000
+features (ρ ≥ 0.95 between any two settings), easing to 0.83 at
+12,000: sub-lexical features saturate the shared inventory early, and
+added features long add resolution, not topics — even C3's eventual
+degradation is a gentle slope where W1's is a cliff. The asymmetry
+matters for practice: with sub-lexical features the feature-count knob
+is forgiving; with word features it is the difference between
+measuring usage and measuring subject matter.
+
+**Figure 2.** Cross-lens agreement across the joint sweep: Spearman ρ
+between the W1 axis at each feature count (rows) and the no-space C3
+axis at each (columns), 127 units. The adopted 500 × 500 cell
+(ρ = 0.953) is the grid maximum. The bottom rows are W1's cliff; the
+right column is C3's gentle easing; the faint re-convergence of
+W1-5000 with C3-12,000 (0.53) is the two lenses meeting again on
+shared *theme*, not language. *(file:
+`figures/fig2_convergence/fig2_convergence.pdf`; the grid and
+within-lens stability TSVs sit beside it)*
 
 ### 3.2 What the ordering does not depend on
 

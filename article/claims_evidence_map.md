@@ -92,12 +92,18 @@ signal but 12% of C3's; C3 is 61% word-interior morphology).
 `2026-08-16_a2_bridge_word_classes_in_c3.md`. Fig: convergence table;
 class signal-share table.
 
-**1.2 MFW robustness.** C3 x invariant 250–12000 (ρ ≥ 0.95 vs 5000);
-W1 plateau 80–800, cliff above ~1500 (content takeover); convergence ridge
-peaks at 500×500 (0.894 standard-C3 → 0.949 no-space). Terminology
-guardrail: say "most frequent words", not "function words" (top-80 already
-contains deva, dharma, śiva). → `2026-08-14_mfw_robustness_W1_C3.md`.
-Fig: W1×C3 cross-correlation heatmap; plateau/cliff tables.
+**1.2 MFW robustness — re-derived post-clean/no-space 2026-08-21
+(supersedes the 2026-08-14 note's pre-clean spaced-C3 values for the
+article).** C3-nospace x invariant 250–8,000 (ρ ≥ 0.95 between any two
+settings; 0.83 at 12,000); W1 plateau 80–800 (ρ ≥ 0.94 vs adopted 500;
+0.93 @1500), cliff 0.51 @3000 / 0.14 @5000; cross-lens grid peaks at
+500×500 = 0.953 (the grid maximum); corner re-convergence
+W1-5000×C3-12000 = 0.53 (theme, not language). Sources:
+`fig2_convergence/fig2_convergence_grid.tsv` + `fig2_within_lens.tsv`
+(from the committed sweep coords; C3-nospace coords now committed at
+all 8 settings). Terminology guardrail: say "most frequent words", not
+"function words" (top-80 already contains deva, dharma, śiva).
+Fig: **Figure 2 BUILT** (`fig2_convergence/`).
 
 **1.3 Metric robustness.** All standardization-based measures and L1-type
 measures reproduce the axis (ρ 0.95–1.00); only unstandardized
