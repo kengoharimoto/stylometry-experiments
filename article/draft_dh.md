@@ -794,22 +794,35 @@ geometric statement, and shows the chronology does not depend on it.
 A one-gradient corpus embedded by classical MDS is expected to bend the
 gradient into the second axis (the Guttman "horseshoe"), so before
 interpreting our second dimension we measured the arch: the quadratic
-fit of y on x explains R² = 0.018 (W1) and 0.007 (C3) — there is no
-horseshoe to subtract, a point worth registering given how routinely
-the arch is either invoked or ignored. The second dimensions of the two
-lenses agree at ρ = 0.82, so y is a real, shared property of the texts,
-and its covariates name it: at one pole, third-person enumerative
-cataloguing (list connectives, numeral vocabulary); at the other,
-second-person devotional address (optative share, devotional-vocabulary
-density, ρ up to −0.60). Coded covariates explain about half the rank
-variance (R² ≈ 0.45–0.55); the residue is register texture our codes
-do not capture. Two disciplining facts: sectarian *identity* (Śaiva
-versus Vaiṣṇava lexicon polarity) correlates with y at ≈ 0 — y measures
-devotional *density*, not which deity receives it; and nearness on y
-without nearness on x means register kinship, never date. The second
-axis is where the "community structure" of §6's gains lives, and
-treating it as a second chronology is the misreading this section
-exists to prevent.
+fit of y on x explains R² = 0.006 on the no-reuse trigram map (0.007
+with reuse; the word lens's no-reuse 0.174 is §7.2's length artifact
+resurfacing, not a horseshoe — one more reason this section, too, is
+trigram-led). There is no arch to subtract, a point worth registering
+given how routinely it is either invoked or ignored. The second
+dimensions of the two lenses agree at ρ = 0.69 on the no-reuse build
+(0.82 with reuse), so y is a real, shared property of the texts, and
+its covariates name it on both builds: at one pole, third-person
+enumerative cataloguing (list connectives, numeral vocabulary); at the
+other, second-person devotional address (devotional-vocabulary density
+−0.52, optative share −0.59 on the no-reuse trigram map, both robust
+to dropping sub-3k residues; up to −0.60 with reuse). Coded covariates
+explain about half the trigram rank variance on either build
+(R² ≈ 0.55–0.58); the rest is register texture our codes do not
+capture. Three disciplining facts. On residues, y inherits a length
+covariate (ρ ≈ −0.4, against ≈ −0.2 on full texts), so fine
+y-contrasts between very unequal residues are not read. Sectarian
+*identity* (Śaiva-versus-Vaiṣṇava lexicon polarity) correlates with y
+at ≈ 0 on the full texts, with a mild polarity (−0.33) appearing on
+residues: y measures devotional *density* first, which deity receives
+it a distant second. And nearness on y without nearness on x means
+register kinship, never date. One change under the strip is itself a
+finding: the Bhāgavata, the devotional pole's most famous occupant
+with reuse in, sits mid-plane on the no-reuse y (within a quarter
+standard deviation of the corpus, the sign disagreeing between
+lenses) — its devotional idiosyncrasy has moved wholesale to the third
+axis (§9.2). The second axis is where the "community structure" of
+§6's gains lives, and treating it as a second chronology is the
+misreading this section exists to prevent.
 
 ### 9.2 The third dimension is one text, and flat maps hide it
 

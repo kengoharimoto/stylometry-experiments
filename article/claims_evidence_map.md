@@ -261,9 +261,12 @@ explain — its own pāśupata block styles late under identical transmission).
 
 ## 5. Q3: the second axis
 
-**5.1 No arch.** y ~ quadratic(x): R² = 0.018 (W1) / 0.007 (C3) — the
-Guttman-horseshoe reading is dead on arrival; must be measured before
-interpreting y, and was. → `2026-08-16_axis_anatomy_a1_b1_b5.md`.
+**5.1 No arch.** y ~ quadratic(x): R² = 0.018 (W1) / 0.007 (C3)
+with-reuse; **no-reuse: C3 0.006, W1 0.174** (the R1 length artifact,
+not a horseshoe — quote it as such). The Guttman-horseshoe reading is
+dead on arrival; must be measured before interpreting y, and was.
+→ `2026-08-16_axis_anatomy_a1_b1_b5.md`; no-reuse values printed by
+`q3_y_covariates.py --noreuse` (2026-08-21).
 
 **5.2 Named, with its confidence stated.** Cross-lens ρ_y **0.82** raw
 (post-clean). Axis 2 = third-person enumerative cataloguing ↔
@@ -271,11 +274,21 @@ second-person devotional address. Strongest covariate: devotional-vocab
 *density* (C3 −0.60); sect polarity ~0 vs y (it loads on x instead);
 combined covariates explain about half the rank variance (R² 0.45–0.55).
 C4 within-family checks concur (ŚiP saṃhitās −0.62; optative share tops
-MBh/Rām). Write-up rule: name it "to the extent the lenses agree (ρ ≈ 0.8)";
+MBh/Rām). Write-up rule: name it "to the extent the lenses agree";
 **never a second chronology** — y-nearness without x-nearness is register
-kinship, not date. BhP anchors the devotional pole as a *register* fact,
-no date directional. → `2026-08-16_q3_y_axis_covariates.md`. Fig: covariate ×
+kinship, not date. → `2026-08-16_q3_y_axis_covariates.md`. Fig: covariate ×
 lens table with "vs x" contrast column.
+**No-reuse replication (2026-08-21,
+`axis_anatomy/q3_y_covariates_noreuse.tsv`, draft §9.1 numbers):**
+naming carries over (sect density −0.52, optative −0.59 on C3, robust
+to sub-3k drop; combined trigram R² 0.58) with four differences to
+state honestly: ρ_y 0.69 (vs 0.82); y inherits a length covariate on
+residues (≈ −0.4, W1 −0.59 — quote C3); sect polarity −0.33 on
+residues (≈0 only on full texts); and **the BhP no longer anchors the
+in-plane pole** (within 0.25 SD, sign lens-dependent — its identity
+moved to axis 3, tie to §5.3/§9.2). The old "BhP anchors the
+devotional pole" wording is with-reuse-only — do not use it for the
+no-reuse build.
 
 **5.3 The third axis (draft §9.2) — no-reuse-only reading (Kengo,
 2026-08-21).** All §9.2 statistics come from the no-reuse build:

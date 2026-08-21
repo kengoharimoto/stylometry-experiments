@@ -1,5 +1,18 @@
 # Q3: the y-axis has a name — enumerative catalogue vs devotional address
 
+> **Addendum 2026-08-21: replicated on the no-reuse build with
+> differences** — the register naming carries over (sect density
+> −0.54/−0.52, optative −0.58/−0.59, same poles, both lenses, robust
+> to dropping sub-3k residues), but cross-lens ρ_y falls to 0.69, the
+> **BhP no longer anchors the low pole in-plane** (±0.2 SD, sign
+> lens-dependent — its identity moved to axis 3, cf. A6), length
+> becomes a substantial covariate (−0.59 W1 / −0.41 C3, up from
+> ~−0.2), and sect *polarity* is no longer ≈0 (−0.33). Numbers:
+> `axis_anatomy/q3_y_covariates_noreuse.tsv` (+ per-unit TSV; script
+> `q3_y_covariates.py --noreuse`; arch R² printed there: C3 0.006, W1
+> 0.174 = the R1 length artifact). Draft §9.1 updated accordingly.
+> The with-reuse table below stands as the anatomy of the full texts.
+
 2026-08-16. The axis-anatomy plan's C-series covariate step, on the
 colophon-free corpus. Prerequisites already in hand: no arch (B5, R² ≤
 0.02), cross-lens y agreement 0.82 raw / 0.79 detrended, and B3's
