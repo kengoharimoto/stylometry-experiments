@@ -22,7 +22,7 @@ placeholders; bibliography to be assembled and verified.**
 
 ## Abstract (draft)
 
-Stylometry is more generally applied to author attribution: a bounded set of
+Stylometry is most commonly applied to author attribution: a bounded set of
 candidate authors, a disputed text, a verdict. We report a different kind
 of result on a harder kind of corpus. The Sanskrit epics and purāṇas —
 here 127 textual units totalling 4.5 million words — have no authors to
@@ -77,7 +77,7 @@ past usefulness.
 This paper argues the opposite, for a specific class
 of corpus: large, formulaic, anonymous traditions that accreted over
 centuries. In such corpora, if usage drifts slowly and cumulatively across generations
-of composers, they may expose a *diachronic* signal that single-author
+of composers, a *diachronic* signal may emerge that single-author
 corpora are too short-lived to show. The Sanskrit epic–purāṇic corpus is
 close to an ideal test case, for reasons both attractive and hostile.
 Attractive: it is enormous (our working corpus is 4.5 million words and
