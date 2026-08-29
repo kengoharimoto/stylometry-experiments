@@ -491,6 +491,20 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 9. Mārk 1–80 is the *latest* Mārk layer (the misattributed early claim is
    corrected in `sp_mark` — do not resurrect it).
 10. Report axis-1 share only together with the length diagnostic.
+11. **Departures from received chronology = problem-locators (Kengo,
+    2026-08-29).** Validation means independently *known* relative
+    order — the instrument passes every such case; never hedge that
+    with "generally". Where the ordering contradicts *received
+    opinion* (BhP placement, MBh/Rām precedence, earliest-purāṇa
+    order), frame the contradiction as landing where scholars had
+    already recorded reservations — the method locates where the
+    received chronology is soft. Never frame such departures as
+    validation failures. Kept general in the DH draft; the
+    Indological companion names the reservations.
+12. **Abstract generality (Kengo, 2026-08-29):** "chronology on a
+    corpus" stays general — śāstric experiments suggest the method
+    may transfer to philosophical texts; don't narrow it to
+    "authorless".
 
 ---
 

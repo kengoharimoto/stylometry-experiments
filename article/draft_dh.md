@@ -58,10 +58,14 @@ interpretable ways — the great compilations look later with their
 borrowed skin on — and we give the stripped map precedence for dating
 composition, with the trigram lens carrying it (on stripped residues,
 the word lens develops a length artifact that our own null-model
-diagnostic catches). The instrument generally validates on layers of
-independently known relative order and
-yields philologically consequential results, including a resolution of
-the axis into register and chronology components. We state throughout
+diagnostic catches). The instrument validates on layers of
+independently known relative order and yields philologically
+consequential results, including a resolution of the axis into
+register and chronology components. Where its ordering departs from
+received chronological opinion, the departures fall at points where
+scholars had already recorded reservations — so the method also serves
+as an instrument for locating where the problems of the received
+chronology lie. We state throughout
 what the method measures: the relative age of language states, which is
 not the same as the age of books.
 
@@ -145,7 +149,7 @@ is precisely to close the gap between "the corpus has a dominant axis"
 and "that axis is a chronology" — by construction (§3), by null models
 (§4), by mechanism (§6), and by external validation (§8).
 
-## 2. A corpus and the preprocessing it forces
+## 2. The corpus and the preprocessing it forces
 
 ### 2.1 What a stylometrist needs to know about Sanskrit transmission
 
@@ -838,7 +842,11 @@ chronology (§9): the instrument books register separately rather than
 folding it into the clock.
 
 **What the corpus says back.** Findings that clear the validation bar,
-stated at the instrument's resolution: (i) The Mahābhārata's four
+stated at the instrument's resolution. Each runs against a received
+view, and each lands where philology has already recorded hesitation —
+a pattern that gives the instrument a second use: not overturning
+chronologies by feature count, but locating where the received
+chronology's soft points lie. (i) The Mahābhārata's four
 closing books, merged into one ~17k-word block (individually they sit
 below the length floor), project at the extreme early pole on both
 lenses — with the apparatus experiment showing the constituted text
@@ -980,7 +988,10 @@ recipe
 yields an ordering that two near-disjoint witnesses agree on, that no
 tested confound explains, that behaves like autocorrelated loss, and
 that correctly orders every independently known relative sequence we
-could construct — on both chronologies. Its limits are equally definite:
+could construct — on both chronologies. Where it contradicts received
+opinion, it does so at points that were contested already — the
+ordering doubles as a map of where the received chronology is soft.
+Its limits are equally definite:
 a ~3,000-word
 resolution floor, blindness below the level of merged blocks, and the
 standing epistemic gap between language age and book age — a gap the
