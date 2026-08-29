@@ -23,12 +23,18 @@ placeholders; bibliography to be assembled and verified.**
 ## Abstract (draft)
 
 Stylometry is most commonly applied to author attribution: a bounded set of
-candidate authors, a disputed text, a verdict. We report a different kind
-of result on a harder kind of corpus. The Sanskrit epics and purāṇas —
+candidate authors, a disputed text, a verdict. We report an accidental
+discovery on a harder kind of corpus, and the verification it demanded.
+The Sanskrit epics and purāṇas —
 here 127 textual units totalling 4.5 million words — have no authors to
 attribute, grew by accretion over roughly a millennium, share large
 amounts of text verbatim, and reach us through editions whose
-orthography, word division, and paratexts are editorial, often with minimal philological care. We show that two
+orthography, word division, and paratexts are editorial, often with
+minimal philological care. An exploratory distance map of this corpus,
+built with no chronological question in view, nevertheless produced a
+dominant first axis that arranged the texts in an order philologists
+would recognize. This paper establishes that the axis is what it appears
+to be, and why. We show that two
 feature systems with almost no linguistic material in common — word
 frequencies computed on algorithmically de-sandhied text, and character
 trigrams computed on the undivided (not even spaces) sandhied stream — independently
