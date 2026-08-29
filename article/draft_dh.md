@@ -74,12 +74,22 @@ noise [Stamou 2008]. Ordering an entire *tradition*, where no author is
 available to hold style constant, would seem to compound the problem
 past usefulness.
 
-This paper argues the opposite, for a specific class
-of corpus: large, formulaic, anonymous traditions that accreted over
-centuries. In such corpora, if usage drifts slowly and cumulatively across generations
-of composers, a *diachronic* signal may emerge that single-author
-corpora are too short-lived to show. The Sanskrit epic–purāṇic corpus is
-close to an ideal test case, for reasons both attractive and hostile.
+What this paper reports is a discovery, not a thesis. The chronological
+axis at its centre was met by accident: an exploratory
+multidimensional-scaling map of the Sanskrit epic–purāṇic corpus, built
+from most-common-word distances with no chronological hypothesis in
+view, produced a dominant first axis that, on inspection, arranged the
+units in an order philology would recognize. Nothing in the design asked
+for time. The article is what taking that observation seriously
+demanded: establishing that the axis is not an artifact of how the
+corpus reaches us, and finding the mechanism that produces it. A
+rationale is available only in retrospect — in a large, formulaic,
+anonymous tradition that accreted over centuries, if usage drifts slowly
+and cumulatively across generations of composers, a *diachronic* signal
+may emerge that single-author corpora are too short-lived to show — but
+we found the axis first and the explanation after. The corpus that
+yielded the accident is also a good place to interrogate it, for reasons
+both attractive and hostile.
 Attractive: it is enormous (our working corpus is 4.5 million words and
 is a fraction of the whole), metrically and formulaically constrained
 (most of it is śloka verse), and philology has spent a century
