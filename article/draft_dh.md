@@ -23,15 +23,11 @@ publisher pages); venue reference style to be applied at submission.**
 
 ## Abstract (draft)
 
-Stylometry is most commonly applied to author attribution: a bounded set of
-candidate authors, a disputed text, a verdict. We report an accidental
-discovery on a harder kind of corpus, and the verification it demanded.
-The Sanskrit epics and purāṇas —
-here 127 textual units totalling 4.5 million words — have no authors to
-attribute, grew by accretion over roughly a millennium, share large
-amounts of text verbatim, and reach us through editions whose
-orthography, word division, and paratexts are editorial, often with
-minimal philological care. An exploratory distance map of this corpus,
+Stylometry is most commonly applied to author attribution. We report an accidental
+discovery that stylometry can reveal chronology on a corpus, and the verification it demanded.
+The Sanskrit epics and purāṇas — here 127 textual units totalling 4.5 million words —  grew by accretion over roughly a millennium, share large
+amounts of text verbatim, reach us through editions whose
+orthography, word division, and paratexts are editorial. Many of them are available in editions prepared with minimal philological care. An exploratory distance map of this corpus,
 built with no chronological question in view, nevertheless produced a
 dominant first axis that arranged the texts in an order philologists
 would recognize. This paper establishes that the axis is what it appears
@@ -59,10 +55,10 @@ borrowed skin on — and we give the stripped map precedence for dating
 composition, with the trigram lens carrying it (on stripped residues,
 the word lens develops a length artifact that our own null-model
 diagnostic catches). The
-instrument validates on layers of independently known relative order and
+instrument generally validates on layers of independently known relative order and
 yields philologically consequential results, including a resolution of
 the axis into register and chronology components. We state throughout
-what the method measures — the relative age of language states, which is
+what the method measures: the relative age of language states, which is
 not the same as the age of books.
 
 ---
@@ -145,7 +141,7 @@ is precisely to close the gap between "the corpus has a dominant axis"
 and "that axis is a chronology" — by construction (§3), by null models
 (§4), by mechanism (§6), and by external validation (§8).
 
-## 2. A hostile corpus, and the preprocessing it forces
+## 2. A corpus and the preprocessing it forces
 
 ### 2.1 What a stylometrist needs to know about Sanskrit transmission
 
@@ -155,7 +151,7 @@ word boundaries: *tataḥ* + *uvāca* surfaces as *tata uvāca*, *ca* + *api*
 as *cāpi*. Manuscripts compound the difficulty by writing without word
 division (*scriptio continua*); the spaces in a printed edition are the
 editor's analysis, not the tradition's testimony, and editorial habits
-differ by edition, era, and school. Above the letter, the transmitted
+differ by edition, era, and region. Above the letter, the transmitted
 stream is punctuated by *colophons* — chapter-closing formulas naming the
 work and section — which are paratext added and normalized by scribes,
 not composed text. A stylometric pipeline that tokenizes a printed
