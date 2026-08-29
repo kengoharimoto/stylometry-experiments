@@ -254,19 +254,15 @@ and treat "the headline survived the bug" — ours did — as luck, not
 vindication.
 
 **A preprocessing inconsistency detected by metric disagreement.** One
-text (the Nīlamatapurāṇa) arrived from an edition with sandhi
-editorially dissolved: ~19% of its word boundaries carried pausa forms
-against a corpus norm of ~2.5%. In raw-cosine MDS on character trigrams
-it was a spectacular outlier (nearest-neighbour distance 12.8× the
-corpus median); under Delta and other z-scoring measures it sat
-normally (1.5–1.9×). The divergence is principled — z-scoring subtracts
-the shared Zipfian head where orthographic convention lives, raw cosine
-does not — and it converts an embarrassment into an instrument:
-*disagreement between standardized and unstandardized metrics over a
-single text is a preprocessing-inconsistency detector*. (A silent
-secondary fault compounded the episode: an >85%-ASCII line filter meant
-to drop English contamination was eating a third of the text's genuine
-lines. Silent filters deserve per-file survival statistics.)
+text (the Nīlamatapurāṇa) arrived with sandhi editorially dissolved:
+~19% of its word boundaries carried pausa forms against a corpus norm
+of ~2.5%. In raw-cosine MDS on character trigrams it was a spectacular
+outlier (nearest-neighbour distance 12.8× the corpus median); under
+Delta it sat normally (1.5–1.9×), because z-scoring subtracts the
+shared Zipfian head where orthographic convention lives. The divergence
+converts an embarrassment into an instrument: *disagreement between
+standardized and unstandardized metrics over a single text is a
+preprocessing-inconsistency detector*.
 
 **Paratext with a directional bias.** Chapter colophons are only 0.9% of
 corpus words, but they are not noise: their density varies by genre
@@ -337,13 +333,11 @@ L1-family measures (Manhattan, Canberra, min-max) reproduce the axis at
 ρ = 0.95–1.00 at the adopted settings. Only unstandardized cosine and
 Euclidean distance blur it (0.81–0.91), for the textbook reason: without
 z-scoring, the Zipfian head dominates and the discriminative mid-ranks
-are drowned. Two cautions from the metric sweep deserve wider currency.
-First, the apparent robustness of unstandardized metrics to feature-set
+are drowned. One caution from the metric sweep deserves wider currency:
+the apparent robustness of unstandardized metrics to feature-set
 size (ρ = 0.99 across settings) is *robustness by deafness* — added
 features carry negligible weight, so nothing changes because nothing is
-heard. Second, Canberra shows the mirror pathology: its per-feature
-normalization amplifies rare features, so it holds at 500 features and
-degrades by 12,000 as content leaks in. Within the Delta family,
+heard. Within the Delta family,
 interchangeability is expected [Evert et al. 2017] and we count it as a
 consistency check, not independent confirmation.
 
@@ -355,11 +349,9 @@ extension; both directions; the removal itself validated by
 byte-reconstruction) and re-ran the full sweep. The ordering is
 unchanged: cross-build agreement is ρ = 0.98–0.99 on C3 (at 500 and
 1000 features) and ρ = 0.98 on W1 at 80–200 MFW, easing to 0.91 at
-W1-500 — the adopted setting sits at the edge of the reuse-stripped
-build's plateau, which narrows for a mechanical reason (removing
-parallels shrinks token counts, so the shared word inventory is
-exhausted at lower ranks), and on that build the sweep recommends
-W1 200–500; the ordering itself is the same across the plateau. The
+W1-500 — the stripped build's W1 plateau narrows mechanically (removing
+parallels shrinks token counts, exhausting the shared word inventory at
+lower ranks), and the ordering itself is the same across it. The
 collapsed high-MFW W1 regime, by contrast, *anti-correlates* across
 builds (−0.86 at 5000 MFW) — direct confirmation that beyond the cliff
 W1 measures the shared material itself, while below it the axis is
@@ -681,9 +673,8 @@ position is below the length floor.
 **The great compilations move early.** The largest moves of
 well-measured texts run toward the early pole: the Brahmāṇḍapurāṇa from
 the 63rd percentile to the 44th, its second khaṇḍa −12, the Śivapurāṇa's
-Dharmasaṃhitā −10 (the one named move whose intervals graze rather than
-separate, overlapping by 0.4 of a percentile), the Mārkaṇḍeya −6, and —
-smaller but CI-clean — the
+Dharmasaṃhitā −10 (the grazing case of Table 1), the Mārkaṇḍeya −6,
+and — smaller but CI-clean — the
 two giant compilations, Padma (48 → 44) and Bhaviṣya (64 → 61). Read
 with §7.1: what these texts absorbed sits, on average, *later* than what
 their compilers wrote. The Śivadharma corpus makes the mechanism
