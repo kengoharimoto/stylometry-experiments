@@ -212,14 +212,29 @@ Classification hand-review mooted by perturbation check (max Δρ 0.031);
 Kengo reviews the printed table only. → `2026-08-16_a2_class_decomposition.md`,
 `_a2_bridge_word_classes_in_c3.md`. Fig: the two decomposition tables (Q1 centerpiece).
 
-**3.3 A3 minimal sufficient set — NOT RUN.** Plan item (greedy forward
-selection, split-half guarded). Largely superseded by A2's redundancy
-result; decide: run cheaply for a "here are 20 features you can check by
-eye" exhibit, or drop. → decision open.
+**3.3 A3 minimal sufficient set — RUN 2026-08-29 (for the Indological
+companion; the DH draft does not cite it).** Verdict: **the axis
+resists compression** — greedy selection (half-split guarded) never
+reaches holdout ρ 0.95 on W1; holdout peaks at k = 7 (0.9165 held-out,
+0.9513 full-corpus: ādi, adya, rājānam, sma, jñānam, mama, dattvā) and
+overfits beyond. Corroborates A1/A2 redundancy from a third direction.
+C3 compresses to 3 trigrams (rāj, tāṃ, ātr; holdout 0.9585) — but a
+trigram is a feature *family*, quote only with that caveat.
+→ `axis_anatomy/a3_minimal_set.py`, `a3_minimal_set_{W1,C3}.tsv`,
+`2026-08-29_a3_a5_minimal_set_text_anatomy.md`.
 
-**3.4 A5 per-text anatomy — NOT RUN.** Per-feature Delta contributions for
-the texts the prose features (closing-parvans block, PPL I, old SP, BhP,
-Śivadharma pair). Run after outlines fix which texts get worked examples.
+**3.4 A5 per-text anatomy — RUN 2026-08-29 (for the Indological
+companion; the DH draft does not cite it).** contribution = z × loading
+per feature per featured text (PPL I/ungrouped, old SP, ŚDh, ŚDhU,
+merged MBh 15–18, merged BhP-12); the weighted z-sum proxies the axis
+at ρ 0.9953 (W1) / 0.9956 (C3). Headlines: old SP early = narrative
+anaphora/simile machinery; closing block = court + frame-dialogue
+vocabulary; ŚDh late = sectarian-ritual stratum (but survives the 1.5
+strike — names what carries, not what it reduces to); BhP early-ward
+pull is part presence of dialogue vocabulary, part *absence* of late
+prescriptive machinery (symmetric wording gate applies).
+→ `axis_anatomy/a5_text_anatomy.py`, `a5_text_anatomy_{W1,C3}.tsv`,
+same note.
 
 ---
 
@@ -489,8 +504,8 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | ~~R3~~ | DONE 2026-08-19. PPL bands + E1 carry over; genre control then DROPPED as circular (Kengo) — §6.4 now carries the strip-first replacement defense | — | — |
 | ~~R4~~ | RESOLVED 2026-08-19 (Kengo): borrowed mass drags toward the sources' position; Śivadharma-incorporators late-ward | — | — |
 | ~~A6~~ | DONE 2026-08-19: `figures/mds3d/axis3_stats.tsv` (axis3_analysis.py) — citable axis-3/BhP numbers | — | — |
-| A5 | per-feature anatomy of featured texts | session | worked-example boxes |
-| A3 | minimal sufficient set | decision: run cheap or drop | optional Q1 exhibit |
+| ~~A5~~ | DONE 2026-08-29 — `a5_text_anatomy_{W1,C3}.tsv`, feeds the Indological companion's worked-example boxes (§3.4) | — | — |
+| ~~A3~~ | DONE 2026-08-29 — axis resists compression; 7-feature honest exhibit if wanted (§3.3) | — | — |
 | E1-full | Belvalkar print apparatus (OCR) | optional | strengthens 4.2 magnitudes |
 | B1 re-run | jackknife on post-clean corpus | optional, cheap | footnote hygiene |
 | Venue | pick from outline variants | Kengo | everything downstream |
