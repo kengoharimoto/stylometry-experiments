@@ -23,11 +23,15 @@ publisher pages); venue reference style to be applied at submission.**
 
 ## Abstract (draft)
 
-Stylometry is most commonly applied to author attribution. We report an accidental
-discovery that stylometry can reveal chronology on a corpus, and the verification it demanded.
-The Sanskrit epics and purāṇas — here 127 textual units totalling 4.5 million words —  grew by accretion over roughly a millennium, share large
-amounts of text verbatim, reach us through editions whose
-orthography, word division, and paratexts are editorial. Many of them are available in editions prepared with minimal philological care. An exploratory distance map of this corpus,
+Stylometry is most commonly applied to author attribution. We report
+an accidental discovery that stylometry can reveal chronology on a
+corpus, and the verification it demanded. The Sanskrit epics and
+purāṇas — here 127 textual units totalling 4.5 million words — grew by
+accretion over roughly a millennium, share large amounts of text
+verbatim, and reach us through editions whose orthography, word
+division, and paratexts are editorial. Many of them are available in
+editions prepared with minimal philological care. An exploratory
+distance map of this corpus,
 built with no chronological question in view, nevertheless produced a
 dominant first axis that arranged the texts in an order philologists
 would recognize. This paper establishes that the axis is what it appears
@@ -54,8 +58,8 @@ interpretable ways — the great compilations look later with their
 borrowed skin on — and we give the stripped map precedence for dating
 composition, with the trigram lens carrying it (on stripped residues,
 the word lens develops a length artifact that our own null-model
-diagnostic catches). The
-instrument generally validates on layers of independently known relative order and
+diagnostic catches). The instrument generally validates on layers of
+independently known relative order and
 yields philologically consequential results, including a resolution of
 the axis into register and chronology components. We state throughout
 what the method measures: the relative age of language states, which is
