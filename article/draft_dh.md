@@ -946,8 +946,10 @@ limited to the flattening we chose.
 
 ## 10. Conclusion
 
-For authorless, accreting, editorially mediated corpora, we propose a
-chronology-capable stylometric recipe with six components: two feature
+What we met as an accident we leave as a method. For authorless,
+accreting, editorially mediated corpora, the verification our discovered
+axis demanded distills into a chronology-capable stylometric recipe with
+six components: two feature
 systems engineered to inherit different mixtures of composer, scribe,
 and editor, whose agreement is the measurement (§2); robustness sweeps
 that seek out the failure regimes and read them (§3); fixed-map
