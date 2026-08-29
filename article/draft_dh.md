@@ -13,8 +13,9 @@ updated). Reframe numbers verified against
 `mds3d/axis3_stats.tsv` + `mds3d/flattened_pairs.tsv` (§9.2 rewritten
 no-reuse-only 2026-08-21; exhibit now Bh2~Vi3 on C3 no-reuse). Earlier verification (2026-08-17): §4
 null-model shares, §6 retention correlations, §8 E1/stratigraphy values
-against the post-colophon-clean TSVs. Citations are author-year
-placeholders; bibliography to be assembled and verified.**
+against the post-colophon-clean TSVs. Bibliography assembled and
+verified 2026-08-29 (records checked against ACL Anthology / OUP /
+publisher pages); venue reference style to be applied at submission.**
 
 **Target:** DSH / Journal of Cultural Analytics (per `outline_dh.md`).
 
@@ -72,7 +73,7 @@ Computational stylometry earned its credibility on authorship. Given a
 disputed document and a closed set of candidates, features as unassuming
 as the frequencies of the most common words separate hands with a
 reliability that has survived two decades of adversarial testing
-[Burrows 2002; Juola 2006; Evert et al. 2017]. Chronology is the rarer
+[Burrows 2002; Juola 2006; Rybicki & Eder 2011; Evert et al. 2017]. Chronology is the rarer
 and harder target. Intra-author stylochronometry — ordering one writer's
 works along their lifetime — has a literature but also a warning label:
 the signal is weak, genre-entangled, and easily overwhelmed by editorial
@@ -170,9 +171,9 @@ agreement, not either one alone, as the measurement.
 ### 2.2 The two lenses
 
 **W1 (words, de-sandhied).** We resolve sandhi computationally with a
-byte-level sequence-to-sequence model (ByT5) fine-tuned for Sanskrit
-sandhi resolution, run offline in int8 quantization over the full corpus
-[CITE: unsandhi model]. The output is a word-segmented text on which we
+byte-level sequence-to-sequence model (ByT5 [Xue et al. 2022])
+fine-tuned for Sanskrit sandhi resolution [Nehrdich et al. 2024], run
+offline in int8 quantization over the full corpus. The output is a word-segmented text on which we
 count word unigrams and keep the 500 most frequent words (MFW) as
 features. We say "most frequent words" and not "function words"
 deliberately: in a śloka corpus the top 500 contains, alongside genuine
@@ -212,7 +213,9 @@ appendix blocks as separate units, whole purāṇas or their major
 divisions, a small śāstra/ritual outgroup, and the seven text-group
 units of Kirfel's constituted *Purāṇapañcalakṣaṇa* reconstruction
 [Kirfel 1927], included as first-class units because §8's validation
-turns on them.
+turns on them. The source e-texts derive from the GRETIL archive
+[GRETIL], from critical-edition e-text lineages, and from OCR of
+printed editions.
 
 ### 2.3 Why two lenses constitute two witnesses
 
@@ -239,7 +242,8 @@ non-Latin-script or editorially mediated corpora, and we report them as
 methods results rather than confessions.
 
 **Tokenization silently mutilated by locale assumptions.** R stylo
-0.7.5 with `corpus.lang = "English.all"` treats the Latin Extended
+0.7.5 [Eder, Rybicki & Kestemont 2016] with `corpus.lang =
+"English.all"` treats the Latin Extended
 Additional block (U+1E00–U+1EFF: ṣ, ṭ, ḍ, ṇ, ḥ, ṃ, ṛ) as word
 separators while passing Latin Extended-A (ā, ī, ś) — so every IAST
 token containing a retroflex or visarga was split into fragments
@@ -426,7 +430,9 @@ agreement — the paper's central device — offers no protection against
 it, and it must be bounded directly. Window-resampling experiments
 (contiguous windows of 1k–10k words drawn from long texts) show the two
 lenses failing in different but equally disqualifying ways below a few
-thousand words: W1 positions keep a stable mean but explode in variance
+thousand words — a floor consistent with what attribution studies
+report for small samples [Eder 2015]: W1 positions keep a stable mean
+but explode in variance
 (single 1k windows of one mid-corpus text span half the axis); C3
 positions drift systematically with window size. We therefore treat
 every unit below ~3,000 words as an *uncertainty region* — its
@@ -730,8 +736,9 @@ Absolute dates cannot validate this instrument — the corpus has few to
 none. Relative order can, because philology has established some
 orderings that are independent of anything our features see.
 
-**Known-later material measures later.** The Critical Editions of the
-Mahābhārata mark material excluded from the constituted text — passages
+**Known-later material measures later.** The Critical Edition of the
+Mahābhārata [Sukthankar et al. 1933–1966] marks material excluded from
+the constituted text — passages
 the editors judged, on manuscript-stemmatic grounds, to be later
 accretions. We rebuilt, for five books, three objects: the constituted
 text, the apparatus material alone, and the augmented (vulgate-like)
@@ -827,9 +834,10 @@ chronology essentially unchanged — the four books share little text with
 the rest of the corpus (88–95% of their trigram mass survives the
 strip), and their residues stay at the early pole (percentiles 1–8).
 (ii) The old Skandapurāṇa — transmitted in
-Nepalese manuscripts of the ninth century — projects earlier than the
+Nepalese manuscripts of the ninth century [Adriaensen et al. 1998] —
+projects earlier than the
 Mārkaṇḍeyapurāṇa as a whole on both lenses with separated confidence
-intervals, against the received relative dating. On the no-reuse
+intervals, against the received relative dating [Hazra 1940]. On the no-reuse
 chronology the direction holds but the gap narrows (SP 29 [27, 32],
 Mārk 32 [28, 35]): the Mārkaṇḍeya is one of §7's early-ward movers, and
 what separates the two texts with reuse included is partly the
@@ -969,9 +977,73 @@ mostly fade, together.
 
 ---
 
-*[Bibliography to assemble: Burrows 2002; Juola 2006; Stamou 2008;
-Evert et al. 2017; Eder (corpus-size and non-English Delta); Swadesh
-1955; Nicholls & Gray 2008; Oberlies 2003; Kirfel 1927; plus Sanskrit
-NLP citations (ByT5 sandhi model, digital corpora) and the
-philological apparatus for §8's cases. All author-year pairs above are
-placeholders pending verification.]*
+## References
+
+Adriaensen, R., Bakker, H. T. and Isaacson, H. (1998). *The
+Skandapurāṇa, Volume I: Adhyāyas 1–25. Critically Edited with
+Prolegomena and English Synopsis*. Groningen: Egbert Forsten.
+
+Burrows, J. (2002). 'Delta': a measure of stylistic difference and a
+guide to likely authorship. *Literary and Linguistic Computing*,
+17(3): 267–287.
+
+Eder, M. (2015). Does size matter? Authorship attribution, small
+samples, big problem. *Digital Scholarship in the Humanities*, 30(2):
+167–182.
+
+Eder, M., Rybicki, J. and Kestemont, M. (2016). Stylometry with R: a
+package for computational text analysis. *The R Journal*, 8(1):
+107–121.
+
+Evert, S., Proisl, T., Jannidis, F., Reger, I., Pielström, S., Schöch,
+C. and Vitt, T. (2017). Understanding and explaining Delta measures
+for authorship attribution. *Digital Scholarship in the Humanities*,
+32(suppl. 2): ii4–ii16.
+
+GRETIL. *Göttingen Register of Electronic Texts in Indian Languages*.
+Niedersächsische Staats- und Universitätsbibliothek Göttingen.
+https://gretil.sub.uni-goettingen.de/ (accessed August 2026).
+
+Hazra, R. C. (1940). *Studies in the Purāṇic Records on Hindu Rites
+and Customs*. Dacca: University of Dacca.
+
+Juola, P. (2006). Authorship attribution. *Foundations and Trends in
+Information Retrieval*, 1(3): 233–334.
+
+Kirfel, W. (1927). *Das Purāṇa Pañcalakṣaṇa: Versuch einer
+Textgeschichte*. Bonn: Kurt Schroeder.
+
+Nehrdich, S., Hellwig, O. and Keutzer, K. (2024). One model is all you
+need: ByT5-Sanskrit, a unified model for Sanskrit NLP tasks. In
+Al-Onaizan, Y., Bansal, M. and Chen, Y.-N. (eds), *Findings of the
+Association for Computational Linguistics: EMNLP 2024*. Miami:
+Association for Computational Linguistics, pp. 13742–13751.
+
+Nicholls, G. K. and Gray, R. D. (2008). Dated ancestral trees from
+binary trait data and their application to the diversification of
+languages. *Journal of the Royal Statistical Society: Series B*,
+70(3): 545–566.
+
+Oberlies, T. (2003). *A Grammar of Epic Sanskrit* (Indian Philology
+and South Asian Studies 5). Berlin: Walter de Gruyter.
+
+Rybicki, J. and Eder, M. (2011). Deeper Delta across genres and
+languages: do we really need the most frequent words? *Literary and
+Linguistic Computing*, 26(3): 315–321.
+
+Stamou, C. (2008). Stylochronometry: stylistic development, sequence
+of composition, and relative dating. *Literary and Linguistic
+Computing*, 23(2): 181–199.
+
+Sukthankar, V. S., Belvalkar, S. K., Vaidya, P. L. et al. (eds)
+(1933–1966). *The Mahābhārata, for the First Time Critically Edited*.
+19 vols. Poona: Bhandarkar Oriental Research Institute.
+
+Swadesh, M. (1955). Towards greater accuracy in lexicostatistic
+dating. *International Journal of American Linguistics*, 21(2):
+121–137.
+
+Xue, L., Barua, A., Constant, N., Al-Rfou, R., Narang, S., Kale, M.,
+Roberts, A. and Raffel, C. (2022). ByT5: towards a token-free future
+with pre-trained byte-to-byte models. *Transactions of the
+Association for Computational Linguistics*, 10: 291–306.
