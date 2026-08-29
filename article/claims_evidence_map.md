@@ -164,10 +164,15 @@ splitting silently mutilated IAST; survived-anyway robustness anecdote.
 
 ## 2. Q2(a): why a drift axis emerges (mechanics)
 
-**2.1 B1 variance anatomy.** Axis-1 share 13.4% (W1) / 10.6% (C3), spectrum
+**2.1 B1 variance anatomy.** Axis-1 share 13.4% (W1) / 10.2% (C3), spectrum
 fat-tailed; jackknife over all 127 deletions ρ ≥ 0.983; leverage suspects
-(śāstra outgroup, Śivadharma pair) cleared. C3's 1:2 ratio is 1.13 —
-near-degenerate, which licenses B3's top-2-plane comparisons.
+(śāstra outgroup, Śivadharma pair) cleared. Near-degenerate C3 1:2 ratio
+licenses B3's top-2-plane comparisons. **Citable spectrum numbers
+(2026-08-29 audit): the committed post-clean TSVs
+`axis_anatomy/b2_models_{W1,C3}_500.tsv` — real ratio12 W1 1.68 / C3
+1.07, shares 13.4% / 10.2% (the draft quotes these). The B1 note's
+13.5%/1.69 (W1) and 10.6%/1.13 (C3) are the earlier B1 spectrum — don't
+quote it against the draft.**
 → `2026-08-16_axis_anatomy_a1_b1_b5.md` (jackknife pre-clean).
 
 **2.2 B2 null models (the methodological centerpiece).** Exchangeable null:
@@ -237,8 +242,15 @@ reframe note. W1+noreuse is refused by the script (R1 gate).
 
 **4.2 E1: known-order layers (validation as a layer-dating instrument).**
 CE-excluded apparatus is uniformly later-styled than its constituted text,
-both lenses, every augmented unit moves lateward (MBh 18 apparatus
-62 [46,76] W1; MBh 13 control 55 [53,59]). Lower bounds (e-text subset,
+both lenses, every augmented unit moves lateward. **Citable with-reuse W1
+values (2026-08-29 audit) = the committed `e1_apparatus/
+e1_apparatus_W1_500.tsv`: MBh 18 apparatus 65.1 [47.6, 81.0] vs
+constituted 4.8 (map percentile, `coords_W1_mfw500.tsv`); MBh 13 control
+57.1 [56.3, 61.1] vs 35.7 — the draft's 65 [48, 81] vs 5 and 57 [56, 61]
+vs 36. The 2026-08-14 note's 62 [46,76] / 55 [53,59] / const 33 are
+pre-clean — don't quote them against the draft. No-reuse constituted
+comparators follow the citation pin in the reframe note (31/8 from
+`unit_ci_C3_noreuse.tsv`).** Lower bounds (e-text subset,
 not Belvalkar's full print apparatus). E1 cannot arbitrate "early
 composition" vs "looks early". → `2026-08-14_e1_apparatus_experiment.md`
 (+ no-space conversions in the rerun note). Fig: 5-row CI table; dumbbell plot.
@@ -343,8 +355,13 @@ Brockington's late-epilogue verdict about their status as *books*.
 
 **6.2 PPL priority (stage 1 of the theory).** PPL Textgruppe I + ungrouped
 hold linguistic priority: pct 22–28 both lenses, CI-backed; late
-Textgruppen sort to Kirfel's own grouping (Ia 61, III 73, IIB 87, IIA 93
-on no-space C3). The Vāyu is a late-idiom composition embedding a
+Textgruppen sort to Kirfel's own grouping. **Citable band values
+(2026-08-29 audit) = committed post-clean coords: early I/ungrouped/II
+W1 23.0/23.8/37.3, C3 28.6/25.4/31.7 (draft: "23–37", I+ungrouped
+"23–29"); late Ia/III/IIB/IIA W1 48.4/76.2/72.2/78.6, C3
+65.9/76.2/92.9/95.2 (draft: "48–79 W1, 66–95 C3"). The earlier "Ia 61,
+III 73, IIB 87, IIA 93" C3 transcription is stale — don't quote it
+against the draft.** The Vāyu is a late-idiom composition embedding a
 genuinely archaic genealogical stratum — "its reputation for antiquity is
 its cargo, not its voice." Counter-cases to print: V1 cosmogony reversal
 (real, C3-suggestive); ViP paraphrase reversal (W1-led) — the ViP reworks
