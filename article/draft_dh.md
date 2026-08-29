@@ -168,6 +168,22 @@ particular mixture of those three hands. Our response is to build two
 featurizations that inherit *different* mixtures — and to treat their
 agreement, not either one alone, as the measurement.
 
+The fourth thing the corpus does to a stylometrist operates above the
+level of the letter: the texts absorb one another. Whole genealogical
+chapters circulate across purāṇas nearly verbatim, and entire works
+were swallowed by growing compilations. For a chronological
+measurement this reuse is not noise but a directional confound, and it
+pulls both ways: early material incorporated into a late compilation
+drags the compilation's measured language earlier, while late layers
+deposited into an early core drag the core later. A position measured
+on the intact corpus is therefore the center of mass of a mixture
+whose components can lie centuries apart. The design response is again
+to measure twice: every chronology in this paper is computed both on
+the corpus as transmitted and on a build with the shared text stripped
+(§3.2, §7) — and this two-way pull is why, when the two disagree about
+when a text was *composed*, the stripped build takes precedence
+(§7.4).
+
 ### 2.2 The two lenses
 
 **W1 (words, de-sandhied).** We resolve sandhi computationally with a
@@ -345,9 +361,8 @@ heard. Within the Delta family,
 interchangeability is expected [Evert et al. 2017] and we count it as a
 consistency check, not independent confirmation.
 
-**Verbatim reuse.** This corpus shares text on a scale that makes reuse
-the first objection to any similarity result: whole genealogical
-chapters circulate across purāṇas nearly verbatim. We rebuilt the corpus
+**Verbatim reuse.** The wholesale reuse named in §2.1 is the first
+objection to any similarity result on this corpus. We rebuilt the corpus
 with cross-text verbatim reuse removed (shingle matching with fuzzy
 extension; both directions; the removal itself validated by
 byte-reconstruction) and re-ran the full sweep. The ordering is
@@ -602,9 +617,10 @@ scholastic commentary chains — is a candidate.
 
 ### 7.1 Why one map is not enough
 
-Section 3.2 established that the ordering survives the removal of shared
-text; this section argues that the *differences* between the two maps
-are themselves the finding. A purāṇa as transmitted is a mixture: the
+Section 2.1 named wholesale reuse as the corpus's fourth pathology and
+stated its two-way chronological pull; §3.2 established that the
+ordering survives the removal of shared text. This section argues that
+the *differences* between the two maps are themselves the finding. A purāṇa as transmitted is a mixture: the
 compilers' own composition plus everything the tradition deposited into
 it — inherited cores, migrating māhātmyas, wholesale incorporations of
 other works. Its position on the with-reuse map is the center
