@@ -22,7 +22,7 @@ placeholders; bibliography to be assembled and verified.**
 
 ## Abstract (draft)
 
-Stylometry's standard successes are attributions: a bounded set of
+Stylometry is more generally applied to author attribution: a bounded set of
 candidate authors, a disputed text, a verdict. We report a different kind
 of result on a harder kind of corpus. The Sanskrit epics and purāṇas —
 here 127 textual units totalling 4.5 million words — have no authors to
@@ -74,10 +74,9 @@ noise [Stamou 2008]. Ordering an entire *tradition*, where no author is
 available to hold style constant, would seem to compound the problem
 past usefulness.
 
-This paper argues the opposite, for a specific and well-motivated class
+This paper argues the opposite, for a specific class
 of corpus: large, formulaic, anonymous traditions that accreted over
-centuries. Such corpora surrender the authorship signal entirely — and
-in exchange, if usage drifts slowly and cumulatively across generations
+centuries. In such corpora, if usage drifts slowly and cumulatively across generations
 of composers, they may expose a *diachronic* signal that single-author
 corpora are too short-lived to show. The Sanskrit epic–purāṇic corpus is
 close to an ideal test case, for reasons both attractive and hostile.
