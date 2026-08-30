@@ -99,6 +99,23 @@ committed (dd2c526), so waffle picks the fix up via git pull — only
 the untracked nospace corpora need rebuilding there
 (`build_nospace_sandhied_corpus.py`, deterministic).
 
+**PIPELINE REFRESH 2026-08-30 (post-paratext-fix).** Every derived
+artifact regenerated on the fixed corpora and the text updated to
+the new values: article frames (raw ρ ≥ 0.999 vs old), unit_ci
+bootstrap (all four lens × build runs, B = 500), movers/drag table
+(now 15 CI-separated: Dharmasaṃhitā separates cleanly, PPL IIB /
+Kūrma 2 / Rām 6 fall back inside their intervals, Vāyu-upasaṃhāra†
+and MBh 13 Anuśāsana enter), null battery, jackknife, class
+decomposition, loading tables, retention sweep, multi-method, q3,
+axis-3 + flattened pairs, E1, name-strikes, sweeps + Fig 1/Fig 2,
+metric battery, stylo cross-validation (1.0000 again). The stage-2/3
+log values above are superseded dated records; the text carries only
+refreshed numbers. One substantive correction found en route: the
+§3.1 "cliff disappears without reuse" claim conflated raw axis-1
+with the aligned plane — restated as axis *demotion* (raw 0.49
+no-reuse vs 0.14 with-reuse at 5000 MFW, usurper anti-correlated
+−0.87 across builds, plane retains ordering 0.92–0.94 on both).
+
 **STILL OPEN:** the Agni also carries ~130 per-adhyāya topic-title
 lines (endings -kathanaṃ, -vidhiḥ, -vidhānaṃ, -varṇanaṃ, -vratāni,
 …) tangled with ~300 genuine unspaced verse pādas — no safe generic
@@ -489,40 +506,43 @@ via `fig1_map_pair.py`)*
 A full grid sweep (W1 from 30 to 5000 MFW; C3 from 250 to 12,000
 features) locates a broad agreement plateau at moderate feature
 counts: ρ = 0.93–0.94 everywhere from W1-500 to W1-1500 against C3
-from 1000 to 5000, with the adopted 500 × 500 cell at 0.930 and the
-grid maximum, 0.936, at W1-800 × C3-3000. The adopted setting sits
-on the plateau, within 0.006 of the maximum; nothing turns on the
+from 1000 to 5000, with the adopted 500 × 500 cell at 0.929 and the
+grid maximum, 0.937, at W1-800 × C3-3000. The adopted setting sits
+on the plateau, within 0.008 of the maximum; nothing turns on the
 choice of cell, which is the point — the agreement is a property of
 the plateau, not of a tuned free parameter.
 
 The sweep's edges are as informative as its plateau. C3 is nearly
-invariant from 250 to 5000 features (ρ ≥ 0.93 against the adopted
-setting), easing at 8000 (0.88) and 12,000 (0.79): sub-lexical
+invariant from 250 to 5000 features (ρ ≥ 0.92 against the adopted
+setting), easing at 8000 (0.87) and 12,000 (0.78): sub-lexical
 features saturate the shared inventory early, and added features
 long add resolution, not topics. W1 needs a few hundred MFW to
-stabilize (0.89 at 30 MFW, 0.98 from 200 up) and degrades only
-gently at the high end (0.92 at 5000 against W1-500). That
-gentleness is itself a finding about reuse: with the shared text
-left in, W1 at high feature counts collapses spectacularly (its axis
-agrees with the adopted ordering at 0.14 at 5000 MFW) as the feature
-list fills with text-specific content words and the axis turns into
-a topic model — and §7.1 shows that what that topic model was
-measuring is precisely the reuse: across builds the high-MFW
-orderings *anti-correlate* (−0.86). On a corpus that carries its
-neighbors' words, a word-frequency axis at high feature counts
-measures who copied whom; strip the copying and the cliff
-disappears. The practical asymmetry stands, but for a sharpened
-reason: with sub-lexical features the feature-count knob is
-forgiving; with word features it is the difference between measuring
-usage and measuring subject matter — and on a high-reuse corpus,
-"subject matter" means the shared material itself.
+stabilize (0.98 from 200 up) and, read in the aligned plane, holds
+at the high end too (0.93 at 5000 against W1-500). But "read in the
+aligned plane" is doing work there, and unpacking it is a result.
+At high feature counts the drift gradient is *demoted* from W1's
+first axis: read raw, the first axis of a W1-5000 map tracks the
+adopted ordering at only 0.49 — some other contrast has grown as
+strong. With the shared text left in, the demotion is a coup: the
+raw first axis falls to 0.14, and the axis that usurps it
+*anti-correlates* with its no-reuse counterpart (−0.87) — what
+surfaces as the dominant axis of a high-MFW word map, on a corpus
+that carries its neighbors' words, is the shared material itself:
+the map measures who copied whom. The ordering survives in the
+top-2 plane even then (0.94 after alignment), but an analyst
+reading raw first axes — the usual practice — would be measuring
+reuse and calling it style. The practical asymmetry follows: with
+sub-lexical features the feature-count knob is forgiving; with word
+features, moderate counts are what keep the drift gradient on the
+first axis, and on a high-reuse corpus the high-MFW usurper is the
+reuse.
 
 **Figure 2.** Cross-lens agreement across the joint sweep: Spearman ρ
 between the W1 axis at each feature count (rows) and the no-space C3
 axis at each (columns), no-reuse build, all configurations
 Procrustes-aligned to the article frame before comparison. The
-adopted 500 × 500 cell (ρ = 0.930) is outlined; the grid maximum is
-0.936 at W1-800 × C3-3000. *(file:
+adopted 500 × 500 cell (ρ = 0.929) is outlined; the grid maximum is
+0.937 at W1-800 × C3-3000. *(file:
 `figures/fig2_convergence/fig2_convergence.pdf`, regenerated on the
 no-reuse build 2026-08-30; grid and within-lens stability TSVs sit
 beside it)*
@@ -534,14 +554,10 @@ beside it)*
 measures (Manhattan, Canberra, min-max) reproduce the axis at
 ρ = 0.98–1.00 at the adopted settings (Würzburg cosine Delta: 0.90).
 Unstandardized cosine and Euclidean distance do not merely blur it —
-they lose it (0.26 and 0.63) — for the textbook reason: without
+they lose it (0.27 and 0.62) — for the textbook reason: without
 z-scoring, the Zipfian head dominates and the discriminative
 mid-ranks are drowned, and on residues of very unequal size the
-drowning is total. (On the with-reuse build the same metrics had
-shown a deceptive stability across feature-set sizes — robustness by
-deafness, added features carrying negligible weight; on residues
-they are not even stable, agreeing with themselves across settings
-at only ρ ≈ 0.5.) Within the Delta family, interchangeability is
+drowning is total. Within the Delta family, interchangeability is
 expected [Evert et al. 2017] and we count it as a consistency check,
 not independent confirmation.
 
@@ -552,7 +568,7 @@ baseline; striking 70 names plus ritual and sectarian lexemes leaves
 0.9952. A trigram-level analogue strikes every trigram that occurs
 inside any listed lexeme — deliberately over-broad, removing 105–160
 of C3's 500 features including generic strings that merely occur
-inside a name — and leaves 0.9836 and 0.9798. The ordering is not a
+inside a name — and leaves 0.9828 and 0.9790. The ordering is not a
 disguised sectarian sorting.
 
 **Implementation.** The full C3 pipeline — feature list, frequency
@@ -566,27 +582,27 @@ implementation" can silently fail to be one; the replication was run
 with the tokenizer verified.
 
 **Single texts.** Deleting any one of the 126 units (with feature
-refill and recomputation) leaves the axis at ρ ≥ 0.991 (median
-0.999); deleting the two highest-leverage groups a referee would
-nominate — the śāstra outgroup and the late Śivadharma pair that
-anchors the far end — leaves ρ ≥ 0.993, singly or together. No small
-set of texts carries the axis.
+refill and recomputation) leaves the axis at ρ ≥ 0.991; deleting the
+two highest-leverage groups a referee would nominate — the śāstra
+outgroup and the late Śivadharma pair that anchors the far end —
+leaves ρ ≥ 0.992, singly or together. No small set of texts carries
+the axis.
 
 ### 3.3 What the ordering is made of
 
-The axis is not a few-feature artifact: only 5 of the 500 features
-correlate with it at |ρ| ≥ 0.7 (41 at ≥ 0.5; the median per-feature
-|ρ| is 0.205).
+The axis is not a few-feature artifact: only 3 of the 500 features
+correlate with it at |ρ| ≥ 0.7 (39 at ≥ 0.5; the median per-feature
+|ρ| is 0.203).
 A class decomposition — classifying every trigram by its position in
 the word (interior, initial, final, junction-spanning) and by the
 class of its source word, then computing the axis from each class
 alone and with each class removed and refilled — shows that *no
 class is necessary and the broad classes suffice*: word-interior
 trigrams alone reproduce the ordering at 0.96, trigrams drawn from
-content words alone at 0.91, word-initial trigrams alone at 0.86,
-and every single-class removal leaves ρ ≥ 0.84 (most ≥ 0.89). The
+content words alone at 0.90, word-initial trigrams alone at 0.87,
+and every single-class removal leaves ρ ≥ 0.83 (most ≥ 0.89). The
 one genuine exception is boundary phonology: junction-spanning and
-word-final trigrams alone fail (ρ = 0.03–0.09) — sandhi texture, the
+word-final trigrams alone fail (ρ = 0.04–0.08) — sandhi texture, the
 most edition-sensitive stratum, is precisely where the ordering is
 *not*. We defer the full anatomy and its linguistic reading to §5,
 but the redundancy result belongs here, among the robustness facts:
@@ -636,8 +652,8 @@ W1 axis's 12.8% at ρ = 0.44): on residues, W1's first axis is partly
 a length artifact, and we do not cite its per-unit positions. The
 trigram lens is immune for a mechanical reason — even a small residue
 supplies hundreds of thousands of trigram events, so its exchangeable
-null stays weak (6.9% share) and its real axis stays length-clean
-(ρ = 0.064). The representative chronology of this paper is therefore
+null stays weak (7.1% share) and its real axis stays length-clean
+(ρ = 0.06). The representative chronology of this paper is therefore
 **trigram-led**: C3 supplies the per-unit numbers; W1 corroborates
 the ordering (ρ = 0.93, §3.1) and, above the floor, the directions of
 individual contrasts. The lesson is portable: whichever lens has the
@@ -661,15 +677,15 @@ each; both lenses, C3 — the carrying lens — reported here, W1
 mirroring above the length floor).
 
 **Null 1: exchangeable.** All units sample from one shared rate vector —
-no heterogeneity at all. Its first MDS axis nonetheless carries 6.9 ±
-0.2% of the squared-distance variance, not far below the real C3
-axis's 8.7%. The resemblance is a trap, and diagnosing it is the
+no heterogeneity at all. Its first MDS axis nonetheless carries 7.1 ±
+0.4% of the squared-distance variance, not far below the real C3
+axis's 8.6%. The resemblance is a trap, and diagnosing it is the
 section's first methodological point: the null's axis is a **length
 artifact** (smaller samples deviate more in every feature, and Delta
 geometry arranges units by sampling noise magnitude — on the word
 lens's far smaller per-unit event counts the same null's share
-reaches 18.5 ± 0.4% at ρ = 0.96 against log length). The real C3
-axis is length-independent (ρ = 0.064 against log length); the
+reaches 18.5 ± 0.3% at ρ = 0.96 against log length). The real C3
+axis is length-independent (ρ = 0.06 against log length); the
 null's is not. *First-axis variance share is uninterpretable without
 a length diagnostic beside it*; we suggest this pairing as standard
 practice for any MDS/PCA-based claim about corpus structure — §3.4
@@ -685,12 +701,12 @@ distinctiveness, however strong, does not make a gradient.
 **Generative model: drift.** Feature rates evolve as a slow random walk
 along a latent order (step variance fitted to the observed between-text
 variance), and units sample from their position's rates. Now the first
-axis carries 40.9 ± 1.5% and — the decisive property — recovers the
-latent generation order at ρ = 0.996 ± 0.002 (W1: 0.974 ± 0.010),
+axis carries 40.9 ± 2.4% and — the decisive property — recovers the
+latent generation order at ρ = 0.996 ± 0.002 (W1: 0.977 ± 0.010),
 length-clean. A dominant, ordering-shaped, length-independent first
 axis is the *signature of autocorrelated change*: many features
 shifting together along an underlying progression. The real corpus's
-8.7% sits between the heterogeneity floor and the pure-drift
+8.6% sits between the heterogeneity floor and the pure-drift
 ceiling, which is what a real tradition should do — its variance
 budget is shared among drift, register, genre, and idiosyncrasy; §9
 locates the two largest non-drift components.
@@ -702,9 +718,9 @@ matrix, no double-centering, L2 where Delta is L1), 1-D isomap
 Hamiltonian-path/TSP seriation — were run on the carrying lens. PCA
 recovers the drift gradient in its aligned top-2 plane at ρ = 0.98;
 isomap reaches 0.77; the two seriation methods fail outright
-(Fiedler 0.12–0.21, TSP 0.21). The split is itself a result, and the
+(Fiedler 0.08–0.19, TSP 0.19). The split is itself a result, and the
 eigenvalue spectrum explains it: C3's top two eigenvalues are close
-(ratio 1.21; W1's, 1.31), because the register dimension (§9) is
+(ratio 1.20; W1's, 1.31), because the register dimension (§9) is
 nearly as strong as the drift dimension — so methods that retain a
 plane recover the gradient inside it, while methods that force the
 data onto a single path or a single spectral coordinate cannot
@@ -721,18 +737,18 @@ At the word level (rates of the 500 MFW on de-sandhied residues,
 correlated against the carrying lens's axis), the pole that anchors
 the early end is the machinery of narrated encounter: the apparatus
 of face-to-face address (*adya* −0.75, *tvām* −0.70, *tava* −0.64,
-vocative and case forms of *rājan* at −0.62 to −0.74), the anaphoric
+vocative and case forms of *rājan* at −0.66 to −0.75), the anaphoric
 chains of told story (*tam* −0.67, *enam* −0.65, *sa* −0.61, *tān*
 −0.62, narrative *sma* −0.63), the simile particle *iva* (−0.66),
-and the lexicon of battle narration (*vīra* −0.70, *raṇe* −0.65,
+and the lexicon of battle narration (*vīra* −0.70, *raṇe* −0.66,
 *ratha/ratham* −0.62, *dhanuḥ* −0.60). The late pole is the
 machinery of exposition and prescription: itemizing *ādi/ādau/
-ādikam* (+0.64/+0.48/+0.44), *brahma* (+0.63), *jñāna/jñānam*
-(+0.54/+0.49), enumerative *kramāt* and *eka* (+0.53/+0.48), the
-optative of prescription *bhavet* (+0.48), and — a class the
+ādikam* (+0.63/+0.48/+0.43), *brahma* (+0.64), *jñāna/jñānam*
+(+0.55/+0.50), enumerative *kramāt* and *eka* (+0.53/+0.48), the
+optative of prescription *bhavet* (+0.47), and — a class the
 with-reuse corpus had blurred — the citation formulas of received
-doctrine: *smṛtam/smṛtaḥ* (+0.53/+0.47), *ucyate* (+0.50), *proktam*
-(+0.47). The trigram lens tells the same story from inside the word:
+doctrine: *smṛtam/smṛtaḥ* (+0.53/+0.48), *ucyate* (+0.51), *proktam*
+(+0.46). The trigram lens tells the same story from inside the word:
 its strongest early features are the *rājan*-family strings (*rāj*,
 *āja*, −0.81/−0.75; *rājan* and *mahārāja* alone supply a fifth of
 *āja*'s occurrences) and the strings of battle narration (*hat*
@@ -742,8 +758,8 @@ first-person *-āmi* (−0.62); its strongest late features are *mṛt*
 (+0.71 — carried above all by the citation formula *smṛta-*, not by
 *amṛta-*: the same received-doctrine machinery the word lens finds
 in *smṛtam*, *ucyate*, *proktam*), the taddhita *-ikā* (+0.70),
-*brahm-* (*ahm* +0.68; *rah* +0.58 is likewise brahma-dominated),
-*ādi* (+0.62), and *aye* (+0.62 — the *-ayet* causative optatives of
+*brahm-* (*ahm* +0.69; *rah* +0.59 is likewise brahma-dominated),
+*ādi* (+0.62), and *aye* (+0.61 — the *-ayet* causative optatives of
 ritual prescription: *pūjayet*, *kārayet*, *nivedayet*). Both lenses, read blind,
 describe the same drift: from narrated encounter toward enumerated
 doctrine. Whether that gradient is *temporal* is not settled by
@@ -799,15 +815,15 @@ inventory) and **gain component** (acquisition of the late-typical
 inventory), and compared each to the drift axis.
 
 On the carrying lens of the no-reuse build, the loss component alone
-reproduces the ordering at ρ = **0.856–0.868**, invariantly across
+reproduces the ordering at ρ = **0.85–0.87**, invariantly across
 feature-selection thresholds, while the gain component reaches only
-0.62–0.69; adding gains to losses improves the ordering marginally
-at best (0.82–0.90 across the same thresholds — at the loosest, the
+0.61–0.70; adding gains to losses improves the ordering marginally
+at best (0.81–0.91 across the same thresholds — at the loosest, the
 combination is *worse* than loss alone). The clock is carried by
 what texts *stop doing*. The asymmetry holds inside subpopulations,
 where the easy epic-versus-late contrast is unavailable: within the
-late block alone, losses still order at 0.77–0.86 while gains manage
-0.52–0.72; within all non-epic units, 0.73–0.75 against 0.39–0.51.
+late block alone, losses still order at 0.79–0.85 while gains manage
+0.49–0.70; within all non-epic units, 0.73–0.76 against 0.37–0.51.
 And a strict presence/absence variant — scoring only whether
 features occur at all, the literal Dollo reading — collapses to
 ≈ 0.40: the early inventory does not *vanish* from late texts, it
@@ -847,21 +863,22 @@ drags are findings about the texts.
 
 The comparison also closes the loop on the paper's origin. Globally
 the two builds order the corpus almost identically — Spearman
-ρ = 0.982 on the trigram lens (0.908 on the word lens, which §3.4's
+ρ = 0.980 on the trigram lens (0.908 on the word lens, which §3.4's
 artifact degrades) — which is why the accidental discovery, made on
 the contaminated corpus, pointed true: contamination that drags
 different texts in different directions largely cancels at the global
-scale even as it falsifies individual positions. The same comparison,
-pushed past W1's feature cliff, shows what the cliff regime was
-measuring all along: at 5000 MFW the orderings of the two builds
-*anti-correlate* (−0.86) — beyond the cliff, the word lens measures
-the shared material itself, so removing that material inverts it.
-Global agreement is not the point of the comparison, and we do not
-offer it as reassurance; the point is the sixteen units it conceals.
+scale even as it falsifies individual positions. The same comparison
+pins down what usurps W1's first axis at high feature counts (§3.1):
+the raw first axes of the two builds' W1-5000 maps *anti-correlate*
+(−0.87) — the contrast that dominates a high-MFW word map with reuse
+in is made of the shared material, and removing that material
+removes it. Global agreement is not the point of the comparison, and
+we do not offer it as reassurance; the point is the fifteen units it
+conceals.
 
 ### 7.2 What the drags mean
 
-Sixteen units differ between the builds with non-overlapping
+Fifteen units differ between the builds with non-overlapping
 bootstrap intervals (Table 1). We tabulate each unit's no-reuse
 position, the position its with-reuse text had been producing, and
 the **drag** — with-reuse minus no-reuse position, so that a
@@ -869,52 +886,48 @@ positive drag means the absorbed material had been pulling the
 text's apparent position lateward. The moves sort into three legible
 classes.
 
-**Table 1.** Every CI-separated drag, plus the one grazing case,
-sorted by drag. Percentile positions on the C3-500 maps with 95%
-line-bootstrap confidence intervals (B = 500). \* intervals graze
-rather than separate (overlap 0.4 of a percentile); † sub-3k-word
-residue — direction only, the no-reuse position is below the
-length floor (§3.4).
+**Table 1.** Every CI-separated drag, sorted by drag. Percentile
+positions on the C3-500 maps with 95% line-bootstrap confidence
+intervals (B = 500). † sub-3k-word residue — direction only, the
+no-reuse position is below the length floor (§3.4).
 
 | text | no-reuse | with-reuse | drag |
 |---|---|---|---|
-| Brahmāṇḍapurāṇa | 44 [40, 47] | 63 [60, 64] | +19 |
-| Brahmāṇḍa, khaṇḍa 2 | 28 [26, 34] | 40 [36, 40] | +12 |
-| Śivapurāṇa, Dharmasaṃhitā\* | 43 [40, 49] | 53 [48, 59] | +10 |
-| MBh 13, App. 15 (Umāmaheśvara) | 72 [69, 74] | 80 [78, 82] | +8 |
-| Mārkaṇḍeya, adhy. 1–80 | 36 [34, 37] | 43 [40, 48] | +7 |
-| Mārkaṇḍeyapurāṇa | 32 [28, 35] | 38 [36, 40] | +6 |
-| PPL, Textgruppe IIB | 88 [83, 90] | 94 [90, 96] | +6 |
-| Padmapurāṇa | 44 [40, 46] | 48 [47, 48] | +4 |
-| Bhaviṣyapurāṇa | 61 [58, 63] | 64 [64, 67] | +4 |
-| Kūrma, khaṇḍa 2 | 87 [82, 90] | 90 [90, 93] | +3 |
-| MBh 12, Śāntiparvan | 36 [34, 37] | 38 [37, 40] | +2 |
-| Rām 6, Yuddhakāṇḍa | 10 [10, 11] | 8 [7, 10] | −2 |
-| Śivapurāṇa, Umāsaṃhitā | 72 [68, 76] | 63 [58, 65] | −9 |
-| Vāyupurāṇa | 81 [78, 85] | 71 [68, 76] | −9 |
-| Vāyu, kalpas & Śiva lineages | 82 [78, 92] | 71 [62, 75] | −11 |
-| Vāyu, manu-vaṃśa section† | 46 [33, 72] | 30 [27, 32] | −16 |
-| Viṣṇupurāṇa, aṃśa 5† | 39 [34, 61] | 21 [18, 23] | −19 |
+| Brahmāṇḍapurāṇa | 42 [38, 46] | 62 [60, 64] | +20 |
+| Vāyu, upasaṃhāra section† | 80 [68, 90] | 93 [90, 97] | +13 |
+| Brahmāṇḍa, khaṇḍa 2 | 27 [25, 33] | 40 [36, 40] | +13 |
+| Śivapurāṇa, Dharmasaṃhitā | 44 [38, 48] | 52 [48, 58] | +8 |
+| MBh 13, App. 15 (Umāmaheśvara) | 72 [70, 74] | 80 [77, 81] | +8 |
+| Mārkaṇḍeyapurāṇa | 31 [28, 35] | 38 [36, 40] | +7 |
+| Mārkaṇḍeya, adhy. 1–80 | 37 [34, 38] | 42 [40, 47] | +5 |
+| Bhaviṣyapurāṇa | 60 [57, 62] | 65 [64, 68] | +5 |
+| MBh 13, Anuśāsanaparvan | 30 [27, 34] | 35 [34, 37] | +4 |
+| Padmapurāṇa | 44 [41, 46] | 48 [47, 48] | +4 |
+| MBh 12, Śāntiparvan | 36 [33, 38] | 39 [38, 41] | +3 |
+| Śivapurāṇa, Umāsaṃhitā | 71 [66, 76] | 63 [58, 65] | −8 |
+| Vāyupurāṇa | 81 [79, 85] | 72 [68, 79] | −9 |
+| Vāyu, kalpas & Śiva lineages | 84 [78, 91] | 71 [63, 77] | −13 |
+| Viṣṇupurāṇa, aṃśa 5† | 39 [35, 61] | 21 [18, 24] | −19 |
 
 **The great compilations had been reading late.** The largest drags of
 well-measured texts are positive: with its reuse in, the
-Brahmāṇḍapurāṇa had been reading at the 63rd percentile against a
-no-reuse position of 44, its second khaṇḍa +12, the Śivapurāṇa's Dharmasaṃhitā
-+10 (the grazing case of Table 1), the Mārkaṇḍeya +6, and — smaller
-but CI-clean — the two giant compilations, Padma (+4) and Bhaviṣya
-(+4). What these texts absorbed sits, on average, *later* than what
-their compilers wrote, and it had been answering for them. The
-Śivadharma corpus makes the mechanism concrete: the Śivadharmaśāstra
-and Śivadharmottara sit at the far late pole (percentiles 91–95), and
+Brahmāṇḍapurāṇa had been reading at the 62nd percentile against a
+no-reuse position of 42, its second khaṇḍa +13, the Śivapurāṇa's
+Dharmasaṃhitā +8, the Mārkaṇḍeya +7, and — smaller but CI-clean —
+the two giant compilations, Bhaviṣya (+5) and Padma (+4). What these
+texts absorbed sits, on average, *later* than what their compilers
+wrote, and it had been answering for them. The Śivadharma corpus
+makes the mechanism concrete: the Śivadharmaśāstra and
+Śivadharmottara sit at the far late pole (percentiles 91–95), and
 the texts that absorbed them wholesale — the Bhaviṣya incorporates
 roughly a quarter of each; the Padma, the Dharmasaṃhitā, and the
-Revākhaṇḍa large shares — all carried positive drags (the first three
-CI-clean or grazing in Table 1; the Revākhaṇḍa's +3 stays within its
-intervals): their borrowed skin had been reading in their place.
-Symmetrically, a few drags are negative (the Vāyu −9; its third
-section −11; the Śivapurāṇa's Umāsaṃhitā −9): what *they* carried was
-older than their own hand, and had been making them look earlier
-than their compilers wrote.
+Revākhaṇḍa large shares — all carried positive drags (the first
+three CI-clean in Table 1; the Revākhaṇḍa's small positive drag
+stays within its intervals): their borrowed skin had been reading in
+their place. Symmetrically, a few drags are negative (the Vāyu −9;
+its third section −13; the Śivapurāṇa's Umāsaṃhitā −8): what *they*
+carried was older than their own hand, and had been making them look
+earlier than their compilers wrote.
 
 **The old-core carriers dissolve.** The sections of the Vāyu and the
 Viṣṇu aṃśas that carry the shared genealogical inheritance retain almost
@@ -966,9 +979,9 @@ confidence intervals. In every case the apparatus material styles
 later than its constituted text, and every augmented text sits
 lateward of its constituted counterpart. On the no-reuse trigram map,
 Book 13's apparatus — the control, a book *known* to be didactically
-swollen — projects at the 48th percentile [43, 52] against its
-constituted text's 31st; for the epilogue Book 18 the effect is
-dramatic, 61 [39, 82] against 8; and all five books are directional.
+swollen — projects at the 47th percentile [44, 53] against its
+constituted text's 30th; for the epilogue Book 18 the effect is
+dramatic, 61 [38, 80] against 8; and all five books are directional.
 (One asymmetry must be stated: the apparatus files themselves are not
 stripped — they lie outside the strip's corpus — so their positions
 still mix the accretors' composition with whatever the accretors
@@ -994,13 +1007,13 @@ positions, nor they its; whatever positions they take are positions
 of textually disjoint bodies. On that map the oldest stratum is
 early — Kirfel's Textgruppe I projects at the 25th percentile
 [23, 30], the ungrouped core at 25 [24, 27] — while its chief
-carrier's residue reads late (the Vāyu at 81 [78, 85]): the carriers
+carrier's residue reads late (the Vāyu at 81 [79, 85]): the carriers
 are late once they stop speaking the inheritance's words, which is
 the separation a priority claim needs. Kirfel's own internal grouping
 is likewise recovered: his early Textgruppen project in a tight early
-band (25–32 on the trigram lens: Textgruppe I at 25 [23, 30], the
-ungrouped core at 25 [24, 27], Textgruppe II at 32 [27, 38]) and his
-late Textgruppen far later (64–94, from Textgruppe Ia at 64 up to IIA
+band (25–33 on the trigram lens: Textgruppe I at 25 [24, 30], the
+ungrouped core at 25 [24, 27], Textgruppe II at 33 [27, 39]) and his
+late Textgruppen far later (67–94, from Textgruppe Ia at 67 up to IIA
 at 94) — a century-old stratigraphy, built from entirely different
 evidence, sorted correctly by feature statistics. A second,
 genre-matched form of the test projects the layers themselves within
@@ -1046,7 +1059,7 @@ Isaacson — is placed by its editors among the oldest purāṇas,
 second only to the Vāyupurāṇa in its undivided form, the purāṇa
 later split into what is printed today as the Vāyu and the
 Brahmāṇḍa [Adriaensen et al. 1998]. The instrument concurs: the SP
-projects at 29 [27, 32], in the corpus's earliest purāṇic band. And
+projects at 28 [26, 32], in the corpus's earliest purāṇic band. And
 at layer level the SP interleaves with its own late block: its
 pāśupata chapters project at the far late pole under the same
 transmission (98 [97, 99] even as a stripped residue, though at 2.9k
@@ -1089,18 +1102,18 @@ statement, and shows the chronology does not depend on it.
 A one-gradient corpus embedded by classical MDS is expected to bend the
 gradient into the second axis (the Guttman "horseshoe"), so before
 interpreting our second dimension we measured the arch: the quadratic
-fit of y on x explains R² = 0.006 on the trigram map (the word lens's
+fit of y on x explains R² = 0.005 on the trigram map (the word lens's
 0.174 is §3.4's length artifact resurfacing, not a horseshoe — one
 more reason the word lens's per-unit geometry is not read). There is
 no arch to subtract, a point worth registering given how routinely it
 is either invoked or ignored. The second dimensions of the two lenses
-agree at ρ = 0.69, so y is a real, shared property of the texts, and
+agree at ρ = 0.70, so y is a real, shared property of the texts, and
 its covariates name it: at one pole, third-person enumerative
 cataloguing (list connectives, numeral vocabulary); at the other,
 second-person devotional address (devotional-vocabulary density
-−0.52, optative share −0.59 on the trigram map, both robust to
+−0.50, optative share −0.59 on the trigram map, both robust to
 dropping sub-3k residues). Coded covariates explain about half the
-trigram rank variance (R² ≈ 0.55–0.58); the rest is register texture
+trigram rank variance (R² ≈ 0.58); the rest is register texture
 our codes do not capture. Three disciplining facts. On residues, y
 inherits a length covariate (ρ ≈ −0.4, against ≈ −0.2 on full
 texts), so fine y-contrasts between very unequal residues are not
@@ -1127,7 +1140,7 @@ variance against the second axis's 7.2% on the trigram lens (5.6%
 against 9.7% on W1), so we examined it rather than discarding it,
 aligning the two lenses' three-dimensional configurations by
 Procrustes rotation. The per-axis cross-lens agreements are
-0.95 / 0.74 / 0.74 — and the third figure is itself a diagnostic
+0.95 / 0.75 / 0.74 — and the third figure is itself a diagnostic
 argument for the strip: with the absorbed text left in, the two
 lenses agree about axis 3 at only 0.46. Only with shared text removed
 does the third dimension become as much a shared property of the
@@ -1139,7 +1152,7 @@ thirteen Bhāgavata units monopolize one pole: their mean position
 sits 3.8 (W1) and 4.9 (C3) standard deviations of the remaining
 corpus away from it, and axis-3 position correlates with Bhāgavata
 membership at r = 0.76/0.84. Remove the Bhāgavata and the third
-axis's cross-lens agreement drops to 0.65 while the first axis's is
+axis's cross-lens agreement drops to 0.64 while the first axis's is
 untouched (0.95). Two consequences follow. First, §8's "most isolated
 register" claim gains a geometric form: the Bhāgavata's idiosyncrasy
 is not an extreme position on either shared dimension but a
@@ -1154,13 +1167,13 @@ on its own axis, and the ordering is unchanged by the text's removal.
 The flattening cost of 2-D also deserves numbers, because readers
 *will* measure distances on the printed maps with their eyes. On the
 trigram map, the Bhāgavata's second book and the Viṣṇupurāṇa's third
-aṃśa — Delta 1.18, the 78th- and 99th-nearest neighbors of one
+aṃśa — Delta 1.18, the 79th- and 98th-nearest neighbors of one
 another — render 0.042 apart in the plane, inside the closest two
 percent of all pairwise renderings; the third axis, which is to say
 the Bhāgavata dimension, recovers them to 0.64. Nor is the effect the
 Bhāgavata's alone: the Śivadharmaśāstra and the Vāyu's Gayāmāhātmya
-(Delta 1.35, mutual neighbor ranks 105 and 83) render 0.038 apart. A
-census makes it systematic: 86 pairs on the trigram map (79 on the
+(Delta 1.35, mutual neighbor ranks 105 and 83) render 0.037 apart. A
+census makes it systematic: 85 pairs on the trigram map (79 on the
 word map) sit in the closest two percent of in-plane distances while
 their three-dimensional separation is at least three times larger —
 and roughly a third of them involve a Bhāgavata unit, the skew axis 3

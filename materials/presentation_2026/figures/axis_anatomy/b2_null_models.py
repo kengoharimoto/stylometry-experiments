@@ -33,7 +33,8 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import spearmanr
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+import os
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
 NOREUSE = '--noreuse' in sys.argv
 argv = [a for a in sys.argv if a != '--noreuse']

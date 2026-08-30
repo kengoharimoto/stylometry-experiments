@@ -116,13 +116,21 @@ provenance gates in §0 list the traps.
     another threshold silently overwrites them — restore from git if
     that happens, and always cite the threshold sweep (1.1–1.3), not
     one setting.
-  - **Committed TSVs/frames predate the 2026-08-30 paratext fix**
-    (standalone running titles struck from Garuḍa/Devībhāgavata/Agni;
-    corpus total now 3,555,225). Measured drift is ≤ 2.4 percentiles
-    (affected units) and ρ 0.9992 global, so pre-fix numbers remain
-    citable at the draft's resolution — but any regenerated TSV will
-    differ in the last digit; regenerate the whole family together,
-    never mix.
+  - **PIPELINE REFRESHED 2026-08-30 (post-paratext-fix): every
+    committed TSV/frame/figure now derives from the fixed corpora**,
+    and the draft's numbers were updated wholesale (headline
+    cross-lens 0.93 = 0.928; grid cell 0.929/max 0.937; null battery
+    8.6%/7.1%/2.5%/40.9%; B2b loss 0.85–0.87; drag table 15
+    CI-separated rows — Dharmasaṃhitā now separates, PPL IIB/Kūrma
+    2/Rām 6 dropped out, Vāyu-upasaṃhāra† and MBh 13 Anuśāsana in;
+    E1 47 [44,53] vs 30, 61 [38,80] vs 8; SP 28 [26,32]; Kirfel
+    25–33 / 67–94; stylo 1.0000). Do NOT quote any pre-refresh
+    number against the draft. §3.1's cliff claim corrected to axis
+    DEMOTION (raw 0.49 no-reuse / 0.14 with-reuse at 5000 MFW,
+    usurper anti-correlates −0.87; aligned plane retains 0.92–0.94
+    on both builds) — never write "the cliff disappears without
+    reuse"; the raw-vs-aligned convention must be stated wherever
+    high-MFW W1 is discussed.
   - No pre-2026-07-10 R-pipeline number is citable (stylo tokenization bug).
   - July BhP fuzzy-sweep numbers only with the `--normalise-cand-length`
     caveat; the normcut run's original delta numbers (105,795 rows /
@@ -700,7 +708,7 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | ~~§5 glosses~~ | VERIFIED 2026-08-30 by source-word attribution: mṛt = smṛta- (NOT amṛta; strengthens the citation-formula reading), aye = -ayet prescriptive optatives, rah = brahma-, hat = hatvā/hata-+mahat, han part-dhanus; ātr/kal mixed, unglossed | — | — |
 | ~~Garuḍa paratext~~ | FIXED 2026-08-30: standalone titles removed from all corpus variants (Garuḍa 312, Devībhāgavata 12, Agni śrīrāmāvatāra 6); filter extended (`_TITLE_LINES`); nospace rebuilt, caches purged. Impact: Garuḍa 0/−1.6/0, DevBh −0.8, Agni −2.4 pct, global ρ 0.9992 — committed TSVs kept PRE-FIX (see trap) | — | — |
 | Agni topic titles | ~130 per-adhyāya title lines (-kathanaṃ/-vidhiḥ/-vidhānaṃ…) tangled with ~300 genuine unspaced verse pādas; needs curated review, no safe generic rule | Kengo (whether to pursue) | Agni's position (~2 pct at stake) |
-| Pipeline refresh | regenerate article-frame coords + unit_ci + downstream TSVs on the post-paratext-fix corpora (nothing crosses a claim threshold; fold into next full pass). Fixed corpora are committed (dd2c526) — waffle gets them via git pull; rebuild its untracked nospace dirs with `build_nospace_sandhied_corpus.py` | when convenient | exact figures at proofs |
+| ~~Pipeline refresh~~ | DONE 2026-08-30: all frames/TSVs/figures regenerated on the fixed corpora, draft numbers updated (see §0 trap for the headline deltas and the cliff-claim correction). Waffle still gets corpora via git pull + nospace rebuild | — | — |
 | ~~ur-Vāyu note~~ | RESOLVED 2026-08-30: parenthetical cut by Kengo; term "ur-Vāyu" banned (editors don't use it — say "the Vāyu in its undivided form, later split into the printed Vāyu and Brahmāṇḍa") | — | — |
 | Venue | pick from outline variants | Kengo | everything downstream |
 

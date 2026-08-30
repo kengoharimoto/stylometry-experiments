@@ -24,7 +24,8 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+import os
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
 FEAT = sys.argv[1] if len(sys.argv) > 1 else 'w'
 BUILD = sys.argv[2] if len(sys.argv) > 2 else 'noreuse'

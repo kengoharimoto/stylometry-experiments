@@ -39,7 +39,8 @@ import shlex
 import sys
 from pathlib import Path
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+import os
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
 CLOSE_PCT = 0.02          # in-plane closeness: 2nd percentile of all pairs
 RATIO = 3.0               # 3-D distance must exceed RATIO x in-plane

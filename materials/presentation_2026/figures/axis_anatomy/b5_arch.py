@@ -12,7 +12,8 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import spearmanr
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+import os
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
 COORDS = {
     'W1-500': ROOT / 'materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv',

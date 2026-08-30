@@ -32,7 +32,8 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+import os
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
 BHP_PREFIX = 'bhagavatapurana'
 PAIR = ('sivapurana_sanatkumarasamhita', 'visnupurana_amsa-3_u')

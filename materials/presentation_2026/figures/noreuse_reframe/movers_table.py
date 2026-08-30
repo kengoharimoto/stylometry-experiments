@@ -12,14 +12,15 @@ sorted by shift, with the grazing (*) and sub-3k (†) footnotes.
 Usage: movers_table.py w|c [--markdown]
 """
 import csv
+import os
 import sys
 from pathlib import Path
 
-sys.path.insert(0, '/mnt/kengo/stylometry-experiments/scripts/presentation')
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
+sys.path.insert(0, str(ROOT / 'scripts/presentation'))
 import figcommon  # noqa: E402
 
 HERE = Path(__file__).parent
-ROOT = Path('/mnt/kengo/stylometry-experiments')
 FEAT = sys.argv[1] if len(sys.argv) > 1 else 'w'
 tag = 'W1' if FEAT == 'w' else 'C3'
 
@@ -75,6 +76,7 @@ if '--markdown' in sys.argv:
         'bhavisyapurana': 'Bhaviṣyapurāṇa',
         'kurmapurana_khanda-2_u': 'Kūrma, khaṇḍa 2',
         'mahabharata_12-santiparvan': 'MBh 12, Śāntiparvan',
+        'mahabharata_13-anusasanaparvan': 'MBh 13, Anuśāsanaparvan',
         'ramayana_06-yuddhakanda': 'Rām 6, Yuddhakāṇḍa',
         'sivapurana_umasamhita': 'Śivapurāṇa, Umāsaṃhitā',
         'vayupurana': 'Vāyupurāṇa',
@@ -82,18 +84,23 @@ if '--markdown' in sys.argv:
             'Vāyu, kalpas & Śiva lineages',
         'vayupurana_08_manu-candra-vishnu-vamsha_iast':
             'Vāyu, manu-vaṃśa section',
+        'vayupurana_09_upasamhara_iast': 'Vāyu, upasaṃhāra section',
         'visnupurana_amsa-5_u': 'Viṣṇupurāṇa, aṃśa 5',
     }
-    print('\n--- markdown float (paste into draft §7.3) ---\n')
-    print('| text | with shared text | without | shift |')
+    # article Table 1 (2026-08-30 convention): no-reuse position first,
+    # then with-reuse, then drag = with-reuse − no-reuse (positive =
+    # absorbed material had dragged the text lateward); sorted by drag
+    # descending.
+    print('\n--- markdown float (paste into draft §7.2, Table 1) ---\n')
+    print('| text | no-reuse | with-reuse | drag |')
     print('|---|---|---|---|')
-    for u, code, ea, la, ha, eb, lb, hb, sh, resw, sep in rows:
-        if not (sep or u == 'sivapurana_dharmasamhita'):
-            continue
-        marks = ('\\*' if u == 'sivapurana_dharmasamhita' else '') \
-            + ('†' if resw < 3000 else '')
-        print(f'| {ART_NAMES[u]}{marks} | {ea:.0f} [{la:.0f}, {ha:.0f}] '
-              f'| {eb:.0f} [{lb:.0f}, {hb:.0f}] | {sh:+.0f} |')
+    sel = [r for r in rows if r[10]]
+    for u, code, ea, la, ha, eb, lb, hb, sh, resw, sep in sorted(
+            sel, key=lambda r: r[8]):
+        marks = '†' if resw < 3000 else ''
+        print(f'| {ART_NAMES.get(u, u)}{marks} '
+              f'| {eb:.0f} [{lb:.0f}, {hb:.0f}] '
+              f'| {ea:.0f} [{la:.0f}, {ha:.0f}] | {-sh:+.0f} |')
     print(f'\nfooter: percentiles on the {tag} maps with 95% line-bootstrap '
-          'CIs (B=500); \\* = intervals graze (overlap 0.4 pt); '
-          '† = sub-3k-word residue — direction only, position not citable.')
+          'CIs (B=500); † = sub-3k-word residue — direction only, the '
+          'no-reuse position is below the length floor.')
