@@ -3,15 +3,17 @@
 
 Heatmap of Spearman rho between the W1 drift axis at each MFW setting
 (30-5000, 11 settings) and the no-space C3 axis at each feature-count
-setting (250-12,000, 8 settings), with-reuse build, 127 units. The
-adopted 500x500 cell (rho = 0.953) is outlined.
+setting (250-12,000, 8 settings), CLEANED build (reuse stripped),
+126 units. The adopted 500x500 cell (rho = 0.930) is outlined.
 
 Inputs are the committed sweep coordinate TSVs, NOT recomputation:
-`mfw_sweep/coords_W1_mfw*.tsv` (each setting's own axis, sign-oriented
-epics-left — so the W1 failure regimes at 30 and >=1500 MFW show as
-the honest fading of the grid's edges) and
-`c3_nospace/coords_nospace_mfw*.tsv` (each Procrustes-aligned onto the
-W1 hero layout by hero_mds — the article C3 frame convention).
+`mfw_sweep_noreuse/coords_W1_mfw*.tsv` and
+`c3_nospace_noreuse/coords_c3ns_mfw*.tsv`. Each configuration is
+Procrustes-aligned (rotation/reflection) onto its lens's article
+frame (`mds3d/coords_*_noreuse_n126.tsv`) before axis-1 is read —
+on the cleaned build the register dimension is nearly as strong as
+the drift dimension, so raw per-run axis-1 mixes the two and the
+alignment convention is load-bearing.
 
 Writes fig2_convergence.png / .pdf, the grid as
 fig2_convergence_grid.tsv, and the within-lens stability columns
@@ -31,27 +33,46 @@ import matplotlib.pyplot as plt
 from scipy.stats import spearmanr
 
 import sys
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+import os
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
 sys.path.insert(0, str(ROOT / 'scripts/presentation'))
 import figcommon  # noqa: E402  (font setup)
 
-W1_DIR = ROOT / 'materials/presentation_2026/figures/mfw_sweep'
-C3_DIR = ROOT / 'materials/presentation_2026/figures/c3_nospace'
+W1_DIR = ROOT / 'materials/presentation_2026/figures/mfw_sweep_noreuse'
+C3_DIR = ROOT / 'materials/presentation_2026/figures/c3_nospace_noreuse'
+REF_W1 = ROOT / 'materials/presentation_2026/figures/mds3d/coords_W1-500_noreuse_n126.tsv'
+REF_C3 = ROOT / 'materials/presentation_2026/figures/mds3d/coords_C3-500ns_noreuse_n126.tsv'
 W1_MFWS = [30, 50, 80, 120, 200, 300, 500, 800, 1500, 3000, 5000]
 C3_MFWS = [250, 500, 1000, 2000, 3000, 5000, 8000, 12000]
 ADOPTED = (500, 500)
 
 
-def load_x(path):
+def load_xy(path):
     with open(path, encoding='utf-8') as f:
-        return {r['text']: float(r['x']) for r in csv.DictReader(f, delimiter='\t')}
+        return {r['text']: (float(r['x']), float(r['y']))
+                for r in csv.DictReader(f, delimiter='\t')}
 
 
-w1 = {m: load_x(W1_DIR / f'coords_W1_mfw{m}.tsv') for m in W1_MFWS}
-c3 = {m: load_x(C3_DIR / f'coords_nospace_mfw{m}.tsv') for m in C3_MFWS}
+def aligned_x(conf, ref):
+    """Procrustes (rotation/reflection) onto ref; return axis-1 dict."""
+    ks = sorted(set(conf) & set(ref))
+    A = np.array([conf[k] for k in ks])
+    B = np.array([ref[k] for k in ks])
+    A -= A.mean(0)
+    B -= B.mean(0)
+    U, _, Vt = np.linalg.svd(A.T @ B)
+    return dict(zip(ks, (A @ (U @ Vt))[:, 0]))
+
+
+ref_w1 = load_xy(REF_W1)
+ref_c3 = load_xy(REF_C3)
+w1 = {m: aligned_x(load_xy(W1_DIR / f'coords_W1_mfw{m}.tsv'), ref_w1)
+      for m in W1_MFWS}
+c3 = {m: aligned_x(load_xy(C3_DIR / f'coords_c3ns_mfw{m}.tsv'), ref_c3)
+      for m in C3_MFWS}
 names = sorted(set(w1[500]) & set(c3[500]))
-assert len(names) == 127, len(names)
+assert len(names) == 126, len(names)
 
 G = np.zeros((len(W1_MFWS), len(C3_MFWS)))
 for i, mw in enumerate(W1_MFWS):
@@ -115,7 +136,7 @@ ax.set_xticks(range(len(C3_MFWS)), [str(m) for m in C3_MFWS], fontsize=9)
 ax.set_yticks(range(len(W1_MFWS)), [str(m) for m in W1_MFWS], fontsize=9)
 ax.set_xlabel('C3 feature count (character trigrams, no-space)', fontsize=10.5)
 ax.set_ylabel('W1 feature count (most frequent words)', fontsize=10.5)
-ax.set_title('Cross-lens axis-1 agreement (Spearman ρ), 127 units\n'
+ax.set_title('Cross-lens axis-1 agreement (Spearman ρ), 126 units, cleaned build\n'
              'adopted setting 500 × 500 outlined', fontsize=11, pad=10)
 cbar = fig.colorbar(im, ax=ax, shrink=0.85)
 cbar.set_label('ρ (W1 axis 1, C3 axis 1)', fontsize=9.5)

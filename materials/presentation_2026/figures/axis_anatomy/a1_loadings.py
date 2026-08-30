@@ -6,9 +6,10 @@ axis-1 (and axis-2) position across the 127 manifest units. Axis positions
 are the saved sweet-spot coordinates (W1-500; no-space C3-500), so the
 loadings describe exactly the maps the article uses.
 
-Usage: a1_loadings.py w|c
+Usage: a1_loadings.py w|c [--noreuse]
 """
 import csv
+import os
 import re
 import sys
 from collections import Counter
@@ -17,16 +18,26 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import spearmanr
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
-FEAT = sys.argv[1] if len(sys.argv) > 1 else 'c'
+NOREUSE = '--noreuse' in sys.argv
+argv = [a for a in sys.argv if a != '--noreuse']
+FEAT = argv[1] if len(argv) > 1 else 'c'
 W1 = FEAT == 'w'
 MFW = 500
+if W1 and NOREUSE:
+    sys.exit('w + --noreuse refused: the no-reuse W1 axis is partly a '
+             'length artifact (R1) — run c --noreuse instead')
 
-BASE_CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
-MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
-COORDS = ROOT / ('materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
-                 if W1 else 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv')
+if NOREUSE:
+    BASE_CORPUS = ROOT / 'corpus/epic_puranas_sandhied_noreuse'
+    MANIFEST = ROOT / 'manifests/noreuse2026_n126.txt'
+    COORDS = ROOT / 'materials/presentation_2026/figures/mds3d/coords_C3-500ns_noreuse_n126.tsv'
+else:
+    BASE_CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+    COORDS = ROOT / ('materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
+                     if W1 else 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv')
 
 
 def word_counts(path):
@@ -81,7 +92,7 @@ for j, f in enumerate(feats):
                  'late_q_permille': 1000 * X[q4, j].mean()})
 rows.sort(key=lambda r: r['rho_x'])
 
-tag = 'W1' if W1 else 'C3'
+tag = ('W1' if W1 else 'C3') + ('_noreuse' if NOREUSE else '')
 out = HERE / f'loadings_{tag}_500.tsv'
 with open(out, 'w', encoding='utf-8') as f:
     f.write('feature\trho_x\trho_y\tmean_permille\tearly_q_permille\tlate_q_permille\n')

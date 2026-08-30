@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 """Article Figure 1: the two hero maps side by side (§3.1).
 
-W1-500 (word unigrams, ByT5-unsandhied) and C3-500 no-space (char
-trigrams, whitespace-stripped sandhied stream), with-reuse build,
-manifest dicsep2026_n127_ppl — the convergence exhibit: two feature
-systems with almost no shared linguistic material, one ordering
-(axis-1 Spearman rho = 0.953, quoted in the caption/text, not drawn).
+C3-500 no-space (char trigrams, whitespace-stripped sandhied stream)
+and W1-500 (word unigrams, ByT5-unsandhied), CLEANED build (reuse
+stripped, colophon-free), manifest noreuse2026_n126 — the convergence
+exhibit: two feature systems with almost no shared linguistic
+material, one ordering (axis-1 Spearman rho = 0.93, quoted in the
+caption/text, not drawn). C3 is panel (a): the cleaned chronology is
+trigram-led (art. §3.4). Units whose residues fall below the ~3k-word
+floor are faded (art. §3.4 discipline).
 
 Coordinates come from the committed article-frame coords TSVs (the
-frame of record — NOT recomputed here, and NOT the deck hero, which is
-the 80-MFW setting): `mfw_sweep/coords_W1_mfw500.tsv` and
-`c3_nospace/coords_nospace_mfw500.tsv`. Codes and strata colors from
+frame of record — NOT recomputed here):
+`mds3d/coords_C3-500ns_noreuse_n126.tsv` and
+`mds3d/coords_W1-500_noreuse_n126.tsv`. Codes and strata colors from
 figcommon. Greedy label placement (above/below/right/left, first
 non-colliding slot). Print styling: white ground, equal aspect, shared
 legend, per-panel "earlier -> later" arrow.
@@ -25,17 +28,26 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+import os
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
 sys.path.insert(0, str(ROOT / 'scripts/presentation'))
 import figcommon  # noqa: E402
 
 PANELS = [
-    ('(a)  W1-500 — word unigrams on unsandhied text',
-     ROOT / 'materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'),
-    ('(b)  C3-500 — character trigrams on the undivided sandhied stream',
-     ROOT / 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv'),
+    ('(a)  C3-500 — character trigrams on the undivided sandhied stream',
+     ROOT / 'materials/presentation_2026/figures/mds3d/coords_C3-500ns_noreuse_n126.tsv'),
+    ('(b)  W1-500 — word unigrams on unsandhied text',
+     ROOT / 'materials/presentation_2026/figures/mds3d/coords_W1-500_noreuse_n126.tsv'),
 ]
+# sub-floor residues (art. §3.4): faded markers/labels
+FLOOR = 3000
+subfloor = set()
+with open(ROOT / 'materials/presentation_2026/figures/noreuse_reframe/unit_ci_W1_noreuse.tsv',
+          encoding='utf-8') as f:
+    for r in csv.DictReader(f, delimiter='\t'):
+        if float(r['tokens']) < FLOOR:
+            subfloor.add(r['unit'])
 LEGEND = [
     (1, 'Mahābhārata'), (2, 'Rāmāyaṇa'), (3, 'old purāṇic core'),
     (4, 'old Skandapurāṇa'), (5, 'sectarian & encyclopedic'),
@@ -76,7 +88,9 @@ for ax, (title, coords) in zip(axes, PANELS):
     for name, x, y in pts:
         col = figcommon.PALETTE.get(strata.get(name, 0), '#999999')
         code = figcommon.code(name)
+        faded = name in subfloor
         ax.plot(x, y, 'o', ms=5.5, color=col, zorder=3,
+                alpha=0.25 if faded else 1.0,
                 markeredgecolor='white', markeredgewidth=0.5)
         w = len(code) * CH_W
         for k, (dx, dy) in enumerate(OFFSETS):
@@ -88,7 +102,7 @@ for ax, (title, coords) in zip(axes, PANELS):
                 ax.annotate(code, (x, y), xytext=(lx, ly),
                             textcoords='data', ha='center', va='center',
                             fontsize=5.4, fontweight='bold', color=col,
-                            zorder=4)
+                            alpha=0.35 if faded else 1.0, zorder=4)
                 break
     ax.set_title(title, fontsize=10.5, loc='left', pad=8)
     ax.set_aspect('equal')

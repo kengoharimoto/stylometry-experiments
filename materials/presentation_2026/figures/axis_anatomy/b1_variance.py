@@ -6,9 +6,10 @@ gap to axis 2), jackknife stability of axis 1 under single-unit deletion,
 and grouped-deletion checks for the leverage suspects (Sivadharma pair,
 sastra outgroup).
 
-Usage: b1_variance.py w|c
+Usage: b1_variance.py w|c [--noreuse]
 """
 import csv
+import os
 import re
 import sys
 from collections import Counter
@@ -17,14 +18,23 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import spearmanr
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
-FEAT = sys.argv[1] if len(sys.argv) > 1 else 'c'
+NOREUSE = '--noreuse' in sys.argv
+argv = [a for a in sys.argv if a != '--noreuse']
+FEAT = argv[1] if len(argv) > 1 else 'c'
 W1 = FEAT == 'w'
 MFW = 500
+if W1 and NOREUSE:
+    sys.exit('w + --noreuse refused: the no-reuse W1 axis is partly a '
+             'length artifact (R1) — run c --noreuse instead')
 
-BASE_CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
-MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+if NOREUSE:
+    BASE_CORPUS = ROOT / 'corpus/epic_puranas_sandhied_noreuse'
+    MANIFEST = ROOT / 'manifests/noreuse2026_n126.txt'
+else:
+    BASE_CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
 STRATA = ROOT / 'materials/presentation_2026/chronology_strata.tsv'
 
 
@@ -124,7 +134,7 @@ for label, drop in SUSPECTS.items():
     print(f'  drop {label:<32} ({len(drop)} units): rho {r:.4f}, '
           f'axis-1 share {100*p[0]/p.sum():.1f}%')
 
-tag = 'W1' if W1 else 'C3'
+tag = ('W1' if W1 else 'C3') + ('_noreuse' if NOREUSE else '')
 with open(HERE / f'b1_jackknife_{tag}_500.tsv', 'w', encoding='utf-8') as f:
     f.write('dropped_unit\trho_x\taxis1_share\n')
     for i in range(len(names)):

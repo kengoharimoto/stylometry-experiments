@@ -1,0 +1,10 @@
+lens	run	class	n_features	rho_alone	rho_removed
+C3	position	initial	45	0.8577	0.8395
+C3	position	interior	342	0.9612	0.9162
+C3	position	junction	65	0.0891	0.9563
+C3	position	whole	2	0.0938	0.9226
+C3	position	final	46	0.0290	0.9072
+C3	source-class	content	484	0.9094	0.9484
+C3	source-class	particle	9	0.0105	0.8858
+C3	source-class	verb_narrative	5	0.1027	0.8983
+C3	source-class	numeral_list	2	0.4670	0.9054

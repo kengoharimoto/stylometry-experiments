@@ -25,17 +25,29 @@ import numpy as np
 from scipy.sparse.csgraph import shortest_path
 from scipy.stats import spearmanr
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+import os
+
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
-FEAT = sys.argv[1] if len(sys.argv) > 1 else 'w'
+NOREUSE = '--noreuse' in sys.argv
+argv = [a for a in sys.argv if a != '--noreuse']
+FEAT = argv[1] if len(argv) > 1 else 'w'
 W1 = FEAT == 'w'
 MFW = 500
 RNG = np.random.default_rng(20260816)
+if W1 and NOREUSE:
+    sys.exit('w + --noreuse refused: the no-reuse W1 axis is partly a '
+             'length artifact (R1) — run c --noreuse instead')
 
-CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
-MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
-COORDS = ROOT / ('materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
-                 if W1 else 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv')
+if NOREUSE:
+    CORPUS = ROOT / 'corpus/epic_puranas_sandhied_noreuse'
+    MANIFEST = ROOT / 'manifests/noreuse2026_n126.txt'
+    COORDS = ROOT / 'materials/presentation_2026/figures/mds3d/coords_C3-500ns_noreuse_n126.tsv'
+else:
+    CORPUS = ROOT / ('corpus/epic_puranas_unsandhied' if W1 else 'corpus/epic_puranas_sandhied')
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+    COORDS = ROOT / ('materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv'
+                     if W1 else 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv')
 
 
 def counts_of(path):
@@ -155,7 +167,7 @@ for k, P in planes.items():
     U_, _, Vt_ = np.linalg.svd(Bm.T @ A)
     aligned[k] = (Bm @ (U_ @ Vt_))[:, 0]
 
-tag = 'W1' if W1 else 'C3'
+tag = ('W1' if W1 else 'C3') + ('_noreuse' if NOREUSE else '')
 keys = list(orderings)
 print(f'{tag}-500: |rho| of each ordering vs the sweet-spot MDS axis')
 rows = []

@@ -21,10 +21,17 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import spearmanr
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+import os
+import sys
+
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
 MFW = 500
-MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+NOREUSE = '--noreuse' in sys.argv
+# --noreuse: C3 only (the no-reuse W1 axis is partly a length artifact, R1);
+# cleaned-build corpus, n126 manifest, article-frame reference axis
+MANIFEST = ROOT / ('manifests/noreuse2026_n126.txt' if NOREUSE
+                   else 'manifests/dicsep2026_n127_ppl.txt')
 
 # ── classifier (same rules as a2_bridge_c3_classes.py) ───────────────────────
 INDECL = {l.strip() for l in
@@ -130,30 +137,34 @@ def decompose(lens, counts, names, ranked, feat_class, x_ref, label):
 
 results = []
 
-# ── W1 ───────────────────────────────────────────────────────────────────────
-W1_CORPUS = ROOT / 'corpus/epic_puranas_unsandhied'
-w1_counts, w1_names = [], []
-for p in sorted(W1_CORPUS.glob('*.txt')):
-    if p.stem in manifest:
-        w1_names.append(p.stem)
-        w1_counts.append(Counter(p.read_text(encoding='utf-8').lower().split()))
-raw = Counter()
-for c in w1_counts:
-    raw.update(c)
-w1_ranked = [w for w, _ in raw.most_common(20000)]
-w1_x = load_x(ROOT / 'materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv')
-x_ref = np.array([w1_x[n] for n in w1_names])
+if not NOREUSE:
+    # ── W1 ───────────────────────────────────────────────────────────────────
+    W1_CORPUS = ROOT / 'corpus/epic_puranas_unsandhied'
+    w1_counts, w1_names = [], []
+    for p in sorted(W1_CORPUS.glob('*.txt')):
+        if p.stem in manifest:
+            w1_names.append(p.stem)
+            w1_counts.append(Counter(p.read_text(encoding='utf-8').lower().split()))
+    raw = Counter()
+    for c in w1_counts:
+        raw.update(c)
+    w1_ranked = [w for w, _ in raw.most_common(20000)]
+    w1_x = load_x(ROOT / 'materials/presentation_2026/figures/mfw_sweep/coords_W1_mfw500.tsv')
+    x_ref = np.array([w1_x[n] for n in w1_names])
 
-base_cls = {f: classify(f) for f in w1_ranked}
-results += decompose('W1', w1_counts, w1_names, w1_ranked, base_cls, x_ref, 'base')
+    base_cls = {f: classify(f) for f in w1_ranked}
+    results += decompose('W1', w1_counts, w1_names, w1_ranked, base_cls, x_ref, 'base')
 
-pert_cls = dict(base_cls)
-for w, cl in AMBIG.items():
-    pert_cls[w] = cl
-results += decompose('W1', w1_counts, w1_names, w1_ranked, pert_cls, x_ref, 'perturbed')
+    pert_cls = dict(base_cls)
+    for w, cl in AMBIG.items():
+        pert_cls[w] = cl
+    results += decompose('W1', w1_counts, w1_names, w1_ranked, pert_cls, x_ref, 'perturbed')
+else:
+    print('--noreuse: W1 decomposition skipped (R1); C3 on the cleaned build')
 
 # ── C3 (no-space): mechanical position classes + source-word classes ─────────
-C3_CORPUS = ROOT / 'corpus/epic_puranas_sandhied'
+C3_CORPUS = ROOT / ('corpus/epic_puranas_sandhied_noreuse' if NOREUSE
+                    else 'corpus/epic_puranas_sandhied')
 c3_counts, c3_names = [], []
 for p in sorted(C3_CORPUS.glob('*.txt')):
     if p.stem in manifest:
@@ -164,7 +175,9 @@ rawc = Counter()
 for c in c3_counts:
     rawc.update(c)
 c3_ranked = [g for g, _ in rawc.most_common(20000)]
-c3_x = load_x(ROOT / 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv')
+c3_x = load_x(ROOT / ('materials/presentation_2026/figures/mds3d/coords_C3-500ns_noreuse_n126.tsv'
+                      if NOREUSE else
+                      'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv'))
 xc_ref = np.array([c3_x[n] for n in c3_names])
 
 # fresh source scan on the cleaned corpus, over the top-2000 trigrams so
@@ -214,7 +227,8 @@ c3_ranked2k = [g for g in c3_ranked if g in TOPSCAN]
 results += decompose('C3', c3_counts, c3_names, c3_ranked2k, pos_class, xc_ref, 'position')
 results += decompose('C3', c3_counts, c3_names, c3_ranked2k, src_class, xc_ref, 'source-class')
 
-with open(HERE / 'a2_decomposition.tsv', 'w', encoding='utf-8') as f:
+OUT = HERE / ('a2_decomposition_noreuse.tsv' if NOREUSE else 'a2_decomposition.tsv')
+with open(OUT, 'w', encoding='utf-8') as f:
     f.write('lens\trun\tclass\tn_features\trho_alone\trho_removed\n')
     for r in results:
         f.write('\t'.join(str(v) if not isinstance(v, float) else f'{v:.4f}'
@@ -231,4 +245,4 @@ if pert:
     dmax = max(max(abs(pert[k][0] - base[k][0]), abs(pert[k][1] - base[k][1]))
                for k in pert if k in base)
     print(f'\nperturbation (12 boundary words flipped): max |delta rho| = {dmax:.4f}')
-print('wrote a2_decomposition.tsv')
+print(f'wrote {OUT.name}')

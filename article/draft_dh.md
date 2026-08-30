@@ -38,31 +38,42 @@ headline loss 0.864 / gain 0.62
 (`b2b_loss_gain_C3_noreuse_500.tsv`); §8 Kirfel bands on cleaned C3
 (early 25–32, late 64–94, per-TG values from `unit_ci_C3_noreuse`).
 
-**STILL TO RUN (stage 3), all on the cleaned build:**
+**STAGE 3 RUN LOG (2026-08-30), all on the cleaned build.** Done and
+in the text: Fig 1 regenerated (`fig1_map_pair.py`, mds3d noreuse
+coords, sub-floor units faded); no-space C3 sweep run
+(`c3_nospace_noreuse/coords_c3ns_mfw*.tsv`) after finding the old
+`mfw_sweep_noreuse/coords_mfw*` were the SPACED variant — Fig 2
+regenerated, adopted cell 0.930, grid max 0.936 at 800 × 3000, W1's
+high-MFW cliff absent on the cleaned build (§3.1 rewritten: the
+cliff was a reuse phenomenon); §3.2 metric sweep
+(`c3_nospace_noreuse/metrics/`, standardized+L1 0.98–1.00, Würzburg
+0.90, unstandardized 0.26/0.63 and self-unstable), jackknife
+(`b1_jackknife_C3_noreuse_500.tsv`, min 0.991); §3.3 loading census
++ class decomposition (`a2_decomposition_noreuse.tsv`: interior 0.96,
+content-source 0.91, junction/final 0.03–0.09, removals ≥ 0.84); §4
+multi-method (`b3_orderings_C3_noreuse_500.tsv`: PCA-plane 0.98,
+isomap 0.77, Fiedler AND TSP fail — §4 rewritten accordingly); §5
+loading tables (`loadings_C3_noreuse_500.tsv` +
+`loadings_W1rates_vs_C3axis_noreuse_500.tsv`, W1 rates correlated
+against the C3 axis to respect R1); §6 threshold sweep 1.1–1.3
+(loss 0.856–0.868, gain 0.62–0.69, combined 0.82–0.90,
+late-block/non-epic/presence-absence variants in text). Scripts
+gained `--noreuse` modes and a `STYLO_ROOT` env override.
 
-1. Fig 1 map pair — plotting only: adapt `fig1_map_pair.py` to
-   `mds3d/coords_C3-500ns_noreuse_n126.tsv` +
-   `coords_W1-500_noreuse_n126.tsv`.
-2. Fig 2 sweep grid — REAL COMPUTE: `mfw_sweep_noreuse/coords_mfw*`
-   turn out to be the SPACED C3 variant (0.888 vs the no-space
-   article frame; W1 coords match at 0.999). Need a no-space C3
-   sweep (250–12,000) on the no-reuse corpus, then the aligned
-   cross-lens grid; confirm 500 × 500 as adopted setting and the
-   regime boundaries quoted in §3.1.
-3. §2.4 lens-disjointness attribution (38%/12%, 61%, 4%) verified on
-   the cleaned build.
-4. §3.2 distance-measure sweep; single-text / group deletion
-   (`b1_jackknife` has no noreuse version); implementation
-   replication (verify which build stylo was fed).
-5. §3.3 loading census + class decomposition (`a2_decomposition`,
-   `loadings_*` have no noreuse versions).
-6. §4 multi-method battery (PCA, isomap, Fiedler, TSP); recheck the
-   method-dependence claim given the softer eigen-degeneracy.
-7. §5 loading tables (C3, and W1 above floor).
-8. §6 combined loss+gain value; subpopulation and presence/absence
-   variants; W1-above-floor corroboration (`b2b_loss_gain.py` on
-   noreuse inputs).
-9. §8 layer-projection framing — Kengo's call (see slot in §8).
+**STILL OPEN:**
+
+1. Stylo replication on the cleaned build — R run launched on
+   `corpus/epic_puranas_sandhied_noreuse_nospace` (built 2026-08-30);
+   adapt `validate_nospace_stylo.py` to the noreuse corpus/frame and
+   record the comparison. Until then §3.2's implementation paragraph
+   carries a slot.
+2. §2.4 lens-disjointness attribution — needs a design decision
+   (which axis for W1 signal shares under R1) before
+   `a2_bridge_c3_classes.py` gets a noreuse mode; cited shares are
+   pre-strip.
+3. §8 layer-projection framing — Kengo's call (see slot in §8).
+4. §5 trigram glosses (rāj/āja, hat/han, mṛt = amṛta vs mṛtyu, aye,
+   ātr, …) — Kengo to vet.
 
 **Target:** DSH / Journal of Cultural Analytics (per `outline_dh.md`).
 
@@ -437,60 +448,69 @@ MDS of Burrows's Delta; equal aspect): (a) C3-500, character trigrams
 on the undivided sandhied stream; (b) W1-500, word unigrams on
 algorithmically de-sandhied text. The horizontal axis is the drift
 axis (axis-1 agreement ρ = 0.93); colors are text groups, codes in
-the supplementary key. *[NR-RECOMPUTE: rebuild
-`figures/fig1_map_pair/` on the cleaned build via `fig1_map_pair.py`
-from no-reuse article-frame coords; current file is the with-reuse
-pair.]*
+the supplementary key; units below the §3.4 length floor are faded.
+*(file: `figures/fig1_map_pair/fig1_map_pair.pdf`, regenerated on
+the cleaned build 2026-08-30 from the `mds3d/*_noreuse_n126` coords
+via `fig1_map_pair.py`)*
 
-A full grid sweep locates the agreement ridge at moderate feature
-counts on both sides. [NR-RECOMPUTE: sweep grid on the cleaned build
-(with-reuse grid ran W1 30–5000 MFW × C3 250–12,000 and peaked at
-500 × 500, ρ = 0.953); confirm the ridge location and the adopted
-setting. Known already from cross-build spot checks: the cleaned
-build's W1 plateau narrows mechanically — stripping shrinks token
-counts, exhausting the shared word inventory at lower ranks.] The
-adopted setting is the peak of measured cross-lens agreement, not a
-tuned free parameter.
+A full grid sweep (W1 from 30 to 5000 MFW; C3 from 250 to 12,000
+features) locates a broad agreement plateau at moderate feature
+counts: ρ = 0.93–0.94 everywhere from W1-500 to W1-1500 against C3
+from 1000 to 5000, with the adopted 500 × 500 cell at 0.930 and the
+grid maximum, 0.936, at W1-800 × C3-3000. The adopted setting sits
+on the plateau, within 0.006 of the maximum; nothing turns on the
+choice of cell, which is the point — the agreement is a property of
+the plateau, not of a tuned free parameter.
 
-The sweep's two failure regimes are as informative as its plateau. W1
-holds through the low hundreds of MFW and then collapses as the
-feature list leaves the shared vocabulary and fills with
-text-specific content words: the axis becomes a topic model and stops
-ordering. C3, by contrast, is nearly invariant across an
-order-of-magnitude range of feature counts: sub-lexical features
-saturate the shared inventory early, and added features long add
-resolution, not topics — even C3's eventual degradation is a gentle
-slope where W1's is a cliff. [NR-RECOMPUTE: regime boundaries on the
-cleaned build; with-reuse values were W1 stable 80–1500 (ρ ≥ 0.93),
-0.51 at 3000, 0.14 at 5000; C3 ρ ≥ 0.95 from 250 to 8,000, easing to
-0.83 at 12,000.] The asymmetry matters for practice: with sub-lexical
-features the feature-count knob is forgiving; with word features it
-is the difference between measuring usage and measuring subject
-matter.
+The sweep's edges are as informative as its plateau. C3 is nearly
+invariant from 250 to 5000 features (ρ ≥ 0.93 against the adopted
+setting), easing at 8000 (0.88) and 12,000 (0.79): sub-lexical
+features saturate the shared inventory early, and added features
+long add resolution, not topics. W1 needs a few hundred MFW to
+stabilize (0.89 at 30 MFW, 0.98 from 200 up) and degrades only
+gently at the high end (0.92 at 5000 against W1-500). That
+gentleness is itself a cleaning result: with the shared text left
+in, W1 at high feature counts collapses spectacularly (its axis
+agrees with the adopted ordering at 0.14 at 5000 MFW) as the feature
+list fills with text-specific content words and the axis turns into
+a topic model — and §7.1 shows that what that topic model was
+measuring is precisely the reuse: across builds the high-MFW
+orderings *anti-correlate* (−0.86). On a corpus that carries its
+neighbors' words, a word-frequency axis at high feature counts
+measures who copied whom; strip the copying and the cliff
+disappears. The practical asymmetry stands, but for a sharpened
+reason: with sub-lexical features the feature-count knob is
+forgiving; with word features it is the difference between measuring
+usage and measuring subject matter — and on a high-reuse corpus,
+"subject matter" means the shared material itself.
 
 **Figure 2.** Cross-lens agreement across the joint sweep: Spearman ρ
 between the W1 axis at each feature count (rows) and the no-space C3
-axis at each (columns), cleaned build. *[NR-RECOMPUTE: regenerate
-`figures/fig2_convergence/` on the cleaned build; current grid is
-with-reuse.]*
+axis at each (columns), cleaned build, all configurations
+Procrustes-aligned to the article frame before comparison. The
+adopted 500 × 500 cell (ρ = 0.930) is outlined; the grid maximum is
+0.936 at W1-800 × C3-3000. *(file:
+`figures/fig2_convergence/fig2_convergence.pdf`, regenerated on the
+cleaned build 2026-08-30; grid and within-lens stability TSVs sit
+beside it)*
 
 ### 3.2 What the ordering does not depend on
 
 **Distance measure.** Every standardization-based measure we tested
-(classic, Argamon's rotated, Eder's, and Würzburg cosine Delta) and the
-L1-family measures (Manhattan, Canberra, min-max) reproduce the axis
-at the adopted settings; only unstandardized cosine and Euclidean
-distance blur it, for the textbook reason: without z-scoring, the
-Zipfian head dominates and the discriminative mid-ranks are drowned.
-[NR-RECOMPUTE: metric sweep on the cleaned build; with-reuse values
-were ρ = 0.95–1.00 within the standardized family, 0.81–0.91 for
-unstandardized.] One caution from the metric sweep deserves wider
-currency: the apparent robustness of unstandardized metrics to
-feature-set size (ρ = 0.99 across settings) is *robustness by
-deafness* — added features carry negligible weight, so nothing
-changes because nothing is heard. Within the Delta family,
-interchangeability is expected [Evert et al. 2017] and we count it as a
-consistency check, not independent confirmation.
+(classic, Argamon's rotated, and Eder's Delta) and the L1-family
+measures (Manhattan, Canberra, min-max) reproduce the axis at
+ρ = 0.98–1.00 at the adopted settings (Würzburg cosine Delta: 0.90).
+Unstandardized cosine and Euclidean distance do not merely blur it —
+they lose it (0.26 and 0.63) — for the textbook reason: without
+z-scoring, the Zipfian head dominates and the discriminative
+mid-ranks are drowned, and on residues of very unequal size the
+drowning is total. (On the transmitted build the same metrics had
+shown a deceptive stability across feature-set sizes — robustness by
+deafness, added features carrying negligible weight; on residues
+they are not even stable, agreeing with themselves across settings
+at only ρ ≈ 0.5.) Within the Delta family, interchangeability is
+expected [Evert et al. 2017] and we count it as a consistency check,
+not independent confirmation.
 
 **Names and sectarian vocabulary.** Striking all 38 theonyms and
 divine-name stems that reach the W1-500 list (refilling to 500 from
@@ -512,37 +532,33 @@ silently fail to be one; the replication was run with the tokenizer
 verified. [NR-RECOMPUTE: verify which build the replication was fed;
 re-run on the cleaned build if needed.]
 
-**Single texts.** Deleting any one unit (with feature refill and
-recomputation) leaves the axis essentially unchanged, as does
-deleting the two highest-leverage groups a referee would nominate —
-the śāstra outgroup and a late two-text pair that anchors the far
-end. No small set of texts carries the axis. [NR-RECOMPUTE:
-leave-one-out and group-deletion on the cleaned build; with-reuse
-values were ρ ≥ 0.98 and ρ ≥ 0.99.]
+**Single texts.** Deleting any one of the 126 units (with feature
+refill and recomputation) leaves the axis at ρ ≥ 0.991 (median
+0.999); deleting the two highest-leverage groups a referee would
+nominate — the śāstra outgroup and the late Śivadharma pair that
+anchors the far end — leaves ρ ≥ 0.993, singly or together. No small
+set of texts carries the axis.
 
 ### 3.3 What the ordering is made of
 
-The axis is not a few-feature artifact: only a handful of the 500
-features on either lens correlate with it strongly, and the median
-per-feature correlation is modest. [NR-RECOMPUTE: loading census on
-the cleaned build; with-reuse values were 4/500 (W1) and 8/500 (C3)
-at |ρ| ≥ 0.7, medians 0.28 and 0.23.]
-A class decomposition — computing the axis from each linguistic class
-alone, and with each class removed and refilled — shows that *no class
-is necessary and nearly every class suffices*: particles alone
-reproduce the ordering, content words alone reproduce it,
-word-interior trigrams alone reproduce it best of all, and every
-single-class removal leaves the axis essentially intact. The one
-genuine exception is boundary phonology: junction-spanning and
-word-final trigrams alone fail — sandhi texture, the most
-edition-sensitive stratum, is precisely where the ordering is *not*.
-[NR-RECOMPUTE: class decomposition on the cleaned build; with-reuse
-values were particles 0.89, content words 0.94, word-interior
-trigrams 0.97, removals ρ ≥ 0.94, boundary trigrams 0.11–0.14.] We
-defer the full anatomy and its linguistic reading to §5, but the
-redundancy result belongs here, among the robustness facts: an axis
-that survives the removal of any feature class it is accused of
-depending on is not that class's artifact.
+The axis is not a few-feature artifact: only 5 of the 500 features
+correlate with it at |ρ| ≥ 0.7 (41 at ≥ 0.5; the median per-feature
+|ρ| is 0.205).
+A class decomposition — classifying every trigram by its position in
+the word (interior, initial, final, junction-spanning) and by the
+class of its source word, then computing the axis from each class
+alone and with each class removed and refilled — shows that *no
+class is necessary and the broad classes suffice*: word-interior
+trigrams alone reproduce the ordering at 0.96, trigrams drawn from
+content words alone at 0.91, word-initial trigrams alone at 0.86,
+and every single-class removal leaves ρ ≥ 0.84 (most ≥ 0.89). The
+one genuine exception is boundary phonology: junction-spanning and
+word-final trigrams alone fail (ρ = 0.03–0.09) — sandhi texture, the
+most edition-sensitive stratum, is precisely where the ordering is
+*not*. We defer the full anatomy and its linguistic reading to §5,
+but the redundancy result belongs here, among the robustness facts:
+an axis that survives the removal of any feature class it is accused
+of depending on is not that class's artifact.
 
 One negative deserves emphasis because it reframes an expectation a
 Sanskritist reader may bring. The features that grammars of epic
@@ -650,49 +666,52 @@ locates the two largest non-drift components.
 with different assumptions — PCA on the z-scored features (no distance
 matrix, no double-centering, L2 where Delta is L1), 1-D isomap
 (geodesics), spectral seriation (Fiedler vector), and a
-Hamiltonian-path/TSP seriation — were run on both lenses. Every global
-embedding finds the drift gradient in its top-2 plane. On C3 the
-*raw* first dimensions disagree across methods, and the reason is
-itself a result: C3's top two eigenvalues are close (ratio 1.21, vs
-1.31 on W1), because the register dimension (§9) is strong relative
-to the drift dimension — so which one surfaces first can be
-method-dependent while the plane containing both is not. The TSP
-seriation fails on both lenses, and its failure is independent
-evidence: path seriation tracks a gradient only when the data are
-effectively one-dimensional, so its snake-folding here confirms a
-genuine second dimension before §9 measures one. We do not use t-SNE
-or UMAP anywhere: they preserve local neighborhoods and discard
-exactly the global geometry a gradient reading lives in.
-[NR-RECOMPUTE: multi-method battery (PCA/isomap/Fiedler/TSP) on the
-cleaned build; with-reuse values were PCA 0.997/0.995, isomap
-0.92/0.85, Fiedler 0.95/0.82, TSP 0.24–0.29. Eigenvalue ratios above
-are cleaned-build values from `b2_models_*_noreuse_500.tsv`; note the
-near-degeneracy story is softer than with-reuse (1.07 vs 1.68) —
-recheck the method-dependence claim when the battery runs.]
+Hamiltonian-path/TSP seriation — were run on the carrying lens. PCA
+recovers the drift gradient in its aligned top-2 plane at ρ = 0.98;
+isomap reaches 0.77; the two seriation methods fail outright
+(Fiedler 0.12–0.21, TSP 0.21). The split is itself a result, and the
+eigenvalue spectrum explains it: C3's top two eigenvalues are close
+(ratio 1.21; W1's, 1.31), because the register dimension (§9) is
+nearly as strong as the drift dimension — so methods that retain a
+plane recover the gradient inside it, while methods that force the
+data onto a single path or a single spectral coordinate cannot
+choose between two near-equal directions and fold. The seriation
+failures are thus independent evidence of a genuine second dimension
+before §9 measures one, not evidence against the first. We do not
+use t-SNE or UMAP anywhere: they preserve local neighborhoods and
+discard exactly the global geometry a gradient reading lives in.
 
 ## 5. What the axis counts
 
 The loading tables put linguistic flesh on the statistical skeleton.
-On W1, the pole that anchors the early end is the machinery of
-narrated dialogue: anaphoric pronoun chains (*tam*, *sa*), narrative
-preterites (*abravīt*, *āsīt*, *jagāma*), speech-sequencing converbs
-(*śrutvā*, *uktvā*), the simile particle *iva*, and the second-person
-apparatus of face-to-face address (*tvām*, *tava*, vocative *rājan*).
-The late pole is the machinery of exposition: itemizing *-ādi* (the
-strongest single loading in either lens), *jñāna/jñānam*, *brahma*,
-sentence-connective *tad*, and — in C3 — the optative endings of
-prescription (*-yet*, *-yāt*) and the taddhita derivative suffixes of
-technical vocabulary (*-ikā/-ika*). Both lenses, read blind, describe
-the same drift: from narrated encounter toward enumerated doctrine.
-Whether that gradient is *temporal* is not settled by naming it; that
-burden falls on §6 and §8. [NR-RECOMPUTE: loading tables on the
-cleaned build (C3, and W1 above the length floor); the per-feature
-correlations quoted in earlier drafts (*tam* −0.78, *sa* −0.70,
-*abravīt* −0.68, *āsīt* −0.59, *jagāma* −0.63, *śrutvā* −0.65,
-*uktvā* −0.62, *iva* −0.62, *-ādi* +0.79, *tad* +0.60, *-yet* +0.71,
-*-yāt* +0.66, *-ikā/-ika* +0.77/+0.56) are with-reuse values;
-restore exact figures from the cleaned-build tables and confirm the
-pole memberships.]
+At the word level (rates of the 500 MFW on de-sandhied residues,
+correlated against the carrying lens's axis), the pole that anchors
+the early end is the machinery of narrated encounter: the apparatus
+of face-to-face address (*adya* −0.75, *tvām* −0.70, *tava* −0.64,
+vocative and case forms of *rājan* at −0.62 to −0.74), the anaphoric
+chains of told story (*tam* −0.67, *enam* −0.65, *sa* −0.61, *tān*
+−0.62, narrative *sma* −0.63), the simile particle *iva* (−0.66),
+and the lexicon of battle narration (*vīra* −0.70, *raṇe* −0.65,
+*ratha/ratham* −0.62, *dhanuḥ* −0.60). The late pole is the
+machinery of exposition and prescription: itemizing *ādi/ādau/
+ādikam* (+0.64/+0.48/+0.44), *brahma* (+0.63), *jñāna/jñānam*
+(+0.54/+0.49), enumerative *kramāt* and *eka* (+0.53/+0.48), the
+optative of prescription *bhavet* (+0.48), and — a class the
+transmitted corpus had blurred — the citation formulas of received
+doctrine: *smṛtam/smṛtaḥ* (+0.53/+0.47), *ucyate* (+0.50), *proktam*
+(+0.47). The trigram lens tells the same story from inside the word:
+its strongest early features are the *rājan*-family strings (*rāj*,
+*āja*, −0.81/−0.75) and the morphology of slaying (*hat*, *han*,
+−0.70/−0.51) with first-person *-āmi* (−0.62); its strongest late
+features are *amṛt-/mṛt-* (+0.71), the taddhita *-ikā* (+0.70),
+*brahm-* (+0.68), and *ādi* (+0.62). Both lenses, read blind,
+describe the same drift: from narrated encounter toward enumerated
+doctrine. Whether that gradient is *temporal* is not settled by
+naming it; that burden falls on §6 and §8. (Loading tables:
+`axis_anatomy/loadings_C3_noreuse_500.tsv` and
+`loadings_W1rates_vs_C3axis_noreuse_500.tsv` — the word-rate table
+is correlated against the trigram axis, so no claim rests on the
+word lens's own residue geometry; trigram glosses to be vetted.)
 
 Three structural facts sharpen the picture. First, the signal is
 radically distributed (§3.3): the poles just quoted are the readable tip
@@ -709,10 +728,13 @@ the chronology is not written in — a fortunate asymmetry, since it is
 also the stratum we can least trust our editions to transmit.
 
 A note on classifier dependence: the class decomposition requires
-assigning 500 words to classes, and some assignments are arguable
-(*tad*, *punar*, *svayam*, …). Flipping all twelve borderline
-assignments at once changes no decomposition correlation by more than
-0.031; the conclusions are insensitive to the hand that classified.
+assigning words to classes, and some assignments are arguable
+(*tad*, *punar*, *svayam*, …). On the transmitted-build word-lens
+decomposition, flipping all twelve borderline assignments at once
+changed no correlation by more than 0.031; the cleaned build's
+decomposition touches the same classifier only through trigram
+source-words, at one further remove. The conclusions are insensitive
+to the hand that classified.
 
 ## 6. Losses are the clock
 
@@ -736,24 +758,19 @@ inventory) and **gain component** (acquisition of the late-typical
 inventory), and compared each to the drift axis.
 
 On the carrying lens of the cleaned build, the loss component alone
-reproduces the ordering at ρ = **0.864** at the adopted threshold
-(0.856–0.868 invariantly across feature-selection thresholds), while
-the gain component reaches only 0.62 (0.60–0.69); adding gains to
-losses improves the ordering marginally at best. The clock is
-carried by what texts *stop doing*. [NR-RECOMPUTE: combined
-loss+gain value at the adopted threshold; corroborate on W1 above
-the length floor (the earlier with-reuse W1 headline was loss 0.939,
-gains 0.720, combined 0.951, from 81 early and 65 late features).] The asymmetry deepens inside
-subpopulations, where the easy epic-versus-late contrast is
-unavailable: within the late block alone, and within all non-epic
-units, losses continue to order while gains fall away.
-[NR-RECOMPUTE: subpopulation values on the cleaned build; with-reuse
-W1 values were 0.941 vs 0.683 (late block) and 0.891 vs 0.571
-(non-epic).] And a strict presence/absence variant — scoring only
-whether features occur at all, the literal Dollo reading —
-collapses: the early inventory does not *vanish* from late texts, it
-*dwindles*. [NR-RECOMPUTE: presence/absence variant on the cleaned
-build; with-reuse value was 0.474.] The defensible form of the
+reproduces the ordering at ρ = **0.856–0.868**, invariantly across
+feature-selection thresholds, while the gain component reaches only
+0.62–0.69; adding gains to losses improves the ordering marginally
+at best (0.82–0.90 across the same thresholds — at the loosest, the
+combination is *worse* than loss alone). The clock is carried by
+what texts *stop doing*. The asymmetry holds inside subpopulations,
+where the easy epic-versus-late contrast is unavailable: within the
+late block alone, losses still order at 0.77–0.86 while gains manage
+0.52–0.72; within all non-epic units, 0.73–0.75 against 0.39–0.51.
+And a strict presence/absence variant — scoring only whether
+features occur at all, the literal Dollo reading — collapses to
+≈ 0.40: the early inventory does not *vanish* from late texts, it
+*dwindles*. The defensible form of the
 hypothesis is therefore not Dollo's law transplanted, but Swadesh's
 retention rate generalized from a cognate list to the frequency
 spectrum of style: **losses are the clock; gains are the community
