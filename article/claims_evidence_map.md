@@ -1,6 +1,7 @@
 # Claims-and-evidence map (venue-neutral)
 
-**Date:** 2026-08-17
+**Date:** 2026-08-30 (major revision for the cleaned-corpus restructure;
+previous state 2026-08-17)
 **Purpose:** the single source of truth for drafting. Every article variant
 (see `outline_*.md`) draws its claims, numbers, and figures from here, so
 the variants cannot drift apart factually.
@@ -8,15 +9,24 @@ the variants cannot drift apart factually.
 **Citation rule:** numbers in this map are for architecture and orientation,
 transcribed from the notes. Before any number goes into printable prose,
 verify it against the source note and, where applicable, the TSV it cites.
-Canonical values are **post-colophon-clean** (corpus state ≥ 2026-08-16)
-and **no-space C3**; the provenance gates in §0 list the traps.
+Canonical values are **cleaned-build** (reuse-stripped, colophon-free,
+no-space C3, manifest `noreuse2026_n126`) — with-reuse values appear
+only in the §7-diagnostic role and must be labeled as such; the
+provenance gates in §0 list the traps.
 
 ---
 
 ## 0. Conventions and provenance gates
 
-- Corpus: 127 units, manifest `dicsep2026_n127_ppl`, colophon-free since
-  2026-08-16 (`is_colophon_line()` in the shared source filter).
+- **Corpus (the corpus of the article): the cleaned build** — reuse
+  stripped (RATIO-70 shingle strip, kirfel one-directional),
+  colophon-free, 126 units, manifest `noreuse2026_n126`, 3,556,172
+  de-sandhied words, residues 648–344,712 (median 15.1k), 18 units
+  below the 3k floor. 126 = the transmitted inventory's 127 minus
+  `vayu_ba` (the Vāyu–Brahmāṇḍa common text — shared text by
+  construction, zero residue). The transmitted inventory (127 units,
+  `dicsep2026_n127_ppl`, colophon-free since 2026-08-16) survives for
+  exactly one purpose: the §7 diagnostic comparison.
 - Lenses: **W1-500** (unsandhied words, ByT5 int8 pipeline) and **C3-500
   no-space** (char trigrams over the whitespace-stripped sandhied stream,
   `hero_mds.py --strip-spaces`). Burrows's Delta, classical MDS,
@@ -24,29 +34,50 @@ and **no-space C3**; the provenance gates in §0 list the traps.
 - Layer/subset instrument: fixed-map Gower supplementary projection +
   line-bootstrap CIs (B=500, seed 20260814). Never recompute the map on
   gutted corpora for layer questions.
-- **REFRAME 2026-08-19 (Kengo): no-reuse precedence.** The article's
-  chronology-of-composition claims lead with the **no-reuse** maps
-  (corpus RATIO-70 strip, kirfel one-directional, manifest
-  `noreuse2026_n126`); the with-reuse maps open the argument and the
-  difference between the two becomes a findings section.
-  **Terminology (Kengo, 2026-08-21): the draft says plain
-  "with-reuse / no-reuse" — the earlier "transmitted / composed"
-  pair is dropped** (both corpora are transmitted; "composed"
-  overclaims; "transmitted" collides with text-critical transmission).
+- **RESTRUCTURE 2026-08-30 (Kengo; supersedes the 2026-08-19
+  "precedence" framing).** The cleaned build is not the privileged
+  member of a pair — it is **the corpus, full stop**. Uncleaned
+  variants (with reuse, with colophons, spaced trigrams) are
+  mismeasurements, not baselines; comparisons against them are
+  **diagnoses of what the contamination was doing, never robustness
+  tests**. The with-reuse build appears in the draft exactly once
+  (§7, "what the absorbed text was doing"), where the difference
+  between the builds is the finding (drag = with-reuse minus cleaned
+  position; positive = absorbed material had dragged the text
+  lateward). "Precedence" language is gone — there is no competition
+  to adjudicate. Draft restructured accordingly (commits 476ec34 →
+  1e8a187); stage-2/3 recomputes put cleaned-build values behind
+  every representative number.
+  **Terminology — OPEN RULING NEEDED (flagged 2026-08-30):** the
+  2026-08-21 rule said plain "with-reuse / no-reuse", dropping
+  "transmitted / composed" (both corpora are transmitted; "composed"
+  overclaims; "transmitted" collides with text-critical
+  transmission). The restructured draft reintroduced "cleaned build /
+  as transmitted / the transmitted map" and a Table-1 column
+  "composition (cleaned)". Kengo to rule: amend the 2026-08-21 rule,
+  or revert the draft's wording to with-reuse/no-reuse.
   Notes written before 2026-08-21 keep the old wording as dated
   records. Evidence, movers tables, caveats, and the work queue
   are in `2026-08-19_noreuse_precedence_reframe.md`. **Gates (R1/R2 ran
-  2026-08-19, same note):** (a) the no-reuse chronology is **C3-led** —
+  2026-08-19, same note):** (a) the cleaned chronology is **C3-led** —
   the no-reuse W1 axis is partly a length artifact (exchangeable null:
   18.5% share, ρ 0.96 vs logT; real ρ 0.44), so W1-noreuse per-unit
   percentiles/shift magnitudes are NOT citable — W1 confirms signs and
-  the ordering (ρ 0.93 cross-lens) only; (b) citable no-reuse numbers
-  come from `figures/noreuse_reframe/unit_ci_*` + `movers_C3.tsv`
-  (fixed-map Gower + line-bootstrap, B=500) and
-  `axis_anatomy/b2_models_*_noreuse_500.tsv` — not from the earlier
-  exploratory tables in the note; (c) sub-3k residues (most Vāyu
-  sections, Viṣṇu aṃśas 1/2/5/6, MBh 17–18) are uncertainty regions in
-  every no-reuse exhibit.
+  the ordering (ρ 0.93 cross-lens) only; (b) citable cleaned-build
+  numbers come from `figures/noreuse_reframe/unit_ci_*` +
+  `movers_C3.tsv` (fixed-map Gower + line-bootstrap, B=500),
+  `axis_anatomy/b2_models_*_noreuse_500.tsv`, and the **2026-08-30
+  stage-3 TSVs**: `c3_nospace_noreuse/` (no-space C3 sweep coords +
+  `fig2_grid_noreuse.tsv` + `metrics/`),
+  `axis_anatomy/a2_decomposition_noreuse.tsv`,
+  `b1_jackknife_C3_noreuse_500.tsv`, `b3_orderings_C3_noreuse_500.tsv`,
+  `loadings_C3_noreuse_500.tsv`,
+  `loadings_W1rates_vs_C3axis_noreuse_500.tsv` (W1 rates correlated
+  against the C3 axis — the R1-safe word-level loading table) — not
+  from the earlier exploratory tables in the note; (c) sub-3k residues
+  (most Vāyu sections, Viṣṇu aṃśas 1/2/5/6, MBh 17–18; 18 units in
+  all) are uncertainty regions in every cleaned-build exhibit, faded
+  in Fig 1.
 - **Label glossary** (the letter codes come from four dated queues):
   **Q1/Q2/Q3** = the three research questions of
   `2026-08-14_axis_anatomy_plan.md` (what moves a text / why drift shows
@@ -71,6 +102,16 @@ and **no-space C3**; the provenance gates in §0 list the traps.
     from `2026-08-16_colophon_corpus_cleanup.md` and the post-clean TSVs.
   - B1 jackknife numbers in `2026-08-16_axis_anatomy_a1_b1_b5.md` are
     pre-clean (conclusions insensitive; re-run if a referee needs it).
+  - **`mfw_sweep_noreuse/coords_mfw*.tsv` are SPACED C3** (discovered
+    2026-08-30: 0.888 vs the no-space article frame) — never audit a
+    no-space cleaned-build claim against them; the no-space no-reuse
+    sweep is `c3_nospace_noreuse/coords_c3ns_mfw*.tsv`. (The W1 sweep
+    coords in `mfw_sweep_noreuse/` are fine, 0.999 vs frame.)
+  - `b2b_loss_gain_C3{,_noreuse}_500.tsv` are at THRESH **1.3**
+    (loss 0.864 / gain 0.62 on noreuse); re-running the script at
+    another threshold silently overwrites them — restore from git if
+    that happens, and always cite the threshold sweep (1.1–1.3), not
+    one setting.
   - No pre-2026-07-10 R-pipeline number is citable (stylo tokenization bug).
   - July BhP fuzzy-sweep numbers only with the `--normalise-cand-length`
     caveat; the normcut run's original delta numbers (105,795 rows /
@@ -85,68 +126,105 @@ and **no-space C3**; the provenance gates in §0 list the traps.
 **1.1 Two-lens convergence (the design's spine).** Two near-orthogonal
 feature systems — whole-word habits on editorially undone sandhi vs
 sub-lexical trigrams on the continuous sandhied stream — recover the same
-ordering: ρ_x = **0.953** at the 500×500 sweet spot. The A2 bridge shows
-they do it from largely disjoint material (closed classes = 38% of W1's
-signal but 12% of C3's; C3 is 61% word-interior morphology).
+ordering on the cleaned build: **ρ_x = 0.93** (0.9267 all 126 units,
+0.9284 above the floor, article-frame `unit_ci_*` positions; the
+aligned sweep grid's 500×500 cell reads 0.930). **Trigram-led**: C3
+carries per-unit values, W1 corroborates the ordering (R1 gate). The
+old 0.953 is the with-reuse value — diagnostic context only, no
+longer the headline anywhere. The A2 bridge shows the lenses draw on
+largely disjoint material (closed classes = 38% of W1's signal but
+12% of C3's; C3 is 61% word-interior morphology) — **shares still
+pre-strip; open item §8**.
 → `2026-07-08_W1-unsandhied_vs_C3-sandhied_interpretation.md`,
-`2026-08-16_a2_bridge_word_classes_in_c3.md`. Fig: convergence table;
-class signal-share table.
+`2026-08-16_a2_bridge_word_classes_in_c3.md`. Fig: Figure 1 (rebuilt
+cleaned 2026-08-30) + Figure 2.
 
-**1.2 MFW robustness — re-derived post-clean/no-space 2026-08-21
-(supersedes the 2026-08-14 note's pre-clean spaced-C3 values for the
-article).** C3-nospace x invariant 250–8,000 (ρ ≥ 0.95 between any two
-settings, min pair 500↔8000 = 0.953; 0.83 at 12,000); W1 holds 80–1500
-(ρ ≥ 0.93 vs adopted 500; the 80 boundary is 0.939 — don't write
-"≥ 0.94"), cliff 0.51 @3000 / 0.14 @5000; cross-lens grid peaks at
-500×500 = 0.953 (the grid maximum); corner re-convergence
-W1-5000×C3-12000 = 0.53 (theme, not language). Sources:
-`fig2_convergence/fig2_convergence_grid.tsv` + `fig2_within_lens.tsv`
-+ `fig2_c3_pairwise.tsv` (the "any two settings" quantifier's source;
-from the committed no-space sweep coords, now at all 8 settings —
-**never audit this claim against `mfw_sweep/coords_mfw*.tsv`, those
-are the old SPACED C3**). Terminology guardrail: say "most frequent words", not
-"function words" (top-80 already contains deva, dharma, śiva).
-Fig: **Figure 2 BUILT** (`fig2_convergence/`).
+**1.2 MFW robustness — re-derived on the CLEANED build 2026-08-30
+(supersedes the 2026-08-21 with-reuse grid; those values survive only
+as §7-diagnostic context).** Broad plateau 0.93–0.94 (W1 500–1500 ×
+C3 1000–5000); adopted 500×500 = **0.930**; grid max 0.936 at
+W1-800×C3-3000 — the adopted cell sits on the plateau within 0.006
+of the max, "peak" wording is retired, "plateau" is the claim.
+C3-nospace invariant 250–5000 (ρ ≥ 0.93 vs adopted 500; pairwise min
+over 250–8000 = 0.879 at 500↔8000), easing 0.88 @8000 / 0.79 @12000.
+W1 stabilizes from ~200 MFW (0.98 vs adopted) and — the headline
+change — **has NO high-MFW cliff on the cleaned build** (0.92 @5000
+vs adopted): the with-reuse cliff (0.51 @3000 / 0.14 @5000) was the
+lens measuring the shared material (cross-build anti-correlation
+−0.86 @5000), i.e. a reuse phenomenon, now told as diagnosis in
+draft §3.1/§7.1. All grid cells Procrustes-aligned to the article
+frame before comparison (load-bearing on residues — register nearly
+as strong as drift). Sources:
+`c3_nospace_noreuse/fig2_grid_noreuse.tsv` + regenerated
+`fig2_convergence/` TSVs. **Never audit no-space cleaned claims
+against `mfw_sweep/coords_mfw*.tsv` or
+`mfw_sweep_noreuse/coords_mfw*.tsv` — both SPACED C3.** Terminology
+guardrail: say "most frequent words", not "function words" (top-80
+already contains deva, dharma, śiva).
+Fig: **Figure 2 REBUILT cleaned 2026-08-30** (`fig2_convergence/`).
 
-**1.3 Metric robustness.** All standardization-based measures and L1-type
-measures reproduce the axis (ρ 0.95–1.00); only unstandardized
-cosine/Euclidean blur it, for stated reasons; Delta-family interchange is
-expected (Evert et al. 2017) — a consistency check, not independent
-confirmation. → `2026-08-14_distance_metrics_W1_C3.md`. Fig: 8×3 table.
+**1.3 Metric robustness — re-run on the CLEANED build 2026-08-30.**
+Standardized family + L1 measures reproduce the axis at 0.98–1.00
+(argamon 0.984, canberra 0.985, eder 0.990, manhattan 0.988, minmax
+0.982; Würzburg cosine 0.897 — quote "0.98–1.00, Würzburg 0.90").
+Unstandardized cosine/Euclidean **collapse** (0.26 / 0.63), harder
+than the with-reuse "blur" (0.81–0.91): on residues of very unequal
+size the Zipfian-head domination is total. The old "robustness by
+deafness" caution (unstandardized stable at 0.99 across feature
+counts) was a with-reuse phenomenon — on residues cosine is not even
+self-stable (≈ 0.5 across settings); draft §3.2 states both halves.
+Delta-family interchange expected (Evert et al. 2017) — consistency
+check, not independent confirmation.
+→ `c3_nospace_noreuse/metrics/coords_*.tsv`;
+`2026-08-14_distance_metrics_W1_C3.md` (with-reuse history). Fig: 9-row table.
 
-**1.4 Reuse independence.** Noreuse build reproduces the ordering:
-cross-build ρ_x 0.98–0.99 at recommended settings; the collapsed high-MFW
-W1 regime anti-correlates (−0.86 at 5000), confirming what the cliff
-measures. → `2026-08-14_mfw_robustness_noreuse.md`. Fig: cross-build table.
+**1.4 The with-reuse comparison — REFRAMED 2026-08-30: diagnostic,
+NOT robustness.** "The ordering survives reuse removal" is no longer
+a claim the article makes in §3 — reuse removal is corpus
+construction (§2.2). The cross-build facts move to draft §7 as
+diagnosis: global agreement ρ 0.982 C3 / 0.908 W1 (why the
+contaminated discovery pointed true — drags largely cancel at global
+scale); high-MFW anti-correlation −0.86 (what the with-reuse cliff
+was measuring); 16 CI-separated movers = the drag table.
+→ `2026-08-14_mfw_robustness_noreuse.md` (dated record),
+`noreuse_reframe/movers_C3.tsv`. Fig: Table 1 (drag table).
 
-**1.5 Names/sectarian vocabulary struck (all four variants
-2026-08-21).** W1 with-reuse: 38 theonyms → ρ 0.9976; 70 names+ritual
-→ 0.9910 (max mover 13.5 pts, draft says 14; these committed-script
-numbers supersede
-the note addendum's 36/67/0.9898 — an earlier list version). C3
-trigram analogue (strike any trigram occurring inside a listed lexeme;
-over-broad by design, 105–160 of 500 struck): with-reuse
-0.9892/0.9853; **no-reuse 0.9836/0.9798** (citation grade; C3
-baselines Procrustes-rotated into the article frame per the
-2026-08-21 frame fix — raw C3 axis 1 sits 22–28° off the published
-drift axis). W1 no-reuse 0.9984/0.9952 — ordering-level only (R1
-gate). BhP moves
-slightly *later* under the strike on every variant.
-→ `mfw_sweep/exclusion_test.py` (`--c3`, `--noreuse`);
+**1.5 Names/sectarian vocabulary struck.** Cleaned-build values are
+the citable ones (draft §3.2): C3 trigram analogue (strike any
+trigram occurring inside a listed lexeme; over-broad by design,
+105–160 of 500 struck) **0.9836/0.9798**; W1 0.9984/0.9952 —
+ordering-level only (R1 gate). C3 baselines Procrustes-rotated into
+the article frame per the 2026-08-21 frame fix (raw C3 axis 1 sits
+22–28° off the published drift axis). With-reuse variants (W1
+0.9976/0.9910, C3 0.9892/0.9853) are history, not draft material.
+BhP moves slightly *later* under the strike on every variant.
+→ `mfw_sweep/exclusion_test.py` (`--c3`, `--noreuse`),
+`mfw_sweep/exclusion_results_*_noreuse.tsv`;
 `2026-08-21_withreuse_gap_closure.md`.
 
-**1.6 Encoding controls (C3).** Word division is editorial → no-space C3
-adopted; agreement with W1 improves at every MFW; movers move toward their
-W1 positions. Digraph romanization measured non-issue (ρ ≥ 0.99).
-Colophons were real directional paratext bias (ρ −0.58 with shift) →
-corpus cleaned; headline results held or tightened.
+**1.6 Encoding corrections (C3) — framing per the 2026-08-30
+restructure: corrections that define the corpus, not survived
+perturbations.** Word division is editorial → no-space C3 is the
+corpus convention (spaced C3 was mismeasuring: 33% of top-500
+features carried a space; movers moved toward their W1 positions
+when it was fixed). Digraph romanization measured non-issue
+(ρ ≥ 0.99, cite as preempted objection). Colophons were real
+directional paratext bias (ρ −0.58 with shift, single units up to 15
+pts) → removal is definitional; the only "after" number quoted is
+that the lenses agreed better (correction behaving as a correction),
+never "no headline moved".
 → `2026-08-16_c3_nospace_scriptio_continua.md`, `_c3_phoneme_digraph_check.md`,
 `_c3_colophon_stripped_check.md`, `_colophon_corpus_cleanup.md`.
 
-**1.7 Independent implementation.** No-space C3-500 reproduced exactly by
-R stylo 0.7.5 on a pre-stripped corpus: features 500/500, Delta matrices
-ρ 1.0000, map ρ 1.0000. Prescribed methods sentence in
-`2026-08-16_stylo_nospace_crossvalidation.md`.
+**1.7 Independent implementation — RE-RUN ON THE CLEANED BUILD
+2026-08-30.** No-space C3-500 reproduced exactly by R stylo 0.7.5 on
+the whitespace-pre-stripped cleaned corpus
+(`corpus/epic_puranas_sandhied_noreuse_nospace`, results dir
+20260830_161355; `validate_nospace_stylo.py --noreuse`): features
+500/500, Delta matrices ρ 1.0000, map ρ 1.0000 vs the article frame.
+The 2026-08-16 with-reuse cross-validation stands as history.
+→ `2026-08-16_stylo_nospace_crossvalidation.md` (methods sentence —
+update its build description before quoting).
 
 **1.8 Length limits (the honest boundary).** Sub-3k-word units are
 uncertainty regions (D1); length is the failure mode both lenses *share*,
@@ -164,53 +242,89 @@ splitting silently mutilated IAST; survived-anyway robustness anecdote.
 
 ## 2. Q2(a): why a drift axis emerges (mechanics)
 
-**2.1 B1 variance anatomy.** Axis-1 share 13.4% (W1) / 10.2% (C3), spectrum
-fat-tailed; jackknife over all 127 deletions ρ ≥ 0.983; leverage suspects
-(śāstra outgroup, Śivadharma pair) cleared. Near-degenerate C3 1:2 ratio
-licenses B3's top-2-plane comparisons. **Citable spectrum numbers
-(2026-08-29 audit): the committed post-clean TSVs
-`axis_anatomy/b2_models_{W1,C3}_500.tsv` — real ratio12 W1 1.68 / C3
-1.07, shares 13.4% / 10.2% (the draft quotes these). The B1 note's
-13.5%/1.69 (W1) and 10.6%/1.13 (C3) are the earlier B1 spectrum — don't
-quote it against the draft.**
-→ `2026-08-16_axis_anatomy_a1_b1_b5.md` (jackknife pre-clean).
+**2.1 B1 variance anatomy — CLEANED values 2026-08-30.** C3 spectrum
+8.7 / 7.2 / 5.7 / 4.9% (axes 1–4), ratio12 **1.21** (W1: 12.8%,
+ratio12 1.31); jackknife over all 126 deletions ρ ≥ **0.991**
+(median 0.999, axis-1 share stable 8.4–8.9%); leverage suspects
+(śāstra outgroup, Śivadharma pair) cleared at ≥ 0.993 singly or
+together. Sources: `axis_anatomy/b1_jackknife_C3_noreuse_500.tsv`,
+`b2_models_C3_noreuse_500.tsv`. The with-reuse spectrum (13.4%/1.68
+W1, 10.2%/1.07 C3, `b2_models_{W1,C3}_500.tsv`) is diagnostic
+context only. Note the near-degeneracy story SOFTENS on the cleaned
+build (1.21 vs 1.07) — see 2.3 for what that does to the
+multi-method reading.
+→ `2026-08-16_axis_anatomy_a1_b1_b5.md` (pre-clean history).
 
-**2.2 B2 null models (the methodological centerpiece).** Exchangeable null:
-axis-1 share 13.1% but it is a *length artifact* (ρ 0.91 vs log length;
-real axis: 0.065) — share alone can mislead, always report the length
-diagnostic beside it. Heterogeneity without covariance: 3.3%. Brownian
-drift process: 43.4% and recovers the latent order at ρ 0.986. A dominant,
-ordering-shaped, length-independent first axis is the signature of
-**autocorrelated change**. → `2026-08-16_b2_models_loss_gain.md`. Fig: null-model
-table with length-diagnostic column.
+**2.2 B2 null models (the methodological centerpiece) — CLEANED
+values (run 2026-08-19, promoted to headline 2026-08-30).** C3: real
+axis-1 share **8.7%**, length-clean (ρ 0.064 vs logT); exchangeable
+null 6.9 ± 0.2% — close to real, and the length diagnostic is what
+exposes it (the null's axis is sampling-noise geometry);
+heterogeneity without covariance 2.5 ± 0.1%; Brownian drift 40.9 ±
+1.5%, recovering the latent order at ρ 0.996 ± 0.002 (W1 0.974),
+length-clean. W1 residues: exchangeable null 18.5% at ρ 0.96 vs logT
+BEATS the real W1 axis (12.8% at 0.44) — the R1 catch, told in draft
+§3.4 as the diagnostic catching our own lens. Share alone can
+mislead; always report the length diagnostic beside it.
+→ `axis_anatomy/b2_models_{W1,C3}_noreuse_500.tsv`;
+`2026-08-16_b2_models_loss_gain.md` (with-reuse history: 13.1%
+null / 13.4% real / 3.3% / 43.4%, ρ 0.986). Fig: null-model table
+with length-diagnostic column.
 
-**2.3 B3 convergent orderings.** PCA/isomap/Fiedler all find the gradient
-in their top-2 plane (PCA 0.997/0.995 aligned); C3's raw first-axis flips
-are a corpus property (near-degenerate spectrum); TSP snake-fold failure
-independently proves a real second dimension. One-sentence exclusion of
-t-SNE/UMAP (local neighborhoods, no global geometry).
-→ `2026-08-16_b3_convergent_orderings.md`. Fig: raw-vs-aligned two-panel table.
+**2.3 B3 convergent orderings — RE-RUN CLEANED 2026-08-30; the
+reading CHANGES.** On the carrying lens: PCA recovers the gradient
+in its aligned top-2 plane at **0.984** (raw pca1 0.834); isomap
+0.77; **Fiedler FAILS (0.12 aligned / 0.21 raw) — it did not fail
+with-reuse (0.82)** — and TSP fails as before (0.21). New wording
+(draft §4): methods that retain a plane recover the gradient;
+methods that force one dimension (path or single spectral
+coordinate) cannot choose between two near-equal directions and
+fold — their failure is evidence FOR the second dimension, not
+against the first. Do not quote the with-reuse
+"PCA/isomap/Fiedler all find it" sentence. t-SNE/UMAP exclusion
+unchanged.
+→ `axis_anatomy/b3_orderings_C3_noreuse_500.tsv`;
+`2026-08-16_b3_convergent_orderings.md` (with-reuse history).
 
 ---
 
 ## 3. Q1: what the axis counts
 
-**3.1 A1 loadings.** Distributed: only 4/500 (W1), 8/500 (C3) features with
-|ρ| ≥ 0.7; median |ρ| ~0.25. Poles read as narrative-dialogic (tam, sa,
-abravīt, iva) → prescriptive-doxographic (ādi +0.81; -ika/-ikā, -yet/-yāt
-optatives). Whether the register gradient is temporal is Q2's question, not
-A1's claim. → `2026-08-16_axis_anatomy_a1_b1_b5.md`. Fig: two-pole loading table.
+**3.1 A1 loadings — CLEANED tables 2026-08-30.** Distributed: 5/500
+C3 features at |ρ| ≥ 0.7 (41 at ≥ 0.5), median |ρ| 0.205; W1-rates
+table 3/500 at ≥ 0.7, median 0.249. Word-level poles (W1 rates vs
+the **C3** axis — the R1-safe construction; never correlate W1 rates
+against the W1-noreuse axis): early = adya −0.75, rāja/rājan
+−0.74/−0.70, tvām −0.70, vīra −0.70, tam −0.67, iva −0.66, raṇe
+−0.65, tava −0.64, ratha(m) −0.62, dhanuḥ −0.60; late = ādi +0.64,
+brahma +0.63, jñāna(m) +0.54/+0.49, kramāt +0.53, namaḥ +0.53,
+**smṛtam +0.53 / ucyate +0.50 / proktam +0.47 (citation formulas —
+new, the transmitted corpus had blurred them)**, bhavet +0.48, eka
++0.48. C3 poles: rāj/āja −0.81/−0.75, hat/han −0.70/−0.51, -āmi
+−0.62 early; mṛt +0.71, -ikā +0.70, ahm (brahm) +0.68, ādi +0.62
+late — **glosses pending Kengo's vetting (mṛt = amṛta vs mṛtyu; aye;
+ātr)**. Whether the register gradient is temporal is Q2's question,
+not A1's claim.
+→ `axis_anatomy/loadings_C3_noreuse_500.tsv`,
+`loadings_W1rates_vs_C3axis_noreuse_500.tsv`;
+`2026-08-16_axis_anatomy_a1_b1_b5.md` (with-reuse history: tam −0.78
+etc. — do not quote against the draft). Fig: two-pole loading table.
 
-**3.2 A2 class decomposition (Q1's answer).** No class necessary, nearly
-every class sufficient: particles alone 0.889, content alone 0.941,
-closed-class union 0.947, word-interior trigrams 0.972; every removal ≥
-0.94 (W1). The one real exception: junction/word-final trigrams alone fail
-(0.11–0.14) — "no slice destroys the ordering, short of restricting to
-boundary phonology." The axis is pervasive, redundant usage change; W1 and
-C3 converge across *structural levels*, not just word classes.
-Classification hand-review mooted by perturbation check (max Δρ 0.031);
-Kengo reviews the printed table only. → `2026-08-16_a2_class_decomposition.md`,
-`_a2_bridge_word_classes_in_c3.md`. Fig: the two decomposition tables (Q1 centerpiece).
+**3.2 A2 class decomposition (Q1's answer) — CLEANED (C3-only, R1)
+2026-08-30.** No class necessary, broad classes sufficient:
+word-interior trigrams alone **0.961**, content-source trigrams
+alone 0.909, word-initial alone 0.858; every single-class removal
+≥ 0.840 (most ≥ 0.89). The one real exception: junction/word-final
+trigrams alone fail (**0.089 / 0.029**) — boundary phonology, the
+edition-sensitive stratum, is where the ordering is not. The W1
+class rows (particles alone 0.889, content 0.941, etc.) are
+with-reuse-only — R1 bars a W1-noreuse decomposition; the draft's
+§3.3 is C3-phrased. Perturbation check (max Δρ 0.031) is the
+with-reuse W1 run; draft cites it as classifier-robustness at one
+remove. → `axis_anatomy/a2_decomposition_noreuse.tsv`;
+`2026-08-16_a2_class_decomposition.md`,
+`_a2_bridge_word_classes_in_c3.md` (with-reuse). Fig: decomposition
+table (Q1 centerpiece).
 
 **3.3 A3 minimal sufficient set — RUN 2026-08-29 (for the Indological
 companion; the DH draft does not cite it).** Verdict: **the axis
@@ -241,34 +355,45 @@ same note.
 ## 4. Q2(b): why the axis is time-like
 
 **4.1 B2b retention clock (Kengo's hypothesis, confirmed in frequency
-form).** Split-half design: depletion of 81 epic-typical features alone
-reproduces the ordering at **ρ 0.939** (0.941 within the late block);
-gains loose (0.720); strict presence/absence only 0.474. Slogan: "losses
-are the clock; gains are the community structure." Frame via Swadesh-style
-retention-rate glottochronology on style-feature *frequencies*, with
-stochastic Dollo (Nicholls & Gray 2008) as the character-loss relative;
-do not overclaim the strict Dollo form. → `2026-08-16_b2_models_loss_gain.md`.
-**2026-08-19: replicated on C3 and on the no-reuse chronology** — loss
-alone 0.856–0.868 invariant across thresholds 1.15–1.5 and both builds,
-gains 0.60–0.69 (the W1 threshold 1.5 is degenerate on C3: late set = 1
-trigram — always cite the sweep, not one setting). Committed TSVs at
-THRESH 1.3: `b2b_loss_gain_C3{,_noreuse}_500.tsv`; sweep table in the
-reframe note. W1+noreuse is refused by the script (R1 gate).
+form) — CLEANED headline 2026-08-30.** Split-half design on the
+carrying lens: loss alone **0.856–0.868** invariant across
+thresholds 1.1–1.3; gains 0.62–0.69; combined 0.82–0.90 (at the
+loosest threshold combined < loss — gains can subtract); within the
+late block alone loss 0.77–0.86 vs gain 0.52–0.72; within non-epic
+0.73–0.75 vs 0.39–0.51; strict presence/absence ≈ 0.40 (0.36–0.42) —
+dwindles, not vanishes. Threshold 1.5 is degenerate on C3 (late set
+= 1 trigram) — always cite the sweep, not one setting. Committed TSV
+at THRESH 1.3 (loss 0.864 / gain 0.62):
+`b2b_loss_gain_C3_noreuse_500.tsv`. W1+noreuse refused by the script
+(R1 gate); the with-reuse W1 headline (loss 0.939 from 81 features,
+gains 0.720, presence 0.474, late block 0.941) is history — the
+draft's §6 carries no with-reuse values. Slogan unchanged: "losses
+are the clock; gains are the community structure." Frame via
+Swadesh-style retention on frequencies, stochastic Dollo (Nicholls &
+Gray 2008) as the character-loss relative; do not overclaim the
+strict Dollo form. → `2026-08-16_b2_models_loss_gain.md` (design +
+with-reuse history), threshold-sweep printouts 2026-08-30 (session
+log; values in draft §6).
 
-**4.2 E1: known-order layers (validation as a layer-dating instrument).**
-CE-excluded apparatus is uniformly later-styled than its constituted text,
-both lenses, every augmented unit moves lateward. **Citable with-reuse W1
-values (2026-08-29 audit) = the committed `e1_apparatus/
-e1_apparatus_W1_500.tsv`: MBh 18 apparatus 65.1 [47.6, 81.0] vs
-constituted 4.8 (map percentile, `coords_W1_mfw500.tsv`); MBh 13 control
-57.1 [56.3, 61.1] vs 35.7 — the draft's 65 [48, 81] vs 5 and 57 [56, 61]
-vs 36. The 2026-08-14 note's 62 [46,76] / 55 [53,59] / const 33 are
-pre-clean — don't quote them against the draft. No-reuse constituted
-comparators follow the citation pin in the reframe note (31/8 from
-`unit_ci_C3_noreuse.tsv`).** Lower bounds (e-text subset,
-not Belvalkar's full print apparatus). E1 cannot arbitrate "early
-composition" vs "looks early". → `2026-08-14_e1_apparatus_experiment.md`
-(+ no-space conversions in the rerun note). Fig: 5-row CI table; dumbbell plot.
+**4.2 E1: known-order layers (validation as a layer-dating
+instrument) — CLEANED values lead (2026-08-30 flip).** CE-excluded
+apparatus is uniformly later-styled than its constituted text, every
+augmented unit moves lateward, all five books directional. **Primary
+citations = cleaned trigram map
+(`e1_apparatus/e1_apparatus_C3_noreuse_500.tsv` + constituted
+comparators from `unit_ci_C3_noreuse.tsv`): MBh 13 control apparatus
+48 [43, 52] vs constituted 31; MBh 18 apparatus 61 [39, 82] vs 8.**
+The with-reuse W1 values (MBh 18: 65.1 [47.6, 81.0] vs 4.8; MBh 13:
+57.1 [56.3, 61.1] vs 35.7, `e1_apparatus_W1_500.tsv`) are at most a
+corroborating clause. Stated asymmetry: the apparatus files
+themselves are NOT stripped (outside the strip's corpus) — their
+positions mix accretors' composition with what the accretors
+absorbed; the direction test doesn't depend on resolving it. Lower
+bounds (e-text subset, not Belvalkar's full print apparatus). E1
+cannot arbitrate "early composition" vs "looks early".
+→ `2026-08-14_e1_apparatus_experiment.md` (+ no-space conversions in
+the rerun note; its 62/55/33 values are pre-clean). Fig: 5-row CI
+table; dumbbell plot.
 
 **4.3 Internal stratigraphy of known relative order.** PPL stratum inside
 Vāyu/Bḍ earlier than the Vāyu↔Bḍ common text (post-clean C3: V8 28 vs 57;
@@ -369,14 +494,14 @@ Brockington's late-epilogue verdict about their status as *books*.
 → `2026-08-14_closing_parvans_claim_and_objections.md`, `2026-07-15` diagnostics.
 
 **6.2 PPL priority (stage 1 of the theory).** PPL Textgruppe I + ungrouped
-hold linguistic priority: pct 22–28 both lenses, CI-backed; late
-Textgruppen sort to Kirfel's own grouping. **Citable band values
-(2026-08-29 audit) = committed post-clean coords: early I/ungrouped/II
-W1 23.0/23.8/37.3, C3 28.6/25.4/31.7 (draft: "23–37", I+ungrouped
-"23–29"); late Ia/III/IIB/IIA W1 48.4/76.2/72.2/78.6, C3
-65.9/76.2/92.9/95.2 (draft: "48–79 W1, 66–95 C3"). The earlier "Ia 61,
-III 73, IIB 87, IIA 93" C3 transcription is stale — don't quote it
-against the draft.** The Vāyu is a late-idiom composition embedding a
+hold linguistic priority; late Textgruppen sort to Kirfel's own
+grouping. **Citable band values (2026-08-30) = the CLEANED trigram
+map, `unit_ci_C3_noreuse.tsv`: early I 24.8 [23.2, 29.6] / ungrouped
+24.8 [23.6, 27.2] / II 32.0 [27.2, 38.4] (draft: "25–32"); late Ia
+64.0 [50.7, 73.6] / III 73.6 [63.6, 83.2] / IIB 88.0 [83.2, 90.4] /
+IIA 93.6 [89.6, 96.8] (draft: "64–94"). The with-reuse post-clean
+bands (early 23–37, late 48–79 W1 / 66–95 C3) are superseded for the
+draft.** The Vāyu is a late-idiom composition embedding a
 genuinely archaic genealogical stratum — "its reputation for antiquity is
 its cargo, not its voice." Counter-cases to print: V1 cosmogony reversal
 (real, C3-suggestive); ViP paraphrase reversal (W1-led) — the ViP reworks
@@ -384,13 +509,29 @@ rather than transmits. → `2026-08-14_shared_layers_by_family.md`,
 `_complement_halves_vayu_bd_visnu.md`, post-clean values in cleanup note.
 Fig: dot-strip stratigraphy figure; PPL-vs-vayubd CI table.
 
-**6.3 Sequence: PPL → old SP → Mārk.** Old SP whole (26 W1 / 31 C3
-post-clean) before Mārk whole (35/43), CI-separated both lenses — contra
-the received relative dating; at layer level the sequence interleaves
-(Mārk 94–141 at/below the PPL band: 25/25 post-clean; SP 174–183 pāśupata
-late). Transmission-conservatism confound flagged and bounded.
-→ `2026-08-14_sp_mark_ppl_sequence.md` + post-clean conversions. Fig: forest
-plot of PPL/SP/Mārk layers.
+**6.3 Sequence: PPL → old SP → Mārk — REFRAMED as VALIDATION (Kengo,
+2026-08-30).** The old SP is placed by its editors (Adriaensen,
+Bakker, Isaacson) among the oldest purāṇas, **after only the
+ur-Vāyu** — so the instrument's placement is *agreement with the
+philology that had the text*, not a departure. Hazra's received
+dating is no counter-witness: **he did not know the SP as an
+independent purāṇa** — his chronology was built without the text.
+Draft §8 carries this as a bold-led validation item ("an
+independently established early purāṇa measures early"), moved out
+of "what the corpus says back". Cleaned values: SP 29 [27, 32]
+earlier than Mārk 32 [28, 35]; the with-reuse gap was wider partly
+because of the Mārk's +6 drag (absorbed later material) — §7
+cross-reference. Layer level: sequence interleaves (Mārk 94–141
+at/below the PPL band; SP pāśupata block 98 [97, 99] as a stripped
+residue, 2.9k words — brushes the floor, flag it). The ur-Vāyu
+parenthetical in the draft (the editors' one earlier text = the kind
+of dissolved core the strip greys out; the Vāyu residue answers for
+compilers, not the ur-text) is Claude's inference — **Kengo to
+confirm it matches the editors' position**. Transmission-conservatism
+confound flagged and bounded by the pāśupata contrast.
+→ `2026-08-14_sp_mark_ppl_sequence.md` (pre-reframe record; its
+"contra the received relative dating" framing is superseded),
+Adriaensen et al. 1998. Fig: forest plot of PPL/SP/Mārk layers.
 
 **6.4 Genre control (vaṃśa) — DROPPED as circular (2026-08-19, Kengo's
 call), replaced by the strip-first defense.** The vaṃśa marker split
@@ -495,16 +636,33 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
     2026-08-29).** Validation means independently *known* relative
     order — the instrument passes every such case; never hedge that
     with "generally". Where the ordering contradicts *received
-    opinion* (BhP placement, MBh/Rām precedence, earliest-purāṇa
-    order), frame the contradiction as landing where scholars had
-    already recorded reservations — the method locates where the
-    received chronology is soft. Never frame such departures as
-    validation failures. Kept general in the DH draft; the
-    Indological companion names the reservations.
+    opinion* (BhP placement, MBh/Rām precedence), frame the
+    contradiction as landing where scholars had already recorded
+    reservations — the method locates where the received chronology
+    is soft. Never frame such departures as validation failures.
+    Kept general in the DH draft; the Indological companion names the
+    reservations. (SP-before-Mārk left this list 2026-08-30 — it is
+    now a validation item, §6.3: the editors who knew the text concur;
+    Hazra's chronology was built without it.)
 12. **Abstract generality (Kengo, 2026-08-29):** "chronology on a
     corpus" stays general — śāstric experiments suggest the method
     may transfer to philosophical texts; don't narrow it to
     "authorless".
+13. **With-reuse values are diagnostic, never robustness
+    (2026-08-30).** No with-reuse number appears as a representative
+    result anywhere; where one appears (draft §7, or a with-reuse
+    foil like the axis-3 0.46), it is labeled as a measurement of
+    what the contamination was doing. "The ordering survives X" is
+    banned phrasing for reuse/colophons/spacing — the cleansing
+    defines the corpus; the comparison diagnoses the contamination.
+14. **Cleaned-build C3 is the carrying lens everywhere.** Per-unit
+    claims cite C3 percentiles from `unit_ci_C3_noreuse.tsv`; W1
+    corroborates orderings and directions only (R1); W1 feature
+    rates may be correlated against the C3 axis (the §5
+    construction) but never against the W1-noreuse axis.
+15. **Terminology — awaiting Kengo's ruling (see §0):**
+    with-reuse/no-reuse (2026-08-21 rule) vs the restructured
+    draft's cleaned/transmitted/composition wording.
 
 ---
 
@@ -521,17 +679,23 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | ~~A5~~ | DONE 2026-08-29 — `a5_text_anatomy_{W1,C3}.tsv`, feeds the Indological companion's worked-example boxes (§3.4) | — | — |
 | ~~A3~~ | DONE 2026-08-29 — axis resists compression; 7-feature honest exhibit if wanted (§3.3) | — | — |
 | E1-full | Belvalkar print apparatus (OCR) | optional | strengthens 4.2 magnitudes |
-| B1 re-run | jackknife on post-clean corpus | optional, cheap | footnote hygiene |
+| ~~B1 re-run~~ | DONE 2026-08-30 on the cleaned build (`b1_jackknife_C3_noreuse_500.tsv`, min 0.991) | — | — |
+| Terminology | rule on cleaned/transmitted vs with-reuse/no-reuse (§0, guardrail 15) | Kengo | draft wording pass |
+| A2-bridge | which axis for W1 signal shares under R1, then `a2_bridge_c3_classes.py --noreuse` | Kengo (design), then cheap run | §2.4 draft slot (1.1 shares) |
+| §8 layers | within-host layer projection: restate as same-transmission or drop for the disjoint form | Kengo | §8 draft slot |
+| §5 glosses | vet trigram glosses (mṛt, aye, ātr, …) | Kengo | §5 wording |
+| ur-Vāyu note | confirm the draft's ur-Vāyu parenthetical matches Adriaensen et al.'s position | Kengo | §6.3 / draft §8 |
 | Venue | pick from outline variants | Kengo | everything downstream |
 
 ## 9. Figure/table shortlist (cross-variant core)
 
-1. **Hero map pair (W1 + no-space C3) — BUILT 2026-08-21**
-   (`figures/fig1_map_pair/fig1_map_pair.{py,pdf,png}`; article 500/500
-   settings from the committed article-frame coords TSVs — NOT the
-   80-MFW deck hero; greedy label placement, final label polish at
-   proofs). — all variants
-2. W1×C3 convergence heatmap + sweet-spot table (1.1–1.2). — all
+1. **Hero map pair — REBUILT ON THE CLEANED BUILD 2026-08-30**
+   (`figures/fig1_map_pair/fig1_map_pair.{py,pdf,png}`; C3 panel (a)
+   first — trigram-led; coords from `mds3d/*_noreuse_n126.tsv`;
+   sub-floor residues faded per §3.4 discipline; greedy label
+   placement, final label polish at proofs). — all variants
+2. W1×C3 convergence heatmap — REBUILT cleaned 2026-08-30, plateau
+   wording (1.1–1.2). — all
 3. A2 decomposition tables (Q1 centerpiece). — all
 4. B2 null-model table with length-diagnostic column. — DH/wide lead fig
 5. B2b loss/gain table ("retention clock"). — wide's headline, DH core
@@ -543,10 +707,14 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 11. External-witness tables: purāṇa usage; Rām attestation; BhP oldest
     quotes (6.5–6.7). — Indological; SI elsewhere
 12. Closing-parvans length-control panel (1.8). — all (the honesty figure)
-13. **§7.3 movers table — IN DRAFT 2026-08-21** (Table 1: 16
-    CI-separated moves + grazing Dh, sorted by shift, V8/Vi5 †-flagged
-    sub-3k). Generated by `noreuse_reframe/movers_table.py c
-    --markdown` from `movers_C3.tsv` — regenerate, never hand-edit.
+13. **§7.2 drag table — COLUMNS INVERTED 2026-08-30** (Table 1: 16
+    CI-separated + grazing Dh; now composition (cleaned) |
+    as transmitted | drag, drag = with-reuse − cleaned, positive =
+    absorbed material dragged lateward; sorted by drag descending;
+    V8/Vi5 †-flagged sub-3k). The draft's table was hand-inverted
+    from the 2026-08-21 output — **`movers_table.py` still emits the
+    old column order; teach it the new format before the next
+    regeneration, then regenerate, never hand-edit.**
 14. One-line chronology strip with CI whiskers, both C3 builds
     (`figures/one_line/one_line_C3.pdf`; true axis-1 coordinates from
     the coords TSVs, R2 CIs mapped rank→coordinate). Candidate
