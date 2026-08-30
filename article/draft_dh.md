@@ -23,32 +23,46 @@ values against the post-colophon-clean TSVs. Bibliography assembled
 and verified 2026-08-29; venue reference style to be applied at
 submission.**
 
-**RECOMPUTE MANIFEST (stage 2 inventories against existing TSVs;
-stage 3 runs the remainder). All on the cleaned build unless noted:**
+**RECOMPUTE MANIFEST — stage 2 inventory done 2026-08-30. FILLED
+from existing TSVs (values now in the text): §2.2 corpus stats (126
+units = 127 minus vayu_ba, which is shared text by construction;
+3,556,172 words; residues 648–344,712, median 15.1k; 18 units below
+the 3k floor — from `noreuse_reframe/unit_ci_W1_noreuse.tsv`); §3.1
+cross-lens ρ = 0.93 confirmed (0.9267 all 126 units, 0.9284 above
+floor, article-frame `unit_ci_*` positions); §4 full null battery
+both lenses (`axis_anatomy/b2_models_*_noreuse_500.tsv`: C3 real
+8.7% length-clean 0.064, exchangeable 6.9 ± 0.2%, heterogeneity 2.5
+± 0.1%, drift 40.9 ± 1.5% at ρ = 0.996; W1 real 12.8%/0.44,
+exchangeable 18.5%/0.96; eigen ratio12 C3 1.21, W1 1.31); §6 C3
+headline loss 0.864 / gain 0.62
+(`b2b_loss_gain_C3_noreuse_500.tsv`); §8 Kirfel bands on cleaned C3
+(early 25–32, late 64–94, per-TG values from `unit_ci_C3_noreuse`).
 
-1. Fig 1 map pair rebuilt on the cleaned build (coords: no-reuse
-   article-frame TSVs; check `noreuse_reframe/unit_ci_*` and the
-   n126 no-reuse results dirs).
-2. Fig 2 sweep grid (W1 × C3 feature-count grid) on the cleaned
-   build; locate the agreement ridge and confirm/replace 500 × 500 as
-   the adopted setting.
-3. §2.2 cleaned-corpus statistics: unit count (verify 126 vs 127 —
-   which unit drops and why), total residue words, median.
-4. §2.4 lens-disjointness attribution (38%/12%, 61%, 4%) verified on
+**STILL TO RUN (stage 3), all on the cleaned build:**
+
+1. Fig 1 map pair — plotting only: adapt `fig1_map_pair.py` to
+   `mds3d/coords_C3-500ns_noreuse_n126.tsv` +
+   `coords_W1-500_noreuse_n126.tsv`.
+2. Fig 2 sweep grid — REAL COMPUTE: `mfw_sweep_noreuse/coords_mfw*`
+   turn out to be the SPACED C3 variant (0.888 vs the no-space
+   article frame; W1 coords match at 0.999). Need a no-space C3
+   sweep (250–12,000) on the no-reuse corpus, then the aligned
+   cross-lens grid; confirm 500 × 500 as adopted setting and the
+   regime boundaries quoted in §3.1.
+3. §2.4 lens-disjointness attribution (38%/12%, 61%, 4%) verified on
    the cleaned build.
-5. §3.2 distance-measure sweep; single-text / group deletion;
-   implementation replication (verify which build stylo was fed).
-6. §3.3 feature-level loading census and class decomposition.
-7. §3.4 / §4 completion of the null battery: C3 real first-axis
-   variance share; heterogeneity null and drift generative model,
-   both lenses; multi-method battery (PCA, isomap, Fiedler, TSP) and
-   C3 eigenvalue ratio.
-8. §5 loading tables (W1 above-floor and C3).
-9. §6 split-half retention decomposition: C3-led headline;
-   subpopulation and presence/absence variants; W1 above-floor
-   corroboration.
-10. §8 Kirfel late-Textgruppen band and layer-projection values where
-    only with-reuse numbers exist.
+4. §3.2 distance-measure sweep; single-text / group deletion
+   (`b1_jackknife` has no noreuse version); implementation
+   replication (verify which build stylo was fed).
+5. §3.3 loading census + class decomposition (`a2_decomposition`,
+   `loadings_*` have no noreuse versions).
+6. §4 multi-method battery (PCA, isomap, Fiedler, TSP); recheck the
+   method-dependence claim given the softer eigen-degeneracy.
+7. §5 loading tables (C3, and W1 above floor).
+8. §6 combined loss+gain value; subpopulation and presence/absence
+   variants; W1-above-floor corroboration (`b2b_loss_gain.py` on
+   noreuse inputs).
+9. §8 layer-projection framing — Kengo's call (see slot in §8).
 
 **Target:** DSH / Journal of Cultural Analytics (per `outline_dh.md`).
 
@@ -59,7 +73,8 @@ stage 3 runs the remainder). All on the cleaned build unless noted:**
 Stylometry is most commonly applied to author attribution. We report
 an accidental discovery that stylometry can reveal chronology on a
 corpus, and the verification it demanded. The Sanskrit epics and
-purāṇas — here 4.5 million words in some 126 textual units — grew by
+purāṇas — here 126 textual units, 4.5 million words as transmitted
+and 3.6 million once the text they share is stripped — grew by
 accretion over roughly a millennium, share large amounts of text
 verbatim, and reach us through editions whose orthography, word
 division, and paratexts are editorial. Many of them are available in
@@ -276,12 +291,14 @@ the one known *source*, its lines removed from the purāṇas but never
 from the reconstruction (§8 turns this one-directionality into a
 validation design). What survives the strip approximates each text's
 own diction: the language its compilers wrote rather than the
-language they carried. Stripping is savagely uneven — residues span
-648 to 345,000 words — and §3.4 converts that unevenness into an
-explicit statement of which lens can carry per-unit measurements and
-which units fall below the instrument's floor. [NR-RECOMPUTE: cleaned
-corpus totals — unit count (verify 126 vs 127: which unit drops and
-why), total residue words, median residue size.]
+language they carried. The cleaned corpus holds 126 units — one unit
+of the transmitted inventory, the Vāyu–Brahmāṇḍa common text, *is*
+shared text by construction and retains no residue — totalling
+3,556,172 de-sandhied words. Stripping is savagely uneven — residues
+span 648 to 345,000 words (median 15.1k) — and §3.4 converts that
+unevenness into an explicit statement of which lens can carry
+per-unit measurements and which units fall below the instrument's
+floor.
 
 **Word-division discipline.** For the word lens, sandhi is resolved
 algorithmically (below), replacing editorial segmentation with a
@@ -578,10 +595,10 @@ individual contrasts. The lesson is portable: whichever lens has the
 smaller event count per unit inherits the small-sample regime, and a
 length diagnostic must sit beside every variance-share claim (§4).
 
-Units whose residues fall below the floor — the extreme case is
-treated in §7: for some old-core carriers almost nothing survives the
-strip — are greyed out on the maps and read as direction-only, or not
-at all. The corpus's length imbalance is thus not normalized away but
+Eighteen of the 126 residues fall below the floor — the extreme case
+is treated in §7: for some old-core carriers almost nothing survives
+the strip. They are greyed out on the maps and read as
+direction-only, or not at all. The corpus's length imbalance is thus not normalized away but
 converted into an explicit resolution limit of the instrument.
 
 ## 4. Why a drift axis emerges: null and generative models
@@ -595,44 +612,39 @@ each; both lenses, C3 — the carrying lens — reported here, W1
 mirroring above the length floor).
 
 **Null 1: exchangeable.** All units sample from one shared rate vector —
-no heterogeneity at all. Its first MDS axis nonetheless carries a
-non-trivial share of the squared-distance variance, and diagnosing
-why is the section's first methodological point: the null's axis is a
-**length artifact** (smaller samples deviate more in every feature,
-and Delta geometry arranges units by sampling noise magnitude — on
-the cleaned build's word-lens residues the null's share is 18.5 ±
-0.4% at ρ = 0.91–0.96 against log length). The real C3 axis is
-length-independent (ρ = 0.064 against log length). *First-axis
-variance share is uninterpretable without a length diagnostic beside
-it*; we suggest this pairing as standard practice for any MDS/PCA-based
-claim about corpus structure — §3.4 is what it caught in our own
-instrument. [NR-RECOMPUTE: C3 exchangeable-null share vs real C3
-first-axis share on the cleaned build (null share 6.9% is computed;
-real share needed); with-reuse comparison was 13.1 ± 0.4% null vs
-13.4% real.]
+no heterogeneity at all. Its first MDS axis nonetheless carries 6.9 ±
+0.2% of the squared-distance variance, not far below the real C3
+axis's 8.7%. The resemblance is a trap, and diagnosing it is the
+section's first methodological point: the null's axis is a **length
+artifact** (smaller samples deviate more in every feature, and Delta
+geometry arranges units by sampling noise magnitude — on the word
+lens's far smaller per-unit event counts the same null's share
+reaches 18.5 ± 0.4% at ρ = 0.96 against log length). The real C3
+axis is length-independent (ρ = 0.064 against log length); the
+null's is not. *First-axis variance share is uninterpretable without
+a length diagnostic beside it*; we suggest this pairing as standard
+practice for any MDS/PCA-based claim about corpus structure — §3.4
+is what it caught in our own instrument.
 
 **Null 2: heterogeneity without covariance.** Each unit receives its own
 rate vector, drawn i.i.d. around the corpus mean with the empirically
 observed per-feature between-text variance — as much per-text
 distinctiveness as the real corpus, but uncorrelated across features.
-The dominant axis collapses. Mere distinctiveness, however strong,
-does not make a gradient. [NR-RECOMPUTE: heterogeneity null on the
-cleaned build; with-reuse value was 3.3 ± 0.1% share.]
+The dominant axis collapses: 2.5 ± 0.1% variance share. Mere
+distinctiveness, however strong, does not make a gradient.
 
 **Generative model: drift.** Feature rates evolve as a slow random walk
 along a latent order (step variance fitted to the observed between-text
 variance), and units sample from their position's rates. Now the first
-axis dominates and — the decisive property — recovers the latent
-generation order almost exactly. A dominant, ordering-shaped,
-length-independent first axis is the *signature of autocorrelated
-change*: many features shifting together along an underlying
-progression. The real corpus's variance share sits between the
-heterogeneity floor and the pure-drift ceiling, which is what a real
-tradition should do — its variance budget is shared among drift,
-register, genre, and idiosyncrasy; §9 locates the two largest
-non-drift components. [NR-RECOMPUTE: drift model on the cleaned
-build; with-reuse values were 43.4 ± 2.7% share, latent-order
-recovery ρ = 0.986 ± 0.006 (W1) / 0.997 (C3).]
+axis carries 40.9 ± 1.5% and — the decisive property — recovers the
+latent generation order at ρ = 0.996 ± 0.002 (W1: 0.974 ± 0.010),
+length-clean. A dominant, ordering-shaped, length-independent first
+axis is the *signature of autocorrelated change*: many features
+shifting together along an underlying progression. The real corpus's
+8.7% sits between the heterogeneity floor and the pure-drift
+ceiling, which is what a real tradition should do — its variance
+budget is shared among drift, register, genre, and idiosyncrasy; §9
+locates the two largest non-drift components.
 
 **The axis is a property of the distances, not of MDS.** Four methods
 with different assumptions — PCA on the z-scored features (no distance
@@ -641,19 +653,22 @@ matrix, no double-centering, L2 where Delta is L1), 1-D isomap
 Hamiltonian-path/TSP seriation — were run on both lenses. Every global
 embedding finds the drift gradient in its top-2 plane. On C3 the
 *raw* first dimensions disagree across methods, and the reason is
-itself a result: C3's top two eigenvalues are nearly degenerate,
-because the register dimension (§9) is almost as strong as the drift
-dimension — so which one surfaces first is method-dependent while the
-plane containing both is not. The TSP seriation fails on both lenses,
-and its failure is independent evidence: path seriation tracks a
-gradient only when the data are effectively one-dimensional, so its
-snake-folding here confirms a genuine second dimension before §9
-measures one. We do not use t-SNE or UMAP anywhere: they preserve
-local neighborhoods and discard exactly the global geometry a
-gradient reading lives in. [NR-RECOMPUTE: multi-method battery on the
+itself a result: C3's top two eigenvalues are close (ratio 1.21, vs
+1.31 on W1), because the register dimension (§9) is strong relative
+to the drift dimension — so which one surfaces first can be
+method-dependent while the plane containing both is not. The TSP
+seriation fails on both lenses, and its failure is independent
+evidence: path seriation tracks a gradient only when the data are
+effectively one-dimensional, so its snake-folding here confirms a
+genuine second dimension before §9 measures one. We do not use t-SNE
+or UMAP anywhere: they preserve local neighborhoods and discard
+exactly the global geometry a gradient reading lives in.
+[NR-RECOMPUTE: multi-method battery (PCA/isomap/Fiedler/TSP) on the
 cleaned build; with-reuse values were PCA 0.997/0.995, isomap
-0.92/0.85, Fiedler 0.95/0.82, TSP 0.24–0.29, C3 eigenvalue ratio 1.07
-vs W1's 1.68.]
+0.92/0.85, Fiedler 0.95/0.82, TSP 0.24–0.29. Eigenvalue ratios above
+are cleaned-build values from `b2_models_*_noreuse_500.tsv`; note the
+near-degeneracy story is softer than with-reuse (1.07 vs 1.68) —
+recheck the method-dependence claim when the battery runs.]
 
 ## 5. What the axis counts
 
@@ -721,15 +736,14 @@ inventory) and **gain component** (acquisition of the late-typical
 inventory), and compared each to the drift axis.
 
 On the carrying lens of the cleaned build, the loss component alone
-reproduces the ordering at ρ = **0.856–0.868**, invariantly across
-feature-selection thresholds, while the gain component reaches only
-0.60–0.69; adding gains to losses improves the ordering marginally at
-best. The clock is carried by what texts *stop doing*. [NR-RECOMPUTE:
-promote the C3 cleaned-build decomposition to the full headline
-treatment (exact loss/gain/combined values at the adopted threshold),
-and corroborate on W1 above the length floor; the earlier with-reuse
-W1 headline was loss 0.939, gains 0.720, combined 0.951, from 81
-early and 65 late features.] The asymmetry deepens inside
+reproduces the ordering at ρ = **0.864** at the adopted threshold
+(0.856–0.868 invariantly across feature-selection thresholds), while
+the gain component reaches only 0.62 (0.60–0.69); adding gains to
+losses improves the ordering marginally at best. The clock is
+carried by what texts *stop doing*. [NR-RECOMPUTE: combined
+loss+gain value at the adopted threshold; corroborate on W1 above
+the length floor (the earlier with-reuse W1 headline was loss 0.939,
+gains 0.720, combined 0.951, from 81 early and 65 late features).] The asymmetry deepens inside
 subpopulations, where the easy epic-versus-late contrast is
 unavailable: within the late block alone, and within all non-epic
 units, losses continue to order while gains fall away.
@@ -926,16 +940,17 @@ carrier's residue reads late (the Vāyu at 81 [78, 85]): the carriers
 are late once they stop speaking the inheritance's words, which is
 the separation a priority claim needs. Kirfel's own internal grouping
 is likewise recovered: his early Textgruppen project in a tight early
-band and his late Textgruppen far later, on both lenses — a
-century-old stratigraphy, built from entirely different evidence,
-sorted correctly by feature statistics. [NR-RECOMPUTE: cleaned-build
-band values for the late Textgruppen and the full early band
-(with-reuse bands were 23–37 early and 48–79 W1 / 66–95 C3 late);
-likewise the within-host layer comparison (PPL-parallel layer vs
+band (25–32 on the trigram lens: Textgruppe I at 25 [23, 30], the
+ungrouped core at 25 [24, 27], Textgruppe II at 32 [27, 38]) and his
+late Textgruppen far later (64–94, from Textgruppe Ia at 64 up to IIA
+at 94) — a century-old stratigraphy, built from entirely different
+evidence, sorted correctly by feature statistics. [NR-RECOMPUTE /
+Kengo's call: the within-host layer comparison (PPL-parallel layer vs
 Vāyu–Brahmāṇḍa common text: 28 [25, 31] vs 57 [42, 66], and
 31 [29, 36] vs 79 [75, 83]) projects shared layers and therefore ran
 on the transmitted build — restate it explicitly as a
-same-transmission projection or recompute what is recomputable.]
+same-transmission projection, or drop it in favor of the disjoint
+form above.]
 
 The obvious objection is genre: genealogical list-verse might simply
 *style* early, wherever and whenever it was composed. We answer it
