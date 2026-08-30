@@ -104,12 +104,24 @@ _COLO_NORM = re.compile(r"[^a-zāīūṛṝḷḹṃḥśṣṇṭḍṅñ' ]+")
 # residue, or sharing a line with a verse end — a handful of lines corpus-wide)
 _COLO_MID = re.compile(r"\bit[iy] śrī(?:\S*\s+){0,2}\S*purāṇ[ae]\b")
 
+# Standalone running-title lines (2026-08-30, Kengo-approved set): printed
+# per-adhyāya work titles interleaved with the verse, same paratext class as
+# colophons but with no iti/adhyāyaḥ formula to catch. Exact-match ONLY —
+# the Agni also carries ~130 per-chapter topic titles (…kathanaṃ, …vidhiḥ)
+# tangled with ~300 genuine unspaced verse pādas, so no generic standalone-
+# line rule is safe; extend this set explicitly if more are approved.
+_TITLE_LINES = {'śrīgaruḍamahāpurāṇam', 'śrīmaddevībhāgavatam',
+                'śrīrāmāvatāravarṇanaṃ', 'śrīrāmāvatāravarṇanam',
+                'śrīrāmāvatārakathanaṃ'}
+
 
 def is_colophon_line(line: str) -> bool:
     s = _COLO_NORM.sub(' ', line.lower().replace('’', "'").replace('‘', "'"))
     s = ' '.join(s.split())
     if not s:
         return False
+    if s in _TITLE_LINES:
+        return True
     return bool(_COLO_STRICT.search(s) or _COLO_FUSED.search(s)
                 or _COLO_LOOSE.search(s) or _COLO_ENDER.search(s)
                 or _COLO_MID.search(s))

@@ -116,6 +116,13 @@ provenance gates in §0 list the traps.
     another threshold silently overwrites them — restore from git if
     that happens, and always cite the threshold sweep (1.1–1.3), not
     one setting.
+  - **Committed TSVs/frames predate the 2026-08-30 paratext fix**
+    (standalone running titles struck from Garuḍa/Devībhāgavata/Agni;
+    corpus total now 3,555,225). Measured drift is ≤ 2.4 percentiles
+    (affected units) and ρ 0.9992 global, so pre-fix numbers remain
+    citable at the draft's resolution — but any regenerated TSV will
+    differ in the last digit; regenerate the whole family together,
+    never mix.
   - No pre-2026-07-10 R-pipeline number is citable (stylo tokenization bug).
   - July BhP fuzzy-sweep numbers only with the `--normalise-cand-length`
     caveat; the normcut run's original delta numbers (105,795 rows /
@@ -691,7 +698,9 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | ~~A2-bridge~~ | DONE 2026-08-30: both lenses vs the C3 no-reuse axis (Kengo's call); `class_signal_shares_noreuse.tsv` — closed classes 37%/11%, interior 60.5%, particles 4.1% vs 36.3% tokens; §2.4 updated | — | — |
 | ~~§8 layers~~ | KEPT, restated 2026-08-30 as a same-transmission projection on the with-reuse map (apparatus-style direction test) | — | — |
 | ~~§5 glosses~~ | VERIFIED 2026-08-30 by source-word attribution: mṛt = smṛta- (NOT amṛta; strengthens the citation-formula reading), aye = -ayet prescriptive optatives, rah = brahma-, hat = hatvā/hata-+mahat, han part-dhanus; ātr/kal mixed, unglossed | — | — |
-| Garuḍa paratext? | `śrīgaruḍamahāpurāṇam` × 312 inside the no-reuse Garuḍa (gloss-scan find) — colophon filter may miss Garuḍa-format lines | Kengo (whether to investigate) | corpus hygiene; possibly Garuḍa's position |
+| ~~Garuḍa paratext~~ | FIXED 2026-08-30: standalone titles removed from all corpus variants (Garuḍa 312, Devībhāgavata 12, Agni śrīrāmāvatāra 6); filter extended (`_TITLE_LINES`); nospace rebuilt, caches purged. Impact: Garuḍa 0/−1.6/0, DevBh −0.8, Agni −2.4 pct, global ρ 0.9992 — committed TSVs kept PRE-FIX (see trap) | — | — |
+| Agni topic titles | ~130 per-adhyāya title lines (-kathanaṃ/-vidhiḥ/-vidhānaṃ…) tangled with ~300 genuine unspaced verse pādas; needs curated review, no safe generic rule | Kengo (whether to pursue) | Agni's position (~2 pct at stake) |
+| Pipeline refresh | regenerate article-frame coords + unit_ci + downstream TSVs on the post-paratext-fix corpora (nothing crosses a claim threshold; fold into next full pass). Waffle corpora stale until rsync | when convenient | exact figures at proofs |
 | ~~ur-Vāyu note~~ | RESOLVED 2026-08-30: parenthetical cut by Kengo; term "ur-Vāyu" banned (editors don't use it — say "the Vāyu in its undivided form, later split into the printed Vāyu and Brahmāṇḍa") | — | — |
 | Venue | pick from outline variants | Kengo | everything downstream |
 

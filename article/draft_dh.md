@@ -82,10 +82,26 @@ han part-dhanus; ātr/kal left mixed); old SP passage finalized (no
 Hazra, no "ur-Vāyu", slogan retired; Hazra 1940 dropped from
 references).
 
-**STILL OPEN:** possible residual paratext in the Garuḍa
-(`śrīgaruḍamahāpurāṇam` × 312 inside the no-reuse text, surfaced by
-the gloss scan) — Kengo to decide whether to investigate the
-colophon filter for Garuḍa-format lines.
+**Paratext fix applied 2026-08-30 (Kengo-approved):** standalone
+running-title lines removed from all four corpus variants — Garuḍa
+`śrīgaruḍamahāpurāṇam` (312 lines), Devībhāgavata
+`śrīmaddevībhāgavatam` (12), Agni `śrīrāmāvatāra-varṇanaṃ/-kathanaṃ`
+(6); `is_colophon_line()` extended with an exact-match title set;
+nospace corpora rebuilt, caches purged. Measured impact on the C3
+no-reuse map: Garuḍa khaṇḍas 0/−1.6/0, Devībhāgavata −0.8, Agni
+−2.4 percentiles (earlier-ward, as predicted); global ordering
+ρ = 0.9992 vs the committed article frame — no claim moves, and the
+committed TSVs/frames are retained pre-fix (refresh folded into the
+next full pipeline pass). Corpus total updated (3,555,225 words,
+−947). Backups of the 20 edited files in the session scratchpad
+(`paratext_fix_backup/`); the waffle copy of the corpora is now
+stale until the next rsync.
+
+**STILL OPEN:** the Agni also carries ~130 per-adhyāya topic-title
+lines (endings -kathanaṃ, -vidhiḥ, -vidhānaṃ, -varṇanaṃ, -vratāni,
+…) tangled with ~300 genuine unspaced verse pādas — no safe generic
+rule; Kengo to decide whether the curated ending-based list should
+be reviewed and struck.
 
 **Target:** DSH / Journal of Cultural Analytics (per `outline_dh.md`).
 
@@ -318,7 +334,7 @@ own diction: the language its compilers wrote rather than the
 language they carried. The no-reuse corpus holds 126 units — one unit
 of the full inventory, the Vāyu–Brahmāṇḍa common text, *is*
 shared text by construction and retains no residue — totalling
-3,556,172 de-sandhied words. Stripping is savagely uneven — residues
+3,555,225 de-sandhied words. Stripping is savagely uneven — residues
 span 648 to 345,000 words (median 15.1k) — and §3.4 converts that
 unevenness into an explicit statement of which lens can carry
 per-unit measurements and which units fall below the instrument's
