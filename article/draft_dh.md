@@ -71,15 +71,21 @@ Stylo replication re-run on the no-reuse build
 20260830_161355; `validate_nospace_stylo.py --noreuse`): 500/500
 features, distance and map correlations 1.0000 — §3.2 updated.
 
-**STILL OPEN:**
+**Open items CLOSED 2026-08-30 (second pass, Kengo's calls):** §2.4
+shares recomputed with both lenses attributed against the C3
+no-reuse axis (`a2_bridge_c3_classes.py --noreuse`,
+`class_signal_shares_noreuse.tsv`: 37%/11%, 61%, 4% vs 36%); §8
+within-host layer comparison kept, restated as a same-transmission
+projection on the with-reuse map; §5 glosses verified by source-word
+attribution (mṛt = smṛta-, aye = -ayet optatives, rah = brahma-,
+han part-dhanus; ātr/kal left mixed); old SP passage finalized (no
+Hazra, no "ur-Vāyu", slogan retired; Hazra 1940 dropped from
+references).
 
-1. §2.4 lens-disjointness attribution — needs a design decision
-   (which axis for W1 signal shares, given the R1 rule above) before
-   `a2_bridge_c3_classes.py` gets a noreuse mode; cited shares are
-   pre-strip.
-2. §8 layer-projection framing — Kengo's call (see slot in §8).
-3. §5 trigram glosses (rāj/āja, hat/han, mṛt = amṛta vs mṛtyu, aye,
-   ātr, …) — Kengo to vet.
+**STILL OPEN:** possible residual paratext in the Garuḍa
+(`śrīgaruḍamahāpurāṇam` × 312 inside the no-reuse text, surfaced by
+the gloss scan) — Kengo to decide whether to investigate the
+colophon filter for Garuḍa-format lines.
 
 **Target:** DSH / Journal of Cultural Analytics (per `outline_dh.md`).
 
@@ -377,17 +383,19 @@ rests on their near-disjointness, which we verified by attributing every
 corpus token of every C3 feature to its source word and classifying both
 feature sets with the same rule-based classifier. The two lenses draw
 their discriminative signal from different strata of the language:
-closed-class vocabulary (particles, pronouns) carries 38% of W1's
-axis-correlated signal but only 12% of C3's; 61% of C3's signal lives in
-word-*internal* trigrams — inflectional and derivational morphology
-inside content words — which W1, by construction, aggregates away. The
-particle share of C3's signal (4%) is a ninth of the particle share of
-the running text (36.5% of tokens), so C3 is not covertly re-counting
-the little words that dominate W1's top ranks. When these two systems
-agree on an ordering, they agree from different linguistic evidence; we
-use that property as the paper's basic epistemic device.
-[NR-RECOMPUTE: attribution shares verified on the no-reuse build;
-cited values computed pre-strip.]
+the closed classes (particles, pronouns, and the closed narrative,
+prescriptive, and numeral machinery) carry 37% of W1's
+axis-correlated signal but only 11% of C3's; 61% of C3's signal
+lives in word-*internal* trigrams — inflectional and derivational
+morphology inside content words — which W1, by construction,
+aggregates away. The particle share of C3's signal (4%) is a ninth
+of the particle share of the running text (36% of tokens), so C3 is
+not covertly re-counting the little words that dominate W1's top
+ranks. (Both lenses' signal is attributed against the same axis, the
+carrying lens's — the construction §3.4 licenses.) When these two
+systems agree on an ordering, they agree from different linguistic
+evidence; we use that property as the paper's basic epistemic
+device.
 
 ### 2.5 Three lessons in corpus hygiene, told against ourselves
 
@@ -708,17 +716,25 @@ with-reuse corpus had blurred — the citation formulas of received
 doctrine: *smṛtam/smṛtaḥ* (+0.53/+0.47), *ucyate* (+0.50), *proktam*
 (+0.47). The trigram lens tells the same story from inside the word:
 its strongest early features are the *rājan*-family strings (*rāj*,
-*āja*, −0.81/−0.75) and the morphology of slaying (*hat*, *han*,
-−0.70/−0.51) with first-person *-āmi* (−0.62); its strongest late
-features are *amṛt-/mṛt-* (+0.71), the taddhita *-ikā* (+0.70),
-*brahm-* (+0.68), and *ādi* (+0.62). Both lenses, read blind,
+*āja*, −0.81/−0.75; *rājan* and *mahārāja* alone supply a fifth of
+*āja*'s occurrences) and the strings of battle narration (*hat*
+−0.70, from *hatvā* and *hata-* beside *mahat*; *han* −0.51, from
+*dhanuḥ*, *dhanaṃ-*, *dhanaṃjaya-* and the *han-* verb), with
+first-person *-āmi* (−0.62); its strongest late features are *mṛt*
+(+0.71 — carried above all by the citation formula *smṛta-*, not by
+*amṛta-*: the same received-doctrine machinery the word lens finds
+in *smṛtam*, *ucyate*, *proktam*), the taddhita *-ikā* (+0.70),
+*brahm-* (*ahm* +0.68; *rah* +0.58 is likewise brahma-dominated),
+*ādi* (+0.62), and *aye* (+0.62 — the *-ayet* causative optatives of
+ritual prescription: *pūjayet*, *kārayet*, *nivedayet*). Both lenses, read blind,
 describe the same drift: from narrated encounter toward enumerated
 doctrine. Whether that gradient is *temporal* is not settled by
 naming it; that burden falls on §6 and §8. (Loading tables:
 `axis_anatomy/loadings_C3_noreuse_500.tsv` and
 `loadings_W1rates_vs_C3axis_noreuse_500.tsv` — the word-rate table
 is correlated against the trigram axis, so no claim rests on the
-word lens's own residue geometry; trigram glosses to be vetted.)
+word lens's own residue geometry; trigram glosses verified by
+source-word attribution over the no-reuse corpus, 2026-08-30.)
 
 Three structural facts sharpen the picture. First, the signal is
 radically distributed (§3.3): the poles just quoted are the readable tip
@@ -968,13 +984,16 @@ band (25–32 on the trigram lens: Textgruppe I at 25 [23, 30], the
 ungrouped core at 25 [24, 27], Textgruppe II at 32 [27, 38]) and his
 late Textgruppen far later (64–94, from Textgruppe Ia at 64 up to IIA
 at 94) — a century-old stratigraphy, built from entirely different
-evidence, sorted correctly by feature statistics. [NR-RECOMPUTE /
-Kengo's call: the within-host layer comparison (PPL-parallel layer vs
-Vāyu–Brahmāṇḍa common text: 28 [25, 31] vs 57 [42, 66], and
-31 [29, 36] vs 79 [75, 83]) projects shared layers and therefore ran
-on the with-reuse build — restate it explicitly as a
-same-transmission projection, or drop it in favor of the disjoint
-form above.]
+evidence, sorted correctly by feature statistics. A second,
+genre-matched form of the test projects the layers themselves within
+their hosts — necessarily on the with-reuse map, since the layers
+are shared text; like the apparatus experiment, it is a
+same-transmission comparison, and whatever conservatism or leveling
+the transmission imposed applies to both sides. Inside the Vāyu and
+the Brahmāṇḍa, the PPL-parallel layer projects consistently earlier
+than the same texts' other shared layer, the Vāyu–Brahmāṇḍa common
+text: 28 [25, 31] against 57 [42, 66], and 31 [29, 36] against
+79 [75, 83] (line-bootstrap CIs; both lenses concur).
 
 The obvious objection is genre: genealogical list-verse might simply
 *style* early, wherever and whenever it was composed. We answer it

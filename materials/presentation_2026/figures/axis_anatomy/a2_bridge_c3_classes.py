@@ -14,14 +14,31 @@ Classifier is provisional pending Kengo's A2 review; assignments are
 dumped for that review (w1_class_assignments.tsv).
 """
 import csv
+import os
 import re
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path('/mnt/kengo/stylometry-experiments')
+ROOT = Path(os.environ.get('STYLO_ROOT', '/mnt/kengo/stylometry-experiments'))
 HERE = Path(__file__).parent
-MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
-SANDHIED = ROOT / 'corpus/epic_puranas_sandhied'
+NOREUSE = '--noreuse' in sys.argv
+# --noreuse: both lenses' signal attributed against the C3 no-reuse axis
+# (Kengo 2026-08-30) — W1 side reads loadings_W1rates_vs_C3axis_noreuse_500
+# (W1 rates correlated against the C3 article-frame axis, the R1-safe
+# construction), C3 side reads loadings_C3_noreuse_500.
+if NOREUSE:
+    MANIFEST = ROOT / 'manifests/noreuse2026_n126.txt'
+    SANDHIED = ROOT / 'corpus/epic_puranas_sandhied_noreuse'
+    W1_LOADINGS = 'loadings_W1rates_vs_C3axis_noreuse_500.tsv'
+    C3_LOADINGS = 'loadings_C3_noreuse_500.tsv'
+    SUFFIX = '_noreuse'
+else:
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+    SANDHIED = ROOT / 'corpus/epic_puranas_sandhied'
+    W1_LOADINGS = 'loadings_W1_500.tsv'
+    C3_LOADINGS = 'loadings_C3_500.tsv'
+    SUFFIX = ''
 
 # ── the classifier ───────────────────────────────────────────────────────────
 INDECL = {l.strip() for l in
@@ -69,11 +86,11 @@ CLASSES = ['particle', 'pronoun', 'verb_narrative', 'verb_prescriptive',
            'numeral_list', 'content']
 
 # ── W1 side: classify the 500 words, decompose the loading mass ─────────────
-w1 = list(csv.DictReader(open(HERE / 'loadings_W1_500.tsv', encoding='utf-8'),
+w1 = list(csv.DictReader(open(HERE / W1_LOADINGS, encoding='utf-8'),
                          delimiter='\t'))
 w1_share = Counter()
 w1_rate = Counter()
-with open(HERE / 'w1_class_assignments.tsv', 'w', encoding='utf-8') as f:
+with open(HERE / f'w1_class_assignments{SUFFIX}.tsv', 'w', encoding='utf-8') as f:
     f.write('feature\tclass\trho_x\n')
     for r in w1:
         cl = classify(r['feature'])
@@ -85,7 +102,7 @@ tot_w1r = sum(w1_rate.values())
 
 # ── C3 side: attribute every top-500 trigram token to a source word ─────────
 c3 = {r['feature']: abs(float(r['rho_x'])) for r in
-      csv.DictReader(open(HERE / 'loadings_C3_500.tsv', encoding='utf-8'),
+      csv.DictReader(open(HERE / C3_LOADINGS, encoding='utf-8'),
                      delimiter='\t')}
 TOP = set(c3)
 top_show = sorted(c3, key=c3.get, reverse=True)[:40]
@@ -169,12 +186,12 @@ print('\nC3 axis-signal share by trigram position vs token share:')
 for ps in ['final', 'junction', 'initial', 'interior', 'whole']:
     print(f'{ps:<10} signal {pos_share[ps]/tot_ps:>6.1%}   tokens {pos_token[ps]/tot_pst:>6.1%}')
 
-with open(HERE / 'class_signal_shares.tsv', 'w', encoding='utf-8') as f:
+with open(HERE / f'class_signal_shares{SUFFIX}.tsv', 'w', encoding='utf-8') as f:
     f.write('class\tw1_signal_share\tw1_rate_share\tc3_signal_share\tc3_token_share\n')
     for cl, a, b, c_, d in rows:
         f.write(f'{cl}\t{a:.4f}\t{b:.4f}\t{c_:.4f}\t{d:.4f}\n')
 
-with open(HERE / 'c3_trigram_sources.tsv', 'w', encoding='utf-8') as f:
+with open(HERE / f'c3_trigram_sources{SUFFIX}.tsv', 'w', encoding='utf-8') as f:
     f.write('trigram\tabs_rho_x\tjunction_share\tfinal_share\t' +
             '\t'.join(f'{cl}_share' for cl in CLASSES) + '\n')
     for g in sorted(TOP, key=c3.get, reverse=True):
@@ -188,4 +205,4 @@ print('\ntop-loading trigrams and their dominant sources:')
 for g in top_show[:15]:
     ex = ', '.join(f'{w}({k})' for w, k in src_examples[g].most_common(3))
     print(f'  {g!r:<8} |rho| {c3[g]:.2f}   {ex}')
-print('\nwrote class_signal_shares.tsv, c3_trigram_sources.tsv, w1_class_assignments.tsv')
+print(f'\nwrote class_signal_shares{SUFFIX}.tsv, c3_trigram_sources{SUFFIX}.tsv, w1_class_assignments{SUFFIX}.tsv')

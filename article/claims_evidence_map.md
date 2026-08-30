@@ -137,8 +137,11 @@ carries per-unit values, W1 corroborates the ordering (R1 gate). The
 old 0.953 is the with-reuse value — diagnostic context only, no
 longer the headline anywhere. The A2 bridge shows the lenses draw on
 largely disjoint material (closed classes = 38% of W1's signal but
-12% of C3's; C3 is 61% word-interior morphology) — **shares still
-pre-strip; open item §8**.
+12% of C3's; C3 is 61% word-interior morphology) — **recomputed
+2026-08-30 on the no-reuse build, both lenses attributed against the
+C3 axis (`class_signal_shares_noreuse.tsv`): closed classes 37%/11%,
+interior 60.5%, particles 4.1% vs 36.3% of tokens — the
+disjointness is build-stable**.
 → `2026-07-08_W1-unsandhied_vs_C3-sandhied_interpretation.md`,
 `2026-08-16_a2_bridge_word_classes_in_c3.md`. Fig: Figure 1 (rebuilt
 cleaned 2026-08-30) + Figure 2.
@@ -685,9 +688,10 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | E1-full | Belvalkar print apparatus (OCR) | optional | strengthens 4.2 magnitudes |
 | ~~B1 re-run~~ | DONE 2026-08-30 on the cleaned build (`b1_jackknife_C3_noreuse_500.tsv`, min 0.991) | — | — |
 | ~~Terminology~~ | RULED 2026-08-30: with-reuse/no-reuse reaffirmed; draft reverted (e4b5d4c) | — | — |
-| A2-bridge | which axis for W1 signal shares under R1, then `a2_bridge_c3_classes.py --noreuse` | Kengo (design), then cheap run | §2.4 draft slot (1.1 shares) |
-| §8 layers | within-host layer projection: restate as same-transmission or drop for the disjoint form | Kengo | §8 draft slot |
-| §5 glosses | vet trigram glosses (mṛt, aye, ātr, …) | Kengo | §5 wording |
+| ~~A2-bridge~~ | DONE 2026-08-30: both lenses vs the C3 no-reuse axis (Kengo's call); `class_signal_shares_noreuse.tsv` — closed classes 37%/11%, interior 60.5%, particles 4.1% vs 36.3% tokens; §2.4 updated | — | — |
+| ~~§8 layers~~ | KEPT, restated 2026-08-30 as a same-transmission projection on the with-reuse map (apparatus-style direction test) | — | — |
+| ~~§5 glosses~~ | VERIFIED 2026-08-30 by source-word attribution: mṛt = smṛta- (NOT amṛta; strengthens the citation-formula reading), aye = -ayet prescriptive optatives, rah = brahma-, hat = hatvā/hata-+mahat, han part-dhanus; ātr/kal mixed, unglossed | — | — |
+| Garuḍa paratext? | `śrīgaruḍamahāpurāṇam` × 312 inside the no-reuse Garuḍa (gloss-scan find) — colophon filter may miss Garuḍa-format lines | Kengo (whether to investigate) | corpus hygiene; possibly Garuḍa's position |
 | ~~ur-Vāyu note~~ | RESOLVED 2026-08-30: parenthetical cut by Kengo; term "ur-Vāyu" banned (editors don't use it — say "the Vāyu in its undivided form, later split into the printed Vāyu and Brahmāṇḍa") | — | — |
 | Venue | pick from outline variants | Kengo | everything downstream |
 
