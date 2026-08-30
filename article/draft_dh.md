@@ -978,9 +978,36 @@ later. Fourth, register variation has its own axis, orthogonal to the
 chronology (§9): the instrument books register separately rather than
 folding it into the clock.
 
+**An independently established early purāṇa measures early.** The
+old Skandapurāṇa — the text recovered in Nepalese manuscripts of the
+ninth century and critically edited by Adriaensen, Bakker and
+Isaacson — is placed by its editors among the oldest purāṇas, after
+only the ur-Vāyu [Adriaensen et al. 1998]. The instrument concurs:
+the SP projects at 29 [27, 32], in the corpus's earliest purāṇic
+band, earlier than the Mārkaṇḍeyapurāṇa (32 [28, 35]), the
+compilation the received canon counts among its oldest. The apparent
+conflict with the received purāṇic chronology [Hazra 1940] is no
+counter-witness: Hazra did not know the SP as an independent
+purāṇa — the chronology that would place it later was built without
+the text — while the philology that had the text before it placed it
+where our map does. (The editors' one text set earlier, the ur-Vāyu,
+is exactly the kind of dissolved old core the strip greys out (§7):
+the transmitted Vāyu's residue answers for its compilers, not for
+the ur-text.) §7 adds resolution to the comparison: the Mārkaṇḍeya
+carried a +6 drag, so part of what separates the two compilations as
+transmitted is the Mārkaṇḍeya's absorbed later material; on their
+own diction they sit close in time, the direction holding. And at
+layer level the SP interleaves with its own late block: its pāśupata
+chapters project at the far late pole under identical transmission
+(98 [97, 99] even as a stripped residue, though at 2.9k residual
+words that value brushes the length floor) — the strongest available
+answer to the transmission-conservatism confound: one transmission,
+early core measuring early, late chapters measuring late.
+
 **What the corpus says back.** Findings that clear the validation bar,
-stated at the instrument's resolution. Each runs against a received
-view, and each lands where philology has already recorded hesitation —
+stated at the instrument's resolution. Where they press against a
+received view, they press at points where philology has already
+recorded hesitation —
 a pattern that gives the instrument a second use: not overturning
 chronologies by feature count, but locating where the received
 chronology's soft points lie. (i) The Mahābhārata's four
@@ -993,20 +1020,7 @@ with the rest of the corpus (88–95% of their trigram mass survives
 it). The stylometry is consistent with an early-fixed narrative
 kernel that was appended to the epic late *as books*; it cannot
 arbitrate between early composition and early-style transmission,
-and we say so. (ii) The old Skandapurāṇa — transmitted in Nepalese
-manuscripts of the ninth century [Adriaensen et al. 1998] — projects
-earlier than the Mārkaṇḍeyapurāṇa (SP 29 [27, 32], Mārk 32 [28, 35]),
-against the received relative dating [Hazra 1940]. The gap is
-narrower than the transmitted texts suggest, and §7 says why: the
-Mārkaṇḍeya carried a +6 drag — much of what seemed to separate the
-two compilations was the Mārkaṇḍeya's absorbed later material, and
-on their own diction the two sit close in time, with the direction
-holding. At layer level the two interleave, and the same text's late
-block (its pāśupata chapters) projects at the far late pole under
-identical transmission (98 [97, 99] even as a stripped residue,
-though at 2.9k residual words that value brushes the length floor) —
-which is also the strongest available answer to the
-transmission-conservatism confound. (iii) The Bhāgavatapurāṇa, whose
+and we say so. (ii) The Bhāgavatapurāṇa, whose
 date is a famous open question, is the corpus's most isolated
 register (every one of its books' nearest neighbours is internal to
 it — a fact of the cleaned build that the absorbed text of the
