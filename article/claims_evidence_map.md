@@ -48,14 +48,18 @@ provenance gates in §0 list the traps.
   to adjudicate. Draft restructured accordingly (commits 476ec34 →
   1e8a187); stage-2/3 recomputes put cleaned-build values behind
   every representative number.
-  **Terminology — OPEN RULING NEEDED (flagged 2026-08-30):** the
-  2026-08-21 rule said plain "with-reuse / no-reuse", dropping
-  "transmitted / composed" (both corpora are transmitted; "composed"
-  overclaims; "transmitted" collides with text-critical
-  transmission). The restructured draft reintroduced "cleaned build /
-  as transmitted / the transmitted map" and a Table-1 column
-  "composition (cleaned)". Kengo to rule: amend the 2026-08-21 rule,
-  or revert the draft's wording to with-reuse/no-reuse.
+  **Terminology — RULED 2026-08-30 (Kengo): reverted to plain
+  "with-reuse / no-reuse", reaffirming the 2026-08-21 rule** (both
+  corpora are transmitted; "composed" overclaims; "transmitted"
+  collides with text-critical transmission). The restructured draft's
+  interim "cleaned / as transmitted / composition" build-labels were
+  removed (commit e4b5d4c): the corpus of the paper is "the no-reuse
+  corpus", §7 is "the with-reuse map as diagnostic", Table 1 columns
+  are no-reuse | with-reuse | drag. Ordinary text-critical uses of
+  transmitted/transmission remain legitimate ("a purāṇa as
+  transmitted is a mixture"; "even a residue is transmitted"). This
+  map's own entries above use "cleaned build" descriptively in dated
+  records — do not import that word into draft prose.
   Notes written before 2026-08-21 keep the old wording as dated
   records. Evidence, movers tables, caveats, and the work queue
   are in `2026-08-19_noreuse_precedence_reframe.md`. **Gates (R1/R2 ran
@@ -660,9 +664,9 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
     corroborates orderings and directions only (R1); W1 feature
     rates may be correlated against the C3 axis (the §5
     construction) but never against the W1-noreuse axis.
-15. **Terminology — awaiting Kengo's ruling (see §0):**
-    with-reuse/no-reuse (2026-08-21 rule) vs the restructured
-    draft's cleaned/transmitted/composition wording.
+15. **Terminology — settled (Kengo, 2026-08-30): plain
+    with-reuse/no-reuse for build labels**; "cleaned", "transmitted
+    map", "composition" never name a build in draft prose (see §0).
 
 ---
 
