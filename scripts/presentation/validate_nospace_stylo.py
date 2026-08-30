@@ -23,6 +23,8 @@ or axis-1 ρ < 0.99.
 import csv
 import re
 import sys
+
+NOREUSE = '--noreuse' in sys.argv
 from collections import Counter
 from pathlib import Path
 
@@ -30,13 +32,21 @@ import numpy as np
 from scipy.stats import spearmanr, pearsonr
 
 ROOT = Path(__file__).resolve().parents[2]
-CORPUS = ROOT / 'corpus/epic_puranas_sandhied'
-MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
-REF = ROOT / 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv'
+if NOREUSE:
+    CORPUS = ROOT / 'corpus/epic_puranas_sandhied_noreuse'
+    MANIFEST = ROOT / 'manifests/noreuse2026_n126.txt'
+    REF = ROOT / 'materials/presentation_2026/figures/mds3d/coords_C3-500ns_noreuse_n126.tsv'
+    RUN_GLOB = 'results_epic_puranas_sandhied_noreuse_nospace_C3_*/'
+else:
+    CORPUS = ROOT / 'corpus/epic_puranas_sandhied'
+    MANIFEST = ROOT / 'manifests/dicsep2026_n127_ppl.txt'
+    REF = ROOT / 'materials/presentation_2026/figures/c3_nospace/coords_nospace_mfw500.tsv'
+    RUN_GLOB = 'results_epic_puranas_sandhied_nospace_C3_*/'
 MFW = 500
 
 # latest matching stylo run on the pre-stripped corpus
-runs = sorted(ROOT.glob('results_epic_puranas_sandhied_nospace_C3_*/'),
+runs = sorted((p for p in ROOT.glob(RUN_GLOB)
+               if NOREUSE or 'noreuse' not in p.name),
               key=lambda p: p.name[-15:])
 if not runs:
     sys.exit('no results_epic_puranas_sandhied_nospace_C3_* run found — '

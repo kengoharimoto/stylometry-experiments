@@ -60,19 +60,19 @@ against the C3 axis to respect R1); §6 threshold sweep 1.1–1.3
 late-block/non-epic/presence-absence variants in text). Scripts
 gained `--noreuse` modes and a `STYLO_ROOT` env override.
 
+Stylo replication re-run on the cleaned build
+(`corpus/epic_puranas_sandhied_noreuse_nospace`, results dir
+20260830_161355; `validate_nospace_stylo.py --noreuse`): 500/500
+features, distance and map correlations 1.0000 — §3.2 updated.
+
 **STILL OPEN:**
 
-1. Stylo replication on the cleaned build — R run launched on
-   `corpus/epic_puranas_sandhied_noreuse_nospace` (built 2026-08-30);
-   adapt `validate_nospace_stylo.py` to the noreuse corpus/frame and
-   record the comparison. Until then §3.2's implementation paragraph
-   carries a slot.
-2. §2.4 lens-disjointness attribution — needs a design decision
+1. §2.4 lens-disjointness attribution — needs a design decision
    (which axis for W1 signal shares under R1) before
    `a2_bridge_c3_classes.py` gets a noreuse mode; cited shares are
    pre-strip.
-3. §8 layer-projection framing — Kengo's call (see slot in §8).
-4. §5 trigram glosses (rāj/āja, hat/han, mṛt = amṛta vs mṛtyu, aye,
+2. §8 layer-projection framing — Kengo's call (see slot in §8).
+3. §5 trigram glosses (rāj/āja, hat/han, mṛt = amṛta vs mṛtyu, aye,
    ātr, …) — Kengo to vet.
 
 **Target:** DSH / Journal of Cultural Analytics (per `outline_dh.md`).
@@ -524,13 +524,13 @@ disguised sectarian sorting.
 
 **Implementation.** The full C3 pipeline — feature list, frequency
 table, Delta distance matrix, and map — is reproduced exactly by an
-independent implementation (stylo 0.7.5 in R): 500/500 identical
-features, distance-matrix correlation 1.0000, map correlation 1.0000.
-We mention this not as ceremony but because §2.5's tokenization
-episode shows exactly how much an "independent implementation" can
-silently fail to be one; the replication was run with the tokenizer
-verified. [NR-RECOMPUTE: verify which build the replication was fed;
-re-run on the cleaned build if needed.]
+independent implementation (stylo 0.7.5 in R, fed the cleaned corpus
+with whitespace pre-stripped): 500/500 identical features,
+distance-matrix correlation 1.0000, map correlation 1.0000 against
+the article frame. We mention this not as ceremony but because
+§2.5's tokenization episode shows exactly how much an "independent
+implementation" can silently fail to be one; the replication was run
+with the tokenizer verified.
 
 **Single texts.** Deleting any one of the 126 units (with feature
 refill and recomputation) leaves the axis at ρ ≥ 0.991 (median
