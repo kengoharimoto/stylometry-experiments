@@ -1,16 +1,19 @@
 # Losses are the clock: recovering relative chronology from stylometric drift in the Sanskrit epics and purāṇas
 
-**Status: DRAFT 2026-08-30 — restructured so that the cleaned corpus
+**Status: DRAFT 2026-08-30 — restructured so that the no-reuse corpus
 (reuse stripped, colophons removed, trigrams on the space-free
 sandhied stream, words on de-sandhied text) is the representative
-result throughout, per Kengo's call: comparisons against uncleaned
-builds are diagnoses of contamination, never robustness tests. Main
+result throughout, per Kengo's call: comparisons against the
+with-reuse build are diagnoses of contamination, never robustness
+tests. Terminology reverted to plain with-reuse/no-reuse (Kengo
+2026-08-30, reaffirming the 2026-08-21 rule; "cleaned/transmitted/
+composition" build-labels removed). Main
 moves: reuse-stripping is now corpus construction (§2.2), not a §3
-control; the old §7.2 lens-swap material moved into §3.4 (the cleaned
+control; the old §7.2 lens-swap material moved into §3.4 (the no-reuse
 chronology is trigram-led from the start); old §7 is reframed as a
 diagnostic section ("what the absorbed text was doing") and the
-"precedence" subsection is dissolved; §8 leads with cleaned-build
-values. Numbers that still need computing on the cleaned build are
+"precedence" subsection is dissolved; §8 leads with no-reuse
+values. Numbers that still need computing on the no-reuse build are
 marked `[NR-RECOMPUTE: …]` in place, each slot recording the
 superseded with-reuse value; see the manifest below. Earlier
 verification history: reframe numbers verified 2026-08-21 against
@@ -35,16 +38,16 @@ both lenses (`axis_anatomy/b2_models_*_noreuse_500.tsv`: C3 real
 ± 0.1%, drift 40.9 ± 1.5% at ρ = 0.996; W1 real 12.8%/0.44,
 exchangeable 18.5%/0.96; eigen ratio12 C3 1.21, W1 1.31); §6 C3
 headline loss 0.864 / gain 0.62
-(`b2b_loss_gain_C3_noreuse_500.tsv`); §8 Kirfel bands on cleaned C3
+(`b2b_loss_gain_C3_noreuse_500.tsv`); §8 Kirfel bands on no-reuse C3
 (early 25–32, late 64–94, per-TG values from `unit_ci_C3_noreuse`).
 
-**STAGE 3 RUN LOG (2026-08-30), all on the cleaned build.** Done and
+**STAGE 3 RUN LOG (2026-08-30), all on the no-reuse build.** Done and
 in the text: Fig 1 regenerated (`fig1_map_pair.py`, mds3d noreuse
 coords, sub-floor units faded); no-space C3 sweep run
 (`c3_nospace_noreuse/coords_c3ns_mfw*.tsv`) after finding the old
 `mfw_sweep_noreuse/coords_mfw*` were the SPACED variant — Fig 2
 regenerated, adopted cell 0.930, grid max 0.936 at 800 × 3000, W1's
-high-MFW cliff absent on the cleaned build (§3.1 rewritten: the
+high-MFW cliff absent on the no-reuse build (§3.1 rewritten: the
 cliff was a reuse phenomenon); §3.2 metric sweep
 (`c3_nospace_noreuse/metrics/`, standardized+L1 0.98–1.00, Würzburg
 0.90, unstandardized 0.26/0.63 and self-unstable), jackknife
@@ -55,12 +58,15 @@ multi-method (`b3_orderings_C3_noreuse_500.tsv`: PCA-plane 0.98,
 isomap 0.77, Fiedler AND TSP fail — §4 rewritten accordingly); §5
 loading tables (`loadings_C3_noreuse_500.tsv` +
 `loadings_W1rates_vs_C3axis_noreuse_500.tsv`, W1 rates correlated
-against the C3 axis to respect R1); §6 threshold sweep 1.1–1.3
+against the C3 axis to respect the R1 rule — the no-reuse W1 axis is
+partly a length artifact, so nothing is correlated against it; see
+`notes/2026-08-19_noreuse_precedence_reframe.md`); §6 threshold
+sweep 1.1–1.3
 (loss 0.856–0.868, gain 0.62–0.69, combined 0.82–0.90,
 late-block/non-epic/presence-absence variants in text). Scripts
 gained `--noreuse` modes and a `STYLO_ROOT` env override.
 
-Stylo replication re-run on the cleaned build
+Stylo replication re-run on the no-reuse build
 (`corpus/epic_puranas_sandhied_noreuse_nospace`, results dir
 20260830_161355; `validate_nospace_stylo.py --noreuse`): 500/500
 features, distance and map correlations 1.0000 — §3.2 updated.
@@ -68,7 +74,7 @@ features, distance and map correlations 1.0000 — §3.2 updated.
 **STILL OPEN:**
 
 1. §2.4 lens-disjointness attribution — needs a design decision
-   (which axis for W1 signal shares under R1) before
+   (which axis for W1 signal shares, given the R1 rule above) before
    `a2_bridge_c3_classes.py` gets a noreuse mode; cited shares are
    pre-strip.
 2. §8 layer-projection framing — Kengo's call (see slot in §8).
@@ -99,7 +105,7 @@ every pathology of the transmission — verbatim reuse between texts,
 editorial word division, scribal paratext, editorial sandhi
 practice — is corrected in the construction of the corpus itself,
 because a measurement taken through any of them answers for scribes,
-editors, or sources rather than composers. On the corpus so cleaned,
+editors, or sources rather than composers. On the corpus so built,
 two feature systems with almost no linguistic material in common —
 word frequencies computed on algorithmically de-sandhied text, and
 character trigrams computed on the undivided (not even spaces)
@@ -117,8 +123,8 @@ not of mere heterogeneity. A split-half decomposition explains the
 mechanism: depletion of an early-characteristic feature inventory
 alone reproduces the ordering (ρ ≈ 0.86 on the carrying lens), while
 feature gains order the late texts only loosely. Losses are the
-clock; gains have no systems. The corpus as transmitted — with its
-absorbed text left in — is retained for one purpose only: comparing
+clock; gains have no systems. The with-reuse build — the corpus with
+its absorbed text left in — is retained for one purpose only: comparing
 each unit's position on the two builds measures what its borrowed
 material had been doing to it, and the drags are philologically
 legible — the great compilations had been reading later than their
@@ -164,7 +170,7 @@ chapter breaks are punctuated by scribal formulas. Each of those
 contaminations is directional, not noise, and each had therefore to be
 removed from the corpus before any position on the map could be read
 as evidence about composition. The second demand was to establish that
-the axis of the cleaned corpus is not an artifact of what remains, and
+the axis of the corrected corpus is not an artifact of what remains, and
 to find the mechanism that produces it. A rationale is available only
 in retrospect — in a tradition that accreted over centuries, if usage
 drifts slowly across generations of composers, a *diachronic* signal
@@ -195,12 +201,12 @@ directional, and corrected in corpus construction rather than tested
 after the fact (§2); (iii) a **null-model calibration** establishing
 what kind of process does and does not produce a dominant,
 ordering-shaped first axis in a distance embedding — a calibration
-that also catches one of our own lenses failing on the cleaned corpus
-(§3.4, §4); (iv) a **retention decomposition** that explains *why* the
+that also catches one of our own lenses failing on the no-reuse
+corpus (§3.4, §4); (iv) a **retention decomposition** that explains *why* the
 axis orders the corpus: the depletion of an early-characteristic
 feature inventory carries the chronological signal essentially alone
 (§6); (v) a **diagnostic use of the contaminated map**: comparing each
-unit's position on the cleaned corpus against its position with the
+unit's position on the no-reuse corpus against its position with the
 absorbed text left in reads off what that material had been doing to
 the measurement — which text was dragged where by what it absorbed —
 findings in their own right, not robustness checks (§7); and (vi)
@@ -251,7 +257,7 @@ measurement this reuse is not noise but a directional confound, and it
 pulls both ways: early material incorporated into a late compilation
 drags the compilation's measured language earlier, while late layers
 deposited into an early core drag the core later. A position measured
-on the intact transmitted text is therefore the center of mass of a
+with the shared text left in is therefore the center of mass of a
 mixture whose components can lie centuries apart — it answers for a
 text's sources as much as for its makers.
 
@@ -265,7 +271,8 @@ treat their agreement, not either one alone, as the measurement
 is corrected in the construction of the corpus itself: colophons are
 removed, word division is discarded where it is editorial, and — the
 consequential one — cross-text verbatim reuse is stripped. The corpus
-of this paper is the cleaned corpus. A measurement taken with the
+of this paper is the no-reuse corpus (colophon-free and, for the
+trigram lens, space-free besides). A measurement taken with the
 absorbed text left in is not a baseline and not a robustness
 condition; it is a mismeasurement of composition, and it appears in
 this paper exactly once, in §7, where the mismeasurement itself is
@@ -302,8 +309,8 @@ the one known *source*, its lines removed from the purāṇas but never
 from the reconstruction (§8 turns this one-directionality into a
 validation design). What survives the strip approximates each text's
 own diction: the language its compilers wrote rather than the
-language they carried. The cleaned corpus holds 126 units — one unit
-of the transmitted inventory, the Vāyu–Brahmāṇḍa common text, *is*
+language they carried. The no-reuse corpus holds 126 units — one unit
+of the full inventory, the Vāyu–Brahmāṇḍa common text, *is*
 shared text by construction and retains no residue — totalling
 3,556,172 de-sandhied words. Stripping is savagely uneven — residues
 span 648 to 345,000 words (median 15.1k) — and §3.4 converts that
@@ -379,7 +386,7 @@ the running text (36.5% of tokens), so C3 is not covertly re-counting
 the little words that dominate W1's top ranks. When these two systems
 agree on an ordering, they agree from different linguistic evidence; we
 use that property as the paper's basic epistemic device.
-[NR-RECOMPUTE: attribution shares verified on the cleaned build;
+[NR-RECOMPUTE: attribution shares verified on the no-reuse build;
 cited values computed pre-strip.]
 
 ### 2.5 Three lessons in corpus hygiene, told against ourselves
@@ -437,20 +444,20 @@ biasing.
 ### 3.1 The convergence result
 
 At the adopted settings — 500 MFW for W1, 500 space-free trigrams for
-C3 — the first MDS axes of the two lenses agree across the cleaned
+C3 — the first MDS axes of the two lenses agree across the no-reuse
 corpus at Spearman ρ = **0.93** (Figures 1 and 2). The trigram lens
 carries the per-unit measurement and the word lens corroborates the
 ordering; §3.4 derives that division of labor from the instrument's
 own diagnostics rather than asserting it.
 
-**Figure 1.** The two maps, side by side (cleaned build; classical
+**Figure 1.** The two maps, side by side (no-reuse build; classical
 MDS of Burrows's Delta; equal aspect): (a) C3-500, character trigrams
 on the undivided sandhied stream; (b) W1-500, word unigrams on
 algorithmically de-sandhied text. The horizontal axis is the drift
 axis (axis-1 agreement ρ = 0.93); colors are text groups, codes in
 the supplementary key; units below the §3.4 length floor are faded.
 *(file: `figures/fig1_map_pair/fig1_map_pair.pdf`, regenerated on
-the cleaned build 2026-08-30 from the `mds3d/*_noreuse_n126` coords
+the no-reuse build 2026-08-30 from the `mds3d/*_noreuse_n126` coords
 via `fig1_map_pair.py`)*
 
 A full grid sweep (W1 from 30 to 5000 MFW; C3 from 250 to 12,000
@@ -469,8 +476,8 @@ features saturate the shared inventory early, and added features
 long add resolution, not topics. W1 needs a few hundred MFW to
 stabilize (0.89 at 30 MFW, 0.98 from 200 up) and degrades only
 gently at the high end (0.92 at 5000 against W1-500). That
-gentleness is itself a cleaning result: with the shared text left
-in, W1 at high feature counts collapses spectacularly (its axis
+gentleness is itself a finding about reuse: with the shared text
+left in, W1 at high feature counts collapses spectacularly (its axis
 agrees with the adopted ordering at 0.14 at 5000 MFW) as the feature
 list fills with text-specific content words and the axis turns into
 a topic model — and §7.1 shows that what that topic model was
@@ -486,12 +493,12 @@ usage and measuring subject matter — and on a high-reuse corpus,
 
 **Figure 2.** Cross-lens agreement across the joint sweep: Spearman ρ
 between the W1 axis at each feature count (rows) and the no-space C3
-axis at each (columns), cleaned build, all configurations
+axis at each (columns), no-reuse build, all configurations
 Procrustes-aligned to the article frame before comparison. The
 adopted 500 × 500 cell (ρ = 0.930) is outlined; the grid maximum is
 0.936 at W1-800 × C3-3000. *(file:
 `figures/fig2_convergence/fig2_convergence.pdf`, regenerated on the
-cleaned build 2026-08-30; grid and within-lens stability TSVs sit
+no-reuse build 2026-08-30; grid and within-lens stability TSVs sit
 beside it)*
 
 ### 3.2 What the ordering does not depend on
@@ -504,7 +511,7 @@ Unstandardized cosine and Euclidean distance do not merely blur it —
 they lose it (0.26 and 0.63) — for the textbook reason: without
 z-scoring, the Zipfian head dominates and the discriminative
 mid-ranks are drowned, and on residues of very unequal size the
-drowning is total. (On the transmitted build the same metrics had
+drowning is total. (On the with-reuse build the same metrics had
 shown a deceptive stability across feature-set sizes — robustness by
 deafness, added features carrying negligible weight; on residues
 they are not even stable, agreeing with themselves across settings
@@ -524,7 +531,7 @@ disguised sectarian sorting.
 
 **Implementation.** The full C3 pipeline — feature list, frequency
 table, Delta distance matrix, and map — is reproduced exactly by an
-independent implementation (stylo 0.7.5 in R, fed the cleaned corpus
+independent implementation (stylo 0.7.5 in R, fed the no-reuse corpus
 with whitespace pre-stripped): 500/500 identical features,
 distance-matrix correlation 1.0000, map correlation 1.0000 against
 the article frame. We mention this not as ceremony but because
@@ -592,9 +599,9 @@ with bootstrap confidence intervals. §7's and §8's cases inherit this
 discipline; no headline claim in this paper rests on the individual
 position of a short unit.
 
-On the cleaned corpus the floor does real work, because reuse
+On the no-reuse corpus the floor does real work, because reuse
 stripping is savagely uneven: residues span 648 to 345,000 words.
-Before reading the maps we ran §4's null battery on the cleaned
+Before reading the maps we ran §4's null battery on the no-reuse
 build, and the length diagnostic earned its keep against our own
 instrument. On samples this small the word lens's exchangeable null
 produces a *stronger* first axis than the real corpus's own (18.5 ±
@@ -619,7 +626,7 @@ converted into an explicit resolution limit of the instrument.
 
 ## 4. Why a drift axis emerges: null and generative models
 
-Everything in §3 shows that the cleaned corpus *has* a dominant,
+Everything in §3 shows that the no-reuse corpus *has* a dominant,
 robust first axis. Nothing in §3 says what kind of process produces
 one. This section calibrates that question with three synthetic
 corpora, each matched to the real one in unit count, unit sizes, and
@@ -697,7 +704,7 @@ machinery of exposition and prescription: itemizing *ādi/ādau/
 ādikam* (+0.64/+0.48/+0.44), *brahma* (+0.63), *jñāna/jñānam*
 (+0.54/+0.49), enumerative *kramāt* and *eka* (+0.53/+0.48), the
 optative of prescription *bhavet* (+0.48), and — a class the
-transmitted corpus had blurred — the citation formulas of received
+with-reuse corpus had blurred — the citation formulas of received
 doctrine: *smṛtam/smṛtaḥ* (+0.53/+0.47), *ucyate* (+0.50), *proktam*
 (+0.47). The trigram lens tells the same story from inside the word:
 its strongest early features are the *rājan*-family strings (*rāj*,
@@ -729,9 +736,9 @@ also the stratum we can least trust our editions to transmit.
 
 A note on classifier dependence: the class decomposition requires
 assigning words to classes, and some assignments are arguable
-(*tad*, *punar*, *svayam*, …). On the transmitted-build word-lens
+(*tad*, *punar*, *svayam*, …). On the with-reuse word-lens
 decomposition, flipping all twelve borderline assignments at once
-changed no correlation by more than 0.031; the cleaned build's
+changed no correlation by more than 0.031; the no-reuse
 decomposition touches the same classifier only through trigram
 source-words, at one further remove. The conclusions are insensitive
 to the hand that classified.
@@ -757,7 +764,7 @@ each unit's **loss component** (depletion of the early-typical
 inventory) and **gain component** (acquisition of the late-typical
 inventory), and compared each to the drift axis.
 
-On the carrying lens of the cleaned build, the loss component alone
+On the carrying lens of the no-reuse build, the loss component alone
 reproduces the ordering at ρ = **0.856–0.868**, invariantly across
 feature-selection thresholds, while the gain component reaches only
 0.62–0.69; adding gains to losses improves the ordering marginally
@@ -787,11 +794,11 @@ tradition whose composition is continuous and whose feature inventory
 depletes faster than it recycles — legal formulae, liturgical corpora,
 scholastic commentary chains — is a candidate.
 
-## 7. What the absorbed text was doing: the transmitted map as diagnostic
+## 7. What the absorbed text was doing: the with-reuse map as diagnostic
 
-### 7.1 The one measurement the transmitted corpus supports
+### 7.1 The one measurement the with-reuse corpus supports
 
-Everything so far was computed on the cleaned corpus, because a
+Everything so far was computed on the no-reuse corpus, because a
 position measured with the absorbed text left in mismeasures
 composition (§2.1): a purāṇa as transmitted is a mixture — the
 compilers' own composition plus everything the tradition deposited
@@ -799,7 +806,7 @@ into it, inherited cores, migrating māhātmyas, wholesale
 incorporations of other works — and its measured position is the
 center of mass of that mixture, dragged toward wherever each
 *source's* language sits. This section is the one place the
-transmitted build appears, and it appears as a diagnostic object, not
+with-reuse build appears, and it appears as a diagnostic object, not
 as a chronology: comparing each unit's position across the two builds
 measures what its absorbed material had been doing to it, and the
 drags are findings about the texts.
@@ -821,10 +828,10 @@ offer it as reassurance; the point is the sixteen units it conceals.
 ### 7.2 What the drags mean
 
 Sixteen units differ between the builds with non-overlapping
-bootstrap intervals (Table 1). We tabulate each unit's composition
-position (cleaned build), the position the transmitted text had been
-producing, and the **drag** — transmitted minus composition, so that
-a positive drag means the absorbed material had been pulling the
+bootstrap intervals (Table 1). We tabulate each unit's no-reuse
+position, the position its with-reuse text had been producing, and
+the **drag** — with-reuse minus no-reuse position, so that a
+positive drag means the absorbed material had been pulling the
 text's apparent position lateward. The moves sort into three legible
 classes.
 
@@ -832,10 +839,10 @@ classes.
 sorted by drag. Percentile positions on the C3-500 maps with 95%
 line-bootstrap confidence intervals (B = 500). \* intervals graze
 rather than separate (overlap 0.4 of a percentile); † sub-3k-word
-residue — direction only, the composition position is below the
+residue — direction only, the no-reuse position is below the
 length floor (§3.4).
 
-| text | composition (cleaned) | as transmitted | drag |
+| text | no-reuse | with-reuse | drag |
 |---|---|---|---|
 | Brahmāṇḍapurāṇa | 44 [40, 47] | 63 [60, 64] | +19 |
 | Brahmāṇḍa, khaṇḍa 2 | 28 [26, 34] | 40 [36, 40] | +12 |
@@ -856,9 +863,9 @@ length floor (§3.4).
 | Viṣṇupurāṇa, aṃśa 5† | 39 [34, 61] | 21 [18, 23] | −19 |
 
 **The great compilations had been reading late.** The largest drags of
-well-measured texts are positive: the Brahmāṇḍapurāṇa's transmitted
-text had been reading at the 63rd percentile against a composition
-position of 44, its second khaṇḍa +12, the Śivapurāṇa's Dharmasaṃhitā
+well-measured texts are positive: with its reuse in, the
+Brahmāṇḍapurāṇa had been reading at the 63rd percentile against a
+no-reuse position of 44, its second khaṇḍa +12, the Śivapurāṇa's Dharmasaṃhitā
 +10 (the grazing case of Table 1), the Mārkaṇḍeya +6, and — smaller
 but CI-clean — the two giant compilations, Padma (+4) and Bhaviṣya
 (+4). What these texts absorbed sits, on average, *later* than what
@@ -878,16 +885,16 @@ than their compilers wrote.
 **The old-core carriers dissolve.** The sections of the Vāyu and the
 Viṣṇu aṃśas that carry the shared genealogical inheritance retain almost
 nothing under the strip — the Vāyu's manu-vaṃśa section keeps 1,064 of
-20,373 words — and drop below the §3.4 length floor: their composition
+20,373 words — and drop below the §3.4 length floor: their no-reuse
 positions are simply not measurable, and we grey them out rather than
 read them. That emptiness is a measurement, not a failure: for these
 texts, the transmitted text *is* mostly the shared inheritance, which is
 Kirfel's century-old thesis [Kirfel 1927] restated as a retention
 statistic.
 
-**Pseudo-neighborhoods fall away.** On the transmitted build, the
+**Pseudo-neighborhoods fall away.** On the with-reuse build, the
 Viṣṇupurāṇa's nearest neighbors are its own copyists — texts that
-absorbed it. On the cleaned build those neighbors recede, and on its
+absorbed it. On the no-reuse build those neighbors recede, and on its
 own diction the Viṣṇu sits as close to the Bhāgavata as to anything
 else. The two texts treat the same narrative material with almost no
 shared wording (under the symmetric strip, the Viṣṇu's Kṛṣṇa book
@@ -901,17 +908,17 @@ contamination it removed, it un-hides relationships.
 The drag itself has a reading: it measures how much a text is an
 anthology — how far the language a text carries diverges in age from
 the language its compilers wrote. Where the drag is near zero, text
-and compiler speak from the same moment; where it is large, the
-transmitted book is a container for other times. That is the
-transmitted map's one legitimate use, and it is a use *of the
-difference*, never of the transmitted positions alone.
+and compiler speak from the same moment; where it is large, the book
+as transmitted is a container for other times. That is the
+with-reuse map's one legitimate use, and it is a use *of the
+difference*, never of the with-reuse positions alone.
 
 ## 8. Validation on known relative order, and what the corpus says back
 
 Absolute dates cannot validate this instrument — the corpus has few to
 none. Relative order can, because philology has established some
 orderings that are independent of anything our features see. All
-validations below are read on the cleaned build's trigram-led maps;
+validations below are read on the no-reuse build's trigram-led maps;
 where a projection necessarily involves shared material, we say so.
 
 **Known-later material measures later.** The Critical Edition of the
@@ -923,7 +930,7 @@ text, the apparatus material alone, and the augmented (vulgate-like)
 text, and projected all of them as supplementary points with bootstrap
 confidence intervals. In every case the apparatus material styles
 later than its constituted text, and every augmented text sits
-lateward of its constituted counterpart. On the cleaned trigram map,
+lateward of its constituted counterpart. On the no-reuse trigram map,
 Book 13's apparatus — the control, a book *known* to be didactically
 swollen — projects at the 48th percentile [43, 52] against its
 constituted text's 31st; for the epilogue Book 18 the effect is
@@ -943,10 +950,10 @@ composition from faithful early-style transmission.
 reconstruction of the *Purāṇapañcalakṣaṇa* (PPL) — the genealogical
 core-corpus his synoptic philology identified as the purāṇas' common
 inheritance — enters our corpus both as constituted reconstruction
-and as an identifiable layer inside its host purāṇas. The cleaned
+and as an identifiable layer inside its host purāṇas. The no-reuse
 corpus supports the strongest form of the test, by construction:
 because the strip is one-directional for the PPL — its lines removed
-from the purāṇas, never from the reconstruction (§2.2) — the cleaned
+from the purāṇas, never from the reconstruction (§2.2) — the no-reuse
 corpus contains the constituted PPL and *no near-verbatim copy of it
 anywhere else*. The reconstruction cannot affect its carriers'
 positions, nor they its; whatever positions they take are positions
@@ -965,7 +972,7 @@ evidence, sorted correctly by feature statistics. [NR-RECOMPUTE /
 Kengo's call: the within-host layer comparison (PPL-parallel layer vs
 Vāyu–Brahmāṇḍa common text: 28 [25, 31] vs 57 [42, 66], and
 31 [29, 36] vs 79 [75, 83]) projects shared layers and therefore ran
-on the transmitted build — restate it explicitly as a
+on the with-reuse build — restate it explicitly as a
 same-transmission projection, or drop it in favor of the disjoint
 form above.]
 
@@ -980,7 +987,7 @@ splits; their pulls are real, one-directional, and uninterpretable for
 exactly this reason — and the strip makes the entanglement vivid: after
 shared text is removed, the Vāyu's manu-vaṃśa section contains 178 words
 of genealogy of its own.) Four structural facts answer the objection
-instead. First, by construction: the cleaned corpus contains no
+instead. First, by construction: the no-reuse corpus contains no
 near-verbatim PPL text outside the reconstruction, so the PPL's early
 band and its carriers' late residues are positions of textually
 disjoint bodies — the version of the objection with teeth, "the PPL
@@ -1009,10 +1016,9 @@ purāṇa — the chronology that would place it later was built without
 the text — while the philology that had the text before it placed it
 where our map does. (The editors' one text set earlier, the ur-Vāyu,
 is exactly the kind of dissolved old core the strip greys out (§7):
-the transmitted Vāyu's residue answers for its compilers, not for
-the ur-text.) §7 adds resolution to the comparison: the Mārkaṇḍeya
-carried a +6 drag, so part of what separates the two compilations as
-transmitted is the Mārkaṇḍeya's absorbed later material; on their
+the Vāyu's residue answers for its compilers, not for the ur-text.) §7 adds resolution to the comparison: the Mārkaṇḍeya
+carried a +6 drag, so part of what separates the two compilations
+with reuse included is the Mārkaṇḍeya's absorbed later material; on their
 own diction they sit close in time, the direction holding. And at
 layer level the SP interleaves with its own late block: its pāśupata
 chapters project at the far late pole under identical transmission
@@ -1040,8 +1046,8 @@ arbitrate between early composition and early-style transmission,
 and we say so. (ii) The Bhāgavatapurāṇa, whose
 date is a famous open question, is the corpus's most isolated
 register (every one of its books' nearest neighbours is internal to
-it — a fact of the cleaned build that the absorbed text of the
-transmitted build did not create and does not explain). Our
+it — a fact of the no-reuse build that the absorbed text of the
+with-reuse build did not create and does not explain). Our
 instrument *poses* the Bhāgavata question sharply — early language
 state faithfully carried, or late mastery of the old register — and
 does not answer it; we flag it as the natural target for methods
@@ -1075,7 +1081,7 @@ correlates with y at ≈ 0 on the full texts, with a mild polarity
 (−0.33) appearing on residues: y measures devotional *density* first,
 which deity receives it a distant second. And nearness on y without
 nearness on x means register kinship, never date. One diagnostic
-comparison against the transmitted build is itself a finding: with
+comparison against the with-reuse build is itself a finding: with
 its absorbed text in, the Bhāgavata had been the devotional pole's
 most famous occupant; on its own diction it sits mid-plane on y
 (within a quarter standard deviation of the corpus, the sign
@@ -1097,7 +1103,7 @@ Procrustes rotation. The per-axis cross-lens agreements are
 argument for the strip: with the absorbed text left in, the two
 lenses agree about axis 3 at only 0.46. Only with shared text removed
 does the third dimension become as much a shared property of the
-texts as the second — one more measurement the transmitted build was
+texts as the second — one more measurement the with-reuse build was
 corrupting.
 
 And it is, to a first approximation, *one text's own dimension*. The
@@ -1151,10 +1157,10 @@ is the measurement (§2–3); fixed-map supplementary projection with
 bootstrap intervals for every layer and subset question (§2.3, §8);
 null-model calibration pairing variance share with a length
 diagnostic — a diagnostic sharp enough to catch one of our own lenses
-failing on the cleaned corpus (§3.4, §4); a split-half retention
+failing on the no-reuse corpus (§3.4, §4); a split-half retention
 decomposition that tests whether the ordering has the mechanistic
 signature of drift (§6); and a diagnostic comparison against the
-uncleaned build that turns the corpus's worst pathology — wholesale
+with-reuse build that turns the corpus's worst pathology — wholesale
 text reuse — into an instrument of its own, measuring what each
 text's absorbed material had been doing to it and how much each book
 is an anthology (§7). On the Sanskrit epic–purāṇic corpus the recipe
