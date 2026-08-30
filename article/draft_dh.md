@@ -1005,27 +1005,18 @@ folding it into the clock.
 **An independently established early purāṇa measures early.** The
 old Skandapurāṇa — the text recovered in Nepalese manuscripts of the
 ninth century and critically edited by Adriaensen, Bakker and
-Isaacson — is placed by its editors among the oldest purāṇas, after
-only the ur-Vāyu [Adriaensen et al. 1998]. The instrument concurs:
-the SP projects at 29 [27, 32], in the corpus's earliest purāṇic
-band, earlier than the Mārkaṇḍeyapurāṇa (32 [28, 35]), the
-compilation the received canon counts among its oldest. The apparent
-conflict with the received purāṇic chronology [Hazra 1940] is no
-counter-witness: Hazra did not know the SP as an independent
-purāṇa — the chronology that would place it later was built without
-the text — while the philology that had the text before it placed it
-where our map does. (The editors' one text set earlier, the ur-Vāyu,
-is exactly the kind of dissolved old core the strip greys out (§7):
-the Vāyu's residue answers for its compilers, not for the ur-text.) §7 adds resolution to the comparison: the Mārkaṇḍeya
-carried a +6 drag, so part of what separates the two compilations
-with reuse included is the Mārkaṇḍeya's absorbed later material; on their
-own diction they sit close in time, the direction holding. And at
-layer level the SP interleaves with its own late block: its pāśupata
-chapters project at the far late pole under identical transmission
-(98 [97, 99] even as a stripped residue, though at 2.9k residual
-words that value brushes the length floor) — the strongest available
-answer to the transmission-conservatism confound: one transmission,
-early core measuring early, late chapters measuring late.
+Isaacson — is placed by its editors among the oldest purāṇas,
+second only to the Vāyupurāṇa in its undivided form, the purāṇa
+later split into what is printed today as the Vāyu and the
+Brahmāṇḍa [Adriaensen et al. 1998]. The instrument concurs: the SP
+projects at 29 [27, 32], in the corpus's earliest purāṇic band. And
+at layer level the SP interleaves with its own late block: its
+pāśupata chapters project at the far late pole under the same
+transmission (98 [97, 99] even as a stripped residue, though at 2.9k
+residual words that value brushes the length floor). The
+conservatism of the Nepalese transmission, then, does not by itself
+make text measure early: within this one transmission the instrument
+still tells the earlier core from the later layer.
 
 **What the corpus says back.** Findings that clear the validation bar,
 stated at the instrument's resolution. Where they press against a
@@ -1207,9 +1198,6 @@ for authorship attribution. *Digital Scholarship in the Humanities*,
 GRETIL. *Göttingen Register of Electronic Texts in Indian Languages*.
 Niedersächsische Staats- und Universitätsbibliothek Göttingen.
 https://gretil.sub.uni-goettingen.de/ (accessed August 2026).
-
-Hazra, R. C. (1940). *Studies in the Purāṇic Records on Hindu Rites
-and Customs*. Dacca: University of Dacca.
 
 Juola, P. (2006). Authorship attribution. *Foundations and Trends in
 Information Retrieval*, 1(3): 233–334.

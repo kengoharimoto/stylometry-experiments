@@ -513,29 +513,29 @@ rather than transmits. → `2026-08-14_shared_layers_by_family.md`,
 `_complement_halves_vayu_bd_visnu.md`, post-clean values in cleanup note.
 Fig: dot-strip stratigraphy figure; PPL-vs-vayubd CI table.
 
-**6.3 Sequence: PPL → old SP → Mārk — REFRAMED as VALIDATION (Kengo,
-2026-08-30).** The old SP is placed by its editors (Adriaensen,
-Bakker, Isaacson) among the oldest purāṇas, **after only the
-ur-Vāyu** — so the instrument's placement is *agreement with the
-philology that had the text*, not a departure. Hazra's received
-dating is no counter-witness: **he did not know the SP as an
-independent purāṇa** — his chronology was built without the text.
-Draft §8 carries this as a bold-led validation item ("an
-independently established early purāṇa measures early"), moved out
-of "what the corpus says back". Cleaned values: SP 29 [27, 32]
-earlier than Mārk 32 [28, 35]; the with-reuse gap was wider partly
-because of the Mārk's +6 drag (absorbed later material) — §7
-cross-reference. Layer level: sequence interleaves (Mārk 94–141
-at/below the PPL band; SP pāśupata block 98 [97, 99] as a stripped
-residue, 2.9k words — brushes the floor, flag it). The ur-Vāyu
-parenthetical in the draft (the editors' one earlier text = the kind
-of dissolved core the strip greys out; the Vāyu residue answers for
-compilers, not the ur-text) is Claude's inference — **Kengo to
-confirm it matches the editors' position**. Transmission-conservatism
-confound flagged and bounded by the pāśupata contrast.
+**6.3 Old SP — VALIDATION, final form (Kengo, 2026-08-30, second
+pass).** The old SP is placed by its editors (Adriaensen, Bakker,
+Isaacson) among the oldest purāṇas, **second only to the Vāyupurāṇa
+in its undivided form** — the purāṇa later split into what is
+printed as the Vāyu and the Brahmāṇḍa. **Do not write "ur-Vāyu": the
+editors do not use the term.** The instrument concurs: SP at
+29 [27, 32], the earliest purāṇic band. **Hazra and the Mārkaṇḍeya
+comparison are DROPPED from this passage (Kengo): Hazra did not know
+the old SP as an independent purāṇa, so there never was an apparent
+conflict to defuse — a non-issue, not a departure, not even a
+soft-point locator.** The dissolved-core parenthetical (Claude's
+inference) is cut. Layer level: the SP's pāśupata block projects at
+98 [97, 99] as a stripped residue (2.9k words — brushes the floor,
+flag it) under the same transmission; stated plainly (transmission
+conservatism does not by itself make text measure early; the
+instrument tells earlier core from later layer within one
+transmission) — the "one transmission, early core measuring early…"
+slogan is retired (Kengo). Hazra 1940 removed from the draft's
+references (no remaining citation). SP-vs-Mārk whole-text values
+survive only in Table 1's drag rows, uninterpreted.
 → `2026-08-14_sp_mark_ppl_sequence.md` (pre-reframe record; its
 "contra the received relative dating" framing is superseded),
-Adriaensen et al. 1998. Fig: forest plot of PPL/SP/Mārk layers.
+Adriaensen et al. 1998. Fig: forest plot of PPL/SP layers.
 
 **6.4 Genre control (vaṃśa) — DROPPED as circular (2026-08-19, Kengo's
 call), replaced by the strip-first defense.** The vaṃśa marker split
@@ -688,7 +688,7 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | A2-bridge | which axis for W1 signal shares under R1, then `a2_bridge_c3_classes.py --noreuse` | Kengo (design), then cheap run | §2.4 draft slot (1.1 shares) |
 | §8 layers | within-host layer projection: restate as same-transmission or drop for the disjoint form | Kengo | §8 draft slot |
 | §5 glosses | vet trigram glosses (mṛt, aye, ātr, …) | Kengo | §5 wording |
-| ur-Vāyu note | confirm the draft's ur-Vāyu parenthetical matches Adriaensen et al.'s position | Kengo | §6.3 / draft §8 |
+| ~~ur-Vāyu note~~ | RESOLVED 2026-08-30: parenthetical cut by Kengo; term "ur-Vāyu" banned (editors don't use it — say "the Vāyu in its undivided form, later split into the printed Vāyu and Brahmāṇḍa") | — | — |
 | Venue | pick from outline variants | Kengo | everything downstream |
 
 ## 9. Figure/table shortlist (cross-variant core)
