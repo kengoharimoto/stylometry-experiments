@@ -684,7 +684,7 @@ whose oldest stratum the axis isolates. → `2026-08-14_purana_witnesses_library
 | ~~A3~~ | DONE 2026-08-29 — axis resists compression; 7-feature honest exhibit if wanted (§3.3) | — | — |
 | E1-full | Belvalkar print apparatus (OCR) | optional | strengthens 4.2 magnitudes |
 | ~~B1 re-run~~ | DONE 2026-08-30 on the cleaned build (`b1_jackknife_C3_noreuse_500.tsv`, min 0.991) | — | — |
-| Terminology | rule on cleaned/transmitted vs with-reuse/no-reuse (§0, guardrail 15) | Kengo | draft wording pass |
+| ~~Terminology~~ | RULED 2026-08-30: with-reuse/no-reuse reaffirmed; draft reverted (e4b5d4c) | — | — |
 | A2-bridge | which axis for W1 signal shares under R1, then `a2_bridge_c3_classes.py --noreuse` | Kengo (design), then cheap run | §2.4 draft slot (1.1 shares) |
 | §8 layers | within-host layer projection: restate as same-transmission or drop for the disjoint form | Kengo | §8 draft slot |
 | §5 glosses | vet trigram glosses (mṛt, aye, ātr, …) | Kengo | §5 wording |
