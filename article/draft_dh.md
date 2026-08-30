@@ -94,8 +94,10 @@ no-reuse map: Garuḍa khaṇḍas 0/−1.6/0, Devībhāgavata −0.8, Agni
 committed TSVs/frames are retained pre-fix (refresh folded into the
 next full pipeline pass). Corpus total updated (3,555,225 words,
 −947). Backups of the 20 edited files in the session scratchpad
-(`paratext_fix_backup/`); the waffle copy of the corpora is now
-stale until the next rsync.
+(`paratext_fix_backup/`); the affected corpora are git-tracked and
+committed (dd2c526), so waffle picks the fix up via git pull — only
+the untracked nospace corpora need rebuilding there
+(`build_nospace_sandhied_corpus.py`, deterministic).
 
 **STILL OPEN:** the Agni also carries ~130 per-adhyāya topic-title
 lines (endings -kathanaṃ, -vidhiḥ, -vidhānaṃ, -varṇanaṃ, -vratāni,
