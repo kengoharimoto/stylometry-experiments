@@ -31,9 +31,6 @@ Read this first in every session, on the Mac or on waffle.
 2. Remove stale `.cache_freq_*.rds` / `.cache_*.rds` files in the corpus dirs before any stylo run
    (list them and get explicit confirmation first; see rules below).
 
-Pending as of 2026-09-04: waffle has not yet pulled the 2026-08-30 paratext fix (dd2c526 and later),
-so both steps above are still due there.
-
 ## Standing rules
 
 - Never delete files without showing the full list and getting explicit confirmation.
